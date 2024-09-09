@@ -56,8 +56,7 @@ To find the list of all schemas that exist in your SQL Server database, you can 
 Here’s a SQL query you can run to list all the schemas in the current database:
 
 ```sql
-SELECT name AS SchemaName
-FROM sys.schemas;
+SELECT name AS SchemaName FROM sys.schemas;
 ```
 
 ### Output:
