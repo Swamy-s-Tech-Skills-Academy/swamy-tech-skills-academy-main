@@ -10,7 +10,7 @@ modelBuilder.Entity<LeaveType>().ToTable("LeaveTypes");
 
 from the `OnModelCreating` method, the behavior will depend on the default schema you've already configured. Here’s what happens:
 
-### 1. **Without `ToTable("LeaveTypes")`**:
+### 1. Without `ToTable("LeaveTypes")`
 
 If you don't explicitly configure the `LeaveType` entity using `modelBuilder.Entity<LeaveType>().ToTable("LeaveTypes")`, Entity Framework will still create the table using the default schema (`prj1`), because you’ve set that default schema with:
 
@@ -22,7 +22,7 @@ This means the table name will be inferred from the entity name (`LeaveTypes`), 
 
 **Table created**: `prj1.LeaveTypes`
 
-### 2. **With `ToTable("LeaveTypes")`**:
+### 2. With `ToTable("LeaveTypes")`
 
 If you include the `modelBuilder.Entity<LeaveType>().ToTable("LeaveTypes")` line, you're explicitly telling EF Core to use the table name `LeaveTypes`, but since you're not specifying a schema in this line, EF Core will still use the default schema (`prj1`) you set earlier.
 
