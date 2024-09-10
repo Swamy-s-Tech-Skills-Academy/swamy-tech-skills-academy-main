@@ -2,6 +2,10 @@
 
 When conducting C# code reviews, it's important to evaluate the code across multiple categories to ensure quality, maintainability, and performance. Here are common categories you can consider:
 
+> 1. <https://gist.github.com/softwareantics/da1b007004d6eb504610c76e9f13aab2>
+> 1. <https://microsoft.github.io/code-with-engineering-playbook/code-reviews/recipes/csharp/>
+> 1. <https://medium.com/c-sharp-programming/c-best-practices-and-code-review-checklist-25880d9606>
+
 ## Categories
 
 ### 1. **Code Structure and Organization**
