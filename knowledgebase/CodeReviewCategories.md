@@ -52,15 +52,29 @@ When conducting C# code reviews, it's important to evaluate the code across mult
 
 > 1. Are large methods broken down into smaller, reusable methods?
 
-### 3. Correctness
+## 3. Correctness
 
-- Business Logic: Does the code correctly implement the required business logic?
-- Edge Cases: Are edge cases handled appropriately? For example, null checks, empty collections, etc.
-- Error Handling: Is proper exception handling in place, with meaningful error messages and exception types?
-- Unit Testing: Is the code tested properly with unit tests? Are all necessary edge cases covered?
-- Assertions: Are preconditions and postconditions checked where necessary?
+### Business Logic
 
-### 4. Performance
+> 1. Does the code correctly implement the required business logic?
+
+### Edge Cases
+
+> 1. Are edge cases handled appropriately? For example, null checks, empty collections, etc.
+
+### Error Handling
+
+> 1. Is proper exception handling in place, with meaningful error messages and exception types?
+
+### Unit Testing
+
+> 1. Is the code tested properly with unit tests? Are all necessary edge cases covered?
+
+### Assertions
+
+> 1. Are preconditions and postconditions checked where necessary?
+
+## 4. Performance
 
 - Efficiency: Are algorithms and data structures optimized for the problem at hand? Avoid unnecessary loops, allocations, or expensive operations.
 - Memory Management: Are disposable resources (e.g., database connections, file streams) properly disposed of using `using` blocks or implementing `IDisposable`?
