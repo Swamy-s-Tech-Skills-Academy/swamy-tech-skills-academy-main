@@ -76,10 +76,21 @@ When conducting C# code reviews, it's important to evaluate the code across mult
 
 ## 4. Performance
 
-- Efficiency: Are algorithms and data structures optimized for the problem at hand? Avoid unnecessary loops, allocations, or expensive operations.
-- Memory Management: Are disposable resources (e.g., database connections, file streams) properly disposed of using `using` blocks or implementing `IDisposable`?
-- Lazy Loading: Is lazy loading used appropriately to avoid loading unnecessary data?
-- Caching: Are cache mechanisms used to avoid redundant operations?
+### Efficiency
+
+> 1. Are algorithms and data structures optimized for the problem at hand? Avoid unnecessary loops, allocations, or expensive operations.
+
+### Memory Management
+
+> 1. Are disposable resources (e.g., database connections, file streams) properly disposed of using `using` blocks or implementing `IDisposable`?
+
+### Lazy Loading
+
+> 1. Is lazy loading used appropriately to avoid loading unnecessary data?
+
+### Caching
+
+> 1. Are cache mechanisms used to avoid redundant operations?
 
 ### 5. Security
 
