@@ -92,12 +92,23 @@ When conducting C# code reviews, it's important to evaluate the code across mult
 
 > 1. Are cache mechanisms used to avoid redundant operations?
 
-### 5. Security
+## 5. Security
 
-- Input Validation: Are inputs validated properly to prevent common vulnerabilities such as SQL injection, XSS (Cross-Site Scripting), or buffer overflows?
-- Sensitive Data Handling: Are sensitive data (e.g., passwords, connection strings) stored and transmitted securely using encryption or hashing?
-- Authentication & Authorization: Is the appropriate level of access control applied (roles, claims, etc.)?
-- Dependency Security: Are third-party libraries updated, and do they have known vulnerabilities?
+### Input Validation
+
+> 1. Are inputs validated properly to prevent common vulnerabilities such as SQL injection, XSS (Cross-Site Scripting), or buffer overflows?
+
+### Sensitive Data Handling
+
+> 1. Are sensitive data (e.g., passwords, connection strings) stored and transmitted securely using encryption or hashing?
+
+### Authentication & Authorization
+
+> 1. Is the appropriate level of access control applied (roles, claims, etc.)?
+
+### Dependency Security
+
+> 1. Are third-party libraries updated, and do they have known vulnerabilities?
 
 ### 6. Concurrency and Parallelism
 
