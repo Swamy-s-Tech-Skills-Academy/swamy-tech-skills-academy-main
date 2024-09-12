@@ -110,11 +110,19 @@ When conducting C# code reviews, it's important to evaluate the code across mult
 
 > 1. Are third-party libraries updated, and do they have known vulnerabilities?
 
-### 6. Concurrency and Parallelism
+## 6. Concurrency and Parallelism
 
-- Thread Safety: Are shared resources properly synchronized? Are locks used appropriately to avoid race conditions?
-- Async/Await: Is asynchronous programming used properly to avoid blocking threads unnecessarily?
-- Deadlocks/Starvation: Are there any potential issues like deadlocks, race conditions, or thread starvation?
+### Thread Safety
+
+> 1. Are shared resources properly synchronized? Are locks used appropriately to avoid race conditions?
+
+### Async/Await
+
+> 1. Is asynchronous programming used properly to avoid blocking threads unnecessarily?
+
+### Deadlocks/Starvation
+
+> 1. Are there any potential issues like deadlocks, race conditions, or thread starvation?
 
 ### 7. Adherence to Best Practices
 
