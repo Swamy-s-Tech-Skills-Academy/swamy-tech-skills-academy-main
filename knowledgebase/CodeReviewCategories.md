@@ -124,11 +124,19 @@ When conducting C# code reviews, it's important to evaluate the code across mult
 
 > 1. Are there any potential issues like deadlocks, race conditions, or thread starvation?
 
-### 7. Adherence to Best Practices
+## 7. Adherence to Best Practices
 
-- SOLID Principles: Does the code follow SOLID principles (Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion)?
-- Design Patterns: Are appropriate design patterns (e.g., Factory, Singleton, Repository) applied to solve specific problems?
-- Separation of Concerns: Is the code divided into different layers (e.g., UI, Business Logic, Data Access) following separation of concerns?
+### SOLID Principles
+
+> 1. Does the code follow SOLID principles (Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion)?
+
+### Design Patterns
+
+> 1. Are appropriate design patterns (e.g., Factory, Singleton, Repository) applied to solve specific problems?
+
+### Separation of Concerns
+
+> 1. Is the code divided into different layers (e.g., UI, Business Logic, Data Access) following separation of concerns?
 
 ### 8. Reusability
 
