@@ -138,10 +138,15 @@ When conducting C# code reviews, it's important to evaluate the code across mult
 
 > 1. Is the code divided into different layers (e.g., UI, Business Logic, Data Access) following separation of concerns?
 
-### 8. Reusability
+## 8. Reusability
 
-- Modularization: Is the code modular and reusable? Are there opportunities to refactor repeated logic into reusable methods or classes?
-- Interfaces and Abstractions: Are abstractions and interfaces used to decouple dependencies?
+### Modularization
+
+> 1. Is the code modular and reusable? Are there opportunities to refactor repeated logic into reusable methods or classes?
+
+### Interfaces and Abstractions
+
+> 1. Are abstractions and interfaces used to decouple dependencies?
 
 ### 9. Dependency Management
 
