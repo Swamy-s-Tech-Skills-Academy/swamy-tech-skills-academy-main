@@ -183,3 +183,6 @@ When conducting C# code reviews, it's important to evaluate the code across mult
 - Readme Files: Are there updated readme files, architecture diagrams, or any documentation to help understand how the system works?
 
 By covering these categories in your code reviews, you ensure the codebase is robust, secure, efficient, and maintainable.
+
+
+Hands-on GitHub actions to publish Angular libraries GitHub Packages
