@@ -148,10 +148,15 @@ When conducting C# code reviews, it's important to evaluate the code across mult
 
 > 1. Are abstractions and interfaces used to decouple dependencies?
 
-### 9. Dependency Management
+## 9. Dependency Management
 
-- Dependency Injection: Is dependency injection used properly to manage external dependencies, and are services registered at appropriate lifetimes (transient, scoped, singleton)?
-- Tight Coupling: Is the code loosely coupled? Are external dependencies decoupled using interfaces or abstractions?
+### Dependency Injection
+
+> 1. Is dependency injection used properly to manage external dependencies, and are services registered at appropriate lifetimes (transient, scoped, singleton)?
+
+### Tight Coupling
+
+> 1. Is the code loosely coupled? Are external dependencies decoupled using interfaces or abstractions?
 
 ### 10. Logging and Monitoring
 
@@ -183,6 +188,5 @@ When conducting C# code reviews, it's important to evaluate the code across mult
 - Readme Files: Are there updated readme files, architecture diagrams, or any documentation to help understand how the system works?
 
 By covering these categories in your code reviews, you ensure the codebase is robust, secure, efficient, and maintainable.
-
 
 Hands-on GitHub actions to publish Angular libraries GitHub Packages
