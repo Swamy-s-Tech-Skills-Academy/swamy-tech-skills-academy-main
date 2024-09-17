@@ -138,10 +138,15 @@ When conducting C# code reviews, it's important to evaluate the code across mult
 
 > 1. Is the code divided into different layers (e.g., UI, Business Logic, Data Access) following separation of concerns?
 
-### 8. Reusability
+## 8. Reusability
 
-- Modularization: Is the code modular and reusable? Are there opportunities to refactor repeated logic into reusable methods or classes?
-- Interfaces and Abstractions: Are abstractions and interfaces used to decouple dependencies?
+### Modularization
+
+> 1. Is the code modular and reusable? Are there opportunities to refactor repeated logic into reusable methods or classes?
+
+### Interfaces and Abstractions
+
+> 1. Are abstractions and interfaces used to decouple dependencies?
 
 ### 9. Dependency Management
 
@@ -178,3 +183,6 @@ When conducting C# code reviews, it's important to evaluate the code across mult
 - Readme Files: Are there updated readme files, architecture diagrams, or any documentation to help understand how the system works?
 
 By covering these categories in your code reviews, you ensure the codebase is robust, secure, efficient, and maintainable.
+
+
+Hands-on GitHub actions to publish Angular libraries GitHub Packages
