@@ -172,10 +172,15 @@ When conducting C# code reviews, it's important to evaluate the code across mult
 
 > 1. Are all critical operations logged properly with sufficient information for debugging?
 
-### 11. Compliance and Standards
+## 11. Compliance and Standards
 
-- Coding Standards: Does the code adhere to the organization’s coding standards and industry best practices?
-- Regulatory Compliance: Is the code compliant with any relevant regulations (e.g., GDPR for data privacy)?
+### Coding Standards
+
+> 1. Does the code adhere to the organization’s coding standards and industry best practices?
+
+### Regulatory Compliance
+
+> 1. Is the code compliant with any relevant regulations (e.g., GDPR for data privacy)?
 
 ### 12. Testability
 
