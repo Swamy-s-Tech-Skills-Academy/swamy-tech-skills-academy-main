@@ -158,11 +158,19 @@ When conducting C# code reviews, it's important to evaluate the code across mult
 
 > 1. Is the code loosely coupled? Are external dependencies decoupled using interfaces or abstractions?
 
-### 10. Logging and Monitoring
+## 10. Logging and Monitoring
 
-- Logging: Are logging mechanisms in place, with appropriate log levels (`Trace`, `Debug`, `Information`, `Warning`, `Error`, `Critical`)?
-- Monitoring: Are there any monitoring hooks or instrumentation to track performance and errors in production?
-- Error Logging: Are all critical operations logged properly with sufficient information for debugging?
+### Logging
+
+> 1. Are logging mechanisms in place, with appropriate log levels (`Trace`, `Debug`, `Information`, `Warning`, `Error`, `Critical`)?
+
+### Monitoring
+
+> 1. Are there any monitoring hooks or instrumentation to track performance and errors in production?
+
+### Error Logging
+
+> 1. Are all critical operations logged properly with sufficient information for debugging?
 
 ### 11. Compliance and Standards
 
