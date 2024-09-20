@@ -182,11 +182,19 @@ When conducting C# code reviews, it's important to evaluate the code across mult
 
 > 1. Is the code compliant with any relevant regulations (e.g., GDPR for data privacy)?
 
-### 12. Testability
+## 12. Testability
 
-- Unit Tests: Is the code easily testable? Are there enough unit tests covering core functionality and edge cases?
-- Mocking and Isolation: Is code modular enough to support mocking of external dependencies during testing?
-- Code Coverage: Is there sufficient test coverage, and are critical paths covered in tests?
+### Unit Tests
+
+> 1. Is the code easily testable? Are there enough unit tests covering core functionality and edge cases?
+
+### Mocking and Isolation
+
+> 1. Is code modular enough to support mocking of external dependencies during testing?
+
+### Code Coverage
+
+> 1. Is there sufficient test coverage, and are critical paths covered in tests?
 
 ### 13. Version Control and Collaboration
 
