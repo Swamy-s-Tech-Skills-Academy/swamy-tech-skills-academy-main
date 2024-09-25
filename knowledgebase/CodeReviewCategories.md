@@ -172,16 +172,29 @@ When conducting C# code reviews, it's important to evaluate the code across mult
 
 > 1. Are all critical operations logged properly with sufficient information for debugging?
 
-### 11. Compliance and Standards
+## 11. Compliance and Standards
 
-- Coding Standards: Does the code adhere to the organization’s coding standards and industry best practices?
-- Regulatory Compliance: Is the code compliant with any relevant regulations (e.g., GDPR for data privacy)?
+### Coding Standards
 
-### 12. Testability
+> 1. Does the code adhere to the organization’s coding standards and industry best practices?
 
-- Unit Tests: Is the code easily testable? Are there enough unit tests covering core functionality and edge cases?
-- Mocking and Isolation: Is code modular enough to support mocking of external dependencies during testing?
-- Code Coverage: Is there sufficient test coverage, and are critical paths covered in tests?
+### Regulatory Compliance
+
+> 1. Is the code compliant with any relevant regulations (e.g., GDPR for data privacy)?
+
+## 12. Testability
+
+### Unit Tests
+
+> 1. Is the code easily testable? Are there enough unit tests covering core functionality and edge cases?
+
+### Mocking and Isolation
+
+> 1. Is code modular enough to support mocking of external dependencies during testing?
+
+### Code Coverage
+
+> 1. Is there sufficient test coverage, and are critical paths covered in tests?
 
 ### 13. Version Control and Collaboration
 
