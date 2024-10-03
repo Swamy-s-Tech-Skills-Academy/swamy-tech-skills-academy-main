@@ -17,7 +17,7 @@ Clean Architecture is a software design philosophy that promotes a clear separat
 
 Here’s an example solution layout for a Clean Architecture implementation in C# and .NET 8, incorporating a Shared Kernel:
 
-```
+```text
 Solution.sln
 ├── Solution.Domain              // Domain Layer (Entities, Interfaces)
 ├── Solution.Application         // Application Layer (Services, Use Cases, DTOs)
@@ -75,100 +75,99 @@ Solution.sln
   - **Value Objects**: That are used across different bounded contexts.
   - **Domain Events**: Events that are of interest to
 
-
 ---
 
-## 
-To maintain the principles of Clean Architecture and ensure that both the WebAPI and Infrastructure layers can use the `RetrievalConfiguration` class, you should move this class to a layer that is accessible to both. The Shared Kernel is an ideal place for such shared concerns.  
-   
-Here’s how you can achieve this:  
-   
-1. **Move `RetrievalConfiguration` to the Shared Kernel**:  
-   - Create a new folder or namespace within the `Solution.SharedKernel` project for configurations if it doesn't already exist.  
-   - Move the `RetrievalConfiguration` class to this new location.  
-   
-2. **Update References**:  
-   - Update the references in both the `Solution.WebAPI` and `Solution.Infrastructure` projects to point to the new location of `RetrievalConfiguration`.  
-   
-Here’s a step-by-step outline:  
-   
-### Step 1: Move `RetrievalConfiguration`  
-   
-Move `RetrievalConfiguration` from `Solution.WebAPI` to `Solution.SharedKernel`:  
-   
-```markdown  
+##
+
+To maintain the principles of Clean Architecture and ensure that both the WebAPI and Infrastructure layers can use the `RetrievalConfiguration` class, you should move this class to a layer that is accessible to both. The Shared Kernel is an ideal place for such shared concerns.
+
+Here’s how you can achieve this:
+
+1. **Move `RetrievalConfiguration` to the Shared Kernel**:
+   - Create a new folder or namespace within the `Solution.SharedKernel` project for configurations if it doesn't already exist.
+   - Move the `RetrievalConfiguration` class to this new location.
+2. **Update References**:
+   - Update the references in both the `Solution.WebAPI` and `Solution.Infrastructure` projects to point to the new location of `RetrievalConfiguration`.
+
+Here’s a step-by-step outline:
+
+### Step 1: Move `RetrievalConfiguration`
+
+Move `RetrievalConfiguration` from `Solution.WebAPI` to `Solution.SharedKernel`:
+
+```markdown
 Solution.sln  
 ├── Solution.Domain  
 ├── Solution.Application  
 ├── Solution.Infrastructure  
 ├── Solution.WebAPI  
 └── Solution.SharedKernel  
-    └── Configurations              // New folder for configuration classes  
-        └── RetrievalConfiguration.cs  
-```  
-   
-### Step 2: Update `RetrievalConfiguration` Namespace  
-   
-Update the namespace of the `RetrievalConfiguration` class to reflect its new location. For example:  
-   
-```csharp  
-namespace Solution.SharedKernel.Configurations  
-{  
-    public class RetrievalConfiguration  
-    {  
-        // Configuration properties go here  
-    }  
-}  
-```  
-   
-### Step 3: Update References in `ServiceCollectionExtension.cs`  
-   
-In `ServiceCollectionExtension.cs` within the `Solution.Infrastructure` project, update the using statement to reference the new namespace:  
-   
-```csharp  
-using Solution.SharedKernel.Configurations;  
-   
-public static class ServiceCollectionExtensions  
-{  
-    public static IServiceCollection AddCustomServices(this IServiceCollection services, RetrievalConfiguration config)  
-    {  
-        // Use the config to load different strategy implementations  
-        // ...  
-        return services;  
-    }  
-}  
-```  
-   
-### Step 4: Update References in `Solution.WebAPI`  
-   
-In the `Solution.WebAPI` project, update the using statement wherever `RetrievalConfiguration` is used:  
-   
-```csharp  
-using Solution.SharedKernel.Configurations;  
-   
-public class Startup  
-{  
-    public void ConfigureServices(IServiceCollection services)  
-    {  
-        var dataRetrievalConfig = Configuration.GetSection("DataRetrieval").Get<RetrievalConfiguration>();  
-        services.AddCustomServices(dataRetrievalConfig);  
-    }  
-}  
-```  
-   
-### Final Structure  
-   
-Your final project structure should look like this:  
-   
-```markdown  
+ └── Configurations // New folder for configuration classes  
+ └── RetrievalConfiguration.cs
+```
+
+### Step 2: Update `RetrievalConfiguration` Namespace
+
+Update the namespace of the `RetrievalConfiguration` class to reflect its new location. For example:
+
+```csharp
+namespace Solution.SharedKernel.Configurations
+{
+    public class RetrievalConfiguration
+    {
+        // Configuration properties go here
+    }
+}
+```
+
+### Step 3: Update References in `ServiceCollectionExtension.cs`
+
+In `ServiceCollectionExtension.cs` within the `Solution.Infrastructure` project, update the using statement to reference the new namespace:
+
+```csharp
+using Solution.SharedKernel.Configurations;
+
+public static class ServiceCollectionExtensions
+{
+    public static IServiceCollection AddCustomServices(this IServiceCollection services, RetrievalConfiguration config)
+    {
+        // Use the config to load different strategy implementations
+        // ...
+        return services;
+    }
+}
+```
+
+### Step 4: Update References in `Solution.WebAPI`
+
+In the `Solution.WebAPI` project, update the using statement wherever `RetrievalConfiguration` is used:
+
+```csharp
+using Solution.SharedKernel.Configurations;
+
+public class Startup
+{
+    public void ConfigureServices(IServiceCollection services)
+    {
+        var dataRetrievalConfig = Configuration.GetSection("DataRetrieval").Get<RetrievalConfiguration>();
+        services.AddCustomServices(dataRetrievalConfig);
+    }
+}
+```
+
+### Final Structure
+
+Your final project structure should look like this:
+
+```markdown
 Solution.sln  
 ├── Solution.Domain  
 ├── Solution.Application  
 ├── Solution.Infrastructure  
 ├── Solution.WebAPI  
 └── Solution.SharedKernel  
-    └── Configurations  
-        └── RetrievalConfiguration.cs  
-```  
-   
+ └── Configurations  
+ └── RetrievalConfiguration.cs
+```
+
 By moving the `RetrievalConfiguration` to the Shared Kernel, you ensure that it is accessible to both the WebAPI and Infrastructure layers while maintaining a clean separation of concerns and adhering to the principles of Clean Architecture.
