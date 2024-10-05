@@ -171,3 +171,4 @@ Solution.sln
 ```
 
 By moving the `RetrievalConfiguration` to the Shared Kernel, you ensure that it is accessible to both the WebAPI and Infrastructure layers while maintaining a clean separation of concerns and adhering to the principles of Clean Architecture.
+
