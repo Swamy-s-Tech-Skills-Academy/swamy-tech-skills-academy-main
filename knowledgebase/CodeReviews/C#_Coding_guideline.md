@@ -148,3 +148,220 @@ Singleton services are suitable for services that are expensive to initialize or
 
 - Use `Singleton` for services that are expensive to create or hold state that must persist across the application lifecycle.
 - Avoid `Singleton` for services that depend on request-specific data or that cannot safely handle concurrent access without proper synchronization.
+
+### Guidelines for Using File-Scoped Namespaces in C#
+
+**Purpose:**  
+This guideline outlines best practices for using file-scoped namespaces in C#. The file-scoped namespace feature introduced in C# 10 simplifies namespace declarations, leading to cleaner and more concise code.
+
+---
+
+### **1.1. File-Scoped Namespace Declaration**
+
+#### 1.1.1 Guideline
+
+Use file-scoped namespaces to reduce indentation and enhance code readability when a single namespace is used throughout the file. This replaces the block-scoped (`{}`) approach, resulting in cleaner, less-indented code.
+
+#### 1.1.2 Rationale
+
+By eliminating the need for braces around namespaces, file-scoped namespaces reduce unnecessary indentation, making the code more readable and easier to maintain. It aligns with modern C# language features that emphasize simplicity and clarity.
+
+#### 1.1.3 Category
+
+**Code Readability and Maintainability**
+
+#### 1.1.4 Sub-Category
+
+**Syntax Simplification**
+
+#### 1.1.5 Example
+
+- **Use Case**: A single file with a single namespace, typically in smaller or more modular classes.
+
+  ```csharp
+  // File-scoped namespace
+  namespace MyApp.Models;
+
+  public class Product
+  {
+      public int Id { get; set; }
+      public string Name { get; set; }
+  }
+  ```
+
+  Compared to the block-scoped version:
+
+  ```csharp
+  namespace MyApp.Models
+  {
+      public class Product
+      {
+          public int Id { get; set; }
+          public string Name { get; set; }
+      }
+  }
+  ```
+
+#### 1.1.6 When to Use
+
+- Use file-scoped namespaces when a file contains a single namespace and additional indentation would not add clarity to the structure.
+- Prefer file-scoped namespaces in smaller files or when adhering to modern C# conventions.
+
+---
+
+### **1.2. Reducing Indentation in Large Codebases**
+
+#### 1.2.1 Guideline
+
+In large codebases with deep nesting levels or long namespace declarations, file-scoped namespaces can help reduce indentation and improve overall readability.
+
+#### 1.2.2 Rationale
+
+Nested namespaces or long names can increase indentation depth unnecessarily. Using file-scoped namespaces flattens the code structure, allowing developers to focus on the core functionality rather than navigating through layers of indentation.
+
+#### 1.2.3 Category
+
+**Code Readability**
+
+#### 1.2.4 Sub-Category
+
+**Indentation Reduction**
+
+#### 1.2.5 Example
+
+- **Use Case**: A large project with deeply nested namespaces.
+
+  ```csharp
+  // Instead of:
+  namespace MyApp.Infrastructure.Data.Repositories
+  {
+      public class UserRepository { ... }
+  }
+  ```
+
+  Use file-scoped for a cleaner, more concise approach:
+
+  ```csharp
+  namespace MyApp.Infrastructure.Data.Repositories;
+
+  public class UserRepository { ... }
+  ```
+
+#### 1.2.6 When to Use
+
+- Use file-scoped namespaces in large or deeply nested projects where reducing the indentation improves readability.
+- Avoid using file-scoped namespaces in files with multiple namespaces, as block-scoped namespaces provide better visual clarity in such cases.
+
+---
+
+### **1.3. Compatibility and Consistency Across Files**
+
+#### 1.3.1 Guideline
+
+Ensure consistency across the project by using either file-scoped or block-scoped namespaces, but avoid mixing both styles within the same project or solution unless required for legacy reasons.
+
+#### 1.3.2 Rationale
+
+Maintaining consistency in the use of file-scoped or block-scoped namespaces across files within the same project improves readability and ensures a uniform coding style. This minimizes confusion for other developers and enhances maintainability.
+
+#### 1.3.3 Category
+
+**Code Consistency**
+
+#### 1.3.4 Sub-Category
+
+**Coding Standards**
+
+#### 1.3.5 Example
+
+- **Inconsistent**:
+
+  ```csharp
+  // File 1 (uses block-scoped namespace)
+  namespace MyApp.Services
+  {
+      public class EmailService { ... }
+  }
+
+  // File 2 (uses file-scoped namespace)
+  namespace MyApp.Data;
+
+  public class DatabaseContext { ... }
+  ```
+
+- **Consistent**:
+
+  ```csharp
+  // Both files use file-scoped namespaces
+  namespace MyApp.Services;
+
+  public class EmailService { ... }
+
+  namespace MyApp.Data;
+
+  public class DatabaseContext { ... }
+  ```
+
+#### 1.3.6 When to Use
+
+- Use file-scoped namespaces consistently across all files in new projects.
+- If working on legacy projects or where the style has already been set, prefer consistency over forcing new syntax unless refactoring the entire project is justified.
+
+---
+
+### **1.4. Avoid Using File-Scoped Namespaces with Multiple Namespaces in a File**
+
+#### 1.4.1 Guideline
+
+Avoid using file-scoped namespaces in files that contain multiple namespaces, as this can create ambiguity and reduce clarity.
+
+#### 1.4.2 Rationale
+
+Block-scoped namespaces are more suitable when multiple namespaces are used within a single file, as it clearly separates the logical areas of the code.
+
+#### 1.4.3 Category
+
+**Code Clarity**
+
+#### 1.4.4 Sub-Category
+
+**Namespace Management**
+
+#### 1.4.5 Example
+
+- **Incorrect (file-scoped with multiple namespaces)**:
+
+  ```csharp
+  namespace MyApp.Models;
+  namespace MyApp.Services;
+
+  public class MyService { ... }
+  ```
+
+- **Correct (block-scoped with multiple namespaces)**:
+
+  ```csharp
+  namespace MyApp.Models
+  {
+      public class MyModel { ... }
+  }
+
+  namespace MyApp.Services
+  {
+      public class MyService { ... }
+  }
+  ```
+
+#### 1.4.6 When to Use
+
+- Use block-scoped namespaces when a file contains multiple namespaces to enhance clarity and separation of concerns.
+
+---
+
+### **1.5. General Guidelines**
+
+- **File-Scoped**: Use for simplicity and reduced indentation, particularly in smaller files or files with a single namespace.
+- **Block-Scoped**: Retain for files with multiple namespaces or where legacy code consistency is important.
+- **Consistency**: Ensure the same style is applied across the entire project to maintain readability and coding standards.
+
+By following these guidelines, developers can make better use of file-scoped namespaces in C# to improve code readability, maintainability, and consistency across projects.
