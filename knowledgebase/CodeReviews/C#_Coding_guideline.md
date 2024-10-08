@@ -273,3 +273,126 @@ In this correct version, the `logger` is passed directly into the primary constr
 
 - Use the `in` keyword for large value types where avoiding copying improves performance, but avoid it for reference types such as `ILogger<T>`.
 - Do not apply the `in` keyword to parameters in primary constructors for ASP.NET Core controllers, especially when using Dependency Injection.
+
+---
+
+## 5. Choosing Between Classic Parameterized Constructors and Primary Constructors for Dependency Injection (DI) in ASP.NET Core
+
+When deciding between **Classic Parameterized Constructors** and **Primary Constructors** for Dependency Injection (DI) in ASP.NET Core, the choice impacts the readability, consistency, and maintainability of the code. Here's a set of guidelines to help you choose the appropriate approach:
+
+### 5.1. Classic Parameterized Constructors
+
+#### 5.1.1. Guideline
+
+Use **Classic Parameterized Constructors** when adhering to established patterns, particularly when:
+
+- Targeting frameworks or versions of C# that do not support **Primary Constructors**.
+- Following traditional, well-documented patterns for dependency injection.
+- Your project involves complex DI scenarios where multiple dependencies or additional logic (e.g., validation or transformation) are needed in the constructor body.
+
+#### 5.2.2. Rationale
+
+Classic parameterized constructors have long been the standard for DI in ASP.NET Core. They offer:
+
+- **Flexibility**: You can include logic like null checks, initialization, or transformations within the constructor body.
+- **Familiarity**: Since this approach is widely used, it aligns with most existing codebases and is easily understood by developers accustomed to classic DI patterns.
+
+#### 5.2.3. Example
+
+```csharp
+public class TestController : Controller
+{
+    private readonly ILogger<TestController> _logger;
+
+    public TestController(ILogger<TestController> logger)
+    {
+        _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+    }
+
+    public IActionResult Index()
+    {
+        _logger.LogInformation("Test page visited at {time}", DateTime.Now);
+        return View();
+    }
+}
+```
+
+In this example, the **Classic Parameterized Constructor** initializes the `ILogger<T>` service, checks for null values, and assigns it to the private field.
+
+#### 5.2.4. When to Use
+
+- Use classic constructors when your application targets an older version of C# (before C# 12) or when there are additional initialization or validation requirements.
+- If the code needs to remain familiar and consistent with other parts of a larger project where primary constructors are not yet adopted.
+- Use them for consistency across larger teams or projects that rely on more traditional DI methods.
+
+### 5.2. Primary Constructors
+
+#### 5.2.1. Guideline:
+
+Use **Primary Constructors** when you want to simplify and modernize DI, especially for scenarios where:
+
+- There is no complex initialization logic needed beyond assigning injected dependencies to fields.
+- You are targeting C# 12 or later, and leveraging the language’s modern features for more concise, cleaner code.
+- The project or team prioritizes newer features and prefers more compact syntax with fewer lines of boilerplate code.
+
+#### 5.2.2. Rationale:
+
+Primary constructors are introduced in C# 12 and allow for cleaner, more concise code. They reduce the need for explicit field declarations and constructor bodies by automatically assigning injected dependencies. Benefits include:
+
+- **Brevity**: You can eliminate boilerplate code, reducing the verbosity of dependency injection.
+- **Simplicity**: If DI is straightforward without the need for additional constructor logic, primary constructors streamline the process.
+
+#### 5.2.3. Example:
+
+```csharp
+public class TestController(ILogger<TestController> logger) : Controller
+{
+    public IActionResult Index()
+    {
+        logger.LogInformation("Test page visited at {time}", DateTime.Now);
+        return View();
+    }
+}
+```
+
+In this example, the **Primary Constructor** automatically initializes the logger without explicit constructor logic, providing a more concise syntax.
+
+#### 5.2.4. When to Use - Primary Constructor
+
+- Use primary constructors for simple DI scenarios where no additional logic (e.g., validation) is required in the constructor.
+- When targeting C# 12+ and aiming to reduce boilerplate code for a cleaner, more concise syntax.
+- When starting new projects and modernizing the codebase, favoring newer language features for simplicity.
+
+### 5.3. Comparative Analysis:\*\*
+
+#### **Classic Parameterized Constructors:**
+
+| **Pros**                               | **Cons**                                           |
+| -------------------------------------- | -------------------------------------------------- |
+| Widely used and familiar               | More verbose, especially for simple DI cases       |
+| Flexibility for additional logic       | Requires explicit field declaration and assignment |
+| Well-documented in ASP.NET Core guides | Can become bloated with many dependencies          |
+
+---
+
+#### **Primary Constructors:**
+
+| **Pros**                               | **Cons**                                   |
+| -------------------------------------- | ------------------------------------------ |
+| Concise and modern                     | Limited to simple scenarios                |
+| Reduces boilerplate code               | Cannot handle complex initialization logic |
+| Eliminates redundant constructor logic | Requires C# 12+                            |
+
+---
+
+### 5.4. Recommendation
+
+- **For simple scenarios**: Use **Primary Constructors** to streamline code and reduce verbosity, especially if you are targeting C# 12 or later.
+- **For complex scenarios**: Use **Classic Parameterized Constructors** if you need to include additional logic, validation, or initialization in your constructor, or when working with older frameworks.
+
+This balance allows you to leverage the latest language features while still adhering to familiar patterns when necessary.
+
+### 5.6. Additional Considerations
+
+- **Team Familiarity**: Consider the experience and familiarity of your development team with C# features. If your team is accustomed to classic constructors, a gradual shift towards primary constructors might be beneficial.
+- **Code Review and Maintenance**: Discuss and document the chosen approach in code reviews to ensure consistency across the codebase.
