@@ -211,11 +211,11 @@ By eliminating the need for braces around namespaces, file-scoped namespaces red
 
 **Purpose:**
 
-To ensure proper use of Dependency Injection (DI) in ASP.NET Core controllers by using the primary constructor pattern. This guideline helps avoid common mistakes, such as incorrect usage of the `in` keyword, ensuring seamless integration with ASP.NET Core’s DI system.
+To ensure proper use of Dependency Injection (DI) in ASP.NET Core controllers by utilizing the primary constructor pattern. This guideline helps prevent common mistakes, such as the incorrect use of the in keyword, ensuring seamless integration with ASP.NET Core's DI system.
 
 ### 4.1. Guideline
 
-When injecting dependencies like `ILogger<T>` into a controller's primary constructor, avoid using the `in` keyword for parameters. This will allow ASP.NET Core's Dependency Injection to function properly and avoid runtime errors related to `ByRef` types. Understand that the `in` keyword should only be used for performance optimization in specific cases where passing a large value type by reference is required. It enforces read-only behavior, which is suitable for immutable value types but not for reference types.
+When injecting dependencies like `ILogger<T>` into a controller's primary constructor, avoid using the in keyword for parameters. This will ensure that ASP.NET Core's Dependency Injection functions properly and avoids runtime errors related to ByRef types. The in keyword should only be used for performance optimization when passing a large value type by reference, enforcing read-only behavior, which is ideal for immutable value types but not suitable for reference types.
 
 - **Use `in` for Large Value Types:** Employ the `in` keyword to pass large value types (e.g., structs) by reference, optimizing for performance where necessary.
 - **Avoid `in` for Reference Types:** Do not use the `in` keyword for reference types (e.g., classes or interfaces) as they are already passed by reference. Applying `in` can lead to runtime errors.
@@ -273,4 +273,3 @@ In this correct version, the `logger` is passed directly into the primary constr
 
 - Use the `in` keyword for large value types where avoiding copying improves performance, but avoid it for reference types such as `ILogger<T>`.
 - Do not apply the `in` keyword to parameters in primary constructors for ASP.NET Core controllers, especially when using Dependency Injection.
-
