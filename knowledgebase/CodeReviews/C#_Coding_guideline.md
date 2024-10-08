@@ -46,31 +46,31 @@ Only use the discard pattern when you need to explicitly communicate that you're
 
 Avoid using it when it's clear that the result of a method is not meant to be captured.
 
+---
+
 ## 2. Overview of Dependency Injection (DI) Lifetimes in ASP.NET Core
 
 **Purpose:** This guideline outlines the three primary lifetimes of services in ASP.NET Core’s Dependency Injection (DI) system: `Transient`, `Scoped`, and `Singleton`. Understanding when to use each can improve the efficiency, scalability, and performance of your application by appropriately managing service lifetimes.
 
----
+### 2.1. Transient
 
-### **2.1. Transient**
-
-#### 2.1.1 Guideline
+#### 2.1.1. Guideline
 
 `Transient` services are created every time they are requested. Each injection provides a new instance, which makes them suitable for stateless services that do not need to retain data across requests.
 
-#### 2.1.2 Rationale
+#### 2.1.2. Rationale
 
 Transient services are ideal for lightweight operations that can be frequently recreated without significant overhead. This ensures each consumer gets an independent instance, preventing unintentional sharing of state or data.
 
-#### 2.1.3 Category
+#### 2.1.3. Category
 
 > Service Lifetime Management
 
-#### 2.1.4 Sub-Category
+#### 2.1.4. Sub-Category
 
 > Stateless Services
 
-#### 2.1.5 Example
+#### 2.1.5. Example
 
 - **Use Case**: Utility services that perform operations like calculations or string manipulations, where each instance is independent.
 
@@ -78,32 +78,32 @@ Transient services are ideal for lightweight operations that can be frequently r
   services.AddTransient<IUtilityService, UtilityService>();
   ```
 
-#### 2.1.6 When to Use
+#### 2.1.6. When to Use
 
 - Use `Transient` for stateless operations that do not require sharing of data between different requests or instances.
 - Avoid `Transient` for resource-heavy or state-aware services, as frequent re-instantiation can impact performance.
 
 ---
 
-### **2.2. Scoped**
+### 2.2. Scoped
 
-#### 2.2.1 Guideline
+#### 2.2.1. Guideline
 
 `Scoped` services are created once per request or scope. A single instance is shared across components within the same request, but the service is reset for each new request.
 
-#### 2.2.2 Rationale
+#### 2.2.2. Rationale
 
 Scoped services are useful when a service needs to maintain state across a single request but not across multiple requests. This is especially helpful for services that interact with request-specific data, like database contexts.
 
-#### 2.2.3 Category
+#### 2.2.3. Category
 
 > Service Lifetime Management
 
-#### 2.2.4 Sub-Category
+#### 2.2.4. Sub-Category
 
 > Stateful Services
 
-#### 2.2.5 Example
+#### 2.2.5. Example
 
 - **Use Case**: Entity Framework Core's `DbContext` is typically registered as `Scoped` because it should maintain consistency within a request but be disposed at the end.
 
@@ -111,32 +111,32 @@ Scoped services are useful when a service needs to maintain state across a singl
   services.AddScoped<IRepository, Repository>();
   ```
 
-#### 2.2.6 When to Use
+#### 2.2.6. When to Use
 
 - Use `Scoped` for services that need to persist data or state within a single request (e.g., working with databases).
 - Avoid `Scoped` for services that need to maintain state across multiple requests or application-wide operations.
 
 ---
 
-### **2.3. Singleton**
+### 2.3. Singleton
 
-#### 2.3.1 Guideline
+#### 2.3.1. Guideline
 
 `Singleton` services are created once and shared throughout the application's lifetime. A single instance is reused across all requests and consumers.
 
-#### 2.3.2 Rationale
+#### 2.3.2. Rationale
 
 Singleton services are suitable for services that are expensive to initialize or hold shared state that needs to be consistent across the entire application (e.g., caching, configuration, or logging). They are long-lived and should be thread-safe if accessed concurrently.
 
-#### 2.3.3 Category
+#### 2.3.3. Category
 
 > Service Lifetime Management
 
-#### 2.3.4 Sub-Category
+#### 2.3.4. Sub-Category
 
 > Global Resources
 
-#### 2.3.5 Example
+#### 2.3.5. Example
 
 - **Use Case**: Logger services or caching mechanisms that need to be shared across the entire application.
 
@@ -144,37 +144,35 @@ Singleton services are suitable for services that are expensive to initialize or
   services.AddSingleton<ILogger, LoggerService>();
   ```
 
-#### 2.3.6 When to Use
+#### 2.3.6. When to Use
 
 - Use `Singleton` for services that are expensive to create or hold state that must persist across the application lifecycle.
 - Avoid `Singleton` for services that depend on request-specific data or that cannot safely handle concurrent access without proper synchronization.
 
-### Guidelines for Using File-Scoped Namespaces in C#
+---
+
+## 3. Guidelines for Using File-Scoped Namespaces in `C#`
 
 **Purpose:**  
 This guideline outlines best practices for using file-scoped namespaces in C#. The file-scoped namespace feature introduced in C# 10 simplifies namespace declarations, leading to cleaner and more concise code.
 
----
-
-### **1.1. File-Scoped Namespace Declaration**
-
-#### 1.1.1 Guideline
+### 3.1. Guideline
 
 Use file-scoped namespaces to reduce indentation and enhance code readability when a single namespace is used throughout the file. This replaces the block-scoped (`{}`) approach, resulting in cleaner, less-indented code.
 
-#### 1.1.2 Rationale
+### 3.2. Rationale
 
 By eliminating the need for braces around namespaces, file-scoped namespaces reduce unnecessary indentation, making the code more readable and easier to maintain. It aligns with modern C# language features that emphasize simplicity and clarity.
 
-#### 1.1.3 Category
+### 3.3. Category
 
-**Code Readability and Maintainability**
+> Code Readability and Maintainability
 
-#### 1.1.4 Sub-Category
+### 3.4. Sub-Category
 
-**Syntax Simplification**
+> Syntax Simplification
 
-#### 1.1.5 Example
+### 3.5. Example
 
 - **Use Case**: A single file with a single namespace, typically in smaller or more modular classes.
 
@@ -202,12 +200,14 @@ By eliminating the need for braces around namespaces, file-scoped namespaces red
   }
   ```
 
-#### 1.1.6 When to Use
+### 3.6. When to Use
 
 - Use file-scoped namespaces when a file contains a single namespace and additional indentation would not add clarity to the structure.
 - Prefer file-scoped namespaces in smaller files or when adhering to modern C# conventions.
 
 ---
+
+### **3.1. File-Scoped Namespace Declaration**
 
 ### **1.2. Reducing Indentation in Large Codebases**
 
