@@ -15,7 +15,7 @@ Clean Architecture is a software design philosophy that promotes a clear separat
 
 ## Solution Layout
 
-Here’s an example solution layout for a Clean Architecture implementation in C# and .NET 8, incorporating a Shared Kernel:
+Here’s an example solution layout for a Clean Architecture implementation in C# and .NET 8.
 
 ```text
 Solution.sln
