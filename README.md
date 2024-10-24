@@ -9,3 +9,9 @@ This is the Main Repository for `Swamy's Tech Skills Academy` Organization. This
 
 https://www.linkedin.com/in/viswanatha-swamy-b57326128/
 https://mvp.microsoft.com/en-US/MVP/profile/e5303266-fa36-ec11-b6e6-00224825194e
+
+CREATE USER [<identity-name>] FROM EXTERNAL PROVIDER;
+ALTER ROLE db_datareader ADD MEMBER [<identity-name>];
+ALTER ROLE db_datawriter ADD MEMBER [<identity-name>];
+ALTER ROLE db_ddladmin ADD MEMBER [<identity-name>];
+GO
