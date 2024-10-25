@@ -58,6 +58,13 @@ A new `System-Assigned Managed Identity` will be created for school-api to authe
 
 This identity will have specific SQL roles assigned in the database, ensuring secure and controlled access to execute SQL queries from the API.
 
+## Container App Deployment
+
+The .NET 8 Aspire solution leverages Azure Container Apps for the deployment of the school-api API. Key configurations include:
+
+Container App Environment: `cae-as2wogk3v6wxw`, hosting the containerized API.
+Image Source: Container images are pulled from the Azure Container Registry (`acras2wogk3v6wxw`).
+
 ## Monitoring and Logging
 
 All logs from the application, including API requests, database operations, and system metrics, are collected and stored in the Log Analytics Workspace (law-as2wogk3v6wxw). This provides a centralized dashboard for monitoring application health and identifying issues. Logs are automatically forwarded to the Log Analytics Workspace for centralized monitoring.
