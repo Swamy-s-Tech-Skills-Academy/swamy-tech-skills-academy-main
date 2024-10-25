@@ -100,6 +100,14 @@ In the application configuration file, set up a connection string that specifies
 }
 ```
 
+```json
+"ConnectionStrings": {
+  "DefaultConnection": "Server=tcp:<YOUR_SERVER_NAME>.database.windows.net,1433;Database=<YOUR_DATABASE_NAME>;Authentication=Active Directory Managed Identity"
+}
+```
+
+Server=tcp:sql-common-store.database.windows.net,1433;Initial Catalog=sqldb-common-store;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;Authentication="Active Directory Managed Identity";
+
 ### Conclusion
 
 By following these steps, you can configure a secure connection between your .NET 8 application on Azure Container Apps and Azure SQL Database using Azure Entra ID. This setup enhances security and removes the need for embedded credentials, aligning with best practices for modern cloud-native applications.
@@ -192,3 +200,36 @@ Use the `DefaultAzureCredential` class to allow the application to authenticate 
 ### Conclusion
 
 By following these steps, you can configure a secure connection between your .NET 8 application on Azure Container Apps and Azure SQL Database using Azure Entra ID. This setup enhances security and removes the need for embedded credentials, aligning with best practices for modern cloud-native applications.
+
+The key difference between the two connection strings lies in how **Azure Active Directory (Azure AD)** authentication is performed for connecting to the Azure SQL Database.
+
+### 1. **Active Directory Default Authentication**
+
+```json
+"ConnectionStrings": {
+  "DefaultConnection": "Server=tcp:<YOUR_SERVER_NAME>.database.windows.net,1433;Database=<YOUR_DATABASE_NAME>;Authentication=Active Directory Default"
+}
+```
+
+- **Authentication Type**: **Active Directory Default** uses the currently logged-in **Azure AD user** or **service principal** in the local environment.
+- **Use Case**: This is typically used during **development** or **testing** phases when you are working locally and have signed in with your Azure AD credentials using the `az login` command or Visual Studio’s connected Azure account.
+- **Behavior**: It attempts to authenticate using whatever Azure AD identity is active in the developer's environment. This could be the developer’s own account or an identity tied to a service principal.
+
+### 2. **Active Directory Managed Identity**
+
+```json
+"ConnectionStrings": {
+  "DefaultConnection": "Server=tcp:<YOUR_SERVER_NAME>.database.windows.net,1433;Database=<YOUR_DATABASE_NAME>;Authentication=Active Directory Managed Identity"
+}
+```
+
+- **Authentication Type**: **Active Directory Managed Identity** uses the **managed identity** of the resource (e.g., Azure VM, Azure App Service, or Azure Function) where the application is running.
+- **Use Case**: This is used for **production** deployments where the application is running in an Azure resource with a **system-assigned** or **user-assigned managed identity**. Managed identity allows the application to authenticate securely without storing credentials.
+- **Behavior**: It uses the identity that has been explicitly assigned to the resource, allowing secure access to the database without the need to manually provide or rotate credentials.
+
+### Summary
+
+- **Active Directory Default**: Ideal for local development where an Azure AD user or service principal's authentication is available through tools like `az login`.
+- **Active Directory Managed Identity**: Ideal for production environments where the application runs within Azure services and uses the built-in managed identity of the service for authentication, ensuring security and ease of management.
+
+In short, **Active Directory Default** is useful for **local environments**, while **Managed Identity** is designed for **cloud environments** where the application is hosted within Azure services.
