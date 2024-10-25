@@ -11,6 +11,27 @@ This guide details the steps to configure a .NET 8 application deployed on Azure
 > 1. Azure Container App: Deploy a .NET 8 application in Azure Container Apps.
 > 1. .NET 8 SDK: Ensure the application uses .NET 8 SDK.
 
+## Current Architecture
+
+The architecture involves multiple Azure services interacting together to form a secure and scalable solution. The key components include:
+
+> 1. Container App (school-api)
+> 1. Azure SQL Database
+> 1. Azure Container Registry (acras2wogk3v6wxw)
+> 1. Azure Log Analytics Workspace (law-as2wogk3v6wxw)
+> 1. Azure Managed Identity (mi-as2wogk3v6wxw) to access Azure SQL securely
+
+![.NET 8 Aspire](images/rg-aspire-dev-002.PNG)
+
+## Solution Components
+
+The key components of the .NET 8 Aspire solution include:
+
+> 1. school-api: A containerized API built using .NET 8, deployed in Azure Container Apps.
+> 1. Azure Container Registry: The registry that holds the container images.
+> 1. Azure Managed Identity: Used to authenticate and manage access to resources like the Azure Container Registry and Azure SQL without needing explicit credentials.
+> 1. Azure Log Analytics Workspace: Provides centralized logging for monitoring the application.
+
 ## 2. Adding Azure Entra ID Users to Azure SQL Database
 
 To allow the application to authenticate with the Azure SQL Database, you need to add Azure Entra ID users. Follow these SQL commands to add users with specific roles.
