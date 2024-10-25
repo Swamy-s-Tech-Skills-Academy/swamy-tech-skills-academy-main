@@ -15,11 +15,11 @@ This guide details the steps to configure a .NET 8 application deployed on Azure
 
 The architecture involves multiple Azure services interacting together to form a secure and scalable solution. The key components include:
 
-> 1. Container App (school-api)
-> 1. Azure SQL Database
-> 1. Azure Container Registry (acras2wogk3v6wxw)
-> 1. Azure Log Analytics Workspace (law-as2wogk3v6wxw)
-> 1. Azure Managed Identity (mi-as2wogk3v6wxw) to access Azure SQL securely
+> 1. `school-api`: The container app representing the API.
+> 1. `acras2wogk3v6wxw`: The Azure Container Registry storing the API’s container images.
+> 1. `law-as2wogk3v6wxw`: The Log Analytics workspace used for monitoring and diagnostics.
+> 1. `cae-as2wogk3v6wxw`: The Azure Container Apps environment in which the school-api app is deployed.
+> 1. `mi-as2wogk3v6wxw`: Managed Identity used to authenticate and pull the container image from ACR.
 
 ![.NET 8 Aspire](images/rg-aspire-dev-002.PNG)
 
@@ -27,10 +27,10 @@ The architecture involves multiple Azure services interacting together to form a
 
 The key components of the .NET 8 Aspire solution include:
 
-> 1. school-api: A containerized API built using .NET 8, deployed in Azure Container Apps.
-> 1. Azure Container Registry: The registry that holds the container images.
-> 1. Azure Managed Identity: Used to authenticate and manage access to resources like the Azure Container Registry and Azure SQL without needing explicit credentials.
-> 1. Azure Log Analytics Workspace: Provides centralized logging for monitoring the application.
+> 1. `school-api`: A containerized API built using .NET 8, deployed in Azure Container Apps.
+> 1. `Azure Container Registry`: The registry that holds the container images.
+> 1. `Azure Managed Identity`: Used to authenticate and manage access to resources like the Azure Container Registry and Azure SQL without needing explicit credentials.
+> 1. `Azure Log Analytics Workspace`: Provides centralized logging for monitoring the application.
 
 ## Managed Identity Setup
 
@@ -87,6 +87,22 @@ GO
 
 - `CREATE USER FROM EXTERNAL PROVIDER`: Adds an Azure Entra ID user.
 - Roles: Assign `db_datareader`, `db_datawriter`, and `db_ddladmin` roles for read, write, and DDL permissions.
+
+## Configure the .NET 8 Application (ACA) to Use Entra ID for SQL Database Access
+
+### Set Up the Connection String
+
+In the application configuration file, set up a connection string that specifies Entra ID authentication.
+
+```json
+"ConnectionStrings": {
+  "DefaultConnection": "Server=tcp:<YOUR_SERVER_NAME>.database.windows.net,1433;Database=<YOUR_DATABASE_NAME>;Authentication=Active Directory Default"
+}
+```
+
+### Conclusion
+
+By following these steps, you can configure a secure connection between your .NET 8 application on Azure Container Apps and Azure SQL Database using Azure Entra ID. This setup enhances security and removes the need for embedded credentials, aligning with best practices for modern cloud-native applications.
 
 ---
 
