@@ -69,19 +69,13 @@ Image Source: Container images are pulled from the Azure Container Registry (`ac
 
 All logs from the application, including API requests, database operations, and system metrics, are collected and stored in the Log Analytics Workspace (law-as2wogk3v6wxw). This provides a centralized dashboard for monitoring application health and identifying issues. Logs are automatically forwarded to the Log Analytics Workspace for centralized monitoring.
 
-## 2. Adding Azure Entra ID Users to Azure SQL Database
+## Adding Azure Entra ID Users to Azure SQL Database
 
 To allow the application to authenticate with the Azure SQL Database, you need to add Azure Entra ID users. Follow these SQL commands to add users with specific roles.
 
 ### SQL Commands to Add Users
 
 ```sql
-CREATE USER [app-schoolapi-dev-001] FROM EXTERNAL PROVIDER WITH DEFAULT_SCHEMA = dbo;
-ALTER ROLE db_datareader ADD MEMBER [app-schoolapi-dev-001];
-ALTER ROLE db_datawriter ADD MEMBER [app-schoolapi-dev-001];
-ALTER ROLE db_ddladmin ADD MEMBER [app-schoolapi-dev-001];
-GO
-
 CREATE USER [school-api] FROM EXTERNAL PROVIDER WITH DEFAULT_SCHEMA = dbo;
 ALTER ROLE db_datareader ADD MEMBER [school-api];
 ALTER ROLE db_datawriter ADD MEMBER [school-api];
@@ -89,7 +83,7 @@ ALTER ROLE db_ddladmin ADD MEMBER [school-api];
 GO
 ```
 
-### Explanation:
+### Explanation
 
 - `CREATE USER FROM EXTERNAL PROVIDER`: Adds an Azure Entra ID user.
 - Roles: Assign `db_datareader`, `db_datawriter`, and `db_ddladmin` roles for read, write, and DDL permissions.
