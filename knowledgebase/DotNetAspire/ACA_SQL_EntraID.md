@@ -32,6 +32,36 @@ The key components of the .NET 8 Aspire solution include:
 > 1. Azure Managed Identity: Used to authenticate and manage access to resources like the Azure Container Registry and Azure SQL without needing explicit credentials.
 > 1. Azure Log Analytics Workspace: Provides centralized logging for monitoring the application.
 
+## Managed Identity Setup
+
+Azure Managed Identity is employed for seamless authentication of services, ensuring a secure and passwordless experience.
+
+### Role Assignments
+
+For this architecture, the managed identity mi-as2wogk3v6wxw is assigned the following role:
+
+> 1. Role: AcrPull
+> 1. Resource Name: acras2wogk3v6wxw
+> 1. Resource Type: Azure Container Registry
+> 1. Assigned To: mi-as2wogk3v6wxw (Managed Identity)
+> 1. Condition: None
+
+This setup allows the school-api container to securely pull images from the Azure Container Registry without embedding credentials.
+
+### Creating a System-Assigned Managed Identity for Azure SQL
+
+A new `System-Assigned Managed Identity` will be created for school-api to authenticate against `Azure SQL`. This managed identity will handle secure database operations, eliminating the need for credentials in the API.
+
+> 1. Role: SQL permissions (e.g., `db_datareader`, `db_datawriter`, `db_ddladmin`)
+> 1. Resource: Azure SQL Database
+> 1. Assigned To: `school-api` Managed Identity
+
+This identity will have specific SQL roles assigned in the database, ensuring secure and controlled access to execute SQL queries from the API.
+
+## Monitoring and Logging
+
+All logs from the application, including API requests, database operations, and system metrics, are collected and stored in the Log Analytics Workspace (law-as2wogk3v6wxw). This provides a centralized dashboard for monitoring application health and identifying issues. Logs are automatically forwarded to the Log Analytics Workspace for centralized monitoring.
+
 ## 2. Adding Azure Entra ID Users to Azure SQL Database
 
 To allow the application to authenticate with the Azure SQL Database, you need to add Azure Entra ID users. Follow these SQL commands to add users with specific roles.
