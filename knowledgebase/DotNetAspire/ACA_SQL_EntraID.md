@@ -233,3 +233,76 @@ The key difference between the two connection strings lies in how **Azure Active
 - **Active Directory Managed Identity**: Ideal for production environments where the application runs within Azure services and uses the built-in managed identity of the service for authentication, ensuring security and ease of management.
 
 In short, **Active Directory Default** is useful for **local environments**, while **Managed Identity** is designed for **cloud environments** where the application is hosted within Azure services.
+
+---
+
+**Date:** 30-Oct-2024
+
+Certainly, here’s a consolidated version combining both explanations for your Confluence page.
+
+---
+
+# Connecting to Azure SQL Database using Azure Active Directory (Azure AD)
+
+In .NET applications hosted on Azure, you can leverage Azure Active Directory (Azure AD) for secure database connections without storing credentials. There are two primary ways to authenticate via Azure AD: **Active Directory Default** and **Active Directory Managed Identity**. Each method has its ideal usage depending on the environment, whether it’s for local development or production deployments.
+
+### Azure AD Authentication Methods Overview
+
+| Authentication Type                      | Best for                          | Description |
+| ---------------------------------------- | --------------------------------- | ----------- |
+| **Active Directory Default**             | Local Development & Testing       | Uses the currently logged-in Azure AD user or service principal in the developer's environment to access Azure SQL Database. |
+| **Active Directory Managed Identity**    | Production Environments in Azure  | Uses the managed identity associated with the Azure resource where the app is running, such as Azure App Service or Azure Function. This eliminates the need for managing credentials. |
+
+---
+
+## Connection String Examples
+
+1. **Active Directory Default Authentication**
+
+    ```json
+    "ConnectionStrings": {
+      "DefaultConnection": "Server=tcp:<YOUR_SERVER_NAME>.database.windows.net,1433;Database=<YOUR_DATABASE_NAME>;Authentication=Active Directory Default"
+    }
+    ```
+
+    - **Purpose**: This configuration leverages the **current Azure AD identity** in the local environment, allowing developers to authenticate using `az login` or a similar tool.
+    - **Use Case**: Primarily used in **development and testing phases** where the developer’s own Azure AD credentials or an Azure AD service principal are available.
+    - **Behavior**: The application authenticates with Azure SQL using the currently signed-in Azure AD identity or any identity configured in the environment. This can be useful for quick local testing and development setups.
+
+2. **Active Directory Managed Identity Authentication**
+
+    ```json
+    "ConnectionStrings": {
+      "DefaultConnection": "Server=tcp:<YOUR_SERVER_NAME>.database.windows.net,1433;Database=<YOUR_DATABASE_NAME>;Authentication=Active Directory Managed Identity"
+    }
+    ```
+
+    - **Purpose**: Managed Identity uses **Azure’s built-in identity** associated with the Azure resource (e.g., Azure App Service, Virtual Machine) running the application.
+    - **Use Case**: Recommended for **production environments** where the app runs within an Azure resource and the need for **secure, automatic identity management** is a priority. Managed Identity ensures the app can securely connect to Azure SQL without manually managing credentials.
+    - **Security Advantage**: Managed identity is controlled directly by Azure, which handles **credential rotation and security** automatically, reducing maintenance and enhancing security.
+
+---
+
+### Key Differences Between the Two Methods
+
+- **Authentication Identity**: Active Directory Default relies on a manually authenticated Azure AD user, while Managed Identity uses an Azure-assigned identity tied directly to the Azure resource.
+- **Environment Suitability**: Default is suited for **development environments** and manual configurations, while Managed Identity is best for **production deployments** due to automatic credential handling.
+- **Security and Maintenance**: Managed Identity provides a higher security level with **automatic credential rotation** and eliminates the need for storing or updating credentials manually.
+
+---
+
+### Step-by-Step Setup
+
+1. **For Active Directory Default**:
+   - Ensure you are logged in to Azure using `az login` or Visual Studio’s connected Azure account.
+   - Use the Default Connection string as shown above in your application settings.
+
+2. **For Active Directory Managed Identity**:
+   - Enable a **system-assigned or user-assigned managed identity** for your Azure resource (App Service, VM, etc.).
+   - Assign the managed identity the necessary SQL permissions in your Azure SQL Database.
+
+With these options, you can connect securely to Azure SQL, leveraging Azure AD and managed identities for both secure and flexible authentication based on your deployment needs. 
+
+--- 
+
+This document should help guide developers in selecting the correct authentication strategy based on their specific environment, ensuring seamless and secure connectivity to Azure SQL.
