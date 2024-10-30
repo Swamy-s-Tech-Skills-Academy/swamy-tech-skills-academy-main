@@ -46,7 +46,7 @@ For this architecture, the managed identity mi-as2wogk3v6wxw is assigned the fol
 > 1. Assigned To: mi-as2wogk3v6wxw (Managed Identity)
 > 1. Condition: None
 
-This setup allows the school-api container to securely pull images from the Azure Container Registry without embedding credentials.
+This setup allows the `school-api` container to securely pull images from the Azure Container Registry without embedding credentials.
 
 ### Creating a System-Assigned Managed Identity for Azure SQL
 
@@ -248,10 +248,10 @@ In .NET applications hosted on Azure, you can leverage Azure Active Directory (A
 
 ### Azure AD Authentication Methods Overview
 
-| Authentication Type                      | Best for                          | Description |
-| ---------------------------------------- | --------------------------------- | ----------- |
-| **Active Directory Default**             | Local Development & Testing       | Uses the currently logged-in Azure AD user or service principal in the developer's environment to access Azure SQL Database. |
-| **Active Directory Managed Identity**    | Production Environments in Azure  | Uses the managed identity associated with the Azure resource where the app is running, such as Azure App Service or Azure Function. This eliminates the need for managing credentials. |
+| Authentication Type                   | Best for                         | Description                                                                                                                                                                            |
+| ------------------------------------- | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Active Directory Default**          | Local Development & Testing      | Uses the currently logged-in Azure AD user or service principal in the developer's environment to access Azure SQL Database.                                                           |
+| **Active Directory Managed Identity** | Production Environments in Azure | Uses the managed identity associated with the Azure resource where the app is running, such as Azure App Service or Azure Function. This eliminates the need for managing credentials. |
 
 ---
 
@@ -259,27 +259,27 @@ In .NET applications hosted on Azure, you can leverage Azure Active Directory (A
 
 1. **Active Directory Default Authentication**
 
-    ```json
-    "ConnectionStrings": {
-      "DefaultConnection": "Server=tcp:<YOUR_SERVER_NAME>.database.windows.net,1433;Database=<YOUR_DATABASE_NAME>;Authentication=Active Directory Default"
-    }
-    ```
+   ```json
+   "ConnectionStrings": {
+     "DefaultConnection": "Server=tcp:<YOUR_SERVER_NAME>.database.windows.net,1433;Database=<YOUR_DATABASE_NAME>;Authentication=Active Directory Default"
+   }
+   ```
 
-    - **Purpose**: This configuration leverages the **current Azure AD identity** in the local environment, allowing developers to authenticate using `az login` or a similar tool.
-    - **Use Case**: Primarily used in **development and testing phases** where the developer’s own Azure AD credentials or an Azure AD service principal are available.
-    - **Behavior**: The application authenticates with Azure SQL using the currently signed-in Azure AD identity or any identity configured in the environment. This can be useful for quick local testing and development setups.
+   - **Purpose**: This configuration leverages the **current Azure AD identity** in the local environment, allowing developers to authenticate using `az login` or a similar tool.
+   - **Use Case**: Primarily used in **development and testing phases** where the developer’s own Azure AD credentials or an Azure AD service principal are available.
+   - **Behavior**: The application authenticates with Azure SQL using the currently signed-in Azure AD identity or any identity configured in the environment. This can be useful for quick local testing and development setups.
 
 2. **Active Directory Managed Identity Authentication**
 
-    ```json
-    "ConnectionStrings": {
-      "DefaultConnection": "Server=tcp:<YOUR_SERVER_NAME>.database.windows.net,1433;Database=<YOUR_DATABASE_NAME>;Authentication=Active Directory Managed Identity"
-    }
-    ```
+   ```json
+   "ConnectionStrings": {
+     "DefaultConnection": "Server=tcp:<YOUR_SERVER_NAME>.database.windows.net,1433;Database=<YOUR_DATABASE_NAME>;Authentication=Active Directory Managed Identity"
+   }
+   ```
 
-    - **Purpose**: Managed Identity uses **Azure’s built-in identity** associated with the Azure resource (e.g., Azure App Service, Virtual Machine) running the application.
-    - **Use Case**: Recommended for **production environments** where the app runs within an Azure resource and the need for **secure, automatic identity management** is a priority. Managed Identity ensures the app can securely connect to Azure SQL without manually managing credentials.
-    - **Security Advantage**: Managed identity is controlled directly by Azure, which handles **credential rotation and security** automatically, reducing maintenance and enhancing security.
+   - **Purpose**: Managed Identity uses **Azure’s built-in identity** associated with the Azure resource (e.g., Azure App Service, Virtual Machine) running the application.
+   - **Use Case**: Recommended for **production environments** where the app runs within an Azure resource and the need for **secure, automatic identity management** is a priority. Managed Identity ensures the app can securely connect to Azure SQL without manually managing credentials.
+   - **Security Advantage**: Managed identity is controlled directly by Azure, which handles **credential rotation and security** automatically, reducing maintenance and enhancing security.
 
 ---
 
@@ -294,6 +294,7 @@ In .NET applications hosted on Azure, you can leverage Azure Active Directory (A
 ### Step-by-Step Setup
 
 1. **For Active Directory Default**:
+
    - Ensure you are logged in to Azure using `az login` or Visual Studio’s connected Azure account.
    - Use the Default Connection string as shown above in your application settings.
 
@@ -301,8 +302,132 @@ In .NET applications hosted on Azure, you can leverage Azure Active Directory (A
    - Enable a **system-assigned or user-assigned managed identity** for your Azure resource (App Service, VM, etc.).
    - Assign the managed identity the necessary SQL permissions in your Azure SQL Database.
 
-With these options, you can connect securely to Azure SQL, leveraging Azure AD and managed identities for both secure and flexible authentication based on your deployment needs. 
+With these options, you can connect securely to Azure SQL, leveraging Azure AD and managed identities for both secure and flexible authentication based on your deployment needs.
 
---- 
+---
 
 This document should help guide developers in selecting the correct authentication strategy based on their specific environment, ensuring seamless and secure connectivity to Azure SQL.
+
+---
+
+Certainly! Here is the revised version, integrating the information on **Active Directory Default** and **Active Directory Managed Identity**.
+
+---
+
+# .NET 8 Aspire Azure Container App Connecting to Azure SQL Database with Azure Entra ID
+
+## Overview
+
+This guide details the steps to configure a .NET 8 application deployed on Azure Container Apps to connect securely to an Azure SQL Database using Azure Entra ID for authentication. By leveraging Entra ID, you can improve security by eliminating the need to store database credentials within the application.
+
+## Prerequisites
+
+1. **Azure Entra ID**: Ensure you have an Azure Entra ID instance configured.
+2. **Azure SQL Database**: Set up the SQL Database and configure it for Azure AD authentication.
+3. **Azure Container App**: Deploy a .NET 8 application in Azure Container Apps.
+4. **.NET 8 SDK**: Ensure the application uses the .NET 8 SDK.
+
+---
+
+## Current Architecture
+
+The architecture involves multiple Azure services working together to form a secure and scalable solution:
+
+1. `school-api`: The container app representing the API.
+2. `acras2wogk3v6wxw`: The Azure Container Registry storing the API’s container images.
+3. `law-as2wogk3v6wxw`: The Log Analytics workspace used for monitoring and diagnostics.
+4. `cae-as2wogk3v6wxw`: The Azure Container Apps environment in which the school-api app is deployed.
+5. `mi-as2wogk3v6wxw`: Managed Identity used to authenticate and pull the container image from ACR.
+
+![.NET 8 Aspire](images/rg-aspire-dev-002.PNG)
+
+---
+
+## Solution Components
+
+### Key Components
+
+- `school-api`: A containerized API built using .NET 8, deployed in Azure Container Apps.
+- `Azure Container Registry`: The registry that holds the container images.
+- `Azure Managed Identity`: Authenticates access to resources like Azure Container Registry and Azure SQL without requiring explicit credentials.
+- `Azure Log Analytics Workspace`: Provides centralized logging for monitoring the application.
+
+### Managed Identity Setup
+
+Azure Managed Identity ensures seamless authentication, providing secure and passwordless access to Azure SQL.
+
+### Role Assignments
+
+For this setup, the managed identity `mi-as2wogk3v6wxw` has the following role assignments:
+
+- **Role**: AcrPull
+- **Resource**: `acras2wogk3v6wxw` (Azure Container Registry)
+- **Assigned To**: `mi-as2wogk3v6wxw` (Managed Identity)
+- **Condition**: None
+
+This setup allows the `school-api` container to pull images from the Azure Container Registry securely.
+
+---
+
+## Connecting to Azure SQL Database Using Entra ID
+
+### System-Assigned Managed Identity for Azure SQL
+
+A **System-Assigned Managed Identity** is created for the `school-api` to authenticate against **Azure SQL Database**. This identity provides secure database access, removing the need to store credentials in the application.
+
+- **Roles**: SQL permissions (`db_datareader`, `db_datawriter`, `db_ddladmin`)
+- **Resource**: Azure SQL Database
+- **Assigned To**: `school-api` Managed Identity
+
+### Configuring the Connection String
+
+For connecting to Azure SQL, the .NET 8 application can use two types of connection strings depending on the environment setup: **Active Directory Default** or **Active Directory Managed Identity**.
+
+### Connection String Examples
+
+1. **Active Directory Default Authentication** (for local development):
+
+   ```json
+   "ConnectionStrings": {
+     "DefaultConnection": "Server=tcp:<YOUR_SERVER_NAME>.database.windows.net,1433;Database=<YOUR_DATABASE_NAME>;Authentication=Active Directory Default"
+   }
+   ```
+
+   - **Usage**: Typically for local development, using the currently authenticated Azure AD user or service principal. This method relies on a pre-existing Azure AD login via tools like `az login` or Visual Studio's Azure integration.
+
+2. **Active Directory Managed Identity Authentication** (for production):
+
+   ```json
+   "ConnectionStrings": {
+     "DefaultConnection": "Server=tcp:<YOUR_SERVER_NAME>.database.windows.net,1433;Database=<YOUR_DATABASE_NAME>;Authentication=Active Directory Managed Identity"
+   }
+   ```
+
+   - **Usage**: For production environments, where the app runs in Azure and uses its assigned managed identity to authenticate securely with Azure SQL. This is the recommended setup for Azure-hosted apps, as it leverages the Azure infrastructure for secure and automated credential management.
+
+### SQL Commands to Add Entra ID Users to Azure SQL Database
+
+Use the following SQL commands to add Entra ID users with appropriate roles in the Azure SQL Database:
+
+```sql
+CREATE USER [school-api] FROM EXTERNAL PROVIDER WITH DEFAULT_SCHEMA = dbo;
+ALTER ROLE db_datareader ADD MEMBER [school-api];
+ALTER ROLE db_datawriter ADD MEMBER [school-api];
+ALTER ROLE db_ddladmin ADD MEMBER [school-api];
+GO
+```
+
+- **CREATE USER FROM EXTERNAL PROVIDER**: Adds an Azure Entra ID user.
+- **Role Assignments**: Assigns `db_datareader`, `db_datawriter`, and `db_ddladmin` roles to allow reading, writing, and DDL permissions.
+
+---
+
+## Monitoring and Logging
+
+Logs from the application, including API requests and database operations, are collected in the Log Analytics Workspace (`law-as2wogk3v6wxw`). This centralized logging setup provides a complete overview of application health and performance.
+
+---
+
+### Summary
+
+By following these steps, you can securely configure your .NET 8 Azure Container App to connect to Azure SQL Database using Azure Entra ID. This approach eliminates the need for embedded credentials, aligning with security best practices for modern cloud applications.
