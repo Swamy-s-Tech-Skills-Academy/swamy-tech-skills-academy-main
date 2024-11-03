@@ -4,6 +4,20 @@ This roadmap provides a focused 30-day preparation plan to help aspiring Lead Ar
 
 ## Week-by-Week Breakdown
 
+## Week 1: Foundation of Architecture Patterns & System Design
+
+### Goals
+
+> Master core architecture patterns, system design fundamentals, and scalability.
+
+### Resources
+
+#### System Design
+
+> 1. [System Design Primer on GitHub](https://github.com/donnemartin/system-design-primer) – Comprehensive guide for system design patterns and principles.
+> 1. [Gaurav Sen’s youtube channel](https://www.youtube.com/@gkcs/playlists) covers great examples of distributed systems design and microservices architectures.
+
+<!--
 1. **Week 1: Foundation of Architecture Patterns & System Design**
 
    - **Goals**: Master core architecture patterns, system design fundamentals, and scalability.
@@ -88,4 +102,4 @@ At the end of each week:
 - Schedule a **mock interview** session to practice what you’ve learned. We can simulate questions or system design scenarios based on the week’s topics.
 - Reflect on the STAR framework for behavioral questions, especially around leadership and decision-making.
 
-By the end of 30 days, you'll be fully prepared across technical, architectural, and soft skills areas for a Lead Architect interview. Let me know if you'd like specific practice questions, or if there's a topic you'd like more hands-on guidance with!
+By the end of 30 days, you'll be fully prepared across technical, architectural, and soft skills areas for a Lead Architect interview. Let me know if you'd like specific practice questions, or if there's a topic you'd like more hands-on guidance with! -->
