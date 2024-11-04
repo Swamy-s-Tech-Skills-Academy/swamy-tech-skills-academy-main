@@ -17,6 +17,7 @@ This roadmap provides a focused 30-day preparation plan to help aspiring Lead Ar
 > 1. [System Design Primer on GitHub](https://github.com/donnemartin/system-design-primer) – Comprehensive guide for system design patterns and principles.
 > 1. [Gaurav Sen’s youtube channel](https://www.youtube.com/@gkcs/playlists) covers great examples of distributed systems design and microservices architectures.
 > 1. <https://www.udemy.com/course/system-design-interview-prep/learn/lecture/28971348#overview>
+> 1. <https://www.udemy.com/course/software-architecture-design-of-modern-large-scale-systems/learn/lecture/26541980#overview>
 
 <!--
 1. **Week 1: Foundation of Architecture Patterns & System Design**
