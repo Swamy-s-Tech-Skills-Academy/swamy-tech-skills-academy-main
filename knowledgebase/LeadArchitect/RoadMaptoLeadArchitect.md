@@ -19,8 +19,8 @@ This roadmap provides a focused 30-day preparation plan to help aspiring Lead Ar
 
 #### Architectural Patterns
 
-> 1. <https://www.udemy.com/course/system-design-interview-prep/learn/lecture/28971348#overview>
-> 1. <https://www.udemy.com/course/software-architecture-design-of-modern-large-scale-systems/learn/lecture/26541980#overview>
+> 1. <https://www.udemy.com/course/system-design-interview-prep/learn/lecture/28971348#overview> – Covers advanced system design concepts with a focus on interview preparation strategies.
+> 1. <https://www.udemy.com/course/software-architecture-design-of-modern-large-scale-systems/learn/lecture/26541980#overview> – Practical guide to architecting and designing large-scale systems, covering key patterns and best practices.
 
 #### Scalability
 
