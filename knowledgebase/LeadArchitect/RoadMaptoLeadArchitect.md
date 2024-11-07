@@ -13,16 +13,16 @@ This roadmap provides a focused 30-day preparation plan to help aspiring Lead Ar
 
 ### 1.2. Resources
 
-#### 1.3. System Design
+#### 1.2.1. System Design
 
 > 1. [System Design Primer on GitHub](https://github.com/donnemartin/system-design-primer) – Comprehensive guide for system design patterns and principles.
 > 1. [Gaurav Sen’s youtube channel](https://www.youtube.com/@gkcs/playlists) covers great examples of distributed systems design and microservices architectures.
 
-#### Scalability
+#### 1.2.2. Scalability
 
 > 1. **Article**: [Scalability best practices on Azure](https://learn.microsoft.com/en-us/azure/architecture/framework/scalability) – Essential for Azure-native scaling practices.
 
-## Week 2: Mastering Architectural Patterns & Advanced System Design
+## 2. Week 2: Mastering Architectural Patterns & Advanced System Design
 
 ### Goals
 
