@@ -24,25 +24,17 @@ This roadmap provides a focused 30-day preparation plan to help aspiring Lead Ar
 
 ## 2. Week 2: Mastering Architectural Patterns & Advanced System Design
 
-### Goals
+### 2.1. Goals
 
-> Master core architecture patterns, system design fundamentals, and scalability.
+> 1. Learn architectural patterns for large-scale systems.
+> 1. Dive into advanced system design concepts with practical applications.
 
-### Resources
+### 2.2. Resources
 
-#### System Design
-
-> 1. [System Design Primer on GitHub](https://github.com/donnemartin/system-design-primer) – Comprehensive guide for system design patterns and principles.
-> 1. [Gaurav Sen’s youtube channel](https://www.youtube.com/@gkcs/playlists) covers great examples of distributed systems design and microservices architectures.
-
-#### Architectural Patterns
+#### 2.1. Architectural Patterns
 
 > 1. <https://www.udemy.com/course/system-design-interview-prep/learn/lecture/28971348#overview> – Covers advanced system design concepts with a focus on interview preparation strategies.
 > 1. <https://www.udemy.com/course/software-architecture-design-of-modern-large-scale-systems/learn/lecture/26541980#overview> – Practical guide to architecting and designing large-scale systems, covering key patterns and best practices.
-
-#### Scalability
-
-> 1. **Article**: [Scalability best practices on Azure](https://learn.microsoft.com/en-us/azure/architecture/framework/scalability) – Essential for Azure-native scaling practices.
 
 <!--
 
