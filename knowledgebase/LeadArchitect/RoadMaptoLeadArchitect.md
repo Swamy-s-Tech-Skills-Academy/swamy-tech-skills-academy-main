@@ -4,7 +4,25 @@ This roadmap provides a focused 30-day preparation plan to help aspiring Lead Ar
 
 ## Week-by-Week Breakdown
 
-## Week 1: Foundation of Architecture Patterns & System Design
+## 1. Week 1: Foundation of System Design & Scalability
+
+### 1.1. Goals
+
+> 1. Master core system design fundamentals.
+> 1. Understand scalability principles and strategies.
+
+### 1.2. Resources
+
+#### 1.3. System Design
+
+> 1. [System Design Primer on GitHub](https://github.com/donnemartin/system-design-primer) – Comprehensive guide for system design patterns and principles.
+> 1. [Gaurav Sen’s youtube channel](https://www.youtube.com/@gkcs/playlists) covers great examples of distributed systems design and microservices architectures.
+
+#### Scalability
+
+> 1. **Article**: [Scalability best practices on Azure](https://learn.microsoft.com/en-us/azure/architecture/framework/scalability) – Essential for Azure-native scaling practices.
+
+## Week 2: Mastering Architectural Patterns & Advanced System Design
 
 ### Goals
 
