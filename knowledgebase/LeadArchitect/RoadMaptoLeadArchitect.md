@@ -15,7 +15,7 @@ This roadmap provides a focused xx-days preparation plan to help aspiring Lead A
 
 #### 1.2.1. System Design
 
-> 1. [System Design Primer on GitHub](https://github.com/donnemartin/system-design-primer) – Comprehensive guide for system design patterns and principles.
+> 1. [System Design Primer on GitHub](https://github.com/donnemartin/system-design-primer) – Comprehensive guide for system design patterns and principles. - How to approach a system design interview question
 > 1. [Gaurav Sen’s youtube channel](https://www.youtube.com/@gkcs/playlists) covers great examples of distributed systems design and microservices architectures.
 
 #### 1.2.2. Scalability
