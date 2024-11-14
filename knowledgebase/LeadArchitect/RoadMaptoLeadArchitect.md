@@ -1,6 +1,6 @@
 # Road Map to Lead Architect
 
-This roadmap provides a focused xx-days preparation plan to help aspiring Lead Architects build the technical expertise, leadership skills, and architectural insights needed for success in senior roles. By following a structured, week-by-week approach and leveraging targeted resources, this guide equips you to confidently tackle the challenges of a Lead Architect position, from system design and cloud infrastructure to technical leadership and stakeholder communication.
+This roadmap provides a focused **x** number of days preparation plan to help aspiring Lead Architects build the technical expertise, leadership skills, and architectural insights needed for success in senior roles. By following a structured, week-by-week approach and leveraging targeted resources, this guide equips you to confidently tackle the challenges of a Lead Architect position, from system design and cloud infrastructure to technical leadership and stakeholder communication.
 
 ## Week-by-Week Breakdown
 
