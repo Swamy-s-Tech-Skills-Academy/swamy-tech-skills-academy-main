@@ -36,6 +36,91 @@ This roadmap provides a focused xx-days preparation plan to help aspiring Lead A
 > 1. <https://www.udemy.com/course/system-design-interview-prep/learn/lecture/28971348#overview> – Covers advanced system design concepts with a focus on interview preparation strategies.
 > 1. <https://www.udemy.com/course/software-architecture-design-of-modern-large-scale-systems/learn/lecture/26541980#overview> – Practical guide to architecting and designing large-scale systems, covering key patterns and best practices.
 
+---
+
+**Date: 13-Nov**
+
+Absolutely, moving **Scalability** into its own dedicated week will allow for a deeper focus on scaling strategies, which is crucial for a Lead Architect role. Here’s an updated roadmap with **Scalability** as a distinct section.
+
+---
+
+# Road Map to Lead Architect
+
+This roadmap provides a focused, step-by-step preparation plan to help aspiring Lead Architects build the technical expertise, leadership skills, and architectural insights needed for success in senior roles. By following a structured, week-by-week approach and leveraging targeted resources, this guide equips you to confidently tackle the challenges of a Lead Architect position, from system design and cloud infrastructure to technical leadership and stakeholder communication.
+
+---
+
+## Week-by-Week Breakdown
+
+### 1. Week 1: Foundation of System Design
+
+#### 1.1. Goals
+
+> 1. Master core system design fundamentals.
+> 1. Develop a solid understanding of system requirements, reliability, and core design principles.
+
+#### 1.2. Resources
+
+##### 1.2.1. System Design
+
+> 1. [System Design Primer on GitHub](https://github.com/donnemartin/system-design-primer) – Comprehensive guide for system design patterns and principles. Start with the basics of approaching system design questions in interviews.
+> 1. [Gaurav Sen’s YouTube channel](https://www.youtube.com/@gkcs/playlists) – Great examples of distributed systems design and microservices architectures.
+
+---
+
+### 2. Week 2: Mastering Architectural Patterns
+
+#### 2.1. Goals
+
+> 1. Learn architectural patterns for large-scale systems.
+> 1. Understand practical applications and the trade-offs of different architectural patterns.
+
+#### 2.2. Resources
+
+##### 2.2.1. Architectural Patterns
+
+> 1. [Udemy Course: System Design Interview Prep](https://www.udemy.com/course/system-design-interview-prep/learn/lecture/28971348#overview) – Covers advanced system design concepts with a focus on interview preparation strategies.
+> 1. [Udemy Course: Software Architecture & Design of Modern Large-Scale Systems](https://www.udemy.com/course/software-architecture-design-of-modern-large-scale-systems/learn/lecture/26541980#overview) – Practical guide to designing large-scale systems, covering key patterns and best practices.
+
+---
+
+### 3. Week 3: Scalability – Principles and Practices
+
+#### 3.1. Goals
+
+> 1. Understand the core principles of scalability and load management.
+> 1. Learn to identify bottlenecks and apply scaling techniques (horizontal and vertical).
+
+#### 3.2. Resources
+
+##### 3.2.1. Scalability
+
+> 1. **Article**: [Scalability Best Practices on Azure](https://learn.microsoft.com/en-us/azure/architecture/framework/scalability) – Essential reading for Azure-native scaling practices, exploring horizontal and vertical scaling, load balancing, and autoscaling.
+> 1. **Video**: [Martin Kleppmann on Scalability](https://www.youtube.com/watch?v=-pQu92FT0b0) – An in-depth discussion on scalability principles by Martin Kleppmann.
+> 1. **Book (Optional)**: *Designing Data-Intensive Applications* by Martin Kleppmann – Chapters on scalability provide deeper insights into data scaling and distributed system strategies.
+
+---
+
+### 4. Week 4: Advanced System Design and Trade-Off Analysis
+
+#### 4.1. Goals
+
+> 1. Dive into advanced system design concepts.
+> 1. Focus on understanding and analyzing trade-offs in system design choices.
+
+#### 4.2. Resources
+
+##### 4.2.1. Advanced System Design
+
+> 1. [System Design Course on Educative.io](https://www.educative.io/courses/grokking-the-system-design-interview) – Comprehensive resource covering advanced system components like databases, caches, load balancers, and messaging queues.
+> 1. [Gaurav Sen’s YouTube playlist on Distributed Systems](https://www.youtube.com/@gkcs/playlists) – Learn about consistency, availability, and partition tolerance with examples.
+> 1. **Book (Optional)**: *Fundamentals of Software Architecture* by Mark Richards and Neal Ford – Chapters on architectural characteristics and quality attributes offer insights into balancing trade-offs in architectural decisions.
+
+---
+
+This roadmap provides a focused progression that builds on foundational skills, deepens architectural knowledge, and culminates in advanced, strategic system design insights. Let me know if you'd like further tweaks or have specific goals for each topic!
+---
+
 <!--
 
 1. **Week 1: Foundation of Architecture Patterns & System Design**
