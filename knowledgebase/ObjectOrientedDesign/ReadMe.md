@@ -1,4 +1,4 @@
-# Learning Object Oriented Design Learning Plan
+# Learning Object Oriented Design
 
 ## Overview
 
