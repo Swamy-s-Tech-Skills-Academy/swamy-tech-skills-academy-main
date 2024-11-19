@@ -409,10 +409,6 @@ This balance allows you to leverage the latest language features while maintaini
 
 ---
 
-Here’s a coding guideline for selecting the most efficient method when dealing with potential null database connections:
-
----
-
 ## 6. Use Coalescing Assignment for Null Checks on Awaited Results
 
 **Purpose:** This guideline promotes conciseness and clarity in handling asynchronous results that may be null. Using the coalescing assignment (`??`) operator instead of a conditional statement makes code both shorter and more direct, particularly when checking awaited database connections.
