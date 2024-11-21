@@ -406,3 +406,48 @@ This balance allows you to leverage the latest language features while maintaini
 
 - **Team Familiarity**: Consider the experience and familiarity of your development team with C# features. If your team is accustomed to classic constructors, a gradual shift towards primary constructors might be beneficial.
 - **Code Review and Maintenance**: Discuss and document the chosen approach in code reviews to ensure consistency across the codebase. Keep an eye on consistency when mixing constructor styles and decide on a clear direction.
+
+---
+
+## 6. Use Coalescing Assignment for Null Checks on Awaited Results
+
+**Purpose:** This guideline promotes conciseness and clarity in handling asynchronous results that may be null. Using the coalescing assignment (`??`) operator instead of a conditional statement makes code both shorter and more direct, particularly when checking awaited database connections.
+
+### 6.1 Guideline
+
+For asynchronous method calls that return objects potentially null (like database connections), prefer using the coalescing assignment (`??`) operator to check for null values. This method improves readability and reduces verbosity by combining assignment and null-checking in one line.
+
+### 6.2 Rationale
+
+Using the `??` operator allows the developer to handle null values in a streamlined way, making the code shorter and reducing the likelihood of missing null checks. It also provides a clear intent that the code expects and handles potential nulls directly.
+
+### 6.3 Category
+
+> Code Conciseness and Clarity
+
+### 6.4 Sub-Category
+
+> Error Handling and Defensive Programming
+
+### 6.5 Examples
+
+❌ **Less Efficient:**
+
+```csharp
+using var sqlConnection = await _dbConnectionProvider.GetDbConnectionAsync();
+if (sqlConnection == null)
+{
+    throw new InvalidOperationException("Database connection is null.");
+}
+```
+
+✔ **More Efficient:**
+
+```csharp
+using var sqlConnection = await _dbConnectionProvider.GetDbConnectionAsync() ??
+    throw new InvalidOperationException("Database connection is null.");
+```
+
+### 6.6 When to Use
+
+Use coalescing (`??`) assignments for handling potentially null asynchronous results wherever a null check is essential, and where the code can be simplified by using a single line for null handling. Avoid using multiple lines for null checks if a concise alternative with `??` can achieve the same clarity.

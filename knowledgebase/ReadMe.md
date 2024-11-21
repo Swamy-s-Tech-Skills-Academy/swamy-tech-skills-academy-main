@@ -1,18 +1,18 @@
+# Knowledge Base
+
 Hi Swamy! It sounds like you're building a great foundational knowledge for your architecture interview prep. Let's organize these terms by grouping them by broader architectural themes and patterns to make it easier to understand where they fit in the big picture. I'll provide a brief guide to each concept and where it aligns within an architectural progression. This should help you see a logical path forward!
 
----
-
-### **1. Application Development Approaches**
+## **1. Application Development Approaches**
 
 These are approaches and principles that guide how applications are developed, especially in terms of scalability, maintainability, and deployment. They shape the way we think about constructing and scaling systems.
 
-#### **12-Factor App**
+### **12-Factor App**
 
 - A set of principles for building applications that are scalable, maintainable, and deployable across cloud environments.
 - Originated for cloud-native applications, but applicable in general to any well-structured app.
 - **Why**: Ensures apps are cloud-ready, portable, and resilient by focusing on modular code, configuration, dependency isolation, and deployment consistency.
 
-#### **Cloud Native**
+### **Cloud Native**
 
 - A design paradigm for building applications optimized for cloud environments, leveraging scalability, redundancy, and distributed architecture.
 - Typically includes containerization (like Docker) and orchestration (Kubernetes).
