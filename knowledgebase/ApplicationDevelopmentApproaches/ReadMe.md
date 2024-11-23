@@ -1,4 +1,4 @@
-# Application Development Approaches
+# Learning Application Development Approaches
 
 These are approaches and principles that guide how applications are developed, especially in terms of scalability, maintainability, and deployment. They shape the way we think about constructing and scaling systems.
 
