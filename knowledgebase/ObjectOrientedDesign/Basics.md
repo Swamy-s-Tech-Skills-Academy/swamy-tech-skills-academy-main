@@ -7,6 +7,7 @@ Object-Oriented Design (OOD) in C# revolves around designing systems by represen
 ## Reference
 
 > 1. <https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/>
+> 1. <https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700002>
 
 ### **1. Class**
 

@@ -6,7 +6,7 @@ This four-week plan will help you master OOD principles, understand design patte
 
 ---
 
-## OOD
+## OOD in C#
 
 > 1. Class
 > 1. Generalization
