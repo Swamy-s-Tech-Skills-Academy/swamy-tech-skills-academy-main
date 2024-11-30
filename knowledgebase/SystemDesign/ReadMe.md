@@ -27,4 +27,5 @@ Some description
 
 ### Time Series databases
 
+> 1. Metrics, throughputs, etc ???
 > 1. ???
