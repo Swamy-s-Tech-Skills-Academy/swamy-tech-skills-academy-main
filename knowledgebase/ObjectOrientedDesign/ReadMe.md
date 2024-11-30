@@ -6,6 +6,18 @@ This four-week plan will help you master OOD principles, understand design patte
 
 ---
 
+## OOD
+
+> 1. Class
+> 1. Generalization
+> 1. Specialization
+> 1. Association
+> 1. Aggregation (has a - Week)
+> 1. Composition (has a - Strong)
+> 1. Inheritance (is a)
+> 1. Dependency
+> 1. Realization
+> 
 ## **Week 1: Core OOD Concepts**
 
 ### **Goals**
