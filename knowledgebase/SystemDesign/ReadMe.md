@@ -28,4 +28,20 @@ Some description
 ### Time Series databases
 
 > 1. Metrics, throughputs, etc ???
+> 1. Append only write mode
+> 1. Bulk Reads
 > 1. ???
+
+### Analytics
+
+> 1. Datawearhouse
+> 1. Offline reporting
+> 1. Hadoop
+
+### RDBMS VS NoSQL
+
+> 1.
+
+### ACID Properties
+
+> 1.
