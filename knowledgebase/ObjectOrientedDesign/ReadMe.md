@@ -6,7 +6,7 @@ This four-week plan will help you master OOD principles, understand design patte
 
 ---
 
-## OOD in C#
+## OOD in `C#`
 
 > 1. Class
 > 1. Generalization
@@ -17,7 +17,7 @@ This four-week plan will help you master OOD principles, understand design patte
 > 1. Inheritance (is a)
 > 1. Dependency
 > 1. Realization
-> 
+
 ## **Week 1: Core OOD Concepts**
 
 ### **Goals**
