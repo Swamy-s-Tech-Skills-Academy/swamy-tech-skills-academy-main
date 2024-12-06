@@ -733,5 +733,3 @@ Here’s a revised order to prioritize DSA for interviews while still covering t
     _This ties everything together with principles for building scalable, cloud-ready applications._
 
 This order emphasizes DSA first to align with interview demands and then moves into design, architecture, and other advanced topics to support roles involving architecture and system design. Let me know if this revised sequence resonates better with your priorities!
-
-
