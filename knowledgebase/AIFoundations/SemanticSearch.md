@@ -81,7 +81,7 @@
 
 > 1. Chatbots and virtual assistants use semantic search to retrieve relevant answers.
 
-## 5. Example
+## 5. Example of `Semantic Search`
 
 > 1. `Query`: _"How can I improve my fitness?"_
 > 1. `Traditional Search`: Matches documents containing keywords like _"improve fitness"_.
