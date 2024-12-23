@@ -2,6 +2,11 @@
 
 Some Description
 
+## To Learn
+
+> 1. deep learning.
+> 2. deep learning algorithms.
+
 ### A. **Embeddings**
 
 `Embeddings` are numerical representations of data (such as words, sentences, images, or even users) in a multi-dimensional vector space. They are designed to capture the semantic meaning and relationships of data, enabling machines to process and compare them effectively. Embeddings are the backbone of many machine learning and natural language processing tasks.
