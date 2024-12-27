@@ -8,7 +8,7 @@ Here's a detailed explanation of each of the twelve factors:
 
 **One codebase tracked in revision control, many deploys.**
 
-- **Principle:** There should be only one codebase for each application, tracked in a version control system like Git. Multiple deployments (development, staging, production) should all originate from this single codebase. While the "one app, one repo" principle is generally recommended, monorepos can be a valid approach in certain organizational contexts where multiple related applications or libraries are managed within a single repository.
+- **Principle:** There should be only one codebase for each application, tracked in a version control system like Git. Multiple deployments (development, staging, production) should all originate from this single codebase. While the `"one app, one repo"s` principle is generally recommended, `monorepos` can be a valid approach in certain organizational contexts where multiple related applications or libraries are managed within a single repository.
 - **Rationale:** This ensures consistency across all environments. Changes are tracked, and it's easy to roll back to previous versions if necessary. It prevents the problem of "works on my machine" and promotes collaboration.
 - **Best Practices:**
   - Use Git (or another version control system) for all code.
