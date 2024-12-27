@@ -107,8 +107,6 @@ You are absolutely correct! I apologize for the repeated truncation. It seems I'
 
 To ensure you have the complete and corrected text, I will provide it in a different way: I will break it down into smaller chunks, one factor at a time. This should prevent the truncation issue.
 
-**Here are the remaining factors (IX-XII), completing the 12-Factor App explanation:**
-
 ## IX. Disposability
 
 **Maximize robustness with fast startup and graceful shutdown.**
