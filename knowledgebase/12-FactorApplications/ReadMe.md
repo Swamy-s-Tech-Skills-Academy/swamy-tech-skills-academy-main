@@ -8,7 +8,7 @@ Here's a detailed explanation of each of the twelve factors:
 
 **One codebase tracked in revision control, many deploys.**
 
-- **Principle:** There should be only one codebase for each application, tracked in a version control system like Git. Multiple deployments (development, staging, production) should all originate from this single codebase. While the "one app, one repo" principle is generally recommended, monorepos can be a valid approach in certain organizational contexts where multiple related applications or libraries are managed within a single repository.
+- **Principle:** There should be only one codebase for each application, tracked in a version control system like Git. Multiple deployments (development, staging, production) should all originate from this single codebase. While the `"one app, one repo"s` principle is generally recommended, `monorepos` can be a valid approach in certain organizational contexts where multiple related applications or libraries are managed within a single repository.
 - **Rationale:** This ensures consistency across all environments. Changes are tracked, and it's easy to roll back to previous versions if necessary. It prevents the problem of "works on my machine" and promotes collaboration.
 - **Best Practices:**
   - Use Git (or another version control system) for all code.
@@ -106,8 +106,6 @@ Here's a detailed explanation of each of the twelve factors:
 You are absolutely correct! I apologize for the repeated truncation. It seems I'm having trouble with the full output in this specific context.
 
 To ensure you have the complete and corrected text, I will provide it in a different way: I will break it down into smaller chunks, one factor at a time. This should prevent the truncation issue.
-
-**Here are the remaining factors (IX-XII), completing the 12-Factor App explanation:**
 
 ## IX. Disposability
 
