@@ -1,83 +1,49 @@
 # Lead Architect Knowledge Base
 
-Here's the complete structure based on your current setup and the previous discussion:
-
-**Top Folder Name:**
-
-The most appropriate name for your top folder depends on your specific goals and audience. Here are a few options:
-
-- **Your Name - Knowledge Base:** This is a straightforward option that clearly identifies the owner and purpose.
-- **Lead Architect Knowledge Base:** This emphasizes your career aspiration and the content's focus.
-- **Software Architecture & Leadership:** This is broader, emphasizing both technical and leadership aspects.
-- **Swamy's Tech Vault:** This is more personal and brand-oriented (if that's your preference).
-
-Ultimately, choose a name that resonates with you and clearly reflects the content's value.
-
-**Complete Folder Structure:**
-
-Here's the revised structure assuming you choose "**Lead Architect Knowledge Base**" as the top folder:
+Here's the updated folder structure with "Design & Patterns" split into "Software Architecture" and "Software Design," as we discussed:
 
 ```text
 Lead Architect Knowledge Base/
 ├── ArtificialIntelligence/
 │   ├── AIFoundations/
-│   │   ├── ...
 │   ├── GenerativeAI/
-│   │   ├── ...
-│   ├── MLFoundations/
-│   │   ├── ...
-│   └── ... (Other AI/ML subfolders)
+│   ├── MachineLearning/
+│   │   ├── SupervisedLearning/
+│   │   ├── UnsupervisedLearning/
+│   │   ├── ReinforcementLearning/
+│   │   ├── DeepLearning/
+│   │   └── ...
+│   ├── NaturalLanguageProcessing/
+│   ├── ComputerVision/
+│   └── Robotics/
 ├── CareerDevelopment/
 │   ├── LeadArchitect/
-│   │   ├── LeadArchitect.md
-│   │   └── RoadMaptoLeadArchitect.md
-│   └── ... (Other career-related content)
+│   │   ├── Responsibilities.md
+│   │   ├── Skills.md
+│   │   ├── InterviewPreparation.md
+│   │   ├── RoadMap.md
+│   │   └── ...
+│   ├── Leadership/
+│   ├── Communication/
+│   ├── Mentoring/
+│   └── ...
 ├── Cloud/
 │   ├── AWS/
-│   │   ├── ...
 │   ├── Azure/
-│   │   ├── ...
 │   ├── GCP/
-│   │   ├── ...
-│   ├── CloudNativeApplications/
-│   │   ├── ...
-│   └── ... (Other cloud-related content)
+│   ├── CloudNative/
+│   ├── MultiCloud/
+│   ├── Serverless/
+│   └── ...
 ├── Data/
-│   ├── DataScience_DataAnalytics/
-│   │   ├── ...
+│   ├── DataScience/
+│   ├── DataEngineering/
 │   ├── DataStore/
-│   │   ├── ...
-│   └── ... (Other data-related content)
-├── Design & Patterns/
-│   ├── ArchitecturalPatterns/
-│   │   ├── Styles/
-│   │   │   ├── Monolithic.md
-│   │   │   ├── Distributed/
-│   │   │   │   ├── Client-Server.md
-│   │   │   │   ├── Event-Driven.md
-│   │   │   │   ├── Microservices.md
-│   │   │   │   └── ...
-│   │   │   └── ...
-│   │   ├── Behavioral/
-│   │   │   ├── ...
-│   │   ├── Creational/
-│   │   │   ├── ...
-│   │   ├── Integration/
-│   │   │   ├── ...
-│   │   ├── Structural/
-│   │   │   ├── MVC.md
-│   │   │   ├── MVP.md
-│   │   │   ├── MVVM.md
-│   │   │   └── ...
+│   │   ├── RelationalDatabases/
+│   │   ├── NoSQLDatabases/
 │   │   └── ...
-│   ├── DesignPatterns/
-│   │   ├── ...
-│   ├── DomainDrivenDesign/
-│   │   ├── DomainModel.md
-│   │   └── ...
-│   ├── UML/
-│   │   ├── ...
-│   └── ... (Other design-related content)
+│   ├── BigData/
+│   └── ...
 ├── DevOps/
 │   ├── CI_CD/
 │   │   ├── GeneralPrinciples.md
@@ -90,34 +56,109 @@ Lead Architect Knowledge Base/
 │   │   └── ...
 │   ├── InfrastructureAsCode/
 │   │   ├── Terraform.md
+│   │   ├── Ansible.md
 │   │   └── ...
 │   ├── Monitoring/
 │   │   ├── Observability.md
+│   │   ├── Logging.md
+│   │   ├── Metrics.md
 │   │   └── ...
-│   └── ... (Other DevOps-related content)
+│   ├── ConfigurationManagement/
+│   └── ...
 ├── DevelopmentPractices/
 │   ├── 12-FactorApplications/
-│   │   ├── ...
 │   ├── CodeReviews/
-│   │   ├── ...
-│   └── ... (Other development practices)
+│   │   ├── BestPractices.md
+│   │   ├── Checklists.md
+│   │   └── ...
+│   ├── CodingStandards/
+│   │   ├── CSharp.md
+│   │   ├── Java.md
+│   │   └── ...
+│   ├── VersionControl/
+│       ├── Git.md
+│       └── ...
+│   └── ...
 ├── DSA/
-│   ├── ... (Data Structures and Algorithms)
+│   ├── DataStructures/
+│   │   ├── Arrays.md
+│   │   ├── LinkedLists.md
+│   │   └── ...
+│   ├── Algorithms/
+│   │   ├── Searching.md
+│   │   ├── Sorting.md
+│   │   └── ...
+│   └── ...
 ├── Performance/
 │   ├── PerformanceTuning/
-│   │   ├── ...
-│   └── ... (Other performance-related content)
+│   │   ├── DatabaseTuning.md
+│   │   ├── CodeOptimization.md
+│   │   └── ...
+│   ├── LoadTesting/
+│   └── ...
 ├── Security/
 │   ├── ApplicationSecurity/
-│   │   ├── ...
+│   │   ├── OWASP.md
+│   │   ├── SecurityTesting.md
+│   │   └── ...
 │   ├── SecureDevelopment/
+│   │   ├── SecureCodingPractices.md
+│   │   └── ...
+│   ├── InfrastructureSecurity/
+│   └── ...
+├── Software Architecture/ <--- Split from "Design & Patterns"
+│   ├── ArchitecturalStyles/
+│   │   ├── Monolithic.md
+│   │   ├── Distributed/
+│   │   │   ├── Client-Server.md
+│   │   │   ├── Event-Driven.md
+│   │   │   ├── Microservices.md
+│   │   │   └── ...
+│   │   └── ...
+│   ├── ArchitecturalPatterns/
+│   │   ├── Behavioral/
+│   │   ├── Creational/
+│   │   ├── Integration/
+│   │   ├── Structural/
+│   │   │   ├── MVC.md
+│   │   │   ├── MVP.md
+│   │   │   ├── MVVM.md
+│   │   │   └── ...
+│   │   └── ...
+│   ├── DomainDrivenDesign/
+│   │   ├── DomainModel.md
+│   │   └── ...
+│   ├── UML/
 │   │   ├── ...
-│   └── ... (Other security-related content)
-├── SoftwareDevelopment/
-│   ├── ApplicationDevelopmentApproaches/
-│   │   ├── ...
-│   ├── CleanArchitecture/
-│   │   ├── ...
-│   ├── MonolithicArchitecture/
-│
+│   ├── SystemDesign/
+│       ├── ...
+│   └── ...
+├── Software Design/ <--- Split from "Design & Patterns"
+│   ├── DesignPatterns/
+│   │   ├── Creational/
+│   │   ├── Structural/
+│   │   ├── Behavioral/
+│   │   └── ...
+│   ├── ObjectOrientedDesign/
+│   │   ├── SOLID.md
+│   │   ├── DesignPrinciples.md (DRY, KISS, YAGNI)
+│   │   └── ...
+│   └── ...
+├── Testing/
+│   ├── Integration/
+│   ├── Performance/
+│   ├── Unit/
+│   ├── TestAutomation/
+│   └── ...
+├── Daily/
+│   ├── ...
+└── ReadMe.md
 ```
+
+**Key Change:**
+
+- The "Design & Patterns" folder is now split into:
+  - **Software Architecture:** Containing high-level architectural concepts, patterns, DDD, UML, and System Design.
+  - **Software Design:** Containing lower-level design patterns and object-oriented design principles.
+
+This split provides a clearer separation of concerns and makes it easier to navigate between high-level architectural decisions and more detailed design considerations. This is a very common and effective way to organize this type of information.
