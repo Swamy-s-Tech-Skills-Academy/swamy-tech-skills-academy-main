@@ -1,1 +1,0 @@
-# Learning Clean Architecture
