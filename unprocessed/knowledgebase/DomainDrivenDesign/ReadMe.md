@@ -1,1 +1,0 @@
-# Learning Domain Driven Design
