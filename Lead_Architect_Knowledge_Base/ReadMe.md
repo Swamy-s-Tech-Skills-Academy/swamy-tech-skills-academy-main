@@ -6,6 +6,7 @@ Here's the updated folder structure with "Design & Patterns" split into "Softwar
 Lead Architect Knowledge Base/
 ├── ArtificialIntelligence/
 │   ├── AIFoundations/
+│   ├── ComputerVision/
 │   ├── GenerativeAI/
 │   ├── MachineLearning/
 │   │   ├── SupervisedLearning/
@@ -14,7 +15,6 @@ Lead Architect Knowledge Base/
 │   │   ├── DeepLearning/
 │   │   └── ...
 │   ├── NaturalLanguageProcessing/
-│   ├── ComputerVision/
 │   └── Robotics/
 ├── CareerDevelopment/
 │   ├── LeadArchitect/
