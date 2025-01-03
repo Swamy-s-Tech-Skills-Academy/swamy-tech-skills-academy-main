@@ -17,6 +17,7 @@ Lead Architect Knowledge Base/
 │   ├── NaturalLanguageProcessing/
 │   └── Robotics/
 ├── CareerDevelopment/
+│   ├── Communication/
 │   ├── LeadArchitect/
 │   │   ├── Responsibilities.md
 │   │   ├── Skills.md
@@ -24,14 +25,13 @@ Lead Architect Knowledge Base/
 │   │   ├── RoadMap.md
 │   │   └── ...
 │   ├── Leadership/
-│   ├── Communication/
 │   ├── Mentoring/
 │   └── ...
 ├── Cloud/
 │   ├── AWS/
 │   ├── Azure/
-│   ├── GCP/
 │   ├── CloudNative/
+│   ├── GCP/
 │   ├── MultiCloud/
 │   ├── Serverless/
 │   └── ...
