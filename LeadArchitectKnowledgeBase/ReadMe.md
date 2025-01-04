@@ -36,13 +36,13 @@ Lead Architect Knowledge Base/
 │   ├── Serverless/
 │   └── ...
 ├── Data/
-│   ├── DataScience/
-│   ├── DataEngineering/
-│   ├── DataStore/
-│   │   ├── RelationalDatabases/
-│   │   ├── NoSQLDatabases/
-│   │   └── ...
 │   ├── BigData/
+│   ├── DataEngineering/
+│   ├── DataScience/
+│   ├── DataStore/
+│   │   ├── NoSQLDatabases/
+│   │   ├── RelationalDatabases/
+│   │   └── ...
 │   └── ...
 ├── DevOps/
 │   ├── CI_CD/
