@@ -47,6 +47,8 @@ LeadArchitectKnowledgeBase/
 │   │   └── ReadMe.md
 │   ├── LeadArchitect
 │   │   ├── ArchitecturalScenarios.md
+│   │   ├── CaseStudies.md
+│   │   ├── EmergingTrends.md
 │   │   ├── InterviewPreparation
 │   │   │   ├── General
 │   │   │   │   ├── Behavioral_Questions.md
@@ -84,6 +86,7 @@ LeadArchitectKnowledgeBase/
 │   ├── GCP
 │   │   └── ReadMe.md
 │   ├── MultiCloud
+│   │   ├── HybridCloud.md
 │   │   └── ReadMe.md
 │   └── Serverless
 │       └── ReadMe.md
@@ -141,7 +144,7 @@ LeadArchitectKnowledgeBase/
 │       ├── Logging.md
 │       ├── Metrics.md
 │       └── Observability.md
-├── Interview Preparation  **(Top-Level - If you choose this organization)**
+├── Interview Preparation  **(Top-Level - Alternative)**
 │   ├── General
 │   │   ├── Behavioral_Questions.md
 │   │   ├── Communication_Tips.md
