@@ -46,24 +46,24 @@ Lead Architect Knowledge Base/
 │   └── ...
 ├── DevOps/
 │   ├── CI_CD/
-│   │   ├── GeneralPrinciples.md
-│   │   ├── Pipelines.md
-│   │   ├── CloudNativeCI_CD.md
 │   │   ├── Containers/
 │   │       ├── Docker.md
 │   │       ├── Kubernetes.md
 │   │       └── ...
-│   │   └── ...
-│   ├── InfrastructureAsCode/
-│   │   ├── Terraform.md
-│   │   ├── Ansible.md
-│   │   └── ...
-│   ├── Monitoring/
-│   │   ├── Observability.md
-│   │   ├── Logging.md
-│   │   ├── Metrics.md
+│   │   ├── CloudNativeCI_CD.md
+│   │   ├── GeneralPrinciples.md
+│   │   ├── Pipelines.md
 │   │   └── ...
 │   ├── ConfigurationManagement/
+│   ├── InfrastructureAsCode/
+│   │   ├── Ansible.md
+│   │   ├── Terraform.md
+│   │   └── ...
+│   ├── Monitoring/
+│   │   ├── Logging.md
+│   │   ├── Metrics.md
+│   │   ├── Observability.md
+│   │   └── ...
 │   └── ...
 ├── DevelopmentPractices/
 │   ├── 12-FactorApplications/
