@@ -4,155 +4,218 @@ Here's the updated folder structure with "Design & Patterns" split into "Softwar
 
 ```text
 Lead Architect Knowledge Base/
+├── ArchitecturalPatterns/
+│   └── ... (other architectural patterns)
 ├── ArtificialIntelligence/
 │   ├── AIFoundations/
+│   │   └── ReadMe.md
 │   ├── ComputerVision/
+│   │   └── ReadMe.md
 │   ├── GenerativeAI/
+│   │   └── ReadMe.md
 │   ├── MachineLearning/
-│   │   ├── SupervisedLearning/
-│   │   ├── UnsupervisedLearning/
-│   │   ├── ReinforcementLearning/
 │   │   ├── DeepLearning/
-│   │   └── ...
+│   │   │   └── ReadMe.md
+│   │   ├── ReinforcementLearning/
+│   │   │   └── ReadMe.md
+│   │   ├── SupervisedLearning/
+│   │   │   └── ReadMe.md
+│   │   ├── UnsupervisedLearning/
+│   │   │   └── ReadMe.md
+│   │   └── ReadMe.md
 │   ├── NaturalLanguageProcessing/
-│   └── Robotics/
+│   │   └── ReadMe.md
+│   ├── Robotics/
+│   │   └── ReadMe.md
+│   └── ReadMe.md
 ├── CareerDevelopment/
 │   ├── Communication/
+│   │   └── ReadMe.md
 │   ├── LeadArchitect/
-│   │   ├── Responsibilities.md
-│   │   ├── Skills.md
+│   │   ├── ArchitecturalScenarios.md
+│   │   ├── CaseStudies.md
+│   │   ├── EmergingTrends.md
 │   │   ├── InterviewPreparation.md
+│   │   ├── PatternsAndBestPractices.md
+│   │   ├── ReadMe.md
+│   │   ├── ReferenceMaterials.md
+│   │   ├── Responsibilities.md
 │   │   ├── RoadMap.md
-│   │   └── ...
+│   │   ├── Skills.md
+│   │   └── ToolsAndTechnologies.md
 │   ├── Leadership/
+│   │   └── ReadMe.md
 │   ├── Mentoring/
-│   └── ...
+│   │   └── ReadMe.md
+│   └── ReadMe.md
 ├── Cloud/
 │   ├── AWS/
+│   │   └── ReadMe.md
 │   ├── Azure/
+│   │   └── ReadMe.md
 │   ├── CloudNative/
+│   │   └── ReadMe.md
 │   ├── GCP/
+│   │   └── ReadMe.md
 │   ├── MultiCloud/
+│   │   ├── HybridCloud.md
+│   │   └── ReadMe.md
 │   ├── Serverless/
-│   └── ...
+│   │   └── ReadMe.md
+│   └── ReadMe.md
+├── Daily/
+│   ├── 2025/
+│   │   ├── 01/
+│   │   │   ├── 03.md
+│   │   │   ├── 06.md
+│   │   │   ├── 07.md
+│   │   │   ├── 07_CSInDepth.md
+│   │   │   ├── 08_Clean_Architecture_CQRS.md
+│   │   │   └── 09.md
+│   │   └── 02/
+│   └── 2026/
+│   └── ReadMe.md
 ├── Data/
 │   ├── BigData/
+│   │   └── ReadMe.md
 │   ├── DataEngineering/
+│   │   └── ReadMe.md
 │   ├── DataScience/
+│   │   └── ReadMe.md
 │   ├── DataStore/
 │   │   ├── NoSQLDatabases/
+│   │   │   └── ReadMe.md
 │   │   ├── RelationalDatabases/
-│   │   └── ...
-│   └── ...
+│   │   │   └── ReadMe.md
+│   │   └── ReadMe.md
+│   └── ReadMe.md
+├── DevelopmentPractices/
+│   ├── 12-FactorApplications/
+│   │   └── ReadMe.md
+│   ├── CodeReviews/
+│   │   ├── BestPractices.md
+│   │   ├── Checklists.md
+│   │   └── ReadMe.md
+│   ├── CodingStandards/
+│   │   ├── CSharp.md
+│   │   ├── Java.md
+│   │   └── ReadMe.md
+│   ├── VersionControl/
+│   │   ├── Git.md
+│   │   └── ReadMe.md
+│   └── ReadMe.md
 ├── DevOps/
 │   ├── CI_CD/
-│   │   ├── Containers/
-│   │       ├── Docker.md
-│   │       ├── Kubernetes.md
-│   │       └── ...
 │   │   ├── CloudNativeCI_CD.md
+│   │   ├── Containers/
+│   │   │   ├── Docker.md
+│   │   │   ├── Kubernetes.md
+│   │   │   └── ReadMe.md
 │   │   ├── GeneralPrinciples.md
 │   │   ├── Pipelines.md
-│   │   └── ...
+│   │   └── ReadMe.md
 │   ├── ConfigurationManagement/
+│   │   └── ReadMe.md
 │   ├── InfrastructureAsCode/
 │   │   ├── Ansible.md
-│   │   ├── Terraform.md
-│   │   └── ...
+│   │   ├── ARM.md
+│   │   ├── Biceps.md
+│   │   ├── ReadMe.md
+│   │   └── Terraform.md
 │   ├── Monitoring/
 │   │   ├── Logging.md
 │   │   ├── Metrics.md
 │   │   ├── Observability.md
-│   │   └── ...
-│   └── ...
-├── DevelopmentPractices/
-│   ├── 12-FactorApplications/
-│   ├── CodeReviews/
-│   │   ├── BestPractices.md
-│   │   ├── Checklists.md
-│   │   └── ...
-│   ├── CodingStandards/
-│   │   ├── CSharp.md
-│   │   ├── Java.md
-│   │   └── ...
-│   ├── VersionControl/
-│       ├── Git.md
-│       └── ...
-│   └── ...
+│   │   └── ReadMe.md
+│   └── ReadMe.md
 ├── DSA/
-│   ├── DataStructures/
-│   │   ├── Arrays.md
-│   │   ├── LinkedLists.md
-│   │   └── ...
 │   ├── Algorithms/
 │   │   ├── Searching.md
 │   │   ├── Sorting.md
-│   │   └── ...
-│   └── ...
+│   │   └── ReadMe.md
+│   ├── DataStructures/
+│   │   ├── Arrays.md
+│   │   ├── LinkedLists.md
+│   │   └── ReadMe.md
+│   └── ReadMe.md
+├── Interview Preparation/
+│   ├── General/
+│   │   ├── Behavioral_Questions.md
+│   │   ├── Communication_Tips.md
+│   │   ├── Questions_to_Ask_Interviewer.md
+│   │   ├── ReadMe.md
+│   │   └── STAR_Method.md
+│   ├── Technical/
+│   │   ├── APIDesign.md
+│   │   ├── Architectural_Patterns.md
+│   │   ├── Cloud_Computing.md
+│   │   ├── Databases.md
+│   │   ├── DevOps.md
+│   │   ├── ReadMe.md
+│   │   └── Security.md
+│   └── ReadMe.md
 ├── Performance/
-│   ├── PerformanceTuning/
-│   │   ├── DatabaseTuning.md
-│   │   ├── CodeOptimization.md
-│   │   └── ...
 │   ├── LoadTesting/
+│   │   └── ...
+│   ├── PerformanceTuning/
+│   │   ├── CodeOptimization.md
+│   │   ├── DatabaseTuning.md
+│   │   └── ...
 │   └── ...
+├── ReadMe.md
 ├── Security/
 │   ├── ApplicationSecurity/
 │   │   ├── OWASP.md
 │   │   ├── SecurityTesting.md
 │   │   └── ...
+│   ├── InfrastructureSecurity/
+│   │   └── ...
 │   ├── SecureDevelopment/
 │   │   ├── SecureCodingPractices.md
 │   │   └── ...
-│   ├── InfrastructureSecurity/
 │   └── ...
-├── Software Architecture/ <--- Split from "Design & Patterns"
+├── Software Architecture/
+│   ├── ArchitecturalPatterns/
+│   │   └── ... (other architectural patterns)
 │   ├── ArchitecturalStyles/
-│   │   ├── Monolithic.md
 │   │   ├── Distributed/
 │   │   │   ├── Client-Server.md
 │   │   │   ├── Event-Driven.md
 │   │   │   ├── Microservices.md
 │   │   │   └── ...
-│   │   └── ...
-│   ├── ArchitecturalPatterns/
-│   │   ├── Behavioral/
-│   │   ├── Creational/
-│   │   ├── Integration/
-│   │   ├── Structural/
-│   │   │   ├── MVC.md
-│   │   │   ├── MVP.md
-│   │   │   ├── MVVM.md
-│   │   │   └── ...
-│   │   └── ...
+│   │   └── Monolithic.md
 │   ├── DomainDrivenDesign/
 │   │   ├── DomainModel.md
 │   │   └── ...
-│   ├── UML/
-│   │   ├── ...
 │   ├── SystemDesign/
-│       ├── ...
-│   └── ...
-├── Software Design/ <--- Split from "Design & Patterns"
+│   │   └── ...
+│   └── UML/
+│       └── ...
+├── SoftwareArchitecturePatterns/ <--- New folder for architectural patterns
+│   ├── CQRS/
+│   │   └── ReadMe.md
+│   └── ... (other architectural patterns)
+├── Software Design/
 │   ├── DesignPatterns/
-│   │   ├── Creational/
-│   │   ├── Structural/
 │   │   ├── Behavioral/
-│   │   └── ...
+│   │   │   └── ...
+│   │   ├── Creational/
+│   │   │   └── ...
+│   │   └── Structural/
+│   │       └── ...
 │   ├── ObjectOrientedDesign/
-│   │   ├── SOLID.md
-│   │   ├── DesignPrinciples.md (DRY, KISS, YAGNI)
-│   │   └── ...
+│   │   ├── DesignPrinciples.md
+│   │   └── SOLID.md
 │   └── ...
-├── Testing/
-│   ├── Integration/
-│   ├── Performance/
-│   ├── Unit/
-│   ├── TestAutomation/
-│   └── ...
-├── Daily/
-│   ├── ...
-└── ReadMe.md
+└── Testing/
+    ├── Integration/
+    │   └── ...
+    ├── Performance/
+    │   └── ...
+    ├── TestAutomation/
+    │   └── ...
+    └── Unit/
+        └── ...
 ```
 
 **Key Change:**
