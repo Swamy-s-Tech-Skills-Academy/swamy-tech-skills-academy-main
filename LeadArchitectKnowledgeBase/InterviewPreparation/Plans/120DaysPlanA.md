@@ -1,4 +1,4 @@
-# 120-day phase-wise plan focusing on Azure cloud for Architect/Sr. Staff Engineer roles.
+# 120-day phase-wise plan focusing on Azure cloud for Architect/Sr. Staff Engineer roles
 
 **Key Principles:** (Same as before)
 
