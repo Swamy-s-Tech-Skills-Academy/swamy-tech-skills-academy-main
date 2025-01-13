@@ -11,7 +11,7 @@ This comprehensive plan provides a structured, thorough approach for Lead Archit
 
 **Daily Schedule (Approximately 1 hour/day):**
 
-**Phase 1: Foundations & Core Concepts (Weeks 1-3, 21 hours - spread over 25 days to allow for deeper dives)**
+**Phase 1: Foundations & Core Concepts (Weeks 1-3, 21 hours - spread over 25 days)**
 
 - **Focus:** Architectural principles, architectural styles, basic system design.
 - **Breakdown:**
@@ -23,7 +23,7 @@ This comprehensive plan provides a structured, thorough approach for Lead Archit
   - Two foundational system designs (e.g., URL shortener, e-commerce - high-level diagrams and key components)
   - Document trade-offs between monolithic and microservices architectures (table format recommended)
 
-**Phase 2: Design Patterns & System Design Deep Dive (Weeks 4-6, 21 hours - spread over 25 days to allow for more coding and analysis)**
+**Phase 2: Design Patterns & System Design Deep Dive (Weeks 4-6, 21 hours - spread over 25 days)**
 
 - **Focus:** GoF Design Patterns, Distributed System Patterns, Case Studies.
 - **Breakdown:**
@@ -36,7 +36,7 @@ This comprehensive plan provides a structured, thorough approach for Lead Archit
   - Implement five design patterns in code (across Creational, Structural, and Behavioral categories)
   - Analyze two real-world case studies and document lessons learned (focus on trade-offs and key architectural decisions)
 
-**Phase 3: Technology Deep Dive & Behavioral Preparation (Weeks 7-9, 21 hours - allows more time for behavioral and tech exploration)**
+**Phase 3: Technology Deep Dive & Behavioral Preparation (Weeks 7-9, 21 hours)**
 
 - **Focus:** Company-specific tech stack, databases, messaging, API design, behavioral interview prep.
 - **Breakdown:**
@@ -70,23 +70,31 @@ This comprehensive plan provides a structured, thorough approach for Lead Archit
 - **Design Patterns:** Are you able to explain and apply GoF and distributed system patterns in code and design diagrams, justifying your choices?
 - **Behavioral Questions:** Are your STAR answers concise, impactful, and tailored to the role, demonstrating leadership, problem-solving, and communication skills? Can you handle unexpected questions?
 - **Communication:** Can you articulate design decisions and trade-offs to both technical and non-technical audiences using diagrams, clear explanations, and appropriate technical vocabulary?
-- **Company Knowledge:** Are you familiar with their tech stack, architecture, business domain, challenges, and culture?
+- **Company Knowledge:** Are you familiar with their tech stack, architecture, business domain, and challenges?
 
-**Resources:** (Same as before - included for completeness)
+**Resources:**
 
-- **Books:** (As previously listed)
-- **Podcasts:** (As previously listed)
-- **Talks:** (As previously listed)
-- **Tools:** (As previously listed)
-- **Platforms:** (As previously listed)
-
-## Key changes made
-
-- **75-Day Plan:** The plan is now explicitly a 75-day plan, with adjustments to the phases to reflect this.
-- **Phase Duration:** The first three phases have been extended slightly to allow for more in-depth study and practice. This addresses the concern that some topics needed more than a single hour to cover adequately.
-- **More Specific Activities:** The activities for each day are more specific, providing clearer guidance on how to spend the study time.
-- **Increased Milestones:** The number of mock interviews and behavioral questions to prepare has been increased to provide more practice.
-- **More In-Depth Topics:** Several topics have been expanded to include more relevant subtopics (e.g., more distributed system patterns, more API design considerations).
-- **Emphasis on Rationale:** The plan now explicitly emphasizes understanding the _why_ behind architectural decisions and technology choices.
-
-This revised plan should provide a more robust and effective approach to your preparation.
+- **Books:**
+  - _Designing Data-Intensive Applications_ by Martin Kleppmann
+  - _The Phoenix Project_ by Gene Kim
+  - _Domain-Driven Design_ by Eric Evans (if relevant)
+  - _Building Microservices_ by Sam Newman
+  - _Cloud Native Patterns_ by Cornelia Davis
+  - _The Pragmatic Programmer_ by Andrew Hunt and David Thomas
+  - _The Manager's Path_ by Camille Fournier (for leadership insights)
+  - _Radical Candor_ by Kim Scott (for communication and leadership strategies)
+  - _Clean Architecture_ by Robert C. Martin ("Uncle Bob")
+  - _Head First Design Patterns_ by Eric Freeman & Elisabeth Robson
+  - _Patterns of Enterprise Application Architecture_ by Martin Fowler
+- **Podcasts:**
+  - _Software Engineering Daily_ (Architecture episodes)
+  - _Architecting Software_
+  - _Tech Lead Journal_
+- **Talks/Videos:**
+  - Martin Fowler on architecture (search YouTube, InfoQ, etc.)
+  - Sam Newman on microservices (search YouTube, InfoQ, etc.)
+  - GOTO Conferences (search their website/YouTube channel)
+  - InfoQ (website and YouTube channel)
+- **Tools:**
+  - API Design: Postman, SwaggerHub, OpenAPI/Swagger Editor
+  - Diagramming: Miro, Diagrams.net
