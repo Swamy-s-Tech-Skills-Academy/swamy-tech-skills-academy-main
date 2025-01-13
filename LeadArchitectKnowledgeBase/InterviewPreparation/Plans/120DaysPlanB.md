@@ -1,12 +1,12 @@
-# **120-Day Azure-Focused Architect/Sr. Staff Engineer Interview Preparation Plan**
+# 120-Day Azure-Focused Architect/Sr. Staff Engineer Interview Preparation Plan
 
 This 120-day preparation plan focuses on Azure-centric concepts, cloud architecture, and leadership skills crucial for Architect or Sr. Staff Engineer roles. It is structured into detailed phases, allowing you to build expertise progressively.
 
 ---
 
-### **Phase 1: Cloud Architecture Foundations (Days 1–30)**
+## **Phase 1: Cloud Architecture Foundations (Days 1–30)**
 
-#### **Goal:** Establish a strong foundation in Azure and core cloud architectural concepts.
+### **Goal:** Establish a strong foundation in Azure and core cloud architectural concepts.
 
 **Key Topics:**
 
