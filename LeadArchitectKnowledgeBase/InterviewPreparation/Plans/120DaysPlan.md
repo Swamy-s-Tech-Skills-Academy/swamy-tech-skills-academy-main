@@ -1,64 +1,68 @@
 # Consolidated and Enhanced 120-Day Azure Architect/Sr. Staff Engineer Interview Preparation Plan
 
-This plan is designed to comprehensively prepare you for Azure Architect and Sr. Staff Engineer roles. It combines the best aspects of previous iterations, focusing on actionable steps, Azure expertise, and leadership development.
+This plan is designed to comprehensively prepare you for Azure Architect and Sr. Staff Engineer roles. It combines the best aspects, focusing on actionable steps, Azure expertise, and leadership development.
 
 ## Key Principles
 
-- **Prioritization:** Focus on the most relevant skills and knowledge.
-- **Consistency Over Intensity:** Regular study is more effective than cramming.
-- **Spaced Repetition:** Review concepts periodically.
-- **Active Learning:** Engage in hands-on activities.
-- **Influence Without Authority:** Develop influencing skills.
+> 1. `Prioritization:` Focus on the most relevant skills and knowledge.
+> 1. `Consistency Over Intensity:` Regular study is more effective than cramming.
+> 1. `Spaced Repetition:` Review concepts periodically.
+> 1. `Active Learning:` Engage in hands-on activities.
+> 1. `Influence Without Authority:` Develop influencing skills.
 
 ## Phase 1: Foundations & Core Concepts (Days 1-30)
 
-**Goal:** Build a solid foundation in cloud computing, Azure fundamentals, and architectural principles.
+### 1.1. Goal
 
-**Key Topics:**
+> 1. Build a solid foundation in cloud computing, Azure fundamentals, and architectural principles.
 
-- Cloud Fundamentals: IaaS, PaaS, SaaS, serverless, shared responsibility model, cloud economics (TCO, ROI).
-- Azure Fundamentals: Regions, resource groups, subscriptions, management groups, Azure Resource Manager (ARM), pricing models, support plans.
-- Architectural Principles: SOLID, DRY, KISS, YAGNI, SoC, Cohesion/Coupling, DDD (strategic & tactical DDD, Bounded Contexts, Aggregates).
-- Azure Core Services: Compute (VMs, App Service, Functions), Storage (Blob, Queue, Table, File), Networking (VNet, Subnets, NSGs, Load Balancers, DNS).
+### 1.2. Key Topics
 
-**Activities:**
+> 1. Cloud Fundamentals: IaaS, PaaS, SaaS, serverless, shared responsibility model, cloud economics (TCO, ROI).
+> 1. Azure Fundamentals: Regions, resource groups, subscriptions, management groups, Azure Resource Manager (ARM), pricing models, support plans.
+> 1. Architectural Principles: SOLID, DRY, KISS, YAGNI, SoC, Cohesion/Coupling, DDD (strategic & tactical DDD, Bounded Contexts, Aggregates).
+> 1. Azure Core Services: Compute (VMs, App Service, Functions), Storage (Blob, Queue, Table, File), Networking (VNet, Subnets, NSGs, Load Balancers, DNS).
 
-- Explore Azure Portal and CLI/PowerShell: Deploy basic resources (VMs, storage accounts, virtual networks), manage configurations, practice using ARM templates for basic deployments.
-- Complete Microsoft Azure Fundamentals learning path on Microsoft Learn.
-- Apply architectural principles to simple cloud design scenarios (e.g., design a simple web application architecture, considering scalability and availability).
-- Analyze Azure pricing calculators for different services and usage patterns. Compare costs of different compute options (VMs vs. App Service vs. Functions).
+### 1.3. Activities
 
-**Milestones:**
+> 1. Explore Azure Portal and CLI/PowerShell: Deploy basic resources (VMs, storage accounts, virtual networks), manage configurations, practice using ARM templates for basic deployments.
+> 1. Complete Microsoft Azure Fundamentals learning path on Microsoft Learn.
+> 1. Apply architectural principles to simple cloud design scenarios (e.g., design a simple web application architecture, considering scalability and availability).
+> 1. Analyze Azure pricing calculators for different services and usage patterns. Compare costs of different compute options (VMs vs. App Service vs. Functions).
 
-- Deploy a basic web application (static/dynamic) on Azure using VMs/App Service _and_ as a serverless application (Functions). Implement basic monitoring.
-- Explain the trade-offs between IaaS, PaaS, and SaaS, providing Azure-specific examples for each.
-- Design a simple application architecture diagram demonstrating the application of at least 3 architectural principles (e.g., separation of concerns, single responsibility, open/closed). Document the rationale for your design choices.
+### 1.4. Milestones
+
+> 1. Deploy a basic web application (static/dynamic) on Azure using VMs/App Service _and_ as a serverless application (Functions). Implement basic monitoring.
+> 1. Explain the trade-offs between IaaS, PaaS, and SaaS, providing Azure-specific examples for each.
+> 1. Design a simple application architecture diagram demonstrating the application of at least 3 architectural principles (e.g., separation of concerns, single responsibility, open/closed). Document the rationale for your design choices.
 
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60)
 
-**Goal:** Deepen understanding of design patterns, distributed systems, and core Azure services. Integrate security best practices.
+### 2.1. Goal
 
-**Key Topics:**
+> 1. Deepen understanding of design patterns, distributed systems, and core Azure services. Integrate security best practices.
 
-- GoF Design Patterns: Creational (Factory, Abstract Factory, Singleton), Structural (Adapter, Decorator, Facade), Behavioral (Strategy, Observer, Command) – with Azure-specific examples.
-- Distributed System Patterns: Circuit Breaker (Polly), Retry with Backoff (Azure SDK retry policies), Saga (Durable Functions), CAP theorem, eventual consistency (Cosmos DB), idempotent operations, message queues (Queues, Service Bus), stream processing (Event Hubs).
-- Azure Compute & Networking: Advanced VM configurations, autoscaling, load balancing (Application Gateway, Load Balancer), Virtual Machine Scale Sets, Availability Sets/Zones, containerization (Docker, Kubernetes), AKS (networking, security, deployments), ACI.
-- Azure Storage & Databases: Storage tiers (Hot, Cool, Archive), lifecycle management, Azure SQL Database, Cosmos DB (data modeling, partitioning, consistency levels), Azure Database for PostgreSQL/MySQL/MariaDB.
-- Security Basics: Network Security Groups (NSGs), Azure Firewall, Web Application Firewall (WAF).
+### 2.2. Key Topics
 
-**Activities:**
+> 1. GoF Design Patterns: Creational (Factory, Abstract Factory, Singleton), Structural (Adapter, Decorator, Facade), Behavioral (Strategy, Observer, Command) – with Azure-specific examples.
+> 1. Distributed System Patterns: Circuit Breaker (Polly), Retry with Backoff (Azure SDK retry policies), Saga (Durable Functions), CAP theorem, eventual consistency (Cosmos DB), idempotent operations, message queues (Queues, Service Bus), stream processing (Event Hubs).
+> 1. Azure Compute & Networking: Advanced VM configurations, autoscaling, load balancing (Application Gateway, Load Balancer), Virtual Machine Scale Sets, Availability Sets/Zones, containerization (Docker, Kubernetes), AKS (networking, security, deployments), ACI.
+> 1. Azure Storage & Databases: Storage tiers (Hot, Cool, Archive), lifecycle management, Azure SQL Database, Cosmos DB (data modeling, partitioning, consistency levels), Azure Database for PostgreSQL/MySQL/MariaDB.
+> 1. Security Basics: Network Security Groups (NSGs), Azure Firewall, Web Application Firewall (WAF).
 
-- Code implementations of at least 5 key design patterns in a cloud-native context using Azure SDKs (e.g., .NET, Java, Python). Create unit tests and demonstrate Azure integration (e.g., using Key Vault for secrets management).
-- Design a system architecture diagram incorporating at least 3 distributed system patterns (e.g., Circuit Breaker, Retry, Saga) to address specific challenges like fault tolerance, scalability, and data consistency in a realistic scenario (e.g., e-commerce order processing). Document the rationale for pattern selection and trade-offs.
-- Deploy a multi-container application with persistent storage on AKS using Helm charts. Configure network policies to restrict traffic flow between pods. Integrate Azure Key Vault to manage secrets for the application. Implement basic logging and monitoring.
-- Create a sample Cosmos DB database. Implement data partitioning based on a specific use case and document the chosen partitioning strategy and its expected performance implications. Test different consistency levels and document observed behavior.
+### 2.3. Activities
 
-**Milestones:**
+> 1. Code implementations of at least 5 key design patterns in a cloud-native context using Azure SDKs (e.g., .NET, Java, Python). Create unit tests and demonstrate Azure integration (e.g., using Key Vault for secrets management).
+> 1. Design a system architecture diagram incorporating at least 3 distributed system patterns (e.g., Circuit Breaker, Retry, Saga) to address specific challenges like fault tolerance, scalability, and data consistency in a realistic scenario (e.g., e-commerce order processing). Document the rationale for pattern selection and trade-offs.
+> 1. Deploy a multi-container application with persistent storage on AKS using Helm charts. Configure network policies to restrict traffic flow between pods. Integrate Azure Key Vault to manage secrets for the application. Implement basic logging and monitoring.
+> 1. Create a sample Cosmos DB database. Implement data partitioning based on a specific use case and document the chosen partitioning strategy and its expected performance implications. Test different consistency levels and document observed behavior.
 
-- Implement at least 5 design patterns in code with Azure integration and unit tests.
-- Design a system architecture diagram incorporating at least 3 distributed system patterns, documenting rationale and trade-offs.
-- Deploy a secure and monitored containerized application on AKS.
-- Document data modeling, partitioning, and consistency strategies for a sample Cosmos DB use case, including performance testing results.
+### 2.4. Milestones
+
+> 1. Implement at least 5 design patterns in code with Azure integration and unit tests.
+> 1. Design a system architecture diagram incorporating at least 3 distributed system patterns, documenting rationale and trade-offs.
+> 1. Deploy a secure and monitored containerized application on AKS.
+> 1. Document data modeling, partitioning, and consistency strategies for a sample Cosmos DB use case, including performance testing results.
 
 ## Phase 3: Advanced Azure Services & Cross-Cutting Concerns (Days 61-90)
 
