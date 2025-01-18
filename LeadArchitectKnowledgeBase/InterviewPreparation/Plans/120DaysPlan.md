@@ -14,7 +14,7 @@ This plan is designed to comprehensively prepare you for Azure Architect and Sr.
 
 ### 1.1. Goal
 
-> 1. Build a solid foundation in cloud computing, Azure fundamentals, and architectural principles.
+> 1. Build a solid foundation in cloud computing, Azure fundamentals, architectural principles, and Infrastructure as Code.
 
 ### 1.2. Key Topics
 
@@ -22,19 +22,24 @@ This plan is designed to comprehensively prepare you for Azure Architect and Sr.
 > 1. Azure Fundamentals: Regions, resource groups, subscriptions, management groups, Azure Resource Manager (ARM), pricing models, support plans.
 > 1. Architectural Principles: SOLID, DRY, KISS, YAGNI, SoC, Cohesion/Coupling, DDD (strategic & tactical DDD, Bounded Contexts, Aggregates).
 > 1. Azure Core Services: Compute (VMs, App Service, Functions), Storage (Blob, Queue, Table, File), Networking (VNet, Subnets, NSGs, Load Balancers, DNS).
+> 1. Infrastructure as Code (IaC) Fundamentals: What is IaC? Benefits of IaC (version control, automation, repeatability), Introduction to ARM Templates, Bicep, and Terraform.
 
 ### 1.3. Activities
 
-> 1. Explore Azure Portal and CLI/PowerShell: Deploy basic resources (VMs, storage accounts, virtual networks), manage configurations, practice using ARM templates for basic deployments.
+> 1. Explore Azure Portal and CLI/PowerShell: Deploy basic resources (VMs, storage accounts, virtual networks), manage configurations.
 > 1. Complete Microsoft Azure Fundamentals learning path on Microsoft Learn.
 > 1. Apply architectural principles to simple cloud design scenarios (e.g., design a simple web application architecture, considering scalability and availability).
 > 1. Analyze Azure pricing calculators for different services and usage patterns. Compare costs of different compute options (VMs vs. App Service vs. Functions).
+> 1. Introduction to ARM Templates: Deploy a parameterized ARM template to create a storage account with specific configurations (e.g., storage account type, access tier). Understand the structure of an ARM template (parameters, variables, resources, outputs, and modules).
+> 1. Introduction to Bicep: Create a Bicep template to deploy a virtual network with a subnet and a Network Security Group. Compare Bicep syntax to ARM template syntax, highlighting the improved readability and conciseness of Bicep. Use modules in Bicep.
+> 1. Introduction to Terraform (Optional): Deploy a resource group and a storage account using Terraform. Understand the Terraform workflow (init, plan, apply, destroy) and basic Terraform concepts (providers, resources, state).
 
 ### 1.4. Milestones
 
-> 1. Deploy a basic web application (static/dynamic) on Azure using VMs/App Service _and_ as a serverless application (Functions). Implement basic monitoring.
+> 1. Deploy a basic web application (static/dynamic) on Azure using VMs/App Service and as a serverless application (Functions). Implement basic monitoring. Deploy the infrastructure for the web application (e.g., virtual network, web app service plan) using parameterized ARM templates and Bicep. Explain the benefits of using IaC, including version control (and how it enables collaboration and rollback), automation (and how it reduces manual errors and improves consistency), and repeatability (and how it facilitates consistent environments across different stages). Demonstrate the use of parameters and variables in your templates.
 > 1. Explain the trade-offs between IaaS, PaaS, and SaaS, providing Azure-specific examples for each.
 > 1. Design a simple application architecture diagram demonstrating the application of at least 3 architectural principles (e.g., separation of concerns, single responsibility, open/closed). Document the rationale for your design choices.
+> 1. (Optional) Deploy basic Azure resources using Terraform. Compare and contrast ARM templates, Bicep, and Terraform, focusing on syntax, features, and use cases. Explain the concept of Terraform state.
 
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60)
 
@@ -66,36 +71,38 @@ This plan is designed to comprehensively prepare you for Azure Architect and Sr.
 
 ## Phase 3: Advanced Azure Services & Cross-Cutting Concerns (Days 61-90)
 
-**Goal:** Master advanced Azure services and address critical cross-cutting concerns with a focus on enterprise-grade solutions. Integrate security and governance practices.
+### Goal
 
-**Key Topics:**
+> 1. Master advanced Azure services and address critical cross-cutting concerns with a focus on enterprise-grade solutions. Integrate security and governance practices.
 
-- Advanced Azure Services: Azure Data Factory (ADF), Azure Synapse Analytics (ASA), Azure Databricks, Power BI, Azure Integration Services (Logic Apps, Event Grid, Service Bus, API Management).
-- Security & Governance: Azure Security Center/Microsoft Defender for Cloud, Azure Sentinel, Key Vault (advanced usage), Azure AD (authentication, authorization, RBAC, Managed Identities, Conditional Access), Azure Policy, Azure Blueprints, Cost Management + billing alerts.
-- Observability & Monitoring: Azure Monitor (metrics, logs, alerts, dashboards, workbooks), Application Insights (telemetry, custom events, dependencies), Log Analytics (Kusto Query Language (KQL)), distributed tracing.
-- Reliability & Operational Excellence: High Availability (HA) and Disaster Recovery (DR) strategies (geo-redundancy, multi-region deployments, Azure Site Recovery), business continuity, capacity planning, Infrastructure as Code (IaC) with ARM templates/Terraform, CI/CD pipelines (Azure DevOps/GitHub Actions), automated testing, configuration management, incident management.
+### Key Topics
 
-**Activities:**
+> 1. Advanced Azure Services: Azure Data Factory (ADF), Azure Synapse Analytics (ASA), Azure Databricks, Power BI, Azure Integration Services (Logic Apps, Event Grid, Service Bus, API Management).
+> 1. Security & Governance: Azure Security Center/Microsoft Defender for Cloud, Azure Sentinel, Key Vault (advanced usage), Azure AD (authentication, authorization, RBAC, Managed Identities, Conditional Access), Azure Policy, Azure Blueprints, Cost Management + billing alerts.
+> 1. Observability & Monitoring: Azure Monitor (metrics, logs, alerts, dashboards, workbooks), Application Insights (telemetry, custom events, dependencies), Log Analytics (Kusto Query Language (KQL)), distributed tracing.
+> 1. Reliability & Operational Excellence: High Availability (HA) and Disaster Recovery (DR) strategies (geo-redundancy, multi-region deployments, Azure Site Recovery), business continuity, capacity planning, Infrastructure as Code (IaC) with ARM templates/Terraform, CI/CD pipelines (Azure DevOps/GitHub Actions), automated testing, configuration management, incident management.
 
-- Build an end-to-end data pipeline that ingests 1GB of data per hour from Blob Storage to Synapse Analytics, performing transformations using Databricks and visualizing the results in Power BI. Ensure the pipeline is secured using Managed Identities and appropriate RBAC roles. Implement data quality checks and monitoring.
-- Configure security and governance for a sample Azure environment, including:
-  - Implementing Azure Policy to enforce specific compliance requirements (e.g., allowed resource types, allowed regions, tag enforcement).
-  - Configuring Azure Security Center/Defender for Cloud to monitor for security vulnerabilities and implement recommendations.
-  - Setting up Azure Key Vault for managing secrets, certificates, and keys, and integrating it with other Azure services.
-  - Implementing Azure AD Conditional Access policies for enhanced security.
-- Implement comprehensive monitoring and alerting for an application deployed on AKS, including:
-  - Configuring Application Insights for application performance monitoring, custom telemetry, and distributed tracing.
-  - Setting up Azure Monitor alerts for key metrics (CPU utilization, memory usage, request latency, error rates).
-  - Creating Log Analytics queries to analyze application logs and identify potential issues. Create custom dashboards for monitoring application health.
-- Develop a disaster recovery plan for a sample application using Azure Site Recovery, including defining RTO and RPO. Test failover and failback procedures.
-- Automate infrastructure deployments and application deployments using ARM templates or Terraform and Azure DevOps/GitHub Actions. Implement automated tests as part of the CI/CD pipeline.
+### Activities
 
-**Milestones:**
+> 1. Build an end-to-end data pipeline that ingests 1GB of data per hour from Blob Storage to Synapse Analytics, performing transformations using Databricks and visualizing the results in Power BI. Ensure the pipeline is secured using Managed Identities and appropriate RBAC roles. Implement data quality checks and monitoring.
+> 1. Configure security and governance for a sample Azure environment, including:
+>    - Implementing Azure Policy to enforce specific compliance requirements (e.g., allowed resource types, allowed regions, tag enforcement).
+>    - Configuring Azure Security Center/Defender for Cloud to monitor for security vulnerabilities and implement recommendations.
+>    - Setting up Azure Key Vault for managing secrets, certificates, and keys, and integrating it with other Azure services.
+>    - Implementing Azure AD Conditional Access policies for enhanced security.
+> 1. Implement comprehensive monitoring and alerting for an application deployed on AKS, including:
+>    - Configuring Application Insights for application performance monitoring, custom telemetry, and distributed tracing.
+>    - Setting up Azure Monitor alerts for key metrics (CPU utilization, memory usage, request latency, error rates).
+>    - Creating Log Analytics queries to analyze application logs and identify potential issues. Create custom dashboards for monitoring application health.
+> 1. Develop a disaster recovery plan for a sample application using Azure Site Recovery, including defining RTO and RPO. Test failover and failback procedures.
+> 1. Automate infrastructure deployments and application deployments using ARM templates or Terraform and Azure DevOps/GitHub Actions. Implement automated tests as part of the CI/CD pipeline.
 
-- Implement a secure and monitored data pipeline using Azure data services, meeting specified performance and data quality requirements.
-- Configure a secure and governed Azure environment using Azure Policy, Security Center, Key Vault, and Azure AD.
-- Implement comprehensive monitoring and alerting for a sample application using Azure Monitor and Application Insights, demonstrating distributed tracing capabilities.
-- Create an IaC template for deploying a multi-tier application with HA and DR capabilities. Implement a basic CI/CD pipeline for the application.
+### Milestones
+
+> 1. Implement a secure and monitored data pipeline using Azure data services, meeting specified performance and data quality requirements.
+> 1. Configure a secure and governed Azure environment using Azure Policy, Security Center, Key Vault, and Azure AD.
+> 1. Implement comprehensive monitoring and alerting for a sample application using Azure Monitor and Application Insights, demonstrating distributed tracing capabilities.
+> 1. Create an IaC template for deploying a multi-tier application with HA and DR capabilities. Implement a basic CI/CD pipeline for the application.
 
 ## Phase 4: Advanced Architectures, Reliability, and Operational Excellence (Days 91-105)
 
