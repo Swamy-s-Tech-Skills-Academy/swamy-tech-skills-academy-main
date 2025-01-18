@@ -12,17 +12,19 @@ This plan is designed to comprehensively prepare you for Azure Architect and Sr.
 
 ## Phase 1: Foundations & Core Concepts (Days 1-30)
 
+This phase ensures a robust understanding of Azure fundamentals, architectural principles, and IaC concepts, setting the stage for deeper exploration in subsequent phases.
+
 ### 1.1. Goal
 
 > 1. Build a solid foundation in cloud computing, Azure fundamentals, architectural principles, and Infrastructure as Code.
 
 ### 1.2. Key Topics
 
-> 1. Cloud Fundamentals: IaaS, PaaS, SaaS, serverless, shared responsibility model, cloud economics (TCO, ROI).
-> 1. Azure Fundamentals: Regions, resource groups, subscriptions, management groups, Azure Resource Manager (ARM), pricing models, support plans.
-> 1. Architectural Principles: SOLID, DRY, KISS, YAGNI, SoC, Cohesion/Coupling, DDD (strategic & tactical DDD, Bounded Contexts, Aggregates).
-> 1. Azure Core Services: Compute (VMs, App Service, Functions), Storage (Blob, Queue, Table, File), Networking (VNet, Subnets, NSGs, Load Balancers, DNS).
-> 1. Infrastructure as Code (IaC) Fundamentals: What is IaC? Benefits of IaC (version control, automation, repeatability), Introduction to ARM Templates, Bicep, and Terraform.
+> 1. Cloud Fundamentals: IaaS, PaaS, SaaS, Serverless computing, Shared responsibility model, Cloud economics: TCO, ROI
+> 1. Azure Fundamentals: Regions, resource groups, subscriptions, management groups, Azure Resource Manager (ARM), pricing models, and support plans
+> 1. Architectural Principles: SOLID, DRY, KISS, YAGNI, SoC, Cohesion/Coupling, Domain-Driven Design (DDD)
+> 1. Azure Core Services: Compute: Virtual Machines (VMs), App Service, Functions; Storage: Blob, Queue, Table, File; Networking: VNets, Subnets, NSGs, Load Balancers, DNS
+> 1. IaC Fundamentals: Introduction to ARM Templates, Bicep, and Terraform; Benefits: Version control, automation, and repeatability.
 
 ### 1.3. Activities
 
