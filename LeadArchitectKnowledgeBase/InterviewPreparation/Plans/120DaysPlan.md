@@ -75,49 +75,50 @@ This phase deepens your understanding of design patterns, distributed systems, a
 
 #### GoF Design Patterns (with Azure Examples)
 
-> 1. Creational: Factory, Abstract Factory (e.g., creating different types of VMs), Singleton (e.g., a configuration service).
-> 1. Structural: Adapter (e.g., adapting a legacy system to use Azure Storage), Decorator (e.g., adding caching to an Azure Function), Facade (e.g., simplifying access to multiple Azure services).
-> 1. Behavioral: Strategy (e.g., choosing different retry strategies with Polly), Observer (e.g., Event Grid for reacting to events), Command (e.g., queuing operations with Service Bus).
+> 1. `Creational`: Factory, Abstract Factory (e.g., creating different types of VMs), Singleton (e.g., a configuration service).
+> 1. `Structural`: Adapter (e.g., adapting a legacy system to use Azure Storage), Decorator (e.g., adding caching to an Azure Function), Facade (e.g., simplifying access to multiple Azure services).
+> 1. `Behavioral`: Strategy (e.g., choosing different retry strategies with Polly), Observer (e.g., Event Grid for reacting to events), Command (e.g., queuing operations with Service Bus).
 
 #### Distributed System Patterns (with Azure Implementations)
 
-> 1. Resilience: Circuit Breaker (Polly with Azure SDKs), Retry with Backoff (Azure SDK retry policies, exponential backoff), Bulkhead.
-> 1. Data Consistency: CAP theorem, eventual consistency (Cosmos DB consistency levels), idempotent operations.
-> 1. Messaging and Streaming: Message queues (Azure Queues, Service Bus), stream processing (Event Hubs).
-> 1. Orchestration: Saga (Durable Functions for long-running transactions).
+> 1. `Resilience`: Circuit Breaker (Polly with Azure SDKs), Retry with Backoff (Azure SDK retry policies, exponential backoff), Bulkhead.
+> 1. `Data Consistency`: CAP theorem, eventual consistency (Cosmos DB consistency levels), idempotent operations.
+> 1. `Messaging and Streaming`: Message queues (Azure Queues, Service Bus), stream processing (Event Hubs).
+> 1. `Orchestration`: Saga (Durable Functions for long-running transactions), Outbox pattern (for reliable message delivery between services).
 
 #### Azure Compute & Networking
 
-> 1. Advanced Compute: Advanced VM configurations (extensions, custom images), autoscaling (VM Scale Sets, App Service autoscale), load balancing (Application Gateway, Load Balancer - internal/external), Availability Sets/Zones.
-> 1. Containerization: Docker, Kubernetes, AKS (networking, security, deployments, ingress controllers), ACI (for simple container deployments).
+> 1. `Advanced Compute`: Advanced VM configurations (extensions, custom images), autoscaling (VM Scale Sets, App Service autoscale), load balancing (Application Gateway, Load Balancer - internal/external), Availability Sets/Zones.
+> 1. `Containerization`: Docker, Kubernetes, AKS (networking, security, deployments, ingress controllers), ACI (for simple container deployments).
 
 #### Azure Storage & Databases
 
-> 1. Storage: Storage tiers (Hot, Cool, Archive), lifecycle management, Shared Access Signatures (SAS).
-> 1. Databases: Azure SQL Database (performance tuning, security), Cosmos DB (data modeling, partitioning, consistency levels, change feed), Azure Database for PostgreSQL/MySQL/MariaDB.
+> 1. `Storage`: Storage tiers (Hot, Cool, Archive), lifecycle management, Shared Access Signatures (SAS).
+> 1. `Databases`: Azure SQL Database (performance tuning, security), Cosmos DB (data modeling, partitioning, consistency levels, change feed), Azure Database for PostgreSQL/MySQL/MariaDB.
 
-#### Security Basics
+#### Key Considerations (Integrated into Activities)
 
-> 1. Network Security: Network Security Groups (NSGs), Azure Firewall, Web Application Firewall (WAF), DDoS protection.
-> 1. Identity and Access Management: Azure Active Directory (Azure AD), Role-Based Access Control (RBAC), Managed Identities.
-
-Observability: Metrics, logs, tracing, distributed tracing, Application Insights, Log Analytics, Azure Monitor.
-API Management: API gateways, security, rate limiting, authentication, Azure API Management (APIM).
-High Availability/Disaster Recovery: Multi-region deployments, global traffic management, Azure Traffic Manager.
-Security Hardening: AAD Pod Identity, Azure Policy for AKS, container image security.
-CI/CD: Azure DevOps, GitHub Actions, automated testing, security scanning, progressive rollouts (canary/blue-green).
-Performance Testing: Load testing, Azure Load Testing, k6.
-Cost Optimization: Azure Cost Management, scaling policies, reserved instances.
+> 1. `Security`: Network Security Groups (NSGs), Azure Firewall, Web Application Firewall (WAF), DDoS protection, Azure Active Directory (Azure AD), Role-Based Access Control (RBAC), Managed Identities, AAD Pod Identity, Azure Policy for AKS, container image security, Azure Security Center (Defender for Cloud).
+> 1. `Observability`: Metrics, logs, tracing, distributed tracing, Application Insights, Log Analytics, Azure Monitor.
+> 1. `API Management`: API gateways, security, rate limiting, authentication, Azure API Management (APIM).
+> 1. `High Availability/Disaster Recovery`: Multi-region deployments, global traffic management, Azure Traffic Manager.
+> 1. `CI/CD`: Azure DevOps, GitHub Actions, automated testing, security scanning, progressive rollouts (canary/blue-green).
+> 1. `Performance Testing`: Load testing, Azure Load Testing, k6.
+> 1. `Cost Optimization`: Azure Cost Management, scaling policies, reserved instances.
+> 1. `Troubleshooting`: AKS networking troubleshooting, kubectl, Azure Network Watcher.
 
 ### 2.3. Activities
 
 > 1. Design Pattern Implementation: Choose at least 3 GoF design patterns relevant to cloud scenarios and implement them in code using Azure SDKs (e.g., .NET, Java, Python). Create unit tests and demonstrate Azure integration (e.g., using Key Vault for secrets management, Azure Storage for persistence). Document the benefits and trade-offs of each pattern in the context of Azure.
 > 1. Distributed Systems Design: Design a system architecture diagram incorporating at least 3 distributed system patterns (e.g., Circuit Breaker, Retry, Saga, Queue-Based Load Leveling) to address specific challenges like fault tolerance, scalability, and data consistency in a realistic scenario (e.g., e-commerce order processing, IoT data ingestion). Document the rationale for pattern selection, trade-offs, and Azure service choices.
-> 1. Container Orchestration and Security with AKS: > 1. Deploy a multi-container application with persistent storage on AKS using Helm charts. > 2. Configure network policies to restrict traffic flow between pods. > 3. Integrate Azure Key Vault to manage secrets for the application. > 4. Implement AAD Pod Identity in AKS to securely access Azure resources. > 5. Define and enforce Azure Policies to restrict container registry usage and enforce security best practices.
-> 1. API Management and Observability: > 1. Deploy Azure API Management (APIM) to expose the AKS services securely and configure policies for rate limiting and authentication. > 2. Implement basic logging and monitoring using Azure Monitor. > 3. Implement distributed tracing for the application using Application Insights. Set up custom telemetry for critical operations.
-> 1. CI/CD and Performance Testing for AKS: > 1. Set up an end-to-end CI/CD pipeline using Azure DevOps or GitHub Actions to deploy applications to AKS. > 2. Implement security scanning (e.g., Trivy) and automated testing. > 3. Implement blue-green deployments. > 4. Conduct performance tests using Azure Load Testing to evaluate the scalability of the AKS-based application under different loads.
+> 1. Container Orchestration and Security with AKS: Deploy a multi-container application with persistent storage on AKS using Helm charts. Configure network policies to restrict traffic flow between pods. Integrate Azure Key Vault to manage secrets for the application. Implement AAD Pod Identity in AKS to securely access Azure resources. Define and enforce Azure Policies to restrict container registry usage and enforce security best practices.
+> 1. API Management and Observability: Deploy Azure API Management (APIM) to expose the AKS services securely and configure policies for rate limiting and authentication. Implement basic logging and monitoring using Azure Monitor. Implement distributed tracing for the application using Application Insights. Set up custom telemetry for critical operations.
+> 1. CI/CD and Performance Testing for AKS: Set up an end-to-end CI/CD pipeline using Azure DevOps or GitHub Actions to deploy applications to AKS. Implement security scanning (e.g., Trivy) and automated testing. Implement blue-green deployments. Conduct performance tests using Azure Load Testing to evaluate the scalability of the AKS-based application under different loads.
 > 1. Cosmos DB Data Modeling and Partitioning: Create a sample Cosmos DB database. Implement data partitioning based on a specific use case (e.g., storing product catalogs, user profiles) and document the chosen partitioning strategy, its expected performance implications, and how it addresses query patterns. Test different consistency levels and document observed behavior and trade-offs.
-> 1. Multi-Region AKS Deployment (New): Deploy a basic AKS cluster across two Azure regions. Configure Azure Traffic Manager to route traffic to the active region. Test failover scenarios to demonstrate high availability and disaster recovery.
+> 1. Multi-Region AKS Deployment: Deploy a basic AKS cluster across two Azure regions. Configure Azure Traffic Manager to route traffic to the active region. Test failover scenarios to demonstrate high availability and disaster recovery.
+> 1. Cost Optimization for AKS: Use Azure Cost Management to analyze the AKS cluster's cost profile. Implement scaling policies (horizontal pod autoscaler, cluster autoscaler) and evaluate reserved instances vs. pay-as-you-go options.
+> 1. Security Auditing with Defender for Cloud: Enable Defender for Cloud to audit the AKS cluster for vulnerabilities, implement security recommendations, and document the findings.
+> 1. AKS Networking Troubleshooting: Perform a troubleshooting exercise to resolve common AKS networking issues (e.g., DNS resolution failures, pod-to-pod communication issues, external connectivity problems, Ingress controller issues) using kubectl and Azure Network Watcher. Document the troubleshooting steps and resolutions.
 
 ### 2.4. Milestones
 
