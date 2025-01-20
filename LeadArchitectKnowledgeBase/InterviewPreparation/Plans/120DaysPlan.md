@@ -65,31 +65,55 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60)
 
+This phase deepens your understanding of design patterns, distributed systems, and core Azure services, integrating security best practices for robust cloud solutions.
+
 ### 2.1. Goal
 
 > 1. Deepen understanding of design patterns, distributed systems, and core Azure services. Integrate security best practices.
 
 ### 2.2. Key Topics
 
-> 1. GoF Design Patterns: Creational (Factory, Abstract Factory, Singleton), Structural (Adapter, Decorator, Facade), Behavioral (Strategy, Observer, Command) – with Azure-specific examples.
-> 1. Distributed System Patterns: Circuit Breaker (Polly), Retry with Backoff (Azure SDK retry policies), Saga (Durable Functions), CAP theorem, eventual consistency (Cosmos DB), idempotent operations, message queues (Queues, Service Bus), stream processing (Event Hubs).
-> 1. Azure Compute & Networking: Advanced VM configurations, autoscaling, load balancing (Application Gateway, Load Balancer), Virtual Machine Scale Sets, Availability Sets/Zones, containerization (Docker, Kubernetes), AKS (networking, security, deployments), ACI.
-> 1. Azure Storage & Databases: Storage tiers (Hot, Cool, Archive), lifecycle management, Azure SQL Database, Cosmos DB (data modeling, partitioning, consistency levels), Azure Database for PostgreSQL/MySQL/MariaDB.
-> 1. Security Basics: Network Security Groups (NSGs), Azure Firewall, Web Application Firewall (WAF).
+#### GoF Design Patterns (with Azure Examples)
+
+> 1. Creational: Factory, Abstract Factory (e.g., creating different types of VMs), Singleton (e.g., a configuration service).
+> 1. Structural: Adapter (e.g., adapting a legacy system to use Azure Storage), Decorator (e.g., adding caching to an Azure Function), Facade (e.g., simplifying access to multiple Azure services).
+> 1. Behavioral: Strategy (e.g., choosing different retry strategies with Polly), Observer (e.g., Event Grid for reacting to events), Command (e.g., queuing operations with Service Bus).
+
+#### Distributed System Patterns (with Azure Implementations)
+
+> 1. Resilience: Circuit Breaker (Polly with Azure SDKs), Retry with Backoff (Azure SDK retry policies, exponential backoff), Bulkhead.
+> 1. Data Consistency: CAP theorem, eventual consistency (Cosmos DB consistency levels), idempotent operations.
+> 1. Messaging and Streaming: Message queues (Azure Queues, Service Bus), stream processing (Event Hubs).
+> 1. Orchestration: Saga (Durable Functions for long-running transactions).
+
+#### Azure Compute & Networking
+
+> 1. Advanced Compute: Advanced VM configurations (extensions, custom images), autoscaling (VM Scale Sets, App Service autoscale), load balancing (Application Gateway, Load Balancer - internal/external), Availability Sets/Zones.
+> 1. Containerization: Docker, Kubernetes, AKS (networking, security, deployments, ingress controllers), ACI (for simple container deployments).
+
+#### Azure Storage & Databases
+
+> 1. Storage: Storage tiers (Hot, Cool, Archive), lifecycle management, Shared Access Signatures (SAS).
+> 1. Databases: Azure SQL Database (performance tuning, security), Cosmos DB (data modeling, partitioning, consistency levels, change feed), Azure Database for PostgreSQL/MySQL/MariaDB.
+
+#### Security Basics
+
+> 1. Network Security: Network Security Groups (NSGs), Azure Firewall, Web Application Firewall (WAF), DDoS protection.
+> 1. Identity and Access Management: Azure Active Directory (Azure AD), Role-Based Access Control (RBAC), Managed Identities.
 
 ### 2.3. Activities
 
-> 1. Code implementations of at least 5 key design patterns in a cloud-native context using Azure SDKs (e.g., .NET, Java, Python). Create unit tests and demonstrate Azure integration (e.g., using Key Vault for secrets management).
-> 1. Design a system architecture diagram incorporating at least 3 distributed system patterns (e.g., Circuit Breaker, Retry, Saga) to address specific challenges like fault tolerance, scalability, and data consistency in a realistic scenario (e.g., e-commerce order processing). Document the rationale for pattern selection and trade-offs.
-> 1. Deploy a multi-container application with persistent storage on AKS using Helm charts. Configure network policies to restrict traffic flow between pods. Integrate Azure Key Vault to manage secrets for the application. Implement basic logging and monitoring.
-> 1. Create a sample Cosmos DB database. Implement data partitioning based on a specific use case and document the chosen partitioning strategy and its expected performance implications. Test different consistency levels and document observed behavior.
+> 1. Design Pattern Implementation: Choose at least 3 GoF design patterns relevant to cloud scenarios and implement them in code using Azure SDKs (e.g., .NET, Java, Python). Create unit tests and demonstrate Azure integration (e.g., using Key Vault for secrets management, Azure Storage for persistence). Document the benefits and trade-offs of each pattern in the context of Azure.
+> 1. Distributed Systems Design: Design a system architecture diagram incorporating at least 3 distributed system patterns (e.g., Circuit Breaker, Retry, Saga, Queue-Based Load Leveling) to address specific challenges like fault tolerance, scalability, and data consistency in a realistic scenario (e.g., e-commerce order processing, IoT data ingestion). Document the rationale for pattern selection, trade-offs, and Azure service choices.
+> 1. Container Orchestration with AKS: Deploy a multi-container application with persistent storage on AKS using Helm charts. Configure network policies to restrict traffic flow between pods. Integrate Azure Key Vault to manage secrets for the application. Implement basic logging and monitoring using Azure Monitor. Implement Ingress Controller.
+> 1. Cosmos DB Data Modeling and Partitioning: Create a sample Cosmos DB database. Implement data partitioning based on a specific use case (e.g., storing product catalogs, user profiles) and document the chosen partitioning strategy, its expected performance implications, and how it addresses query patterns. Test different consistency levels and document observed behavior and trade-offs.
 
 ### 2.4. Milestones
 
-> 1. Implement at least 5 design patterns in code with Azure integration and unit tests.
-> 1. Design a system architecture diagram incorporating at least 3 distributed system patterns, documenting rationale and trade-offs.
-> 1. Deploy a secure and monitored containerized application on AKS.
-> 1. Document data modeling, partitioning, and consistency strategies for a sample Cosmos DB use case, including performance testing results.
+> 1. Implement at least 3 GoF design patterns in code with Azure integration, unit tests, and documented rationale.
+> 1. Design a system architecture diagram incorporating at least 3 distributed system patterns, documenting rationale, trade-offs, and Azure service choices.
+> 1. Deploy a secure, monitored, and scalable containerized application on AKS using Helm, network policies, Key Vault, and an Ingress Controller.
+> 1. Document data modeling, partitioning, and consistency strategies for a sample Cosmos DB use case, including performance testing results and trade-offs.
 
 ## Phase 3: Advanced Azure Services & Cross-Cutting Concerns (Days 61-90)
 
