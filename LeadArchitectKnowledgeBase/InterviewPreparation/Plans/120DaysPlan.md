@@ -65,11 +65,11 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60)
 
-This phase deepens your understanding of design patterns, distributed systems, and core Azure services, integrating security best practices for robust cloud solutions.
+This phase deepens your understanding of design patterns, distributed systems, and core Azure services, integrating security, observability, performance testing, and cost optimization best practices.
 
 ### 2.1. Goal
 
-> 1. Deepen understanding of design patterns, distributed systems, and core Azure services. Integrate security best practices.
+> 1. Deepen understanding of design patterns, distributed systems, and core Azure services. Integrate security, observability, performance testing, and cost optimization best practices.
 
 ### 2.2. Key Topics
 
@@ -104,12 +104,18 @@ This phase deepens your understanding of design patterns, distributed systems, a
 Observability: Metrics, logs, tracing, distributed tracing, Application Insights, Log Analytics, Azure Monitor.
 API Management: API gateways, security, rate limiting, authentication, Azure API Management (APIM).
 High Availability/Disaster Recovery: Multi-region deployments, global traffic management, Azure Traffic Manager.
+Security Hardening: AAD Pod Identity, Azure Policy for AKS, container image security.
+CI/CD: Azure DevOps, GitHub Actions, automated testing, security scanning, progressive rollouts (canary/blue-green).
+Performance Testing: Load testing, Azure Load Testing, k6.
+Cost Optimization: Azure Cost Management, scaling policies, reserved instances.
 
 ### 2.3. Activities
 
 > 1. Design Pattern Implementation: Choose at least 3 GoF design patterns relevant to cloud scenarios and implement them in code using Azure SDKs (e.g., .NET, Java, Python). Create unit tests and demonstrate Azure integration (e.g., using Key Vault for secrets management, Azure Storage for persistence). Document the benefits and trade-offs of each pattern in the context of Azure.
 > 1. Distributed Systems Design: Design a system architecture diagram incorporating at least 3 distributed system patterns (e.g., Circuit Breaker, Retry, Saga, Queue-Based Load Leveling) to address specific challenges like fault tolerance, scalability, and data consistency in a realistic scenario (e.g., e-commerce order processing, IoT data ingestion). Document the rationale for pattern selection, trade-offs, and Azure service choices.
-> 1. Container Orchestration with AKS (Enhanced): Deploy a multi-container application with persistent storage on AKS using Helm charts. Configure network policies to restrict traffic flow between pods. Integrate Azure Key Vault to manage secrets for the application. Implement basic logging and monitoring using Azure Monitor. Implement Ingress Controller. Implement distributed tracing for the application using Application Insights. Set up custom telemetry for critical operations. Deploy Azure API Management (APIM) to expose the AKS services securely and configure policies for rate limiting and authentication.
+> 1. Container Orchestration and Security with AKS: > 1. Deploy a multi-container application with persistent storage on AKS using Helm charts. > 2. Configure network policies to restrict traffic flow between pods. > 3. Integrate Azure Key Vault to manage secrets for the application. > 4. Implement AAD Pod Identity in AKS to securely access Azure resources. > 5. Define and enforce Azure Policies to restrict container registry usage and enforce security best practices.
+> 1. API Management and Observability: > 1. Deploy Azure API Management (APIM) to expose the AKS services securely and configure policies for rate limiting and authentication. > 2. Implement basic logging and monitoring using Azure Monitor. > 3. Implement distributed tracing for the application using Application Insights. Set up custom telemetry for critical operations.
+> 1. CI/CD and Performance Testing for AKS: > 1. Set up an end-to-end CI/CD pipeline using Azure DevOps or GitHub Actions to deploy applications to AKS. > 2. Implement security scanning (e.g., Trivy) and automated testing. > 3. Implement blue-green deployments. > 4. Conduct performance tests using Azure Load Testing to evaluate the scalability of the AKS-based application under different loads.
 > 1. Cosmos DB Data Modeling and Partitioning: Create a sample Cosmos DB database. Implement data partitioning based on a specific use case (e.g., storing product catalogs, user profiles) and document the chosen partitioning strategy, its expected performance implications, and how it addresses query patterns. Test different consistency levels and document observed behavior and trade-offs.
 > 1. Multi-Region AKS Deployment (New): Deploy a basic AKS cluster across two Azure regions. Configure Azure Traffic Manager to route traffic to the active region. Test failover scenarios to demonstrate high availability and disaster recovery.
 
@@ -117,7 +123,7 @@ High Availability/Disaster Recovery: Multi-region deployments, global traffic ma
 
 > 1. Implement at least 3 GoF design patterns in code with Azure integration, unit tests, and documented rationale.
 > 1. Design a system architecture diagram incorporating at least 3 distributed system patterns, documenting rationale, trade-offs, and Azure service choices.
-> 1. Deploy a secure, monitored, and scalable containerized application on AKS using Helm, network policies, Key Vault, an Ingress Controller, Application Insights for distributed tracing, and Azure API Management for secure API exposure.
+> 1. Deploy a secure, monitored, scalable, and cost-optimized containerized application on AKS using Helm, network policies, Key Vault, an Ingress Controller, Application Insights for distributed tracing, Azure API Management for secure API exposure, AAD Pod Identity, Azure Policy enforcement, a CI/CD pipeline with security scanning and blue-green deployments, and performance testing results.
 > 1. Document data modeling, partitioning, and consistency strategies for a sample Cosmos DB use case, including performance testing results and trade-offs.
 > 1. Deploy a multi-region AKS cluster and demonstrate failover using Azure Traffic Manager.
 
