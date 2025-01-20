@@ -56,62 +56,12 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 > 1. Introduction to Bicep: Create a Bicep template to deploy a virtual network with a subnet and a Network Security Group. Compare Bicep syntax to ARM template syntax, highlighting the improved readability and conciseness of Bicep. Use modules in Bicep.
 > 1. Introduction to Terraform (Optional): Deploy a resource group and a storage account using Terraform. Understand the Terraform workflow (init, plan, apply, destroy) and basic Terraform concepts (providers, resources, state).
 
-#### Azure Portal & CLI/PowerShell
-
-> 1. Deploy resources: Virtual Machines, storage accounts, VNets.
-> 1. Practice managing configurations and exploring resource properties.
-
-#### Microsoft Learn Paths
-
-> 1. Complete the Azure Fundamentals learning path.
-
-#### Scenario-Based Designs
-
-> 1. Create a basic architecture for a cloud-based web application, focusing on scalability, availability, and cost-efficiency.
-
-#### Azure Pricing Calculators
-
-> 1. Use calculators to analyze costs for VMs, App Services, and Functions.
-
-#### Introduction to ARM Templates
-
-> 1. Deploy a parameterized ARM template to provision resources like storage accounts.
-> 1. Understand the template structure: parameters, variables, resources, and outputs.
-
-#### Introduction to Bicep
-
-> 1. Convert an ARM template to Bicep.
-> 1. Use Bicep to deploy resources like VNets, subnets, and NSGs.
-
-#### Terraform (Optional)
-
-> 1. Deploy resources using Terraform.
-> 1. Learn Terraform workflows: init, plan, apply, destroy.
-
 ### 1.4. Milestones
 
 > 1. Deploy a basic web application (static/dynamic) on Azure using VMs/App Service and as a serverless application (Functions). Implement basic monitoring. Deploy the infrastructure for the web application (e.g., virtual network, web app service plan) using parameterized ARM templates and Bicep. Explain the benefits of using IaC, including version control (and how it enables collaboration and rollback), automation (and how it reduces manual errors and improves consistency), and repeatability (and how it facilitates consistent environments across different stages). Demonstrate the use of parameters and variables in your templates.
 > 1. Explain the trade-offs between IaaS, PaaS, and SaaS, providing Azure-specific examples for each.
 > 1. Design a simple application architecture diagram demonstrating the application of at least 3 architectural principles (e.g., separation of concerns, single responsibility, open/closed). Document the rationale for your design choices.
 > 1. (Optional) Deploy basic Azure resources using Terraform. Compare and contrast ARM templates, Bicep, and Terraform, focusing on syntax, features, and use cases. Explain the concept of Terraform state.
-
-1. Application Deployment:
-
-   - Deploy a basic web application (static/dynamic) using Azure VMs, App Service, and Azure Functions.
-   - Implement monitoring and deploy infrastructure using ARM templates and Bicep.
-
-2. IaC Benefits:
-
-   - Explain the advantages of IaC (e.g., automation, collaboration, rollback).
-
-3. Architectural Design:
-
-   - Create a diagram demonstrating architectural principles such as separation of concerns and single responsibility.
-
-4. IaC Comparisons:
-   - Compare ARM Templates, Bicep, and Terraform for syntax and features.
-
----
 
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60)
 
