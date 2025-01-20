@@ -16,15 +16,35 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 ### 1.1. Goal
 
-> 1. Build a solid foundation in cloud computing, Azure fundamentals, architectural principles, and Infrastructure as Code.
+> 1. Build a strong foundation in cloud computing, Azure fundamentals, architectural principles, and Infrastructure as Code (IaC).
 
 ### 1.2. Key Topics
 
-> 1. Cloud Fundamentals: IaaS, PaaS, SaaS, Serverless computing, Shared responsibility model, Cloud economics: TCO, ROI
-> 1. Azure Fundamentals: Regions, resource groups, subscriptions, management groups, Azure Resource Manager (ARM), pricing models, and support plans
-> 1. Architectural Principles: SOLID, DRY, KISS, YAGNI, SoC, Cohesion/Coupling, Domain-Driven Design (DDD)
-> 1. Azure Core Services: Compute: Virtual Machines (VMs), App Service, Functions; Storage: Blob, Queue, Table, File; Networking: VNets, Subnets, NSGs, Load Balancers, DNS
-> 1. IaC Fundamentals: Introduction to ARM Templates, Bicep, and Terraform; Benefits: Version control, automation, and repeatability.
+#### Cloud Fundamentals
+
+> 1. Concepts: IaaS, PaaS, SaaS, serverless computing, shared responsibility model.
+> 1. Economics: Total Cost of Ownership (TCO) and Return on Investment (ROI).
+
+#### Azure Fundamentals
+
+> 1. Azure Constructs: Regions, resource groups, subscriptions, management groups, and Azure Resource Manager (ARM).
+> 1. Pricing: Azure pricing models and support plans.
+
+#### Architectural Principles
+
+> 1. Core Design Patterns: SOLID, DRY, KISS, YAGNI, SoC (Separation of Concerns).
+> 1. Domain-Driven Design (DDD): Strategic and tactical patterns (Bounded Contexts, Aggregates).
+
+#### Azure Core Services
+
+> 1. Compute: Virtual Machines (VMs), Azure App Service, Azure Functions.
+> 1. Storage: Azure Blob, Queue, Table, File Storage.
+> 1. Networking: Virtual Networks (VNets), Subnets, Network Security Groups (NSGs), Load Balancers, and DNS.
+
+#### IaC Fundamentals
+
+> 1. Overview: ARM Templates, Bicep, and Terraform.
+> 1. Benefits: Version control, automation, repeatability, and consistency.
 
 ### 1.3. Activities
 
@@ -36,6 +56,38 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 > 1. Introduction to Bicep: Create a Bicep template to deploy a virtual network with a subnet and a Network Security Group. Compare Bicep syntax to ARM template syntax, highlighting the improved readability and conciseness of Bicep. Use modules in Bicep.
 > 1. Introduction to Terraform (Optional): Deploy a resource group and a storage account using Terraform. Understand the Terraform workflow (init, plan, apply, destroy) and basic Terraform concepts (providers, resources, state).
 
+#### Azure Portal & CLI/PowerShell
+
+> 1. Deploy resources: Virtual Machines, storage accounts, VNets.
+> 1. Practice managing configurations and exploring resource properties.
+
+#### Microsoft Learn Paths
+
+> 1. Complete the Azure Fundamentals learning path.
+
+#### Scenario-Based Designs
+
+> 1. Create a basic architecture for a cloud-based web application, focusing on scalability, availability, and cost-efficiency.
+
+#### Azure Pricing Calculators
+
+> 1. Use calculators to analyze costs for VMs, App Services, and Functions.
+
+#### Introduction to ARM Templates
+
+> 1. Deploy a parameterized ARM template to provision resources like storage accounts.
+> 1. Understand the template structure: parameters, variables, resources, and outputs.
+
+#### Introduction to Bicep
+
+> 1. Convert an ARM template to Bicep.
+> 1. Use Bicep to deploy resources like VNets, subnets, and NSGs.
+
+#### Terraform (Optional)
+
+> 1. Deploy resources using Terraform.
+> 1. Learn Terraform workflows: init, plan, apply, destroy.
+
 ### 1.4. Milestones
 
 > 1. Deploy a basic web application (static/dynamic) on Azure using VMs/App Service and as a serverless application (Functions). Implement basic monitoring. Deploy the infrastructure for the web application (e.g., virtual network, web app service plan) using parameterized ARM templates and Bicep. Explain the benefits of using IaC, including version control (and how it enables collaboration and rollback), automation (and how it reduces manual errors and improves consistency), and repeatability (and how it facilitates consistent environments across different stages). Demonstrate the use of parameters and variables in your templates.
@@ -43,96 +95,20 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 > 1. Design a simple application architecture diagram demonstrating the application of at least 3 architectural principles (e.g., separation of concerns, single responsibility, open/closed). Document the rationale for your design choices.
 > 1. (Optional) Deploy basic Azure resources using Terraform. Compare and contrast ARM templates, Bicep, and Terraform, focusing on syntax, features, and use cases. Explain the concept of Terraform state.
 
----
-
-## **Phase 1: Foundations & Core Concepts (Days 1–30)**
-
-### **1.1. Goal**
-
-Build a strong foundation in cloud computing, Azure fundamentals, architectural principles, and Infrastructure as Code (IaC).
-
----
-
-### **1.2. Key Topics**
-
-1. **Cloud Fundamentals:**
-
-   - **Concepts:** IaaS, PaaS, SaaS, serverless computing, shared responsibility model.
-   - **Economics:** Total Cost of Ownership (TCO) and Return on Investment (ROI).
-
-2. **Azure Fundamentals:**
-
-   - **Azure Constructs:** Regions, resource groups, subscriptions, management groups, and Azure Resource Manager (ARM).
-   - **Pricing:** Azure pricing models and support plans.
-
-3. **Architectural Principles:**
-
-   - **Core Design Patterns:** SOLID, DRY, KISS, YAGNI, SoC (Separation of Concerns).
-   - **Domain-Driven Design (DDD):** Strategic and tactical patterns (Bounded Contexts, Aggregates).
-
-4. **Azure Core Services:**
-
-   - **Compute:** Virtual Machines (VMs), Azure App Service, Azure Functions.
-   - **Storage:** Azure Blob, Queue, Table, File Storage.
-   - **Networking:** Virtual Networks (VNets), Subnets, Network Security Groups (NSGs), Load Balancers, and DNS.
-
-5. **IaC Fundamentals:**
-   - **Overview:** ARM Templates, Bicep, and Terraform.
-   - **Benefits:** Version control, automation, repeatability, and consistency.
-
----
-
-### **1.3. Activities**
-
-1. **Azure Portal & CLI/PowerShell:**
-
-   - Deploy resources: Virtual Machines, storage accounts, VNets.
-   - Practice managing configurations and exploring resource properties.
-
-2. **Microsoft Learn Paths:**
-
-   - Complete the Azure Fundamentals learning path.
-
-3. **Scenario-Based Designs:**
-
-   - Create a basic architecture for a cloud-based web application, focusing on scalability, availability, and cost-efficiency.
-
-4. **Azure Pricing Calculators:**
-
-   - Use calculators to analyze costs for VMs, App Services, and Functions.
-
-5. **Introduction to ARM Templates:**
-
-   - Deploy a parameterized ARM template to provision resources like storage accounts.
-   - Understand the template structure: parameters, variables, resources, and outputs.
-
-6. **Introduction to Bicep:**
-
-   - Convert an ARM template to Bicep.
-   - Use Bicep to deploy resources like VNets, subnets, and NSGs.
-
-7. **Terraform (Optional):**
-   - Deploy resources using Terraform.
-   - Learn Terraform workflows: init, plan, apply, destroy.
-
----
-
-### **1.4. Milestones**
-
-1. **Application Deployment:**
+1. Application Deployment:
 
    - Deploy a basic web application (static/dynamic) using Azure VMs, App Service, and Azure Functions.
    - Implement monitoring and deploy infrastructure using ARM templates and Bicep.
 
-2. **IaC Benefits:**
+2. IaC Benefits:
 
    - Explain the advantages of IaC (e.g., automation, collaboration, rollback).
 
-3. **Architectural Design:**
+3. Architectural Design:
 
    - Create a diagram demonstrating architectural principles such as separation of concerns and single responsibility.
 
-4. **IaC Comparisons:**
+4. IaC Comparisons:
    - Compare ARM Templates, Bicep, and Terraform for syntax and features.
 
 ---
