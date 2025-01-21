@@ -56,38 +56,6 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 > 1. Introduction to Bicep: Create a Bicep template to deploy a virtual network with a subnet and a Network Security Group. Compare Bicep syntax to ARM template syntax, highlighting the improved readability and conciseness of Bicep. Use modules in Bicep.
 > 1. Introduction to Terraform (Optional): Deploy a resource group and a storage account using Terraform. Understand the Terraform workflow (init, plan, apply, destroy) and basic Terraform concepts (providers, resources, state).
 
-#### Azure Portal & CLI/PowerShell
-
-> 1. Deploy resources: Virtual Machines, storage accounts, VNets.
-> 1. Practice managing configurations and exploring resource properties.
-
-#### Microsoft Learn Paths
-
-> 1. Complete the Azure Fundamentals learning path.
-
-#### Scenario-Based Designs
-
-> 1. Create a basic architecture for a cloud-based web application, focusing on scalability, availability, and cost-efficiency.
-
-#### Azure Pricing Calculators
-
-> 1. Use calculators to analyze costs for VMs, App Services, and Functions.
-
-#### Introduction to ARM Templates
-
-> 1. Deploy a parameterized ARM template to provision resources like storage accounts.
-> 1. Understand the template structure: parameters, variables, resources, and outputs.
-
-#### Introduction to Bicep
-
-> 1. Convert an ARM template to Bicep.
-> 1. Use Bicep to deploy resources like VNets, subnets, and NSGs.
-
-#### Terraform (Optional)
-
-> 1. Deploy resources using Terraform.
-> 1. Learn Terraform workflows: init, plan, apply, destroy.
-
 ### 1.4. Milestones
 
 > 1. Deploy a basic web application (static/dynamic) on Azure using VMs/App Service and as a serverless application (Functions). Implement basic monitoring. Deploy the infrastructure for the web application (e.g., virtual network, web app service plan) using parameterized ARM templates and Bicep. Explain the benefits of using IaC, including version control (and how it enables collaboration and rollback), automation (and how it reduces manual errors and improves consistency), and repeatability (and how it facilitates consistent environments across different stages). Demonstrate the use of parameters and variables in your templates.
@@ -95,51 +63,70 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 > 1. Design a simple application architecture diagram demonstrating the application of at least 3 architectural principles (e.g., separation of concerns, single responsibility, open/closed). Document the rationale for your design choices.
 > 1. (Optional) Deploy basic Azure resources using Terraform. Compare and contrast ARM templates, Bicep, and Terraform, focusing on syntax, features, and use cases. Explain the concept of Terraform state.
 
-1. Application Deployment:
-
-   - Deploy a basic web application (static/dynamic) using Azure VMs, App Service, and Azure Functions.
-   - Implement monitoring and deploy infrastructure using ARM templates and Bicep.
-
-2. IaC Benefits:
-
-   - Explain the advantages of IaC (e.g., automation, collaboration, rollback).
-
-3. Architectural Design:
-
-   - Create a diagram demonstrating architectural principles such as separation of concerns and single responsibility.
-
-4. IaC Comparisons:
-   - Compare ARM Templates, Bicep, and Terraform for syntax and features.
-
----
-
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60)
+
+This phase deepens your understanding of design patterns, distributed systems, and core Azure services, integrating security, observability, performance testing, and cost optimization best practices.
 
 ### 2.1. Goal
 
-> 1. Deepen understanding of design patterns, distributed systems, and core Azure services. Integrate security best practices.
+> 1. Deepen understanding of design patterns, distributed systems, and core Azure services. Integrate security, observability, performance testing, and cost optimization best practices.
 
 ### 2.2. Key Topics
 
-> 1. GoF Design Patterns: Creational (Factory, Abstract Factory, Singleton), Structural (Adapter, Decorator, Facade), Behavioral (Strategy, Observer, Command) – with Azure-specific examples.
-> 1. Distributed System Patterns: Circuit Breaker (Polly), Retry with Backoff (Azure SDK retry policies), Saga (Durable Functions), CAP theorem, eventual consistency (Cosmos DB), idempotent operations, message queues (Queues, Service Bus), stream processing (Event Hubs).
-> 1. Azure Compute & Networking: Advanced VM configurations, autoscaling, load balancing (Application Gateway, Load Balancer), Virtual Machine Scale Sets, Availability Sets/Zones, containerization (Docker, Kubernetes), AKS (networking, security, deployments), ACI.
-> 1. Azure Storage & Databases: Storage tiers (Hot, Cool, Archive), lifecycle management, Azure SQL Database, Cosmos DB (data modeling, partitioning, consistency levels), Azure Database for PostgreSQL/MySQL/MariaDB.
-> 1. Security Basics: Network Security Groups (NSGs), Azure Firewall, Web Application Firewall (WAF).
+#### GoF Design Patterns (with Azure Examples)
+
+> 1. `Creational`: Factory, Abstract Factory (e.g., creating different types of VMs), Singleton (e.g., a configuration service).
+> 1. `Structural`: Adapter (e.g., adapting a legacy system to use Azure Storage), Decorator (e.g., adding caching to an Azure Function), Facade (e.g., simplifying access to multiple Azure services).
+> 1. `Behavioral`: Strategy (e.g., choosing different retry strategies with Polly), Observer (e.g., Event Grid for reacting to events), Command (e.g., queuing operations with Service Bus).
+
+#### Distributed System Patterns (with Azure Implementations)
+
+> 1. `Resilience`: Circuit Breaker (Polly with Azure SDKs), Retry with Backoff (Azure SDK retry policies, exponential backoff), Bulkhead.
+> 1. `Data Consistency`: CAP theorem, eventual consistency (Cosmos DB consistency levels), idempotent operations.
+> 1. `Messaging and Streaming`: Message queues (Azure Queues, Service Bus), stream processing (Event Hubs).
+> 1. `Orchestration`: Saga (Durable Functions for long-running transactions), Outbox pattern (for reliable message delivery between services).
+
+#### Azure Compute & Networking
+
+> 1. `Advanced Compute`: Advanced VM configurations (extensions, custom images), autoscaling (VM Scale Sets, App Service autoscale), load balancing (Application Gateway, Load Balancer - internal/external), Availability Sets/Zones.
+> 1. `Containerization`: Docker, Kubernetes, AKS (networking, security, deployments, ingress controllers), ACI (for simple container deployments).
+
+#### Azure Storage & Databases
+
+> 1. `Storage`: Storage tiers (Hot, Cool, Archive), lifecycle management, Shared Access Signatures (SAS).
+> 1. `Databases`: Azure SQL Database (performance tuning, security), Cosmos DB (data modeling, partitioning, consistency levels, change feed), Azure Database for PostgreSQL/MySQL/MariaDB.
+
+#### Key Considerations (Integrated into Activities)
+
+> 1. `Security`: Network Security Groups (NSGs), Azure Firewall, Web Application Firewall (WAF), DDoS protection, Azure Active Directory (Azure AD), Role-Based Access Control (RBAC), Managed Identities, AAD Pod Identity, Azure Policy for AKS, container image security, Azure Security Center (Defender for Cloud).
+> 1. `Observability`: Metrics, logs, tracing, distributed tracing, Application Insights, Log Analytics, Azure Monitor.
+> 1. `API Management`: API gateways, security, rate limiting, authentication, Azure API Management (APIM).
+> 1. `High Availability/Disaster Recovery`: Multi-region deployments, global traffic management, Azure Traffic Manager.
+> 1. `CI/CD`: Azure DevOps, GitHub Actions, automated testing, security scanning, progressive rollouts (canary/blue-green).
+> 1. `Performance Testing`: Load testing, Azure Load Testing, k6.
+> 1. `Cost Optimization`: Azure Cost Management, scaling policies, reserved instances.
+> 1. `Troubleshooting`: AKS networking troubleshooting, kubectl, Azure Network Watcher.
 
 ### 2.3. Activities
 
-> 1. Code implementations of at least 5 key design patterns in a cloud-native context using Azure SDKs (e.g., .NET, Java, Python). Create unit tests and demonstrate Azure integration (e.g., using Key Vault for secrets management).
-> 1. Design a system architecture diagram incorporating at least 3 distributed system patterns (e.g., Circuit Breaker, Retry, Saga) to address specific challenges like fault tolerance, scalability, and data consistency in a realistic scenario (e.g., e-commerce order processing). Document the rationale for pattern selection and trade-offs.
-> 1. Deploy a multi-container application with persistent storage on AKS using Helm charts. Configure network policies to restrict traffic flow between pods. Integrate Azure Key Vault to manage secrets for the application. Implement basic logging and monitoring.
-> 1. Create a sample Cosmos DB database. Implement data partitioning based on a specific use case and document the chosen partitioning strategy and its expected performance implications. Test different consistency levels and document observed behavior.
+> 1. Design Pattern Implementation: Choose at least 3 GoF design patterns relevant to cloud scenarios and implement them in code using Azure SDKs (e.g., .NET, Java, Python). Create unit tests and demonstrate Azure integration (e.g., using Key Vault for secrets management, Azure Storage for persistence). Document the benefits and trade-offs of each pattern in the context of Azure.
+> 1. Distributed Systems Design: Design a system architecture diagram incorporating at least 3 distributed system patterns (e.g., Circuit Breaker, Retry, Saga, Queue-Based Load Leveling) to address specific challenges like fault tolerance, scalability, and data consistency in a realistic scenario (e.g., e-commerce order processing, IoT data ingestion). Document the rationale for pattern selection, trade-offs, and Azure service choices.
+> 1. Container Orchestration and Security with AKS: Deploy a multi-container application with persistent storage on AKS using Helm charts. Configure network policies to restrict traffic flow between pods. Integrate Azure Key Vault to manage secrets for the application. Implement AAD Pod Identity in AKS to securely access Azure resources. Define and enforce Azure Policies to restrict container registry usage and enforce security best practices.
+> 1. API Management and Observability: Deploy Azure API Management (APIM) to expose the AKS services securely and configure policies for rate limiting and authentication. Implement basic logging and monitoring using Azure Monitor. Implement distributed tracing for the application using Application Insights. Set up custom telemetry for critical operations.
+> 1. CI/CD and Performance Testing for AKS: Set up an end-to-end CI/CD pipeline using Azure DevOps or GitHub Actions to deploy applications to AKS. Implement security scanning (e.g., Trivy) and automated testing. Implement blue-green deployments. Conduct performance tests using Azure Load Testing to evaluate the scalability of the AKS-based application under different loads.
+> 1. Cosmos DB Data Modeling and Partitioning: Create a sample Cosmos DB database. Implement data partitioning based on a specific use case (e.g., storing product catalogs, user profiles) and document the chosen partitioning strategy, its expected performance implications, and how it addresses query patterns. Test different consistency levels and document observed behavior and trade-offs.
+> 1. Multi-Region AKS Deployment: Deploy a basic AKS cluster across two Azure regions. Configure Azure Traffic Manager to route traffic to the active region. Test failover scenarios to demonstrate high availability and disaster recovery.
+> 1. Cost Optimization for AKS: Use Azure Cost Management to analyze the AKS cluster's cost profile. Implement scaling policies (horizontal pod autoscaler, cluster autoscaler) and evaluate reserved instances vs. pay-as-you-go options.
+> 1. Security Auditing with Defender for Cloud: Enable Defender for Cloud to audit the AKS cluster for vulnerabilities, implement security recommendations, and document the findings.
+> 1. AKS Networking Troubleshooting: Perform a troubleshooting exercise to resolve common AKS networking issues (e.g., DNS resolution failures, pod-to-pod communication issues, external connectivity problems, Ingress controller issues) using kubectl and Azure Network Watcher. Document the troubleshooting steps and resolutions.
 
 ### 2.4. Milestones
 
-> 1. Implement at least 5 design patterns in code with Azure integration and unit tests.
-> 1. Design a system architecture diagram incorporating at least 3 distributed system patterns, documenting rationale and trade-offs.
-> 1. Deploy a secure and monitored containerized application on AKS.
-> 1. Document data modeling, partitioning, and consistency strategies for a sample Cosmos DB use case, including performance testing results.
+> 1. Implement at least 3 GoF design patterns in code with Azure integration, unit tests, and documented rationale.
+> 1. Design a system architecture diagram incorporating at least 3 distributed system patterns, documenting rationale, trade-offs, and Azure service choices.
+> 1. Deploy a secure, monitored, scalable, and cost-optimized containerized application on AKS using Helm, network policies, Key Vault, an Ingress Controller, Application Insights for distributed tracing, Azure API Management for secure API exposure, AAD Pod Identity, Azure Policy enforcement, a CI/CD pipeline with security scanning and blue-green deployments, and performance testing results.
+> 1. Document data modeling, partitioning, and consistency strategies for a sample Cosmos DB use case, including performance testing results and trade-offs.
+> 1. Deploy a multi-region AKS cluster and demonstrate failover using Azure Traffic Manager.
 
 ## Phase 3: Advanced Azure Services & Cross-Cutting Concerns (Days 61-90)
 
