@@ -139,6 +139,33 @@ This phase deepens your understanding of design patterns, distributed systems, a
 > 1. Document data modeling, partitioning, and consistency strategies for a sample Cosmos DB use case, including performance testing results and trade-offs.
 > 1. Deploy a multi-region AKS cluster and demonstrate failover using Azure Traffic Manager.
 
+### 2.5. Mock Interview Preparation
+
+#### Design Questions
+
+"Design a highly available and scalable web application on Azure."
+"How would you design a microservices architecture on AKS?"
+"Explain the trade-offs between different Cosmos DB consistency levels."
+
+#### Behavioral Questions
+
+"Describe a time you had to make a difficult technical decision."
+"How do you stay up-to-date with the latest Azure technologies?"
+"Describe a time you had to influence a team to adopt a new technology."
+
+### 2.6. Scenario-Based Challenges
+
+Scenario 1: E-commerce Platform: Design a multi-region e-commerce platform that can handle high traffic, ensure low latency, and provide high availability. Consider security, scalability, and cost optimization.
+Scenario 2: IoT Data Ingestion: Design an architecture for ingesting and processing large volumes of data from IoT devices. Consider data storage, processing, and analytics.
+Scenario 3: Microservices Architecture: Design a microservices architecture on AKS, focusing on inter-service communication, API management, and observability.
+
+### 2.7. Sample Weekly Schedule (Phase 2)
+
+Week 5: GoF Design Patterns (Day 31-33), Distributed System Patterns (Day 34-36), Activity 1 (Day 37)
+Week 6: Activity 2 (Day 38-40), Container Orchestration and Security with AKS (Day 41-44)
+Week 7: API Management and Observability (Day 45-47), CI/CD and Performance Testing for AKS (Day 48-50)
+Week 8: Cosmos DB Data Modeling (Day 51-53), Multi-Region AKS Deployment (Day 54-56), Cost Optimization and Security Auditing (Day 57-58), Troubleshooting (Day 59), Milestones Review, Mock Interviews, Scenario Review (Day 60)
+
 ## Phase 3: Advanced Azure Services & Cross-Cutting Concerns (Days 61-90)
 
 ### Goal
