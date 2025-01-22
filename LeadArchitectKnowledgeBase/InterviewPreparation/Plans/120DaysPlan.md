@@ -10,7 +10,7 @@ This plan is designed to comprehensively prepare you for Azure Architect and Sr.
 > 1. _Active Learning:_ Engage in hands-on activities.
 > 1. _Influence Without Authority:_ Develop influencing skills.
 
-## Phase 1: Foundations & Core Concepts (Days 1-30)
+## Phase 1: Foundations & Core Concepts (Days 1-30) (5 Days/Week, ~1 Hour Daily)
 
 This phase ensures a robust understanding of Azure fundamentals, architectural principles, and IaC concepts, setting the stage for deeper exploration in subsequent phases.
 
@@ -20,33 +20,33 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 ### 1.2. Key Topics
 
-#### Cloud Fundamentals
+#### Cloud Fundamentals (Estimated Time: 2 days)
 
 > 1. Concepts: IaaS, PaaS, SaaS, serverless computing, shared responsibility model.
 > 1. Economics: Total Cost of Ownership (TCO) and Return on Investment (ROI).
 
-#### Azure Fundamentals
+#### Azure Fundamentals (Estimated Time: 4 days)
 
 > 1. Azure Constructs: Regions, resource groups, subscriptions, management groups, and Azure Resource Manager (ARM).
 > 1. Pricing: Azure pricing models and support plans.
 
-#### Architectural Principles
+#### Architectural Principles (Estimated Time: 3 days)
 
 > 1. Core Design Patterns: SOLID, DRY, KISS, YAGNI, SoC (Separation of Concerns).
 > 1. Domain-Driven Design (DDD): Strategic and tactical patterns (Bounded Contexts, Aggregates).
 
-#### Azure Core Services
+#### Azure Core Services (Estimated Time: 9 days - 3 days per service area)
 
 > 1. Compute: Virtual Machines (VMs), Azure App Service, Azure Functions.
 > 1. Storage: Azure Blob, Queue, Table, File Storage.
 > 1. Networking: Virtual Networks (VNets), Subnets, Network Security Groups (NSGs), Load Balancers, and DNS.
 
-#### IaC Fundamentals
+#### IaC Fundamentals (Estimated Time: 3 days)
 
 > 1. Overview: ARM Templates, Bicep, and Terraform.
 > 1. Benefits: Version control, automation, repeatability, and consistency.
 
-### 1.3. Activities
+### 1.3. Activities (Estimated Time: ~1 hour per activity unless noted)
 
 > 1. Explore Azure Portal and CLI/PowerShell: Deploy basic resources (VMs, storage accounts, virtual networks), manage configurations.
 > 1. Complete Microsoft Azure Fundamentals learning path on Microsoft Learn.
@@ -62,6 +62,17 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 > 1. Explain the trade-offs between IaaS, PaaS, and SaaS, providing Azure-specific examples for each.
 > 1. Design a simple application architecture diagram demonstrating the application of at least 3 architectural principles (e.g., separation of concerns, single responsibility, open/closed). Document the rationale for your design choices.
 > 1. (Optional) Deploy basic Azure resources using Terraform. Compare and contrast ARM templates, Bicep, and Terraform, focusing on syntax, features, and use cases. Explain the concept of Terraform state.
+
+### 1.5. Sample Weekly Schedule (Phase 1 - 5 Days/Week)
+
+> 1. _Week 1_: Cloud Fundamentals (Day 1-2), Azure Constructs (Day 3-4), Architectural Principles Introduction (Day 5), Review (Weekend)
+> 1. _Week 2_: Azure Pricing (Day 6), Architectural Principles Deep Dive (Day 7-8), Azure Compute (Day 9-10), Review (Weekend)
+> 1. _Week 3_: Azure Compute (Continue if needed) (Day 11), Azure Storage (Day 12-14), Review (Weekend)
+> 1. _Week 4_: Azure Networking (Day 15-17), Review (Weekend)
+> 1. _Week 5_: IaC Fundamentals (Day 18-20), Review (Weekend)
+> 1. _Week 6_: Activities 1-3 (Day 21-23), Review (Weekend)
+> 1. _Week 7_: Activities 4-7 (Day 24-27), Review (Weekend)
+> 1. _Week 8_: Milestones Review and Practice (Day 28-30), Review (Weekend)
 
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60)
 
