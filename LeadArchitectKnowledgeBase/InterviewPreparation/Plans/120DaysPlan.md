@@ -4,11 +4,11 @@ This plan is designed to comprehensively prepare you for Azure Architect and Sr.
 
 ## Key Principles
 
-> 1. `Prioritization:` Focus on the most relevant skills and knowledge.
-> 1. `Consistency Over Intensity:` Regular study is more effective than cramming.
-> 1. `Spaced Repetition:` Review concepts periodically.
-> 1. `Active Learning:` Engage in hands-on activities.
-> 1. `Influence Without Authority:` Develop influencing skills.
+> 1. _Prioritization:_ Focus on the most relevant skills and knowledge.
+> 1. _Consistency Over Intensity:_ Regular study is more effective than cramming.
+> 1. _Spaced Repetition:_ Review concepts periodically.
+> 1. _Active Learning:_ Engage in hands-on activities.
+> 1. _Influence Without Authority:_ Develop influencing skills.
 
 ## Phase 1: Foundations & Core Concepts (Days 1-30)
 
@@ -98,14 +98,14 @@ This phase deepens your understanding of design patterns, distributed systems, a
 
 #### Key Considerations (Integrated into Activities)
 
-> 1. `Security`: Network Security Groups (NSGs), Azure Firewall, Web Application Firewall (WAF), DDoS protection, Azure Active Directory (Azure AD), Role-Based Access Control (RBAC), Managed Identities, AAD Pod Identity, Azure Policy for AKS, container image security, Azure Security Center (Defender for Cloud).
-> 1. `Observability`: Metrics, logs, tracing, distributed tracing, Application Insights, Log Analytics, Azure Monitor.
-> 1. `API Management`: API gateways, security, rate limiting, authentication, Azure API Management (APIM).
-> 1. `High Availability/Disaster Recovery`: Multi-region deployments, global traffic management, Azure Traffic Manager.
-> 1. `CI/CD`: Azure DevOps, GitHub Actions, automated testing, security scanning, progressive rollouts (canary/blue-green).
-> 1. `Performance Testing`: Load testing, Azure Load Testing, k6.
-> 1. `Cost Optimization`: Azure Cost Management, scaling policies, reserved instances.
-> 1. `Troubleshooting`: AKS networking troubleshooting, kubectl, Azure Network Watcher.
+> 1. _Security_: Network Security Groups (NSGs), Azure Firewall, Web Application Firewall (WAF), DDoS protection, Azure Active Directory (Azure AD), Role-Based Access Control (RBAC), Managed Identities, AAD Pod Identity, Azure Policy for AKS, container image security, Azure Security Center (Defender for Cloud).
+> 1. _Observability_: Metrics, logs, tracing, distributed tracing, Application Insights, Log Analytics, Azure Monitor.
+> 1. _API Management_: API gateways, security, rate limiting, authentication, Azure API Management (APIM).
+> 1. _High Availability/Disaster Recovery_: Multi-region deployments, global traffic management, Azure Traffic Manager.
+> 1. _CI/CD_: Azure DevOps, GitHub Actions, automated testing, security scanning, progressive rollouts (canary/blue-green).
+> 1. _Performance Testing_: Load testing, Azure Load Testing, k6.
+> 1. _Cost Optimization_: Azure Cost Management, scaling policies, reserved instances.
+> 1. _Troubleshooting_: AKS networking troubleshooting, kubectl, Azure Network Watcher.
 
 ### 2.3. Activities
 
