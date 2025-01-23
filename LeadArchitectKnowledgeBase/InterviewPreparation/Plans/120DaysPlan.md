@@ -74,7 +74,7 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 > 1. _Week 7_: Activities 4-7 (Day 24-27), Review (Weekend)
 > 1. _Week 8_: Milestones Review and Practice (Day 28-30), Review (Weekend)
 
-## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60)
+## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60) (5 Days/Week, ~1 Hour Daily)
 
 This phase deepens your understanding of design patterns, distributed systems, and core Azure services, integrating security, observability, performance testing, and cost optimization best practices.
 
@@ -143,21 +143,21 @@ This phase deepens your understanding of design patterns, distributed systems, a
 
 #### Design Questions
 
-"Design a highly available and scalable web application on Azure."
-"How would you design a microservices architecture on AKS?"
-"Explain the trade-offs between different Cosmos DB consistency levels."
+> 1. Design a highly available and scalable web application on Azure.
+> 1. How would you design a microservices architecture on AKS?
+> 1. Explain the trade-offs between different Cosmos DB consistency levels.
 
 #### Behavioral Questions
 
-"Describe a time you had to make a difficult technical decision."
-"How do you stay up-to-date with the latest Azure technologies?"
-"Describe a time you had to influence a team to adopt a new technology."
+> 1. Describe a time you had to make a difficult technical decision.
+> 1. How do you stay up-to-date with the latest Azure technologies?
+> 1. Describe a time you had to influence a team to adopt a new technology.
 
 ### 2.6. Scenario-Based Challenges
 
-Scenario 1: E-commerce Platform: Design a multi-region e-commerce platform that can handle high traffic, ensure low latency, and provide high availability. Consider security, scalability, and cost optimization.
-Scenario 2: IoT Data Ingestion: Design an architecture for ingesting and processing large volumes of data from IoT devices. Consider data storage, processing, and analytics.
-Scenario 3: Microservices Architecture: Design a microservices architecture on AKS, focusing on inter-service communication, API management, and observability.
+> 1. _Scenario 1_: E-commerce Platform: Design a multi-region e-commerce platform that can handle high traffic, ensure low latency, and provide high availability. Consider security, scalability, and cost optimization.
+> 1. _Scenario 2_: IoT Data Ingestion: Design an architecture for ingesting and processing large volumes of data from IoT devices. Consider data storage, processing, and analytics.
+> 1. _Scenario 3_: Microservices Architecture: Design a microservices architecture on AKS, focusing on inter-service communication, API management, and observability.
 
 ### 2.7. Sample Weekly Schedule (Phase 2)
 
