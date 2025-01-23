@@ -4,13 +4,13 @@ This plan is designed to comprehensively prepare you for Azure Architect and Sr.
 
 ## Key Principles
 
-> 1. `Prioritization:` Focus on the most relevant skills and knowledge.
-> 1. `Consistency Over Intensity:` Regular study is more effective than cramming.
-> 1. `Spaced Repetition:` Review concepts periodically.
-> 1. `Active Learning:` Engage in hands-on activities.
-> 1. `Influence Without Authority:` Develop influencing skills.
+> 1. _Prioritization:_ Focus on the most relevant skills and knowledge.
+> 1. _Consistency Over Intensity:_ Regular study is more effective than cramming.
+> 1. _Spaced Repetition:_ Review concepts periodically.
+> 1. _Active Learning:_ Engage in hands-on activities.
+> 1. _Influence Without Authority:_ Develop influencing skills.
 
-## Phase 1: Foundations & Core Concepts (Days 1-30)
+## Phase 1: Foundations & Core Concepts (Days 1-30) (5 Days/Week, ~1 Hour Daily)
 
 This phase ensures a robust understanding of Azure fundamentals, architectural principles, and IaC concepts, setting the stage for deeper exploration in subsequent phases.
 
@@ -20,33 +20,33 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 ### 1.2. Key Topics
 
-#### Cloud Fundamentals
+#### Cloud Fundamentals (Estimated Time: 2 days)
 
 > 1. Concepts: IaaS, PaaS, SaaS, serverless computing, shared responsibility model.
 > 1. Economics: Total Cost of Ownership (TCO) and Return on Investment (ROI).
 
-#### Azure Fundamentals
+#### Azure Fundamentals (Estimated Time: 4 days)
 
 > 1. Azure Constructs: Regions, resource groups, subscriptions, management groups, and Azure Resource Manager (ARM).
 > 1. Pricing: Azure pricing models and support plans.
 
-#### Architectural Principles
+#### Architectural Principles (Estimated Time: 3 days)
 
 > 1. Core Design Patterns: SOLID, DRY, KISS, YAGNI, SoC (Separation of Concerns).
 > 1. Domain-Driven Design (DDD): Strategic and tactical patterns (Bounded Contexts, Aggregates).
 
-#### Azure Core Services
+#### Azure Core Services (Estimated Time: 9 days - 3 days per service area)
 
 > 1. Compute: Virtual Machines (VMs), Azure App Service, Azure Functions.
 > 1. Storage: Azure Blob, Queue, Table, File Storage.
 > 1. Networking: Virtual Networks (VNets), Subnets, Network Security Groups (NSGs), Load Balancers, and DNS.
 
-#### IaC Fundamentals
+#### IaC Fundamentals (Estimated Time: 3 days)
 
 > 1. Overview: ARM Templates, Bicep, and Terraform.
 > 1. Benefits: Version control, automation, repeatability, and consistency.
 
-### 1.3. Activities
+### 1.3. Activities (Estimated Time: ~1 hour per activity unless noted)
 
 > 1. Explore Azure Portal and CLI/PowerShell: Deploy basic resources (VMs, storage accounts, virtual networks), manage configurations.
 > 1. Complete Microsoft Azure Fundamentals learning path on Microsoft Learn.
@@ -62,6 +62,17 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 > 1. Explain the trade-offs between IaaS, PaaS, and SaaS, providing Azure-specific examples for each.
 > 1. Design a simple application architecture diagram demonstrating the application of at least 3 architectural principles (e.g., separation of concerns, single responsibility, open/closed). Document the rationale for your design choices.
 > 1. (Optional) Deploy basic Azure resources using Terraform. Compare and contrast ARM templates, Bicep, and Terraform, focusing on syntax, features, and use cases. Explain the concept of Terraform state.
+
+### 1.5. Sample Weekly Schedule (Phase 1 - 5 Days/Week)
+
+> 1. _Week 1_: Cloud Fundamentals (Day 1-2), Azure Constructs (Day 3-4), Architectural Principles Introduction (Day 5), Review (Weekend)
+> 1. _Week 2_: Azure Pricing (Day 6), Architectural Principles Deep Dive (Day 7-8), Azure Compute (Day 9-10), Review (Weekend)
+> 1. _Week 3_: Azure Compute (Continue if needed) (Day 11), Azure Storage (Day 12-14), Review (Weekend)
+> 1. _Week 4_: Azure Networking (Day 15-17), Review (Weekend)
+> 1. _Week 5_: IaC Fundamentals (Day 18-20), Review (Weekend)
+> 1. _Week 6_: Activities 1-3 (Day 21-23), Review (Weekend)
+> 1. _Week 7_: Activities 4-7 (Day 24-27), Review (Weekend)
+> 1. _Week 8_: Milestones Review and Practice (Day 28-30), Review (Weekend)
 
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60)
 
@@ -98,14 +109,14 @@ This phase deepens your understanding of design patterns, distributed systems, a
 
 #### Key Considerations (Integrated into Activities)
 
-> 1. `Security`: Network Security Groups (NSGs), Azure Firewall, Web Application Firewall (WAF), DDoS protection, Azure Active Directory (Azure AD), Role-Based Access Control (RBAC), Managed Identities, AAD Pod Identity, Azure Policy for AKS, container image security, Azure Security Center (Defender for Cloud).
-> 1. `Observability`: Metrics, logs, tracing, distributed tracing, Application Insights, Log Analytics, Azure Monitor.
-> 1. `API Management`: API gateways, security, rate limiting, authentication, Azure API Management (APIM).
-> 1. `High Availability/Disaster Recovery`: Multi-region deployments, global traffic management, Azure Traffic Manager.
-> 1. `CI/CD`: Azure DevOps, GitHub Actions, automated testing, security scanning, progressive rollouts (canary/blue-green).
-> 1. `Performance Testing`: Load testing, Azure Load Testing, k6.
-> 1. `Cost Optimization`: Azure Cost Management, scaling policies, reserved instances.
-> 1. `Troubleshooting`: AKS networking troubleshooting, kubectl, Azure Network Watcher.
+> 1. _Security_: Network Security Groups (NSGs), Azure Firewall, Web Application Firewall (WAF), DDoS protection, Azure Active Directory (Azure AD), Role-Based Access Control (RBAC), Managed Identities, AAD Pod Identity, Azure Policy for AKS, container image security, Azure Security Center (Defender for Cloud).
+> 1. _Observability_: Metrics, logs, tracing, distributed tracing, Application Insights, Log Analytics, Azure Monitor.
+> 1. _API Management_: API gateways, security, rate limiting, authentication, Azure API Management (APIM).
+> 1. _High Availability/Disaster Recovery_: Multi-region deployments, global traffic management, Azure Traffic Manager.
+> 1. _CI/CD_: Azure DevOps, GitHub Actions, automated testing, security scanning, progressive rollouts (canary/blue-green).
+> 1. _Performance Testing_: Load testing, Azure Load Testing, k6.
+> 1. _Cost Optimization_: Azure Cost Management, scaling policies, reserved instances.
+> 1. _Troubleshooting_: AKS networking troubleshooting, kubectl, Azure Network Watcher.
 
 ### 2.3. Activities
 
@@ -127,6 +138,33 @@ This phase deepens your understanding of design patterns, distributed systems, a
 > 1. Deploy a secure, monitored, scalable, and cost-optimized containerized application on AKS using Helm, network policies, Key Vault, an Ingress Controller, Application Insights for distributed tracing, Azure API Management for secure API exposure, AAD Pod Identity, Azure Policy enforcement, a CI/CD pipeline with security scanning and blue-green deployments, and performance testing results.
 > 1. Document data modeling, partitioning, and consistency strategies for a sample Cosmos DB use case, including performance testing results and trade-offs.
 > 1. Deploy a multi-region AKS cluster and demonstrate failover using Azure Traffic Manager.
+
+### 2.5. Mock Interview Preparation
+
+#### Design Questions
+
+"Design a highly available and scalable web application on Azure."
+"How would you design a microservices architecture on AKS?"
+"Explain the trade-offs between different Cosmos DB consistency levels."
+
+#### Behavioral Questions
+
+"Describe a time you had to make a difficult technical decision."
+"How do you stay up-to-date with the latest Azure technologies?"
+"Describe a time you had to influence a team to adopt a new technology."
+
+### 2.6. Scenario-Based Challenges
+
+Scenario 1: E-commerce Platform: Design a multi-region e-commerce platform that can handle high traffic, ensure low latency, and provide high availability. Consider security, scalability, and cost optimization.
+Scenario 2: IoT Data Ingestion: Design an architecture for ingesting and processing large volumes of data from IoT devices. Consider data storage, processing, and analytics.
+Scenario 3: Microservices Architecture: Design a microservices architecture on AKS, focusing on inter-service communication, API management, and observability.
+
+### 2.7. Sample Weekly Schedule (Phase 2)
+
+Week 5: GoF Design Patterns (Day 31-33), Distributed System Patterns (Day 34-36), Activity 1 (Day 37)
+Week 6: Activity 2 (Day 38-40), Container Orchestration and Security with AKS (Day 41-44)
+Week 7: API Management and Observability (Day 45-47), CI/CD and Performance Testing for AKS (Day 48-50)
+Week 8: Cosmos DB Data Modeling (Day 51-53), Multi-Region AKS Deployment (Day 54-56), Cost Optimization and Security Auditing (Day 57-58), Troubleshooting (Day 59), Milestones Review, Mock Interviews, Scenario Review (Day 60)
 
 ## Phase 3: Advanced Azure Services & Cross-Cutting Concerns (Days 61-90)
 
