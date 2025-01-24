@@ -10,7 +10,7 @@ This plan is designed to comprehensively prepare you for Azure Architect and Sr.
 > 1. _Active Learning:_ Engage in hands-on activities.
 > 1. _Influence Without Authority:_ Develop influencing skills.
 
-## Phase 1: Foundations & Core Concepts (Days 1-30) (5 Days/Week, ~1 Hour Daily)
+## Phase 1: Foundations & Core Concepts (Days 1-30) (5 Days/Week, ~1 Hour Daily) - 6 Weeks
 
 This phase ensures a robust understanding of Azure fundamentals, architectural principles, and IaC concepts, setting the stage for deeper exploration in subsequent phases.
 
@@ -63,18 +63,47 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 > 1. Design a simple application architecture diagram demonstrating the application of at least 3 architectural principles (e.g., separation of concerns, single responsibility, open/closed). Document the rationale for your design choices.
 > 1. (Optional) Deploy basic Azure resources using Terraform. Compare and contrast ARM templates, Bicep, and Terraform, focusing on syntax, features, and use cases. Explain the concept of Terraform state.
 
-### 1.5. Sample Weekly Schedule (Phase 1 - 5 Days/Week)
+### 1.5. Weekly Schedule (Phase 1 - 5 Days/Week) - 6 Weeks
 
-> 1. _Week 1_: Cloud Fundamentals (Day 1-2), Azure Constructs (Day 3-4), Architectural Principles Introduction (Day 5), Review (Weekend)
-> 1. _Week 2_: Azure Pricing (Day 6), Architectural Principles Deep Dive (Day 7-8), Azure Compute (Day 9-10), Review (Weekend)
-> 1. _Week 3_: Azure Compute (Continue if needed) (Day 11), Azure Storage (Day 12-14), Review (Weekend)
-> 1. _Week 4_: Azure Networking (Day 15-17), Review (Weekend)
-> 1. _Week 5_: IaC Fundamentals (Day 18-20), Review (Weekend)
-> 1. _Week 6_: Activities 1-3 (Day 21-23), Review (Weekend)
-> 1. _Week 7_: Activities 4-7 (Day 24-27), Review (Weekend)
-> 1. _Week 8_: Milestones Review and Practice (Day 28-30), Review (Weekend)
+#### Week 1
 
-## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60)
+> 1. Day 1-2: Cloud Fundamentals (Concepts and Economics)
+> 1. Day 3-4: Azure Constructs (Regions, Resource Groups, ARM)
+> 1. Day 5: Azure Pricing
+
+#### Week 2
+
+> 1. Day 6-7: Architectural Principles (SOLID, DRY, KISS, YAGNI, SoC)
+> 1. Day 8: Architectural Principles (DDD)
+> 1. Day 9-10: Azure Compute (VMs)
+
+#### Week 3
+
+> 1. Day 11-12: Azure Compute (App Service, Functions)
+> 1. Day 13-14: Azure Storage
+> 1. Day 15: Azure Networking (VNets, Subnets)
+
+#### Week 4
+
+> 1. Day 16-17: Azure Networking (NSGs, Load Balancers, DNS)
+> 1. Day 18-19: IaC Fundamentals (ARM Templates)
+> 1. Day 20: IaC Fundamentals (Bicep and Terraform Overview)
+
+#### Week 5
+
+> 1. Day 21-22: Activity 1: Azure Portal/CLI Exploration (Focus on Compute and Storage)
+> 1. Day 23-24: Activity 2: Microsoft Azure Fundamentals Learning Path (Continue daily)
+> 1. Day 25: Activity 3: Architectural Principles Application
+
+#### Week 6
+
+> 1. Day 26: Activity 4: Pricing Calculator Analysis
+> 1. Day 27: Activity 5: ARM Template Deployment
+> 1. Day 28: Activity 6: Bicep Template Deployment
+> 1. Day 29: Activity 7 (Optional): Terraform Deployment
+> 1. Day 30: Milestones Review and Practice
+
+## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60) (5 Days/Week, ~1 Hour Daily)
 
 This phase deepens your understanding of design patterns, distributed systems, and core Azure services, integrating security, observability, performance testing, and cost optimization best practices.
 
@@ -143,21 +172,21 @@ This phase deepens your understanding of design patterns, distributed systems, a
 
 #### Design Questions
 
-"Design a highly available and scalable web application on Azure."
-"How would you design a microservices architecture on AKS?"
-"Explain the trade-offs between different Cosmos DB consistency levels."
+> 1. Design a highly available and scalable web application on Azure.
+> 1. How would you design a microservices architecture on AKS?
+> 1. Explain the trade-offs between different Cosmos DB consistency levels.
 
 #### Behavioral Questions
 
-"Describe a time you had to make a difficult technical decision."
-"How do you stay up-to-date with the latest Azure technologies?"
-"Describe a time you had to influence a team to adopt a new technology."
+> 1. Describe a time you had to make a difficult technical decision.
+> 1. How do you stay up-to-date with the latest Azure technologies?
+> 1. Describe a time you had to influence a team to adopt a new technology.
 
 ### 2.6. Scenario-Based Challenges
 
-Scenario 1: E-commerce Platform: Design a multi-region e-commerce platform that can handle high traffic, ensure low latency, and provide high availability. Consider security, scalability, and cost optimization.
-Scenario 2: IoT Data Ingestion: Design an architecture for ingesting and processing large volumes of data from IoT devices. Consider data storage, processing, and analytics.
-Scenario 3: Microservices Architecture: Design a microservices architecture on AKS, focusing on inter-service communication, API management, and observability.
+> 1. _Scenario 1_: E-commerce Platform: Design a multi-region e-commerce platform that can handle high traffic, ensure low latency, and provide high availability. Consider security, scalability, and cost optimization.
+> 1. _Scenario 2_: IoT Data Ingestion: Design an architecture for ingesting and processing large volumes of data from IoT devices. Consider data storage, processing, and analytics.
+> 1. _Scenario 3_: Microservices Architecture: Design a microservices architecture on AKS, focusing on inter-service communication, API management, and observability.
 
 ### 2.7. Sample Weekly Schedule (Phase 2)
 
