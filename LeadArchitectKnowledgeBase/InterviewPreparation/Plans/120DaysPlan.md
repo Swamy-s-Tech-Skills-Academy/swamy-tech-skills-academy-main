@@ -103,7 +103,7 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 > 1. Day 29: Activity 7 (Optional): Terraform Deployment
 > 1. Day 30: Milestones Review and Practice
 
-## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60) (5 Days/Week, ~1 Hour Daily)
+## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60) (5 Days/Week, ~1 Hour Daily) - 6 Weeks
 
 This phase deepens your understanding of design patterns, distributed systems, and core Azure services, integrating security, observability, performance testing, and cost optimization best practices.
 
