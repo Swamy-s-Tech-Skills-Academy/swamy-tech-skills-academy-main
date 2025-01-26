@@ -103,7 +103,7 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 > 1. Day 29: Activity 7 (Optional): Terraform Deployment
 > 1. Day 30: Milestones Review and Practice
 
-## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60) (5 Days/Week, ~1 Hour Daily)
+## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60) (5 Days/Week, ~1 Hour Daily) - 6 Weeks
 
 This phase deepens your understanding of design patterns, distributed systems, and core Azure services, integrating security, observability, performance testing, and cost optimization best practices.
 
@@ -149,24 +149,35 @@ This phase deepens your understanding of design patterns, distributed systems, a
 
 ### 2.3. Activities
 
-> 1. Design Pattern Implementation: Choose at least 3 GoF design patterns relevant to cloud scenarios and implement them in code using Azure SDKs (e.g., .NET, Java, Python). Create unit tests and demonstrate Azure integration (e.g., using Key Vault for secrets management, Azure Storage for persistence). Document the benefits and trade-offs of each pattern in the context of Azure.
-> 1. Distributed Systems Design: Design a system architecture diagram incorporating at least 3 distributed system patterns (e.g., Circuit Breaker, Retry, Saga, Queue-Based Load Leveling) to address specific challenges like fault tolerance, scalability, and data consistency in a realistic scenario (e.g., e-commerce order processing, IoT data ingestion). Document the rationale for pattern selection, trade-offs, and Azure service choices.
-> 1. Container Orchestration and Security with AKS: Deploy a multi-container application with persistent storage on AKS using Helm charts. Configure network policies to restrict traffic flow between pods. Integrate Azure Key Vault to manage secrets for the application. Implement AAD Pod Identity in AKS to securely access Azure resources. Define and enforce Azure Policies to restrict container registry usage and enforce security best practices.
-> 1. API Management and Observability: Deploy Azure API Management (APIM) to expose the AKS services securely and configure policies for rate limiting and authentication. Implement basic logging and monitoring using Azure Monitor. Implement distributed tracing for the application using Application Insights. Set up custom telemetry for critical operations.
-> 1. CI/CD and Performance Testing for AKS: Set up an end-to-end CI/CD pipeline using Azure DevOps or GitHub Actions to deploy applications to AKS. Implement security scanning (e.g., Trivy) and automated testing. Implement blue-green deployments. Conduct performance tests using Azure Load Testing to evaluate the scalability of the AKS-based application under different loads.
-> 1. Cosmos DB Data Modeling and Partitioning: Create a sample Cosmos DB database. Implement data partitioning based on a specific use case (e.g., storing product catalogs, user profiles) and document the chosen partitioning strategy, its expected performance implications, and how it addresses query patterns. Test different consistency levels and document observed behavior and trade-offs.
-> 1. Multi-Region AKS Deployment: Deploy a basic AKS cluster across two Azure regions. Configure Azure Traffic Manager to route traffic to the active region. Test failover scenarios to demonstrate high availability and disaster recovery.
-> 1. Cost Optimization for AKS: Use Azure Cost Management to analyze the AKS cluster's cost profile. Implement scaling policies (horizontal pod autoscaler, cluster autoscaler) and evaluate reserved instances vs. pay-as-you-go options.
-> 1. Security Auditing with Defender for Cloud: Enable Defender for Cloud to audit the AKS cluster for vulnerabilities, implement security recommendations, and document the findings.
-> 1. AKS Networking Troubleshooting: Perform a troubleshooting exercise to resolve common AKS networking issues (e.g., DNS resolution failures, pod-to-pod communication issues, external connectivity problems, Ingress controller issues) using kubectl and Azure Network Watcher. Document the troubleshooting steps and resolutions.
+> 1. `Design Pattern Implementation`: Choose at least 3 GoF design patterns relevant to cloud scenarios and implement them in code using Azure SDKs (e.g., .NET, Java, Python). Create unit tests and demonstrate Azure integration (e.g., using Key Vault for secrets management, Azure Storage for persistence). Document the benefits and trade-offs of each pattern in the context of Azure.
+> 1. `Distributed Systems Design`: Design a system architecture diagram incorporating at least 3 distributed system patterns (e.g., Circuit Breaker, Retry, Saga, Queue-Based Load Leveling) to address specific challenges like fault tolerance, scalability, and data consistency in a realistic scenario (e.g., e-commerce order processing, IoT data ingestion). Document the rationale for pattern selection, trade-offs, and Azure service choices.
+> 1. `Container Orchestration and Security with AKS`: Deploy a multi-container application with persistent storage on AKS using Helm charts. Configure network policies to restrict traffic flow between pods. Integrate Azure Key Vault to manage secrets for the application. Implement AAD Pod Identity in AKS to securely access Azure resources. Define and enforce Azure Policies to restrict container registry usage and enforce security best practices.
+> 1. `API Management and Observability`: Deploy Azure API Management (APIM) to expose the AKS services securely and configure policies for rate limiting and authentication. Implement basic logging and monitoring using Azure Monitor. Implement distributed tracing for the application using Application Insights. Set up custom telemetry for critical operations.
+> 1. `CI/CD and Performance Testing for AKS`: Set up an end-to-end CI/CD pipeline using Azure DevOps or GitHub Actions to deploy applications to AKS. Implement security scanning (e.g., Trivy) and automated testing. Implement blue-green deployments. Conduct performance tests using Azure Load Testing to evaluate the scalability of the AKS-based application under different loads.
+> 1. `Cosmos DB Data Modeling and Partitioning`: Create a sample Cosmos DB database. Implement data partitioning based on a specific use case (e.g., storing product catalogs, user profiles) and document the chosen partitioning strategy, its expected performance implications, and how it addresses query patterns. Test different consistency levels and document observed behavior and trade-offs.
+> 1. `Multi-Region AKS Deployment`: Deploy a basic AKS cluster across two Azure regions. Configure Azure Traffic Manager to route traffic to the active region. Test failover scenarios to demonstrate high availability and disaster recovery.
+> 1. `Cost Optimization for AKS`: Use Azure Cost Management to analyze the AKS cluster's cost profile. Implement scaling policies (horizontal pod autoscaler, cluster autoscaler) and evaluate reserved instances vs. pay-as-you-go options.
+> 1. `Security Auditing with Defender for Cloud`: Enable Defender for Cloud to audit the AKS cluster for vulnerabilities, implement security recommendations, and document the findings.
+> 1. `AKS Networking Troubleshooting`: Perform a troubleshooting exercise to resolve common AKS networking issues (e.g., DNS resolution failures, pod-to-pod communication issues, external connectivity problems, Ingress controller issues) using kubectl and Azure Network Watcher. Document the troubleshooting steps and resolutions.
+> 1. `Design Pattern Implementation (Focus on 2 Patterns)`: Choose 2 GoF design patterns relevant to cloud scenarios and implement them in code using Azure SDKs. Focus on one Creational/Structural and one Behavioral pattern. Demonstrate Azure integration (e.g., using Key Vault or Azure Storage).
+> 1. `Distributed Systems Design (Focus on 2-3 Patterns)`: Design a system architecture diagram incorporating 2-3 key distributed system patterns (e.g., Circuit Breaker, Retry, Queue-Based Load Leveling). Focus on resilience and messaging.
+> 1. `Container Orchestration and Security with AKS (Simplified Scope)`: Deploy a single-container application on AKS using Helm. Configure basic networking and implement Key Vault integration for secrets. Cover basic security concepts.
+> 1. `API Management and Observability (Basic Setup)`: Deploy Azure API Management (APIM) and configure basic policies. Implement basic logging with Azure Monitor. Introduce distributed tracing concepts.
+> 1. `Cosmos DB Data Modeling and Partitioning (Simplified)`: Create a sample Cosmos DB database and implement a basic partitioning strategy. Explore different consistency levels.
+> 1. `Multi-Region Concepts and High Availability`: Focus on the concepts of multi-region deployments and high availability. Explore Azure Traffic Manager and Availability Zones. Reduce the scope of the hands-on activity to a conceptual design and discussion.
+> 1. `CI/CD Concepts and Azure DevOps/GitHub Actions Overview`: Focus on CI/CD concepts and an overview of Azure DevOps or GitHub Actions. Reduce the scope of the hands-on activity to a conceptual design and discussion.
+> 1. `Cost Optimization and Security Auditing Concepts`: Cover the core concepts of cost optimization and security auditing in Azure. Use Azure Cost Management for basic cost analysis. Introduce Defender for Cloud. Reduce the scope of the hands-on activity to a conceptual exploration.
 
 ### 2.4. Milestones
 
-> 1. Implement at least 3 GoF design patterns in code with Azure integration, unit tests, and documented rationale.
-> 1. Design a system architecture diagram incorporating at least 3 distributed system patterns, documenting rationale, trade-offs, and Azure service choices.
-> 1. Deploy a secure, monitored, scalable, and cost-optimized containerized application on AKS using Helm, network policies, Key Vault, an Ingress Controller, Application Insights for distributed tracing, Azure API Management for secure API exposure, AAD Pod Identity, Azure Policy enforcement, a CI/CD pipeline with security scanning and blue-green deployments, and performance testing results.
-> 1. Document data modeling, partitioning, and consistency strategies for a sample Cosmos DB use case, including performance testing results and trade-offs.
-> 1. Deploy a multi-region AKS cluster and demonstrate failover using Azure Traffic Manager.
+> 1. Implement 2 GoF design patterns in code with Azure integration.
+> 1. Design a system architecture diagram incorporating 2-3 distributed system patterns.
+> 1. Deploy a basic, secure containerized application on AKS.
+> 1. Set up basic API Management and observability for an application.
+> 1. Implement basic data modeling and partitioning in Cosmos DB.
+> 1. Explain the concepts of multi-region deployments and high availability in Azure.
+> 1. Explain the concepts of CI/CD and the capabilities of Azure DevOps/GitHub Actions.
+> 1. Explain basic cost optimization and security auditing concepts in Azure.
 
 ### 2.5. Mock Interview Preparation
 
@@ -190,10 +201,34 @@ This phase deepens your understanding of design patterns, distributed systems, a
 
 ### 2.7. Sample Weekly Schedule (Phase 2)
 
-Week 5: GoF Design Patterns (Day 31-33), Distributed System Patterns (Day 34-36), Activity 1 (Day 37)
-Week 6: Activity 2 (Day 38-40), Container Orchestration and Security with AKS (Day 41-44)
-Week 7: API Management and Observability (Day 45-47), CI/CD and Performance Testing for AKS (Day 48-50)
-Week 8: Cosmos DB Data Modeling (Day 51-53), Multi-Region AKS Deployment (Day 54-56), Cost Optimization and Security Auditing (Day 57-58), Troubleshooting (Day 59), Milestones Review, Mock Interviews, Scenario Review (Day 60)
+#### Week 7
+
+> 1. `Day 31-32`: GoF Design Patterns (Introduction and Creational/Structural)
+> 1. `Day 33`: GoF Design Patterns (Behavioral)
+> 1. `Day 34-35`: Activity 1: Design Pattern Implementation
+
+#### Week 8
+
+> 1. `Day 36-37`: Distributed System Patterns
+> 1. `Day 38-39`: Activity 2: Distributed Systems Design
+> 1. `Day 40`: Activity 3: Container Orchestration and Security with AKS (Basic Deployment and Networking)
+
+#### Week 9
+
+> 1. `Day 41`: Activity 3: Container Orchestration and Security with AKS (Key Vault, AAD Pod Identity, and Azure Policy)
+> 1. `Day 42-43`: Activity 4: API Management and Observability
+> 1. `Day 44-45`: Activity 5: Cosmos DB Data Modeling and Partitioning
+
+#### Week 10
+
+> 1. `Day 46-47`: Activity 6: Multi-Region Concepts and High Availability
+> 1. `Day 48`: Activity 7: CI/CD Concepts and Azure DevOps/GitHub Actions Overview
+> 1. `Day 49`: Activity 8: Cost Optimization and Security Auditing Concepts
+
+#### Day 50 - Review of all Activities
+
+> 1. `Week 11`: Milestones Review, Mock Interviews, Scenario Review (Days 51-55)
+> 1. `Week 12`: Catch Up/Buffer (Days 56-60)
 
 ## Phase 3: Advanced Azure Services & Cross-Cutting Concerns (Days 61-90)
 
