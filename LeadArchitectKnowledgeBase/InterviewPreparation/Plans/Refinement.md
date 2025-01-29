@@ -1,7 +1,3 @@
-Here's an expanded and refined version of **Phase 1** and **Phase 2** of your **120-Day Azure Architect/Sr. Staff Engineer Interview Preparation Plan**, with clearer breakdowns, refined focus areas, and improved readability.
-
----
-
 # **Phase 1: Foundations & Core Concepts (Days 1-30) (5 Days/Week, ~1 Hour Daily) - 6 Weeks**
 
 This phase builds a solid foundation in cloud computing, Azure fundamentals, and Infrastructure as Code (IaC), setting the groundwork for more advanced topics.
