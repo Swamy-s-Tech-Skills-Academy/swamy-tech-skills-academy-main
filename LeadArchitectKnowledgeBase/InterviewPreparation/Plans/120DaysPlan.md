@@ -16,7 +16,8 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 ### 1.1. Goal
 
-> 1. Build a strong foundation in cloud computing, Azure fundamentals, architectural principles, and Infrastructure as Code (IaC).
+> 1. Develop a thorough understanding of cloud computing concepts, core Azure services, and architectural principles.
+> 1. Gain hands-on experience with Azure portal, CLI, and IaC tools.
 
 ### 1.2. Key Topics
 
