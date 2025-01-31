@@ -87,11 +87,13 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 > 1. Day 11-12: Azure Storage (Blob, Queue, Table, File).
 > 1. Day 13-14: Azure Networking (VNets, Subnets).
-> 1. Day 15: Blob Storage Hands-On Activity - Upload & Download Files Using CLI ✅
+> 1. Day 15: Blob Storage Hands-On Activity - Upload & Download Files Using CLI
 
 #### Week 4 - Advanced Networking & IaC
 
 > 1. Day 16: Networking Security (NSGs, App Security).
+>    - Enable Azure Defender for a resource group and analyze security recommendations.
+>    - Modify NSG Rules to restrict/allow traffic based on business needs.
 > 1. Day 17: Load Balancers & DNS (App Gateway, Azure Load Balancer).
 > 1. Day 18: IaC - ARM Templates (Structure & Basic Deployment).
 > 1. Day 19: IaC - Bicep vs ARM (Parameters, Modules, Deployment).
@@ -106,6 +108,8 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 #### Week 6 - Final Review & Deployment Task
 
 > 1. Day 26: Activity 4: Pricing Calculator Analysis (Compare IaaS vs PaaS Costs).
+>    - Analyze cost usage for an App Service or VM in Azure Cost Management.
+>    - Modify scaling settings to compare cost differences.
 > 1. Day 27: Activity 5: Deploy ARM Template (Storage/VNet/NSG).
 > 1. Day 28: Activity 6: Deploy Bicep (App Service & VNet/NSG).
 > 1. Day 29: Activity 7 (Optional): Terraform Deployment.
