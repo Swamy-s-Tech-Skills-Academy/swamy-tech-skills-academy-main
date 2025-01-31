@@ -57,48 +57,59 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 > 1. Pricing Analysis: Use Azure Pricing Calculator to compare costs.
 > 1. IaC - ARM Templates: Deploy a Storage Account using ARM Templates.
 > 1. IaC - Bicep: Deploy a VNet & NSG using Bicep.
-> 1. (NEW) Storage Activity - Blob Upload & Download Using CLI ✅
-> 1. (Optional) Terraform Lab: Deploy Resource Group & Storage using Terraform.
+> 1. Storage Activity - Blob Upload & Download Using CLI.
+> 1. Terraform Lab: Deploy Resource Group & Storage using Terraform.
 
 ### 1.4. Milestones
 
-#### Checkpoints to Validate Learning Progress ✅
+#### Checkpoints to Validate Learning Progress
 
 > 1. Deploy a basic web app on Azure (VM/App Service/Functions) with monitoring.
 > 1. Explain trade-offs between IaaS, PaaS, SaaS (Azure-specific examples).
 > 1. Design an architecture diagram using 3+ architectural principles (SOLID, SoC, DDD).
-> 1. (NEW) Deploy a Simple Web App Using Bicep/Terraform & Configure Azure Monitor ✅
+> 1. Deploy a Simple Web App Using Bicep/Terraform & Configure Azure Monitor.
 
 ### 1.5. Weekly Schedule (Phase 1 - 5 Days/Week) - 6 Weeks
 
-Week 1 - Cloud & Azure Basics
-Day 1-2: Cloud Concepts (IaaS, PaaS, SaaS) & Economics (TCO, ROI).
-Day 3-4: Azure Constructs (Regions, Resource Groups, ARM).
-Day 5: Azure Pricing Models & Support Plans.
-Week 2 - Architectural Design & Compute
-Day 6-7: Architectural Principles (SOLID, DRY, KISS, YAGNI, SoC).
-Day 8: Architectural Principles (DDD - Strategic & Tactical).
-Day 9-10: Azure Compute (VMs, App Service, Functions).
-Week 3 - Storage & Networking
-Day 11-12: Azure Storage (Blob, Queue, Table, File).
-Day 13-14: Azure Networking (VNets, Subnets).
-Day 15: (NEW) Blob Storage Hands-On Activity - Upload & Download Files Using CLI ✅
-Week 4 - Advanced Networking & IaC
-Day 16: Networking Security (NSGs, App Security).
-Day 17: Load Balancers & DNS (App Gateway, Azure Load Balancer).
-Day 18: IaC - ARM Templates (Structure & Basic Deployment).
-Day 19: IaC - Bicep vs ARM (Parameters, Modules, Deployment).
-Day 20: IaC - Terraform (Optional) (VM Deployment).
-Week 5 - Activities & Labs
-Day 21-22: Activity 1: Deploy Compute & Storage via Azure CLI/Portal.
-Day 23-24: Activity 2: Complete Azure Fundamentals Learning Path.
-Day 25: Activity 3: Apply Architectural Principles to a Cloud Scenario.
-Week 6 - Final Review & Deployment Task
-Day 26: Activity 4: Pricing Calculator Analysis (Compare IaaS vs PaaS Costs).
-Day 27: Activity 5: Deploy ARM Template (Storage/VNet/NSG).
-Day 28: Activity 6: Deploy Bicep (App Service & VNet/NSG).
-Day 29: Activity 7 (Optional): Terraform Deployment.
-Day 30: (NEW) Mini-Project: Deploy a Simple Web App with Bicep/Terraform + Azure Monitor & Logging ✅
+#### Week 1 - Cloud & Azure Basics
+
+> 1. Day 1-2: Cloud Concepts (IaaS, PaaS, SaaS) & Economics (TCO, ROI).
+> 1. Day 3-4: Azure Constructs (Regions, Resource Groups, ARM).
+> 1. Day 5: Azure Pricing Models & Support Plans.
+
+#### Week 2 - Architectural Design & Compute
+
+> 1. Day 6-7: Architectural Principles (SOLID, DRY, KISS, YAGNI, SoC).
+> 1. Day 8: Architectural Principles (DDD - Strategic & Tactical).
+> 1. Day 9-10: Azure Compute (VMs, App Service, Functions).
+
+#### Week 3 - Storage & Networking
+
+> 1. Day 11-12: Azure Storage (Blob, Queue, Table, File).
+> 1. Day 13-14: Azure Networking (VNets, Subnets).
+> 1. Day 15: Blob Storage Hands-On Activity - Upload & Download Files Using CLI ✅
+
+#### Week 4 - Advanced Networking & IaC
+
+> 1. Day 16: Networking Security (NSGs, App Security).
+> 1. Day 17: Load Balancers & DNS (App Gateway, Azure Load Balancer).
+> 1. Day 18: IaC - ARM Templates (Structure & Basic Deployment).
+> 1. Day 19: IaC - Bicep vs ARM (Parameters, Modules, Deployment).
+> 1. Day 20: IaC - Terraform (Optional) (VM Deployment).
+
+#### Week 5 - Activities & Labs
+
+> 1. Day 21-22: Activity 1: Deploy Compute & Storage via Azure CLI/Portal.
+> 1. Day 23-24: Activity 2: Complete Azure Fundamentals Learning Path.
+> 1. Day 25: Activity 3: Apply Architectural Principles to a Cloud Scenario.
+
+#### Week 6 - Final Review & Deployment Task
+
+> 1. Day 26: Activity 4: Pricing Calculator Analysis (Compare IaaS vs PaaS Costs).
+> 1. Day 27: Activity 5: Deploy ARM Template (Storage/VNet/NSG).
+> 1. Day 28: Activity 6: Deploy Bicep (App Service & VNet/NSG).
+> 1. Day 29: Activity 7 (Optional): Terraform Deployment.
+> 1. Day 30: Mini-Project: Deploy a Simple Web App with Bicep/Terraform + Azure Monitor & Logging
 
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60) (5 Days/Week, ~1 Hour Daily) - 6 Weeks
 
