@@ -12,12 +12,12 @@ This plan is designed to comprehensively prepare you for Azure Architect and Sr.
 
 ## Phase 1: Foundations & Core Concepts (Days 1-30) (5 Days/Week, ~1 Hour Daily) - 6 Weeks
 
-This phase ensures a robust understanding of Azure fundamentals, architectural principles, and IaC concepts, setting the stage for deeper exploration in subsequent phases.
+This phase ensures a robust understanding of Azure fundamentals, architectural principles, and Infrastructure as Code (IaC) concepts, setting the stage for deeper exploration in subsequent phases.
 
 ### 1.1. Goal
 
 > 1. Develop a thorough understanding of cloud computing concepts, core Azure services, and architectural principles.
-> 1. Gain hands-on experience with Azure portal, CLI, and IaC tools.
+> 1. Gain hands-on experience with Azure Portal, CLI, IaC tools (ARM, Bicep, Terraform).
 
 ### 1.2. Key Topics
 
@@ -49,60 +49,56 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 ### 1.3. Activities (Estimated Time: ~1 hour per activity unless noted)
 
-> 1. Explore Azure Portal and CLI/PowerShell: Deploy basic resources (VMs, storage accounts, virtual networks), manage configurations.
-> 1. Complete Microsoft Azure Fundamentals learning path on Microsoft Learn.
-> 1. Apply architectural principles to simple cloud design scenarios (e.g., design a simple web application architecture, considering scalability and availability).
-> 1. Analyze Azure pricing calculators for different services and usage patterns. Compare costs of different compute options (VMs vs. App Service vs. Functions).
-> 1. Introduction to ARM Templates: Deploy a parameterized ARM template to create a storage account with specific configurations (e.g., storage account type, access tier). Understand the structure of an ARM template (parameters, variables, resources, outputs, and modules).
-> 1. Introduction to Bicep: Create a Bicep template to deploy a virtual network with a subnet and a Network Security Group. Compare Bicep syntax to ARM template syntax, highlighting the improved readability and conciseness of Bicep. Use modules in Bicep.
-> 1. Introduction to Terraform (Optional): Deploy a resource group and a storage account using Terraform. Understand the Terraform workflow (init, plan, apply, destroy) and basic Terraform concepts (providers, resources, state).
+#### Hands-On Labs & Practical Exercises to reinforce each topic.
+
+> 1. Azure Portal & CLI: Deploy basic resources (VMs, Storage, VNets).
+> 1. Microsoft Learn: Complete the Azure Fundamentals learning path.
+> 1. Architectural Design: Apply SOLID & DDD to cloud architecture.
+> 1. Pricing Analysis: Use Azure Pricing Calculator to compare costs.
+> 1. IaC - ARM Templates: Deploy a Storage Account using ARM Templates.
+> 1. IaC - Bicep: Deploy a VNet & NSG using Bicep.
+> 1. (NEW) Storage Activity - Blob Upload & Download Using CLI ✅
+> 1. (Optional) Terraform Lab: Deploy Resource Group & Storage using Terraform.
 
 ### 1.4. Milestones
 
-> 1. Deploy a basic web application (static/dynamic) on Azure using VMs/App Service and as a serverless application (Functions). Implement basic monitoring. Deploy the infrastructure for the web application (e.g., virtual network, web app service plan) using parameterized ARM templates and Bicep. Explain the benefits of using IaC, including version control (and how it enables collaboration and rollback), automation (and how it reduces manual errors and improves consistency), and repeatability (and how it facilitates consistent environments across different stages). Demonstrate the use of parameters and variables in your templates.
-> 1. Explain the trade-offs between IaaS, PaaS, and SaaS, providing Azure-specific examples for each.
-> 1. Design a simple application architecture diagram demonstrating the application of at least 3 architectural principles (e.g., separation of concerns, single responsibility, open/closed). Document the rationale for your design choices.
-> 1. (Optional) Deploy basic Azure resources using Terraform. Compare and contrast ARM templates, Bicep, and Terraform, focusing on syntax, features, and use cases. Explain the concept of Terraform state.
+#### Checkpoints to Validate Learning Progress ✅
+
+> 1. Deploy a basic web app on Azure (VM/App Service/Functions) with monitoring.
+> 1. Explain trade-offs between IaaS, PaaS, SaaS (Azure-specific examples).
+> 1. Design an architecture diagram using 3+ architectural principles (SOLID, SoC, DDD).
+> 1. (NEW) Deploy a Simple Web App Using Bicep/Terraform & Configure Azure Monitor ✅
 
 ### 1.5. Weekly Schedule (Phase 1 - 5 Days/Week) - 6 Weeks
 
-#### Week 1
-
-> 1. Day 1-2: Cloud Fundamentals (Concepts and Economics)
-> 1. Day 3-4: Azure Constructs (Regions, Resource Groups, ARM)
-> 1. Day 5: Azure Pricing
-
-#### Week 2
-
-> 1. Day 6-7: Architectural Principles (SOLID, DRY, KISS, YAGNI, SoC)
-> 1. Day 8: Architectural Principles (DDD)
-> 1. Day 9-10: Azure Compute (VMs)
-
-#### Week 3
-
-> 1. Day 11-12: Azure Compute (App Service, Functions)
-> 1. Day 13-14: Azure Storage
-> 1. Day 15: Azure Networking (VNets, Subnets)
-
-#### Week 4
-
-> 1. Day 16-17: Azure Networking (NSGs, Load Balancers, DNS)
-> 1. Day 18-19: IaC Fundamentals (ARM Templates)
-> 1. Day 20: IaC Fundamentals (Bicep and Terraform Overview)
-
-#### Week 5
-
-> 1. Day 21-22: Activity 1: Azure Portal/CLI Exploration (Focus on Compute and Storage)
-> 1. Day 23-24: Activity 2: Microsoft Azure Fundamentals Learning Path (Continue daily)
-> 1. Day 25: Activity 3: Architectural Principles Application
-
-#### Week 6
-
-> 1. Day 26: Activity 4: Pricing Calculator Analysis
-> 1. Day 27: Activity 5: ARM Template Deployment
-> 1. Day 28: Activity 6: Bicep Template Deployment
-> 1. Day 29: Activity 7 (Optional): Terraform Deployment
-> 1. Day 30: Milestones Review and Practice
+Week 1 - Cloud & Azure Basics
+Day 1-2: Cloud Concepts (IaaS, PaaS, SaaS) & Economics (TCO, ROI).
+Day 3-4: Azure Constructs (Regions, Resource Groups, ARM).
+Day 5: Azure Pricing Models & Support Plans.
+Week 2 - Architectural Design & Compute
+Day 6-7: Architectural Principles (SOLID, DRY, KISS, YAGNI, SoC).
+Day 8: Architectural Principles (DDD - Strategic & Tactical).
+Day 9-10: Azure Compute (VMs, App Service, Functions).
+Week 3 - Storage & Networking
+Day 11-12: Azure Storage (Blob, Queue, Table, File).
+Day 13-14: Azure Networking (VNets, Subnets).
+Day 15: (NEW) Blob Storage Hands-On Activity - Upload & Download Files Using CLI ✅
+Week 4 - Advanced Networking & IaC
+Day 16: Networking Security (NSGs, App Security).
+Day 17: Load Balancers & DNS (App Gateway, Azure Load Balancer).
+Day 18: IaC - ARM Templates (Structure & Basic Deployment).
+Day 19: IaC - Bicep vs ARM (Parameters, Modules, Deployment).
+Day 20: IaC - Terraform (Optional) (VM Deployment).
+Week 5 - Activities & Labs
+Day 21-22: Activity 1: Deploy Compute & Storage via Azure CLI/Portal.
+Day 23-24: Activity 2: Complete Azure Fundamentals Learning Path.
+Day 25: Activity 3: Apply Architectural Principles to a Cloud Scenario.
+Week 6 - Final Review & Deployment Task
+Day 26: Activity 4: Pricing Calculator Analysis (Compare IaaS vs PaaS Costs).
+Day 27: Activity 5: Deploy ARM Template (Storage/VNet/NSG).
+Day 28: Activity 6: Deploy Bicep (App Service & VNet/NSG).
+Day 29: Activity 7 (Optional): Terraform Deployment.
+Day 30: (NEW) Mini-Project: Deploy a Simple Web App with Bicep/Terraform + Azure Monitor & Logging ✅
 
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60) (5 Days/Week, ~1 Hour Daily) - 6 Weeks
 
