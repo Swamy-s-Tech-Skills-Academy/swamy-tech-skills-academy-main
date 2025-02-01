@@ -122,31 +122,41 @@ This phase deepens your understanding of design patterns, distributed systems, a
 ### 2.1. Goal
 
 > 1. Deepen understanding of design patterns, distributed systems, and core Azure services. Integrate security, observability, performance testing, and cost optimization best practices.
+> 1. To develop a deep understanding of design patterns, distributed systems concepts, and core Azure services. Gain hands-on experience with advanced Azure services, containerization, and security best practices. Build the ability to design, implement, and troubleshoot complex cloud solutions.
 
 ### 2.2. Key Topics
 
-#### GoF Design Patterns (with Azure Examples)
+#### GoF Design Patterns (6 Days)
 
-> 1. `Creational`: Factory, Abstract Factory (e.g., creating different types of VMs), Singleton (e.g., a configuration service).
-> 1. `Structural`: Adapter (e.g., adapting a legacy system to use Azure Storage), Decorator (e.g., adding caching to an Azure Function), Facade (e.g., simplifying access to multiple Azure services).
-> 1. `Behavioral`: Strategy (e.g., choosing different retry strategies with Polly), Observer (e.g., Event Grid for reacting to events), Command (e.g., queuing operations with Service Bus).
+Creational: Factory, Abstract Factory, Singleton
+Structural: Adapter, Decorator, Facade
+Behavioral: Strategy, Observer, Command, Template Method, Chain of Responsibility
 
-#### Distributed System Patterns (with Azure Implementations)
+#### Distributed Systems Concepts (6 Days)
 
-> 1. `Resilience`: Circuit Breaker (Polly with Azure SDKs), Retry with Backoff (Azure SDK retry policies, exponential backoff), Bulkhead.
-> 1. `Data Consistency`: CAP theorem, eventual consistency (Cosmos DB consistency levels), idempotent operations.
-> 1. `Messaging and Streaming`: Message queues (Azure Queues, Service Bus), stream processing (Event Hubs).
-> 1. `Orchestration`: Saga (Durable Functions for long-running transactions), Outbox pattern (for reliable message delivery between services).
+Microservices Architecture (Principles, Benefits, Challenges)
+Resilience Patterns: Circuit Breaker, Retry, Bulkhead, Timeout, Throttling
+Data Consistency: CAP Theorem, Eventual Consistency, ACID, Data Partitioning Strategies
+Messaging: Message Queues (Service Bus, Event Hubs), Pub/Sub, Stream Processing
+Orchestration & Choreography (Saga Pattern, State Machines)
 
-#### Azure Compute & Networking
+#### Azure Compute & Networking Deep Dive (6 Days)
 
-> 1. `Advanced Compute`: Advanced VM configurations (extensions, custom images), autoscaling (VM Scale Sets, App Service autoscale), load balancing (Application Gateway, Load Balancer - internal/external), Availability Sets/Zones.
-> 1. `Containerization`: Docker, Kubernetes, AKS (networking, security, deployments, ingress controllers), ACI (for simple container deployments).
+Virtual Machines: Advanced VM configurations (extensions, custom images), Autoscaling, Availability Sets/Zones
+Azure Kubernetes Service (AKS): Deployment, Networking (Ingress Controllers, Network Policies), Security, Scaling, Monitoring
+Containerization: Docker, Kubernetes concepts (Pods, Deployments, Services, StatefulSets), Container Registries
+Advanced Networking: Virtual Networks (Hub-Spoke), Azure Firewall, WAF, VPN Gateways, ExpressRoute, Traffic Manager
 
-#### Azure Storage & Databases
+#### Azure Storage & Databases (6 Days)
 
-> 1. `Storage`: Storage tiers (Hot, Cool, Archive), lifecycle management, Shared Access Signatures (SAS).
-> 1. `Databases`: Azure SQL Database (performance tuning, security), Cosmos DB (data modeling, partitioning, consistency levels, change feed), Azure Database for PostgreSQL/MySQL/MariaDB.
+Cosmos DB: Advanced data modeling, partitioning, consistency levels, change feed, global distribution
+Azure SQL Database: Performance tuning, security, high availability options (read replicas, failover groups)
+Azure Storage: Blob Storage tiers, lifecycle management, data protection, Azure Data Lake Storage
+
+#### Security & Observability (6 Days)
+
+Security: Azure AD, RBAC, Managed Identities, Key Vault, Azure Security Center, Security Center recommendations, threat detection
+Observability: Azure Monitor, Application Insights, Log Analytics, distributed tracing (Jaeger, Zipkin), Alerting
 
 #### Key Considerations (Integrated into Activities)
 
