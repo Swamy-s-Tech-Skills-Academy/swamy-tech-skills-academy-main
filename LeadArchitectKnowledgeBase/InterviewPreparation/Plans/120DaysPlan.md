@@ -74,45 +74,51 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 #### Week 1 - Cloud & Azure Basics
 
-> 1. Day 1-2: Cloud Concepts (IaaS, PaaS, SaaS) & Economics (TCO, ROI).
-> 1. Day 3-4: Azure Constructs (Regions, Resource Groups, ARM).
-> 1. Day 5: Azure Pricing Models & Support Plans.
+> 1. Day 1: Cloud Concepts (IaaS, PaaS, SaaS)
+> 1. Day 2: Cloud Economics (TCO, ROI)
+> 1. Day 3: Azure Constructs (Regions, Resource Groups)
+> 1. Day 4: Azure Subscriptions, Management Groups, ARM
+> 1. Day 5: Azure Pricing Models & Support Plans
 
 #### Week 2 - Architectural Design & Compute
 
-> 1. Day 6-7: Architectural Principles (SOLID, DRY, KISS, YAGNI, SoC).
-> 1. Day 8-9: Architectural Principles (DDD - Strategic & Tactical).
-> 1. Day 10: Microservices Architecture.
-> 1. Day 11: Azure Compute (VMs).
-> 1. Day 12: Azure Compute (App Service, Functions).
+> 1. Day 6: SOLID & DRY Principles
+> 1. Day 7: KISS, YAGNI, SoC Principles
+> 1. Day 8: DDD - Strategic Patterns
+> 1. Day 9: DDD - Tactical Patterns
+> 1. Day 10: Microservices Architecture
 
 #### Week 3 - Storage & Networking
 
-> 1. Day 13-14: Azure Storage (Blob, Queue, Table, File).
-> 1. Day 15-16: Azure Networking (VNets, Subnets).
-> 1. Day 17: Azure Networking (NSGs, Load Balancers, DNS).
+> 1. Day 11: Azure Compute (VMs)
+> 1. Day 12: Azure App Service
+> 1. Day 13: Azure Functions
+> 1. Day 14: Azure Blob Storage
+> 1. Day 15: Azure Queue & Table Storage
 
 #### Week 4 - Advanced Networking & IaC
 
-> 1. Day 18: Networking Security (NSGs, App Security) - Enable Azure Defender, modify NSG Rules.
-> 1. Day 19: Load Balancers & DNS (App Gateway, Azure Load Balancer).
-> 1. Day 20: IaC - ARM Templates (Structure & Basic Deployment).
-> 1. Day 21: IaC - ARM Templates (Parameters, Variables, Modules).
-> 1. Day 22: IaC - Bicep Fundamentals.
+> 1. Day 16: Azure File Storage & Networking Overview
+> 1. Day 17: Virtual Networks & Subnets
+> 1. Day 18: Network Security Groups (NSGs)
+> 1. Day 19: Load Balancers & DNS
+> 1. Day 20: IaC - ARM Templates Introduction
 
 #### Week 5 - IaC & Architectural Principles
 
-> 1. Day 23: IaC - Bicep (VNet & NSG Deployment).
-> 1. Day 24: IaC - Terraform Fundamentals.
-> 1. Day 25: IaC - Terraform Deployment.
-> 1. Day 26: Architectural Principles Review (SOLID, DDD, Microservices).
-> 1. Day 27: Architectural Design Activity.
+> 1. Day 21: IaC - ARM Templates (Parameters, Variables)
+> 1. Day 22: IaC - ARM Templates (Modules & Deployment)
+> 1. Day 23: IaC - Bicep Fundamentals
+> 1. Day 24: IaC - Bicep Deployment (VNet & NSG)
+> 1. Day 25: IaC - Terraform Fundamentals
 
 #### Week 6 - Final Review & Deployment Task
 
-> 1. Day 28: Pricing Calculator Analysis (Compare IaaS vs PaaS Costs).
-> 1. Day 29: Review and Q&A.
-> 1. Day 30: Mini-Project: Deploy a Simple Web App with Bicep/Terraform + Azure Monitor & Logging.
+> 1. Day 26: IaC - Terraform Deployment
+> 1. Day 27: Architectural Principles Review (SOLID, DDD, Microservices)
+> 1. Day 28: Architectural Design Activity
+> 1. Day 29: Pricing Calculator Analysis
+> 1. Day 30: Mini-Project: Deploy a Simple Web App with Bicep/Terraform + Azure Monitor & Logging
 
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60) (5 Days/Week, ~1 Hour Daily) - 6 Weeks
 
