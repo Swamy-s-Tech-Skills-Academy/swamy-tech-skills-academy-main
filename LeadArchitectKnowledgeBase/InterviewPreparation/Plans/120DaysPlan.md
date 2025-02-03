@@ -31,10 +31,11 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 > 1. Azure Constructs: Regions, resource groups, subscriptions, management groups, and Azure Resource Manager (ARM).
 > 1. Pricing: Azure pricing models and support plans.
 
-#### Architectural Principles (Estimated Time: 3 days)
+#### Architectural Principles (Estimated Time: 9 days)
 
 > 1. Core Design Patterns: SOLID, DRY, KISS, YAGNI, SoC (Separation of Concerns).
 > 1. Domain-Driven Design (DDD): Strategic and tactical patterns (Bounded Contexts, Aggregates).
+> 1. Microservices Architecture: Principles, Benefits, Challenges.
 
 #### Azure Core Services (Estimated Time: 9 days - 3 days per service area)
 
@@ -42,7 +43,7 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 > 1. Storage: Azure Blob, Queue, Table, File Storage.
 > 1. Networking: Virtual Networks (VNets), Subnets, Network Security Groups (NSGs), Load Balancers, and DNS.
 
-#### IaC Fundamentals (Estimated Time: 3 days)
+#### IaC Fundamentals (Estimated Time: 6 days)
 
 > 1. Overview: ARM Templates, Bicep, and Terraform.
 > 1. Benefits: Version control, automation, repeatability, and consistency.
@@ -73,46 +74,50 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 #### Week 1 - Cloud & Azure Basics
 
-> 1. Day 1-2: Cloud Concepts (IaaS, PaaS, SaaS) & Economics (TCO, ROI).
-> 1. Day 3-4: Azure Constructs (Regions, Resource Groups, ARM).
-> 1. Day 5: Azure Pricing Models & Support Plans.
+> 1. Day 1: Cloud Concepts (IaaS, PaaS, SaaS)
+> 1. Day 2: Cloud Economics (TCO, ROI)
+> 1. Day 3: Azure Constructs (Regions, Resource Groups)
+> 1. Day 4: Azure Subscriptions, Management Groups, ARM
+> 1. Day 5: Azure Pricing Models & Support Plans
 
 #### Week 2 - Architectural Design & Compute
 
-> 1. Day 6-7: Architectural Principles (SOLID, DRY, KISS, YAGNI, SoC).
-> 1. Day 8: Architectural Principles (DDD - Strategic & Tactical).
-> 1. Day 9-10: Azure Compute (VMs, App Service, Functions).
+> 1. Day 6: SOLID & DRY Principles
+> 1. Day 7: KISS, YAGNI, SoC Principles
+> 1. Day 8: DDD - Strategic Patterns
+> 1. Day 9: DDD - Tactical Patterns
+> 1. Day 10: Microservices Architecture
 
 #### Week 3 - Storage & Networking
 
-> 1. Day 11-12: Azure Storage (Blob, Queue, Table, File).
-> 1. Day 13-14: Azure Networking (VNets, Subnets).
-> 1. Day 15: Blob Storage Hands-On Activity - Upload & Download Files Using CLI
+> 1. Day 11: Azure Compute (VMs)
+> 1. Day 12: Azure App Service
+> 1. Day 13: Azure Functions
+> 1. Day 14: Azure Blob Storage
+> 1. Day 15: Azure Queue & Table Storage
 
 #### Week 4 - Advanced Networking & IaC
 
-> 1. Day 16: Networking Security (NSGs, App Security).
->    - Enable Azure Defender for a resource group and analyze security recommendations.
->    - Modify NSG Rules to restrict/allow traffic based on business needs.
-> 1. Day 17: Load Balancers & DNS (App Gateway, Azure Load Balancer).
-> 1. Day 18: IaC - ARM Templates (Structure & Basic Deployment).
-> 1. Day 19: IaC - Bicep vs ARM (Parameters, Modules, Deployment).
-> 1. Day 20: IaC - Terraform (Optional) (VM Deployment).
+> 1. Day 16: Azure File Storage & Networking Overview
+> 1. Day 17: Virtual Networks & Subnets
+> 1. Day 18: Network Security Groups (NSGs)
+> 1. Day 19: Load Balancers & DNS
+> 1. Day 20: IaC - ARM Templates Introduction
 
-#### Week 5 - Activities & Labs
+#### Week 5 - IaC & Architectural Principles
 
-> 1. Day 21-22: Activity 1: Deploy Compute & Storage via Azure CLI/Portal.
-> 1. Day 23-24: Activity 2: Complete Azure Fundamentals Learning Path.
-> 1. Day 25: Activity 3: Apply Architectural Principles to a Cloud Scenario.
+> 1. Day 21: IaC - ARM Templates (Parameters, Variables)
+> 1. Day 22: IaC - ARM Templates (Modules & Deployment)
+> 1. Day 23: IaC - Bicep Fundamentals
+> 1. Day 24: IaC - Bicep Deployment (VNet & NSG)
+> 1. Day 25: IaC - Terraform Fundamentals
 
 #### Week 6 - Final Review & Deployment Task
 
-> 1. Day 26: Activity 4: Pricing Calculator Analysis (Compare IaaS vs PaaS Costs).
->    - Analyze cost usage for an App Service or VM in Azure Cost Management.
->    - Modify scaling settings to compare cost differences.
-> 1. Day 27: Activity 5: Deploy ARM Template (Storage/VNet/NSG).
-> 1. Day 28: Activity 6: Deploy Bicep (App Service & VNet/NSG).
-> 1. Day 29: Activity 7 (Optional): Terraform Deployment.
+> 1. Day 26: IaC - Terraform Deployment
+> 1. Day 27: Architectural Principles Review (SOLID, DDD, Microservices)
+> 1. Day 28: Architectural Design Activity
+> 1. Day 29: Pricing Calculator Analysis
 > 1. Day 30: Mini-Project: Deploy a Simple Web App with Bicep/Terraform + Azure Monitor & Logging
 
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60) (5 Days/Week, ~1 Hour Daily) - 6 Weeks
@@ -128,35 +133,35 @@ This phase deepens your understanding of design patterns, distributed systems, a
 
 #### GoF Design Patterns (6 Days)
 
-Creational: Factory, Abstract Factory, Singleton
-Structural: Adapter, Decorator, Facade
-Behavioral: Strategy, Observer, Command, Template Method, Chain of Responsibility
+> 1. Creational: Factory, Abstract Factory, Singleton
+> 1. Structural: Adapter, Decorator, Facade
+> 1. Behavioral: Strategy, Observer, Command, Template Method, Chain of Responsibility
 
 #### Distributed Systems Concepts (6 Days)
 
-Microservices Architecture (Principles, Benefits, Challenges)
-Resilience Patterns: Circuit Breaker, Retry, Bulkhead, Timeout, Throttling
-Data Consistency: CAP Theorem, Eventual Consistency, ACID, Data Partitioning Strategies
-Messaging: Message Queues (Service Bus, Event Hubs), Pub/Sub, Stream Processing
-Orchestration & Choreography (Saga Pattern, State Machines)
+> 1. Microservices Architecture (Principles, Benefits, Challenges)
+> 1. Resilience Patterns: Circuit Breaker, Retry, Bulkhead, Timeout, Throttling
+> 1. Data Consistency: CAP Theorem, Eventual Consistency, ACID, Data Partitioning Strategies
+> 1. Messaging: Message Queues (Service Bus, Event Hubs), Pub/Sub, Stream Processing
+> 1. Orchestration & Choreography (Saga Pattern, Outbox Pattern, State Machines)
 
 #### Azure Compute & Networking Deep Dive (6 Days)
 
-Virtual Machines: Advanced VM configurations (extensions, custom images), Autoscaling, Availability Sets/Zones
-Azure Kubernetes Service (AKS): Deployment, Networking (Ingress Controllers, Network Policies), Security, Scaling, Monitoring
-Containerization: Docker, Kubernetes concepts (Pods, Deployments, Services, StatefulSets), Container Registries
-Advanced Networking: Virtual Networks (Hub-Spoke), Azure Firewall, WAF, VPN Gateways, ExpressRoute, Traffic Manager
+> 1. Virtual Machines: Advanced VM configurations (extensions, custom images), Autoscaling, Availability Sets/Zones
+> 1. Azure Kubernetes Service (AKS): Deployment, Networking (Ingress Controllers, Network Policies), Security, Scaling, Monitoring
+> 1. Containerization: Docker, Kubernetes concepts (Pods, Deployments, Services, StatefulSets), Container Registries
+> 1. Advanced Networking: Virtual Networks (Hub-Spoke), Azure Firewall, WAF, VPN Gateways, ExpressRoute, Traffic Manager
 
 #### Azure Storage & Databases (6 Days)
 
-Cosmos DB: Advanced data modeling, partitioning, consistency levels, change feed, global distribution
-Azure SQL Database: Performance tuning, security, high availability options (read replicas, failover groups)
-Azure Storage: Blob Storage tiers, lifecycle management, data protection, Azure Data Lake Storage
+> 1. Cosmos DB: Advanced data modeling, partitioning, consistency levels, change feed, global distribution
+> 1. Azure SQL Database: Performance tuning, security, high availability options (read replicas, failover groups)
+> 1. Azure Storage: Blob Storage tiers, lifecycle management, data protection, Azure Data Lake Storage
 
 #### Security & Observability (6 Days)
 
-Security: Azure AD, RBAC, Managed Identities, Key Vault, Azure Security Center, Security Center recommendations, threat detection
-Observability: Azure Monitor, Application Insights, Log Analytics, distributed tracing (Jaeger, Zipkin), Alerting
+> 1. Security: Azure AD, RBAC, Managed Identities, Key Vault, Azure Security Center, Security Center recommendations, threat detection
+> 1. Observability: Azure Monitor, Application Insights, Log Analytics, distributed tracing (Jaeger, Zipkin), Alerting
 
 #### Key Considerations (Integrated into Activities)
 
