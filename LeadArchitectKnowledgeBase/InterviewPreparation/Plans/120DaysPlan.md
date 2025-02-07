@@ -14,39 +14,42 @@ This plan is designed to comprehensively prepare you for Azure Architect and Sr.
 
 This phase ensures a robust understanding of Azure fundamentals, architectural principles, and Infrastructure as Code (IaC) concepts, setting the stage for deeper exploration in subsequent phases. This phase establishes a strong foundation in cloud computing, Azure fundamentals, architectural principles, and Infrastructure as Code (IaC).
 
-### 1.1. Goal
+### 🎯 1.1. Goals
 
-> 1. Develop a thorough understanding of cloud computing concepts, core Azure services, and architectural principles.
-> 1. Gain hands-on experience with Azure Portal, CLI, IaC tools (ARM, Bicep, Terraform).
+> 1. Develop a strong understanding of cloud computing concepts and core Azure services.
+> 1. Gain hands-on experience with Azure Portal, CLI, and Infrastructure as Code (IaC) tools like ARM Templates, Bicep, and Terraform.
+> 1. Apply architectural principles using the **Azure Well-Architected Framework**.
 
-### 1.2. Key Topics
+### 📚 1.2. Key Topics
 
 #### Cloud Fundamentals (Estimated Time: 2 days)
 
-> 1. Concepts: IaaS, PaaS, SaaS, serverless computing, shared responsibility model.
-> 1. Economics: Total Cost of Ownership (TCO) and Return on Investment (ROI).
+> 1. _Concepts:_ IaaS, PaaS, SaaS, Serverless, Shared Responsibility Model.
+> 1. _Economics:_ Total Cost of Ownership (TCO), Return on Investment (ROI).
 
 #### Azure Fundamentals (Estimated Time: 4 days)
 
-> 1. Azure Constructs: Regions, resource groups, subscriptions, management groups, and Azure Resource Manager (ARM).
-> 1. Pricing: Azure pricing models and support plans.
+> 1. _Core Constructs:_ Regions, Resource Groups, Subscriptions, Management Groups, and Azure Resource Manager (ARM)..
+> 1. _Pricing:_ Azure pricing models, support plans, Azure Cost Management basics.
 
 #### Architectural Principles (Estimated Time: 9 days)
 
-> 1. Core Design Patterns: SOLID, DRY, KISS, YAGNI, SoC (Separation of Concerns).
-> 1. Domain-Driven Design (DDD): Strategic and tactical patterns (Bounded Contexts, Aggregates).
-> 1. Microservices Architecture: Principles, Benefits, Challenges.
+> 1. _Design Patterns:_ SOLID, DRY, KISS, YAGNI, SoC.
+> 1. _Domain-Driven Design (DDD):_ Strategic vs. Tactical patterns (Bounded Contexts, Aggregates).
+> 1. _Microservices Architecture:_ Principles, benefits, challenges.
+> 1. _Well-Architected Framework:_ Apply to each principle.
 
 #### Azure Core Services (Estimated Time: 9 days - 3 days per service area)
 
-> 1. Compute: Virtual Machines (VMs), Azure App Service, Azure Functions.
-> 1. Storage: Azure Blob, Queue, Table, File Storage.
-> 1. Networking: Virtual Networks (VNets), Subnets, Network Security Groups (NSGs), Load Balancers, and DNS.
+> 1. _Compute:_ Virtual Machines, App Service, Azure Functions.
+> 1. _Storage:_ Blob, Queue, Table, File Storage.
+> 1. _Networking:_ VNets, Subnets, NSGs, Load Balancers, DNS.
+> 1. _Integration:_ Apply Well-Architected Framework pillars to service design.
 
 #### IaC Fundamentals (Estimated Time: 6 days)
 
-> 1. Overview: ARM Templates, Bicep, and Terraform.
-> 1. Benefits: Version control, automation, repeatability, and consistency.
+> 1. _Tools:_ ARM Templates, Bicep, Terraform.
+> 1. _Practices:_ Version control, automation, repeatability, consistency.
 
 ### 1.3. Activities (Estimated Time: ~1 hour per activity unless noted)
 
