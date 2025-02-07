@@ -51,9 +51,9 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 > 1. _Tools:_ ARM Templates, Bicep, Terraform.
 > 1. _Practices:_ Version control, automation, repeatability, consistency.
 
-### 1.3. Activities (Estimated Time: ~1 hour per activity unless noted)
+### 🛠️ 1.3. Activities (Real-World Focus)
 
-#### Hands-On Labs & Practical Exercises to reinforce each topic.
+#### Hands-On Labs
 
 > 1. Azure Portal & CLI: Deploy basic resources (VMs, Storage, VNets).
 > 1. Microsoft Learn: Complete the Azure Fundamentals learning path.
@@ -63,6 +63,23 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 > 1. IaC - Bicep: Deploy a VNet & NSG using Bicep.
 > 1. Storage Activity - Blob Upload & Download Using CLI.
 > 1. Terraform Lab: Deploy Resource Group & Storage using Terraform.
+
+#### Architectural Design Exercises
+
+> 1. Apply SOLID & DDD principles in designing simple cloud architectures.
+
+#### Cost Optimization Exercise
+
+> 1. Analyze the cost of a deployed solution and identify optimization areas.
+
+Old
+
+> 1. Deploy a **web app** (VM, App Service, Function) with monitoring and NSG-based security.
+> 1. Set up a **basic CI/CD pipeline** using Azure DevOps or GitHub Actions.
+> 1. Deploy a **Storage Account** using ARM Templates, Bicep, and Terraform.
+> 1. Build a **network architecture** with VNets, Subnets, NSGs using IaC.
+> 1. Use **Azure Pricing Calculator** to analyze deployment costs.
+> 1. Apply the **Well-Architected Framework** review for each deployment.
 
 ### 1.4. Milestones
 
