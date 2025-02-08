@@ -72,15 +72,6 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 > 1. Analyze the cost of a deployed solution and identify optimization areas.
 
-Old
-
-> 1. Deploy a **web app** (VM, App Service, Function) with monitoring and NSG-based security.
-> 1. Set up a **basic CI/CD pipeline** using Azure DevOps or GitHub Actions.
-> 1. Deploy a **Storage Account** using ARM Templates, Bicep, and Terraform.
-> 1. Build a **network architecture** with VNets, Subnets, NSGs using IaC.
-> 1. Use **Azure Pricing Calculator** to analyze deployment costs.
-> 1. Apply the **Well-Architected Framework** review for each deployment.
-
 ### 1.4. Milestones
 
 #### Checkpoints to Validate Learning Progress
