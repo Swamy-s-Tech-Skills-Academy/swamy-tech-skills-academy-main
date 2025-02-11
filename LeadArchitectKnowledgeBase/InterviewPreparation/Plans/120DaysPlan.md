@@ -2,6 +2,10 @@
 
 This plan is designed to comprehensively prepare you for Azure Architect and Sr. Staff Engineer roles. It combines the best aspects, focusing on actionable steps, Azure expertise, and leadership development.
 
+## Few Icons
+
+📚
+
 ## Key Principles
 
 > 1. _Prioritization:_ Focus on the most relevant skills and knowledge.
@@ -16,72 +20,50 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 ### 🎯 1.1. Goals
 
-> 1. Develop a strong understanding of cloud computing concepts and core Azure services.
-> 1. Gain hands-on experience with Azure Portal, CLI, and Infrastructure as Code (IaC) tools like ARM Templates, Bicep, and Terraform.
-> 1. Apply architectural principles using the **Azure Well-Architected Framework**.
+✔ Develop a deep understanding of cloud computing, Azure core services, and architectural principles.  
+✔ Gain **hands-on** experience with Azure Portal, CLI, and Infrastructure as Code (IaC).  
+✔ Learn to evaluate cloud solutions based on **cost, security, scalability, and operational excellence.**
 
-### 📚 1.2. Key Topics
+### 📌 1.2. Key Topics
 
-#### Cloud Fundamentals (Estimated Time: 2 days)
+✅ **Cloud Fundamentals** _(2 Days)_
 
-> 1. _Concepts:_ IaaS, PaaS, SaaS, Serverless, Shared Responsibility Model.
-> 1. _Economics:_ Total Cost of Ownership (TCO), Return on Investment (ROI).
+- IaaS, PaaS, SaaS, Serverless, Shared Responsibility Model
+- Total Cost of Ownership (TCO), Return on Investment (ROI), Pay-as-you-Go vs Reserved Pricing
 
-#### Azure Fundamentals (Estimated Time: 4 days)
+✅ **Azure Fundamentals** _(4 Days)_
 
-> 1. _Core Constructs:_ Regions, Resource Groups, Subscriptions, Management Groups, and Azure Resource Manager (ARM)..
-> 1. _Pricing:_ Azure pricing models, support plans, Azure Cost Management basics.
+- Azure Regions, Availability Zones, Resource Groups, ARM
+- Azure Pricing, Cost Optimization Basics
 
-#### Architectural Principles (Estimated Time: 9 days)
+✅ **Architectural Principles** _(9 Days)_
 
-> 1. _Design Patterns:_ SOLID, DRY, KISS, YAGNI, SoC.
-> 1. _Domain-Driven Design (DDD):_ Strategic vs. Tactical patterns (Bounded Contexts, Aggregates).
-> 1. _Microservices Architecture:_ Principles, benefits, challenges.
-> 1. _Well-Architected Framework:_ Apply to each principle.
+- **SOLID, DRY, KISS, YAGNI, SoC (Separation of Concerns)**
+- **Domain-Driven Design (DDD)** – Bounded Contexts, Aggregates
+- **Microservices Architecture** – Benefits, Challenges, Decomposition Strategies
+- **Azure Well-Architected Framework** – Reliability, Security, Cost Optimization
 
-#### Azure Core Services (Estimated Time: 9 days - 3 days per service area)
+✅ **Azure Core Services** _(9 Days)_
 
-> 1. _Compute:_ Virtual Machines, App Service, Azure Functions.
-> 1. _Storage:_ Blob, Queue, Table, File Storage.
-> 1. _Networking:_ VNets, Subnets, NSGs, Load Balancers, DNS.
-> 1. _Integration:_ Apply Well-Architected Framework pillars to service design.
+- **Compute** – Virtual Machines (VMs), App Services, Azure Functions
+- **Storage** – Blob, Queue, Table, File Storage
+- **Networking** – VNets, Subnets, Network Security Groups (NSGs), Load Balancers, DNS
 
-#### IaC Fundamentals (Estimated Time: 6 days)
+✅ **Infrastructure as Code (IaC) Fundamentals** _(6 Days)_
 
-> 1. _Tools:_ ARM Templates, Bicep, Terraform.
-> 1. _Practices:_ Version control, automation, repeatability, consistency.
+- ARM Templates, Bicep, Terraform
+- Hands-on: Deploying resources via **ARM, Bicep, Terraform**
 
 ### 🛠️ 1.3. Activities (Real-World Focus)
 
-#### Hands-On Labs
+✔ **Deploy a simple web app** (VM/App Service/Function) with security & monitoring  
+✔ Implement **basic CI/CD pipeline** for web deployment (Azure DevOps/GitHub Actions)  
+✔ Deploy **Storage Account using ARM, Bicep, and Terraform**  
+✔ Configure **VNets, subnets, and NSGs using IaC**  
+✔ Use **Azure Pricing Calculator** for cost comparison  
+✔ Evaluate **Azure Well-Architected Review** for a small project
 
-> 1. Azure Portal & CLI: Deploy basic resources (VMs, Storage, VNets).
-> 1. Microsoft Learn: Complete the Azure Fundamentals learning path.
-> 1. Architectural Design: Apply SOLID & DDD to cloud architecture.
-> 1. Pricing Analysis: Use Azure Pricing Calculator to compare costs.
-> 1. IaC - ARM Templates: Deploy a Storage Account using ARM Templates.
-> 1. IaC - Bicep: Deploy a VNet & NSG using Bicep.
-> 1. Storage Activity - Blob Upload & Download Using CLI.
-> 1. Terraform Lab: Deploy Resource Group & Storage using Terraform.
-
-#### Architectural Design Exercises
-
-> 1. Apply SOLID & DDD principles in designing simple cloud architectures.
-
-#### Cost Optimization Exercise
-
-> 1. Analyze the cost of a deployed solution and identify optimization areas.
-
-### ✅ 1.4. Milestones
-
-#### Checkpoints to Validate Learning Progress
-
-> 1. Deploy a web app with monitoring and security via IaC.
-> 1. Explain trade-offs between IaaS, PaaS, and SaaS using Azure examples.
-> 1. Design an architecture diagram applying at least 3 architectural principles.
-> 1. Deploy a web app using Bicep/Terraform and configure Azure Monitor.
-
-### 📆 1.5. Weekly Schedule (5 Days/Week)
+### 📆 1.4. Weekly Schedule (5 Days/Week)
 
 This schedule gradually builds expertise, starting with cloud fundamentals and progressing to architectural design, IaC, security, and cost optimization.
 
@@ -149,6 +131,13 @@ This schedule gradually builds expertise, starting with cloud fundamentals and p
 >    - VNet + NSG
 >    - Monitoring + Logging
 >    - Cost Optimization Applied
+
+### ✅ 1.5. Milestones
+
+🔹 Deploy a **secure and cost-effective** web app on Azure using **IaC & Well-Architected Review**  
+🔹 Compare IaaS vs PaaS solutions and justify the trade-offs  
+🔹 Design and document an **architecture applying at least 3 architectural principles**  
+🔹 Deploy an end-to-end **web app using Bicep/Terraform** and set up Azure Monitor
 
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60) (5 Days/Week, ~1 Hour Daily) - 6 Weeks
 
