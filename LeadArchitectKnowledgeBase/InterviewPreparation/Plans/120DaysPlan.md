@@ -2,6 +2,10 @@
 
 This plan is designed to comprehensively prepare you for Azure Architect and Sr. Staff Engineer roles. It combines the best aspects, focusing on actionable steps, Azure expertise, and leadership development.
 
+## Few Icons
+
+📚
+
 ## Key Principles
 
 > 1. _Prioritization:_ Focus on the most relevant skills and knowledge.
@@ -16,72 +20,50 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 ### 🎯 1.1. Goals
 
-> 1. Develop a strong understanding of cloud computing concepts and core Azure services.
-> 1. Gain hands-on experience with Azure Portal, CLI, and Infrastructure as Code (IaC) tools like ARM Templates, Bicep, and Terraform.
-> 1. Apply architectural principles using the **Azure Well-Architected Framework**.
+✔ Develop a deep understanding of cloud computing, Azure core services, and architectural principles.  
+✔ Gain **hands-on** experience with Azure Portal, CLI, and Infrastructure as Code (IaC).  
+✔ Learn to evaluate cloud solutions based on **cost, security, scalability, and operational excellence.**
 
-### 📚 1.2. Key Topics
+### 📌 1.2. Key Topics
 
-#### Cloud Fundamentals (Estimated Time: 2 days)
+✅ **Cloud Fundamentals** _(2 Days)_
 
-> 1. _Concepts:_ IaaS, PaaS, SaaS, Serverless, Shared Responsibility Model.
-> 1. _Economics:_ Total Cost of Ownership (TCO), Return on Investment (ROI).
+- IaaS, PaaS, SaaS, Serverless, Shared Responsibility Model
+- Total Cost of Ownership (TCO), Return on Investment (ROI), Pay-as-you-Go vs Reserved Pricing
 
-#### Azure Fundamentals (Estimated Time: 4 days)
+✅ **Azure Fundamentals** _(4 Days)_
 
-> 1. _Core Constructs:_ Regions, Resource Groups, Subscriptions, Management Groups, and Azure Resource Manager (ARM)..
-> 1. _Pricing:_ Azure pricing models, support plans, Azure Cost Management basics.
+- Azure Regions, Availability Zones, Resource Groups, ARM
+- Azure Pricing, Cost Optimization Basics
 
-#### Architectural Principles (Estimated Time: 9 days)
+✅ **Architectural Principles** _(9 Days)_
 
-> 1. _Design Patterns:_ SOLID, DRY, KISS, YAGNI, SoC.
-> 1. _Domain-Driven Design (DDD):_ Strategic vs. Tactical patterns (Bounded Contexts, Aggregates).
-> 1. _Microservices Architecture:_ Principles, benefits, challenges.
-> 1. _Well-Architected Framework:_ Apply to each principle.
+- **SOLID, DRY, KISS, YAGNI, SoC (Separation of Concerns)**
+- **Domain-Driven Design (DDD)** – Bounded Contexts, Aggregates
+- **Microservices Architecture** – Benefits, Challenges, Decomposition Strategies
+- **Azure Well-Architected Framework** – Reliability, Security, Cost Optimization
 
-#### Azure Core Services (Estimated Time: 9 days - 3 days per service area)
+✅ **Azure Core Services** _(9 Days)_
 
-> 1. _Compute:_ Virtual Machines, App Service, Azure Functions.
-> 1. _Storage:_ Blob, Queue, Table, File Storage.
-> 1. _Networking:_ VNets, Subnets, NSGs, Load Balancers, DNS.
-> 1. _Integration:_ Apply Well-Architected Framework pillars to service design.
+- **Compute** – Virtual Machines (VMs), App Services, Azure Functions
+- **Storage** – Blob, Queue, Table, File Storage
+- **Networking** – VNets, Subnets, Network Security Groups (NSGs), Load Balancers, DNS
 
-#### IaC Fundamentals (Estimated Time: 6 days)
+✅ **Infrastructure as Code (IaC) Fundamentals** _(6 Days)_
 
-> 1. _Tools:_ ARM Templates, Bicep, Terraform.
-> 1. _Practices:_ Version control, automation, repeatability, consistency.
+- ARM Templates, Bicep, Terraform
+- Hands-on: Deploying resources via **ARM, Bicep, Terraform**
 
 ### 🛠️ 1.3. Activities (Real-World Focus)
 
-#### Hands-On Labs
+✔ **Deploy a simple web app** (VM/App Service/Function) with security & monitoring  
+✔ Implement **basic CI/CD pipeline** for web deployment (Azure DevOps/GitHub Actions)  
+✔ Deploy **Storage Account using ARM, Bicep, and Terraform**  
+✔ Configure **VNets, subnets, and NSGs using IaC**  
+✔ Use **Azure Pricing Calculator** for cost comparison  
+✔ Evaluate **Azure Well-Architected Review** for a small project
 
-> 1. Azure Portal & CLI: Deploy basic resources (VMs, Storage, VNets).
-> 1. Microsoft Learn: Complete the Azure Fundamentals learning path.
-> 1. Architectural Design: Apply SOLID & DDD to cloud architecture.
-> 1. Pricing Analysis: Use Azure Pricing Calculator to compare costs.
-> 1. IaC - ARM Templates: Deploy a Storage Account using ARM Templates.
-> 1. IaC - Bicep: Deploy a VNet & NSG using Bicep.
-> 1. Storage Activity - Blob Upload & Download Using CLI.
-> 1. Terraform Lab: Deploy Resource Group & Storage using Terraform.
-
-#### Architectural Design Exercises
-
-> 1. Apply SOLID & DDD principles in designing simple cloud architectures.
-
-#### Cost Optimization Exercise
-
-> 1. Analyze the cost of a deployed solution and identify optimization areas.
-
-### ✅ 1.4. Milestones
-
-#### Checkpoints to Validate Learning Progress
-
-> 1. Deploy a web app with monitoring and security via IaC.
-> 1. Explain trade-offs between IaaS, PaaS, and SaaS using Azure examples.
-> 1. Design an architecture diagram applying at least 3 architectural principles.
-> 1. Deploy a web app using Bicep/Terraform and configure Azure Monitor.
-
-### 📆 1.5. Weekly Schedule (5 Days/Week)
+### 📆 1.4. Weekly Schedule (5 Days/Week)
 
 This schedule gradually builds expertise, starting with cloud fundamentals and progressing to architectural design, IaC, security, and cost optimization.
 
@@ -89,66 +71,68 @@ This schedule gradually builds expertise, starting with cloud fundamentals and p
 
 **Goal:** Build a strong foundation in cloud concepts, pricing, and governance.
 
-> 1. Day 1: Cloud Concepts – IaaS, PaaS, SaaS, Serverless, Shared Responsibility Model.
-> 1. Day 2: Cloud Economics – TCO, ROI, cost-benefit analysis of cloud vs. on-prem.
-> 1. Day 3: Azure Constructs – Regions, Resource Groups, Subscriptions, Management Groups.
-> 1. Day 4: Azure Governance & Compliance – ARM, Azure Policy, Blueprints.
-> 1. Day 5: Azure Pricing & Cost Management – Pricing models, Savings Plans, Cost Analyzer.
+> 1. Day 1: Study Cloud Concepts – IaaS, PaaS, SaaS, Serverless, and the Shared Responsibility Model.
+> 1. Day 2: Explore Cloud Economics – Understand TCO, ROI, and perform a basic cost-benefit analysis.
+> 1. Day 3: Learn Azure Constructs – Focus on Regions, Resource Groups, and Subscriptions.
+> 1. Day 4: Dive into Management Groups and Azure Resource Manager (ARM).
+> 1. Day 5: Review Azure Pricing Models and Support Plans; use the Azure Pricing Calculator for hands-on practice.
 
 #### 🗓️ Week 2: Architectural Principles & Compute Services
 
 **Goal:** Learn and apply SOLID, DDD, and microservices principles with Azure Compute.
 
-> 1. Day 6: SOLID & DRY Principles – Apply to a basic cloud system design.
-> 1. Day 7: KISS, YAGNI, Separation of Concerns (SoC) – Evaluate trade-offs.
-> 1. Day 8: Domain-Driven Design (DDD) – Strategic patterns (Bounded Contexts, Aggregates).
-> 1. Day 9: Microservices Architecture – Pros/cons, scaling, communication patterns.
-> 1. Day 10: Azure Compute – Virtual Machines (VMs), best practices, VM Scale Sets.
+> 1. Day 6: Review SOLID and DRY Principles; discuss their impact on cloud design.
+> 1. Day 7: Explore KISS, YAGNI, and SoC (Separation of Concerns); evaluate trade-offs.
+> 1. Day 8: Study Domain-Driven Design (DDD) – Focus on Strategic Patterns (Bounded Contexts, Aggregates).
+> 1. Day 9: Study DDD – Focus on Tactical Patterns.
+> 1. Day 10: Introduction to Microservices Architecture – Examine its principles, benefits, and challenges.
 
 #### 🗓️ Week 3: Storage & Networking Basics
 
 **Goal:** Get hands-on with Azure storage solutions & networking fundamentals.
 
-> 1. Day 11: Azure Compute – App Service (PaaS) and deployment strategies.
-> 1. Day 12: Serverless with Azure Functions – Triggers, bindings, execution models.
-> 1. Day 13: Azure Storage – Blob, Queue, Table, File Storage concepts & use cases.
-> 1. Day 14: Networking Basics – VNets, Subnets, Private Endpoints, Service Endpoints.
-> 1. Day 15: Storage Hands-on – Upload/download files to Blob Storage using Azure CLI. ✅
+> 1. Day 11: Review Azure Compute – Focus on Virtual Machines (VMs) and their configurations.
+> 1. Day 12: Learn about Azure App Service and its deployment strategies.
+> 1. Day 13: Explore Azure Functions and serverless computing models.
+> 1. Day 14: Study Azure Blob Storage – Understand its features and use cases.
+> 1. Day 15: Hands-on Activity: Upload and download files to Azure Blob Storage using Azure CLI.
 
 #### 🗓️ Week 4: Networking & Infrastructure as Code (IaC)
 
 **Goal:** Learn network security and implement ARM/Bicep for automated deployments.
 
-> 1. Day 16: Networking Security – NSGs, Azure Firewall, Private Link, DDoS Protection.
-> 1. Day 17: Load Balancers & DNS – Azure Load Balancer, Traffic Manager, App Gateway.
-> 1. Day 18: Intro to ARM Templates – Parameters, variables, modularization.
-> 1. Day 19: Intro to Bicep – Syntax, benefits, first deployment (Storage + VNet).
-> 1. Day 20: IaC Comparison (ARM vs. Bicep vs. Terraform) – When to use what?
+> 1. Day 16: Overview of Azure File Storage and general Networking Fundamentals.
+> 1. Day 17: Learn about Virtual Networks (VNets) and Subnets; review basic configuration.
+> 1. Day 18: Explore Network Security Groups (NSGs) and practice modifying NSG rules.
+> 1. Day 19: Understand Load Balancers and DNS – Explore concepts via Azure Load Balancer and Traffic Manager.
+> 1. Day 20: Hands-on Lab: Introduction to IaC – Deploy a basic resource using ARM Templates.
 
 #### 🗓️ Week 5: Infrastructure as Code (IaC) & Cost Optimization
 
 **Goal:** Deploy full-fledged infrastructure automation and optimize cost.
 
-> 1. Day 21: Hands-on – Deploy a VNet + NSG using ARM Templates. ✅
-> 1. Day 22: Hands-on – Deploy Bicep Template (Web App + VNet). ✅
-> 1. Day 23: Intro to Terraform – Basics, providers, deployment workflow.
-> 1. Day 24: Terraform Hands-on – Deploy a Storage Account + NSG. ✅
-> 1. Day 25: Cost Optimization Strategies – Reserved Instances, Savings Plans, auto-scaling.
+> 1. Day 21: Deep Dive into ARM Templates – Focus on Parameters and Variables.
+> 1. Day 22: Advance ARM Templates – Explore Modules and Deployment techniques.
+> 1. Day 23: Introduction to Bicep – Learn the fundamentals and compare with ARM Templates.
+> 1. Day 24: Hands-on Activity: Deploy a Virtual Network and NSG using a Bicep template.
+> 1. Day 25: Overview of Terraform Fundamentals – Understand providers, resources, and the basic workflow.
 
 #### 🗓️ Week 6: Final Review & Capstone Project
 
 **Goal:** Validate learning with a full deployment project & well-architected review.
 
-> 1. Day 26: Azure Pricing Calculator Analysis – Compare IaaS vs. PaaS costs.
-> 1. Day 27: Review Architectural Principles (SOLID, DDD, Microservices).
-> 1. Day 28: Well-Architected Review – Identify security, performance, cost gaps.
-> 1. Day 29: Troubleshooting & Optimization – Review past deployments, fix issues.
-> 1. Day 30: Capstone Project: Deploy a full web app using Bicep/Terraform with: ✅
->    - App Service / Function App
->    - Storage Account
->    - VNet + NSG
->    - Monitoring + Logging
->    - Cost Optimization Applied
+> 1. Day 26: Hands-on Activity: Deploy a resource (e.g., a Storage Account) using Terraform.
+> 1. Day 27: Review and discuss Architectural Principles (SOLID, DDD, Microservices) with real-world examples.
+> 1. Day 28: Design Exercise: Create a comprehensive architecture diagram applying at least three architectural principles.
+> 1. Day 29: Perform a Pricing Calculator Analysis – Compare IaaS vs. PaaS costs and document findings.
+> 1. Day 30: Capstone Project: Deploy a simple web app using Bicep or Terraform, integrated with Azure Monitor and Logging. Include security and cost optimization best practices.
+
+### ✅ 1.5. Milestones
+
+🔹 Deploy a **secure and cost-effective** web app on Azure using **IaC & Well-Architected Review**  
+🔹 Compare IaaS vs PaaS solutions and justify the trade-offs  
+🔹 Design and document an **architecture applying at least 3 architectural principles**  
+🔹 Deploy an end-to-end **web app using Bicep/Terraform** and set up Azure Monitor
 
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60) (5 Days/Week, ~1 Hour Daily) - 6 Weeks
 
