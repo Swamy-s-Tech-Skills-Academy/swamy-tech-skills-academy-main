@@ -4,7 +4,7 @@ This plan is designed to comprehensively prepare you for Azure Architect and Sr.
 
 ## Few Icons
 
-📚
+📚 🎯 ✔ 📌 ✅
 
 ## Key Principles
 
@@ -21,35 +21,35 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 ### 🎯 1.1. Goals
 
 ✔ Develop a deep understanding of cloud computing, Azure core services, and architectural principles.  
-✔ Gain **hands-on** experience with Azure Portal, CLI, and Infrastructure as Code (IaC).  
-✔ Learn to evaluate cloud solutions based on **cost, security, scalability, and operational excellence.**
+✔ Gain `hands-on` experience with Azure Portal, CLI, and Infrastructure as Code (IaC).  
+✔ Learn to evaluate cloud solutions based on `cost, security, scalability, and operational excellence.`
 
 ### 📌 1.2. Key Topics
 
-✅ **Cloud Fundamentals** _(2 Days)_
+#### ✅ Cloud Fundamentals _(Estimated Time: 2 days)_
 
-- IaaS, PaaS, SaaS, Serverless, Shared Responsibility Model
-- Total Cost of Ownership (TCO), Return on Investment (ROI), Pay-as-you-Go vs Reserved Pricing
+> 1. `Concepts:` IaaS, PaaS, SaaS, serverless computing, shared responsibility model.
+> 1. `Economics:` Total Cost of Ownership (TCO), Return on Investment (ROI), Pay-as-you-Go vs Reserved Pricing.
 
-✅ **Azure Fundamentals** _(4 Days)_
+#### ✅ Azure Fundamentals _(Estimated Time: 4 days)_
 
-- Azure Regions, Availability Zones, Resource Groups, ARM
-- Azure Pricing, Cost Optimization Basics
+> 1. `Azure Constructs:` Regions, resource groups, subscriptions, management groups, and Azure Resource Manager (ARM).
+> 1. `Pricing & Governance:` Azure pricing models, support plans, Azure Policy, and Blueprints.
 
-✅ **Architectural Principles** _(9 Days)_
+#### ✅ Architectural Principles _(Estimated Time: 4 days)_
 
 - **SOLID, DRY, KISS, YAGNI, SoC (Separation of Concerns)**
 - **Domain-Driven Design (DDD)** – Bounded Contexts, Aggregates
 - **Microservices Architecture** – Benefits, Challenges, Decomposition Strategies
 - **Azure Well-Architected Framework** – Reliability, Security, Cost Optimization
 
-✅ **Azure Core Services** _(9 Days)_
+#### ✅ **Azure Core Services** _(9 Days)_
 
 - **Compute** – Virtual Machines (VMs), App Services, Azure Functions
 - **Storage** – Blob, Queue, Table, File Storage
 - **Networking** – VNets, Subnets, Network Security Groups (NSGs), Load Balancers, DNS
 
-✅ **Infrastructure as Code (IaC) Fundamentals** _(6 Days)_
+#### ✅ **Infrastructure as Code (IaC) Fundamentals** _(6 Days)_
 
 - ARM Templates, Bicep, Terraform
 - Hands-on: Deploying resources via **ARM, Bicep, Terraform**
