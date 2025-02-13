@@ -36,23 +36,23 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 > 1. `Azure Constructs:` Regions, resource groups, subscriptions, management groups, and Azure Resource Manager (ARM).
 > 1. `Pricing & Governance:` Azure pricing models, support plans, Azure Policy, and Blueprints.
 
-#### ✅ Architectural Principles _(Estimated Time: 4 days)_
+#### ✅ Architectural Principles _(Estimated Time: 9 days)_
 
-- **SOLID, DRY, KISS, YAGNI, SoC (Separation of Concerns)**
-- **Domain-Driven Design (DDD)** – Bounded Contexts, Aggregates
-- **Microservices Architecture** – Benefits, Challenges, Decomposition Strategies
-- **Azure Well-Architected Framework** – Reliability, Security, Cost Optimization
+> 1. `Core Design Patterns:` SOLID, DRY, KISS, YAGNI, SoC (Separation of Concerns).
+> 1. `Domain-Driven Design (DDD):` Strategic (Bounded Contexts) and tactical patterns (Aggregates).
+> 1. `Microservices Architecture:` Principles, benefits, challenges, and decomposition strategies.
+> 1. `Azure Well-Architected Framework:` Emphasize reliability, security, and cost optimization.
 
-#### ✅ **Azure Core Services** _(9 Days)_
+#### ✅ Azure Core Services _(Estimated Time: 9 days – 3 days per service area)_
 
-- **Compute** – Virtual Machines (VMs), App Services, Azure Functions
-- **Storage** – Blob, Queue, Table, File Storage
-- **Networking** – VNets, Subnets, Network Security Groups (NSGs), Load Balancers, DNS
+> 1. `Compute`: Virtual Machines (VMs), Azure App Service, Azure Functions.
+> 1. `Storage`: Azure Blob, Queue, Table, and File Storage.
+> 1. `Networking`: Virtual Networks (VNets), subnets, Network Security Groups (NSGs), Load Balancers, and DNS.
 
-#### ✅ **Infrastructure as Code (IaC) Fundamentals** _(6 Days)_
+#### ✅ Infrastructure as Code (IaC) Fundamentals _(Estimated Time: 6 days)_
 
-- ARM Templates, Bicep, Terraform
-- Hands-on: Deploying resources via **ARM, Bicep, Terraform**
+> 1. `Overview:` ARM Templates, Bicep, and Terraform.
+> 1. `Benefits:` Version control, automation, repeatability, and consistency.
 
 ### 🛠️ 1.3. Activities (Real-World Focus)
 
