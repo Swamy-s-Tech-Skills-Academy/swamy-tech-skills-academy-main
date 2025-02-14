@@ -4,7 +4,7 @@ This plan is designed to comprehensively prepare you for Azure Architect and Sr.
 
 ## Few Icons
 
-📚 🎯 ✔ 📌 ✅
+📚 🎯 ✔ ✔ 📌 ✅
 
 ## Key Principles
 
@@ -22,46 +22,74 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 ✔ Develop a deep understanding of cloud computing, Azure core services, and architectural principles.  
 ✔ Gain `hands-on` experience with Azure Portal, CLI, and Infrastructure as Code (IaC).  
-✔ Learn to evaluate cloud solutions based on `cost, security, scalability, and operational excellence.`
+✔ Learn to evaluate cloud solutions based on `cost`, `security`, `scalability`, and `operational excellence.`
 
 ### 📌 1.2. Key Topics
 
 #### ✅ Cloud Fundamentals _(Estimated Time: 2 days)_
 
-> 1. `Concepts:` IaaS, PaaS, SaaS, serverless computing, shared responsibility model.
-> 1. `Economics:` Total Cost of Ownership (TCO), Return on Investment (ROI), Pay-as-you-Go vs Reserved Pricing.
+> 1. `Concepts`: IaaS, PaaS, SaaS, serverless computing, shared responsibility model.
+> 1. `Economics`: Total Cost of Ownership (TCO), Return on Investment (ROI), Pay-as-you-Go vs Reserved Pricing.
 
 #### ✅ Azure Fundamentals _(Estimated Time: 4 days)_
 
-> 1. `Azure Constructs:` Regions, resource groups, subscriptions, management groups, and Azure Resource Manager (ARM).
-> 1. `Pricing & Governance:` Azure pricing models, support plans, Azure Policy, and Blueprints.
+> 1. `Azure Constructs`: Regions, resource groups, subscriptions, management groups, and Azure Resource Manager (ARM).
+> 1. `Pricing & Governance`: Azure pricing models, support plans, Azure Policy, and Blueprints.
 
-#### ✅ Architectural Principles _(Estimated Time: 4 days)_
+#### ✅ Architectural Principles _(Estimated Time: 9 days)_
 
-- **SOLID, DRY, KISS, YAGNI, SoC (Separation of Concerns)**
-- **Domain-Driven Design (DDD)** – Bounded Contexts, Aggregates
-- **Microservices Architecture** – Benefits, Challenges, Decomposition Strategies
-- **Azure Well-Architected Framework** – Reliability, Security, Cost Optimization
+> 1. `Core Design Patterns`: SOLID, DRY, KISS, YAGNI, SoC (Separation of Concerns).
+> 1. `Domain-Driven Design (DDD)`: Strategic (Bounded Contexts) and tactical patterns (Aggregates).
+> 1. `Microservices Architecture`: Principles, benefits, challenges, and decomposition strategies.
+> 1. `Azure Well-Architected Framework`: Emphasize reliability, security, and cost optimization.
 
-#### ✅ **Azure Core Services** _(9 Days)_
+#### ✅ Azure Core Services _(Estimated Time: 9 days – 3 days per service area)_
 
-- **Compute** – Virtual Machines (VMs), App Services, Azure Functions
-- **Storage** – Blob, Queue, Table, File Storage
-- **Networking** – VNets, Subnets, Network Security Groups (NSGs), Load Balancers, DNS
+> 1. `Compute`: Virtual Machines (VMs), Azure App Service, Azure Functions.
+> 1. `Storage`: Azure Blob, Queue, Table, and File Storage.
+> 1. `Networking`: Virtual Networks (VNets), subnets, Network Security Groups (NSGs), Load Balancers, and DNS.
 
-#### ✅ **Infrastructure as Code (IaC) Fundamentals** _(6 Days)_
+#### ✅ Infrastructure as Code (IaC) Fundamentals _(Estimated Time: 6 days)_
 
-- ARM Templates, Bicep, Terraform
-- Hands-on: Deploying resources via **ARM, Bicep, Terraform**
+> 1. `Overview`: ARM Templates, Bicep, and Terraform.
+> 1. `Benefits`: Version control, automation, repeatability, and consistency.
 
 ### 🛠️ 1.3. Activities (Real-World Focus)
 
-✔ **Deploy a simple web app** (VM/App Service/Function) with security & monitoring  
-✔ Implement **basic CI/CD pipeline** for web deployment (Azure DevOps/GitHub Actions)  
-✔ Deploy **Storage Account using ARM, Bicep, and Terraform**  
-✔ Configure **VNets, subnets, and NSGs using IaC**  
-✔ Use **Azure Pricing Calculator** for cost comparison  
-✔ Evaluate **Azure Well-Architected Review** for a small project
+✔ `Azure Portal & CLI:`
+
+> 1. Deploy basic resources (VMs, Storage, VNets) and manage configurations.
+
+✔ `Microsoft Learn:`
+
+> 1. Complete the Azure Fundamentals learning path.
+
+✔ `Architectural Design Exercises:`
+
+> 1. Apply SOLID and DDD principles to design simple cloud architecture scenarios (e.g., design a web app architecture that factors in scalability and availability).
+
+✔ `Pricing Analysis:`
+
+> 1. Use the Azure Pricing Calculator to compare costs (e.g., VMs vs. App Service vs. Functions) and understand cost implications.
+
+✔ `IaC – ARM Templates:`
+
+> 1. Deploy a parameterized ARM template to create a Storage Account (configure storage type and access tier).
+> 1. Review the template structure (parameters, variables, resources, outputs, modules).
+
+✔ `IaC – Bicep:`
+
+> 1. Create a Bicep template to deploy a Virtual Network and NSG.
+> 1. Compare its syntax to ARM templates to highlight improved readability and conciseness; utilize modules.
+
+✔ `Storage Activity:`
+
+> 1. Upload and download files to Azure Blob Storage using the Azure CLI. Experiment with different access tiers (Hot, Cool, Archive).
+
+✔ `Terraform Lab (Optional):`
+
+> 1. Deploy a Resource Group and Storage Account using Terraform.
+> 1. Understand the basic workflow (init, plan, apply, destroy) and concepts like providers, resources, and state.
 
 ### 📆 1.4. Weekly Schedule (5 Days/Week)
 
