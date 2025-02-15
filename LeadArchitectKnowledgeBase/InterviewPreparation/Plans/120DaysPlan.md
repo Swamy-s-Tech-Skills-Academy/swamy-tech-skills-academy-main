@@ -34,7 +34,7 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 #### ✅ Azure Fundamentals _(Estimated Time: 4 days)_
 
 > 1. `Azure Constructs`: Regions, resource groups, subscriptions, management groups, and Azure Resource Manager (ARM).
-> 1. `Pricing & Governance`: Azure pricing models, support plans, Azure Policy, and Blueprints.
+> 1. `Pricing & Governance`: Azure pricing models, support plans, Azure Policy, Blueprints, Azure Active Directory (Azure AD) and Role-Based Access Control (RBAC).
 
 #### ✅ Architectural Principles _(Estimated Time: 9 days)_
 
@@ -91,6 +91,18 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 > 1. Deploy a Resource Group and Storage Account using Terraform.
 > 1. Understand the basic workflow (init, plan, apply, destroy) and concepts like providers, resources, and state.
 
+✔ `Deploy a simple web app`:
+
+> 1. Deploy a simple web app (e.g., a basic to-do list application or a simple blog) on Azure App Service. Include a database (Azure SQL or Cosmos DB) and configure HTTPS.
+
+✔ `Implement basic CI/CD pipeline`:
+
+> 1. Set up a basic CI/CD pipeline using GitHub Actions to automatically build and deploy the web app (including database migrations) to Azure App Service whenever code changes are pushed to the repository.
+
+✔ `Configure VNets, subnets, and NSGs using IaC`:
+
+> 1. Configure a Virtual Network with multiple subnets (e.g., for web servers, databases, and load balancers). Implement Network Security Groups to restrict traffic flow between subnets and allow inbound traffic on specific ports for the web application. Include a Load Balancer.
+
 ### 📆 1.4. Weekly Schedule (5 Days/Week)
 
 This schedule gradually builds expertise, starting with cloud fundamentals and progressing to architectural design, IaC, security, and cost optimization.
@@ -115,7 +127,7 @@ This schedule gradually builds expertise, starting with cloud fundamentals and p
 > 1. Day 9: Study DDD – Focus on Tactical Patterns.
 > 1. Day 10: Introduction to Microservices Architecture – Examine its principles, benefits, and challenges.
 
-#### 🗓️ Week 3: Storage & Networking Basics
+#### 🗓️ Week 3: Storage
 
 **Goal:** Get hands-on with Azure storage solutions & networking fundamentals.
 
@@ -157,10 +169,11 @@ This schedule gradually builds expertise, starting with cloud fundamentals and p
 
 ### ✅ 1.5. Milestones
 
-🔹 Deploy a **secure and cost-effective** web app on Azure using **IaC & Well-Architected Review**  
-🔹 Compare IaaS vs PaaS solutions and justify the trade-offs  
-🔹 Design and document an **architecture applying at least 3 architectural principles**  
-🔹 Deploy an end-to-end **web app using Bicep/Terraform** and set up Azure Monitor
+🔹 Deploy a secure and cost-effective web app on Azure using IaC & a Well-Architected Review.
+🔹 Explain the trade-offs between IaaS, PaaS, and SaaS with Azure-specific examples.
+🔹 Design and document an architecture applying at least 3 architectural principles (e.g., SOLID, DDD, Microservices).
+🔹 Deploy an end-to-end web app using Bicep/Terraform and configure Azure Monitor.
+🔹 Deploy a secure and cost-effective web app on Azure (with database) using IaC & Well-Architected Review, and implement security best practices.
 
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60) (5 Days/Week, ~1 Hour Daily) - 6 Weeks
 
