@@ -56,37 +56,37 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 ### 🛠️ 1.3. Activities (Real-World Focus)
 
-✔ `Azure Portal & CLI:`
+✔ `Azure Portal & CLI`:
 
 > 1. Deploy basic resources (VMs, Storage, VNets) and manage configurations.
 
-✔ `Microsoft Learn:`
+✔ `Microsoft Learn`:
 
 > 1. Complete the Azure Fundamentals learning path.
 
-✔ `Architectural Design Exercises:`
+✔ `Architectural Design Exercises`:
 
 > 1. Apply SOLID and DDD principles to design simple cloud architecture scenarios (e.g., design a web app architecture that factors in scalability and availability).
 
-✔ `Pricing Analysis:`
+✔ `Pricing Analysis`:
 
 > 1. Use the Azure Pricing Calculator to compare costs (e.g., VMs vs. App Service vs. Functions) and understand cost implications.
 
-✔ `IaC – ARM Templates:`
+✔ `IaC – ARM Templates`:
 
 > 1. Deploy a parameterized ARM template to create a Storage Account (configure storage type and access tier).
 > 1. Review the template structure (parameters, variables, resources, outputs, modules).
 
-✔ `IaC – Bicep:`
+✔ `IaC – Bicep`:
 
 > 1. Create a Bicep template to deploy a Virtual Network and NSG.
 > 1. Compare its syntax to ARM templates to highlight improved readability and conciseness; utilize modules.
 
-✔ `Storage Activity:`
+✔ `Storage Activity`:
 
 > 1. Upload and download files to Azure Blob Storage using the Azure CLI. Experiment with different access tiers (Hot, Cool, Archive).
 
-✔ `Terraform Lab (Optional):`
+✔ `Terraform Lab (Optional)`:
 
 > 1. Deploy a Resource Group and Storage Account using Terraform.
 > 1. Understand the basic workflow (init, plan, apply, destroy) and concepts like providers, resources, and state.
