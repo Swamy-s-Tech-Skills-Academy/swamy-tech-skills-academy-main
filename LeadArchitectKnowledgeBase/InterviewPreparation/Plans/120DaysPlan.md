@@ -169,11 +169,10 @@ This schedule gradually builds expertise, starting with cloud fundamentals and p
 
 ### ✅ 1.5. Milestones
 
-🔹 Deploy a secure and cost-effective web app on Azure using IaC & a Well-Architected Review.
 🔹 Explain the trade-offs between IaaS, PaaS, and SaaS with Azure-specific examples.
-🔹 Design and document an architecture applying at least 3 architectural principles (e.g., SOLID, DDD, Microservices).
 🔹 Deploy an end-to-end web app using Bicep/Terraform and configure Azure Monitor.
 🔹 Deploy a secure and cost-effective web app on Azure (with database) using IaC & Well-Architected Review, and implement security best practices.
+🔹 Design and document an architecture applying at least 3 architectural principles (e.g., SOLID, DDD, Microservices).
 
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60) (5 Days/Week, ~1 Hour Daily) - 6 Weeks
 
