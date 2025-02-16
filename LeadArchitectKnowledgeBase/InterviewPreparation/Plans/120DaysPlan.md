@@ -169,10 +169,10 @@ This schedule gradually builds expertise, starting with cloud fundamentals and p
 
 ### ✅ 1.5. Milestones
 
-🔹 Explain the trade-offs between IaaS, PaaS, and SaaS with Azure-specific examples.
-🔹 Deploy an end-to-end web app using Bicep/Terraform and configure Azure Monitor.
-🔹 Deploy a secure and cost-effective web app on Azure (with database) using IaC & Well-Architected Review, and implement security best practices.
-🔹 Design and document an architecture applying at least 3 architectural principles (e.g., SOLID, DDD, Microservices).
+🔹 Explain the trade-offs between IaaS, PaaS, and SaaS using Azure-specific examples.
+🔹 Design and document an architecture that applies at least three architectural principles (e.g., SOLID, DDD, Microservices).
+🔹 Deploy a secure and cost-effective end-to-end web app on Azure using IaC (Bicep/Terraform) that includes a database, is integrated with Azure Monitor, and implements security best practices as part of a Well-Architected Review.
+🔹 Demonstrate governance and cost optimization through hands-on deployments and detailed pricing analysis.
 
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60) (5 Days/Week, ~1 Hour Daily) - 6 Weeks
 
