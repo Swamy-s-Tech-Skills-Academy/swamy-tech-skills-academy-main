@@ -20,9 +20,9 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 ### 🎯 1.1. Goals
 
-✔ Develop a deep understanding of cloud computing, Azure core services, and architectural principles.  
-✔ Gain `hands-on` experience with Azure Portal, CLI, and Infrastructure as Code (IaC).  
-✔ Learn to evaluate cloud solutions based on `cost`, `security`, `scalability`, and `operational excellence.`
+> 1. ✔ Develop a deep understanding of cloud computing, Azure core services, and architectural principles.
+> 1. ✔ Gain `hands-on` experience with Azure Portal, CLI, and Infrastructure as Code (IaC).
+> 1. ✔ Learn to evaluate cloud solutions based on `cost`, `security`, `scalability`, and `operational excellence.`
 
 ### 📌 1.2. Key Topics
 
@@ -34,7 +34,7 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 #### ✅ Azure Fundamentals _(Estimated Time: 4 days)_
 
 > 1. `Azure Constructs`: Regions, resource groups, subscriptions, management groups, and Azure Resource Manager (ARM).
-> 1. `Pricing & Governance`: Azure pricing models, support plans, Azure Policy, Blueprints, Azure Active Directory (Azure AD) and Role-Based Access Control (RBAC).
+> 1. `Pricing & Governance`: Azure pricing models, support plans, Azure Policy and Blueprints, and an overview of Azure Active Directory (Azure AD) with Role-Based Access Control (RBAC).
 
 #### ✅ Architectural Principles _(Estimated Time: 9 days)_
 
