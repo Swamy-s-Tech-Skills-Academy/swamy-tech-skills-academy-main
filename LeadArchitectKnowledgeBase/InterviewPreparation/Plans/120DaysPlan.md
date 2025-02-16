@@ -4,7 +4,7 @@ This plan is designed to comprehensively prepare you for Azure Architect and Sr.
 
 ## Few Icons
 
-📚 🎯 ✔ ✔ 📌 ✅
+📚 🎯 ✔ ✔ 📌 ✅ 🗓️ 🛠️ 🔹
 
 ## Key Principles
 
