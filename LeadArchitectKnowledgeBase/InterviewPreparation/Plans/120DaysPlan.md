@@ -93,15 +93,15 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 ✔ `Deploy a simple web app`:
 
-> 1. Deploy a simple web app (e.g., a basic to-do list application or a simple blog) on Azure App Service. Include a database (Azure SQL or Cosmos DB) and configure HTTPS.
+> 1. Deploy a simple web app (e.g., a basic to-do list or blog) on Azure App Service including a database (Azure SQL or Cosmos DB) and configure HTTPS. Conduct a Well-Architected Review of the deployed application.
 
 ✔ `Implement basic CI/CD pipeline`:
 
-> 1. Set up a basic CI/CD pipeline using GitHub Actions to automatically build and deploy the web app (including database migrations) to Azure App Service whenever code changes are pushed to the repository.
+> 1. Set up a CI/CD pipeline using Azure DevOps or GitHub Actions that automatically builds, tests, and deploys your web app—including database migrations—to Azure App Service whenever code changes are pushed to the repository.
 
-✔ `Configure VNets, subnets, and NSGs using IaC`:
+✔ `Configure VNets, Subnets, NSGs & Load Balancer using IaC`:
 
-> 1. Configure a Virtual Network with multiple subnets (e.g., for web servers, databases, and load balancers). Implement Network Security Groups to restrict traffic flow between subnets and allow inbound traffic on specific ports for the web application. Include a Load Balancer.
+> 1. Configure a Virtual Network using Infrastructure as Code to create multiple subnets for different tiers (e.g., web servers, databases, load balancers), implement Network Security Groups (NSGs) with specific inbound rules for the web application, and deploy a Load Balancer to manage incoming traffic.
 
 ### 📆 1.4. Weekly Schedule (5 Days/Week)
 
