@@ -20,9 +20,9 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 ### 🎯 1.1. Goals
 
-✔ Develop a deep understanding of cloud computing, Azure core services, and architectural principles.  
-✔ Gain `hands-on` experience with Azure Portal, CLI, and Infrastructure as Code (IaC).  
-✔ Learn to evaluate cloud solutions based on `cost`, `security`, `scalability`, and `operational excellence.`
+> 1. ✔ Develop a deep understanding of cloud computing, Azure core services, and architectural principles.
+> 1. ✔ Gain `hands-on` experience with Azure Portal, CLI, and Infrastructure as Code (IaC).
+> 1. ✔ Learn to evaluate cloud solutions based on `cost`, `security`, `scalability`, and `operational excellence.`
 
 ### 📌 1.2. Key Topics
 
@@ -34,7 +34,7 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 #### ✅ Azure Fundamentals _(Estimated Time: 4 days)_
 
 > 1. `Azure Constructs`: Regions, resource groups, subscriptions, management groups, and Azure Resource Manager (ARM).
-> 1. `Pricing & Governance`: Azure pricing models, support plans, Azure Policy, Blueprints, Azure Active Directory (Azure AD) and Role-Based Access Control (RBAC).
+> 1. `Pricing & Governance`: Azure pricing models, support plans, Azure Policy and Blueprints, and an overview of Azure Active Directory (Azure AD) with Role-Based Access Control (RBAC).
 
 #### ✅ Architectural Principles _(Estimated Time: 9 days)_
 
@@ -93,19 +93,19 @@ This phase ensures a robust understanding of Azure fundamentals, architectural p
 
 ✔ `Deploy a simple web app`:
 
-> 1. Deploy a simple web app (e.g., a basic to-do list application or a simple blog) on Azure App Service. Include a database (Azure SQL or Cosmos DB) and configure HTTPS.
+> 1. Deploy a simple web app (e.g., a basic to-do list or blog) on Azure App Service including a database (Azure SQL or Cosmos DB) and configure HTTPS. Conduct a Well-Architected Review of the deployed application.
 
 ✔ `Implement basic CI/CD pipeline`:
 
-> 1. Set up a basic CI/CD pipeline using GitHub Actions to automatically build and deploy the web app (including database migrations) to Azure App Service whenever code changes are pushed to the repository.
+> 1. Set up a CI/CD pipeline using Azure DevOps or GitHub Actions that automatically builds, tests, and deploys your web app—including database migrations—to Azure App Service whenever code changes are pushed to the repository.
 
-✔ `Configure VNets, subnets, and NSGs using IaC`:
+✔ `Configure VNets, Subnets, NSGs & Load Balancer using IaC`:
 
-> 1. Configure a Virtual Network with multiple subnets (e.g., for web servers, databases, and load balancers). Implement Network Security Groups to restrict traffic flow between subnets and allow inbound traffic on specific ports for the web application. Include a Load Balancer.
+> 1. Configure a Virtual Network using Infrastructure as Code to create multiple subnets for different tiers (e.g., web servers, databases, load balancers), implement Network Security Groups (NSGs) with specific inbound rules for the web application, and deploy a Load Balancer to manage incoming traffic.
 
 ### 📆 1.4. Weekly Schedule (5 Days/Week)
 
-This schedule gradually builds expertise, starting with cloud fundamentals and progressing to architectural design, IaC, security, and cost optimization.
+This schedule gradually builds expertise, starting with cloud fundamentals and progressing through governance, architectural design, compute, storage, networking, IaC, and capstone projects.
 
 #### 🗓️ Week 1: Cloud & Azure Basics
 
@@ -114,8 +114,8 @@ This schedule gradually builds expertise, starting with cloud fundamentals and p
 > 1. Day 1: Study Cloud Concepts – IaaS, PaaS, SaaS, Serverless, and the Shared Responsibility Model.
 > 1. Day 2: Explore Cloud Economics – Understand TCO, ROI, and perform a basic cost-benefit analysis.
 > 1. Day 3: Learn Azure Constructs – Focus on Regions, Resource Groups, and Subscriptions.
-> 1. Day 4: Dive into Management Groups and Azure Resource Manager (ARM).
-> 1. Day 5: Review Azure Pricing Models and Support Plans; use the Azure Pricing Calculator for hands-on practice.
+> 1. Day 4: Dive into Management Groups, ARM, and Governance (including Azure Policy, Blueprints, Azure AD, and RBAC).
+> 1. Day 5: Review Azure Pricing Models & Support Plans; hands-on with the Azure Pricing Calculator.
 
 #### 🗓️ Week 2: Architectural Principles & Compute Services
 
@@ -125,7 +125,7 @@ This schedule gradually builds expertise, starting with cloud fundamentals and p
 > 1. Day 7: Explore KISS, YAGNI, and SoC (Separation of Concerns); evaluate trade-offs.
 > 1. Day 8: Study Domain-Driven Design (DDD) – Focus on Strategic Patterns (Bounded Contexts, Aggregates).
 > 1. Day 9: Study DDD – Focus on Tactical Patterns.
-> 1. Day 10: Introduction to Microservices Architecture – Examine its principles, benefits, and challenges.
+> 1. Day 10: Introduction to Microservices Architecture – Overview of principles, benefits, and challenges; review Azure Compute services (VMs, App Service, Functions).
 
 #### 🗓️ Week 3: Storage
 
@@ -137,17 +137,17 @@ This schedule gradually builds expertise, starting with cloud fundamentals and p
 > 1. Day 14: Study Azure Blob Storage – Understand its features and use cases.
 > 1. Day 15: Hands-on Activity: Upload and download files to Azure Blob Storage using Azure CLI.
 
-#### 🗓️ Week 4: Networking & Infrastructure as Code (IaC)
+#### 🗓️ Week 4: Networking & Infrastructure as Code (IaC) Introduction
 
 **Goal:** Learn network security and implement ARM/Bicep for automated deployments.
 
-> 1. Day 16: Overview of Azure File Storage and general Networking Fundamentals.
-> 1. Day 17: Learn about Virtual Networks (VNets) and Subnets; review basic configuration.
-> 1. Day 18: Explore Network Security Groups (NSGs) and practice modifying NSG rules.
-> 1. Day 19: Understand Load Balancers and DNS – Explore concepts via Azure Load Balancer and Traffic Manager.
-> 1. Day 20: Hands-on Lab: Introduction to IaC – Deploy a basic resource using ARM Templates.
+> 1. Day 16: Overview of Azure Networking – Introduction to VNets, Subnets, and (optionally) Azure File Storage (for network file shares, if applicable).
+> 1. Day 17: Learn about Network Security – Configure and modify NSG rules.
+> 1. Day 18: Understand Load Balancers and DNS – Explore Azure Load Balancer, Traffic Manager, and App Gateway concepts.
+> 1. Day 19: Hands-on Lab: Introduction to IaC – Deploy a basic resource using ARM Templates.
+> 1. Day 20: Review and Q&A: Reinforce Networking fundamentals and IaC basics.
 
-#### 🗓️ Week 5: Infrastructure as Code (IaC) & Cost Optimization
+#### 🗓️ Week 5: Infrastructure as Code (IaC) & CI/CD Fundamentals
 
 **Goal:** Deploy full-fledged infrastructure automation and optimize cost.
 
@@ -165,14 +165,14 @@ This schedule gradually builds expertise, starting with cloud fundamentals and p
 > 1. Day 27: Review and discuss Architectural Principles (SOLID, DDD, Microservices) with real-world examples.
 > 1. Day 28: Design Exercise: Create a comprehensive architecture diagram applying at least three architectural principles.
 > 1. Day 29: Perform a Pricing Calculator Analysis – Compare IaaS vs. PaaS costs and document findings.
-> 1. Day 30: Capstone Project: Deploy a simple web app using Bicep or Terraform, integrated with Azure Monitor and Logging. Include security and cost optimization best practices.
+> 1. Day 30: Capstone Project: Deploy a simple web app using Bicep or Terraform, integrated with Azure Monitor and Logging. Include security best practices (e.g., HTTPS, Managed Identities) and cost optimization techniques.
 
 ### ✅ 1.5. Milestones
 
-🔹 Explain the trade-offs between IaaS, PaaS, and SaaS with Azure-specific examples.
-🔹 Deploy an end-to-end web app using Bicep/Terraform and configure Azure Monitor.
-🔹 Deploy a secure and cost-effective web app on Azure (with database) using IaC & Well-Architected Review, and implement security best practices.
-🔹 Design and document an architecture applying at least 3 architectural principles (e.g., SOLID, DDD, Microservices).
+🔹 Explain the trade-offs between IaaS, PaaS, and SaaS using Azure-specific examples.
+🔹 Design and document an architecture that applies at least three architectural principles (e.g., SOLID, DDD, Microservices).
+🔹 Deploy a secure and cost-effective end-to-end web app on Azure using IaC (Bicep/Terraform) that includes a database, is integrated with Azure Monitor, and implements security best practices as part of a Well-Architected Review.
+🔹 Demonstrate governance and cost optimization through hands-on deployments and detailed pricing analysis.
 
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60) (5 Days/Week, ~1 Hour Daily) - 6 Weeks
 
