@@ -1,8 +1,4 @@
-Below is the updated Phase 2 with your suggested improvements incorporated:
-
----
-
-## Phase 2: Design Patterns & Azure Deep Dive
+# Phase 2: Design Patterns & Azure Deep Dive
 
 _(Days 31–60, 5 Days/Week, ~1 Hour Daily – 6 Weeks)_
 
