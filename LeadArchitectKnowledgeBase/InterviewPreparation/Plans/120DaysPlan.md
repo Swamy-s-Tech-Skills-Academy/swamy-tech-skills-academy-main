@@ -16,6 +16,8 @@ This plan is designed to comprehensively prepare you for Azure Architect and Sr.
 
 ## Phase 1: Foundations & Core Concepts (Days 1-30) (5 Days/Week, ~1 Hour Daily) - 6 Weeks
 
+> _(Days 01–30, 5 Days/Week, ~1 Hour Daily – 6 Weeks)_
+
 This phase ensures a robust understanding of Azure fundamentals, architectural principles, and Infrastructure as Code (IaC) concepts, setting the stage for deeper exploration in subsequent phases. This phase establishes a strong foundation in cloud computing, Azure fundamentals, architectural principles, and Infrastructure as Code (IaC).
 
 ### 🎯 1.1. Goals
