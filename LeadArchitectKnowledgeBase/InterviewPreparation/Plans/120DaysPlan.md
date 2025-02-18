@@ -202,29 +202,29 @@ This phase deepens your understanding of design patterns, distributed systems, a
 
 #### Distributed Systems Concepts (6 Days)
 
-> 1. Microservices Architecture (Principles, Benefits, Challenges)
-> 1. Resilience Patterns: Circuit Breaker, Retry, Bulkhead, Timeout, Throttling
-> 1. Data Consistency: CAP Theorem, Eventual Consistency, ACID, Data Partitioning Strategies
-> 1. Messaging: Message Queues (Service Bus, Event Hubs), Pub/Sub, Stream Processing
-> 1. Orchestration & Choreography (Saga Pattern, Outbox Pattern, State Machines)
+> 1. `Microservices Architecture`: Principles, benefits, and challenges.
+> 1. `Resilience Patterns`: Circuit Breaker, Retry, Bulkhead, Timeout, Throttling.
+> 1. `Data Consistency`: CAP Theorem, Eventual Consistency, ACID, Data Partitioning Strategies.
+> 1. `Messaging`: Message Queues (Service Bus, Event Hubs), Pub/Sub, Stream Processing
+> 1. `Orchestration & Choreography`: Saga Pattern, Outbox Pattern, State Machines.
 
 #### Azure Compute & Networking Deep Dive (6 Days)
 
-> 1. Virtual Machines: Advanced VM configurations (extensions, custom images), Autoscaling, Availability Sets/Zones
-> 1. Azure Kubernetes Service (AKS): Deployment, Networking (Ingress Controllers, Network Policies), Security, Scaling, Monitoring
-> 1. Containerization: Docker, Kubernetes concepts (Pods, Deployments, Services, StatefulSets), Container Registries
-> 1. Advanced Networking: Virtual Networks (Hub-Spoke), Azure Firewall, WAF, VPN Gateways, ExpressRoute, Traffic Manager
+> 1. `Virtual Machines`: Advanced VM configurations (extensions, custom images), Autoscaling, Availability Sets/Zones
+> 1. `Azure Kubernetes Service (AKS)`: Deployment, Networking (Ingress Controllers, Network Policies), Security, Scaling, Monitoring
+> 1. `Containerization`: Docker, Kubernetes concepts (Pods, Deployments, Services, StatefulSets), Container Registries
+> 1. `Advanced Networking`: Virtual Networks (Hub-Spoke), Azure Firewall, WAF, VPN Gateways, ExpressRoute, Traffic Manager
 
 #### Azure Storage & Databases (6 Days)
 
-> 1. Cosmos DB: Advanced data modeling, partitioning, consistency levels, change feed, global distribution
-> 1. Azure SQL Database: Performance tuning, security, high availability options (read replicas, failover groups)
-> 1. Azure Storage: Blob Storage tiers, lifecycle management, data protection, Azure Data Lake Storage
+> 1. `Cosmos DB`: Advanced data modeling, partitioning, consistency levels, change feed, global distribution
+> 1. `Azure SQL Database`: Performance tuning, security, high availability options (read replicas, failover groups)
+> 1. `Azure Storage`: Blob Storage tiers, lifecycle management, data protection, Azure Data Lake Storage
 
 #### Security & Observability (6 Days)
 
-> 1. Security: Azure AD, RBAC, Managed Identities, Key Vault, Azure Security Center, Security Center recommendations, threat detection
-> 1. Observability: Azure Monitor, Application Insights, Log Analytics, distributed tracing (Jaeger, Zipkin), Alerting
+> 1. `Security`: Azure AD, RBAC, Managed Identities, Key Vault, Azure Security Center, Security Center recommendations, threat detection
+> 1. `Observability`: Azure Monitor, Application Insights, Log Analytics, distributed tracing (Jaeger, Zipkin), Alerting
 
 ### 2.3. Activities
 
