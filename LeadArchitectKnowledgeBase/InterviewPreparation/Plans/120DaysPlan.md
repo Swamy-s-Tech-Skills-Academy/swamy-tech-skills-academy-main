@@ -178,20 +178,27 @@ This schedule gradually builds expertise, starting with cloud fundamentals and p
 
 ## Phase 2: Design Patterns & Azure Deep Dive (Days 31-60) (5 Days/Week, ~1 Hour Daily) - 6 Weeks
 
-This phase deepens your understanding of design patterns, distributed systems, and core Azure services, integrating security, observability, performance testing, and cost optimization best practices.
+> _(Days 31–60, 5 Days/Week, ~1 Hour Daily – 6 Weeks)_
 
-### 2.1. Goal
+This phase deepens your understanding of design patterns, distributed systems, and core Azure services while integrating security, observability, performance testing, cost optimization best practices, and the Azure Well-Architected Framework (WAF).
 
-> 1. Deepen understanding of design patterns, distributed systems, and core Azure services. Integrate security, observability, performance testing, and cost optimization best practices.
-> 1. To develop a deep understanding of design patterns, distributed systems concepts, and core Azure services. Gain hands-on experience with advanced Azure services, containerization, and security best practices. Build the ability to design, implement, and troubleshoot complex cloud solutions.
+### 🎯 2.1. Goal
 
-### 2.2. Key Topics
+> 1. Deepen your understanding of design patterns, distributed systems concepts, and core Azure services.
+> 1. Gain hands-on experience with advanced Azure services, containerization, and security best practices.
+> 1. Develop the capability to design, implement, and troubleshoot complex cloud solutions by integrating security, observability, performance testing, cost optimization, and the principles of the Azure Well-Architected Framework throughout the design and implementation process.
+
+### 📌 2.2. Key Topics
 
 #### GoF Design Patterns (6 Days)
 
-> 1. Creational: Factory, Abstract Factory, Singleton
-> 1. Structural: Adapter, Decorator, Facade
-> 1. Behavioral: Strategy, Observer, Command, Template Method, Chain of Responsibility
+> 1. `Creational`: Factory, Abstract Factory, Singleton
+>    - _(E.g., using a Factory to provision different Azure Storage account types.)_
+> 1. `Structural`: Adapter, Decorator, Facade
+>    - _(E.g., using an Adapter to integrate a legacy system with Azure Storage.)_
+> 1. `Behavioral`: Strategy, Observer, Command, Template Method, Chain of Responsibility
+>    - _(E.g., implementing Strategy for retry mechanisms using Polly.)_
+> 1. `Integration`: _Integrate the Azure Well-Architected Framework (WAF) principles throughout these patterns to ensure reliability, security, and cost optimization._
 
 #### Distributed Systems Concepts (6 Days)
 
