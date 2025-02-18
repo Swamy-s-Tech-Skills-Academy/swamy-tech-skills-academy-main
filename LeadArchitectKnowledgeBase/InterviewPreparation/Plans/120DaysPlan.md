@@ -226,65 +226,73 @@ This phase deepens your understanding of design patterns, distributed systems, a
 > 1. `Security`: Azure AD, RBAC, Managed Identities, Key Vault, Azure Security Center, Security Center recommendations, threat detection
 > 1. `Observability`: Azure Monitor, Application Insights, Log Analytics, distributed tracing (Jaeger, Zipkin), Alerting
 
-### 2.3. Activities
+### 🛠️ 2.3. Activities
 
-> 1. Design Pattern Implementation (Focus on 2 Patterns):
+#### 2.3.1. Design Pattern Implementation (Focus on 2 Patterns)
 
-#### Day 31
+> 1. Day 31
+>    - _Theory:_ Introduction to GoF Design Patterns.
+>    - _Activity:_ Identify and discuss real-world examples of Creational patterns (Factory, Abstract Factory) in Azure (e.g., for VM creation or resource provisioning).
+> 1. Day 32:
+>    - _Theory:_ Deep dive into Creational patterns (Factory, Abstract Factory, Singleton).
+>    - _Activity:_ Implement a Factory pattern in C# to create different types of Azure Storage accounts (Blob, Queue, Table) based on user input.
+> 1. Day 33:
+>    - _Theory:_ Deep dive into Structural patterns (Adapter, Decorator, Facade).
+>    - _Activity:_ Explore using the Adapter pattern to integrate an on-premises database with Azure SQL Database via Azure Data Factory.
+> 1. Day 34:
+>    - _Theory:_ Deep dive into Behavioral patterns (Strategy, Observer, Command).
+>    - _Activity:_ Implement the Strategy pattern in C# to handle different retry mechanisms (exponential backoff, fixed delays) when interacting with Azure Storage.
+> 1. Day 35:
+>    - _Theory:_ Deep dive into additional Behavioral patterns (Template Method, Chain of Responsibility).
+>    - _Activity:_ Design a system using the Template Method pattern to manage different data processing pipelines in Azure Data Factory.
+> 1. Day 36:
+>    - _Review:_ Recap all GoF Design Patterns.
+>    - _Activity:_ Design a simple application using one or two GoF Design Patterns and discuss its implementation using Azure services.
 
-> 1. Theory: Introduction to GoF Design Patterns.
-> 1. Activity: Identify and discuss real-world examples of Creational patterns (Factory, Abstract Factory) in Azure services (e.g., VM creation, resource provisioning).
+#### 2.3.2. Distributed Systems Design (Focus on 2–3 Patterns):
 
-#### Day 32
+> 1. Day 37:
+>    - _Theory:_ Overview of Microservices Architecture – Principles, benefits, and challenges.
+>    - _Activity:_ Analyze a real-world microservices architecture (e.g., e-commerce) and identify key components and interactions.
+> 1. Day 38:
+>    - _Theory:_ Resilience Patterns (Circuit Breaker, Retry, Bulkhead, Timeout, Throttling).
+>    - _Activity:_ Design a system incorporating the Circuit Breaker pattern to handle transient failures.
+> 1. Day 39:
+>    - _Theory:_ Data Consistency – CAP Theorem, Eventual Consistency, ACID.
+>    - _Activity:_ Discuss examples of eventual consistency (e.g., social media feeds) and analyze trade-offs between consistency and availability.
+> 1. Day 40:
+>    - _Theory:_ Data Partitioning Strategies (Sharding, Range, Hash Partitioning).
+>    - _Activity:_ Design a data partitioning strategy for a high-volume e-commerce application using Cosmos DB.
+> 1. Day 41:
+>    - _Theory:_ Messaging – Message Queues (Service Bus, Event Hubs), Pub/Sub, Stream Processing.
+>    - _Activity:_ Design a messaging system for an e-commerce application using Azure Service Bus or Event Hubs to handle order processing events.
+> 1. Day 42:
+>    - _Theory:_ Orchestration & Choreography (Saga Pattern, Outbox Pattern, State Machines).
+>    - _Activity:_ Discuss the use of the Saga Pattern for managing complex business transactions.
 
-> 1. Theory: Deep dive into Creational patterns (Factory, Abstract Factory, Singleton).
-> 1. Activity: Implement a Factory pattern in C# to create different types of Azure Storage accounts (Blob, Queue, Table) based on user input.
-
-#### Day 33
-
-> 1. Theory: Deep dive into Structural patterns (Adapter, Decorator, Facade).
-> 1. Activity: Explore the use of the Adapter pattern to integrate an on-premises database with Azure SQL Database using Azure Data Factory.
-
-#### Day 34
-
-> 1. Theory: Deep dive into Behavioral patterns (Strategy, Observer, Command).
-> 1. Activity: Implement the Strategy pattern in C# to handle different retry mechanisms (exponential backoff, fixed delays) when interacting with Azure Storage.
-
-#### Day 35
-
-> 1. Theory: Deep dive into Behavioral patterns (Template Method, Chain of Responsibility).
-> 1. Activity: Design a system using the Template Method pattern to handle different data processing pipelines in Azure Data Factory.
-
-#### Day 36
-
-> 1. Design Pattern Review: Review all GoF Design Patterns covered. Discuss how to apply these patterns in real-world Azure scenarios.
-> 1. Activity: Design a simple application using one or two GoF Design Patterns and discuss how it could be implemented using Azure services.
+> 1. **Container Orchestration and Security with AKS:**
 >
-> 1. Distributed Systems Design (Focus on 2-3 Patterns): Design a system architecture diagram incorporating 2-3 key distributed system patterns (e.g., Circuit Breaker, Retry, Queue-Based Load Leveling). Focus on resilience and messaging. Consider factors like fault tolerance, scalability, and observability in your design.
->    Day 37:
->    Theory: Microservices Architecture (Principles, Benefits, Challenges).
->    Activity: Discuss and analyze a real-world example of a microservices architecture (e.g., e-commerce, social media). Identify key components and their interactions.
->    Day 38:
->    Theory: Resilience Patterns (Circuit Breaker, Retry, Bulkhead, Timeout, Throttling).
->    Activity: Design a simple system that incorporates the Circuit Breaker pattern to handle transient failures in a microservices scenario.
->    Day 39:
->    Theory: Data Consistency: CAP Theorem, Eventual Consistency, ACID.
->    Activity: Discuss real-world examples of systems that exhibit eventual consistency (e.g., social media feeds). Analyze the trade-offs between consistency and availability.
->    Day 40:
->    Theory: Data Partitioning Strategies (Sharding, Range Partitioning, Hash Partitioning).
->    Activity: Design a data partitioning strategy for a high-volume e-commerce application using Cosmos DB.
->    Day 41:
->    Theory: Messaging: Message Queues (Service Bus, Event Hubs), Pub/Sub, Stream Processing.
->    Activity: Design a messaging system for an e-commerce application using Azure Service Bus or Event Hubs to handle order processing events.
->    Day 42:
->    Theory: Orchestration & Choreography (Saga Pattern, Outbox Pattern, State Machines).
->    Activity: Discuss the use of the Saga Pattern for managing complex business transactions across multiple services.
-> 1. Container Orchestration and Security with AKS (Simplified Scope): Deploy a single-container application on AKS using Helm. Configure basic networking and implement Key Vault integration for secrets. Cover basic security concepts. Implement basic monitoring and logging using Prometheus and Grafana.
-> 1. API Management and Observability (Basic Setup): Deploy Azure API Management (APIM) and configure basic policies. Implement basic logging with Azure Monitor. Introduce distributed tracing concepts. Incorporate rate limiting and authentication policies in APIM.
-> 1. Cosmos DB Data Modeling and Partitioning (Simplified): Create a sample Cosmos DB database and implement a basic partitioning strategy. Explore different consistency levels. Consider security aspects like access control and data encryption.
-> 1. Multi-Region Concepts and High Availability: Focus on the concepts of multi-region deployments and high availability. Explore Azure Traffic Manager and Availability Zones. Discuss disaster recovery strategies and data replication.
-> 1. CI/CD Concepts and Azure DevOps/GitHub Actions Overview: Focus on CI/CD concepts and an overview of Azure DevOps or GitHub Actions. Discuss security best practices within the CI/CD pipeline, such as code scanning and vulnerability assessments.
-> 1. Cost Optimization and Security Auditing Concepts: Cover the core concepts of cost optimization and security auditing in Azure. Use Azure Cost Management for basic cost analysis. Introduce Defender for Cloud. Analyze cost optimization recommendations and security alerts within Azure Cost Management and Security Center.
+>    - _Activity:_ Deploy a single-container application on AKS using Helm. Configure basic networking and implement Key Vault integration for secrets. Ensure the application is configured with HTTPS. Implement AAD Pod Identity and perform a Well-Architected Review of the deployed application. Set up basic monitoring and logging using Prometheus and Grafana.
+>
+> 1. **API Management and Observability:**
+>
+>    - _Activity:_ Deploy Azure API Management (APIM) to securely expose AKS services. Configure policies for rate limiting and authentication. Implement basic logging with Azure Monitor and distributed tracing with Application Insights. Conduct a Well-Architected Review of the API Management setup.
+>
+> 1. **Cosmos DB Data Modeling and Partitioning:**
+>
+>    - _Activity:_ Create a sample Cosmos DB database and implement a basic partitioning strategy (e.g., by product category). Explore different consistency levels and document trade-offs. Conduct a Well-Architected Review of the Cosmos DB design.
+>
+> 1. **Multi-Region Concepts and High Availability:**
+>
+>    - _Activity:_ Explore multi-region deployment strategies and high availability options in Azure. Design a multi-region architecture for a sample application that incorporates high availability and disaster recovery. Conduct a Well-Architected Review of the design.
+>
+> 1. **CI/CD and DevOps Overview:**
+>
+>    - _Activity:_ Review CI/CD concepts and the capabilities of Azure DevOps and GitHub Actions. Discuss security best practices within the CI/CD pipeline, including automated code scanning and vulnerability assessments.
+>
+> 1. **Cost Optimization and Security Auditing:**
+>    - _Activity:_ Cover core concepts of cost optimization and security auditing in Azure. Use Azure Cost Management for a sample cost analysis, introduce Defender for Cloud, and document recommendations for cost savings and security improvements.
+>      .
 
 ### 2.4. Milestones
 
