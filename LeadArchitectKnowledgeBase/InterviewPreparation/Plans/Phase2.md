@@ -1,4 +1,4 @@
-## **🚀 Phase 2: Design Patterns & Azure Deep Dive**
+# **🚀 Phase 2: Design Patterns & Azure Deep Dive**
 
 _(Days 31–60, 5 Days/Week, ~1 Hour Daily – 6 Weeks)_
 
@@ -6,7 +6,7 @@ This phase deepens your expertise by exploring advanced design patterns, distrib
 
 ---
 
-### 🎯 **2.1. Goals**
+## 🎯 **2.1. Goals**
 
 - **Deepen Expertise:**  
   ➤ Master GoF design patterns, distributed systems concepts, and advanced Azure services.
@@ -17,9 +17,9 @@ This phase deepens your expertise by exploring advanced design patterns, distrib
 
 ---
 
-### 📌 **2.2. Key Topics**
+## 📌 **2.2. Key Topics**
 
-#### **💡 GoF Design Patterns** _(6 Days)_
+### **💡 GoF Design Patterns** _(6 Days)_
 
 - **Creational:**
   - Factory, Abstract Factory, Singleton
@@ -75,9 +75,9 @@ This phase deepens your expertise by exploring advanced design patterns, distrib
 
 ---
 
-### 🛠️ **2.3. Activities**
+## 🛠️ **2.3. Activities**
 
-#### **2.3.1. Design Pattern Implementation (Days 31-36)**
+### **2.3.1. Design Pattern Implementation (Days 31-36)**
 
 - **Day 31:**  
   🎓 _Theory:_ Introduction to GoF Design Patterns.  
@@ -138,7 +138,7 @@ This phase deepens your expertise by exploring advanced design patterns, distrib
 
 ---
 
-### 📌 **2.4. Milestones**
+## 📌 **2.4. Milestones**
 
 - **Design Patterns:** Successfully implement 2 GoF design patterns with Azure integration.
 - **System Architecture:** Design a comprehensive architecture diagram that incorporates 2–3 distributed systems patterns.
@@ -151,9 +151,9 @@ This phase deepens your expertise by exploring advanced design patterns, distrib
 
 ---
 
-### 🎤 **2.5. Mock Interview Preparation**
+## 🎤 **2.5. Mock Interview Preparation**
 
-#### **Design Questions**
+### **Design Questions**
 
 - Design a highly available and scalable web application on Azure.
 - How would you design a microservices architecture on AKS?
@@ -167,7 +167,7 @@ This phase deepens your expertise by exploring advanced design patterns, distrib
 
 ---
 
-### 🔹 **2.6. Scenario-Based Challenges**
+## 🔹 **2.6. Scenario-Based Challenges**
 
 - **Scenario 1: E-commerce Platform**  
   Design a multi-region e-commerce platform that handles high traffic, ensures low latency, and provides high availability while addressing security, scalability, and cost optimization.
@@ -178,33 +178,33 @@ This phase deepens your expertise by exploring advanced design patterns, distrib
 
 ---
 
-### 📆 **2.7. Sample Weekly Schedule**
+## 📆 **2.7. Sample Weekly Schedule**
 
-#### **Week 7**
+### **Week 7**
 
 - **Day 31-32:** GoF Design Patterns (Introduction & Creational/Structural)
 - **Day 33:** GoF Design Patterns (Behavioral)
 - **Day 34-35:** Activity 1 – Design Pattern Implementation
 
-#### **Week 8**
+### **Week 8**
 
 - **Day 36-37:** Distributed Systems Patterns
 - **Day 38-39:** Activity 2 – Distributed Systems Design
 - **Day 40:** Activity 3 – Container Orchestration & Security with AKS (Basic Deployment & Networking)
 
-#### **Week 9**
+### **Week 9**
 
 - **Day 41:** Activity 3 – Container Orchestration & Security with AKS (Key Vault, AAD Pod Identity, Azure Policy)
 - **Day 42-43:** Activity 4 – API Management & Observability
 - **Day 44-45:** Activity 5 – Cosmos DB Data Modeling & Partitioning
 
-#### **Week 10**
+### **Week 10**
 
 - **Day 46-47:** Activity 6 – Multi-Region Concepts & High Availability
 - **Day 48:** Activity 7 – CI/CD Concepts & Azure DevOps/GitHub Actions Overview
 - **Day 49:** Activity 8 – Cost Optimization & Security Auditing Concepts
 
-#### **Weeks 11-12**
+### **Weeks 11-12**
 
 - **Day 50-55:** Review, Milestones, Mock Interviews, and Scenario-Based Challenges
 - **Day 56-60:** Catch Up/Buffer
