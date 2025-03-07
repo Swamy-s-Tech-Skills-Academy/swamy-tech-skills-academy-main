@@ -1,6 +1,6 @@
 # **Phase 1: Foundations & Core Concepts**
 
-_(Days 1–30, 5 Days/Week, ~1 Hour Daily – 6 Weeks)_
+> _(Days 1–30, 5 Days/Week, ~1 Hour Daily – 6 Weeks)_
 
 This phase lays the groundwork by building a robust understanding of cloud computing, Azure fundamentals, architectural principles, and Infrastructure as Code (IaC). It sets the stage for deeper exploration in later phases by combining theory with real-world, hands-on activities.
 
@@ -158,7 +158,3 @@ This phase lays the groundwork by building a robust understanding of cloud compu
   - **To Do** | **In Progress** | **Completed**
 
 This refined Phase 1 structure provides a progressive learning flow over 6 weeks (5 days per week) and ensures you build a strong foundation before moving on to more advanced topics in subsequent phases.
-
----
-
-Let me know if you need any further refinements or if you'd like to move on to the next phase!
