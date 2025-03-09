@@ -1,6 +1,6 @@
 # **🚀 Phase 2: Design Patterns & Azure Deep Dive**
 
-_(Days 31–60, 5 Days/Week, ~1 Hour Daily – 6 Weeks)_
+> _(Days 31–60, 5 Days/Week, ~1 Hour Daily – 6 Weeks)_
 
 This phase deepens your expertise by exploring advanced design patterns, distributed systems, and core Azure services. It also integrates key aspects such as containerization, security, observability, performance testing, cost optimization, and the Azure Well-Architected Framework (WAF) to prepare you for complex cloud solution design and troubleshooting.
 
@@ -208,7 +208,3 @@ This phase deepens your expertise by exploring advanced design patterns, distrib
 
 - **Day 50-55:** Review, Milestones, Mock Interviews, and Scenario-Based Challenges
 - **Day 56-60:** Catch Up/Buffer
-
----
-
-This enhanced Phase 2 plan now uses engaging icons and a clear structure to ensure the material is both comprehensive and visually appealing. Let me know if you’d like any further adjustments or if you're ready to move on to the next phase!

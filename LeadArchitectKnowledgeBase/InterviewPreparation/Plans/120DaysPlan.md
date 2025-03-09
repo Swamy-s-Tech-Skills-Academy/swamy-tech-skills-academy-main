@@ -1,4 +1,4 @@
-# 🚀 120-Day Azure Architect/Sr. Staff Engineer Interview Preparation Journey
+# 🚀 120-Day Azure Lead Architect/Sr. Staff Engineer Interview Preparation Journey
 
 This comprehensive plan is structured into six progressive phases, each building on the previous one. The journey equips you with both technical expertise and the soft skills essential for high-level roles.
 
