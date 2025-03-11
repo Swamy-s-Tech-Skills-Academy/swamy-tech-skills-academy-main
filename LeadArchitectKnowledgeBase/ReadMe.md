@@ -82,6 +82,14 @@ Lead Architect Knowledge Base/
 │   │   └── ReadMe.md
 │   ├── DataScience/
 │   │   └── ReadMe.md
+│   ├── DataAnalytics/
+│   │   ├── BusinessIntelligence/
+│   │   │   └── ReadMe.md
+│   │   ├── DataVisualization/
+│   │   │   └── ReadMe.md
+│   │   ├── Reporting/
+│   │   │   └── ReadMe.md
+│   │   └── ReadMe.md
 │   ├── DataStore/
 │   │   ├── NoSQLDatabases/
 │   │   │   └── ReadMe.md
