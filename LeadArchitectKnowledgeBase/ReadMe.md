@@ -1,311 +1,34 @@
-# Lead Architect Knowledge Base
+# 🏗️ Lead Architect Knowledge Base
 
-Your current folder structure is well-organized and comprehensive, but I don't see a dedicated **DataAnalytics** section under **Data**. Since you requested the addition of **Data Analytics**, here’s how I propose integrating it:
+## 📌 Overview
 
----
+This repository serves as a **structured knowledge base** for my journey toward becoming a **Lead Architect**.  
+It includes study plans, architecture patterns, hands-on labs, technical notes, and career development resources.
 
-### **Proposed Enhancements**
+## 📂 Folder Structure
 
-- **Add a `DataAnalytics` folder under `Data/`** with key subtopics like:
-  - **BusinessIntelligence/** → Covering Power BI, Tableau, Looker, etc.
-  - **DataVisualization/** → Covering Matplotlib, Seaborn, D3.js, etc.
-  - **Reporting/** → Covering SQL-based reporting, SSRS, Power BI, etc.
-  - **AnalyticsModels/** → Covering predictive analytics, descriptive analytics, prescriptive analytics, etc.
+- **ArchitectsJourney/** – Learning paths (e.g., 120-day plan, weekly plans).
+- **(Future Folders)** – Will be added as needed, such as `Cloud`, `Data`, `DevOps`, `AI`, `SoftwareArchitecture`.
 
----
+## 🚀 How to Use
 
-### **Updated Folder Structure (Including Data Analytics)**
+1. **Follow the learning plans** inside `ArchitectsJourney/`.
+2. **Create notes** for new concepts in relevant folders.
+3. **Track progress** using `WeekX.md` files.
+4. **Update ReadMe files** inside each folder with key takeaways.
 
-```text
-Lead Architect Knowledge Base/
-├── Data/
-│   ├── BigData/
-│   │   └── ReadMe.md
-│   ├── DataEngineering/
-│   │   └── ReadMe.md
-│   ├── DataScience/
-│   │   └── ReadMe.md
-│   ├── DataAnalytics/
-│   │   ├── BusinessIntelligence/
-│   │   │   ├── PowerBI.md
-│   │   │   ├── Tableau.md
-│   │   │   ├── Looker.md
-│   │   │   └── ReadMe.md
-│   │   ├── DataVisualization/
-│   │   │   ├── Matplotlib.md
-│   │   │   ├── Seaborn.md
-│   │   │   ├── D3js.md
-│   │   │   └── ReadMe.md
-│   │   ├── Reporting/
-│   │   │   ├── SQLReporting.md
-│   │   │   ├── SSRS.md
-│   │   │   ├── PowerBI_Reporting.md
-│   │   │   └── ReadMe.md
-│   │   ├── AnalyticsModels/
-│   │   │   ├── PredictiveAnalytics.md
-│   │   │   ├── DescriptiveAnalytics.md
-│   │   │   ├── PrescriptiveAnalytics.md
-│   │   │   └── ReadMe.md
-│   │   └── ReadMe.md
-│   ├── DataStore/
-│   │   ├── NoSQLDatabases/
-│   │   │   └── ReadMe.md
-│   │   ├── RelationalDatabases/
-│   │   │   └── ReadMe.md
-│   │   └── ReadMe.md
-│   └── ReadMe.md
-```
+## 📅 Current Focus
+
+✅ **Week 1:** _(Brief description of what you're working on)_  
+📌 _Example: "Studying Azure Core Services & Deployment Strategies."_
+
+## 🛠️ Tools & Resources
+
+- **[Microsoft Learn](https://learn.microsoft.com/en-us/)**
+- **[Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/)**
+- **[Pluralsight](https://www.pluralsight.com/)**  
+  _(More resources will be added as needed.)_
 
 ---
 
-### **Changes Implemented**
-
-1. **Created `DataAnalytics/` inside `Data/`**
-2. **Added subfolders:**
-   - `BusinessIntelligence/` for BI tools
-   - `DataVisualization/` for visualization libraries
-   - `Reporting/` for SQL-based and dashboard reporting
-   - `AnalyticsModels/` for different analytics techniques
-3. **Each subfolder has relevant `.md` files** covering key technologies.
-
----
-
-This structure ensures that **Data Analytics** is well-represented while maintaining consistency with the rest of your knowledge base.
-
-Would you like any additional refinements or other categories added? 🚀
-
----
-
-Here's the updated folder structure with "Design & Patterns" split into "Software Architecture" and "Software Design," as we discussed:
-
-```text
-Lead Architect Knowledge Base/
-├── ArchitecturalPatterns/
-│   └── ... (other architectural patterns)
-├── ArtificialIntelligence/
-│   ├── AIFoundations/
-│   │   └── ReadMe.md
-│   ├── ComputerVision/
-│   │   └── ReadMe.md
-│   ├── GenerativeAI/
-│   │   └── ReadMe.md
-│   ├── MachineLearning/
-│   │   ├── DeepLearning/
-│   │   │   └── ReadMe.md
-│   │   ├── ReinforcementLearning/
-│   │   │   └── ReadMe.md
-│   │   ├── SupervisedLearning/
-│   │   │   └── ReadMe.md
-│   │   ├── UnsupervisedLearning/
-│   │   │   └── ReadMe.md
-│   │   └── ReadMe.md
-│   ├── NaturalLanguageProcessing/
-│   │   └── ReadMe.md
-│   ├── Robotics/
-│   │   └── ReadMe.md
-│   └── ReadMe.md
-├── CareerDevelopment/
-│   ├── Communication/
-│   │   └── ReadMe.md
-│   ├── LeadArchitect/
-│   │   ├── ArchitecturalScenarios.md
-│   │   ├── CaseStudies.md
-│   │   ├── EmergingTrends.md
-│   │   ├── InterviewPreparation.md
-│   │   ├── PatternsAndBestPractices.md
-│   │   ├── ReadMe.md
-│   │   ├── ReferenceMaterials.md
-│   │   ├── Responsibilities.md
-│   │   ├── RoadMap.md
-│   │   ├── Skills.md
-│   │   └── ToolsAndTechnologies.md
-│   ├── Leadership/
-│   │   └── ReadMe.md
-│   ├── Mentoring/
-│   │   └── ReadMe.md
-│   └── ReadMe.md
-├── Cloud/
-│   ├── AWS/
-│   │   └── ReadMe.md
-│   ├── Azure/
-│   │   └── ReadMe.md
-│   ├── CloudNative/
-│   │   └── ReadMe.md
-│   ├── GCP/
-│   │   └── ReadMe.md
-│   ├── MultiCloud/
-│   │   ├── HybridCloud.md
-│   │   └── ReadMe.md
-│   ├── Serverless/
-│   │   └── ReadMe.md
-│   └── ReadMe.md
-├── Daily/
-│   ├── 2025/
-│   │   ├── 01/
-│   │   │   ├── 03.md
-│   │   │   ├── 06.md
-│   │   │   ├── 07.md
-│   │   │   ├── 07_CSInDepth.md
-│   │   │   ├── 08_Clean_Architecture_CQRS.md
-│   │   │   └── 09.md
-│   │   └── 02/
-│   └── 2026/
-│   └── ReadMe.md
-├── Data/
-│   ├── BigData/
-│   │   └── ReadMe.md
-│   ├── DataEngineering/
-│   │   └── ReadMe.md
-│   ├── DataScience/
-│   │   └── ReadMe.md
-│   ├── DataAnalytics/
-│   │   ├── BusinessIntelligence/
-│   │   │   └── ReadMe.md
-│   │   ├── DataVisualization/
-│   │   │   └── ReadMe.md
-│   │   ├── Reporting/
-│   │   │   └── ReadMe.md
-│   │   └── ReadMe.md
-│   ├── DataStore/
-│   │   ├── NoSQLDatabases/
-│   │   │   └── ReadMe.md
-│   │   ├── RelationalDatabases/
-│   │   │   └── ReadMe.md
-│   │   └── ReadMe.md
-│   └── ReadMe.md
-├── DevelopmentPractices/
-│   ├── 12-FactorApplications/
-│   │   └── ReadMe.md
-│   ├── CodeReviews/
-│   │   ├── BestPractices.md
-│   │   ├── Checklists.md
-│   │   └── ReadMe.md
-│   ├── CodingStandards/
-│   │   ├── CSharp.md
-│   │   ├── Java.md
-│   │   └── ReadMe.md
-│   ├── VersionControl/
-│   │   ├── Git.md
-│   │   └── ReadMe.md
-│   └── ReadMe.md
-├── DevOps/
-│   ├── CI_CD/
-│   │   ├── CloudNativeCI_CD.md
-│   │   ├── Containers/
-│   │   │   ├── Docker.md
-│   │   │   ├── Kubernetes.md
-│   │   │   └── ReadMe.md
-│   │   ├── GeneralPrinciples.md
-│   │   ├── Pipelines.md
-│   │   └── ReadMe.md
-│   ├── ConfigurationManagement/
-│   │   └── ReadMe.md
-│   ├── InfrastructureAsCode/
-│   │   ├── Ansible.md
-│   │   ├── ARM.md
-│   │   ├── Biceps.md
-│   │   ├── ReadMe.md
-│   │   └── Terraform.md
-│   ├── Monitoring/
-│   │   ├── Logging.md
-│   │   ├── Metrics.md
-│   │   ├── Observability.md
-│   │   └── ReadMe.md
-│   └── ReadMe.md
-├── DSA/
-│   ├── Algorithms/
-│   │   ├── Searching.md
-│   │   ├── Sorting.md
-│   │   └── ReadMe.md
-│   ├── DataStructures/
-│   │   ├── Arrays.md
-│   │   ├── LinkedLists.md
-│   │   └── ReadMe.md
-│   └── ReadMe.md
-├── Interview Preparation/
-│   ├── General/
-│   │   ├── Behavioral_Questions.md
-│   │   ├── Communication_Tips.md
-│   │   ├── Questions_to_Ask_Interviewer.md
-│   │   ├── ReadMe.md
-│   │   └── STAR_Method.md
-│   ├── Technical/
-│   │   ├── APIDesign.md
-│   │   ├── Architectural_Patterns.md
-│   │   ├── Cloud_Computing.md
-│   │   ├── Databases.md
-│   │   ├── DevOps.md
-│   │   ├── ReadMe.md
-│   │   └── Security.md
-│   └── ReadMe.md
-├── Performance/
-│   ├── LoadTesting/
-│   │   └── ...
-│   ├── PerformanceTuning/
-│   │   ├── CodeOptimization.md
-│   │   ├── DatabaseTuning.md
-│   │   └── ...
-│   └── ...
-├── ReadMe.md
-├── Security/
-│   ├── ApplicationSecurity/
-│   │   ├── OWASP.md
-│   │   ├── SecurityTesting.md
-│   │   └── ...
-│   ├── InfrastructureSecurity/
-│   │   └── ...
-│   ├── SecureDevelopment/
-│   │   ├── SecureCodingPractices.md
-│   │   └── ...
-│   └── ...
-├── Software Architecture/
-│   ├── ArchitecturalPatterns/
-│   │   └── ... (other architectural patterns)
-│   ├── ArchitecturalStyles/
-│   │   ├── Distributed/
-│   │   │   ├── Client-Server.md
-│   │   │   ├── Event-Driven.md
-│   │   │   ├── Microservices.md
-│   │   │   └── ...
-│   │   └── Monolithic.md
-│   ├── DomainDrivenDesign/
-│   │   ├── DomainModel.md
-│   │   └── ...
-│   ├── SystemDesign/
-│   │   └── ...
-│   └── UML/
-│       └── ...
-├── SoftwareArchitecturePatterns/ <--- New folder for architectural patterns
-│   ├── CQRS/
-│   │   └── ReadMe.md
-│   └── ... (other architectural patterns)
-├── Software Design/
-│   ├── DesignPatterns/
-│   │   ├── Behavioral/
-│   │   │   └── ...
-│   │   ├── Creational/
-│   │   │   └── ...
-│   │   └── Structural/
-│   │       └── ...
-│   ├── ObjectOrientedDesign/
-│   │   ├── DesignPrinciples.md
-│   │   └── SOLID.md
-│   └── ...
-└── Testing/
-    ├── Integration/
-    │   └── ...
-    ├── Performance/
-    │   └── ...
-    ├── TestAutomation/
-    │   └── ...
-    └── Unit/
-        └── ...
-```
-
-**Key Change:**
-
-- The "Design & Patterns" folder is now split into:
-  - **Software Architecture:** Containing high-level architectural concepts, patterns, DDD, UML, and System Design.
-  - **Software Design:** Containing lower-level design patterns and object-oriented design principles.
-
-This split provides a clearer separation of concerns and makes it easier to navigate between high-level architectural decisions and more detailed design considerations. This is a very common and effective way to organize this type of information.
+📖 _This repository will evolve as I progress in my learning journey!_ 🚀
