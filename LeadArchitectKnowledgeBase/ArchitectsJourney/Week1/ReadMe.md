@@ -40,8 +40,15 @@
 
 - Review & Document Key Learnings for Week 1.
 - Action: Summarize your progress, update the milestones, and note any challenges or questions.
+- Reflection: What did I learn today? What would I do differently next time?
 
 ## 📝 Notes
 
 - Detailed notes and daily summaries will be recorded in the corresponding `DayX.md` files.
 - Update this file with any additional resources, insights, or adjustments as needed.
+
+## 🔗 Resources
+
+- [Azure Regions Documentation](https://learn.microsoft.com/en-us/azure/availability-zones/)
+- [Azure Load Balancer Overview](https://learn.microsoft.com/en-us/azure/load-balancer/)
+- [ARM Templates Overview](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/)
