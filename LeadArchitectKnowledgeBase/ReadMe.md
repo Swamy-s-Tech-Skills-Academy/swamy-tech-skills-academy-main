@@ -2,25 +2,35 @@
 
 ## 📌 Overview
 
-This repository serves as a **structured knowledge base** for my journey toward becoming a **Lead Architect**.  
-It includes study plans, architecture patterns, hands-on labs, technical notes, and career development resources.
+This repository is my **structured knowledge base** for becoming a **Lead Architect** 🚀.  
+It includes **learning plans, architecture patterns, hands-on labs, technical notes, and career development resources**.
 
 ## 📂 Folder Structure
 
-- **ArchitectsJourney/** – Learning paths (e.g., 120-day plan, weekly plans).
-- **(Future Folders)** – Will be added as needed, such as `Cloud`, `Data`, `DevOps`, `AI`, `SoftwareArchitecture`.
+📁 **ArchitectsJourney/** – Structured learning paths (e.g., 120-day plan, weekly plans).  
+📁 **Projects/** – Hands-on projects, PoCs, and practical implementations.  
+📁 **Certifications/** – Study materials & progress tracking for certifications.  
+📁 **MeetingNotes/** – Notes from tech meetups, conferences, and community discussions.  
+📁 _(More folders will be added as needed, such as `Cloud`, `Data`, `DevOps`, `AI`, etc.)_
+
+---
 
 ## 🚀 How to Use
 
-1. **Follow the learning plans** inside `ArchitectsJourney/`.
-2. **Create notes** for new concepts in relevant folders.
-3. **Track progress** using `WeekX.md` files.
-4. **Update ReadMe files** inside each folder with key takeaways.
+✅ **Follow the learning plans** inside `ArchitectsJourney/`.  
+✅ **Track progress** using `WeekX/DayX.md` files.  
+✅ **Document key learnings** in relevant folders.  
+✅ **Keep project-based learning inside `Projects/`**.  
+✅ **Update the `Milestones` section regularly.**
+
+---
 
 ## 📅 Current Focus
 
 ✅ **Week 1:** _(Brief description of what you're working on)_  
 📌 _Example: "Studying Azure Core Services & Deployment Strategies."_
+
+---
 
 ## 📈 Milestones
 
@@ -34,12 +44,28 @@ It includes study plans, architecture patterns, hands-on labs, technical notes, 
 
 _(Update the dates as you progress!)_
 
+---
+
+## 📌 Key Skills & Areas of Focus
+
+✔️ **Software Architecture**  
+✔️ **Cloud Architecture (Azure, AWS, GCP)**  
+✔️ **Microservices & Distributed Systems**  
+✔️ **AI & Machine Learning Solutions**  
+✔️ **Security Best Practices**  
+✔️ **CI/CD & DevOps**  
+✔️ **Performance Optimization & Scalability**  
+✔️ **System Design & Enterprise Patterns**
+
+---
+
 ## 🛠️ Tools & Resources
 
-- **[Microsoft Learn](https://learn.microsoft.com/en-us/)**
-- **[Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/)**
-- **[Pluralsight](https://www.pluralsight.com/)**
-- _(More resources will be added as needed.)_
+🔹 **[Microsoft Learn](https://learn.microsoft.com/en-us/)**  
+🔹 **[Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/)**  
+🔹 **[Pluralsight](https://www.pluralsight.com/)**  
+🔹 **[GitHub Actions (CI/CD)](https://github.com/features/actions)**  
+🔹 _(More resources will be added as needed.)_
 
 ---
 
@@ -47,7 +73,9 @@ _(Update the dates as you progress!)_
 
 ---
 
-This **Milestones table** allows you to track key achievements **at a glance** ✅.  
-You can add **new milestones** as needed (e.g., **completed a major project**, **published a blog**, etc.).
+### 🎯 Next Steps
 
-Does this structure **work for you?** 😊
+1️⃣ Start **Week 1 plan** inside `ArchitectsJourney/Week1/`.  
+2️⃣ Keep track of **progress in milestones**.  
+3️⃣ Explore **GitHub Actions & CI/CD**.  
+4️⃣ Work on **at least one small hands-on project per month**.
