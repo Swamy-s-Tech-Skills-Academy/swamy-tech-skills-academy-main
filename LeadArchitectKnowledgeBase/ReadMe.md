@@ -11,7 +11,10 @@ It includes **learning plans, architecture patterns, hands-on labs, technical no
 📁 **Projects/** – Hands-on projects, PoCs, and practical implementations.  
 📁 **Certifications/** – Study materials & progress tracking for certifications.  
 📁 **MeetingNotes/** – Notes from tech meetups, conferences, and community discussions.  
-📁 _(More folders will be added as needed, such as `Cloud`, `Data`, `DevOps`, `AI`, etc.)_
+📁 **Cloud/** – Cloud architecture patterns and best practices (Azure, AWS, GCP).  
+📁 **Data/** – Data architecture, databases, and analytics resources.  
+📁 **DevOps/** – CI/CD, Infrastructure as Code, and deployment strategies.  
+📁 **AI/** – AI/ML architecture patterns and implementation guides.
 
 ---
 
@@ -27,8 +30,8 @@ It includes **learning plans, architecture patterns, hands-on labs, technical no
 
 ## 📅 Current Focus
 
-✅ **Week 1:** _(Brief description of what you're working on)_  
-📌 _Example: "Studying Azure Core Services & Deployment Strategies."_
+✅ **Week 1:** Consolidating knowledge base and creating a focused learning plan  
+📌 Focus on Azure architecture patterns and cloud-native application design
 
 ---
 
@@ -36,11 +39,11 @@ It includes **learning plans, architecture patterns, hands-on labs, technical no
 
 | Date       | Milestone                                 | Notes                                                    |
 | ---------- | ----------------------------------------- | -------------------------------------------------------- |
-| YYYY-MM-DD | **Started the Lead Architect Journey 🚀** | Initial plan & structure set up.                         |
-| YYYY-MM-DD | **Completed Week 1 Plan ✅**              | Key takeaways documented.                                |
-| YYYY-MM-DD | **Completed First 4 Weeks 🎯**            | Progress review & adjustments.                           |
-| YYYY-MM-DD | **120-Day Plan Completed 🎉**             | Final review & self-assessment.                          |
-| YYYY-MM-DD | **Achieved [Certification Name] 🏆**      | (Optional) If you take any certifications along the way. |
+| 2025-05-06 | **Started the Lead Architect Journey 🚀** | Initial plan & structure set up.                         |
+| TBD        | **Completed Week 1 Plan ✅**              | Key takeaways documented.                                |
+| TBD        | **Completed First 4 Weeks 🎯**            | Progress review & adjustments.                           |
+| TBD        | **120-Day Plan Completed 🎉**             | Final review & self-assessment.                          |
+| TBD        | **Achieved [Certification Name] 🏆**      | (Optional) If you take any certifications along the way. |
 
 _(Update the dates as you progress!)_
 
