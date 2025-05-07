@@ -1,66 +1,53 @@
-# 🔄 DevOps & CI/CD
+# DevOps
 
-This folder contains resources for DevOps practices, Continuous Integration/Continuous Delivery pipelines, and infrastructure automation.
+This folder contains resources, best practices, and implementation guides for DevOps practices, tools, and methodologies.
 
-## 📂 Key Areas
+## Core Areas
 
-### Continuous Integration/Continuous Delivery
-- CI/CD Pipelines
-- Automated Testing Strategies
-- Release Management
-- Deployment Strategies (Blue/Green, Canary, Feature Flags)
+- **CI/CD Pipelines** - Continuous Integration and Continuous Delivery workflows
+- **Infrastructure as Code** - Automating infrastructure provisioning and management
+- **Containerization** - Docker, Kubernetes, and container orchestration
+- **Monitoring & Observability** - Tracking application and infrastructure performance
+- **Site Reliability Engineering** - Ensuring system reliability and availability
 
-### Infrastructure as Code (IaC)
-- Azure Bicep
-- ARM Templates
-- Terraform
-- Pulumi
-- Deployment Automation
+## Key Contents
 
-### Container Orchestration
-- Kubernetes (AKS, EKS, GKE)
-- Docker Compose
-- Azure Container Apps
-- Service Mesh (Istio, Linkerd)
+- [CI_CD_Pipelines.md](./CI_CD_Pipelines.md) - Comprehensive guide to CI/CD implementation
+- [IaC_Best_Practices.md](./IaC_Best_Practices.md) - Best practices for Infrastructure as Code
+- [Container_Orchestration.md](./Container_Orchestration.md) - Kubernetes and container management
+- [Monitoring_Strategies.md](./Monitoring_Strategies.md) - Logging, metrics, and observability
 
-### Monitoring & Observability
-- Application Insights
-- Prometheus & Grafana
-- Log Analytics
-- Distributed Tracing
-- SRE Practices
+## Tools & Technologies
 
-### DevSecOps
-- Security Scanning in Pipelines
-- Secrets Management
-- Compliance as Code
-- Container Security
-
-## 📝 Tooling Focus
-
-### CI/CD Platforms
+### CI/CD
 - GitHub Actions
 - Azure DevOps
 - Jenkins
 - GitLab CI
 
-### Configuration Management
-- Ansible
-- Chef
-- Puppet
+### Infrastructure as Code
+- Terraform
+- Azure Bicep
+- ARM Templates
+- CloudFormation
 
-### Deployment Tools
-- Helm
-- Kustomize
-- Octopus Deploy
+### Containerization
+- Docker
+- Kubernetes
+- Azure Container Apps
+- AWS ECS/EKS
 
-## 🔗 Resources
+### Monitoring
+- Prometheus
+- Grafana
+- Azure Monitor
+- ELK Stack
 
-- [Azure DevOps Documentation](https://learn.microsoft.com/en-us/azure/devops/)
-- [GitHub Actions Documentation](https://docs.github.com/en/actions)
-- [Azure Bicep Documentation](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/)
-- [Terraform Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
+## DevOps Practices
 
----
-
-_DevOps is essential for modern cloud architectures. Master these practices to ensure reliable and secure deployments!_
+- Automated Testing
+- Configuration Management
+- Deployment Strategies
+- Feature Flags
+- GitOps
+- ChatOps
