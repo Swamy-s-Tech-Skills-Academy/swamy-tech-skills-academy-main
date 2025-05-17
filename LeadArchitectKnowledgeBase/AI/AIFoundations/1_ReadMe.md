@@ -2,6 +2,12 @@
 
 Some Description
 
+## Contents
+
+- [Concepts to Learn](ToLearn.md)
+- [Embeddings Overview](Embeddings.md)
+- [Semantic Search](SemanticSearch.md)
+
 ## To Learn
 
 > 1. deep learning.
