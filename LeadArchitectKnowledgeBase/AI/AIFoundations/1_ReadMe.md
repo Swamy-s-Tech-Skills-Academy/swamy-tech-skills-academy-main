@@ -19,3 +19,6 @@ A comprehensive guide to essential artificial intelligence concepts, architectur
 13. [Reasoning](14_Reasoning.md)
 14. [Language Models and Large Language Models](15_LanguageModels_LLMs.md)
 15. [Parameters in Machine Learning and LLMs](16_Parameters_ML_LLMs.md)
+16. [Convolutional Neural Networks (CNNs)](17_CNNs.md)
+17. [Recurrent Neural Networks (RNNs) and LSTMs](18_RNNs_LSTMs.md)
+18. [Generative Adversarial Networks (GANs)](19_GANs.md)
