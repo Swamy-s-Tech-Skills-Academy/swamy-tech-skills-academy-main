@@ -1,6 +1,6 @@
-# Learning AI
+# AI Foundations
 
-Some Description
+A comprehensive guide to essential artificial intelligence concepts, architectures, and technologies. This structured learning path covers fundamental AI building blocks from neural networks to large language models, providing both theoretical understanding and practical insights.
 
 ## Contents
 
