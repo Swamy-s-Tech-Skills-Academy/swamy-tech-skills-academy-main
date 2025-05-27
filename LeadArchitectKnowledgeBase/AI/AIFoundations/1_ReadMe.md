@@ -1,6 +1,6 @@
-# Learning AI
+# AI Foundations
 
-Some Description
+A comprehensive guide to essential artificial intelligence concepts, architectures, and technologies. This structured learning path covers fundamental AI building blocks from neural networks to large language models, providing both theoretical understanding and practical insights.
 
 ## Contents
 
@@ -18,3 +18,4 @@ Some Description
 12. [Attention Mechanisms](13_Attention.md)
 13. [Reasoning](14_Reasoning.md)
 14. [Language Models and Large Language Models](15_LanguageModels_LLMs.md)
+15. [Parameters in Machine Learning and LLMs](16_Parameters_ML_LLMs.md)
