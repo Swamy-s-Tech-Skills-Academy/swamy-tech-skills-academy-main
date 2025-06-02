@@ -1,6 +1,7 @@
 # 🏗️ Knowledge Base Restructuring Plan
 
 ## Current Issues
+
 1. **Duplication**: GenerativeAI exists in both `/AI/` and root level
 2. **Poor Hierarchy**: Related folders scattered across root level
 3. **Inconsistent Grouping**: Similar concepts not grouped together
@@ -8,7 +9,7 @@
 
 ## Proposed New Structure
 
-```
+```text
 LeadArchitectKnowledgeBase/
 ├── 01_Foundation/
 │   ├── ArchitectsJourney/
@@ -72,26 +73,31 @@ LeadArchitectKnowledgeBase/
 ## Migration Steps
 
 ### Phase 1: Create New Structure
+
 1. Create numbered category folders
 2. Move existing content to appropriate categories
 3. Update all cross-references and links
 
 ### Phase 2: Consolidate Duplicates
+
 1. Merge duplicate GenerativeAI folders
 2. Consolidate Data-related folders
 3. Merge DevOps-related folders
 
 ### Phase 3: Update Documentation
+
 1. Update all ReadMe.md files with new navigation
 2. Create category-level overview documents
 3. Update cross-references throughout the knowledge base
 
 ### Phase 4: Verification
+
 1. Verify all links work
 2. Test navigation flow
 3. Ensure no content is lost
 
 ## Benefits
+
 - **Logical Grouping**: Related concepts grouped together
 - **Cleaner Navigation**: Fewer top-level folders
 - **Better Discoverability**: Clear category-based organization
