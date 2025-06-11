@@ -8,7 +8,11 @@ Provide a single source of truth for key architectural concepts, cloud best prac
 
 ## 🧭 Quick Navigation
 
-📖 **[Complete Navigation Guide](00_NAVIGATION_GUIDE.md)** - Detailed overview of the entire knowledge base structure
+📖 **[Complete Navigation Guide](09_Documentation/00_NAVIGATION_GUIDE.md)** - Detailed overview of the entire knowledge base structure
+
+🎓 **[Complete Learning Plan](09_Documentation/COMPLETE_LEARNING_PLAN.md)** - 16-week structured learning plan covering all categories
+
+🚀 **[Week 1 Quick Start](09_Documentation/WEEK1_QUICK_START.md)** - Begin your Lead Architect journey today!
 
 ## 📚 Knowledge Categories
 
@@ -74,6 +78,14 @@ Provide a single source of truth for key architectural concepts, cloud best prac
 
 - Active Projects
 - Meeting Notes & Daily Logs
+
+### 📋 [09_Documentation](09_Documentation/ReadMe.md)
+
+**Knowledge Base Resources** - Guides, plans, and organizational documentation
+
+- Learning Plans & Quick Start Guides
+- Navigation & Structure Documentation
+- Analysis & Reorganization Reports
 
 ## 🚀 Quick Start Paths
 
