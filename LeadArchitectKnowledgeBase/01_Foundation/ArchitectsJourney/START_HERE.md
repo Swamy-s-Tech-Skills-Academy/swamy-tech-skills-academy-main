@@ -4,7 +4,7 @@
 
 ### **RIGHT NOW (next 60 minutes):**
 
-1. **Open this file:** `Day1.md` (in this same folder)
+1. **Open this file:** `Week1/Day1.md`
 2. **Follow the 60-minute action plan**
 3. **Fill in your honest assessment**
 4. **Commit to tomorrow's action**
@@ -13,11 +13,11 @@ That's it. No more reading about learning. Just start learning.
 
 ---
 
-## 📋 Your Week 1 Files:
+## 📋 Your Learning Journey Files:
 
-- **Day1.md** ← **START HERE** (Role reality check)
-- **Day2.md** ← Tomorrow's focus
-- **ACTION_TRACKER.md** ← Track your daily wins
+- **Week1/Day1.md** ← **START HERE** (Role reality check)
+- **ACTION_TRACKER.md** ← Track progress across all weeks
+- **Week2, Week3...** ← Created only after completing previous week
 
 ---
 
