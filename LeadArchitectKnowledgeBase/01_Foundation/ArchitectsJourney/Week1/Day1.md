@@ -12,16 +12,16 @@
 
 ### **🕐 MINUTE 1-20: Essential Reading - What is a Lead Architect?**
 
-**📚 REQUIRED READING:** Start with these foundational documents in your knowledge base:
+**📚 REQUIRED READING:** Start with this beginner-friendly guide:
 
-1. **First, read this** (10 minutes):
-   `01_Foundation/LeadArchitect/ReadMe.md`
-2. **Then scan this** (10 minutes):
-   `01_Foundation/LeadArchitect/RoadMaptoLeadArchitect.md`
+1. **Read this foundational document** (15 minutes):
+   `01_Foundation/LeadArchitect/Lead_Architect_Basics.md`
+2. **Quick scan** (5 minutes): Look at the section headers in:
+   `01_Foundation/LeadArchitect/ReadMe.md` (just to see the learning journey ahead)
 
-**📖 KEY CONCEPTS TO UNDERSTAND:**
+**📖 KEY CONCEPTS YOU JUST LEARNED:**
 
-**A Lead Architect is responsible for:**
+After reading, you should understand:
 
 **🏗️ Technical Leadership:**
 
