@@ -1,15 +1,15 @@
 # 🚀 START HERE - NO MORE PLANNING!
 
-## You're tired of planning. Let's DO this!
+## You're starting with a clean slate. Let's learn step by step!
 
 ### **RIGHT NOW (next 60 minutes):**
 
 1. **Open this file:** `Week1/Day1.md`
-2. **Follow the 60-minute action plan**
-3. **Fill in your honest assessment**
-4. **Commit to tomorrow's action**
+2. **Read the foundational documents** (20 minutes)
+3. **Complete the simple blog design exercise** (25 minutes)
+4. **Reflect and plan tomorrow** (15 minutes)
 
-That's it. No more reading about learning. Just start learning.
+That's it. Learn by reading and doing.
 
 ---
 
