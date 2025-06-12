@@ -14,10 +14,12 @@
 ## 🛠️ Tasks
 
 1. **Read Lead Architect Overview:**
+
    - Study `../../../01_Foundation/LeadArchitect/ReadMe.md` (30 minutes)
    - Note key responsibilities, skills, and competencies required
 
 2. **Reflect on Current Skills:**
+
    - Compare your current skills with the role requirements (20 minutes)2. **Reflect on Current Skills:**
    - Compare your current skills with the role requirements (20 minutes)
    - Identify 3 key strengths and 3 areas for improvement
@@ -42,13 +44,16 @@
 ## 📝 Key Learnings
 
 **What I learned about the Lead Architect role:**
+
 - _(Document your key insights here)_
 
 **How my current skills compare:**
+
 - **Strengths:** _(List 3 current strengths)_
 - **Growth Areas:** _(List 3 areas for development)_
 
 **What excites me most:**
+
 - _(Write what motivates you about this role)_
 
 ---
@@ -67,7 +72,7 @@
 ## ✅ Daily Checklist
 
 1. [ ] Read the Lead Architect role overview
-2. [ ] Compare current skills with role requirements  
+2. [ ] Compare current skills with role requirements
 3. [ ] Identify 3 strengths and 3 growth areas
 4. [ ] Document 3 key insights about the role
 5. [ ] Reflect on motivation and excitement for the journey

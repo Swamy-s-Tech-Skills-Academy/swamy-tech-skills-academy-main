@@ -14,11 +14,13 @@
 ## 🛠️ Tasks
 
 1. **Study Career Roadmap:** (45 minutes)
+
    - Read `../../../01_Foundation/LeadArchitect/RoadMaptoLeadArchitect.md`
    - Note the key milestones and skill requirements
    - Understand the typical progression timeline
 
 2. **Create Skill Assessment Matrix:** (30 minutes)
+
    - Rate yourself (1-5 scale) on each competency area:
      - Technical Architecture Skills
      - Leadership & Communication
@@ -47,28 +49,32 @@
 **Rate yourself 1-5 (1=Beginner, 5=Expert):**
 
 ### Technical Architecture
-- [ ] Design Patterns & SOLID Principles: ___/5
-- [ ] System Design & Scalability: ___/5
-- [ ] Microservices & Distributed Systems: ___/5
-- [ ] Database Architecture: ___/5
+
+- [ ] Design Patterns & SOLID Principles: \_\_\_/5
+- [ ] System Design & Scalability: \_\_\_/5
+- [ ] Microservices & Distributed Systems: \_\_\_/5
+- [ ] Database Architecture: \_\_\_/5
 
 ### Leadership & Communication
-- [ ] Team Leadership: ___/5
-- [ ] Technical Communication: ___/5
-- [ ] Stakeholder Management: ___/5
-- [ ] Mentoring & Coaching: ___/5
+
+- [ ] Team Leadership: \_\_\_/5
+- [ ] Technical Communication: \_\_\_/5
+- [ ] Stakeholder Management: \_\_\_/5
+- [ ] Mentoring & Coaching: \_\_\_/5
 
 ### Cloud & Modern Tech
-- [ ] Cloud Platforms (Azure/AWS/GCP): ___/5
-- [ ] DevOps & CI/CD: ___/5
-- [ ] Containers & Kubernetes: ___/5
-- [ ] AI/ML Integration: ___/5
+
+- [ ] Cloud Platforms (Azure/AWS/GCP): \_\_\_/5
+- [ ] DevOps & CI/CD: \_\_\_/5
+- [ ] Containers & Kubernetes: \_\_\_/5
+- [ ] AI/ML Integration: \_\_\_/5
 
 ### Business & Strategy
-- [ ] Business Requirements Analysis: ___/5
-- [ ] Cost Optimization: ___/5
-- [ ] Technology Strategy: ___/5
-- [ ] Risk Assessment: ___/5
+
+- [ ] Business Requirements Analysis: \_\_\_/5
+- [ ] Cost Optimization: \_\_\_/5
+- [ ] Technology Strategy: \_\_\_/5
+- [ ] Risk Assessment: \_\_\_/5
 
 ---
 
@@ -79,11 +85,13 @@
 **Target Timeline:** _(Your goal date)_
 
 **Priority Learning Areas (Top 3):**
+
 1. _(Area with lowest scores or highest impact)_
 2. _(Second priority area)_
 3. _(Third priority area)_
 
 **Immediate Next Steps (Next 30 days):**
+
 - _(Specific action 1)_
 - _(Specific action 2)_
 - _(Specific action 3)_
