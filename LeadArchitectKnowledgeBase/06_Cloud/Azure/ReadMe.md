@@ -90,6 +90,13 @@ This Azure knowledge base is organized into the following key areas:
 - [Azure Reference Architectures](https://learn.microsoft.com/en-us/azure/architecture/browse/)
 - [Microsoft Learn for Azure](https://learn.microsoft.com/en-us/training/azure/)
 
+## Key Azure Resources
+
+### Development & Deployment
+- **[.NET Aspire Resource Naming](./AspireResourceNaming.md)** - Customize Azure resource names in .NET Aspire applications
+- **Azure Resource Manager (ARM)** - Infrastructure as Code templates
+- **Azure DevOps** - CI/CD pipelines and project management
+
 ## Decision Support
 
 For help choosing the right Azure services for your scenario, refer to:
