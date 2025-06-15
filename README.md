@@ -92,12 +92,15 @@ This repository contains the complete **Lead Architect Knowledge Base** - a stru
 ## 🚀 Quick Start Paths
 
 ### **For New Architects**
+
 `01_Foundation` → `02_Architecture` → `03_Development`
 
 ### **For AI-Focused Roles**
+
 `04_AI/AIFoundations` → `04_AI/GenerativeAI` → `05_Data`
 
 ### **For Cloud Architecture**
+
 `06_Cloud` → `02_Architecture` → `07_DevOps`
 
 ## 📖 How to Use This Knowledge Base
@@ -149,14 +152,17 @@ swamy-tech-skills-academy-main/
 ## 🏁 Getting Started
 
 ### Step 1: Choose Your Path
+
 - **New to Architecture**: Start with [01_Foundation](LeadArchitectKnowledgeBase/01_Foundation/ReadMe.md)
 - **AI Focus**: Jump to [04_AI](LeadArchitectKnowledgeBase/04_AI/ReadMe.md)
 - **Cloud Focus**: Begin with [06_Cloud](LeadArchitectKnowledgeBase/06_Cloud/ReadMe.md)
 
 ### Step 2: Follow the Learning Plan
+
 Use the [Complete Learning Plan](LeadArchitectKnowledgeBase/09_Documentation/COMPLETE_LEARNING_PLAN.md) for structured 16-week journey
 
 ### Step 3: Track Your Progress
+
 Monitor your development using the [Action Tracker](LeadArchitectKnowledgeBase/01_Foundation/ArchitectsJourney/ACTION_TRACKER.md)
 
 ## 📖 License
