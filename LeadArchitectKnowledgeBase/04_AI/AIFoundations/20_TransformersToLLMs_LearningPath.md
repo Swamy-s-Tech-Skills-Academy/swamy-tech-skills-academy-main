@@ -26,16 +26,6 @@ The **Transformer architecture** is the _core building block_ behind all modern 
 - ✅ Make informed architectural decisions for AI systems
 - ✅ Troubleshoot performance issues in production LLM applications
 
-### 📚 **Week 1-2: Foundation Learning**
-
-| Day  | Focus Area            | Resources                                  | Hands-On                            |
-| ---- | --------------------- | ------------------------------------------ | ----------------------------------- |
-| 1-2  | Attention Mechanism   | Jay Alammar's "Illustrated Transformer"    | Implement basic attention in NumPy  |
-| 3-4  | Multi-Head Attention  | Original "Attention Is All You Need" paper | Code multi-head attention block     |
-| 5-6  | Positional Encoding   | Understanding sequence order               | Experiment with different encodings |
-| 7-8  | Complete Architecture | Full transformer walkthrough               | Build minimal transformer           |
-| 9-10 | Encoder vs Decoder    | Compare BERT vs GPT architectures          | Implement both variants             |
-
 **📖 Essential Reading:**
 
 - [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) by Jay Alammar
