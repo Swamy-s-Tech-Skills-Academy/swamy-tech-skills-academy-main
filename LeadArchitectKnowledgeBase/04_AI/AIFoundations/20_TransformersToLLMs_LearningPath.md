@@ -71,16 +71,6 @@ Once you understand Transformers, move to **LLMs**, which build _on top_ of Tran
 - **Safety measures** - Content filtering, alignment techniques
 - **Evaluation methods** - Benchmarks, human evaluation
 
-### 📚 **Week 3-4: LLM Mastery**
-
-| Day  | Focus Area            | Resources                   | Hands-On                       |
-| ---- | --------------------- | --------------------------- | ------------------------------ |
-| 1-2  | LLM Training Process  | Hugging Face Course         | Fine-tune a small model        |
-| 3-4  | Prompting Techniques  | LangChain documentation     | Build prompt templates         |
-| 5-6  | Model Variants        | Compare GPT vs BERT         | Use different models for tasks |
-| 7-8  | Advanced Applications | RAG, function calling       | Build a RAG system             |
-| 9-10 | Production Deployment | Azure OpenAI, model serving | Deploy and monitor LLM         |
-
 ---
 
 ## 🎯 **4-Week Structured Learning Roadmap**
@@ -123,22 +113,21 @@ Day 7: Production Deployment & Monitoring
 
 ---
 
-## 🛠️ **Practical Learning Tools**
+## 🛠️ **Essential Tools & Frameworks**
 
-### **For Transformer Implementation**
+### **Core Development Tools**
 
-- **PyTorch** - Primary framework for implementation
-- **Hugging Face Transformers** - Pre-built models and utilities
-- **NumPy** - For understanding core mathematical concepts
-- **Jupyter Notebooks** - Interactive exploration
+- **PyTorch** - Primary framework for transformer implementation
+- **Hugging Face Transformers** - Pre-built models and fine-tuning utilities
+- **NumPy** - Mathematical foundations and basic attention mechanisms
+- **Jupyter Notebooks** - Interactive exploration and prototyping
 
-### **For LLM Applications**
+### **LLM Application Stack**
 
-- **OpenAI API** - GPT models access
-- **Azure OpenAI Service** - Enterprise-grade LLM deployment
-- **LangChain** - LLM application framework
-- **Hugging Face Hub** - Model repository and deployment
-- **Vector Databases** - Pinecone, Weaviate, Azure Cognitive Search
+- **OpenAI API / Azure OpenAI Service** - Production LLM access
+- **LangChain** - LLM application framework and orchestration
+- **Vector Databases** - Pinecone, Weaviate, Azure Cognitive Search (for RAG)
+- **Hugging Face Hub** - Model repository and deployment platform
 
 ---
 
