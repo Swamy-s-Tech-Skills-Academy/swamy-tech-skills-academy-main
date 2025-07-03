@@ -28,6 +28,19 @@ A comprehensive guide to essential artificial intelligence concepts, architectur
 16. [Convolutional Neural Networks (CNNs)](17_CNNs.md) — Deep learning for image and spatial data.
 17. [Recurrent Neural Networks (RNNs) and LSTMs](18_RNNs_LSTMs.md) — Sequence modeling for time series and text.
 18. [Generative Adversarial Networks (GANs)](19_GANs.md) — Generative models for data synthesis.
+19. **[🎯 Transformers to LLMs Learning Path](20_TransformersToLLMs_LearningPath.md)** — **4-week structured journey from Transformer architecture to Large Language Models**
+
+---
+
+## 🎯 **Quick Start Learning Paths**
+
+### **🚀 New to AI? Start Here:**
+
+**[Transformers to LLMs Learning Path](20_TransformersToLLMs_LearningPath.md)** - Complete 4-week structured journey from Transformer architecture to Large Language Models with hands-on projects and milestones.
+
+### **📚 Comprehensive Foundation:**
+
+Follow the sequential chapters below for complete AI foundations coverage.
 
 ---
 
