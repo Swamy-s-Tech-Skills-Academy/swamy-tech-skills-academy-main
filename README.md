@@ -38,7 +38,7 @@ This repository contains the complete **Lead Architect Knowledge Base** - a stru
 
 **Best Practices** - Development methodologies and practices
 
-- Development Approaches
+- Development Approaches & **Python Framework Selection**
 - Code Reviews & Testing
 - 12-Factor Applications
 
@@ -101,7 +101,7 @@ This repository contains the complete **Lead Architect Knowledge Base** - a stru
 
 ### **For AI-Focused Roles**
 
-`04_AI/AIFoundations` → `04_AI/GenerativeAI` → `05_Data`
+`04_AI/AIFoundations` → `04_AI/GenerativeAI` → `05_Data` → `03_Development/PythonWebFrameworks`
 
 ### **For Cloud Architecture**
 

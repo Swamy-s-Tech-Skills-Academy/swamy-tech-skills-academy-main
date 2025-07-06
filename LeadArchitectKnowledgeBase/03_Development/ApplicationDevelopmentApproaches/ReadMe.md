@@ -76,6 +76,23 @@ Yes, there are several other key approaches and principles that shape modern app
 - **Why**: Improves productivity and reduces errors by automating build, test, and deployment processes.
 - **Common Tools**: Jenkins, GitLab CI, CircleCI, and GitHub Actions.
 
+## **Framework Selection & Architecture**
+
+Modern application development requires choosing the right framework for your specific needs and architectural requirements.
+
+### **🐍 [Python Web Frameworks](PythonWebFrameworks.md)**
+
+Comprehensive comparison and selection guide for Flask, FastAPI, Django, and Streamlit:
+
+- **Framework comparison matrix** - Feature-by-feature analysis
+- **Use case scenarios** - When to choose each framework
+- **Architecture considerations** - Scalability, performance, and team factors
+- **Real-world examples** - Code samples and implementation patterns
+- **Decision framework** - Systematic approach to framework selection
+- **Hybrid approaches** - Combining multiple frameworks effectively
+
+Perfect for architects and full-stack developers making strategic technology decisions.
+
 ---
 
 These principles and approaches complement each other and are often used in combination to build scalable, resilient, and maintainable applications. Each approach offers unique benefits, so the optimal choice often depends on the specific needs of the application and team.
