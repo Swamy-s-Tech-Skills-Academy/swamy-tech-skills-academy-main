@@ -8,26 +8,29 @@
 
 ## 📋 **At-a-Glance Summary**
 
-| Principle | Focus | Key Question | Memory Aid |
-|-----------|-------|--------------|------------|
-| **S**RP   | Single Responsibility | "What's this class's ONE job?" | One class, one purpose |
-| **O**CP   | Open/Closed | "Can I extend without editing?" | Open for extension, closed for modification |
-| **L**SP   | Liskov Substitution | "Can subclasses replace the parent?" | Child must honor parent's contract |
-| **I**SP   | Interface Segregation | "Do I need all these methods?" | Split fat interfaces into lean ones |
-| **D**IP   | Dependency Inversion | "Am I depending on abstractions?" | Depend on interfaces, not concrete classes |
+| Principle | Focus                 | Key Question                         | Memory Aid                                  |
+| --------- | --------------------- | ------------------------------------ | ------------------------------------------- |
+| **S**RP   | Single Responsibility | "What's this class's ONE job?"       | One class, one purpose                      |
+| **O**CP   | Open/Closed           | "Can I extend without editing?"      | Open for extension, closed for modification |
+| **L**SP   | Liskov Substitution   | "Can subclasses replace the parent?" | Child must honor parent's contract          |
+| **I**SP   | Interface Segregation | "Do I need all these methods?"       | Split fat interfaces into lean ones         |
+| **D**IP   | Dependency Inversion  | "Am I depending on abstractions?"    | Depend on interfaces, not concrete classes  |
 
 ---
 
 ## 🎯 **1. Single Responsibility Principle (SRP)**
 
 ### Definition
+
 **A class should have only ONE reason to change**
 
 ### Quick Check
+
 - If you can describe your class with "AND", it's doing too much
 - Each class = one business concept or technical concern
 
 ### C# Example
+
 ```csharp
 // ❌ Violates SRP - UserService does too much
 public class UserService {
@@ -51,6 +54,7 @@ public class UserValidator {
 ```
 
 ### 🎯 **ShyvnTech Application**
+
 - Separate AI model logic from Flask API controllers
 - Keep Power BI visualization separate from data retrieval
 
@@ -59,13 +63,16 @@ public class UserValidator {
 ## 🔓 **2. Open/Closed Principle (OCP)**
 
 ### Definition
+
 **Open for extension, closed for modification**
 
 ### Quick Check
+
 - Can you add new features without changing existing code?
 - Are you using interfaces and inheritance effectively?
 
 ### C# Example
+
 ```csharp
 // ✅ OCP-compliant payment system
 public interface IPaymentProcessor {
@@ -96,6 +103,7 @@ public class StripeProcessor : IPaymentProcessor {
 ```
 
 ### 🎯 **ShyvnTech Application**
+
 - Plugin architecture for coaching modules
 - Extensible AI model providers without changing core logic
 
@@ -104,13 +112,16 @@ public class StripeProcessor : IPaymentProcessor {
 ## 🔄 **3. Liskov Substitution Principle (LSP)**
 
 ### Definition
+
 **Subclasses must be substitutable for their parent class**
 
 ### Quick Check
+
 - Can you use a subclass wherever the parent is expected?
 - Does the subclass honor the parent's contract and behavior?
 
 ### C# Example
+
 ```csharp
 // ✅ LSP-compliant shape hierarchy
 public abstract class Shape {
@@ -120,7 +131,7 @@ public abstract class Shape {
 public class Rectangle : Shape {
     public double Width { get; set; }
     public double Height { get; set; }
-    
+
     public override double CalculateArea() {
         return Width * Height;
     }
@@ -128,7 +139,7 @@ public class Rectangle : Shape {
 
 public class Circle : Shape {
     public double Radius { get; set; }
-    
+
     public override double CalculateArea() {
         return Math.PI * Radius * Radius;
     }
@@ -141,17 +152,19 @@ public void PrintArea(Shape shape) {
 ```
 
 ### ❌ **LSP Violation Example**
+
 ```csharp
 // Don't do this - Square that breaks Rectangle behavior
 public class Square : Rectangle {
-    public override double Width { 
-        set { base.Width = base.Height = value; } 
+    public override double Width {
+        set { base.Width = base.Height = value; }
     }
     // This violates expected Rectangle behavior!
 }
 ```
 
 ### 🎯 **ShyvnTech Application**
+
 - Consistent behavior across different AI model implementations
 - Interchangeable data source adapters
 
@@ -160,13 +173,16 @@ public class Square : Rectangle {
 ## 🔧 **4. Interface Segregation Principle (ISP)**
 
 ### Definition
+
 **Clients shouldn't depend on interfaces they don't use**
 
 ### Quick Check
+
 - Are your interfaces focused and lean?
 - Do implementing classes use ALL interface methods?
 
 ### C# Example
+
 ```csharp
 // ❌ Fat interface - violates ISP
 public interface IWorker {
@@ -202,6 +218,7 @@ public class Robot : IWorkable {
 ```
 
 ### 🎯 **ShyvnTech Application**
+
 - Separate interfaces for different AI capabilities (text, image, audio)
 - Focused data access interfaces per domain
 
@@ -210,18 +227,21 @@ public class Robot : IWorkable {
 ## ⬆️ **5. Dependency Inversion Principle (DIP)**
 
 ### Definition
+
 **Depend on abstractions, not concretions**
 
 ### Quick Check
+
 - Are you injecting dependencies rather than newing them up?
 - Do your classes depend on interfaces rather than concrete classes?
 
 ### C# Example
+
 ```csharp
 // ❌ Violates DIP - depends on concrete class
 public class OrderService {
     private EmailService _emailService = new EmailService(); // Tight coupling!
-    
+
     public void ProcessOrder(Order order) {
         // Process order logic
         _emailService.SendConfirmation(order);
@@ -231,11 +251,11 @@ public class OrderService {
 // ✅ Follows DIP - depends on abstraction
 public class OrderService {
     private readonly INotificationService _notificationService;
-    
+
     public OrderService(INotificationService notificationService) {
         _notificationService = notificationService; // Dependency injection
     }
-    
+
     public void ProcessOrder(Order order) {
         // Process order logic
         _notificationService.SendConfirmation(order);
@@ -248,6 +268,7 @@ public interface INotificationService {
 ```
 
 ### 🎯 **ShyvnTech Application**
+
 - Injectable AI model services
 - Configurable data storage providers
 
@@ -258,7 +279,7 @@ public interface INotificationService {
 ```
 Writing new code? Ask yourself:
 
-1. "What's this class responsible for?" 
+1. "What's this class responsible for?"
    → If more than one thing, split it (SRP)
 
 2. "Will I need to modify this to add features?"
@@ -279,6 +300,7 @@ Writing new code? Ask yourself:
 ## 🎯 **Mentoring Quick Checks**
 
 ### Code Review Checklist
+
 - [ ] Each class has a single, clear purpose
 - [ ] New features can be added without modifying existing code
 - [ ] Inheritance hierarchies work polymorphically
@@ -286,6 +308,7 @@ Writing new code? Ask yourself:
 - [ ] Dependencies are injected, not instantiated
 
 ### Interview Questions You Can Now Answer
+
 1. "Explain SOLID principles with C# examples"
 2. "How do you ensure your code is maintainable?"
 3. "What's the difference between ISP and SRP?"
