@@ -1,52 +1,67 @@
-# 🚀 Learning Journey - Personal Growth & Skill Development
+# 🎯 Learning Journey - Action-Focused Weekly Planning
 
-Welcome to your personal learning workspace! This is your active space for tracking progress, building projects, and documenting your growth as a Lead Architect.
+Welcome to your streamlined action workspace! This folder contains **only** your current week's plan, daily retrospectives, and immediate action items.
 
 ---
 
 ## 📋 **What's This Space For?**
 
-This `LearningJourney` folder is your **dynamic workspace** - separate from the static knowledge base - where you:
+This `LearningJourney` folder is your **action command center** where you:
 
-- 📅 Track weekly learning progress
-- 🎯 Focus on current learning goals
-- 💻 Build hands-on projects
-- 📝 Take personal notes and insights
-- 🔄 Practice coding and skills
-- 📊 Assess your growth
-- 🎉 Celebrate achievements
-- 🤔 Reflect on your learning
+- 📅 Execute your current week's learning plan
+- 🎯 Track daily progress and retrospectives
+- � Maintain focus on immediate action items
+- 🔄 Plan and reflect on weekly cycles
+
+**Note**: All historical data, projects, and reference materials have been moved to `_Archive/` to maintain laser focus on current actions.
 
 ---
 
-## 📁 **Folder Structure**
+## 📁 **Current Structure**
 
-### **📅 [WeeklyProgress/](./WeeklyProgress/)**
+### **📅 [CURRENT_WEEK_PLAN.md](./CURRENT_WEEK_PLAN.md)**
 
-Track your week-by-week learning journey
+Your comprehensive weekly learning plan with:
 
-- Weekly learning logs and summaries
-- Progress toward goals and milestones
-- Time tracking and productivity insights
-- Challenges faced and overcome
+- Daily objectives and time allocations
+- Specific action items and success criteria
+- Week 1 focus: SOLID Principles Mastery (July 14-18, 2025)
 
-### **🎯 [CurrentFocus/](./CurrentFocus/)**
+### **📝 [DAILY_RETROSPECTIVE_TEMPLATE.md](./DAILY_RETROSPECTIVE_TEMPLATE.md)**
 
-What you're actively working on right now
+Template for daily learning reflection:
 
-- Current learning objectives
-- Active projects and tasks
-- Immediate goals and deadlines
-- Focus area deep-dives
+- Accomplishments and key learnings
+- Challenges and solutions
+- Quality check and improvements
+- Tomorrow's preparation
 
-### **💻 [Projects/](./Projects/)**
+### **📊 [WEEKLY_RETROSPECTIVE_TEMPLATE.md](./WEEKLY_RETROSPECTIVE_TEMPLATE.md)**
 
-Hands-on coding and implementation projects
+Comprehensive weekly review template:
 
-- DSA implementations and practice
-- Architecture design projects
-- Real-world application builds
-- Portfolio-worthy code samples
+- Progress metrics and achievement analysis
+- Process evaluation and improvements
+- Goal achievement assessment
+- Next week planning
+
+### **🎯 [CURRENT_ACTION_ITEMS.md](./CURRENT_ACTION_ITEMS.md)**
+
+Quick action tracker for:
+
+- Today's priorities and must-complete items
+- Week's remaining tasks
+- Status checks and progress updates
+- Immediate help needed
+
+### **� [\_Archive/](./_Archive/)**
+
+Contains all previous materials:
+
+- Historical projects and achievements
+- Past assessments and documentation
+- Reference materials and notes
+- Previous planning documents
 
 ### **📝 [Notes/](./Notes/)**
 
