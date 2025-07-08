@@ -130,7 +130,7 @@ Serving content from a single origin works fine... until the whole world shows u
 - Servers breathe easier
 - Global shoppers get consistent experience (even from Arctic internet cafés)
 
-### **Amazon CloudFront Strategy**
+### **CDN Implementation Strategy**
 
 #### **Edge Caching**
 
@@ -156,19 +156,19 @@ Serving content from a single origin works fine... until the whole world shows u
 
 Even the most resilient systems fail. What matters is detection speed and recovery time.
 
-### **Amazon's Observability Stack**
+### **Observability Stack**
 
 #### **Real-time Insight**
 
-- **CloudWatch**: Centralizes metrics, logs, events
+- **Centralized Monitoring**: Centralizes metrics, logs, events
 - Powers dashboards and triggers alerts
 - Feeds automated responses
 
 #### **Automated Recovery**
 
-- **EC2 Auto Recovery**: Restarts impaired VMs without human intervention
-- **AWS Systems Manager**: Control hub for operations teams
-- **AWS Health Dashboard**: Personalized alerts and real-time status
+- **Auto Recovery**: Restarts impaired VMs without human intervention
+- **Systems Management**: Control hub for operations teams
+- **Health Dashboards**: Personalized alerts and real-time status
 
 ### **The Goal**
 
@@ -184,17 +184,17 @@ You don't want your first fire drill to be during the actual fire.
 
 ### **Chaos Engineering**
 
-Amazon practices breaking things on purpose so they don't break by surprise.
+Practice breaking things on purpose so they don't break by surprise.
 
-### **Amazon's Resilience Training**
+### **Resilience Training**
 
-#### **AWS GameDay**
+#### **Game Day Exercises**
 
 - Structured simulation with real-world chaos
 - Teams respond to region outages, slow APIs, failed dependencies
 - Real-time practice under pressure
 
-#### **Pre-Prime Day Stress Testing**
+#### **Pre-Event Stress Testing**
 
 - All critical systems tested beyond expected traffic
 - Identifies bottlenecks before they become headlines
@@ -263,6 +263,6 @@ Amazon practices breaking things on purpose so they don't break by surprise.
 
 ---
 
-**Source**: Amazon's engineering practices for handling Prime Day traffic  
+**Source**: High-scale engineering practices for handling major traffic events  
 **Application**: High-scale system design and architecture patterns  
 **Next Steps**: Implement scaled-down versions of these patterns in practice projects
