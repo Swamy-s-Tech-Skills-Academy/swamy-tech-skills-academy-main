@@ -11,7 +11,7 @@ This folder contains all static reference materials, templates, guides, and docu
 Quick-access cheat sheets and decision matrices:
 
 - SOLID Principles Cheat Sheet
-- Design Patterns Quick Reference  
+- Design Patterns Quick Reference
 - Architecture Patterns Matrix
 - System Design Checklist
 
@@ -91,5 +91,5 @@ Legacy documentation overview (being restructured).
 
 ---
 
-*Established: July 9, 2025*  
-*Purpose: Clean separation of reference materials from active learning and knowledge documentation*
+_Established: July 9, 2025_  
+_Purpose: Clean separation of reference materials from active learning and knowledge documentation_
