@@ -12,7 +12,7 @@ As you complete each week in your **LearningJourney**, you'll document your achi
 
 ### **Future Structure (As You Learn):**
 
-```
+```text
 LeadArchitectKnowledgeBase/
 ├── KNOWLEDGE_BASE_README.md     ← You are here
 ├── Week-01-SOLID-Principles/    ← After completing Week 1
