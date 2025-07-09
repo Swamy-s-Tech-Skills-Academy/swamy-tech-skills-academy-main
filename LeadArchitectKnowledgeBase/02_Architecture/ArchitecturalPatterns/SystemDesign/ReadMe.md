@@ -4,6 +4,14 @@
 
 ---
 
+## **High-Scale Engineering Strategies**
+
+For real-world examples of handling massive traffic, see:
+
+- **[HighScaleEngineering.md](./HighScaleEngineering.md)** - Battle-tested strategies for $5M/minute traffic (High-scale event handling)
+
+---
+
 ## **Choosing the Right Database**
 
 Selecting the right database is critical for efficient storage and retrieval. Consider factors such as **data type**, **query patterns**, **scale**, and **consistency**.
