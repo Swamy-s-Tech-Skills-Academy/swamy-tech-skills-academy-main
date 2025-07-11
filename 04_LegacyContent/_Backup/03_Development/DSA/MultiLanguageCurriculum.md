@@ -59,114 +59,20 @@ By completion, learners will:
 
 ---
 
-## 🏗️ Phase 1: Foundations (Weeks 1-4)
+## 🏗️ Curriculum Phases
 
-### **Learning Objectives**
+_For complete phase structure and weekly breakdowns: **[Master Phase Structure](_shared/PhaseStructure.md)**_
 
-- Build core algorithmic intuition
-- Understand time/space complexity
-- Master basic data structures
-- Create visual learning aids
+### **Phase Quick Reference**
 
-### **Weekly Breakdown**
+| Phase | Duration    | Focus            | Languages   | Key Focus                  |
+| ----- | ----------- | ---------------- | ----------- | -------------------------- |
+| 1     | Weeks 1-4   | Foundations      | Python + JS | Algorithmic intuition      |
+| 2     | Weeks 5-7   | Intermediate     | C# + JS     | Trees, graphs, strategies  |
+| 3     | Weeks 8-10  | AI Integration   | Python + JS | ML algorithms, neural nets |
+| 4     | Weeks 11-12 | Production Ready | All         | Scalable, production code  |
 
-#### **Week 1: Big-O Notation & Time Complexity**
-
-**Languages**: Python + JavaScript  
-**Resources**: 40 Algorithms Ch. 1, JS Algorithms Ch. 2
-
-**Learning Goals**:
-
-- Understand algorithmic complexity
-- Compare algorithm performance
-- Analyze real-world scenarios
-
-**Hands-On Activities**:
-
-- **Complexity Showdown**: Live coding comparison of O(n) vs O(n²) algorithms
-- **Performance Profiler**: Build simple timing tools in both languages
-- **Visualization Project**: Create complexity growth charts
-
-**Deliverables**:
-
-- Performance comparison dashboard
-- Big-O cheat sheet with examples
-- Time complexity calculator tool
-
----
-
-#### **Week 2: Arrays, Lists & Recursion**
-
-**Languages**: Python + JavaScript  
-**Resources**: 40 Algorithms Ch. 3-4, JS Algorithms Ch. 3-5
-
-**Learning Goals**:
-
-- Master array manipulations
-- Understand recursive thinking
-- Implement list operations efficiently
-
-**Hands-On Activities**:
-
-- **"Find the Duplicate" Tool**: Multiple algorithm approaches
-- **Recursive Art**: Generate patterns using recursion
-- **Array Olympics**: Speed challenges across languages
-
-**Deliverables**:
-
-- Duplicate detection utility
-- Recursive pattern generator
-- Array manipulation library
-
----
-
-#### **Week 3: Sorting Algorithms**
-
-**Languages**: Python + JavaScript  
-**Resources**: 40 Algorithms Ch. 6-7, JS Algorithms Ch. 6-7
-
-**Learning Goals**:
-
-- Implement multiple sorting algorithms
-- Understand when to use each approach
-- Visualize algorithm execution
-
-**Hands-On Activities**:
-
-- **Sorting Visualizer**: Build interactive web app (React + Python backend)
-- **Algorithm Race**: Performance testing across implementations
-- **Custom Sort Challenge**: Domain-specific sorting problems
-
-**Deliverables**:
-
-- Interactive sorting visualizer
-- Performance benchmarking tool
-- Sorting algorithm library
-
----
-
-#### **Week 4: Searching & Hash Maps**
-
-**Languages**: Python + JavaScript  
-**Resources**: 40 Algorithms Ch. 8-9, JS Algorithms Ch. 8-9
-
-**Learning Goals**:
-
-- Master search algorithms
-- Understand hashing concepts
-- Implement efficient lookup systems
-
-**Hands-On Activities**:
-
-- **Phonebook Lookup**: Build contact management system
-- **Search Engine Mini**: Basic text search implementation
-- **Hash Collision Lab**: Explore collision resolution strategies
-
-**Deliverables**:
-
-- Contact management system
-- Basic search engine
-- Hash table implementation
+_See [Master Phase Structure](_shared/PhaseStructure.md) for detailed week-by-week breakdowns, learning objectives, activities, and deliverables._
 
 ---
 

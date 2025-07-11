@@ -4,116 +4,89 @@ Welcome to **Swamy's Tech Skills Academy** - your comprehensive platform for bec
 
 ## 🎯 What You'll Find Here
 
-This repository contains the complete **Lead Architect Knowledge Base** - a structured learning path designed to transform you from your current role into a confident, capable Lead Architect.
+This repository contains a **four-pillar learning system** designed to transform you from your current role into a confident, capable Lead Architect.
+
+## 🏗️ Four-Pillar Learning System
+
+### **📚 [01_LeadArchitectKnowledgeBase/](01_LeadArchitectKnowledgeBase/)**
+
+_Documented Learning Achievements_
+
+- Week-by-week documented mastery
+- Your actual implementations and solutions
+- Proven knowledge and practical understanding
+- Evidence of skill development and growth
+
+### **🎯 [02_LearningJourney/](02_LearningJourney/)**
+
+_Active Learning & Progress Tracking_
+
+- Current week planning and daily tracking
+- Active skill development and practice
+- Weekly retrospectives and goal setting
+- Dynamic, action-oriented learning activities
+
+### **� [03_ReferenceLibrary/](03_ReferenceLibrary/)**
+
+_Curated Reference Materials_
+
+- Essential guides and quick references
+- Templates and tools you actively use
+- Streamlined resources for current learning
+- Quality over quantity approach
+
+### **� [04_LegacyContent/](04_LegacyContent/)**
+
+_Complete Archive & Resource Pool_
+
+- All previous materials and documentation
+- Source for selective content migration
+- Comprehensive reference when needed
+- Preserved knowledge for future use
 
 ## 🚀 Quick Start
 
 **Ready to begin your Lead Architect journey?**
 
-� **[Complete Navigation Guide](LeadArchitectKnowledgeBase/09_Documentation/00_NAVIGATION_GUIDE.md)** - Detailed overview of the entire knowledge base structure
+🎯 **[Start Active Learning](02_LearningJourney/Week-01-Learning-Journey.md)** - Begin Week 1: SOLID Principles Mastery
 
-🎓 **[Complete Learning Plan](LeadArchitectKnowledgeBase/09_Documentation/COMPLETE_LEARNING_PLAN.md)** - 16-week structured learning plan covering all categories
+📚 **[View Knowledge Base](01_LeadArchitectKnowledgeBase/KNOWLEDGE_BASE_README.md)** - Document your learning achievements
 
-🚀 **[Week 1 Quick Start](LeadArchitectKnowledgeBase/09_Documentation/WEEK1_QUICK_START.md)** - Begin your Lead Architect journey today!
+📖 **[Access References](03_ReferenceLibrary/)** - Essential guides and templates
+
+📁 **[Browse Legacy](04_LegacyContent/)** - Complete archive of all materials
 
 ## 📚 Knowledge Categories
 
-### 🏗️ [01_Foundation](LeadArchitectKnowledgeBase/01_Foundation/ReadMe.md)
+_All original materials are safely archived in [04_LegacyContent](04_LegacyContent/) and will be selectively moved to [03_ReferenceLibrary](03_ReferenceLibrary/) as needed during active learning. The Knowledge Base will be populated as you complete each week of learning._
 
-**Start Here** - Foundational concepts for architectural career development
-
-- Architect's Journey (Week-by-week learning path)
-- Lead Architect Roadmap
-- Professional Certifications
-
-### 🏛️ [02_Architecture](LeadArchitectKnowledgeBase/02_Architecture/ReadMe.md)
-
-**Core Patterns** - Architectural patterns, principles, and design approaches
-
-- Architectural Patterns (Clean, DDD, Microservices, etc.)
-- System Design
-- SOLID Principles & UML
-
-### 💻 [03_Development](LeadArchitectKnowledgeBase/03_Development/ReadMe.md)
-
-**Best Practices** - Development methodologies and practices
-
-- Development Approaches & **Python Framework Selection**
-- Code Reviews & Testing
-- 12-Factor Applications
-
-### 🤖 [04_AI](LeadArchitectKnowledgeBase/04_AI/ReadMe.md)
-
-**AI & ML** - Artificial Intelligence, Machine Learning, and Generative AI
-
-- AI Foundations
-- **Generative AI & Prompt Engineering**
-- ML Foundations & Data Science
-
-### 📊 [05_Data](LeadArchitectKnowledgeBase/05_Data/ReadMe.md)
-
-**Data Excellence** - Data management, storage, and analytics
-
-- Data Architecture
-- Data Stores & Databases
-- Data Science & Analytics
-
-### ☁️ [06_Cloud](LeadArchitectKnowledgeBase/06_Cloud/ReadMe.md)
-
-**Cloud Mastery** - Multi-cloud platforms, patterns, and security
-
-- Azure, AWS, GCP
-- Cloud-Native Applications
-- Cloud Security
-
-### 🔄 [07_DevOps](LeadArchitectKnowledgeBase/07_DevOps/ReadMe.md)
-
-**Operations Excellence** - DevOps, automation, and infrastructure
-
-- CI/CD Pipelines
-- Docker & Kubernetes
-- Infrastructure as Code
-
-### 📁 [08_Projects](LeadArchitectKnowledgeBase/08_Projects/ReadMe.md)
-
-**Practical Application** - Projects, documentation, and collaboration
-
-- Active Projects
-- Meeting Notes & Daily Logs
-
-### 📋 [09_Documentation](LeadArchitectKnowledgeBase/09_Documentation/ReadMe.md)
-
-**Knowledge Base Resources** - Guides, plans, and organizational documentation
-
-- Learning Plans & Quick Start Guides
-- Navigation & Structure Documentation
-- Analysis & Reorganization Reports
+**Current Status**: Ready to begin Week 1 - SOLID Principles (July 14-18, 2025)
 
 ## 🚀 Quick Start Paths
 
 ### **For Complete Mastery (Learn Everything!)**
 
-🌟 **[Complete Mastery Path](LeadArchitectKnowledgeBase/09_Documentation/COMPLETE_MASTERY_PATH.md)** - Comprehensive 18-week journey covering all 8 knowledge areas
+🌟 **[Complete Mastery Path](04_LegacyContent/09_Documentation/COMPLETE_MASTERY_PATH.md)** - Comprehensive 18-week journey covering all 8 knowledge areas
 
 ### **For New Architects**
 
-`01_Foundation` → `02_Architecture` → `03_Development`
+Explore legacy foundation materials in `04_LegacyContent/01_Foundation/` → `04_LegacyContent/02_Architecture/` → `04_LegacyContent/03_Development/`
 
 ### **For AI-Focused Roles**
 
-`04_AI/AIFoundations` → `04_AI/GenerativeAI` → `05_Data` → `03_Development/PythonWebFrameworks`
+Reference `04_LegacyContent/04_AI/AIFoundations/` → `04_LegacyContent/04_AI/GenerativeAI/` → `04_LegacyContent/05_Data/` → `04_LegacyContent/03_Development/`
 
 ### **For Cloud Architecture**
 
-`06_Cloud` → `02_Architecture` → `07_DevOps`
+Explore `04_LegacyContent/06_Cloud/` → `04_LegacyContent/02_Architecture/` → `04_LegacyContent/07_DevOps/`
 
 ## 📖 How to Use This Knowledge Base
 
-1. **Start with Foundation**: Begin at `LeadArchitectKnowledgeBase/01_Foundation/ArchitectsJourney/` for structured learning
-2. **Follow Learning Paths**: Use the quick start paths above based on your focus area
-3. **Cross-Reference**: Many topics interconnect - use the navigation guide to explore relationships
-4. **Practice**: Apply concepts through hands-on projects in `08_Projects/`
-5. **Document**: Track your progress and learnings in meeting notes and daily logs
+1. **Start with Active Learning**: Begin at [02_LearningJourney/](02_LearningJourney/) for structured weekly learning
+2. **Follow Learning Paths**: Use the quick start paths above to explore legacy materials as needed
+3. **Cross-Reference**: Use [04_LegacyContent/](04_LegacyContent/) to explore comprehensive materials when needed
+4. **Document Achievements**: Record proven mastery in [01_LeadArchitectKnowledgeBase/](01_LeadArchitectKnowledgeBase/)
+5. **Curate References**: Move useful materials to [03_ReferenceLibrary/](03_ReferenceLibrary/) as you discover them
 
 ## 🎓 About the Academy
 
@@ -130,7 +103,7 @@ Accelerate your growth as a technology leader through structured learning, hands
 
 ### **Author**
 
-**Viswanatha Swamy**
+Viswanatha Swamy
 
 - 🔗 [LinkedIn Profile](https://www.linkedin.com/in/viswanatha-swamy-b57326128/)
 - 🏆 [Microsoft MVP](https://mvp.microsoft.com/en-US/MVP/profile/e5303266-fa36-ec11-b6e6-00224825194e)
@@ -139,35 +112,48 @@ Accelerate your growth as a technology leader through structured learning, hands
 
 ```text
 swamy-tech-skills-academy-main/
-├── README.md                     ← You are here (Complete Guide)
-├── LeadArchitectKnowledgeBase/   ← Main learning content
-│   ├── 01_Foundation/           ← Start your journey here
-│   ├── 02_Architecture/         ← Design patterns & system design
-│   ├── 03_Development/          ← Development best practices
-│   ├── 04_AI/                   ← AI & machine learning
-│   ├── 05_Data/                 ← Data architecture & analytics
-│   ├── 06_Cloud/                ← Cloud platforms & services
-│   ├── 07_DevOps/               ← DevOps & infrastructure
-│   ├── 08_Projects/             ← Hands-on projects
-│   └── 09_Documentation/        ← Learning plans & guides
-└── LICENSE                      ← Repository license
+├── README.md                          ← You are here (Complete Guide)
+├── 01_LeadArchitectKnowledgeBase/     ← 📚 Documented achievements
+│   └── KNOWLEDGE_BASE_README.md       ← Clean slate, ready for Week 1
+├── 02_LearningJourney/                ← 🎯 Active learning & tracking
+│   ├── Week-01-Learning-Journey.md    ← Current focus: SOLID Principles
+│   └── README.md                      ← Learning system overview
+├── 03_ReferenceLibrary/               ← � Curated reference materials
+│   └── (Populated as needed)          ← Essential guides and templates
+├── 04_LegacyContent/                  ← 📁 Complete archive
+│   ├── 01_Foundation/                 ← All original knowledge areas
+│   ├── 02_Architecture/               ← Design patterns and principles
+│   ├── 03_Development/                ← Development best practices
+│   ├── 04_AI/                         ← AI and machine learning
+│   ├── 05_Data/                       ← Data architecture and analytics
+│   ├── 06_Cloud/                      ← Cloud platforms and services
+│   ├── 07_DevOps/                     ← DevOps and infrastructure
+│   ├── 08_Projects/                   ← Project templates
+│   ├── QuickReference/                ← Cheat sheets and guides
+│   ├── Templates/                     ← Reusable templates
+│   └── ProcessDocs/                   ← Process documentation
+└── LICENSE                           ← Repository license
 ```
 
 ## 🏁 Getting Started
 
-### Step 1: Choose Your Path
+### Step 1: Begin Active Learning
 
-- **New to Architecture**: Start with [01_Foundation](LeadArchitectKnowledgeBase/01_Foundation/ReadMe.md)
-- **AI Focus**: Jump to [04_AI](LeadArchitectKnowledgeBase/04_AI/ReadMe.md)
-- **Cloud Focus**: Begin with [06_Cloud](LeadArchitectKnowledgeBase/06_Cloud/ReadMe.md)
+- **Start Now**: Open [Week 1 Learning Journey](02_LearningJourney/Week-01-Learning-Journey.md)
+- **Understand System**: Read [Learning Journey Overview](02_LearningJourney/README.md)
+- **Access Legacy**: Browse [Legacy Content](04_LegacyContent/) when you need specific materials
 
-### Step 2: Follow the Learning Plan
+### Step 2: Track Your Progress
 
-Use the [Complete Learning Plan](LeadArchitectKnowledgeBase/09_Documentation/COMPLETE_LEARNING_PLAN.md) for structured 16-week journey
+- **Daily Tracking**: Update your daily progress in the current week file
+- **Document Learning**: Add achievements to [Knowledge Base](01_LeadArchitectKnowledgeBase/)
+- **Curate References**: Move useful materials to [Reference Library](03_ReferenceLibrary/)
 
-### Step 3: Track Your Progress
+### Step 3: Build Knowledge
 
-Monitor your development using the [Action Tracker](LeadArchitectKnowledgeBase/01_Foundation/ArchitectsJourney/ACTION_TRACKER.md)
+- **Prove Mastery**: Document actual implementations and understanding
+- **Apply Learning**: Use knowledge in practical projects and solutions
+- **Iterate**: Use retrospectives to improve your learning approach
 
 ## 📖 License
 
@@ -175,5 +161,5 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 
 ---
 
-**Ready to become a Lead Architect?** 🚀  
-**[Start your journey now →](LeadArchitectKnowledgeBase/01_Foundation/ArchitectsJourney/START_HERE.md)**
+**Ready to become a Lead Architect?** 🚀
+**[Start your journey now →](02_LearningJourney/Week-01-Learning-Journey.md)**
