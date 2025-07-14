@@ -26,13 +26,16 @@ Complete **one week at a time** and document your real achievements here.
 ```text
 01_LeadArchitectKnowledgeBase/
 ├── README.md                     ← You are here
-└── Week-01-SOLID-Principles/     ← Will be created after completing Week 1
-    ├── my-solid-implementations/
+└── Week-01-OOP-Foundations/      ← Will be created after completing Week 1
+    ├── my-oop-implementations/
+    │   ├── java-examples/
+    │   ├── csharp-examples/
+    │   └── python-examples/
     ├── key-learnings.md
-    └── practical-examples/
+    └── cross-language-comparisons/
 ```
 
-_Future weeks will be named organically: Week-02-DesignPatterns/, Week-03-SystemDesign/, etc._
+_Future weeks: Week-02-Design-Patterns/, Week-03-SOLID-Principles/, Week-04-Refactoring/, etc._
 _No numbered prefixes - let structure emerge from actual learning._
 
 ## � What Goes Here
@@ -61,7 +64,7 @@ _No numbered prefixes - let structure emerge from actual learning._
 ## 🎯 Getting Started
 
 1. **Complete Week 1** in your [LearningJourney](../02_LearningJourney/Week-01-Learning-Journey.md)
-2. **Create `Week-01-SOLID-Principles/`** folder after completing the week
+2. **Create `Week-01-OOP-Foundations/`** folder after completing the week
 3. **Add your actual implementations** and key learnings
 4. **Plan Week 2** only after Week 1 is truly complete
 
@@ -73,10 +76,7 @@ All reference materials, templates, and study guides are available in the [Refer
 
 **Remember**: This knowledge base should reflect the **true picture** of what you've learned and can actually apply. Quality over quantity!
 
-_Last Updated: July 9, 2025_  
-_Current Focus: Preparing for Week 1 - SOLID Principles_
-
 ---
 
-_Last Updated: July 9, 2025_  
-_Current Focus: Preparing for Week 1 - SOLID Principles_
+_Last Updated: July 14, 2025_  
+_Current Focus: Week 1 - OOP Foundations (Java, C#, Python)_
