@@ -8,22 +8,22 @@
 
 ## 📅 **Daily Learning Schedule**
 
-### **🔸 Day 1-2: SOLID Principles Overview (Language-neutral)**
+### **🔸 Day 1-2: OOP Fundamentals Overview (Language-neutral)**
 
 **Morning Session (2 hours):**
 
-- 📺 **[SOLID Principles - The Basics](https://www.youtube.com/watch?v=HLFbeC78YlU)** (45 min)
-- 📺 **[SOLID Principles by Uncle Bob](https://www.youtube.com/watch?v=zHiWqnTWsn4)** (60 min)
-- 📝 **Notes**: Write down key concepts in your own words
+- 📺 **[Object-Oriented Programming Explained](https://www.youtube.com/watch?v=pTB0EiLXL1Q)** (45 min)
+- 📺 **[OOP Concepts - Encapsulation, Inheritance, Polymorphism](https://www.youtube.com/watch?v=1ppgUMfUUJw)** (60 min)
+- 📝 **Notes**: Write down the 4 OOP pillars in your own words
 
 **Evening Session (1 hour):**
 
-- 🔍 **Research**: Read about each SOLID principle briefly
+- 🔍 **Research**: Read about OOP principles and benefits
 - 📋 **Setup**: Prepare development environment for C#, Java, Python
 
 **Deliverable**:
 
-- [ ] Notes document summarizing all 5 SOLID principles
+- [ ] Notes document summarizing 4 OOP pillars (Encapsulation, Inheritance, Polymorphism, Abstraction)
 - [ ] Development environments ready
 
 ---
@@ -154,7 +154,7 @@ Features to implement:
 ### **Knowledge Metrics:**
 
 - [ ] Can explain all 4 OOP pillars (Encapsulation, Inheritance, Polymorphism, Abstraction)
-- [ ] Can identify SOLID principle violations in simple code
+- [ ] Can create class hierarchies with proper inheritance
 - [ ] Can implement basic class hierarchies in 3 languages
 
 ### **Practical Metrics:**
@@ -166,8 +166,8 @@ Features to implement:
 ### **Preparation for Week 2:**
 
 - [ ] Development environments fully configured
-- [ ] Basic understanding of design principles
-- [ ] Ready to dive deep into SOLID implementation
+- [ ] Solid OOP foundation across three languages
+- [ ] Ready to learn design patterns and principles
 
 ---
 
@@ -177,13 +177,13 @@ Features to implement:
 
 1. **Knowledge Gap Analysis**: What OOP concepts need reinforcement?
 2. **Language Preference**: Which language felt most comfortable?
-3. **SOLID Readiness**: Do I understand the basic concepts well enough to apply SOLID?
+3. **Design Pattern Readiness**: Do I understand OOP well enough to learn design patterns?
 
 **Week 2 Preview:**
 
-- Deep dive into OOP Design patterns
-- Language-specific SOLID implementations
-- Real-world refactoring exercises
+- Common design patterns (Strategy, Factory, Observer, etc.)
+- How patterns solve real OOP problems
+- Pattern implementation across languages
 
 ---
 
@@ -198,5 +198,5 @@ Features to implement:
 
 **Created**: July 14, 2025  
 **Purpose**: Week 1 foundation learning plan for OOP mastery across C#, Java, Python  
-**Next**: Week 2 OOP Design Patterns & SOLID Deep Dive  
+**Next**: Week 2 Design Patterns → Week 3 SOLID Principles → Week 4 Refactoring  
 **Status**: Ready to execute 🚀
