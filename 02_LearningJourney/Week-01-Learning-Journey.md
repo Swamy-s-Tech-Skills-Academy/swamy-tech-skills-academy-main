@@ -8,7 +8,7 @@
 
 ## 📅 **Daily Learning Schedule**
 
-### **🔸 Day 1-2: OOP Fundamentals Overview (Language-neutral)**
+### **🔸 Day 1 (Monday): OOP Fundamentals - Core Concepts**
 
 **Morning Session (2 hours):**
 
@@ -19,16 +19,36 @@
 **Evening Session (1 hour):**
 
 - 🔍 **Research**: Read about OOP principles and benefits
-- 📋 **Setup**: Prepare development environment for C#, Java, Python
+- 📋 **Setup**: Prepare development environment for Java
 
 **Deliverable**:
 
 - [ ] Notes document summarizing 4 OOP pillars (Encapsulation, Inheritance, Polymorphism, Abstraction)
-- [ ] Development environments ready
+- [ ] Java development environment ready
 
 ---
 
-### **🔸 Day 3-4: Java OOP Fundamentals**
+### **🔸 Day 2 (Tuesday): OOP Theory & Environment Setup**
+
+**Morning Session (2 hours):**
+
+- 📺 **[OOP vs Procedural Programming](https://www.youtube.com/watch?v=xR1qU-3h_ns)** (30 min)
+- 📺 **[Abstract Classes vs Interfaces](https://www.youtube.com/watch?v=HvPlEJ3LHgE)** (45 min)
+- 📝 **Notes**: Compare OOP approaches and when to use each
+
+**Evening Session (1 hour):**
+
+- 📋 **Setup**: Prepare development environment for C# and Python
+- 🔍 **Research**: Read about language-specific OOP features
+
+**Deliverable**:
+
+- [ ] Comparison notes on OOP approaches
+- [ ] All development environments ready (Java, C#, Python)
+
+---
+
+### **🔸 Day 3 (Wednesday): Java OOP Fundamentals**
 
 **Morning Session (2-3 hours):**
 
@@ -47,11 +67,34 @@
 
 - [ ] Java project with 3-5 basic classes
 - [ ] Inheritance examples working
-- [ ] Polymorphism demonstration
+- [ ] Method overriding demonstration
 
 ---
 
-### **🔸 Day 5-6: C# OOP Fundamentals**
+### **🔸 Day 4 (Thursday): Java OOP Advanced & Practice**
+
+**Morning Session (2-3 hours):**
+
+- 📘 **Continue Java OOP Course** (Advanced topics)
+  - Focus on: Abstract classes, Interfaces, Access modifiers
+  - Practice with composition vs inheritance
+
+**Evening Session (1-2 hours):**
+
+- 💻 **Hands-on Practice**:
+  - Implement interfaces and abstract classes
+  - Create polymorphism examples
+  - Start Vehicle Management System in Java
+
+**Deliverable**:
+
+- [ ] Java interfaces and abstract classes working
+- [ ] Polymorphism demonstration
+- [ ] Vehicle Management System - Java version started
+
+---
+
+### **🔸 Day 5 (Friday): C# OOP Fundamentals**
 
 **Morning Session (2-3 hours):**
 
@@ -69,12 +112,35 @@
 **Deliverable**:
 
 - [ ] C# project mirroring Java examples
-- [ ] Interface implementations
-- [ ] Properties vs fields comparison notes
+- [ ] C# properties vs Java fields comparison
+- [ ] Interface implementations in C#
 
 ---
 
-### **🔸 Day 7: Python OOP & Week Review**
+### **🔸 Day 6 (Saturday): C# OOP Advanced & Cross-Language Comparison**
+
+**Morning Session (2-3 hours):**
+
+- 📘 **Continue C# OOP Course** (Advanced topics)
+  - Focus on: Generics, Events, Delegates
+  - Compare C# and Java approaches
+
+**Evening Session (1-2 hours):**
+
+- 💻 **Hands-on Practice**:
+  - Complete Vehicle Management System in C#
+  - Document differences between Java and C#
+  - Practice with C#-specific OOP features
+
+**Deliverable**:
+
+- [ ] Vehicle Management System - C# version completed
+- [ ] Java vs C# comparison notes
+- [ ] C# advanced features demonstration
+
+---
+
+### **🔸 Day 7 (Sunday): Python OOP & Week Review**
 
 **Morning Session (2-3 hours):**
 
@@ -85,20 +151,20 @@
 **Afternoon Session (2 hours):**
 
 - 💻 **Cross-Language Practice**:
-  - Implement same class hierarchy in Python
+  - Implement Vehicle Management System in Python
   - Compare syntax across all three languages
   - Document differences and similarities
 
 **Evening Session (1 hour):**
 
 - 📊 **Week Review**:
-  - Review all notes
+  - Review all notes and implementations
   - Identify knowledge gaps
   - Plan Week 2 focus areas
 
 **Deliverable**:
 
-- [ ] Python implementation of class examples
+- [ ] Vehicle Management System - Python version completed
 - [ ] Cross-language comparison document
 - [ ] Week 1 completion assessment
 
