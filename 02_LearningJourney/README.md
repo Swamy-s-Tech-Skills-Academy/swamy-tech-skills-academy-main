@@ -1,32 +1,40 @@
-# Learning Journey - Unified Weekly Learning System
+# Learning Journey - Active Weekly Learning Plans
 
 ## Purpose
 
-This folder contains unified weekly learning files that combine planning, daily tracking, and retrospectives in a single document for each week.
+This folder contains active weekly learning plans that provide structured, day-by-day learning schedules for mastering programming concepts and skills.
 
 ## Current Focus
 
-**Week 1 (July 14-18, 2025)** - SOLID Principles Mastery
+**Week 1 (July 15 - August 4, 2025)** - OOP Foundations (21 days, 1 hour daily)
 
 ## How to Use
 
-1. **Start of Week**: Use the planning section to set objectives and daily schedules
-2. **During Week**: Update daily progress tracking sections as you work
-3. **End of Week**: Complete the retrospective section for reflection and next week planning
-4. **Next Week**: Copy the template structure for the new week
+1. **Follow Daily Schedule**: Each day has specific learning objectives and deliverables
+2. **Track Progress**: Use checkboxes to mark completed deliverables
+3. **Build Incrementally**: Each day builds on previous learning
+4. **Practice Hands-On**: Heavy emphasis on coding practice and implementation
 
 ## Current Files
 
-- `Week-01-Learning-Journey.md` - Complete Week 1 planning, tracking, and retrospective
-- `_Archive/` - Contains previous planning documents and completed retrospectives
+- `Week-01-OOP.md` - 21-day OOP foundations across Java, C#, and Python
+- Future: `Week-02-DesignPatterns.md`, `Week-03-SOLID.md`, `Week-04-Refactoring.md`
 
-## Benefits of Unified Approach
+## Learning Approach
 
-- **Single Source of Truth**: Everything in one place
-- **Natural Flow**: Plan → Track → Reflect in same document
-- **Continuous Context**: See evolution from planning to completion
-- **No File Juggling**: No need to switch between multiple files
-- **Complete History**: Each week's journey preserved in one file
+- **Sustainable Pace**: 1 hour daily commitment
+- **Multi-Language**: Build competency across Java, C#, Python
+- **Practical Focus**: Real coding projects and implementations
+- **Progressive Complexity**: From theory to advanced implementation
+- **Cross-Language Comparison**: Understand differences and similarities
+
+## Benefits of This Structure
+
+- **Clear Daily Goals**: No ambiguity about what to learn each day
+- **Manageable Time Commitment**: Only 1 hour daily
+- **Practical Deliverables**: Real code and implementations
+- **Language Competency**: Multi-language understanding for architecture decisions
+- **Foundation Building**: Proper progression from basics to advanced concepts
 
 ## Next Steps
 
