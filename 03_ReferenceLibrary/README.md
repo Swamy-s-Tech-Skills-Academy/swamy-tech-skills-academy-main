@@ -6,9 +6,13 @@ This folder contains **curated reference materials** that directly support your 
 
 ## 📋 Current State
 
-**Status**: Clean slate - ready for your curated references!
+**Status**: Growing - Your first reference is ready!
 
-This folder starts empty and grows as you identify truly useful materials from the legacy content or create new references based on your learning.
+### **Current Contents**
+
+- `AI-Fundamentals-Overview.md` - Comprehensive overview of Neural Networks, Transformers, LLMs, and Agentic AI
+
+This folder starts with your AI fundamentals and will grow as you identify truly useful materials from the legacy content or create new references based on your learning.
 
 ## 🏗️ Curation Philosophy
 
