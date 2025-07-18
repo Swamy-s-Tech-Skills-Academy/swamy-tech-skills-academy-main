@@ -6,14 +6,14 @@
 
 ## 📁 Files Overview
 
-| File | Purpose | Key Features |
-|------|---------|-------------|
-| **`app.py`** | Main application that imports local modules, triggering bytecode compilation | Module imports, function calls, environment variables |
-| **`utils.py`** | Utility functions for basic operations and message formatting | Simple arithmetic, string formatting |
-| **`math_operations.py`** | Mathematical operations using the math module | Circle area, factorial, square root calculations |
-| **`bytecode_viewer.py`** | Comprehensive bytecode analysis tool | Function analysis, .pyc file viewing, comparisons |
-| **`view_pyc.py`** | Simple command-line tool to view .pyc files | Header parsing, bytecode disassembly |
-| **`BYTECODE_DOCUMENTATION.md`** | Complete documentation on bytecode generation and viewing | 📍 **Links to main documentation** |
+| File                            | Purpose                                                                      | Key Features                                          |
+| ------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------- |
+| **`app.py`**                    | Main application that imports local modules, triggering bytecode compilation | Module imports, function calls, environment variables |
+| **`utils.py`**                  | Utility functions for basic operations and message formatting                | Simple arithmetic, string formatting                  |
+| **`math_operations.py`**        | Mathematical operations using the math module                                | Circle area, factorial, square root calculations      |
+| **`bytecode_viewer.py`**        | Comprehensive bytecode analysis tool                                         | Function analysis, .pyc file viewing, comparisons     |
+| **`view_pyc.py`**               | Simple command-line tool to view .pyc files                                  | Header parsing, bytecode disassembly                  |
+| **`BYTECODE_DOCUMENTATION.md`** | Complete documentation on bytecode generation and viewing                    | 📍 **Links to main documentation**                    |
 
 ---
 
@@ -78,14 +78,14 @@ python -OO app.py   # Level 2 optimization
 
 ### Common Bytecode Instructions
 
-| Instruction | Description |
-|-------------|-------------|
-| **`LOAD_FAST`** | Load local variable |
-| **`LOAD_GLOBAL`** | Load global variable |
-| **`LOAD_CONST`** | Load constant value |
-| **`BINARY_OP`** | Perform binary operation (add, multiply, etc.) |
-| **`CALL`** | Call a function |
-| **`RETURN_VALUE`** | Return from function |
+| Instruction        | Description                                    |
+| ------------------ | ---------------------------------------------- |
+| **`LOAD_FAST`**    | Load local variable                            |
+| **`LOAD_GLOBAL`**  | Load global variable                           |
+| **`LOAD_CONST`**   | Load constant value                            |
+| **`BINARY_OP`**    | Perform binary operation (add, multiply, etc.) |
+| **`CALL`**         | Call a function                                |
+| **`RETURN_VALUE`** | Return from function                           |
 
 ### .pyc File Information
 
