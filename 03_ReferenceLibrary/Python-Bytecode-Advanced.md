@@ -491,3 +491,6 @@ This bytecode knowledge supports:
 **📌 Source**: Advanced Python fundamentals study  
 **🎯 Purpose**: Deep understanding of Python execution internals  
 **📍 Learning Context**: Building on compilation and interpretation concepts
+
+
+These are all items I previously had access to, and this is requesting reinstatement after they lapsed due to a missed deadline. I am developer in CHAR (previously DH team). I need access to work on the projects.

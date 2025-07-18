@@ -11,8 +11,11 @@ This folder contains **curated reference materials** that directly support your 
 ### **Current Contents**
 
 - `AI-Fundamentals-Overview.md` - Comprehensive overview of Neural Networks, Transformers, LLMs, and Agentic AI
+- `Python-Compilation-and-Interpretation.md` - Python execution process with Mermaid diagrams
+- `Python-Bytecode-Advanced.md` - Complete guide to Python bytecode generation, management, and analysis
+- `Demo2-Python-Bytecode-Exploration/` - Interactive Python bytecode exploration project with practical examples
 
-This folder starts with your AI fundamentals and will grow as you identify truly useful materials from the legacy content or create new references based on your learning.
+This folder starts with your AI fundamentals and Python internals, and will grow as you identify truly useful materials from the legacy content or create new references based on your learning.
 
 ## 🏗️ Curation Philosophy
 
