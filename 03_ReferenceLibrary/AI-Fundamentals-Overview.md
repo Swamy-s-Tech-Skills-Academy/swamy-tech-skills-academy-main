@@ -57,18 +57,81 @@
 
 ---
 
-## ⚖️ 4. LLMs vs. SLMs – Scale for Impact or Efficiency
+## 🔬 4. SLMs (Small Language Models) – Efficiency and Edge Computing
 
-| Aspect     | LLMs (Large Language Models)    | SLMs (Small Language Models) |
-| ---------- | ------------------------------- | ---------------------------- |
-| Size       | Billions of parameters          | Millions of parameters       |
-| Purpose    | High capability, deep reasoning | Lightweight, efficient       |
-| Deployment | Cloud/server-heavy              | Edge/mobile, privacy-first   |
-| Examples   | GPT-4, Claude, PaLM, LLaMA      | TinyLlama, Phi-2, DistilBERT |
+**Definition**: Lightweight language models designed for resource-constrained environments while maintaining reasonable performance.
+
+**Key Characteristics**:
+
+- **Size**: Typically millions to low billions of parameters
+- **Performance**: Optimized for speed and efficiency
+- **Deployment**: Edge devices, mobile, on-premise
+- **Privacy**: Local processing, no data sharing
+
+**Advantages**:
+
+- **Cost-effective**: Lower computational requirements
+- **Privacy-first**: Data stays local
+- **Real-time**: Faster inference speeds
+- **Accessibility**: Runs on consumer hardware
+
+**Examples**:
+
+- TinyLlama (1.1B parameters)
+- Phi-2 (2.7B parameters)
+- DistilBERT (66M parameters)
+- MobileBERT (25M parameters)
 
 ---
 
-## 🧠 5. AI Agents – From Responders to Doers
+## 🚀 5. LLMs (Large Language Models) – Power and Capability
+
+**Definition**: Massive language models with billions of parameters designed for complex reasoning and generation tasks.
+
+**Key Characteristics**:
+
+- **Size**: Billions to trillions of parameters
+- **Performance**: State-of-the-art capabilities
+- **Deployment**: Cloud-based, high-end servers
+- **Versatility**: Multi-modal, complex reasoning
+
+**Advantages**:
+
+- **Superior performance**: Best-in-class results
+- **Complex reasoning**: Advanced problem-solving
+- **Versatility**: Handle diverse tasks
+- **Emergent abilities**: Capabilities that emerge at scale
+
+**Examples**:
+
+- GPT-4 (1.7T+ parameters)
+- Claude (Constitutional AI)
+- PaLM (540B parameters)
+- LLaMA (65B parameters)
+
+---
+
+## ⚖️ 6. LLMs vs. SLMs – Scale for Impact or Efficiency
+
+| Aspect          | LLMs (Large Language Models)    | SLMs (Small Language Models) |
+| --------------- | ------------------------------- | ---------------------------- |
+| **Size**        | Billions to trillions of parameters | Millions to low billions    |
+| **Purpose**     | High capability, deep reasoning | Lightweight, efficient       |
+| **Deployment**  | Cloud/server-heavy              | Edge/mobile, privacy-first   |
+| **Cost**        | High computational cost         | Low computational cost       |
+| **Latency**     | Higher inference time           | Real-time processing         |
+| **Privacy**     | Cloud-based, data sharing       | Local processing             |
+| **Use Cases**   | Complex analysis, creative tasks | Quick responses, embedded systems |
+| **Examples**    | GPT-4, Claude, PaLM, LLaMA      | TinyLlama, Phi-2, DistilBERT |
+
+**When to Choose Which**:
+
+- **LLMs**: Complex reasoning, creative tasks, research, high-stakes applications
+- **SLMs**: Real-time applications, edge computing, privacy-sensitive tasks, cost-conscious deployments
+
+---
+
+## 🧠 7. AI Agents – From Responders to Doers
 
 **Definition**: Autonomous systems that can perceive, plan, act, and learn to accomplish goals.
 
@@ -87,7 +150,7 @@
 
 ---
 
-## 🤖 6. Agentic AI – The Next Leap in AI Evolution
+## 🤖 8. Agentic AI – The Next Leap in AI Evolution
 
 **Definition**: A design paradigm where AI behaves like a **goal-driven, self-directed entity**, capable of reasoning, learning, and improving over time.
 
