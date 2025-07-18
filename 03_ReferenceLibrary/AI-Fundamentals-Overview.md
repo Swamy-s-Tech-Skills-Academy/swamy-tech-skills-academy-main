@@ -113,16 +113,16 @@
 
 ## ⚖️ 6. LLMs vs. SLMs – Scale for Impact or Efficiency
 
-| Aspect          | LLMs (Large Language Models)    | SLMs (Small Language Models) |
-| --------------- | ------------------------------- | ---------------------------- |
-| **Size**        | Billions to trillions of parameters | Millions to low billions    |
-| **Purpose**     | High capability, deep reasoning | Lightweight, efficient       |
-| **Deployment**  | Cloud/server-heavy              | Edge/mobile, privacy-first   |
-| **Cost**        | High computational cost         | Low computational cost       |
-| **Latency**     | Higher inference time           | Real-time processing         |
-| **Privacy**     | Cloud-based, data sharing       | Local processing             |
-| **Use Cases**   | Complex analysis, creative tasks | Quick responses, embedded systems |
-| **Examples**    | GPT-4, Claude, PaLM, LLaMA      | TinyLlama, Phi-2, DistilBERT |
+| Aspect         | LLMs (Large Language Models)        | SLMs (Small Language Models)      |
+| -------------- | ----------------------------------- | --------------------------------- |
+| **Size**       | Billions to trillions of parameters | Millions to low billions          |
+| **Purpose**    | High capability, deep reasoning     | Lightweight, efficient            |
+| **Deployment** | Cloud/server-heavy                  | Edge/mobile, privacy-first        |
+| **Cost**       | High computational cost             | Low computational cost            |
+| **Latency**    | Higher inference time               | Real-time processing              |
+| **Privacy**    | Cloud-based, data sharing           | Local processing                  |
+| **Use Cases**  | Complex analysis, creative tasks    | Quick responses, embedded systems |
+| **Examples**   | GPT-4, Claude, PaLM, LLaMA          | TinyLlama, Phi-2, DistilBERT      |
 
 **When to Choose Which**:
 
