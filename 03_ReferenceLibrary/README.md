@@ -6,15 +6,23 @@ This folder contains **curated reference materials** that directly support your 
 
 ## 📋 Current State
 
-**Status**: Growing - Your first reference is ready!
+**Status**: Growing and Organized - Quality references with clear structure!
 
 ### **Current Contents**
 
-- `AI-Fundamentals-Overview.md` - Comprehensive overview of Neural Networks, Transformers, LLMs, and Agentic AI
-- `Python-Compilation-and-Interpretation.md` - Python execution process with Mermaid diagrams
-- `Python-Bytecode-Advanced.md` - Complete guide to Python bytecode with integrated practical examples
+```text
+03_ReferenceLibrary/
+├── README.md                           ← You are here
+├── AI/                                 ← Artificial Intelligence materials
+│   ├── README.md
+│   └── AI-Fundamentals-Overview.md     ← Neural Networks to Agentic AI
+└── Python/                             ← Python internals and advanced concepts
+    ├── README.md
+    ├── Python-Compilation-and-Interpretation.md  ← Execution process
+    └── Python-Bytecode-Advanced.md     ← Complete bytecode guide with examples
+```
 
-This folder contains your AI fundamentals and Python internals documentation, and will grow as you identify truly useful materials from the legacy content or create new references based on your learning.
+This organized structure makes it easy to find specific technical references while maintaining the quality-over-quantity philosophy.
 
 ## 🏗️ Curation Philosophy
 
@@ -42,25 +50,39 @@ This folder contains your AI fundamentals and Python internals documentation, an
 
 1. **Identify Need**: While learning, note what reference material you need
 2. **Find in Legacy**: Browse `04_LegacyContent/` for relevant material
-3. **Selective Copy**: Move or copy only the specific content you need
-4. **Adapt**: Modify to fit your current learning style and needs
+3. **Choose Subject Folder**: Create new subject folder or use existing one
+4. **Selective Copy**: Move or copy only the specific content you need
+5. **Adapt**: Modify to fit your current learning style and needs
 
 ### **Create New Content**
 
 1. **Personal Cheat Sheets**: Based on your learning experiences
 2. **Quick References**: For concepts you've mastered
-3. **Templates**: For recurring tasks in your learning
+3. **Subject-Specific Materials**: Organize by technology/topic area
+4. **Cross-Reference Templates**: For recurring tasks in your learning
 
-## 📁 Suggested Structure (As Needed)
+## 📁 Current Structure
 
 ```text
 03_ReferenceLibrary/
-├── README.md                    ← You are here
-├── QuickReference/              ← Essential cheat sheets
-├── Templates/                   ← Reusable templates you use
-├── CurrentWeekSupport/          ← Materials for current week
-└── MasteredConcepts/            ← References for concepts you've learned
+├── README.md                    ← Main reference library overview
+├── AI/                          ← Artificial Intelligence materials
+│   ├── README.md
+│   └── [AI reference files]
+├── Python/                      ← Python internals and advanced concepts
+│   ├── README.md
+│   └── [Python reference files]
+├── [Subject]/                   ← Future subject areas as needed
+│   ├── README.md
+│   └── [Subject-specific files]
+└── Templates/                   ← Reusable templates (when needed)
 ```
+
+### **Expansion Guidelines**
+
+**New Subject Areas**: Create when you have 2+ quality references in a topic  
+**Naming Convention**: Use clear, descriptive folder names (e.g., `Java`, `Architecture`, `Databases`)  
+**Documentation**: Each subject folder gets its own README.md for navigation
 
 ## 🔄 Relationship to Other Folders
 
@@ -90,10 +112,11 @@ This folder contains your AI fundamentals and Python internals documentation, an
 
 ### **YES** ✅
 
+- Subject-specific reference materials you use regularly
 - SOLID principles cheat sheet you reference daily
-- Code template you use for exercises
-- Quick decision matrix for design patterns
-- Personal notes on concepts you've mastered
+- Python internals guide for debugging
+- AI concepts overview for conference prep
+- Code patterns you implement frequently
 
 ### **NO** ❌
 
@@ -101,10 +124,11 @@ This folder contains your AI fundamentals and Python internals documentation, an
 - "Someday maybe" reference materials
 - Duplicate content that exists in legacy
 - Content you've never actually used
+- Materials not organized by subject area
 
 ---
 
 _This library grows organically based on your real learning needs, not theoretical completeness._
 
-**Last Updated**: July 9, 2025  
-**Current Focus**: Ready to support Week 1 SOLID Principles learning
+**Last Updated**: July 20, 2025  
+**Current Focus**: Organized subject-based structure supporting OOP learning and AI fundamentals
