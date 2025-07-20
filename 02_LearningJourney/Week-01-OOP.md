@@ -10,7 +10,7 @@
 
 ## 📅 **Daily Learning Schedule (1 Hour Per Day)**
 
-### **🔸 Day 1 (Monday): OOP Fundamentals - Core Concepts**
+### **🔸 Day 1 (Friday): OOP Fundamentals - Core Concepts**
 
 **Session (1 hour):**
 
@@ -23,7 +23,7 @@
 
 ---
 
-### **🔸 Day 2 (Tuesday): OOP Concepts Deep Dive**
+### **🔸 Day 2 (Saturday): OOP Concepts Deep Dive**
 
 **Session (1 hour):**
 
@@ -35,7 +35,7 @@
 
 ---
 
-### **🔸 Day 3 (Wednesday): OOP vs Procedural Programming**
+### **🔸 Day 3 (Sunday): OOP vs Procedural Programming**
 
 **Session (1 hour):**
 
@@ -48,7 +48,7 @@
 
 ---
 
-### **🔸 Day 4 (Thursday): Abstract Classes vs Interfaces**
+### **🔸 Day 4 (Monday): Abstract Classes vs Interfaces**
 
 **Session (1 hour):**
 
@@ -61,7 +61,7 @@
 
 ---
 
-### **🔸 Day 5 (Friday): Java Environment Setup**
+### **🔸 Day 5 (Tuesday): Java Environment Setup**
 
 **Session (1 hour):**
 
@@ -74,7 +74,7 @@
 
 ---
 
-### **🔸 Day 6 (Saturday): Java OOP Fundamentals - Part 1**
+### **🔸 Day 6 (Wednesday): Java OOP Fundamentals - Part 1**
 
 **Session (1 hour):**
 
@@ -87,7 +87,7 @@
 
 ---
 
-### **🔸 Day 7 (Sunday): Java OOP Fundamentals - Part 2**
+### **🔸 Day 7 (Thursday): Java OOP Fundamentals - Part 2**
 
 **Session (1 hour):**
 
@@ -100,7 +100,7 @@
 
 ---
 
-### **🔸 Day 8 (Monday): Java Hands-on Practice - Basic Classes**
+### **🔸 Day 8 (Friday): Java Hands-on Practice - Basic Classes**
 
 **Session (1 hour):**
 
@@ -113,7 +113,7 @@
 
 ---
 
-### **🔸 Day 9 (Tuesday): Java Hands-on Practice - Inheritance**
+### **🔸 Day 9 (Saturday): Java Hands-on Practice - Inheritance**
 
 **Session (1 hour):**
 
@@ -128,7 +128,7 @@
 
 ---
 
-### **🔸 Day 10 (Wednesday): Java Advanced OOP - Abstract Classes & Interfaces**
+### **🔸 Day 10 (Sunday): Java Advanced OOP - Abstract Classes & Interfaces**
 
 **Session (1 hour):**
 
@@ -142,7 +142,7 @@
 
 ---
 
-### **🔸 Day 11 (Thursday): Java Vehicle Management System**
+### **🔸 Day 11 (Monday): Java Vehicle Management System**
 
 **Session (1 hour):**
 
@@ -156,7 +156,7 @@
 
 ---
 
-### **🔸 Day 12 (Friday): C# Environment Setup & Basics**
+### **🔸 Day 12 (Tuesday): C# Environment Setup & Basics**
 
 **Session (1 hour):**
 
@@ -171,7 +171,7 @@
 
 ---
 
-### **🔸 Day 13 (Saturday): C# OOP Fundamentals**
+### **🔸 Day 13 (Wednesday): C# OOP Fundamentals**
 
 **Session (1 hour):**
 
@@ -184,7 +184,7 @@
 
 ---
 
-### **🔸 Day 14 (Sunday): C# Hands-on Practice**
+### **🔸 Day 14 (Thursday): C# Hands-on Practice**
 
 **Session (1 hour):**
 
@@ -199,7 +199,7 @@
 
 ---
 
-### **🔸 Day 15 (Monday): C# Advanced OOP**
+### **🔸 Day 15 (Friday): C# Advanced OOP**
 
 **Session (1 hour):**
 
@@ -214,7 +214,7 @@
 
 ---
 
-### **🔸 Day 16 (Tuesday): C# Vehicle Management System**
+### **🔸 Day 16 (Saturday): C# Vehicle Management System**
 
 **Session (1 hour):**
 
@@ -229,7 +229,7 @@
 
 ---
 
-### **🔸 Day 17 (Wednesday): Python Environment Setup & Basics**
+### **🔸 Day 17 (Sunday): Python Environment Setup & Basics**
 
 **Session (1 hour):**
 
@@ -244,7 +244,7 @@
 
 ---
 
-### **🔸 Day 18 (Thursday): Python OOP Fundamentals**
+### **🔸 Day 18 (Monday): Python OOP Fundamentals**
 
 **Session (1 hour):**
 
@@ -257,7 +257,7 @@
 
 ---
 
-### **🔸 Day 19 (Friday): Python Hands-on Practice**
+### **🔸 Day 19 (Tuesday): Python Hands-on Practice**
 
 **Session (1 hour):**
 
@@ -272,7 +272,7 @@
 
 ---
 
-### **🔸 Day 20 (Saturday): Python Vehicle Management System**
+### **🔸 Day 20 (Wednesday): Python Vehicle Management System**
 
 **Session (1 hour):**
 
@@ -285,7 +285,7 @@
 
 ---
 
-### **🔸 Day 21 (Sunday): Cross-Language Comparison & Week Review**
+### **🔸 Day 21 (Thursday): Cross-Language Comparison & Week Review**
 
 **Session (1 hour):**
 
