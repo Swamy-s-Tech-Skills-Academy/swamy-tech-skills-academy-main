@@ -34,6 +34,8 @@ Python follows a **two-step process**:
 
 ## 📊 Python Compilation Process
 
+![Python Source to Bytecode Process](images/Py_Source_ByteCode.PNG)
+
 ```mermaid
 graph LR
     A[app.py] --> B[Compiler]
