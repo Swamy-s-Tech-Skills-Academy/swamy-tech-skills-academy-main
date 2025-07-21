@@ -1,6 +1,60 @@
 # 🎓 Swamy's Tech Skills Academy
 
-Welcome to **Swamy's Tech Skills Academy** - your comprehensive platform for becoming a Lead Architect and mastering modern technology leadership.
+W### **📁 [04_LegacyContent/](04_LegacyContent/)**
+
+_Complete Archive & Resource Pool_
+
+- All previous materials and documentation
+- Source for selective content migration
+- Comprehensive reference when needed
+- Preserved knowledge for future use
+
+---
+
+## 🔍 Understanding the Four-Pillar System
+
+### **Why Four Folders? Are They Redundant?**
+
+**NO - Each serves a distinct, non-overlapping purpose:**
+
+| Folder                            | Purpose                  | Content Type                                               | When You Use It                                          |
+| --------------------------------- | ------------------------ | ---------------------------------------------------------- | -------------------------------------------------------- |
+| **01_LeadArchitectKnowledgeBase** | **Portfolio of Mastery** | Your completed work, implementations, evidence of learning | When showcasing what you've accomplished and mastered    |
+| **02_LearningJourney**            | **Active Workspace**     | Current learning plans, daily tracking, active work        | When you're actively learning and need to track progress |
+| **03_ReferenceLibrary**           | **Quick Reference Desk** | Curated materials you actively use                         | When you need quick reference during learning or work    |
+| **04_LegacyContent**              | **Complete Archive**     | All original materials and comprehensive resources         | When you need to explore comprehensive materials         |
+
+### **How They Work Together**
+
+```mermaid
+graph LR
+    A[02_LearningJourney<br/>📝 Plan & Track] --> B[03_ReferenceLibrary<br/>📖 Quick Reference]
+    A --> C[01_LeadArchitectKnowledgeBase<br/>📚 Document Mastery]
+    B -.-> A
+    D[04_LegacyContent<br/>📁 Source Materials] -.-> B
+    D -.-> A
+
+    style A fill:#e8f5e8
+    style B fill:#e1f5fe
+    style C fill:#fff3e0
+    style D fill:#f5f5f5
+```
+
+### **Typical Learning Workflow**
+
+1. **Plan** your week in `02_LearningJourney`
+2. **Reference** curated materials from `03_ReferenceLibrary` while learning
+3. **Explore** comprehensive materials in `04_LegacyContent` when needed
+4. **Document** completed work and mastery in `01_LeadArchitectKnowledgeBase`
+
+### **Real Example: Week 1 OOP Learning**
+
+- **02_LearningJourney**: "Week 1 daily plan + OOP exercises tracking"
+- **03_ReferenceLibrary**: "Python internals guide for quick reference"
+- **04_LegacyContent**: "Complete OOP tutorials and comprehensive materials"
+- **01_LeadArchitectKnowledgeBase**: "Completed Week 1 OOP implementation + documentation"
+
+**Each folder captures a different stage and type of learning activity - no redundancy!**o **Swamy's Tech Skills Academy** - your comprehensive platform for becoming a Lead Architect and mastering modern technology leadership.
 
 ## 🎯 What You'll Find Here
 

@@ -26,6 +26,8 @@ Python bytecode is an intermediate representation of Python code that the Python
 2. **Compiles** it to bytecode
 3. **Executes** the bytecode in the Python Virtual Machine
 
+![Python Source to Bytecode Process](images/Py_Source_ByteCode.PNG)
+
 ```mermaid
 graph LR
     A[Source Code<br/>.py] --> B[Parser]
