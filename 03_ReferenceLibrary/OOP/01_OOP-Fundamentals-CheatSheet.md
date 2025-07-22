@@ -2,11 +2,11 @@
 
 **Language-Agnostic Object-Oriented Programming Reference**
 
-> 📖 **5-minute quick reference** | 🎯 **Focus**: Core concepts and principles | 🔄 **Universal**: Works with any OOP languag---
+> 📖 **5-minute quick reference** | 🎯 **Focus**: Core concepts and principles | 🔄 **Universal**: Works with any OOP language
 
-## 🔄 Inheritance vs Composition
+---
 
-### **Inheritance vs Composition**📖 Essential OOP Terms
+## 📖 Essential OOP Terms
 
 | Term               | Meaning                                                                |
 | ------------------ | ---------------------------------------------------------------------- |
@@ -225,19 +225,7 @@ graph TD
 
 ---
 
-## � Object Relationships
-
-### **Types of Relationships**
-
-| Relationship       | Description                                                      | Example                   |
-| ------------------ | ---------------------------------------------------------------- | ------------------------- |
-| **Association**    | A "uses-a" relationship between objects                          | Driver uses Car           |
-| **Aggregation**    | A "has-a" relationship. Child can exist independently of parent  | Department has Employees  |
-| **Composition**    | Stronger "has-a" relationship. Child cannot exist without parent | Car has Engine            |
-| **Generalization** | An "is-a" relationship; inheritance                              | Dog is-a Animal           |
-| **Dependency**     | A class depends on another if it uses it temporarily             | Calculator uses MathUtils |
-
-### **Inheritance vs Composition**
+## 🔄 Inheritance vs Composition
 
 | Aspect           | Inheritance       | Composition            |
 | ---------------- | ----------------- | ---------------------- |
@@ -329,27 +317,27 @@ graph TD
 
 ### **❌ Anti-Patterns to Avoid**
 
-**1. God Object**
+#### **1. God Object**
 
 - **Problem**: Single class does everything
 - **Solution**: Break into smaller, focused classes
 
-**2. Circular Dependencies**
+#### **2. Circular Dependencies**
 
 - **Problem**: A depends on B, B depends on A
 - **Solution**: Introduce abstraction layer
 
-**3. Inappropriate Inheritance**
+#### **3. Inappropriate Inheritance**
 
 - **Problem**: Using inheritance for HAS-A relationships
 - **Solution**: Use composition instead
 
-**4. Interface Bloat**
+#### **4. Interface Bloat**
 
 - **Problem**: Interfaces with too many methods
 - **Solution**: Split into smaller, focused interfaces
 
-**5. Tight Coupling**
+#### **5. Tight Coupling**
 
 - **Problem**: Classes know too much about each other
 - **Solution**: Use dependency injection and abstractions
@@ -360,27 +348,27 @@ graph TD
 
 ### **✅ Design Guidelines**
 
-**1. Favor Composition over Inheritance**
+#### **1. Favor Composition over Inheritance**
 
 - More flexible and maintainable
 - Avoid deep inheritance hierarchies
 
-**2. Program to Interfaces**
+#### **2. Program to Interfaces**
 
 - Depend on abstractions, not concretions
 - Makes code more testable and flexible
 
-**3. Keep It Simple (KISS)**
+#### **3. Keep It Simple (KISS)**
 
 - Don't over-engineer solutions
 - Start simple, refactor when needed
 
-**4. You Aren't Gonna Need It (YAGNI)**
+#### **4. You Aren't Gonna Need It (YAGNI)**
 
 - Don't build features you might need later
 - Build what you need now
 
-**5. Don't Repeat Yourself (DRY)**
+#### **5. Don't Repeat Yourself (DRY)**
 
 - Extract common functionality
 - But don't create artificial abstractions
