@@ -1,6 +1,6 @@
 # 🎓 Swamy's Tech Skills Academy
 
-W### **📁 [04_LegacyContent/](04_LegacyContent/)**
+### **📁 [04_LegacyContent/](04_LegacyContent/)**
 
 _Complete Archive & Resource Pool_
 
