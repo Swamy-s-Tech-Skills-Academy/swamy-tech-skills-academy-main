@@ -253,57 +253,6 @@ abstract class Vehicle {
 }
 ```
 
----
-
-## 🎯 SOLID Principles Quick Reference
-
-### **S - Single Responsibility Principle (SRP)**
-
-**Rule**: A class should have only one reason to change
-
-```text
-❌ BAD: UserManager (handles user data + email + logging)
-✅ GOOD: User, EmailService, Logger (separate concerns)
-```
-
-### **O - Open/Closed Principle (OCP)**
-
-**Rule**: Open for extension, closed for modification
-
-```text
-❌ BAD: Modify existing code to add new features
-✅ GOOD: Extend through inheritance or composition
-```
-
-### **L - Liskov Substitution Principle (LSP)**
-
-**Rule**: Derived classes must be substitutable for their base classes
-
-```text
-❌ BAD: Square inherits Rectangle but breaks area calculation
-✅ GOOD: Derived classes maintain base class contracts
-```
-
-### **I - Interface Segregation Principle (ISP)**
-
-**Rule**: Don't force clients to depend on interfaces they don't use
-
-```text
-❌ BAD: IWorker (work() + eat() + sleep()) - robots don't eat
-✅ GOOD: IWorkable, IFeedable, ISleepable (specific interfaces)
-```
-
-### **D - Dependency Inversion Principle (DIP)**
-
-**Rule**: Depend on abstractions, not concretions
-
-```text
-❌ BAD: Class directly creates its dependencies
-✅ GOOD: Class receives dependencies through constructor/injection
-```
-
----
-
 ## 🔄 Inheritance vs Composition
 
 | Aspect           | Inheritance       | Composition            |
@@ -324,7 +273,7 @@ Car HAS-A Transmission
 Benefits: Can swap engines, change wheel types, upgrade transmission
 ```
 
-### **Inheritance Example**
+### **Inheritance Example (Hierarchies)**
 
 ```text
 Vehicle -> Car -> SportsCar
