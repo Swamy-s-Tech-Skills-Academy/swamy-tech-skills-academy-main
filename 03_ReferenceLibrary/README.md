@@ -12,23 +12,47 @@ This folder contains **curated reference materials** that directly support your 
 
 ```text
 03_ReferenceLibrary/
-├── README.md                           ← You are here
-├── AI/                                 ← Artificial Intelligence materials
+├── README.md                               ← You are here
+├── software-design-principles/             ← Comprehensive design learning system
+│   ├── README.md                           ← Master navigation and learning guide
+│   ├── 01-oop-fundamentals/               ← Core object-oriented programming
+│   ├── 02-advanced-oop/                   ← Enterprise OOP patterns & SOLID
+│   ├── 03-uml-and-modeling/               ← System design and documentation
+│   ├── 04-design-principles/              ← KISS, DRY, YAGNI, composition
+│   ├── 05-design-patterns/                ← GoF patterns + modern solutions
+│   └── 06-architecture-patterns/          ← MVC, Clean Architecture, etc.
+├── AI/                                     ← Artificial Intelligence materials
 │   ├── README.md
-│   └── AI-Fundamentals-Overview.md     ← Neural Networks to Agentic AI
-├── OOP/                                ← Object-Oriented Programming references
-│   ├── README.md
-│   ├── 01_OOP-Fundamentals-CheatSheet.md ← Core OOP concepts (language-agnostic)
-│   └── 02_OOP-CSharp-CheatSheet.md      ← C# OOP implementation guide
-└── Python/                             ← Python internals and advanced concepts
+│   └── AI-Fundamentals-Overview.md        ← Neural Networks to Agentic AI
+└── Python/                                ← Python internals and advanced concepts
     ├── README.md
     ├── Python-Compilation-and-Interpretation.md  ← Execution process
-    └── Python-Bytecode-Advanced.md     ← Complete bytecode guide with examples
+    └── Python-Bytecode-Advanced.md        ← Complete bytecode guide with examples
 ```
 
 This organized structure makes it easy to find specific technical references while maintaining the quality-over-quantity philosophy.
 
-## 🏗️ Curation Philosophy
+## � **Featured Learning System: Software Design Principles**
+
+### **Comprehensive Design Education**
+
+The **[software-design-principles/](software-design-principles/)** folder provides a complete, structured learning path through essential software design concepts:
+
+- **📚 Organized Progression**: From OOP fundamentals to architectural patterns
+- **🎯 Clear Learning Path**: Numbered folders guide your development journey  
+- **🔗 Integrated Knowledge**: Each area builds on previous concepts
+- **💼 Practical Focus**: Real-world application and implementation guidance
+
+### **Perfect for:**
+
+- **Structured Learning**: Complete curriculum for design mastery
+- **Reference Material**: Quick lookup during development work
+- **Team Training**: Onboarding and standards establishment
+- **Interview Prep**: Comprehensive coverage of design topics
+
+---
+
+## �🏗️ Curation Philosophy
 
 ### **Quality Over Quantity**
 
@@ -69,20 +93,25 @@ This organized structure makes it easy to find specific technical references whi
 
 ```text
 03_ReferenceLibrary/
-├── README.md                    ← Main reference library overview
-├── AI/                          ← Artificial Intelligence materials
+├── README.md                               ← Main reference library overview
+├── software-design-principles/             ← Comprehensive design learning system
+│   ├── README.md                           ← Master navigation and learning guide
+│   ├── 01-oop-fundamentals/               ← Core object-oriented programming
+│   ├── 02-advanced-oop/                   ← Enterprise OOP patterns & SOLID
+│   ├── 03-uml-and-modeling/               ← System design and documentation
+│   ├── 04-design-principles/              ← KISS, DRY, YAGNI, composition
+│   ├── 05-design-patterns/                ← GoF patterns + modern solutions
+│   └── 06-architecture-patterns/          ← MVC, Clean Architecture, etc.
+├── AI/                                     ← Artificial Intelligence materials
 │   ├── README.md
 │   └── [AI reference files]
-├── OOP/                         ← Object-Oriented Programming references
-│   ├── README.md
-│   └── [OOP cheat sheets and guides]
-├── Python/                      ← Python internals and advanced concepts
+├── Python/                                 ← Python internals and advanced concepts
 │   ├── README.md
 │   └── [Python reference files]
-├── [Subject]/                   ← Future subject areas as needed
+├── [Subject]/                              ← Future subject areas as needed
 │   ├── README.md
 │   └── [Subject-specific files]
-└── Templates/                   ← Reusable templates (when needed)
+└── Templates/                              ← Reusable templates (when needed)
 ```
 
 ### **Expansion Guidelines**
