@@ -19,7 +19,9 @@ This folder contains **curated reference materials** that directly support your 
 ├── OOP/                                ← Object-Oriented Programming references
 │   ├── README.md
 │   ├── 01_OOP-Fundamentals-CheatSheet.md ← Core OOP concepts (language-agnostic)
-│   └── 02_OOP-CSharp-CheatSheet.md      ← C# OOP implementation guide
+│   ├── 02_OOP-CSharp-CheatSheet.md      ← C# OOP implementation guide
+│   ├── 03_UML-for-OOP.md               ← Object modeling and UML basics
+│   └── 04_SOLID-Principles-Deep-Dive.md ← Advanced OOP principles
 └── Python/                             ← Python internals and advanced concepts
     ├── README.md
     ├── Python-Compilation-and-Interpretation.md  ← Execution process

@@ -11,10 +11,10 @@
 **Language-Agnostic OOP Concepts**
 
 - Four Pillars of OOP (Encapsulation, Inheritance, Polymorphism, Abstraction)
-- SOLID Principles with examples
+- Object relationships (Association, Aggregation, Composition)
 - Design patterns overview
 - Inheritance vs Composition guidance
-- Common pitfalls and best practices
+- Workshop-ready learning prompts and best practices
 
 **When to Use**: Learning concepts, interview prep, language-independent understanding
 
@@ -24,30 +24,71 @@
 
 **C# Specific Implementation**
 
-- C# syntax and idioms
-- Properties vs fields
-- Access modifiers
+- C# syntax and idioms for OOP
+- Properties vs fields, access modifiers
 - Modern C# features (records, pattern matching, nullable references)
-- Performance considerations
-- .NET ecosystem best practices
+- Performance considerations and best practices
+- Complete code examples and anti-patterns
 
 **When to Use**: Active C# development, syntax lookup, C#-specific patterns
 
 ---
 
-## 🎯 Quick Usage Guide
+### **� [03_UML-for-OOP.md](03_UML-for-OOP.md)**
 
-### **For Learning (Week 1 OOP)**
+**Visual Object Modeling and Design**
 
-1. Start with **01_OOP-Fundamentals** for conceptual understanding
-2. Practice concepts with **02_OOP-CSharp** for hands-on implementation
-3. Reference both during daily coding sessions
+- Class diagram notation and syntax
+- Object relationship visualization (UML arrows and symbols)
+- Code-to-diagram mapping with C# examples
+- Design pattern visualization
+- Practical UML for object-oriented design
 
-### **For Development Work**
+**When to Use**: Design planning, system modeling, team communication
 
-- **Quick Syntax Lookup**: C# cheat sheet
-- **Design Decisions**: Fundamentals cheat sheet
-- **Code Review**: Both sheets for comprehensive evaluation
+---
+
+### **🏗️ [04_SOLID-Principles-Deep-Dive.md](04_SOLID-Principles-Deep-Dive.md)**
+
+**Advanced OOP Design Principles**
+
+- Comprehensive SOLID principles with C# implementation
+- Refactoring examples from violations to compliance
+- Real-world application scenarios and testing strategies
+- Dependency injection patterns and best practices
+- Complete e-commerce example applying all SOLID principles
+
+**When to Use**: Advanced design, code reviews, architectural decisions
+
+---
+
+## 🎯 Learning Progression Guide
+
+### **Phase 1: Foundations (Week 1)**
+
+1. **Start**: `01_OOP-Fundamentals` - Master core concepts
+2. **Practice**: `02_OOP-CSharp` - Hands-on implementation
+3. **Visualize**: `03_UML-for-OOP` - Design thinking
+
+### **Phase 2: Advanced Application (Week 2+)**
+
+4. **Advance**: `04_SOLID-Principles` - Professional design
+5. **Apply**: Use all sheets together for real projects
+6. **Integrate**: Design → Code → Review cycle
+
+### **For Different Use Cases**
+
+**Learning OOP**:
+- Fundamentals → UML → C# → SOLID (sequential learning)
+
+**Development Work**:
+- C# sheet for syntax, SOLID for design decisions
+
+**Code Review**:
+- Fundamentals for concept validation, SOLID for design quality
+
+**System Design**:
+- UML for modeling, SOLID for architectural principles
 
 ### **For Interview Prep**
 
