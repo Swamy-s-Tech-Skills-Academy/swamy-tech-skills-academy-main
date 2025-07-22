@@ -54,6 +54,9 @@ Object: "My Red Toyota" (actual instance with specific data)
 | **Instance**       | A specific object created from a class template                        |
 | **Overloading**    | Same method name with different parameters (compile-time polymorphism) |
 | **Overriding**     | Redefining a parent method in a child class (runtime polymorphism)     |
+| **Cohesion**       | How closely related responsibilities within a class are                |
+| **Coupling**       | How dependent classes are on each other (aim for loose coupling)       |
+| **Protocol**       | Interface contract (commonly used in Python and Swift)                 |
 
 ---
 
@@ -171,6 +174,11 @@ Remember the pillars as slices of a PIE that make software digestible 🍰:
 - ✅ **Extensibility**: New classes can be treated like existing ones
 - ✅ **Maintainability**: Changes to one implementation don't affect others
 
+**Types:**
+
+- **Static Polymorphism**: Method overloading (compile-time decision)
+- **Dynamic Polymorphism**: Method overriding (runtime decision)
+
 ---
 
 ## 📚 Quick Examples
@@ -216,17 +224,26 @@ class BankAccount {
 ### **Abstraction Example**
 
 ```pseudocode
+// Abstract Class Approach
 abstract class Shape {
     abstract calculateArea()     // Must be implemented
     displayInfo() { print("This is a shape") }  // Common implementation
 }
 
-class Circle implements Shape {
-    calculateArea() { return π * radius² }
+// Interface-Based Approach
+interface Drawable {
+    calculateArea()    // Contract only
+    draw()            // Another required method
 }
 
-class Rectangle implements Shape {
+class Circle implements Shape, Drawable {
+    calculateArea() { return π * radius² }
+    draw() { print("Drawing a circle") }
+}
+
+class Rectangle implements Shape, Drawable {
     calculateArea() { return width * height }
+    draw() { print("Drawing a rectangle") }
 }
 
 // Same interface, different implementations
@@ -265,6 +282,8 @@ Benefits: Automatic inheritance of common vehicle features
 
 ---
 
+## 🧠 Bonus: Design Thinking in OOP
+
 ## 🎨 Common Design Patterns
 
 ### **Creational Patterns**
@@ -284,6 +303,8 @@ Benefits: Automatic inheritance of common vehicle features
 - **Observer**: Objects notify others of state changes
 - **Strategy**: Choose algorithms at runtime
 - **Template Method**: Define algorithm skeleton, let subclasses fill details
+- **Command**: Encapsulate requests as objects
+- **State**: Change behavior when internal state changes
 
 ---
 
@@ -303,6 +324,8 @@ Benefits: Automatic inheritance of common vehicle features
 - ✅ **Hide implementation details** through encapsulation
 - ✅ **Use abstraction** to manage complexity
 - ✅ **Design for extension** through polymorphism
+- ✅ **Avoid deep inheritance chains** (max 2-3 levels recommended)
+- ✅ **Aim for high cohesion, low coupling**
 
 ### **Remember**
 
