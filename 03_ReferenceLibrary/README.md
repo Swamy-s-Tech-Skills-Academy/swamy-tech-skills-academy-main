@@ -39,7 +39,7 @@ This organized structure makes it easy to find specific technical references whi
 The **[software-design-principles/](software-design-principles/)** folder provides a complete, structured learning path through essential software design concepts:
 
 - **📚 Organized Progression**: From OOP fundamentals to architectural patterns
-- **🎯 Clear Learning Path**: Numbered folders guide your development journey  
+- **🎯 Clear Learning Path**: Numbered folders guide your development journey
 - **🔗 Integrated Knowledge**: Each area builds on previous concepts
 - **💼 Practical Focus**: Real-world application and implementation guidance
 
