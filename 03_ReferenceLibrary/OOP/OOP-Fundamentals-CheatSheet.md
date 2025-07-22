@@ -44,12 +44,12 @@ graph LR
 
 ```mermaid
 graph TD
-    A[Animal<br/>🏛️ Base Class] --> B[Dog<br/>🐕 Derived]
-    A --> C[Cat<br/>🐱 Derived]
-    A --> D[Bird<br/>🐦 Derived]
+    A[Animal Base Class] --> B[Dog Derived]
+    A --> C[Cat Derived]
+    A --> D[Bird Derived]
 
-    B --> E[Labrador<br/>🐕‍🦺 Specialized]
-    B --> F[Bulldog<br/>🐕 Specialized]
+    B --> E[Labrador Specialized]
+    B --> F[Bulldog Specialized]
 
     style A fill:#e1f5fe
     style B fill:#e8f5e8
@@ -77,13 +77,13 @@ graph TD
 
 ```mermaid
 graph LR
-    A[Shape.draw()] --> B[Circle.draw()]
-    A --> C[Rectangle.draw()]
-    A --> D[Triangle.draw()]
+    A[Shape.draw] --> B[Circle.draw]
+    A --> C[Rectangle.draw]
+    A --> D[Triangle.draw]
 
-    B --> E[🟡 Draws Circle]
-    C --> F[🟦 Draws Rectangle]
-    D --> G[🔺 Draws Triangle]
+    B --> E[Draws Circle]
+    C --> F[Draws Rectangle]
+    D --> G[Draws Triangle]
 
     style A fill:#fff3e0
     style B fill:#e8f5e8
@@ -110,15 +110,15 @@ graph LR
 
 ```mermaid
 graph TD
-    A[Car Interface<br/>🚗] --> B[start()]
-    A --> C[stop()]
-    A --> D[accelerate()]
-    A --> E[brake()]
+    A[Car Interface] --> B[start]
+    A --> C[stop]
+    A --> D[accelerate]
+    A --> E[brake]
 
-    F[Complex Engine<br/>⚙️] -.->|Hidden| B
-    G[Transmission<br/>⚙️] -.->|Hidden| C
-    H[Fuel System<br/>⚙️] -.->|Hidden| D
-    I[Brake System<br/>⚙️] -.->|Hidden| E
+    F[Complex Engine] -.->|Hidden| B
+    G[Transmission] -.->|Hidden| C
+    H[Fuel System] -.->|Hidden| D
+    I[Brake System] -.->|Hidden| E
 
     style A fill:#e1f5fe
     style F fill:#f5f5f5
