@@ -1,5 +1,7 @@
 # 🎓 Swamy's Tech Skills Academy
 
+> 📖 **15-minute read** | 🕐 **Last updated**: July 22, 2025 | 🎯 **Ready to start**: Week 1 OOP
+
 ## 🧭 Quick Navigation
 
 | Section                     | Purpose                             | Go To                                                                 |
@@ -459,7 +461,9 @@ This repository contains a **four-pillar learning system** designed to transform
 
 **Ready to begin your Lead Architect journey?**
 
-🎯 **[Start Active Learning](02_LearningJourney/Week-01-Learning-Journey.md)** - Begin Week 1: SOLID Principles Mastery
+### **🎯 Start Learning Now**
+
+🎯 **[Start Active Learning](02_LearningJourney/Week-01-OOP.md)** - Begin Week 1: OOP Mastery
 
 📚 **[View Knowledge Base](01_LeadArchitectKnowledgeBase/KNOWLEDGE_BASE_README.md)** - Document your learning achievements
 
@@ -467,29 +471,29 @@ This repository contains a **four-pillar learning system** designed to transform
 
 📁 **[Browse Legacy](04_LegacyContent/)** - Complete archive of all materials
 
+### **�️ Choose Your Learning Path**
+
+#### **For Complete Mastery (Learn Everything!)**
+
+🌟 **[Complete Mastery Path](04_LegacyContent/09_Documentation/COMPLETE_MASTERY_PATH.md)** - Comprehensive 18-week journey covering all 8 knowledge areas
+
+#### **For New Architects**
+
+Explore legacy foundation materials in `04_LegacyContent/01_Foundation/` → `04_LegacyContent/02_Architecture/` → `04_LegacyContent/03_Development/`
+
+#### **For AI-Focused Roles**
+
+Reference `04_LegacyContent/04_AI/AIFoundations/` → `04_LegacyContent/04_AI/GenerativeAI/` → `04_LegacyContent/05_Data/` → `04_LegacyContent/03_Development/`
+
+#### **For Cloud Architecture**
+
+Explore `04_LegacyContent/06_Cloud/` → `04_LegacyContent/02_Architecture/` → `04_LegacyContent/07_DevOps/`
+
 ## 📚 Knowledge Categories
 
 _All original materials are safely archived in [04_LegacyContent](04_LegacyContent/) and will be selectively moved to [03_ReferenceLibrary](03_ReferenceLibrary/) as needed during active learning. The Knowledge Base will be populated as you complete each week of learning._
 
-**Current Status**: Ready to begin Week 1 - SOLID Principles (July 14-18, 2025)
-
-## 🚀 Quick Start Paths
-
-### **For Complete Mastery (Learn Everything!)**
-
-🌟 **[Complete Mastery Path](04_LegacyContent/09_Documentation/COMPLETE_MASTERY_PATH.md)** - Comprehensive 18-week journey covering all 8 knowledge areas
-
-### **For New Architects**
-
-Explore legacy foundation materials in `04_LegacyContent/01_Foundation/` → `04_LegacyContent/02_Architecture/` → `04_LegacyContent/03_Development/`
-
-### **For AI-Focused Roles**
-
-Reference `04_LegacyContent/04_AI/AIFoundations/` → `04_LegacyContent/04_AI/GenerativeAI/` → `04_LegacyContent/05_Data/` → `04_LegacyContent/03_Development/`
-
-### **For Cloud Architecture**
-
-Explore `04_LegacyContent/06_Cloud/` → `04_LegacyContent/02_Architecture/` → `04_LegacyContent/07_DevOps/`
+**Current Status**: Ready to begin Week 1 - OOP Mastery (July 22, 2025)
 
 ## 📖 How to Use This Knowledge Base
 
@@ -527,7 +531,7 @@ swamy-tech-skills-academy-main/
 ├── 01_LeadArchitectKnowledgeBase/     ← 📚 Documented achievements
 │   └── KNOWLEDGE_BASE_README.md       ← Clean slate, ready for Week 1
 ├── 02_LearningJourney/                ← 🎯 Active learning & tracking
-│   ├── Week-01-Learning-Journey.md    ← Current focus: SOLID Principles
+│   ├── Week-01-OOP.md                 ← Current focus: OOP Mastery
 │   └── README.md                      ← Learning system overview
 ├── 03_ReferenceLibrary/               ← � Curated reference materials
 │   └── (Populated as needed)          ← Essential guides and templates
@@ -550,7 +554,7 @@ swamy-tech-skills-academy-main/
 
 ### Step 1: Begin Active Learning
 
-- **Start Now**: Open [Week 1 Learning Journey](02_LearningJourney/Week-01-Learning-Journey.md)
+- **Start Now**: Open [Week 1 Learning Journey](02_LearningJourney/Week-01-OOP.md)
 - **Understand System**: Read [Learning Journey Overview](02_LearningJourney/README.md)
 - **Access Legacy**: Browse [Legacy Content](04_LegacyContent/) when you need specific materials
 
@@ -573,4 +577,4 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 ---
 
 **Ready to become a Lead Architect?** 🚀
-**[Start your journey now →](02_LearningJourney/Week-01-Learning-Journey.md)**
+**[Start your journey now →](02_LearningJourney/Week-01-OOP.md)**
