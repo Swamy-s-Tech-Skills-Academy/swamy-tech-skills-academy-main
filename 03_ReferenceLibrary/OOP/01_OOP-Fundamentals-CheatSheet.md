@@ -6,7 +6,21 @@
 
 ---
 
-## 📖 Essential OOP Terms
+## � Class & Object Fundamentals
+
+- **Class**: A blueprint or template for creating objects
+- **Object**: An instance of a class with real data
+
+### **Quick Example**
+
+```text
+Class: Car (blueprint)
+Object: "My Red Toyota" (actual instance with specific data)
+```
+
+---
+
+## �📖 Essential OOP Terms
 
 | Term               | Meaning                                                                |
 | ------------------ | ---------------------------------------------------------------------- |
@@ -42,6 +56,17 @@
 ---
 
 ## 🏛️ The Four Pillars of OOP
+
+### **Quick Overview Table**
+
+| Principle         | Description                                                                   |
+| ----------------- | ----------------------------------------------------------------------------- |
+| **Encapsulation** | Bundling data and methods together, hiding internal state from outside access |
+| **Abstraction**   | Hiding complex details and showing only essential features                    |
+| **Inheritance**   | Deriving new classes from existing ones (reusability)                         |
+| **Polymorphism**  | Same interface, different implementation (many forms)                         |
+
+---
 
 ### **1. 🔒 Encapsulation**
 
@@ -173,6 +198,60 @@ graph TD
 - ✅ **Simplicity**: Complex systems become simple to use
 - ✅ **Focus**: Users focus on what, not how
 - ✅ **Flexibility**: Implementation can change without affecting users
+
+---
+
+## 🔍 Simple Code Examples
+
+### **Encapsulation Example**
+
+```pseudocode
+class Account {
+    private balance  // Hidden data
+
+    public getBalance() { return balance }     // Controlled access
+    public deposit(amount) { balance += amount }  // Safe modification
+}
+```
+
+### **Inheritance Example**
+
+```pseudocode
+class Animal {
+    speak() { print("Animal sound") }
+}
+
+class Dog extends Animal {
+    bark() { print("Woof!") }  // Dog IS-A Animal + specific behavior
+}
+```
+
+### **Polymorphism Example**
+
+```pseudocode
+interface Shape {
+    calculateArea()
+}
+
+class Circle implements Shape {
+    calculateArea() { return π * radius² }
+}
+
+class Rectangle implements Shape {
+    calculateArea() { return width * height }
+}
+
+// Same interface, different implementations
+```
+
+### **Abstraction Example**
+
+```pseudocode
+abstract class Vehicle {
+    abstract start()     // Must be implemented
+    stop() { print("Vehicle stopping") }  // Common implementation
+}
+```
 
 ---
 
