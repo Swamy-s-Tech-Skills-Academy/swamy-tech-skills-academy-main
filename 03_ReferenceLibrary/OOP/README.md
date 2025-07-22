@@ -39,8 +39,8 @@
 
 ### **For Learning (Week 1 OOP)**
 
-1. Start with **OOP-Fundamentals** for conceptual understanding
-2. Practice concepts with **OOP-CSharp** for hands-on implementation
+1. Start with **01_OOP-Fundamentals** for conceptual understanding
+2. Practice concepts with **02_OOP-CSharp** for hands-on implementation
 3. Reference both during daily coding sessions
 
 ### **For Development Work**

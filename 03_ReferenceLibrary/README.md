@@ -18,8 +18,8 @@ This folder contains **curated reference materials** that directly support your 
 │   └── AI-Fundamentals-Overview.md     ← Neural Networks to Agentic AI
 ├── OOP/                                ← Object-Oriented Programming references
 │   ├── README.md
-│   ├── OOP-Fundamentals-CheatSheet.md  ← Core OOP concepts (language-agnostic)
-│   └── OOP-CSharp-CheatSheet.md        ← C# OOP implementation guide
+│   ├── 01_OOP-Fundamentals-CheatSheet.md ← Core OOP concepts (language-agnostic)
+│   └── 02_OOP-CSharp-CheatSheet.md      ← C# OOP implementation guide
 └── Python/                             ← Python internals and advanced concepts
     ├── README.md
     ├── Python-Compilation-and-Interpretation.md  ← Execution process
@@ -120,8 +120,8 @@ This organized structure makes it easy to find specific technical references whi
 ### **YES** ✅
 
 - Subject-specific reference materials you use regularly
-- OOP fundamentals cheat sheet for Week 1 learning
-- C# implementation guides with modern syntax
+- 01_OOP fundamentals cheat sheet for Week 1 learning
+- 02_C# implementation guides with modern syntax
 - Python internals guide for debugging
 - AI concepts overview for conference prep
 - Code patterns you implement frequently
