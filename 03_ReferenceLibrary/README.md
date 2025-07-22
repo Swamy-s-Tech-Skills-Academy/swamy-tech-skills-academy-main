@@ -16,6 +16,10 @@ This folder contains **curated reference materials** that directly support your 
 ├── AI/                                 ← Artificial Intelligence materials
 │   ├── README.md
 │   └── AI-Fundamentals-Overview.md     ← Neural Networks to Agentic AI
+├── OOP/                                ← Object-Oriented Programming references
+│   ├── README.md
+│   ├── 01_OOP-Fundamentals-CheatSheet.md ← Core OOP concepts (language-agnostic)
+│   └── 02_OOP-CSharp-CheatSheet.md      ← C# OOP implementation guide
 └── Python/                             ← Python internals and advanced concepts
     ├── README.md
     ├── Python-Compilation-and-Interpretation.md  ← Execution process
@@ -69,6 +73,9 @@ This organized structure makes it easy to find specific technical references whi
 ├── AI/                          ← Artificial Intelligence materials
 │   ├── README.md
 │   └── [AI reference files]
+├── OOP/                         ← Object-Oriented Programming references
+│   ├── README.md
+│   └── [OOP cheat sheets and guides]
 ├── Python/                      ← Python internals and advanced concepts
 │   ├── README.md
 │   └── [Python reference files]
@@ -113,7 +120,8 @@ This organized structure makes it easy to find specific technical references whi
 ### **YES** ✅
 
 - Subject-specific reference materials you use regularly
-- SOLID principles cheat sheet you reference daily
+- 01_OOP fundamentals cheat sheet for Week 1 learning
+- 02_C# implementation guides with modern syntax
 - Python internals guide for debugging
 - AI concepts overview for conference prep
 - Code patterns you implement frequently
@@ -130,5 +138,5 @@ This organized structure makes it easy to find specific technical references whi
 
 _This library grows organically based on your real learning needs, not theoretical completeness._
 
-**Last Updated**: July 20, 2025  
+**Last Updated**: July 22, 2025  
 **Current Focus**: Organized subject-based structure supporting OOP learning and AI fundamentals
