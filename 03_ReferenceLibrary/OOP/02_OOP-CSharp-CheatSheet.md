@@ -135,6 +135,31 @@ public class Dog : Animal
 
 ## 🎭 Polymorphism in C#
 
+### **Two Types of Polymorphism**
+
+#### **1. Compile-Time Polymorphism (Method Overloading)**
+
+```csharp
+public class Printer
+{
+    public void Print(string message) => Console.WriteLine(message);
+    public void Print(int number) => Console.WriteLine(number);
+    public void Print(string message, bool addTimestamp)
+    {
+        var output = addTimestamp ? $"{DateTime.Now}: {message}" : message;
+        Console.WriteLine(output);
+    }
+}
+
+// Usage
+var printer = new Printer();
+printer.Print("Hello");           // Calls string version
+printer.Print(42);               // Calls int version
+printer.Print("Hello", true);    // Calls string + bool version
+```
+
+#### **2. Runtime Polymorphism (Method Overriding)**
+
 ### **Virtual, Override, and New**
 
 ```csharp
@@ -561,6 +586,40 @@ public class ShapeCalculator
 
 ---
 
+## 🔗 Object Relationships in C#
+
+### **Quick Examples**
+
+```csharp
+// Association - Driver uses Car
+public class Driver
+{
+    public void Drive(Car car) => car.Start(); // Uses Car temporarily
+}
+
+// Aggregation - Department has Employees (employees can exist independently)
+public class Department
+{
+    public List<Employee> Employees { get; set; } = new();
+}
+
+// Composition - Car has Engine (engine cannot exist without car)
+public class Car
+{
+    private readonly Engine _engine = new(); // Strong ownership
+
+    public void Start() => _engine.Start();
+}
+
+// Inheritance - Dog is-a Animal
+public class Dog : Animal
+{
+    public override void MakeSound() => Console.WriteLine("Woof!");
+}
+```
+
+---
+
 ## ⚠️ Common C# OOP Pitfalls
 
 ### **❌ Mistakes to Avoid**
@@ -735,6 +794,12 @@ public class ExpensiveObjectPool
     }
 }
 ```
+
+---
+
+## 💡 C# OOP in One Sentence
+
+> **"C# OOP combines the four pillars of object-oriented programming with powerful .NET features like properties, generics, LINQ, and modern syntax to create robust, type-safe, and maintainable applications."**
 
 ---
 

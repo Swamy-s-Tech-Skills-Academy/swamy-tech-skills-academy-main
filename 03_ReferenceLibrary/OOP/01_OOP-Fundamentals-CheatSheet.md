@@ -2,7 +2,42 @@
 
 **Language-Agnostic Object-Oriented Programming Reference**
 
-> 📖 **5-minute quick reference** | 🎯 **Focus**: Core concepts and principles | 🔄 **Universal**: Works with any OOP language
+> 📖 **5-minute quick reference** | 🎯 **Focus**: Core concepts and principles | 🔄 **Universal**: Works with any OOP languag---
+
+## 🔄 Inheritance vs Composition
+
+### **Inheritance vs Composition**📖 Essential OOP Terms
+
+| Term               | Meaning                                                                |
+| ------------------ | ---------------------------------------------------------------------- |
+| **Attribute**      | Variable or data inside a class (also called field or property)        |
+| **Method**         | Function inside a class that defines behavior                          |
+| **Constructor**    | Special method to initialize objects when they are created             |
+| **Interface**      | A contract that defines what methods a class must implement            |
+| **Abstract Class** | Cannot be instantiated; may contain both defined and undefined methods |
+| **Instance**       | A specific object created from a class template                        |
+| **Overloading**    | Same method name with different parameters (compile-time polymorphism) |
+| **Overriding**     | Redefining a parent method in a child class (runtime polymorphism)     |
+
+---
+
+## 💡 OOP in One Sentence
+
+> **"OOP is about modeling real-world entities using classes and objects while leveraging encapsulation, abstraction, inheritance, and polymorphism to build scalable, maintainable software."**
+
+---
+
+## 🔗 Object Relationships
+
+### **Types of Relationships**
+
+| Relationship       | Description                                                      | Example                   |
+| ------------------ | ---------------------------------------------------------------- | ------------------------- |
+| **Association**    | A "uses-a" relationship between objects                          | Driver uses Car           |
+| **Aggregation**    | A "has-a" relationship. Child can exist independently of parent  | Department has Employees  |
+| **Composition**    | Stronger "has-a" relationship. Child cannot exist without parent | Car has Engine            |
+| **Generalization** | An "is-a" relationship; inheritance                              | Dog is-a Animal           |
+| **Dependency**     | A class depends on another if it uses it temporarily             | Calculator uses MathUtils |
 
 ---
 
@@ -147,7 +182,7 @@ graph TD
 
 **Rule**: A class should have only one reason to change
 
-```
+```text
 ❌ BAD: UserManager (handles user data + email + logging)
 ✅ GOOD: User, EmailService, Logger (separate concerns)
 ```
@@ -156,7 +191,7 @@ graph TD
 
 **Rule**: Open for extension, closed for modification
 
-```
+```text
 ❌ BAD: Modify existing code to add new features
 ✅ GOOD: Extend through inheritance or composition
 ```
@@ -165,7 +200,7 @@ graph TD
 
 **Rule**: Derived classes must be substitutable for their base classes
 
-```
+```text
 ❌ BAD: Square inherits Rectangle but breaks area calculation
 ✅ GOOD: Derived classes maintain base class contracts
 ```
@@ -174,7 +209,7 @@ graph TD
 
 **Rule**: Don't force clients to depend on interfaces they don't use
 
-```
+```text
 ❌ BAD: IWorker (work() + eat() + sleep()) - robots don't eat
 ✅ GOOD: IWorkable, IFeedable, ISleepable (specific interfaces)
 ```
@@ -183,14 +218,24 @@ graph TD
 
 **Rule**: Depend on abstractions, not concretions
 
-```
+```text
 ❌ BAD: Class directly creates its dependencies
 ✅ GOOD: Class receives dependencies through constructor/injection
 ```
 
 ---
 
-## 🔄 Relationships & Composition
+## � Object Relationships
+
+### **Types of Relationships**
+
+| Relationship       | Description                                                      | Example                   |
+| ------------------ | ---------------------------------------------------------------- | ------------------------- |
+| **Association**    | A "uses-a" relationship between objects                          | Driver uses Car           |
+| **Aggregation**    | A "has-a" relationship. Child can exist independently of parent  | Department has Employees  |
+| **Composition**    | Stronger "has-a" relationship. Child cannot exist without parent | Car has Engine            |
+| **Generalization** | An "is-a" relationship; inheritance                              | Dog is-a Animal           |
+| **Dependency**     | A class depends on another if it uses it temporarily             | Calculator uses MathUtils |
 
 ### **Inheritance vs Composition**
 
@@ -204,7 +249,7 @@ graph TD
 
 ### **Composition Example**
 
-```
+```text
 Car HAS-A Engine
 Car HAS-A Wheels
 Car HAS-A Transmission
@@ -214,7 +259,7 @@ Benefits: Can swap engines, change wheel types, upgrade transmission
 
 ### **Inheritance Example**
 
-```
+```text
 Vehicle -> Car -> SportsCar
 Vehicle -> Truck -> DeliveryTruck
 
