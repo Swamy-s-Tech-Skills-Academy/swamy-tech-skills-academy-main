@@ -32,7 +32,27 @@ This folder contains **curated reference materials** that directly support your 
 
 This organized structure makes it easy to find specific technical references while maintaining the quality-over-quantity philosophy.
 
-## 🏗️ Curation Philosophy
+## � **Featured Learning System: Software Design Principles**
+
+### **Comprehensive Design Education**
+
+The **[software-design-principles/](software-design-principles/)** folder provides a complete, structured learning path through essential software design concepts:
+
+- **📚 Organized Progression**: From OOP fundamentals to architectural patterns
+- **🎯 Clear Learning Path**: Numbered folders guide your development journey  
+- **🔗 Integrated Knowledge**: Each area builds on previous concepts
+- **💼 Practical Focus**: Real-world application and implementation guidance
+
+### **Perfect for:**
+
+- **Structured Learning**: Complete curriculum for design mastery
+- **Reference Material**: Quick lookup during development work
+- **Team Training**: Onboarding and standards establishment
+- **Interview Prep**: Comprehensive coverage of design topics
+
+---
+
+## �🏗️ Curation Philosophy
 
 ### **Quality Over Quantity**
 
