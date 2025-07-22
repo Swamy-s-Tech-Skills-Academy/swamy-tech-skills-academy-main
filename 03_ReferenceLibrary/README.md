@@ -16,6 +16,10 @@ This folder contains **curated reference materials** that directly support your 
 ├── AI/                                 ← Artificial Intelligence materials
 │   ├── README.md
 │   └── AI-Fundamentals-Overview.md     ← Neural Networks to Agentic AI
+├── OOP/                                ← Object-Oriented Programming references
+│   ├── README.md
+│   ├── OOP-Fundamentals-CheatSheet.md  ← Core OOP concepts (language-agnostic)
+│   └── OOP-CSharp-CheatSheet.md        ← C# OOP implementation guide
 └── Python/                             ← Python internals and advanced concepts
     ├── README.md
     ├── Python-Compilation-and-Interpretation.md  ← Execution process
@@ -69,6 +73,9 @@ This organized structure makes it easy to find specific technical references whi
 ├── AI/                          ← Artificial Intelligence materials
 │   ├── README.md
 │   └── [AI reference files]
+├── OOP/                         ← Object-Oriented Programming references
+│   ├── README.md
+│   └── [OOP cheat sheets and guides]
 ├── Python/                      ← Python internals and advanced concepts
 │   ├── README.md
 │   └── [Python reference files]
