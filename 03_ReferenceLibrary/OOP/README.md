@@ -6,7 +6,7 @@
 
 ## 📚 Available References
 
-### **🌍 [OOP-Fundamentals-CheatSheet.md](OOP-Fundamentals-CheatSheet.md)**
+### **🌍 [01_OOP-Fundamentals-CheatSheet.md](01_OOP-Fundamentals-CheatSheet.md)**
 
 **Language-Agnostic OOP Concepts**
 
@@ -20,7 +20,7 @@
 
 ---
 
-### **🔷 [OOP-CSharp-CheatSheet.md](OOP-CSharp-CheatSheet.md)**
+### **🔷 [02_OOP-CSharp-CheatSheet.md](02_OOP-CSharp-CheatSheet.md)**
 
 **C# Specific Implementation**
 
