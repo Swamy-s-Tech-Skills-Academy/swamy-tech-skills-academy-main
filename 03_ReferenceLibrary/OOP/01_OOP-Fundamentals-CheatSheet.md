@@ -35,9 +35,9 @@ Object: "My Red Toyota" (actual instance with specific data)
 
 ---
 
-## 💡 OOP in One Sentence
+## ✅ OOP in One Sentence
 
-> **"OOP is about modeling real-world entities using classes and objects while leveraging encapsulation, abstraction, inheritance, and polymorphism to build scalable, maintainable software."**
+> **"OOP is about modeling real-world entities using classes and objects while leveraging encapsulation, abstraction, inheritance, and polymorphism to build scalable software."**
 
 ---
 

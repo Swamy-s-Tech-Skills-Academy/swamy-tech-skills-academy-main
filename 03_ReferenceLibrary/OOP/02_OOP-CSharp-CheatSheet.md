@@ -30,8 +30,20 @@ public class Person
         set => _age = value >= 0 ? value : throw new ArgumentOutOfRangeException(nameof(value));
     }
 
-    // Auto-implemented property (shorthand)
-    public string Email { get; set; }
+    // Auto-implemented property (shorthand)---        _objects.Enqueue(obj);
+    }
+}
+```
+
+---
+
+## � C# OOP in One Sentence🔗 Object Relationships in C#
+
+### \*\*7️⃣ Aggregation---
+
+## 💡 C# OOP in One Sentence
+
+> **"C# OOP combines the four pillars of object-oriented programming with powerful .NET features like properties, generics, LINQ, and modern syntax to create robust, type-safe, and maintainable applications."**-A, Independent)\*\*public string Email { get; set; }
 
     // Constructor
     public Person(string name, int age)
@@ -45,8 +57,10 @@ public class Person
 
     // Override ToString for better debugging
     public override string ToString() => GetInfo();
+
 }
-```
+
+````
 
 ### **Object Creation and Usage**
 
@@ -63,7 +77,7 @@ var person2 = new Person("Bob", 25)
 
 // Target-typed new (C# 9.0+)
 Person person3 = new("Charlie", 35);
-```
+````
 
 ---
 
@@ -797,7 +811,67 @@ public class ExpensiveObjectPool
 
 ---
 
-## 💡 C# OOP in One Sentence
+## � Object Relationships in C#
+
+### **7️⃣ Aggregation (Has-A, Independent)**
+
+```csharp
+public class Department
+{
+    public List<Employee> Employees { get; set; } = new();
+
+    public void AddEmployee(Employee employee)
+    {
+        Employees.Add(employee);
+        // Employee can exist without Department
+    }
+}
+
+public class Employee
+{
+    public string Name { get; set; }
+    public string Position { get; set; }
+}
+```
+
+### **8️⃣ Composition (Has-A, Dependent)**
+
+```csharp
+public class Car
+{
+    private readonly Engine _engine; // Cannot exist without Car
+    private readonly List<Wheel> _wheels;
+
+    public Car()
+    {
+        _engine = new Engine(); // Engine is part of Car
+        _wheels = new List<Wheel>
+        {
+            new Wheel(), new Wheel(), new Wheel(), new Wheel()
+        };
+    }
+
+    public void Start()
+    {
+        _engine.Start();
+        Console.WriteLine("Car started with engine and wheels");
+    }
+}
+
+public class Engine
+{
+    public void Start() => Console.WriteLine("Engine started");
+}
+
+public class Wheel
+{
+    public void Rotate() => Console.WriteLine("Wheel rotating");
+}
+```
+
+---
+
+## �💡 C# OOP in One Sentence
 
 > **"C# OOP combines the four pillars of object-oriented programming with powerful .NET features like properties, generics, LINQ, and modern syntax to create robust, type-safe, and maintainable applications."**
 
