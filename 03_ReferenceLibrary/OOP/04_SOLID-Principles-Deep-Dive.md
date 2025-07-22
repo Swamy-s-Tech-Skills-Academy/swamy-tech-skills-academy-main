@@ -175,7 +175,7 @@ public class AreaCalculator
         {
             return 0.5 * triangle.Base * triangle.Height;
         }
-        
+
         throw new ArgumentException("Unknown shape type");
     }
 }
@@ -310,7 +310,7 @@ public void TestRectangle(Rectangle rectangle)
 {
     rectangle.Width = 5;
     rectangle.Height = 10;
-    
+
     // Expected: 50, but with Square: 100 (unexpected behavior!)
     Assert.AreEqual(50, rectangle.CalculateArea());
 }
@@ -357,7 +357,7 @@ public abstract class FileProcessor
     // Precondition: file must exist and be readable
     // Postcondition: returns non-null result
     public abstract string ProcessFile(string filePath);
-    
+
     protected void ValidateFile(string filePath)
     {
         if (!File.Exists(filePath))
@@ -412,7 +412,7 @@ public interface IWorker
 public class Robot : IWorker
 {
     public void Work() => Console.WriteLine("Robot working");
-    
+
     // Robots don't eat or sleep - forced to implement anyway!
     public void Eat() => throw new NotImplementedException();
     public void Sleep() => throw new NotImplementedException();
@@ -633,8 +633,8 @@ public class OrderService
     {
         await _orderRepository.SaveAsync(order);
         await _emailService.SendEmailAsync(
-            order.CustomerEmail, 
-            "Order Confirmation", 
+            order.CustomerEmail,
+            "Order Confirmation",
             "Your order has been processed");
     }
 }
@@ -649,18 +649,18 @@ public class Program
     public static void Main(string[] args)
     {
         var services = new ServiceCollection();
-        
+
         // Register dependencies
         services.AddScoped<IOrderRepository, SqlOrderRepository>();
         services.AddScoped<IEmailService, SmtpEmailService>();
         services.AddScoped<OrderService>();
-        
+
         // Configuration
         services.AddSingleton<SmtpClient>();
         services.AddSingleton("connectionString");
-        
+
         var serviceProvider = services.BuildServiceProvider();
-        
+
         // Resolve high-level service
         var orderService = serviceProvider.GetService<OrderService>();
     }
@@ -799,7 +799,7 @@ public class OrderService
 
         // Send notification
         await _notificationSender.SendAsync(
-            order.CustomerEmail, 
+            order.CustomerEmail,
             $"Order confirmed. Total: ${finalAmount:F2}");
 
         return true;
@@ -878,16 +878,16 @@ public class ReportGenerator
 
 // ❌ LSP Violation
 public class Bird { public virtual void Fly() { } }
-public class Penguin : Bird 
-{ 
-    public override void Fly() => throw new NotSupportedException(); 
+public class Penguin : Bird
+{
+    public override void Fly() => throw new NotSupportedException();
 }
 
 // ❌ ISP Violation
-public interface IAnimal 
-{ 
-    void Walk(); 
-    void Swim(); 
+public interface IAnimal
+{
+    void Walk();
+    void Swim();
     void Fly(); // Not all animals can do all actions
 }
 
@@ -905,26 +905,31 @@ public class OrderProcessor
 ### **SOLID Checklist**
 
 **Single Responsibility:**
+
 - [ ] Each class has one reason to change
 - [ ] Class name clearly describes its purpose
 - [ ] No mixed concerns (data + business logic + persistence)
 
 **Open/Closed:**
+
 - [ ] New features added through extension, not modification
 - [ ] Polymorphism used for varying behavior
 - [ ] Abstract base classes or interfaces for extension points
 
 **Liskov Substitution:**
+
 - [ ] Derived classes can replace base classes without breaking code
 - [ ] Preconditions not strengthened in derived classes
 - [ ] Postconditions not weakened in derived classes
 
 **Interface Segregation:**
+
 - [ ] Interfaces are focused on specific client needs
 - [ ] No forced implementation of unused methods
 - [ ] Multiple small interfaces over one large interface
 
 **Dependency Inversion:**
+
 - [ ] High-level modules depend on abstractions
 - [ ] Dependencies injected rather than created internally
 - [ ] Easy to mock dependencies for testing

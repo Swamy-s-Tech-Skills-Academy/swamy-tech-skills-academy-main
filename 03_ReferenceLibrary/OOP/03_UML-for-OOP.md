@@ -88,13 +88,13 @@ public class BankAccount
 
 ### **The Big 5 Relationships**
 
-| Relationship | Arrow Symbol | Meaning | Example |
-|-------------|-------------|---------|---------|
-| **Association** | `────────>` | "uses-a" relationship | Student → Course |
-| **Aggregation** | `────◇────>` | "has-a" (weak ownership) | Library ◇── Book |
-| **Composition** | `────◆────>` | "part-of" (strong ownership) | House ◆── Room |
-| **Inheritance** | `────△────>` | "is-a" relationship | Dog △── Animal |
-| **Dependency** | `- - - - ->` | "depends-on" temporarily | Client ····> Service |
+| Relationship    | Arrow Symbol | Meaning                      | Example              |
+| --------------- | ------------ | ---------------------------- | -------------------- |
+| **Association** | `────────>`  | "uses-a" relationship        | Student → Course     |
+| **Aggregation** | `────◇────>` | "has-a" (weak ownership)     | Library ◇── Book     |
+| **Composition** | `────◆────>` | "part-of" (strong ownership) | House ◆── Room       |
+| **Inheritance** | `────△────>` | "is-a" relationship          | Dog △── Animal       |
+| **Dependency**  | `- - - - ->` | "depends-on" temporarily     | Client ····> Service |
 
 ### **Association Examples**
 
@@ -106,6 +106,7 @@ public class BankAccount
 ```
 
 **C# Implementation:**
+
 ```csharp
 public class Student
 {
@@ -123,6 +124,7 @@ public class Student
 ```
 
 **C# Implementation:**
+
 ```csharp
 public class Library
 {
@@ -141,11 +143,12 @@ public class Library
 ```
 
 **C# Implementation:**
+
 ```csharp
 public class House
 {
     private readonly List<Room> rooms = new(); // Rooms cannot exist without house
-    
+
     public House()
     {
         rooms.Add(new Room("Living Room"));  // Created with house
@@ -254,13 +257,13 @@ public class House
 
 ### **Multiplicity Notation**
 
-| Notation | Meaning |
-|----------|---------|
-| `1` | Exactly one |
-| `0..1` | Zero or one (optional) |
-| `1..*` | One or more |
+| Notation      | Meaning                  |
+| ------------- | ------------------------ |
+| `1`           | Exactly one              |
+| `0..1`        | Zero or one (optional)   |
+| `1..*`        | One or more              |
 | `0..*` or `*` | Zero or more (unlimited) |
-| `2..5` | Between 2 and 5 |
+| `2..5`        | Between 2 and 5          |
 
 ### **Real-World Example: Order System**
 
@@ -274,6 +277,7 @@ public class House
 ```
 
 **Reads as:**
+
 - One Customer can place 0 or more Orders
 - One Order contains 1 or more Products
 - One Product can be in many Orders
@@ -427,12 +431,14 @@ Customer ||--o{ BankAccount : "owns"
 ### **🎯 Quick Reference: When to Use UML**
 
 **✅ Use UML When:**
+
 - Designing new classes and relationships
 - Communicating design to team members
 - Documenting complex inheritance hierarchies
 - Planning refactoring of existing code
 
 **❌ Don't Use UML When:**
+
 - Simple classes with obvious relationships
 - Rapid prototyping or spikes
 - Implementation details are more important than design
@@ -463,14 +469,14 @@ Customer ||--o{ BankAccount : "owns"
 
 ### **Essential UML for OOP**
 
-| Element | Notation | Use Case |
-|---------|----------|----------|
-| Class | Rectangle with 3 sections | Define object structure |
-| Association | Plain arrow | "uses" relationship |
-| Aggregation | Diamond arrow | "has" relationship (weak) |
-| Composition | Filled diamond | "part of" relationship (strong) |
-| Inheritance | Triangle arrow | "is a" relationship |
-| Interface | `<<interface>>` | Contract definition |
+| Element     | Notation                  | Use Case                        |
+| ----------- | ------------------------- | ------------------------------- |
+| Class       | Rectangle with 3 sections | Define object structure         |
+| Association | Plain arrow               | "uses" relationship             |
+| Aggregation | Diamond arrow             | "has" relationship (weak)       |
+| Composition | Filled diamond            | "part of" relationship (strong) |
+| Inheritance | Triangle arrow            | "is a" relationship             |
+| Interface   | `<<interface>>`           | Contract definition             |
 
 ### **Remember**
 

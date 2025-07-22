@@ -79,15 +79,19 @@
 ### **For Different Use Cases**
 
 **Learning OOP**:
+
 - Fundamentals → UML → C# → SOLID (sequential learning)
 
 **Development Work**:
+
 - C# sheet for syntax, SOLID for design decisions
 
 **Code Review**:
+
 - Fundamentals for concept validation, SOLID for design quality
 
 **System Design**:
+
 - UML for modeling, SOLID for architectural principles
 
 ### **For Interview Prep**
