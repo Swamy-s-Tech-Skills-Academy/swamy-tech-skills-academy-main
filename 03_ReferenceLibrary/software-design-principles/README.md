@@ -15,21 +15,27 @@ This library provides a **structured progression** through essential software de
 ### **🔢 Foundation Phase**
 
 #### **01. [OOP Fundamentals](01-oop-fundamentals/)**
+
 **Core Object-Oriented Programming Concepts**
+
 - Four Pillars of OOP (Encapsulation, Inheritance, Polymorphism, Abstraction)
 - C# Implementation and Best Practices
 - Basic UML for Object Modeling
 - Language-agnostic concepts and practical application
 
 #### **02. [Advanced OOP](02-advanced-oop/)**
+
 **Enterprise-Level Object-Oriented Design**
+
 - SOLID Principles Deep Dive
 - Dependency Injection Patterns
 - Async/OOP Integration
 - Domain-Driven Design Fundamentals
 
 #### **03. [UML and Modeling](03-uml-and-modeling/)**
+
 **System Design and Visual Communication**
+
 - Advanced Class Diagrams
 - Behavioral Modeling (Sequence, Activity, State)
 - System Architecture Documentation
@@ -40,9 +46,11 @@ This library provides a **structured progression** through essential software de
 ### **🎯 Principles Phase**
 
 #### **04. [Design Principles](04-design-principles/)**
+
 **Fundamental Rules for Quality Code**
+
 - **KISS** (Keep It Simple, Stupid)
-- **DRY** (Don't Repeat Yourself) 
+- **DRY** (Don't Repeat Yourself)
 - **YAGNI** (You Aren't Gonna Need It)
 - **Single Purpose Principle**
 - **Composition over Inheritance**
@@ -52,14 +60,18 @@ This library provides a **structured progression** through essential software de
 ### **🛠️ Patterns Phase**
 
 #### **05. [Design Patterns](05-design-patterns/)**
+
 **Proven Solutions to Common Problems**
+
 - **Creational**: Factory, Builder, Singleton
 - **Structural**: Adapter, Decorator, Facade
 - **Behavioral**: Observer, Strategy, Command
 - **Modern Patterns**: Repository, Unit of Work
 
 #### **06. [Architecture Patterns](06-architecture-patterns/)**
+
 **System-Level Design Solutions**
+
 - **MVC** (Model-View-Controller)
 - **MVP** (Model-View-Presenter)
 - **MVVM** (Model-View-ViewModel)
@@ -71,16 +83,19 @@ This library provides a **structured progression** through essential software de
 ## 🎓 **Recommended Learning Progression**
 
 ### **For Beginners**
+
 ```text
 01-OOP-Fundamentals → 04-Design-Principles → 03-UML-Modeling
 ```
 
 ### **For Intermediate Developers**
+
 ```text
 02-Advanced-OOP → 05-Design-Patterns → 06-Architecture-Patterns
 ```
 
 ### **For Senior Developers**
+
 ```text
 All folders as reference + Focus on Architecture Patterns
 ```
@@ -90,16 +105,19 @@ All folders as reference + Focus on Architecture Patterns
 ## 🎯 **Usage Scenarios**
 
 ### **📖 Learning & Education**
+
 - **Structured Curriculum**: Follow the numbered progression
 - **Concept Reinforcement**: Cross-reference between folders
 - **Skill Assessment**: Use each folder to evaluate knowledge gaps
 
 ### **🔍 Daily Development Reference**
+
 - **Code Reviews**: Check against design principles
 - **Problem Solving**: Find applicable patterns
 - **Architecture Decisions**: Reference architectural patterns
 
 ### **👥 Team Training**
+
 - **Onboarding**: Guide new developers through progression
 - **Standards**: Establish team coding principles
 - **Documentation**: Use UML for system communication
@@ -109,11 +127,13 @@ All folders as reference + Focus on Architecture Patterns
 ## 🔄 **Folder Relationships**
 
 ### **Horizontal Integration**
+
 - **Principles ↔ Patterns**: Principles guide pattern selection
 - **OOP ↔ UML**: Code concepts visualized through modeling
 - **Advanced OOP ↔ Architecture**: Enterprise OOP enables architectural patterns
 
 ### **Vertical Progression**
+
 - **Foundation → Advanced**: Each level builds on previous
 - **Theory → Practice**: Concepts followed by implementation
 - **Simple → Complex**: Gradual complexity increase
@@ -123,17 +143,20 @@ All folders as reference + Focus on Architecture Patterns
 ## 🚀 **Quick Start Guide**
 
 ### **New to Software Design?**
+
 1. Start with **01-OOP-Fundamentals**
 2. Practice concepts with real code
 3. Move to **04-Design-Principles**
 4. Learn **03-UML-Modeling** for visualization
 
 ### **Experienced Developer?**
+
 1. Review **02-Advanced-OOP** for enterprise patterns
-2. Master **05-Design-Patterns** for common solutions  
+2. Master **05-Design-Patterns** for common solutions
 3. Study **06-Architecture-Patterns** for system design
 
 ### **Team Lead/Architect?**
+
 - Use all folders as comprehensive reference
 - Focus on **Architecture Patterns** for system design
 - Reference **UML** for team communication
@@ -159,7 +182,7 @@ After completing this learning system, you will:
 ✅ **Select appropriate design patterns** for common problems  
 ✅ **Design system architectures** using proven patterns  
 ✅ **Communicate designs effectively** using UML  
-✅ **Make informed architectural decisions** with confidence  
+✅ **Make informed architectural decisions** with confidence
 
 ---
 

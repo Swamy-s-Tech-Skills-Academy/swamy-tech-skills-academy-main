@@ -97,14 +97,17 @@ This folder contains **core design principles** that guide decision-making in so
 ## 🔄 **Relationship to Other Folders**
 
 ### **vs. OOP Fundamentals**
+
 - **OOP**: Core programming paradigm concepts
 - **Design Principles**: Universal rules that guide OOP implementation
 
 ### **vs. Design Patterns**
+
 - **Principles**: WHY to structure code (guidelines)
 - **Patterns**: HOW to structure code (specific solutions)
 
 ### **vs. Architecture Patterns**
+
 - **Design Principles**: Code-level decision making
 - **Architecture**: System-level pattern application
 
@@ -115,6 +118,7 @@ This folder contains **core design principles** that guide decision-making in so
 ### **During Code Reviews**
 
 **Questions to Ask:**
+
 - Is this solution as simple as it could be? (KISS)
 - Are we duplicating logic that exists elsewhere? (DRY)
 - Are we building features we don't actually need? (YAGNI)
@@ -124,6 +128,7 @@ This folder contains **core design principles** that guide decision-making in so
 ### **During Design Sessions**
 
 **Decision Framework:**
+
 1. **Start Simple** (KISS) - What's the simplest solution?
 2. **Avoid Duplication** (DRY) - Can we reuse existing components?
 3. **Validate Requirements** (YAGNI) - Do we actually need this feature?
@@ -135,16 +140,19 @@ This folder contains **core design principles** that guide decision-making in so
 ## 📈 **Skill Development Path**
 
 ### **Beginner Level**
+
 - Learn each principle individually
 - Practice identifying violations in existing code
 - Apply one principle at a time in new code
 
-### **Intermediate Level**  
+### **Intermediate Level**
+
 - Balance conflicting principles appropriately
 - Use principles to guide refactoring decisions
 - Teach principles to other team members
 
 ### **Advanced Level**
+
 - Instinctively apply principles without conscious effort
 - Know when to bend or break principles for specific contexts
 - Create team standards based on principle application
@@ -154,11 +162,13 @@ This folder contains **core design principles** that guide decision-making in so
 ## 🛠️ **Tools and Techniques**
 
 ### **Code Analysis**
+
 - Use static analysis tools to identify DRY violations
 - Implement complexity metrics to enforce KISS
 - Review tools that flag over-engineering (YAGNI violations)
 
 ### **Design Reviews**
+
 - Principle-based code review checklists
 - Architecture decision records citing principle trade-offs
 - Refactoring sessions focused on principle application
@@ -174,7 +184,7 @@ After mastering these design principles:
 ✅ **Identify and refactor problematic code patterns**  
 ✅ **Balance competing concerns effectively**  
 ✅ **Guide team discussions about code quality**  
-✅ **Create more testable and flexible designs**  
+✅ **Create more testable and flexible designs**
 
 ---
 
