@@ -95,7 +95,7 @@ Object: "My Red Toyota" (actual instance with specific data)
 
 ### **🧠 Mnemonic: "A PIE of OOP"**
 
-Remember the pillars as slices of a PIE that make software digestible 🍰:
+Remember the pillars as slices of a PIE that make software digestible 🥧:
 
 - **A**bstraction
 - **P**olymorphism
