@@ -163,6 +163,11 @@ This folder contains **architectural patterns** - high-level structural solution
 
 ## 🔄 **Relationship to Other Folders**
 
+### **vs. Architectural Principles**
+
+- **Architectural Principles**: WHY to structure systems (guidelines like separation of concerns)
+- **Architecture Patterns**: HOW to structure systems (specific implementations like MVC)
+
 ### **vs. Design Patterns**
 
 - **Architecture Patterns**: System-wide organization
