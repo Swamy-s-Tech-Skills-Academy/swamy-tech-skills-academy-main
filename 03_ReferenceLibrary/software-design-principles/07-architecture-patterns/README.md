@@ -6,7 +6,7 @@
 
 ## 🏗️ **Purpose**
 
-This folder contains **architectural patterns** - high-level structural solutions that define the overall organization of software systems. While design patterns solve object-level problems, architectural patterns address system-wide concerns like separation of concerns, scalability, maintainability, and user interface organization.
+This folder contains **architectural patterns** - high-level structural solutions that define the overall organization of software systems. These patterns implement the architectural principles (from folder 06) in concrete, reusable ways. While design patterns solve object-level problems, architectural patterns address system-wide concerns like separation of concerns, scalability, maintainability, and user interface organization.
 
 ---
 
@@ -162,6 +162,11 @@ This folder contains **architectural patterns** - high-level structural solution
 ---
 
 ## 🔄 **Relationship to Other Folders**
+
+### **vs. Architectural Principles**
+
+- **Architectural Principles**: WHY to structure systems (guidelines like separation of concerns)
+- **Architecture Patterns**: HOW to structure systems (specific implementations like MVC)
 
 ### **vs. Design Patterns**
 

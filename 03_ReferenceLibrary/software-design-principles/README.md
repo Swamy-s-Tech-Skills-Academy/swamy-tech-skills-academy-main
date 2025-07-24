@@ -68,7 +68,17 @@ This library provides a **structured progression** through essential software de
 - **Behavioral**: Observer, Strategy, Command
 - **Modern Patterns**: Repository, Unit of Work
 
-#### **06. [Architecture Patterns](06-architecture-patterns/)**
+#### **06. [Architectural Principles](06-architectural-principles/)**
+
+**System-Level Design Guidelines**
+
+- **Separation of Concerns**
+- **Single Source of Truth**
+- **Loose Coupling / High Cohesion**
+- **Dependency Inversion (System Level)**
+- **Scalability and Reliability Principles**
+
+#### **07. [Architecture Patterns](07-architecture-patterns/)**
 
 **System-Level Design Solutions**
 
@@ -91,13 +101,13 @@ This library provides a **structured progression** through essential software de
 ### **For Intermediate Developers**
 
 ```text
-02-Advanced-OOP → 05-Design-Patterns → 06-Architecture-Patterns
+02-Advanced-OOP → 05-Design-Patterns → 06-Architectural-Principles
 ```
 
 ### **For Senior Developers**
 
 ```text
-All folders as reference + Focus on Architecture Patterns
+All folders as reference + Focus on 06-Architectural-Principles → 07-Architecture-Patterns
 ```
 
 ---

@@ -20,7 +20,8 @@ This folder contains **curated reference materials** that directly support your 
 │   ├── 03-uml-and-modeling/               ← System design and documentation
 │   ├── 04-design-principles/              ← KISS, DRY, YAGNI, composition
 │   ├── 05-design-patterns/                ← GoF patterns + modern solutions
-│   └── 06-architecture-patterns/          ← MVC, Clean Architecture, etc.
+│   ├── 06-architectural-principles/       ← System-level design guidelines
+│   └── 07-architecture-patterns/          ← MVC, Clean Architecture, etc.
 ├── AI/                                     ← Artificial Intelligence materials
 │   ├── README.md
 │   └── AI-Fundamentals-Overview.md        ← Neural Networks to Agentic AI
@@ -101,7 +102,8 @@ The **[software-design-principles/](software-design-principles/)** folder provid
 │   ├── 03-uml-and-modeling/               ← System design and documentation
 │   ├── 04-design-principles/              ← KISS, DRY, YAGNI, composition
 │   ├── 05-design-patterns/                ← GoF patterns + modern solutions
-│   └── 06-architecture-patterns/          ← MVC, Clean Architecture, etc.
+│   ├── 06-architectural-principles/       ← System-level design guidelines
+│   └── 07-architecture-patterns/          ← MVC, Clean Architecture, etc.
 ├── AI/                                     ← Artificial Intelligence materials
 │   ├── README.md
 │   └── [AI reference files]
