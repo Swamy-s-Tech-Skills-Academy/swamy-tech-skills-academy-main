@@ -9,11 +9,35 @@
 ### **Foundations & Theory**
 
 - `AI-Fundamentals-Overview.md` - Comprehensive overview from Neural Networks to Agentic AI
+
   - Neural Networks fundamentals
   - Transformers architecture
   - Large Language Models (LLMs)
   - Generative AI concepts
   - Agentic AI systems
+
+- `AI-Domain-Relationships.md` - Visual and conceptual relationships between AI domains
+
+  - AI, ML, Deep Learning hierarchy
+  - Domain intersections and overlaps
+  - Technology stack mapping
+  - Evolution and future trends
+
+- `Generative-AI-Overview.md` - Understanding creative AI capabilities
+  - Language generation
+  - Visual creation
+  - Code synthesis
+  - Real-world applications
+
+### **Learning Curricula**
+
+- `AI-Learning-Topics.md` - Individual learning modules and structured paths
+  - Foundation layer topics (Mathematics, Computing, Data)
+  - Algorithm layer topics (ML, Deep Learning, Statistics)
+  - Application layer topics (Generative AI, Predictive AI, Conversational AI)
+  - Integration layer topics (APIs, Development Tools, MLOps)
+  - Specialized domain tracks (NLP, Computer Vision, Robotics)
+  - Learning path recommendations by skill level
 
 ---
 
