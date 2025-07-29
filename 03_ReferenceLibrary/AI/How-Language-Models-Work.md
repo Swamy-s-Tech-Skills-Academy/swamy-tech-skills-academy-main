@@ -25,24 +25,29 @@ Each stage builds upon the previous one, creating layers of increasingly sophist
 ## 📝 Stage 1: Making Text Machine-Readable (Tokenization)
 
 ### **The Challenge**
+
 Computers operate with numbers, not words. The first hurdle in language processing is converting human text into a format machines can work with.
 
 ### **The Solution: Tokenization**
+
 Tokenization breaks down text into manageable units called "tokens" - typically words, subwords, or characters that can be systematically processed.
 
 #### **The Tokenization Process**
 
 1. **Text Segmentation**: Split text into individual units
+
    ```
    "The quick brown fox" → ["The", "quick", "brown", "fox"]
    ```
 
 2. **Normalization**: Handle variations in capitalization, punctuation, and formatting
+
    ```
    "Hello!" → "hello" (lowercase, punctuation removed)
    ```
 
 3. **Vocabulary Mapping**: Assign unique numerical identifiers to each token
+
    ```
    "hello" → 1247
    "world" → 3891
@@ -64,20 +69,24 @@ Tokenization breaks down text into manageable units called "tokens" - typically 
 ## 🎯 Stage 2: Capturing Word Relationships (Embeddings)
 
 ### **The Challenge**
+
 Numbers alone don't capture the rich relationships between words. "Dog" and "puppy" should be understood as related concepts, not just different numbers.
 
 ### **The Solution: Word Embeddings**
+
 Embeddings transform tokens into high-dimensional vectors that encode semantic relationships in their geometric properties.
 
 #### **How Embeddings Work**
 
 **Vector Representation**:
+
 ```
 "king" → [0.2, -0.1, 0.8, 0.3, ...]  (300 dimensions)
 "queen" → [0.1, -0.2, 0.7, 0.4, ...]
 ```
 
 **Semantic Relationships**:
+
 - Similar concepts have similar vector directions
 - Mathematical operations reveal relationships:
   ```
@@ -85,10 +94,12 @@ Embeddings transform tokens into high-dimensional vectors that encode semantic r
   ```
 
 **Distance Measurements**:
+
 - Cosine similarity measures vector alignment
 - Closer vectors = more semantically related words
 
 #### **Training Process**
+
 Embeddings learn relationships by analyzing massive text corpora:
 
 1. **Co-occurrence Analysis**: Words appearing together are likely related
@@ -101,6 +112,7 @@ Embeddings learn relationships by analyzing massive text corpora:
 ## 🏗️ Stage 3: Understanding Context (Neural Architectures)
 
 ### **The Context Problem**
+
 Individual words change meaning based on surrounding text. "Bank" means different things in "river bank" versus "money bank."
 
 ### **Early Solution: Recurrent Neural Networks (RNNs)**
@@ -108,15 +120,17 @@ Individual words change meaning based on surrounding text. "Bank" means differen
 #### **How RNNs Process Context**
 
 **Sequential Processing**:
+
 ```
 Input:    "The  cat  sat  on  the  mat"
 Step 1:   "The" → Hidden State 1
-Step 2:   "cat" + Hidden State 1 → Hidden State 2  
+Step 2:   "cat" + Hidden State 1 → Hidden State 2
 Step 3:   "sat" + Hidden State 2 → Hidden State 3
 ...and so on
 ```
 
 **Memory Mechanism**:
+
 - Hidden state carries information from previous words
 - Each new word updates the accumulated context
 - Final state contains information from entire sequence
@@ -124,6 +138,7 @@ Step 3:   "sat" + Hidden State 2 → Hidden State 3
 #### **RNN Limitations**
 
 **Vanishing Gradients**: Information from early words fades over long sequences
+
 ```
 "Vincent Van Gogh was a painter known for [MASK]"
 By the time we reach [MASK], "Vincent Van Gogh" information may be lost
@@ -138,21 +153,25 @@ By the time we reach [MASK], "Vincent Van Gogh" information may be lost
 ## ⚡ Stage 4: The Transformer Revolution
 
 ### **The Breakthrough: Attention Mechanisms**
+
 Transformers solved RNN limitations by introducing "attention" - the ability to focus on relevant parts of input regardless of position.
 
 #### **Key Innovations**
 
 **Self-Attention**:
+
 - Every word can directly attend to every other word
 - No sequential processing required
 - Parallel computation of all relationships
 
 **Multi-Head Attention**:
+
 - Multiple attention mechanisms capture different relationship types
 - Some heads focus on syntax, others on semantics
 - Combined attention provides rich understanding
 
 **Positional Encoding**:
+
 - Adds position information to word embeddings
 - Maintains word order understanding without sequential processing
 
@@ -164,7 +183,7 @@ For the sentence: "The cat that chased the mouse was hungry"
 Word: "was"
 Attention Weights:
 - "cat": 0.8    (high - subject of "was")
-- "that": 0.1   (low - just a connector)  
+- "that": 0.1   (low - just a connector)
 - "mouse": 0.2  (medium - object in relative clause)
 - "hungry": 0.7 (high - predicate of "was")
 ```
@@ -180,14 +199,16 @@ Modern language models combine all previous innovations at massive scale:
 #### **Training Process**
 
 **Pre-training**:
+
 1. **Massive Datasets**: Billions of words from books, articles, websites
 2. **Self-Supervised Learning**: Predict masked or next words
 3. **Pattern Discovery**: Learn grammar, facts, reasoning patterns
 4. **Emergent Behaviors**: Complex capabilities arise from scale
 
 **Fine-tuning**:
+
 1. **Task-Specific Adaptation**: Adjust for particular applications
-2. **Human Feedback**: Align outputs with human preferences  
+2. **Human Feedback**: Align outputs with human preferences
 3. **Safety Training**: Reduce harmful or biased outputs
 4. **Instruction Following**: Learn to follow complex directions
 
@@ -283,13 +304,15 @@ Input: "Explain quantum computing"
 ## 📚 Further Exploration
 
 ### **Next Steps in Understanding**
+
 - Explore transformer architecture details
-- Study attention visualization tools  
+- Study attention visualization tools
 - Experiment with prompt engineering
 - Investigate model fine-tuning techniques
 - Learn about responsible AI development
 
 ### **Hands-On Learning**
+
 - Use pre-trained models through APIs
 - Build simple language models
 - Analyze attention patterns

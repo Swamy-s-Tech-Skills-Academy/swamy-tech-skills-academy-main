@@ -24,6 +24,7 @@
   - Evolution and future trends
 
 - `Generative-AI-Overview.md` - Understanding creative AI capabilities
+
   - Language generation
   - Visual creation
   - Code synthesis
