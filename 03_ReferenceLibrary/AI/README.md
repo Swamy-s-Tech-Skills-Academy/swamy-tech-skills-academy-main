@@ -29,6 +29,13 @@
   - Code synthesis
   - Real-world applications
 
+- `How-Language-Models-Work.md` - Deep dive into language model mechanisms
+  - Tokenization and text processing
+  - Word embeddings and semantic relationships
+  - Neural architectures (RNNs to Transformers)
+  - Attention mechanisms and context understanding
+  - Large-scale language model training
+
 ### **Learning Curricula**
 
 - `AI-Learning-Topics.md` - Individual learning modules and structured paths
