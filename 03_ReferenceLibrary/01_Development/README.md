@@ -12,14 +12,14 @@ This track provides the essential programming and software engineering foundatio
 
 ## 📚 Domains in This Track
 
-### **🐍 [Python/](Python/)** - Programming Foundation
+### **🐍 [01_Python/](01_Python/)** - Programming Foundation
 
 - **Purpose**: Python programming, libraries, and development practices
 - **Content**: Language internals, advanced concepts, best practices
 - **Foundation For**: All AI, ML, and data science implementations
 - **Key Skills**: Python mastery, library usage, code optimization
 
-### **⚙️ [software-design-principles/](software-design-principles/)** - Engineering Excellence
+### **⚙️ [02_software-design-principles/](02_software-design-principles/)** - Engineering Excellence
 
 - **Purpose**: Software architecture, design patterns, engineering practices
 - **Content**: OOP, SOLID principles, design patterns, architectural patterns
@@ -32,20 +32,20 @@ This track provides the essential programming and software engineering foundatio
 
 ### **🔰 Beginner Path**
 
-1. **Start**: `Python/` for programming fundamentals
-2. **Structure**: `software-design-principles/` for code organization
+1. **Start**: `01_Python/` for programming fundamentals
+2. **Structure**: `02_software-design-principles/` for code organization
 3. **Apply**: Use both in AI/ML/Data projects
 
 ### **🎯 Professional Development Path**
 
-- **Core Skills**: Master `Python/` for implementation excellence
-- **System Design**: Deep dive into `software-design-principles/`
+- **Core Skills**: Master `01_Python/` for implementation excellence
+- **System Design**: Deep dive into `02_software-design-principles/`
 - **Integration**: Apply principles to data and AI system architecture
 
 ### **🏗️ Architecture Path**
 
-- **Foundation**: `software-design-principles/` for system thinking
-- **Implementation**: `Python/` for proof-of-concepts and prototypes
+- **Foundation**: `02_software-design-principles/` for system thinking
+- **Implementation**: `01_Python/` for proof-of-concepts and prototypes
 - **Leadership**: Guide teams in engineering best practices
 
 ---
@@ -54,16 +54,16 @@ This track provides the essential programming and software engineering foundatio
 
 ### **→ AI and ML Track**
 
-- **AI/**: Implement AI concepts and systems
-- **MachineLearning/**: Build ML algorithms and pipelines
-- **DeepLearning/**: Develop neural network architectures
-- **NaturalLanguageProcessing/**: Create language processing systems
+- **01_AI/**: Implement AI concepts and systems
+- **02_MachineLearning/**: Build ML algorithms and pipelines
+- **03_DeepLearning/**: Develop neural network architectures
+- **04_NaturalLanguageProcessing/**: Create language processing systems
 
 ### **→ Data Science Track**
 
-- **DataScience/**: Implement statistical analyses and research
-- **DataAnalytics/**: Build analytics dashboards and reports
-- **BigData/**: Develop distributed data processing systems
+- **01_DataScience/**: Implement statistical analyses and research
+- **02_DataAnalytics/**: Build analytics dashboards and reports
+- **03_BigData/**: Develop distributed data processing systems
 
 ---
 
@@ -71,30 +71,30 @@ This track provides the essential programming and software engineering foundatio
 
 ### **AI/ML Engineer Role**
 
-- **Primary**: `Python/` for implementation
-- **Architecture**: `software-design-principles/` for scalable systems
+- **Primary**: `01_Python/` for implementation
+- **Architecture**: `02_software-design-principles/` for scalable systems
 - **Integration**: Both tracks support AI/ML system development
 
 ### **Data Engineer Role**
 
-- **Core**: `Python/` for data pipeline development
-- **Design**: `software-design-principles/` for robust data architecture
+- **Core**: `01_Python/` for data pipeline development
+- **Design**: `02_software-design-principles/` for robust data architecture
 - **Scale**: Apply engineering principles to big data systems
 
 ### **Software Architect Role**
 
-- **Foundation**: `software-design-principles/` for system design
-- **Implementation**: `Python/` for prototyping and validation
+- **Foundation**: `02_software-design-principles/` for system design
+- **Implementation**: `01_Python/` for prototyping and validation
 - **Leadership**: Guide engineering practices across teams
 
 ---
 
 ## 💡 Quick Start Tips
 
-- **New to programming?** Start with `Python/` basics
-- **Have coding experience?** Jump to `software-design-principles/`
+- **New to programming?** Start with `01_Python/` basics
+- **Have coding experience?** Jump to `02_software-design-principles/`
 - **Building AI systems?** Focus on both domains equally
-- **Leading teams?** Emphasize `software-design-principles/` for guidance
+- **Leading teams?** Emphasize `02_software-design-principles/` for guidance
 
 ---
 
@@ -102,14 +102,14 @@ This track provides the essential programming and software engineering foundatio
 
 ### **With AI/ML Projects**
 
-- Use `Python/` for model implementation
-- Apply `software-design-principles/` for system architecture
+- Use `01_Python/` for model implementation
+- Apply `02_software-design-principles/` for system architecture
 - Combine both for production-ready AI systems
 
 ### **With Data Projects**
 
-- Leverage `Python/` for data processing and analysis
-- Apply `software-design-principles/` for maintainable data pipelines
+- Leverage `01_Python/` for data processing and analysis
+- Apply `02_software-design-principles/` for maintainable data pipelines
 - Scale solutions using engineering best practices
 
 ---

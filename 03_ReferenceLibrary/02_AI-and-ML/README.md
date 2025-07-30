@@ -12,28 +12,28 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 
 ## 📚 Domains in This Track
 
-### **🤖 [AI/](AI/)** - Artificial Intelligence (Strategic Overview)
+### **🤖 [01_AI/](01_AI/)** - Artificial Intelligence (Strategic Overview)
 
 - **Purpose**: AI fundamentals, ethics, and cross-domain strategy
 - **Content**: Domain relationships, strategic overview, learning paths
 - **Start Here**: For conceptual understanding and navigation
-- **Key Files**: `AI-Domain-Relationships.md`, `Generative-AI-Overview.md`
+- **Key Files**: `01_AI-Domain-Relationships.md`, `02_Generative-AI-Overview.md`
 
-### **🧠 [MachineLearning/](MachineLearning/)** - Classical ML Algorithms
+### **🧠 [02_MachineLearning/](02_MachineLearning/)** - Classical ML Algorithms
 
 - **Purpose**: Traditional machine learning and statistical methods
 - **Content**: Supervised/unsupervised learning, model evaluation, classical approaches
 - **Prerequisites**: Basic statistics, Python programming
 - **Leads To**: Deep learning, specialized applications
 
-### **⚡ [DeepLearning/](DeepLearning/)** - Neural Networks & Advanced AI
+### **⚡ [03_DeepLearning/](03_DeepLearning/)** - Neural Networks & Advanced AI
 
 - **Purpose**: Neural networks, deep learning architectures, modern AI
 - **Content**: CNNs, RNNs, Transformers, cutting-edge architectures
 - **Prerequisites**: Machine learning fundamentals, linear algebra
 - **Enables**: Computer vision, NLP, generative AI
 
-### **🗣️ [NaturalLanguageProcessing/](NaturalLanguageProcessing/)** - Language AI
+### **🗣️ [04_NaturalLanguageProcessing/](04_NaturalLanguageProcessing/)** - Language AI
 
 - **Purpose**: Text processing, language understanding, conversational AI
 - **Content**: Language models, NLP tasks, linguistic applications
@@ -46,21 +46,21 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 
 ### **🔰 Beginner Path**
 
-1. **Start**: `AI/` for conceptual overview
-2. **Foundation**: `MachineLearning/` for core algorithms
-3. **Specialization**: Choose `DeepLearning/` or `NaturalLanguageProcessing/`
+1. **Start**: `01_AI/` for conceptual overview
+2. **Foundation**: `02_MachineLearning/` for core algorithms
+3. **Specialization**: Choose `03_DeepLearning/` or `04_NaturalLanguageProcessing/`
 
 ### **🎯 Practitioner Path**
 
-- **Current ML**: Deepen `MachineLearning/` expertise
-- **Modern AI**: Focus on `DeepLearning/` architectures
-- **Language AI**: Specialize in `NaturalLanguageProcessing/`
+- **Current ML**: Deepen `02_MachineLearning/` expertise
+- **Modern AI**: Focus on `03_DeepLearning/` architectures
+- **Language AI**: Specialize in `04_NaturalLanguageProcessing/`
 
 ### **🧠 Advanced Path**
 
-- **Research**: Latest developments in `DeepLearning/`
+- **Research**: Latest developments in `03_DeepLearning/`
 - **Applications**: Cross-domain projects combining multiple areas
-- **Leadership**: Strategic AI understanding from `AI/` perspective
+- **Leadership**: Strategic AI understanding from `01_AI/` perspective
 
 ---
 
