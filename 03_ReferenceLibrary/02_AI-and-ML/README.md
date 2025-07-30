@@ -68,21 +68,21 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 
 ### **→ Data Science Track**
 
-- **DataScience/**: Statistical foundations for ML
-- **DataAnalytics/**: Applied insights from AI models
-- **BigData/**: Infrastructure for large-scale AI
+- **01_DataScience/**: Statistical foundations for ML
+- **02_DataAnalytics/**: Applied insights from AI models
+- **03_BigData/**: Infrastructure for large-scale AI
 
 ### **→ Development Track**
 
-- **Python/**: Implementation foundation for all AI work
-- **software-design-principles/**: Building robust AI systems
+- **01_Python/**: Implementation foundation for all AI work
+- **02_software-design-principles/**: Building robust AI systems
 
 ---
 
 ## 💡 Quick Start Tips
 
-- **New to AI?** Start with `AI/AI-Domain-Relationships.md`
-- **Have ML background?** Jump to `DeepLearning/` or `NaturalLanguageProcessing/`
+- **New to AI?** Start with `01_AI/01_AI-Domain-Relationships.md`
+- **Have ML background?** Jump to `03_DeepLearning/` or `04_NaturalLanguageProcessing/`
 - **Specific project?** Use domain cross-references to find relevant content
 - **Team training?** Follow the learning progression paths
 
