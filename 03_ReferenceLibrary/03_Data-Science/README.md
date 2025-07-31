@@ -12,21 +12,21 @@ This track covers the complete data science pipeline, from scientific methodolog
 
 ## 📚 Domains in This Track
 
-### **📊 [DataScience/](DataScience/)** - Statistical Methods & Research
+### **📊 [01_DataScience/](01_DataScience/)** - Statistical Methods & Research
 
 - **Purpose**: Scientific methodology, statistical analysis, research design
 - **Content**: Experimental design, causal inference, statistical modeling
 - **Foundation For**: Evidence-based decision making, research projects
 - **Key Skills**: Hypothesis testing, statistical modeling, research methodology
 
-### **📈 [DataAnalytics/](DataAnalytics/)** - Business Intelligence & Visualization
+### **📈 [02_DataAnalytics/](02_DataAnalytics/)** - Business Intelligence & Visualization
 
 - **Purpose**: Descriptive analytics, data visualization, business intelligence
 - **Content**: Dashboards, reporting, KPIs, business metrics
 - **Applied Focus**: Practical business applications, operational insights
 - **Key Skills**: Data visualization, business metrics, dashboard design
 
-### **🌐 [BigData/](BigData/)** - Large-Scale Processing & Infrastructure
+### **🌐 [03_BigData/](03_BigData/)** - Large-Scale Processing & Infrastructure
 
 - **Purpose**: Distributed computing, data pipelines, scalable infrastructure
 - **Content**: Apache Spark, Hadoop, streaming, enterprise data platforms
@@ -39,27 +39,27 @@ This track covers the complete data science pipeline, from scientific methodolog
 
 ### **🔰 Beginner Path**
 
-1. **Start**: `DataAnalytics/` for practical applications
-2. **Foundation**: `DataScience/` for statistical rigor
-3. **Scale**: `BigData/` for enterprise applications
+1. **Start**: `02_DataAnalytics/` for practical applications
+2. **Foundation**: `01_DataScience/` for statistical rigor
+3. **Scale**: `03_BigData/` for enterprise applications
 
 ### **🎯 Business Analyst Path**
 
-- **Focus**: `DataAnalytics/` for immediate business value
-- **Support**: `DataScience/` for methodology and validation
-- **Growth**: `BigData/` for handling larger datasets
+- **Focus**: `02_DataAnalytics/` for immediate business value
+- **Support**: `01_DataScience/` for methodology and validation
+- **Growth**: `03_BigData/` for handling larger datasets
 
 ### **🧪 Research Scientist Path**
 
-- **Core**: `DataScience/` for rigorous methodology
-- **Application**: `DataAnalytics/` for communicating insights
-- **Infrastructure**: `BigData/` for large-scale experiments
+- **Core**: `01_DataScience/` for rigorous methodology
+- **Application**: `02_DataAnalytics/` for communicating insights
+- **Infrastructure**: `03_BigData/` for large-scale experiments
 
 ### **🏗️ Data Engineer Path**
 
-- **Foundation**: `BigData/` for infrastructure expertise
-- **Context**: `DataScience/` for understanding requirements
-- **Delivery**: `DataAnalytics/` for end-user applications
+- **Foundation**: `03_BigData/` for infrastructure expertise
+- **Context**: `01_DataScience/` for understanding requirements
+- **Delivery**: `02_DataAnalytics/` for end-user applications
 
 ---
 
@@ -67,14 +67,14 @@ This track covers the complete data science pipeline, from scientific methodolog
 
 ### **→ AI and ML Track**
 
-- **AI/**: Strategic context for data-driven AI
-- **MachineLearning/**: Statistical learning algorithms
-- **DeepLearning/**: Advanced analytics and neural networks
+- **01_AI/**: Strategic context for data-driven AI
+- **02_MachineLearning/**: Statistical learning algorithms
+- **03_DeepLearning/**: Advanced analytics and neural networks
 
 ### **→ Development Track**
 
-- **Python/**: Implementation foundation for data processing
-- **software-design-principles/**: Building scalable data systems
+- **01_Python/**: Implementation foundation for data processing
+- **02_software-design-principles/**: Building scalable data systems
 
 ---
 
@@ -82,29 +82,29 @@ This track covers the complete data science pipeline, from scientific methodolog
 
 ### **Data Scientist Role**
 
-- Primary: `DataScience/` methodology
-- Applied: `DataAnalytics/` communication
-- Infrastructure: `BigData/` for scale
+- Primary: `01_DataScience/` methodology
+- Applied: `02_DataAnalytics/` communication
+- Infrastructure: `03_BigData/` for scale
 
 ### **Business Analyst Role**
 
-- Primary: `DataAnalytics/` applications
-- Foundation: `DataScience/` validation
-- Growth: `BigData/` capabilities
+- Primary: `02_DataAnalytics/` applications
+- Foundation: `01_DataScience/` validation
+- Growth: `03_BigData/` capabilities
 
 ### **Data Engineer Role**
 
-- Primary: `BigData/` infrastructure
-- Context: `DataScience/` requirements
-- Delivery: `DataAnalytics/` outputs
+- Primary: `03_BigData/` infrastructure
+- Context: `01_DataScience/` requirements
+- Delivery: `02_DataAnalytics/` outputs
 
 ---
 
 ## 💡 Quick Start Tips
 
-- **Business focus?** Start with `DataAnalytics/`
-- **Research background?** Begin with `DataScience/`
-- **Engineering role?** Jump to `BigData/`
+- **Business focus?** Start with `02_DataAnalytics/`
+- **Research background?** Begin with `01_DataScience/`
+- **Engineering role?** Jump to `03_BigData/`
 - **Complete pipeline?** Follow beginner path progression
 
 ---

@@ -12,6 +12,13 @@ Deep Learning focuses on neural networks with multiple layers that can learn com
 
 ## 📚 Core Topics
 
+### **🔧 Foundational Architectures**
+
+- **[01_Transformer-Architecture.md](01_Transformer-Architecture.md)** - The revolutionary architecture behind modern AI
+- Convolutional Neural Networks (CNNs) for image processing
+- Recurrent Neural Networks (RNNs, LSTMs, GRUs) for sequences
+- Generative models (GANs, VAEs, Diffusion Models)
+
 ### **Neural Network Fundamentals**
 
 - Perceptrons and multilayer networks
@@ -21,11 +28,10 @@ Deep Learning focuses on neural networks with multiple layers that can learn com
 
 ### **Advanced Architectures**
 
-- Convolutional Neural Networks (CNNs)
-- Recurrent Neural Networks (RNNs, LSTMs, GRUs)
-- Transformer architecture and attention mechanisms
-- Generative models (GANs, VAEs, Diffusion Models)
 - Graph Neural Networks and specialized architectures
+- Vision Transformers and multimodal models
+- Attention mechanisms and self-supervised learning
+- Modern architectural innovations
 
 ### **Training and Optimization**
 
@@ -41,27 +47,27 @@ Deep Learning focuses on neural networks with multiple layers that can learn com
 
 ### **Prerequisites**
 
-- `MachineLearning/` - Basic ML algorithms and concepts
-- `Python/` - Programming and numerical computing
+- `02_MachineLearning/` - Basic ML algorithms and concepts
+- `01_Python/` - Programming and numerical computing
 - Mathematical foundations (linear algebra, calculus)
 
 ### **Builds Upon**
 
-- `AI/` - Artificial intelligence concepts
-- `DataScience/` - Statistical modeling approaches
+- `01_AI/` - Artificial intelligence concepts
+- `01_DataScience/` - Statistical modeling approaches
 
 ### **Enables**
 
-- `NaturalLanguageProcessing/` - Language models and text processing
+- `04_NaturalLanguageProcessing/` - Language models and text processing
 - Computer vision applications
 - Generative AI systems and creative applications
 - Autonomous systems and robotics
 
 ### **Cross-References**
 
-- See `AI/How-Language-Models-Work.md` for transformer details
-- See `MachineLearning/` for foundational algorithms
-- See `NaturalLanguageProcessing/` for language applications
+- See `01_AI/How-Language-Models-Work.md` for transformer applications
+- See `02_MachineLearning/` for foundational algorithms
+- See `04_NaturalLanguageProcessing/` for language applications
 
 ---
 
@@ -83,7 +89,7 @@ Deep Learning focuses on neural networks with multiple layers that can learn com
 
 ### **Advanced Track**
 
-1. Transformer architecture and self-attention
+1. **Transformer architecture** - Study `01_Transformer-Architecture.md` for foundation model understanding
 2. Generative models and GANs
 3. Advanced optimization and training techniques
 4. Research frontiers and custom architectures
