@@ -47,6 +47,13 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 - **Prerequisites**: API development, AI application understanding
 - **Practical Bridge**: Transform AI concepts into production-ready systems
 
+### **🤖 [06_AI-Agents/](06_AI-Agents/)** - Autonomous AI Systems
+
+- **Purpose**: Goal-oriented AI that can plan, reason, and take autonomous actions
+- **Content**: Agent architectures, multi-agent systems, agentic AI frameworks
+- **Prerequisites**: AI fundamentals, LLM understanding, programming experience
+- **Application Focus**: Building autonomous AI systems for complex workflows
+
 ---
 
 ## 🚀 Learning Progression
@@ -63,12 +70,14 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 - **Modern AI**: Focus on `03_DeepLearning/` architectures
 - **Language AI**: Specialize in `04_NaturalLanguageProcessing/`
 - **System Integration**: Master `05_MCP-Servers/` for production AI
+- **Autonomous Systems**: Develop `06_AI-Agents/` for intelligent automation
 
 ### **🧠 Advanced Path**
 
 - **Research**: Latest developments in `03_DeepLearning/`
 - **Applications**: Cross-domain projects combining multiple areas
 - **Production Systems**: Advanced `05_MCP-Servers/` patterns and deployment
+- **Agentic AI**: Sophisticated `06_AI-Agents/` architectures and multi-agent systems
 - **Leadership**: Strategic AI understanding from `01_AI/` perspective
 
 ---
@@ -94,6 +103,7 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 - **Want the big picture?** Read `01_AI/01_AI-Domain-Relationships.md` first
 - **Have ML background?** Jump to `03_DeepLearning/` or `04_NaturalLanguageProcessing/`
 - **Building AI systems?** Focus on `05_MCP-Servers/` for production integration
+- **Want autonomous AI?** Explore `06_AI-Agents/` for goal-oriented systems
 - **Specific project?** Use domain cross-references to find relevant content
 - **Team training?** Follow the learning progression paths
 
