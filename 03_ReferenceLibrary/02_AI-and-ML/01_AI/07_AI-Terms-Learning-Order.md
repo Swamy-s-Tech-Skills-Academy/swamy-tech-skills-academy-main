@@ -155,14 +155,6 @@ Generative AI = AI that creates new content rather than just analyzing existing 
 **Time**: 2-3 weeks
 **Why After NLP**: Language models are the core technology behind modern NLP
 
-```
-#### **12. LM (Language Models) - Language Generation Systems**
-
-**What**: AI systems trained to understand and generate text
-**Learn**: Transformer architecture, attention mechanisms
-**Time**: 2-3 weeks
-**Why After NLP**: Language models are the core technology behind modern NLP
-
 ```text
 LM = AI systems that understand and generate text
 ```
@@ -223,7 +215,7 @@ Agentic AI = AI agents with advanced reasoning and planning capabilities
 
 ## 📈 Learning Progression Visualization
 
-```
+```text
 Level 1: FOUNDATION
    AI ────→ ML
     │        │
@@ -359,37 +351,37 @@ Foundation:       [ NN ] [ ML ] [ AI ]
 
 ## 📚 Learning Resources by Level
 
-### **Foundation Level**
+### **Foundation Level Resources**
 
 - **Track**: `01_AI/` → `02_MachineLearning/`
 - **Time**: 5-7 weeks total
 - **Focus**: Concepts, basic algorithms, understanding
 
-### **Core Technology Level**
+### **Core Technology Level Resources**
 
 - **Track**: `03_DeepLearning/`
 - **Time**: 12-18 weeks total
 - **Focus**: Neural networks, specialized architectures, modern frameworks
 
-### **Advanced Architecture Level**
+### **Advanced Architecture Level Resources**
 
 - **Resources**: Advanced DeepLearning content
 - **Time**: 10-15 weeks total
 - **Focus**: Transformers, GANs, attention mechanisms
 
-### **Specialization Level**
+### **Specialization Level Resources**
 
 - **Track**: `04_NaturalLanguageProcessing/`
 - **Time**: 8-12 weeks total
 - **Focus**: Language processing, generative AI, text models
 
-### **Modern AI Level**
+### **Modern AI Level Resources**
 
 - **Resources**: Advanced content in NLP and DeepLearning tracks
 - **Time**: 5-8 weeks total
 - **Focus**: Large models, efficiency, deployment
 
-### **Application Level**
+### **Application Level Resources**
 
 - **Track**: `05_MCP-Servers/` for system integration
 - **Time**: 6-10 weeks total
