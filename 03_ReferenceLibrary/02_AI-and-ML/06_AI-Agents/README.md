@@ -46,7 +46,22 @@ Simple Chatbot → Task-Oriented Agent → Multi-Agent System → Agentic AI
 
 ---
 
-## 📚 Learning Progression
+## � Quick Reference
+
+### **📚 [ABC of Agentic AI - Complete Glossary](ABC_AGENTIC_AI_GLOSSARY.md)**
+
+Your comprehensive A-Z reference for all Agentic AI concepts! This glossary includes:
+
+- **Complete Definitions**: Clear explanations for every term from Agentic AI to Zero-Shot Reasoning
+- **Practical Examples**: Working code implementations for key concepts
+- **Cross-References**: Integration with all learning modules
+- **Quick Lookup**: Organized by concept type for rapid reference
+
+**💡 Pro Tip**: Bookmark this glossary and reference it throughout your learning journey!
+
+---
+
+## �📚 Learning Progression
 
 ### **Foundation Phase** (4-5 hours)
 
