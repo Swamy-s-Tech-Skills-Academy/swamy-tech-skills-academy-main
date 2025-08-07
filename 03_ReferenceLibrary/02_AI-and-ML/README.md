@@ -40,6 +40,13 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 - **Prerequisites**: Machine learning, basic linguistics
 - **Specialization**: Human language processing and generation
 
+### **🔗 [05_MCP-Servers/](05_MCP-Servers/)** - AI System Integration
+
+- **Purpose**: Model Context Protocol for connecting AI with external systems
+- **Content**: Server development, client integration, production deployment
+- **Prerequisites**: API development, AI application understanding
+- **Practical Bridge**: Transform AI concepts into production-ready systems
+
 ---
 
 ## 🚀 Learning Progression
@@ -55,11 +62,13 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 - **Current ML**: Deepen `02_MachineLearning/` expertise
 - **Modern AI**: Focus on `03_DeepLearning/` architectures
 - **Language AI**: Specialize in `04_NaturalLanguageProcessing/`
+- **System Integration**: Master `05_MCP-Servers/` for production AI
 
 ### **🧠 Advanced Path**
 
 - **Research**: Latest developments in `03_DeepLearning/`
 - **Applications**: Cross-domain projects combining multiple areas
+- **Production Systems**: Advanced `05_MCP-Servers/` patterns and deployment
 - **Leadership**: Strategic AI understanding from `01_AI/` perspective
 
 ---
@@ -83,11 +92,12 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 
 - **New to AI?** Start with `01_AI/01_AI-Domain-Relationships.md`
 - **Have ML background?** Jump to `03_DeepLearning/` or `04_NaturalLanguageProcessing/`
+- **Building AI systems?** Focus on `05_MCP-Servers/` for production integration
 - **Specific project?** Use domain cross-references to find relevant content
 - **Team training?** Follow the learning progression paths
 
 ---
 
-**📅 Last Updated**: July 2025  
-**🎯 Focus**: Complete AI and ML learning ecosystem  
+**📅 Last Updated**: August 2025  
+**🎯 Focus**: Complete AI and ML learning ecosystem with production integration  
 **📍 Position**: Core track for artificial intelligence mastery
