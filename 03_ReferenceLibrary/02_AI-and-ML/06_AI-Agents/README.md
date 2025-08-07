@@ -20,6 +20,10 @@ By completing this track, you'll understand how to create:
 - **Tool-using agents** that interact with external systems
 - **Production-ready agent architectures** for enterprise applications
 
+### **🗺️ Industry Alignment**
+
+This track is aligned with the **[Agentic AI Roadmap 2025](AGENTIC_AI_ROADMAP_2025_INTEGRATION.md)**, covering all essential components from programming foundations to enterprise deployment. See our comprehensive integration guide for detailed technology stack mapping and skill progression paths.
+
 ---
 
 ## 🏗️ Learning Architecture
