@@ -79,6 +79,7 @@ _Perfect for: Software engineers, system architects, and anyone building technic
 
 ### **📊 Key Resources**
 
+- **AI Learning Roadmap**: **[02_AI-and-ML/01_AI/07_AI-Terms-Learning-Order.md](02_AI-and-ML/01_AI/07_AI-Terms-Learning-Order.md)**
 - **AI Relationship Diagrams**: **[02_AI-and-ML/01_AI/01_AI-Domain-Relationships.md](02_AI-and-ML/01_AI/01_AI-Domain-Relationships.md)**
 - **Learning Curricula**: **[02_AI-and-ML/01_AI/02_AI-Learning-Topics.md](02_AI-and-ML/01_AI/02_AI-Learning-Topics.md)**
 - **MCP Integration Guide**: **[02_AI-and-ML/05_MCP-Servers/01_MCP-Fundamentals.md](02_AI-and-ML/05_MCP-Servers/01_MCP-Fundamentals.md)**

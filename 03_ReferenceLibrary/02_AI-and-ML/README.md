@@ -90,7 +90,8 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 
 ## 💡 Quick Start Tips
 
-- **New to AI?** Start with `01_AI/01_AI-Domain-Relationships.md`
+- **New to AI?** Start with `01_AI/07_AI-Terms-Learning-Order.md` for the complete roadmap
+- **Want the big picture?** Read `01_AI/01_AI-Domain-Relationships.md` first
 - **Have ML background?** Jump to `03_DeepLearning/` or `04_NaturalLanguageProcessing/`
 - **Building AI systems?** Focus on `05_MCP-Servers/` for production integration
 - **Specific project?** Use domain cross-references to find relevant content
