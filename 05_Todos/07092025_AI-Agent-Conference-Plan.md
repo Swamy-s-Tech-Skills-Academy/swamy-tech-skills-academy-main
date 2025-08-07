@@ -2,7 +2,7 @@
 
 ## 🎯 **Conference Theme**
 
-_"From Transformers to Agentic AI – Building the Next Generation of Intelligent Systems"_
+**Theme**: "From Transformers to Agentic AI – Building the Next Generation of Intelligent Systems"
 
 **Vision**: Guide attendees through the evolution of intelligent systems — from foundational concepts like Transformers to the cutting edge of Agentic AI.
 
@@ -94,24 +94,25 @@ _"From Transformers to Agentic AI – Building the Next Generation of Intelligen
 
 ### **Interactive Learning Sessions:**
 
-1. **Prompt Engineering Playground**
+#### 1. Prompt Engineering Playground
 
-   - Platforms: OpenAI, HuggingFace
-   - Hands-on prompt optimization
+- Platforms: OpenAI, HuggingFace
+- Hands-on prompt optimization
 
-2. **Build Your First RAG App**
+#### 2. Build Your First RAG App
 
-   - Tools: LangChain or Semantic Kernel
-   - Enterprise document Q&A system
+- Tools: LangChain or Semantic Kernel
+- Enterprise document Q&A system
 
-3. **Create Multi-Agent Conversations**
+#### 3. Create Multi-Agent Conversations
 
-   - Frameworks: CrewAI or Autogen
-   - Agent collaboration scenarios
+- Frameworks: CrewAI or Autogen
+- Agent collaboration scenarios
 
-4. **AI Evaluation Workshop**
-   - Tool: TruLens
-   - Hallucination detection and accuracy measurement
+#### 4. AI Evaluation Workshop
+
+- Tool: TruLens
+- Hallucination detection and accuracy measurement
 
 ---
 
@@ -151,19 +152,20 @@ _"From Transformers to Agentic AI – Building the Next Generation of Intelligen
 
 ### **Conference Planning Tools:**
 
-1. **Notion-based Planning Template**
+#### 1. Notion-based Planning Template
 
-   - Session planning, speaker coordination
-   - Timeline and milestone tracking
+- Session planning, speaker coordination
+- Timeline and milestone tracking
 
-2. **GitHub Pages Conference Site**
+#### 2. GitHub Pages Conference Site
 
-   - Public-facing conference information
-   - Registration and session details
+- Public-facing conference information
+- Registration and session details
 
-3. **Workshop Repository**
-   - Code examples and lab materials
-   - Setup instructions and prerequisites
+#### 3. Workshop Repository
+
+- Code examples and lab materials
+- Setup instructions and prerequisites
 
 ---
 

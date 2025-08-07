@@ -1,6 +1,6 @@
 # 🤖 AI and Machine Learning Track
 
-**Core artificial intelligence and machine learning domains**
+## Core artificial intelligence and machine learning domains
 
 ---
 
