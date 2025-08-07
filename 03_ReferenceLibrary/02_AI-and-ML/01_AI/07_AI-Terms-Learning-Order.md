@@ -26,7 +26,7 @@ By the end of this guide, you will:
 **Time**: 1-2 weeks
 **Why First**: You need the big picture before diving into specifics
 
-```
+```text
 AI = The goal of making machines think and act intelligently
 ```
 
@@ -37,7 +37,7 @@ AI = The goal of making machines think and act intelligently
 **Time**: 2-3 weeks
 **Why Next**: ML is the foundation for almost everything else
 
-```
+```text
 ML = Teaching machines to learn patterns from data
 ```
 
@@ -52,7 +52,7 @@ ML = Teaching machines to learn patterns from data
 **Time**: 2-3 weeks
 **Why Here**: Foundation for deep learning and modern AI
 
-```
+```text
 NN = Computer networks that mimic how brain neurons work
 ```
 
@@ -63,7 +63,7 @@ NN = Computer networks that mimic how brain neurons work
 **Time**: 3-4 weeks
 **Why After NN**: Deep learning is just "deeper" neural networks
 
-```
+```text
 Deep Learning = Neural networks with many layers (3+ hidden layers)
 ```
 
@@ -74,7 +74,7 @@ Deep Learning = Neural networks with many layers (3+ hidden layers)
 **Time**: 2-3 weeks
 **Why Here**: Key deep learning architecture for visual data
 
-```
+```text
 CNN = Neural networks designed to understand images and spatial data
 ```
 
@@ -85,7 +85,7 @@ CNN = Neural networks designed to understand images and spatial data
 **Time**: 2-3 weeks
 **Why After CNN**: Different architecture for time-series and sequential data
 
-```
+```text
 RNN/LSTM = Neural networks that can remember and process sequences
 ```
 
@@ -96,7 +96,7 @@ RNN/LSTM = Neural networks that can remember and process sequences
 **Time**: 2-3 weeks
 **Why Here**: Foundation for advanced architectures like Transformers
 
-```
+```text
 Encoders/Decoders = Systems that compress information and reconstruct it
 ```
 
@@ -107,7 +107,7 @@ Encoders/Decoders = Systems that compress information and reconstruct it
 **Time**: 3-4 weeks
 **Why After Encoders**: Transformers are advanced encoder-decoder systems
 
-```
+```text
 Transformers = Neural networks using attention to process sequences in parallel
 ```
 
@@ -118,7 +118,7 @@ Transformers = Neural networks using attention to process sequences in parallel
 **Time**: 2-3 weeks
 **Why Here**: Important generative approach before modern language models
 
-```
+```text
 GAN = Two AI systems competing - one creates, one judges authenticity
 ```
 
@@ -133,7 +133,7 @@ GAN = Two AI systems competing - one creates, one judges authenticity
 **Time**: 3-4 weeks
 **Why Here**: Builds on ML and Deep Learning foundations
 
-```
+```text
 NLP = Teaching machines to understand human language
 ```
 
@@ -144,7 +144,7 @@ NLP = Teaching machines to understand human language
 **Time**: 2-3 weeks
 **Why After Transformers/GAN**: Combines multiple generative approaches
 
-```
+```text
 Generative AI = AI that creates new content rather than just analyzing existing data
 ```
 
@@ -163,10 +163,8 @@ Generative AI = AI that creates new content rather than just analyzing existing 
 **Time**: 2-3 weeks
 **Why After NLP**: Language models are the core technology behind modern NLP
 
-```
-
+```text
 LM = AI systems that understand and generate text
-
 ```
 
 ---
@@ -180,10 +178,8 @@ LM = AI systems that understand and generate text
 **Time**: 2-3 weeks
 **Why After LM**: LLMs are just very large, powerful language models
 
-```
-
+```text
 LLM = Language models trained on massive datasets (billions+ parameters)
-
 ```
 
 #### **14. SLM (Small Language Models) - Efficient Language AI**
@@ -193,10 +189,8 @@ LLM = Language models trained on massive datasets (billions+ parameters)
 **Time**: 1-2 weeks
 **Why With LLM**: Understand both ends of the size spectrum
 
-```
-
+```text
 SLM = Smaller, efficient language models for specific use cases
-
 ```
 
 ---
@@ -210,64 +204,18 @@ SLM = Smaller, efficient language models for specific use cases
 **Time**: 2-3 weeks
 **Why After LLMs**: Agents often use LLMs as their "brain"
 
-```
-
+```text
 AI Agent = AI that can plan, reason, and take actions autonomously
-
 ```
 
 #### **16. Agentic AI - Advanced Autonomous Systems**
-```
-
----
-
-### **Modern AI Level**
-
-#### **7. LLM (Large Language Models) - Powerful Language AI**
-
-**What**: Very large language models like GPT, Claude, etc.
-**Learn**: Transformer architecture, training at scale, capabilities
-**Time**: 2-3 weeks
-**Why After LM**: LLMs are just very large, powerful language models
-
-```
-LLM = Language models trained on massive datasets (billions+ parameters)
-```
-
-#### **8. SLM (Small Language Models) - Efficient Language AI**
-
-**What**: Smaller, efficient language models for specific tasks
-**Learn**: Model compression, fine-tuning, edge deployment
-**Time**: 1-2 weeks
-**Why With LLM**: Understand both ends of the size spectrum
-
-```
-SLM = Smaller, efficient language models for specific use cases
-```
-
----
-
-### **Application Level**
-
-#### **9. AI Agent - Autonomous AI Systems**
-
-**What**: AI systems that can take actions to achieve goals
-**Learn**: Goal-oriented behavior, tool use, reasoning
-**Time**: 2-3 weeks
-**Why After LLMs**: Agents often use LLMs as their "brain"
-
-```
-AI Agent = AI that can plan, reason, and take actions autonomously
-```
-
-#### **10. Agentic AI - Advanced Autonomous Systems**
 
 **What**: AI systems with sophisticated reasoning and multi-step planning
 **Learn**: Multi-agent systems, reasoning frameworks, complex workflows
 **Time**: 3-4 weeks
 **Why Last**: Most advanced form combining all previous concepts
 
-```
+```text
 Agentic AI = AI agents with advanced reasoning and planning capabilities
 ```
 
@@ -317,7 +265,7 @@ Level 6: APPLICATIONS
 
 ### **Path 1: Complete Academic Track (45-55 weeks)**
 
-```
+```text
 AI → ML → NN → Deep Learning → CNN → RNN/LSTM → 
 Encoders/Decoders → Transformers → GAN → NLP → 
 Generative AI → LM → LLM → AI Agent → Agentic AI
@@ -328,7 +276,7 @@ Generative AI → LM → LLM → AI Agent → Agentic AI
 
 ### **Path 2: Modern AI Professional Track (25-30 weeks)**
 
-```
+```text
 AI → ML → NN → Deep Learning → Transformers → 
 NLP → Generative AI → LLM → AI Agent
 ```
@@ -338,7 +286,7 @@ NLP → Generative AI → LLM → AI Agent
 
 ### **Path 3: Practical Implementation Track (20-25 weeks)**
 
-```
+```text
 AI basics → ML fundamentals → Deep Learning → 
 Transformers → LLM → AI Agent development
 ```
@@ -361,7 +309,7 @@ Transformers → LLM → AI Agent development
 
 #### **Architecture evolution builds progressively**
 
-```
+```text
 NN (basic) → 
 Deep Learning (deeper networks) → 
 CNN (spatial data) + RNN/LSTM (sequential data) → 
@@ -371,7 +319,7 @@ Transformers (attention-based) + GAN (adversarial training)
 
 #### **Language AI builds on these foundations**
 
-```
+```text
 NLP (basic text processing) → 
 Generative AI (content creation) → 
 LM (text generation) → 
@@ -380,14 +328,14 @@ LLM (powerful text AI) ←→ SLM (efficient text AI)
 
 #### **Agents represent the application layer**
 
-```
+```text
 AI Agent = LLM + Planning + Tool Use + Actions
 Agentic AI = Advanced AI Agent + Multi-step Reasoning + Complex Goals
 ```
 
 ### **Technology Stack View**
 
-```
+```text
 Applications:     [ Agentic AI ]  [ AI Agent ]
                         │              │
 Language Layer:   [ LLM ]  ←→  [ SLM ]  │
