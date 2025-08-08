@@ -54,7 +54,7 @@ By completion, you will:
 
 #### **Module 1.1: Agent Fundamentals**
 
-📖 *[01_AI-Agent-Fundamentals.md](01_AI-Agent-Fundamentals.md)*
+📖 *[03_AI-Agent-Fundamentals.md](03_AI-Agent-Fundamentals.md)*
 
 **Learning Focus**: Understanding what makes AI "agentic"
 
@@ -83,7 +83,7 @@ class FoundationalAgent:
 
 #### **Module 1.2: Development Fundamentals**
 
-📖 *[03_Agent-Development-Fundamentals.md](03_Agent-Development-Fundamentals.md)*
+📖 *[05_Agent-Development-Fundamentals.md](05_Agent-Development-Fundamentals.md)*
 
 **Learning Focus**: Building your first practical agents
 
@@ -122,7 +122,7 @@ By completion, you will:
 
 #### **Module 2.1: Architecture Patterns**
 
-📖 *[02_Agent-Architectures-Patterns.md](02_Agent-Architectures-Patterns.md)*
+📖 *[04_Agent-Architectures-Patterns.md](04_Agent-Architectures-Patterns.md)*
 
 **Learning Focus**: Designing intelligent agent systems
 
@@ -160,7 +160,7 @@ class AdvancedAgentArchitecture:
 
 #### **Module 2.2: Multi-Agent Systems**
 
-📖 *[04_Multi-Agent-Systems.md](04_Multi-Agent-Systems.md)*
+📖 *[06_Multi-Agent-Systems.md](06_Multi-Agent-Systems.md)*
 
 **Learning Focus**: Orchestrating teams of AI agents
 
@@ -202,7 +202,7 @@ By completion, you will:
 
 #### **Module 3.1: Advanced Systems**
 
-📖 *[05_Agentic-AI-Advanced-Systems.md](05_Agentic-AI-Advanced-Systems.md)*
+📖 *[07_Agentic-AI-Advanced-Systems.md](07_Agentic-AI-Advanced-Systems.md)*
 
 **Learning Focus**: Cutting-edge capabilities and techniques
 
@@ -240,7 +240,7 @@ class SelfImprovingAgentSystem:
 
 #### **Module 3.2: Production Deployment**
 
-📖 *[06_Agent-Production-Deployment.md](06_Agent-Production-Deployment.md)*
+📖 *[08_Agent-Production-Deployment.md](08_Agent-Production-Deployment.md)*
 
 **Learning Focus**: Enterprise-ready agent systems
 

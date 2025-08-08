@@ -1,4 +1,4 @@
-# 04_Multi-Agent-Systems
+# 06_Multi-Agent-Systems
 
 **Learning Level**: Intermediate to Advanced  
 **Prerequisites**: AI Agent fundamentals, agent development experience  
@@ -54,14 +54,14 @@ This comprehensive module will cover:
 
 ### **Prerequisites**
 
-- **[01_AI-Agent-Fundamentals.md](01_AI-Agent-Fundamentals.md)** - Core agent concepts
-- **[02_Agent-Architectures-Patterns.md](02_Agent-Architectures-Patterns.md)** - Individual agent patterns
-- **[03_Agent-Development-Fundamentals.md](03_Agent-Development-Fundamentals.md)** - Practical agent building
+- **[03_AI-Agent-Fundamentals.md](03_AI-Agent-Fundamentals.md)** - Core agent concepts
+- **[04_Agent-Architectures-Patterns.md](04_Agent-Architectures-Patterns.md)** - Individual agent patterns
+- **[05_Agent-Development-Fundamentals.md](05_Agent-Development-Fundamentals.md)** - Practical agent building
 
 ### **Next Steps**
 
-- **[05_Agentic-AI-Advanced-Systems.md](05_Agentic-AI-Advanced-Systems.md)** - Advanced reasoning systems
-- **[06_Agent-Production-Deployment.md](06_Agent-Production-Deployment.md)** - Production deployment
+- **[07_Agentic-AI-Advanced-Systems.md](07_Agentic-AI-Advanced-Systems.md)** - Advanced reasoning systems
+- **[08_Agent-Production-Deployment.md](08_Agent-Production-Deployment.md)** - Production deployment
 
 ---
 

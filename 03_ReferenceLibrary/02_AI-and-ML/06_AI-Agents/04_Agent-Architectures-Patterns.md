@@ -1,4 +1,4 @@
-# 02_Agent-Architectures-Patterns
+# 04_Agent-Architectures-Patterns
 
 **Learning Level**: Intermediate to Advanced  
 **Prerequisites**: Understanding of AI Agent fundamentals, basic software architecture  

@@ -710,9 +710,9 @@ Tool Orchestration (Advanced Integration)
 **📚 Next Learning Steps**:
 
 - **Foundational**: Review AI fundamentals in `01_AI/` directory
-- **Implementation**: Explore development patterns in `03_Agent-Development-Fundamentals.md`
-- **Architecture**: Study system design in `02_Agent-Architectures-Patterns.md`
-- **Advanced Systems**: Progress to `05_Agentic-AI-Advanced-Systems.md`
+- **Implementation**: Explore development patterns in `05_Agent-Development-Fundamentals.md`
+- **Architecture**: Study system design in `04_Agent-Architectures-Patterns.md`
+- **Advanced Systems**: Progress to `07_Agentic-AI-Advanced-Systems.md`
 
 ---
 

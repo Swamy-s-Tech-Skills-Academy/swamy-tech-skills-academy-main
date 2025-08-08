@@ -1,4 +1,4 @@
-# 01_AI-Agent-Fundamentals
+# 03_AI-Agent-Fundamentals
 
 **Learning Level**: Intermediate  
 **Prerequisites**: Understanding of LLMs, basic AI concepts, and API interactions  
@@ -389,12 +389,12 @@ def prioritize_tasks(tasks, calendar_events, user_preferences):
 
 ### **Related**
 
-- **[02_Agent-Architectures-Patterns.md](02_Agent-Architectures-Patterns.md)** - Detailed architectural patterns for agents
-- **[03_Agent-Development-Fundamentals.md](03_Agent-Development-Fundamentals.md)** - Hands-on agent development
+- **[04_Agent-Architectures-Patterns.md](04_Agent-Architectures-Patterns.md)** - Detailed architectural patterns for agents
+- **[05_Agent-Development-Fundamentals.md](05_Agent-Development-Fundamentals.md)** - Hands-on agent development
 
 ### **Advanced**
 
-- **[04_Multi-Agent-Systems.md](04_Multi-Agent-Systems.md)** - Multi-agent collaboration and coordination
+- **[06_Multi-Agent-Systems.md](06_Multi-Agent-Systems.md)** - Multi-agent collaboration and coordination
 - **[05_Agentic-AI-Advanced-Systems.md](05_Agentic-AI-Advanced-Systems.md)** - Sophisticated reasoning and planning
 
 ---

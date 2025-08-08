@@ -1,4 +1,4 @@
-# 05_Agentic-AI-Advanced-Systems
+# 07_Agentic-AI-Advanced-Systems
 
 **Learning Level**: Advanced  
 **Prerequisites**: Multi-agent systems, production deployment experience  
