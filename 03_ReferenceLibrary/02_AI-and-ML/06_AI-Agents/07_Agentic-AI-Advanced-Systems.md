@@ -613,10 +613,10 @@ class AgenticAISafetyFramework:
 
 ### **Prerequisites**
 
-- **[01_AI-Agent-Fundamentals.md](01_AI-Agent-Fundamentals.md)** - Core agent concepts
-- **[02_Agent-Architectures-Patterns.md](02_Agent-Architectures-Patterns.md)** - Architectural foundations
-- **[03_Agent-Development-Fundamentals.md](03_Agent-Development-Fundamentals.md)** - Implementation skills
-- **[04_Multi-Agent-Systems.md](04_Multi-Agent-Systems.md)** - Multi-agent coordination
+- **[03_AI-Agent-Fundamentals.md](03_AI-Agent-Fundamentals.md)** - Core agent concepts
+- **[04_Agent-Architectures-Patterns.md](04_Agent-Architectures-Patterns.md)** - Architectural foundations
+- **[05_Agent-Development-Fundamentals.md](05_Agent-Development-Fundamentals.md)** - Implementation skills
+- **[06_Multi-Agent-Systems.md](06_Multi-Agent-Systems.md)** - Multi-agent coordination
 
 ### **Integration Points**
 
@@ -626,7 +626,7 @@ class AgenticAISafetyFramework:
 
 ### **Advanced Applications**
 
-- **[06_Agent-Production-Deployment.md](06_Agent-Production-Deployment.md)** - Enterprise deployment strategies
+- **[08_Agent-Production-Deployment.md](08_Agent-Production-Deployment.md)** - Enterprise deployment strategies
 
 ---
 
@@ -656,13 +656,13 @@ class AgenticAISafetyFramework:
 
 ### **Prerequisites**
 
-- **[01_AI-Agent-Fundamentals.md](01_AI-Agent-Fundamentals.md)** - Foundation concepts
-- **[04_Multi-Agent-Systems.md](04_Multi-Agent-Systems.md)** - Multi-agent coordination
+- **[03_AI-Agent-Fundamentals.md](03_AI-Agent-Fundamentals.md)** - Foundation concepts
+- **[06_Multi-Agent-Systems.md](06_Multi-Agent-Systems.md)** - Multi-agent coordination
 - **[../01_AI/03_AI-Fundamentals-Overview.md](../01_AI/03_AI-Fundamentals-Overview.md)** - Advanced AI concepts
 
 ### **Next Steps**
 
-- **[06_Agent-Production-Deployment.md](06_Agent-Production-Deployment.md)** - Production considerations for advanced systems
+- **[08_Agent-Production-Deployment.md](08_Agent-Production-Deployment.md)** - Production considerations for advanced systems
 
 ---
 

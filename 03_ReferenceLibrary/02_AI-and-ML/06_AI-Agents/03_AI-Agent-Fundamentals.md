@@ -395,7 +395,7 @@ def prioritize_tasks(tasks, calendar_events, user_preferences):
 ### **Advanced**
 
 - **[06_Multi-Agent-Systems.md](06_Multi-Agent-Systems.md)** - Multi-agent collaboration and coordination
-- **[05_Agentic-AI-Advanced-Systems.md](05_Agentic-AI-Advanced-Systems.md)** - Sophisticated reasoning and planning
+- **[07_Agentic-AI-Advanced-Systems.md](07_Agentic-AI-Advanced-Systems.md)** - Sophisticated reasoning and planning
 
 ---
 
