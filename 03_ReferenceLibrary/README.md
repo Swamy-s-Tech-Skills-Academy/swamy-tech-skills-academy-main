@@ -1,6 +1,6 @@
-# � Reference Library
+# 📚 Reference Library
 
-**Curated knowledge base for AI, Data Science, and Software Development**
+## Curated knowledge base for AI, Data Science, and Software Development
 
 ---
 
@@ -10,33 +10,34 @@ Our reference library is organized into **3 focused learning tracks** that group
 
 ### **🤖 [02_AI-and-ML/](02_AI-and-ML/)** - AI & Machine Learning Track
 
-**Complete artificial intelligence and machine learning ecosystem**
+Complete artificial intelligence and machine learning ecosystem
 
 - **[01_AI/](02_AI-and-ML/01_AI/)** - Strategic AI overview, fundamentals, and domain relationships
 - **[02_MachineLearning/](02_AI-and-ML/02_MachineLearning/)** - Classical algorithms and statistical learning
 - **[03_DeepLearning/](02_AI-and-ML/03_DeepLearning/)** - Neural networks and advanced architectures
 - **[04_NaturalLanguageProcessing/](02_AI-and-ML/04_NaturalLanguageProcessing/)** - Language AI and text processing
+- **[05_MCP-Servers/](02_AI-and-ML/05_MCP-Servers/)** - Model Context Protocol for AI system integration
 
-_Perfect for: AI practitioners, ML engineers, researchers, and strategic AI planning_
+Perfect for: AI practitioners, ML engineers, researchers, and strategic AI planning
 
 ### **📊 [03_Data-Science/](03_Data-Science/)** - Data Science Track
 
-**Statistical methods, analytics, and large-scale data processing**
+Statistical methods, analytics, and large-scale data processing
 
 - **[01_DataScience/](03_Data-Science/01_DataScience/)** - Scientific methodology and statistical analysis
 - **[02_DataAnalytics/](03_Data-Science/02_DataAnalytics/)** - Business intelligence and visualization
 - **[03_BigData/](03_Data-Science/03_BigData/)** - Distributed computing and scalable infrastructure
 
-_Perfect for: Data scientists, business analysts, data engineers, and research professionals_
+Perfect for: Data scientists, business analysts, data engineers, and research professionals
 
 ### **🛠️ [01_Development/](01_Development/)** - Development Track
 
-**Programming foundations and software engineering excellence**
+Programming foundations and software engineering excellence
 
 - **[01_Python/](01_Development/01_Python/)** - Programming foundation and advanced Python concepts
 - **[02_software-design-principles/](01_Development/02_software-design-principles/)** - Architecture and engineering best practices
 
-_Perfect for: Software engineers, system architects, and anyone building technical systems_
+Perfect for: Software engineers, system architects, and anyone building technical systems
 
 ---
 
@@ -50,7 +51,7 @@ _Perfect for: Software engineers, system architects, and anyone building technic
 
 ### **🎯 For Practitioners - Deep Expertise**
 
-- **AI/ML Engineers** → Focus on **[02_AI-and-ML/](02_AI-and-ML/)** + **[01_Development/](01_Development/)**
+- **AI/ML Engineers** → Focus on **[02_AI-and-ML/](02_AI-and-ML/)** + **[01_Development/](01_Development/)** + **[05_MCP-Servers/](02_AI-and-ML/05_MCP-Servers/)**
 - **Data Scientists** → Focus on **[03_Data-Science/](03_Data-Science/)** + **[01_Development/01_Python/](01_Development/01_Python/)**
 - **Software Architects** → Focus on **[01_Development/](01_Development/)** + cross-track integration
 
@@ -78,8 +79,10 @@ _Perfect for: Software engineers, system architects, and anyone building technic
 
 ### **📊 Key Resources**
 
+- **AI Learning Roadmap**: **[02_AI-and-ML/01_AI/07_AI-Terms-Learning-Order.md](02_AI-and-ML/01_AI/07_AI-Terms-Learning-Order.md)**
 - **AI Relationship Diagrams**: **[02_AI-and-ML/01_AI/01_AI-Domain-Relationships.md](02_AI-and-ML/01_AI/01_AI-Domain-Relationships.md)**
 - **Learning Curricula**: **[02_AI-and-ML/01_AI/02_AI-Learning-Topics.md](02_AI-and-ML/01_AI/02_AI-Learning-Topics.md)**
+- **MCP Integration Guide**: **[02_AI-and-ML/05_MCP-Servers/01_MCP-Fundamentals.md](02_AI-and-ML/05_MCP-Servers/01_MCP-Fundamentals.md)**
 - **Organization Guide**: **[ORGANIZATION_GUIDE.md](ORGANIZATION_GUIDE.md)**
 
 ### **🔍 Find Content**
@@ -90,7 +93,7 @@ _Perfect for: Software engineers, system architects, and anyone building technic
 
 ---
 
-**📅 Last Updated**: July 29, 2025  
+**📅 Last Updated**: August 7, 2025  
 **🎯 Purpose**: Comprehensive learning tracks for AI, Data Science, and Development  
 **📍 Structure**: 3 focused tracks with interconnected domains and clear learning paths
 
