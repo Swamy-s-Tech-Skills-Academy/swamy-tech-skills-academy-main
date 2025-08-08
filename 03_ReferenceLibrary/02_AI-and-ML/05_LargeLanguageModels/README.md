@@ -62,11 +62,12 @@ graph TD
 ### **Module Structure**
 
 1. **[01_LLM-Fundamentals.md](01_LLM-Fundamentals.md)** - Core concepts and architecture
-2. **[02_Transformer-Deep-Dive.md](02_Transformer-Deep-Dive.md)** - Attention mechanisms and scaling
-3. **[03_Training-and-Fine-Tuning.md](03_Training-and-Fine-Tuning.md)** - Model development lifecycle
-4. **[04_Prompt-Engineering.md](04_Prompt-Engineering.md)** - Effective LLM interaction
-5. **[05_LLM-Limitations-and-Challenges.md](05_LLM-Limitations-and-Challenges.md)** - Understanding boundaries
-6. **[06_LLM-to-Agent-Bridge.md](06_LLM-to-Agent-Bridge.md)** - Connecting to Agentic AI
+2. **[02_Framework-Fundamentals-101.md](02_Framework-Fundamentals-101.md)** - TensorFlow, PyTorch & JAX hands-on
+3. **[03_Transformer-Deep-Dive.md](03_Transformer-Deep-Dive.md)** - Attention mechanisms and scaling
+4. **[04_Training-and-Fine-Tuning.md](04_Training-and-Fine-Tuning.md)** - Model development lifecycle
+5. **[05_Prompt-Engineering.md](05_Prompt-Engineering.md)** - Effective LLM interaction
+6. **[06_LLM-Limitations-and-Challenges.md](06_LLM-Limitations-and-Challenges.md)** - Understanding boundaries
+7. **[07_LLM-to-Agent-Bridge.md](07_LLM-to-Agent-Bridge.md)** - Connecting to Agentic AI
 
 ---
 
