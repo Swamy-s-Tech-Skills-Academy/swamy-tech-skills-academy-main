@@ -32,16 +32,34 @@ This track is aligned with the **[Agentic AI Learning Roadmap](01_Agentic-AI-Lea
 
 **Agentic AI Technology Stack:**
 
-```text
-Applications (ChatGPT, Claude, Custom Agents)
-           ↑
-    Agentic Capabilities (Planning + Tools + Memory)
-           ↑
-    Large Language Models (GPT-4, Claude, Gemini)
-           ↑
-        Transformers Architecture
-           ↑
-         Text Data Training
+```mermaid
+graph TD
+    subgraph "🎯 Application Layer"
+        APPS[🤖 AI Applications<br/>ChatGPT, Claude, Custom Agents]
+    end
+    
+    subgraph "🧠 Intelligence Layer"
+        AGENT[🎯 Agentic Capabilities<br/>Planning + Tools + Memory]
+        LLM[🗣️ Large Language Models<br/>GPT-4, Claude, Gemini]
+    end
+    
+    subgraph "🏗️ Foundation Layer"
+        TRANS[🧬 Transformers Architecture<br/>Attention Mechanisms]
+        DATA[📚 Text Data Training<br/>Massive Internet Corpus]
+    end
+    
+    APPS --> AGENT
+    AGENT --> LLM
+    LLM --> TRANS
+    TRANS --> DATA
+    
+    classDef application fill:#ffebee,stroke:#c62828,stroke-width:2px
+    classDef intelligence fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef foundation fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    
+    class APPS application
+    class AGENT,LLM intelligence
+    class TRANS,DATA foundation
 ```
 
 **Core Enhancement Formula:**
@@ -54,28 +72,51 @@ Simple Chatbot → Task-Oriented Agent → Multi-Agent System → Agentic AI
 
 ### **Where Agentic AI Fits in the AI Landscape**
 
-```text
-┌─────────────────────────────────────────┐
-│          Artificial Intelligence        │
-│  ┌───────────────────────────────────┐  │
-│  │       Machine Learning           │  │
-│  │  ┌─────────────────────────────┐ │  │
-│  │  │      Deep Learning         │ │  │
-│  │  │  ┌───────────────────────┐ │ │  │
-│  │  │  │  Natural Language     │ │ │  │
-│  │  │  │     Processing        │ │ │  │
-│  │  │  │  ┌─────────────────┐ │ │ │  │
-│  │  │  │  │ Large Language  │ │ │ │  │
-│  │  │  │  │     Models      │ │ │ │  │
-│  │  │  │  │                 │ │ │ │  │
-│  │  │  │  │   AGENTIC AI    │ │ │ │  │
-│  │  │  │  │  (Goal-Oriented │ │ │ │  │
-│  │  │  │  │   + Autonomous) │ │ │ │  │
-│  │  │  │  └─────────────────┘ │ │ │  │
-│  │  │  └───────────────────────┘ │ │  │
-│  │  └─────────────────────────────┘ │  │
-│  └───────────────────────────────────┘  │
-└─────────────────────────────────────────┘
+```mermaid
+graph TB
+    subgraph "🌍 AI Ecosystem"
+        AI[🧠 Artificial Intelligence<br/>All forms of machine intelligence]
+        ML[🤖 Machine Learning<br/>Learning from data patterns]
+        DL[🧬 Deep Learning<br/>Neural network architectures]
+        NLP[💬 Natural Language Processing<br/>Understanding & generating text]
+        LLM[🗣️ Large Language Models<br/>GPT-4, Claude, Gemini]
+        AGENT[🎯 AGENTIC AI<br/>Goal-Oriented + Autonomous<br/>Systems with Agency]
+    end
+    
+    subgraph "🔧 Core Agent Capabilities"
+        PLANNING[📋 Strategic Planning]
+        MEMORY[🧠 Context Memory]
+        TOOLS[🛠️ Tool Integration]
+        REASONING[🤔 Logical Reasoning]
+        EXECUTION[⚡ Action Execution]
+    end
+    
+    subgraph "📈 Evolution Path"
+        CHATBOT[💬 Simple Chatbot]
+        TASK[📋 Task-Oriented Agent]
+        MULTI[🤝 Multi-Agent System]
+        AGENTIC[🎯 Agentic AI]
+    end
+    
+    AI --> ML --> DL --> NLP --> LLM --> AGENT
+    
+    AGENT --> PLANNING
+    AGENT --> MEMORY
+    AGENT --> TOOLS
+    AGENT --> REASONING
+    AGENT --> EXECUTION
+    
+    CHATBOT --> TASK --> MULTI --> AGENTIC
+    
+    classDef foundation fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef capability fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef evolution fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
+    classDef highlight fill:#ffebee,stroke:#d32f2f,stroke-width:3px
+    
+    class AI,ML,DL,NLP,LLM foundation
+    class PLANNING,MEMORY,TOOLS,REASONING,EXECUTION capability
+    class CHATBOT,TASK,MULTI evolution
+    class AGENT,AGENTIC highlight
 ```
 
 ### **Progression Philosophy**

@@ -24,26 +24,34 @@ Understanding how Agentic AI fits within the broader AI landscape is crucial for
 
 ### **Conceptual Relationship Map**
 
-```text
-┌─────────────────────────────────────────────────┐
-│                Artificial Intelligence          │
-│  ┌───────────────────────────────────────────┐  │
-│  │            Machine Learning              │  │
-│  │  ┌─────────────────────────────────────┐ │  │
-│  │  │         Deep Learning              │ │  │
-│  │  │  ┌───────────────────────────────┐ │ │  │
-│  │  │  │  Natural Language Processing │ │ │  │
-│  │  │  │  ┌─────────────────────────┐ │ │ │  │
-│  │  │  │  │  Large Language Models │ │ │ │  │
-│  │  │  │  │                        │ │ │ │  │
-│  │  │  │  │    🤖 AGENTIC AI      │ │ │ │  │
-│  │  │  │  │   (Autonomous Goal    │ │ │ │  │
-│  │  │  │  │   Pursuit + Tools)    │ │ │ │  │
-│  │  │  │  └─────────────────────────┘ │ │ │  │
-│  │  │  └───────────────────────────────┘ │ │  │
-│  │  └─────────────────────────────────────┘ │  │
-│  └───────────────────────────────────────────┘  │
-└─────────────────────────────────────────────────┘
+```mermaid
+graph TB
+    AI[🧠 Artificial Intelligence<br/>All forms of machine intelligence]
+    ML[🤖 Machine Learning<br/>Learning from data patterns]
+    DL[🧬 Deep Learning<br/>Neural network architectures]
+    NLP[💬 Natural Language Processing<br/>Understanding & generating text]
+    LLM[🗣️ Large Language Models<br/>GPT-4, Claude, Gemini]
+    AGENT[🤖 AGENTIC AI<br/>Autonomous Goal Pursuit + Tools<br/>Planning + Memory + Actions]
+    
+    AI --> ML
+    ML --> DL
+    DL --> NLP
+    NLP --> LLM
+    LLM --> AGENT
+    
+    classDef aiLevel fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef mlLevel fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    classDef dlLevel fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
+    classDef nlpLevel fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    classDef llmLevel fill:#fce4ec,stroke:#880e4f,stroke-width:2px
+    classDef agentLevel fill:#ffebee,stroke:#c62828,stroke-width:3px
+    
+    class AI aiLevel
+    class ML mlLevel
+    class DL dlLevel
+    class NLP nlpLevel
+    class LLM llmLevel
+    class AGENT agentLevel
 ```
 
 ### **Technology Stack Flow**

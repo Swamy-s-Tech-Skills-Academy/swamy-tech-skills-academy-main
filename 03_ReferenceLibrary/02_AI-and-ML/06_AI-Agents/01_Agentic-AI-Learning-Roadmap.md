@@ -21,6 +21,50 @@ This roadmap transforms the complex landscape of Agentic AI into a structured, p
 
 ## 🗺️ Learning Journey Overview
 
+### **Progressive Learning Path**
+
+```mermaid
+graph TD
+    subgraph "🟢 Foundation Stage (Months 1-2)"
+        F1[📚 Agent Fundamentals<br/>Understanding Autonomy]
+        F2[🏗️ Architecture Patterns<br/>Design Principles]
+        F3[🛠️ Development Basics<br/>Framework Mastery]
+    end
+    
+    subgraph "🟡 Implementation Stage (Months 3-4)"
+        I1[🤝 Multi-Agent Systems<br/>Collaboration Patterns]
+        I2[🧠 Advanced Reasoning<br/>Planning & Memory]
+        I3[📱 Application Development<br/>Real-world Projects]
+    end
+    
+    subgraph "🔴 Advanced Stage (Months 5-6)"
+        A1[🚀 Production Deployment<br/>Enterprise Patterns]
+        A2[📊 Performance Optimization<br/>Monitoring & Scaling]
+        A3[🔒 Security & Governance<br/>Responsible AI]
+    end
+    
+    subgraph "⚡ Mastery Stage (Ongoing)"
+        M1[🔬 Research & Innovation<br/>Cutting-edge Techniques]
+        M2[👥 Leadership & Teaching<br/>Knowledge Transfer]
+        M3[🌟 Industry Contribution<br/>Open Source & Standards]
+    end
+    
+    F1 --> F2 --> F3
+    F3 --> I1 --> I2 --> I3
+    I3 --> A1 --> A2 --> A3
+    A3 --> M1 --> M2 --> M3
+    
+    classDef foundation fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
+    classDef implementation fill:#fff9c4,stroke:#f57f17,stroke-width:2px
+    classDef advanced fill:#ffebee,stroke:#c62828,stroke-width:2px
+    classDef mastery fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    
+    class F1,F2,F3 foundation
+    class I1,I2,I3 implementation
+    class A1,A2,A3 advanced
+    class M1,M2,M3 mastery
+```
+
 ### **🟢 Foundation Stage: Essential Mastery (Months 1-2)**
 
 **Goal**: Develop core competencies in autonomous AI systems

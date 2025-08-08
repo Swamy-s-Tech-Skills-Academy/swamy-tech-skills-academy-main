@@ -24,16 +24,34 @@ An **AI Agent** is fundamentally different from a chatbot or traditional AI appl
 
 Understanding where Agentic AI fits in the broader AI landscape:
 
-```text
-Traditional AI → Machine Learning → Deep Learning → LLMs → Agentic AI
-
-┌─────────────────────────────────────────────────────────────┐
-│                   AGENTIC AI CONTEXT                        │
-├─────────────────────────────────────────────────────────────┤
-│  Foundation: Large Language Models (GPT-4, Claude, Gemini)  │
-│  Enhanced With: Planning + Tools + Memory + Autonomy        │
-│  Result: Goal-oriented autonomous systems                   │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+graph LR
+    TRAD[🔧 Traditional AI<br/>Rule-based Systems]
+    ML[🤖 Machine Learning<br/>Pattern Recognition]
+    DL[🧬 Deep Learning<br/>Neural Networks]
+    LLM[🗣️ Large Language Models<br/>GPT-4, Claude, Gemini]
+    AGENT[🎯 Agentic AI<br/>Autonomous Goal Pursuit]
+    
+    TRAD --> ML --> DL --> LLM --> AGENT
+    
+    subgraph "🏗️ Agentic AI Foundation"
+        direction TB
+        BASE[🗣️ Large Language Models<br/>Foundation Layer]
+        ENHANCE[⚡ Enhanced Capabilities<br/>Planning + Tools + Memory + Autonomy]
+        RESULT[🎯 Result<br/>Goal-oriented autonomous systems]
+        
+        BASE --> ENHANCE --> RESULT
+    end
+    
+    LLM -.-> BASE
+    
+    classDef evolution fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef foundation fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef highlight fill:#ffebee,stroke:#c62828,stroke-width:3px
+    
+    class TRAD,ML,DL,LLM evolution
+    class BASE,ENHANCE,RESULT foundation
+    class AGENT highlight
 ```
 
 ### **The Chatbot vs. Agent Spectrum**
