@@ -18,6 +18,57 @@ This lexicon serves as your comprehensive companion for mastering Agentic AI con
 
 ---
 
+## 🗺️ Agentic AI Conceptual Hierarchy
+
+Understanding how Agentic AI fits within the broader AI landscape is crucial for proper context and learning progression.
+
+### **Conceptual Relationship Map**
+
+```text
+┌─────────────────────────────────────────────────┐
+│                Artificial Intelligence          │
+│  ┌───────────────────────────────────────────┐  │
+│  │            Machine Learning              │  │
+│  │  ┌─────────────────────────────────────┐ │  │
+│  │  │         Deep Learning              │ │  │
+│  │  │  ┌───────────────────────────────┐ │ │  │
+│  │  │  │  Natural Language Processing │ │ │  │
+│  │  │  │  ┌─────────────────────────┐ │ │ │  │
+│  │  │  │  │  Large Language Models │ │ │ │  │
+│  │  │  │  │                        │ │ │ │  │
+│  │  │  │  │    🤖 AGENTIC AI      │ │ │ │  │
+│  │  │  │  │   (Autonomous Goal    │ │ │ │  │
+│  │  │  │  │   Pursuit + Tools)    │ │ │ │  │
+│  │  │  │  └─────────────────────────┘ │ │ │  │
+│  │  │  └───────────────────────────────┘ │ │  │
+│  │  └─────────────────────────────────────┘ │  │
+│  └───────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────┘
+```
+
+### **Technology Stack Flow**
+
+```text
+Text Data → Transformers → Large Language Models → Agentic AI Products
+
+Examples:
+• ChatGPT + Tools + Planning = GPT-4 Agent
+• Claude + Memory + Actions = Claude Agent  
+• Gemini + Multi-modal + Reasoning = Gemini Agent
+• Open Source LLMs + Frameworks = Custom Agents
+```
+
+### **Agentic AI as Functional Enhancement**
+
+**Agentic AI** is not a separate technology but a **functional capability** that enhances LLMs with:
+
+- **Autonomous Goal Pursuit**: Planning and executing multi-step workflows
+- **Tool Orchestration**: Using external APIs, databases, and services
+- **Environmental Awareness**: Understanding and adapting to context changes
+- **Memory Integration**: Learning from past interactions and experiences
+
+---
+
 ## 📚 Essential Agentic AI Concepts
 
 ### **🟢 Agent Autonomy Framework**

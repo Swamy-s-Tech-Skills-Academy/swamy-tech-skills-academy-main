@@ -41,11 +41,30 @@ This roadmap transforms the complex landscape of Agentic AI into a structured, p
 
 ## 📚 Stage 1: Foundation Mastery (🟢)
 
+### **Understanding the AI Hierarchy**
+
+Before diving into agentic capabilities, learners must understand where Agentic AI fits in the broader landscape:
+
+**Technology Stack Foundation:**
+
+- **Text Data & Training**: How language models learn from data
+- **Transformer Architecture**: The neural network foundation of modern LLMs
+- **Large Language Models**: GPT-4, Claude, Gemini capabilities and limitations
+- **Agentic Enhancement**: Adding planning, tools, memory, and autonomy
+
+**Conceptual Progression:**
+
+```text
+AI Fundamentals → Machine Learning → Deep Learning → 
+Natural Language Processing → Large Language Models → Agentic AI
+```
+
 ### **Learning Objectives**
 
 By completion, you will:
 
 - Understand the fundamental principles of autonomous AI systems
+- Grasp how Agentic AI enhances Large Language Models with new capabilities  
 - Create basic agents that can reason, plan, and execute tasks
 - Master the essential tools and frameworks for agent development
 - Develop strong prompt engineering and context management skills

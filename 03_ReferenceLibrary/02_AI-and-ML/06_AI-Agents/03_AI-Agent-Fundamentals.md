@@ -20,6 +20,22 @@ By the end of this content, you will:
 
 An **AI Agent** is fundamentally different from a chatbot or traditional AI application. While chatbots respond to prompts, agents **proactively pursue goals** through planning, tool use, and adaptive behavior.
 
+### **The AI Evolution Spectrum**
+
+Understanding where Agentic AI fits in the broader AI landscape:
+
+```text
+Traditional AI → Machine Learning → Deep Learning → LLMs → Agentic AI
+
+┌─────────────────────────────────────────────────────────────┐
+│                   AGENTIC AI CONTEXT                        │
+├─────────────────────────────────────────────────────────────┤
+│  Foundation: Large Language Models (GPT-4, Claude, Gemini)  │
+│  Enhanced With: Planning + Tools + Memory + Autonomy        │
+│  Result: Goal-oriented autonomous systems                   │
+└─────────────────────────────────────────────────────────────┘
+```
+
 ### **The Chatbot vs. Agent Spectrum**
 
 ```text
@@ -30,6 +46,21 @@ Stateless                                        Stateful
 Single-turn                                      Multi-step
 Tool-less                                        Tool-enabled
 Prompt-dependent                                 Goal-oriented
+Human-guided                                     Autonomous
+```
+
+### **Agentic AI = LLM + Enhanced Capabilities**
+
+Agentic AI represents a **functional enhancement** of Large Language Models, not a separate technology:
+
+```text
+Base LLM + Planning System + Tool Access + Memory + Autonomy = Agentic AI
+
+Examples:
+• ChatGPT → ChatGPT with Code Interpreter + Browsing
+• Claude → Claude with Computer Use capabilities  
+• GPT-4 → GPT-4 with function calling + persistent memory
+• Open Source → LangChain/CrewAI frameworks with local LLMs
 ```
 
 ### **Core Agentic Capabilities**

@@ -30,10 +30,52 @@ This track is aligned with the **[Agentic AI Learning Roadmap](01_Agentic-AI-Lea
 
 ### **Conceptual Foundation**
 
+**Agentic AI Technology Stack:**
+
+```text
+Applications (ChatGPT, Claude, Custom Agents)
+           ↑
+    Agentic Capabilities (Planning + Tools + Memory)
+           ↑
+    Large Language Models (GPT-4, Claude, Gemini)
+           ↑
+        Transformers Architecture
+           ↑
+         Text Data Training
+```
+
+**Core Enhancement Formula:**
+
 ```text
 AI Agent = LLM + Planning + Memory + Tools + Actions
 
 Simple Chatbot → Task-Oriented Agent → Multi-Agent System → Agentic AI
+```
+
+### **Where Agentic AI Fits in the AI Landscape**
+
+```text
+┌─────────────────────────────────────────┐
+│          Artificial Intelligence        │
+│  ┌───────────────────────────────────┐  │
+│  │       Machine Learning           │  │
+│  │  ┌─────────────────────────────┐ │  │
+│  │  │      Deep Learning         │ │  │
+│  │  │  ┌───────────────────────┐ │ │  │
+│  │  │  │  Natural Language     │ │ │  │
+│  │  │  │     Processing        │ │ │  │
+│  │  │  │  ┌─────────────────┐ │ │ │  │
+│  │  │  │  │ Large Language  │ │ │ │  │
+│  │  │  │  │     Models      │ │ │ │  │
+│  │  │  │  │                 │ │ │ │  │
+│  │  │  │  │   AGENTIC AI    │ │ │ │  │
+│  │  │  │  │  (Goal-Oriented │ │ │ │  │
+│  │  │  │  │   + Autonomous) │ │ │ │  │
+│  │  │  │  └─────────────────┘ │ │ │  │
+│  │  │  └───────────────────────┘ │ │  │
+│  │  └─────────────────────────────┘ │  │
+│  └───────────────────────────────────┘  │
+└─────────────────────────────────────────┘
 ```
 
 ### **Progression Philosophy**
