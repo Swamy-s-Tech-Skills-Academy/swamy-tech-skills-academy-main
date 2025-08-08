@@ -68,12 +68,14 @@ graph TD
 ### **🎯 Key Insight: The Paradigm Shift**
 
 **Traditional AI Philosophy**:
+
 - More sophisticated algorithms = better performance
 - Hand-craft features and constraints
 - Encode human domain expertise into the algorithm
 - Optimize for computational efficiency
 
 **LLM Philosophy**:
+
 - Scale beats sophistication
 - Minimal constraints, maximum data
 - Let the model discover patterns from massive datasets
@@ -135,6 +137,7 @@ graph TD
 ### **🎯 Simplicity + Scale = Breakthrough Performance**
 
 **Core Insight**: The Transformer architecture is relatively simple:
+
 - **Attention mechanisms**: Learn what to focus on
 - **Feed-forward networks**: Transform information
 - **Layer normalization**: Stabilize training
