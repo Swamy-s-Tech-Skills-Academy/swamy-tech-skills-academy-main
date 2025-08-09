@@ -16,7 +16,7 @@ Complete artificial intelligence and machine learning ecosystem
 - **[02_MachineLearning/](02_AI-and-ML/02_MachineLearning/)** - Classical algorithms and statistical learning
 - **[03_DeepLearning/](02_AI-and-ML/03_DeepLearning/)** - Neural networks and advanced architectures
 - **[04_NaturalLanguageProcessing/](02_AI-and-ML/04_NaturalLanguageProcessing/)** - Language AI and text processing
-- **[05_MCP-Servers/](02_AI-and-ML/05_MCP-Servers/)** - Model Context Protocol for AI system integration
+- **[06_MCP-Servers/](02_AI-and-ML/06_MCP-Servers/)** - Model Context Protocol for AI system integration
 
 Perfect for: AI practitioners, ML engineers, researchers, and strategic AI planning
 
@@ -51,7 +51,7 @@ Perfect for: Software engineers, system architects, and anyone building technica
 
 ### **🎯 For Practitioners - Deep Expertise**
 
-- **AI/ML Engineers** → Focus on **[02_AI-and-ML/](02_AI-and-ML/)** + **[01_Development/](01_Development/)** + **[05_MCP-Servers/](02_AI-and-ML/05_MCP-Servers/)**
+- **AI/ML Engineers** → Focus on **[02_AI-and-ML/](02_AI-and-ML/)** + **[01_Development/](01_Development/)** + **[06_MCP-Servers/](02_AI-and-ML/06_MCP-Servers/)**
 - **Data Scientists** → Focus on **[03_Data-Science/](03_Data-Science/)** + **[01_Development/01_Python/](01_Development/01_Python/)**
 - **Software Architects** → Focus on **[01_Development/](01_Development/)** + cross-track integration
 
@@ -82,7 +82,7 @@ Perfect for: Software engineers, system architects, and anyone building technica
 - **AI Learning Roadmap**: **[02_AI-and-ML/01_AI/07_AI-Terms-Learning-Order.md](02_AI-and-ML/01_AI/07_AI-Terms-Learning-Order.md)**
 - **AI Relationship Diagrams**: **[02_AI-and-ML/01_AI/01_AI-Domain-Relationships.md](02_AI-and-ML/01_AI/01_AI-Domain-Relationships.md)**
 - **Learning Curricula**: **[02_AI-and-ML/01_AI/02_AI-Learning-Topics.md](02_AI-and-ML/01_AI/02_AI-Learning-Topics.md)**
-- **MCP Integration Guide**: **[02_AI-and-ML/05_MCP-Servers/01_MCP-Fundamentals.md](02_AI-and-ML/05_MCP-Servers/01_MCP-Fundamentals.md)**
+- **MCP Integration Guide**: **[02_AI-and-ML/06_MCP-Servers/01_MCP-Fundamentals.md](02_AI-and-ML/06_MCP-Servers/01_MCP-Fundamentals.md)**
 - **Organization Guide**: **[ORGANIZATION_GUIDE.md](ORGANIZATION_GUIDE.md)**
 
 ### **🔍 Find Content**

@@ -66,7 +66,7 @@
 
 **Definition**: AI systems that **generate** new content — from text to code, images, music, and video — based on learned patterns from data.
 
-### 🧠 GenAI Is a Capability Layer:
+### 🧠 GenAI Is a Capability Layer
 
 | Technology      | How GenAI Enhances It                                            |
 | --------------- | ---------------------------------------------------------------- |
@@ -78,7 +78,7 @@
 | AI Agents       | Empowered to generate responses, plans, or actions dynamically   |
 | Agentic AI      | Infuses agents with creativity, adaptability, and multi-modality |
 
-### 🖼️ GenAI Use Cases by Modality:
+### 🖼️ GenAI Use Cases by Modality
 
 | Modality        | GenAI Examples                                   |
 | --------------- | ------------------------------------------------ |
@@ -145,7 +145,7 @@
 
 ---
 
-## � 7. AI Agents – From Chatbots to Autonomous Workers
+## 🤖 7. AI Agents – From Chatbots to Autonomous Workers
 
 **Definition**: AI systems that plan, decide, and act toward achieving a goal — often using LLMs and tools like APIs or search.
 

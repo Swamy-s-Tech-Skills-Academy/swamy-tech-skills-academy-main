@@ -245,7 +245,7 @@ Complete all modules in sequence with additional research extensions and experim
 
 ### **Related Technologies**
 
-- **[05_MCP-Servers/](../05_MCP-Servers/)** - Model Context Protocol for agent-data integration
+- **[06_MCP-Servers/](../06_MCP-Servers/)** - Model Context Protocol for agent-data integration
 - **[../../01_Development/02_software-design-principles/](../../01_Development/02_software-design-principles/)** - Software architecture patterns
 - **[../../03_Data-Science/](../../03_Data-Science/)** - Data integration and processing
 

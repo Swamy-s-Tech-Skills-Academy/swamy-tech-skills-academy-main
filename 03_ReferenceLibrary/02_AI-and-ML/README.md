@@ -1,14 +1,5 @@
 # 🤖 AI and Machine Learning Track
 
-## Core art### **🔗 [06_MCP-Servers/](06_MCP-Servers/)** - AI System Integration
-
-- **Purpose**: Model Context Protocol for connecting AI with external systems
-- **Content**: Server development, client integration, production deployment
-- **Prerequisites**: API development, AI application understanding
-- **Practical Bridge**: Transform AI concepts into production-ready systems
-
-### **🤖 [07_AI-Agents/](07_AI-Agents/)** - Autonomous AI Systemsintelligence and machine learning domains
-
 ---
 
 ## 🎯 Track Overview
@@ -47,14 +38,14 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 - **Prerequisites**: Machine learning, basic linguistics
 - **Specialization**: Human language processing and generation
 
-### **� [05_LargeLanguageModels/](05_LargeLanguageModels/)** - Modern LLM Foundation
+### **🧾 [05_LargeLanguageModels/](05_LargeLanguageModels/)** - Modern LLM Foundation
 
 - **Purpose**: Understanding and working with large language models
 - **Content**: LLM architecture, scaling laws, prompt engineering, fine-tuning
 - **Prerequisites**: NLP fundamentals, transformer understanding
 - **Critical Bridge**: Essential foundation for AI Agents and modern applications
 
-### **�🔗 [06_MCP-Servers/](06_MCP-Servers/)** - AI System Integration
+### **🔗 [06_MCP-Servers/](06_MCP-Servers/)** - AI System Integration
 
 - **Purpose**: Model Context Protocol for connecting AI with external systems
 - **Content**: Server development, client integration, production deployment
@@ -85,6 +76,7 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 - **Language AI**: Specialize in `04_NaturalLanguageProcessing/`
 - **System Integration**: Master `05_MCP-Servers/` for production AI
 - **Autonomous Systems**: Develop `06_AI-Agents/` for intelligent automation
+- **Modern LLMs**: Build foundation in `05_LargeLanguageModels/`
 
 ### **🧠 Advanced Path**
 
@@ -92,6 +84,7 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 - **Applications**: Cross-domain projects combining multiple areas
 - **Production Systems**: Advanced `05_MCP-Servers/` patterns and deployment
 - **Agentic AI**: Sophisticated `06_AI-Agents/` architectures and multi-agent systems
+- **LLMs**: Advanced `05_LargeLanguageModels/` techniques
 - **Leadership**: Strategic AI understanding from `01_AI/` perspective
 
 ---
@@ -118,6 +111,7 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 - **Have ML background?** Jump to `03_DeepLearning/` or `04_NaturalLanguageProcessing/`
 - **Building AI systems?** Focus on `05_MCP-Servers/` for production integration
 - **Want autonomous AI?** Explore `06_AI-Agents/` for goal-oriented systems
+- **New to LLMs?** Start with `05_LargeLanguageModels/`
 - **Specific project?** Use domain cross-references to find relevant content
 - **Team training?** Follow the learning progression paths
 

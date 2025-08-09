@@ -40,7 +40,7 @@ Based on industry best practices and the emerging Agentic AI landscape, this mod
 ├─────────────────────────────────────────────────┤
 │         Programming & Prompting Base           │
 └─────────────────────────────────────────────────┘
-```
+```text
 
 ## 🧠 Advanced Reasoning Patterns
 
@@ -620,7 +620,7 @@ class AgenticAISafetyFramework:
 
 ### **Integration Points**
 
-- **[../05_MCP-Servers/](../05_MCP-Servers/)** - Tool integration and external system connectivity
+- **[../06_MCP-Servers/](../06_MCP-Servers/)** - Tool integration and external system connectivity
 - **[../../03_Data-Science/](../../03_Data-Science/)** - Knowledge management and analytics
 - **[../../07_DevOps/](../../07_DevOps/)** - Production deployment and monitoring
 
