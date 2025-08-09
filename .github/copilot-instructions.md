@@ -16,13 +16,18 @@ When working with this repository, GitHub Copilot should function as an **educat
 
 ### **Original Content Generation**
 
-When provided with reference materials from books, websites, articles, or other sources:
+When provided with reference materials from books, websites, articles, video courses, or other sources:
 
-1. **LEARN from the content** - understand concepts, principles, and relationships
-2. **CREATE original explanations** - synthesize understanding into new educational material
-3. **ADAPT to learning context** - tailor content to fit the repository's structure and audience
-4. **ENHANCE with examples** - add practical applications and code samples where appropriate
-5. **NEVER copy verbatim** - all content must be original and transformative
+1. **ANALYZE and UNDERSTAND** - deeply comprehend concepts, principles, and relationships
+2. **SYNTHESIZE new explanations** - create completely original educational material using your own words and structure
+3. **TRANSFORM presentation style** - use different analogies, examples, and teaching approaches than the source
+4. **ADAPT to learning context** - tailor content to fit the repository's structure and target audience
+5. **ENHANCE with unique examples** - add practical applications and code samples that are original
+6. **PARAPHRASE comprehensively** - never copy phrases, sentences, or structure directly from sources
+7. **ADD educational value** - improve upon source material with better explanations and learning aids
+8. **CROSS-REFERENCE within STSA** - connect concepts to other topics in our learning system
+
+**⚠️ CRITICAL REQUIREMENT**: All content must be **transformative**, not just **reformative**. This means creating entirely new educational material that teaches the same concepts through original presentation, examples, and explanations.
 
 ### **Educational Excellence Standards**
 
@@ -102,7 +107,29 @@ When provided with reference materials from books, websites, articles, or other 
 
 ---
 
-## 🔗 Integration Requirements
+## � Content Creation Protocols
+
+### **When Processing Reference Materials**
+
+1. **Analyze Source Intent**: Understand what the original author is trying to teach
+2. **Extract Core Concepts**: Identify the fundamental principles and ideas
+3. **Redesign Presentation**: Create new explanations using different examples and analogies
+4. **Add Educational Value**: Include exercises, questions, or practical applications
+5. **Fit Repository Context**: Ensure content aligns with existing learning progression
+
+### **Quality Assurance Checklist**
+
+- [ ] Content is completely original and not copied from source
+- [ ] Learning objectives are clearly stated
+- [ ] Content fits the numbered sequence appropriately
+- [ ] Cross-references to related topics are included
+- [ ] Examples are practical and relevant
+- [ ] Language is appropriate for target audience level
+- [ ] Formatting follows repository markdown standards
+
+---
+
+## �🔗 Integration Requirements
 
 ### **Cross-Domain Connections**
 
@@ -186,11 +213,17 @@ Each domain folder must include:
 
 ### **Prohibited Practices**
 
-- **Direct Copying**: Never copy text verbatim from any source
-- **Plagiarism**: All content must be original and transformative
-- **Generic Content**: Avoid boilerplate explanations that don't fit context
-- **Incomplete Cross-References**: Always connect content to related topics
-- **Inconsistent Numbering**: Follow the established sequential structure
+- **Direct Copying**: Never copy text verbatim from any source, including phrases, sentences, or structural patterns
+- **Paraphrasing Without Transformation**: Simply rewording source material without changing the fundamental presentation approach
+- **Plagiarism**: All content must be original and transformative, not just reformulated
+- **Source Structure Mimicking**: Don't follow the same organizational structure or flow as reference materials
+- **Example Replication**: Create entirely new examples rather than modifying source examples
+- **Generic Content**: Avoid boilerplate explanations that don't fit our specific learning context
+- **Incomplete Cross-References**: Always connect content to related topics within the STSA system
+- **Inconsistent Numbering**: Follow the established sequential learning structure
+- **Copy-Paste Mentality**: Even when "paraphrasing," ensure the content is genuinely original in presentation and approach
+
+**🔍 Quality Check**: If you can trace any phrase, structure, or example back to a specific source, it needs to be completely reimagined using original presentation methods.
 
 ---
 

@@ -1,4 +1,4 @@
-# 06_Agent-Production-Deployment
+# 08_Agent-Production-Deployment
 
 **Learning Level**: Intermediate to Advanced  
 **Prerequisites**: Agent development experience, system deployment knowledge  
@@ -54,13 +54,13 @@ This practical module will cover:
 
 ### **Prerequisites**
 
-- **[03_Agent-Development-Fundamentals.md](03_Agent-Development-Fundamentals.md)** - Agent building experience
+- **[05_Agent-Development-Fundamentals.md](05_Agent-Development-Fundamentals.md)** - Agent building experience
 - **[../05_MCP-Servers/](../05_MCP-Servers/)** - Production integration patterns
 - **[../../07_DevOps/](../../07_DevOps/)** - DevOps and deployment fundamentals
 
 ### **Advanced Integration**
 
-- **[05_Agentic-AI-Advanced-Systems.md](05_Agentic-AI-Advanced-Systems.md)** - Advanced system deployment considerations
+- **[07_Agentic-AI-Advanced-Systems.md](07_Agentic-AI-Advanced-Systems.md)** - Advanced system deployment considerations
 
 ---
 

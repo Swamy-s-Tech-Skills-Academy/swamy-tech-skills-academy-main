@@ -26,6 +26,13 @@ This track provides the essential programming and software engineering foundatio
 - **Foundation For**: Building maintainable, scalable systems
 - **Key Skills**: System design, code quality, architectural thinking
 
+### **🔷 [03_CSharp/](03_CSharp/)** - Enterprise Development
+
+- **Purpose**: C# and .NET ecosystem mastery for enterprise applications
+- **Content**: Language features, generics/variance, async programming, performance optimization
+- **Foundation For**: Enterprise software, cloud applications, high-performance systems
+- **Key Skills**: Type safety, enterprise patterns, .NET ecosystem
+
 ---
 
 ## 🚀 Learning Progression

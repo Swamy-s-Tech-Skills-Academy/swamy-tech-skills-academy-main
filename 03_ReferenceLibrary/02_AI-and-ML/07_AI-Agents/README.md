@@ -3,7 +3,7 @@
 **Learning Domain**: AI Agents and Autonomous Systems  
 **Track Level**: Intermediate to Advanced  
 **Prerequisites**: Understanding of AI fundamentals, LLMs, and basic programming concepts  
-**Total Estimated Time**: 15-20 hours across 6 modules  
+**Total Estimated Time**: 15-20 hours across 8 modules  
 
 ---
 
@@ -22,7 +22,7 @@ By completing this track, you'll understand how to create:
 
 ### **🗺️ Industry Alignment**
 
-This track is aligned with the **[Agentic AI Roadmap 2025](AGENTIC_AI_ROADMAP_2025_INTEGRATION.md)**, covering all essential components from programming foundations to enterprise deployment. See our comprehensive integration guide for detailed technology stack mapping and skill progression paths.
+This track is aligned with the **[Agentic AI Learning Roadmap](01_Agentic-AI-Learning-Roadmap.md)**, covering all essential components from programming foundations to enterprise deployment. See our comprehensive learning roadmap for detailed skill progression paths and career guidance.
 
 ---
 
@@ -30,10 +30,93 @@ This track is aligned with the **[Agentic AI Roadmap 2025](AGENTIC_AI_ROADMAP_20
 
 ### **Conceptual Foundation**
 
+**Agentic AI Technology Stack:**
+
+```mermaid
+graph TD
+    subgraph "🎯 Application Layer"
+        APPS[🤖 AI Applications<br/>ChatGPT, Claude, Custom Agents]
+    end
+    
+    subgraph "🧠 Intelligence Layer"
+        AGENT[🎯 Agentic Capabilities<br/>Planning + Tools + Memory]
+        LLM[🗣️ Large Language Models<br/>GPT-4, Claude, Gemini]
+    end
+    
+    subgraph "🏗️ Foundation Layer"
+        TRANS[🧬 Transformers Architecture<br/>Attention Mechanisms]
+        DATA[📚 Text Data Training<br/>Massive Internet Corpus]
+    end
+    
+    APPS --> AGENT
+    AGENT --> LLM
+    LLM --> TRANS
+    TRANS --> DATA
+    
+    classDef application fill:#ffebee,stroke:#c62828,stroke-width:2px
+    classDef intelligence fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef foundation fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    
+    class APPS application
+    class AGENT,LLM intelligence
+    class TRANS,DATA foundation
+```
+
+**Core Enhancement Formula:**
+
 ```text
 AI Agent = LLM + Planning + Memory + Tools + Actions
 
 Simple Chatbot → Task-Oriented Agent → Multi-Agent System → Agentic AI
+```
+
+### **Where Agentic AI Fits in the AI Landscape**
+
+```mermaid
+graph TB
+    subgraph "🌍 AI Ecosystem"
+        AI[🧠 Artificial Intelligence<br/>All forms of machine intelligence]
+        ML[🤖 Machine Learning<br/>Learning from data patterns]
+        DL[🧬 Deep Learning<br/>Neural network architectures]
+        NLP[💬 Natural Language Processing<br/>Understanding & generating text]
+        LLM[🗣️ Large Language Models<br/>GPT-4, Claude, Gemini]
+        AGENT[🎯 AGENTIC AI<br/>Goal-Oriented + Autonomous<br/>Systems with Agency]
+    end
+    
+    subgraph "🔧 Core Agent Capabilities"
+        PLANNING[📋 Strategic Planning]
+        MEMORY[🧠 Context Memory]
+        TOOLS[🛠️ Tool Integration]
+        REASONING[🤔 Logical Reasoning]
+        EXECUTION[⚡ Action Execution]
+    end
+    
+    subgraph "📈 Evolution Path"
+        CHATBOT[💬 Simple Chatbot]
+        TASK[📋 Task-Oriented Agent]
+        MULTI[🤝 Multi-Agent System]
+        AGENTIC[🎯 Agentic AI]
+    end
+    
+    AI --> ML --> DL --> NLP --> LLM --> AGENT
+    
+    AGENT --> PLANNING
+    AGENT --> MEMORY
+    AGENT --> TOOLS
+    AGENT --> REASONING
+    AGENT --> EXECUTION
+    
+    CHATBOT --> TASK --> MULTI --> AGENTIC
+    
+    classDef foundation fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef capability fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef evolution fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
+    classDef highlight fill:#ffebee,stroke:#d32f2f,stroke-width:3px
+    
+    class AI,ML,DL,NLP,LLM foundation
+    class PLANNING,MEMORY,TOOLS,REASONING,EXECUTION capability
+    class CHATBOT,TASK,MULTI evolution
+    class AGENT,AGENTIC highlight
 ```
 
 ### **Progression Philosophy**
@@ -46,9 +129,9 @@ Simple Chatbot → Task-Oriented Agent → Multi-Agent System → Agentic AI
 
 ---
 
-## � Quick Reference
+## 📚 Quick Reference
 
-### **📚 [ABC of Agentic AI - Complete Glossary](ABC_AGENTIC_AI_GLOSSARY.md)**
+### **📚 [Agentic AI Learning Lexicon - Essential Concepts](02_Agentic-AI-Learning-Lexicon.md)**
 
 Your comprehensive A-Z reference for all Agentic AI concepts! This glossary includes:
 
@@ -61,17 +144,31 @@ Your comprehensive A-Z reference for all Agentic AI concepts! This glossary incl
 
 ---
 
-## �📚 Learning Progression
+## 📚 Learning Progression
+
+### **Preparation Phase** (30-45 minutes)
+
+**01_Agentic-AI-Learning-Roadmap** *(30 minutes)*
+
+- **Purpose**: Understand the complete learning journey and career pathways
+- **Key Concepts**: Progressive skill building, learning strategies, career alignment
+- **Practical Focus**: Personal learning path selection and goal setting
+
+**02_Agentic-AI-Learning-Lexicon** *(15 minutes)*
+
+- **Purpose**: Essential vocabulary and concept reference for the entire track
+- **Key Concepts**: Foundational terminology, cross-references, quick lookup
+- **Practical Focus**: Bookmark as ongoing reference throughout learning journey
 
 ### **Foundation Phase** (4-5 hours)
 
-**01_AI-Agent-Fundamentals** *(90 minutes)*
+**03_AI-Agent-Fundamentals** *(90 minutes)*
 
 - **Purpose**: Understand the conceptual leap from chatbots to agents
 - **Key Concepts**: Autonomy, goal-orientation, planning, memory, tool use
 - **Practical Focus**: Agent vs. chatbot comparison, core capabilities analysis
 
-**02_Agent-Architectures-Patterns** *(120 minutes)*
+**04_Agent-Architectures-Patterns** *(120 minutes)*
 
 - **Purpose**: Master the fundamental architectural patterns for AI agents
 - **Key Concepts**: ReAct, Plan-and-Execute, Reflexion, Tree of Thoughts
@@ -79,13 +176,13 @@ Your comprehensive A-Z reference for all Agentic AI concepts! This glossary incl
 
 ### **Implementation Phase** (5-6 hours)
 
-**03_Agent-Development-Fundamentals** *(150 minutes)*
+**05_Agent-Development-Fundamentals** *(150 minutes)*
 
 - **Purpose**: Build your first functional AI agent from scratch
 - **Key Concepts**: Framework selection, component integration, testing strategies
 - **Practical Focus**: Hands-on development with LangChain/CrewAI/Semantic Kernel
 
-**04_Multi-Agent-Systems** *(180 minutes)*
+**06_Multi-Agent-Systems** *(180 minutes)*
 
 - **Purpose**: Design and implement collaborative agent ecosystems
 - **Key Concepts**: Agent communication, coordination, conflict resolution
@@ -93,13 +190,13 @@ Your comprehensive A-Z reference for all Agentic AI concepts! This glossary incl
 
 ### **Advanced Phase** (3-4 hours)
 
-**05_Agentic-AI-Advanced-Systems** *(120 minutes)*
+**07_Agentic-AI-Advanced-Systems** *(120 minutes)*
 
 - **Purpose**: Understand sophisticated reasoning and planning capabilities
 - **Key Concepts**: Advanced planning, emergent behavior, self-improvement
 - **Practical Focus**: Complex scenario handling, adaptive behavior design
 
-**06_Agent-Production-Deployment** *(90 minutes)*
+**08_Agent-Production-Deployment** *(90 minutes)*
 
 - **Purpose**: Deploy agents in production environments safely and effectively
 - **Key Concepts**: Security, monitoring, guardrails, compliance, scaling
@@ -113,21 +210,21 @@ Your comprehensive A-Z reference for all Agentic AI concepts! This glossary incl
 
 #### For experienced developers wanting core agent capabilities
 
-1. **01_AI-Agent-Fundamentals** (condensed) - 60 min
-2. **02_Agent-Architectures-Patterns** (focus on ReAct) - 90 min  
-3. **03_Agent-Development-Fundamentals** (single framework) - 120 min
-4. **04_Multi-Agent-Systems** (basic collaboration) - 120 min
-5. **06_Agent-Production-Deployment** (deployment basics) - 60 min
+1. **03_AI-Agent-Fundamentals** (condensed) - 60 min
+2. **04_Agent-Architectures-Patterns** (focus on ReAct) - 90 min  
+3. **05_Agent-Development-Fundamentals** (single framework) - 120 min
+4. **06_Multi-Agent-Systems** (basic collaboration) - 120 min
+5. **08_Agent-Production-Deployment** (deployment basics) - 60 min
 
 ### **🏗️ Architecture-Focused Path** (12-15 hours)
 
 #### For system architects and technical leads
 
-1. **01_AI-Agent-Fundamentals** (full) - 90 min
-2. **02_Agent-Architectures-Patterns** (all patterns) - 120 min
-3. **03_Agent-Development-Fundamentals** (framework comparison) - 150 min
-4. **05_Agentic-AI-Advanced-Systems** (architecture focus) - 120 min
-5. **06_Agent-Production-Deployment** (enterprise patterns) - 90 min
+1. **03_AI-Agent-Fundamentals** (full) - 90 min
+2. **04_Agent-Architectures-Patterns** (all patterns) - 120 min
+3. **05_Agent-Development-Fundamentals** (framework comparison) - 150 min
+4. **07_Agentic-AI-Advanced-Systems** (architecture focus) - 120 min
+5. **08_Agent-Production-Deployment** (enterprise patterns) - 90 min
 
 ### **🔬 Research-Oriented Path** (15-20 hours)
 
@@ -212,12 +309,12 @@ You'll gain deep insight into:
 
 ### **Module Completion Checklist**
 
-- [ ] **01_AI-Agent-Fundamentals**: Understand agent capabilities and limitations
-- [ ] **02_Agent-Architectures-Patterns**: Master core architectural patterns
-- [ ] **03_Agent-Development-Fundamentals**: Build and test functional agents
-- [ ] **04_Multi-Agent-Systems**: Implement collaborative agent workflows
-- [ ] **05_Agentic-AI-Advanced-Systems**: Design sophisticated reasoning systems
-- [ ] **06_Agent-Production-Deployment**: Deploy agents in production environments
+- [ ] **03_AI-Agent-Fundamentals**: Understand agent capabilities and limitations
+- [ ] **04_Agent-Architectures-Patterns**: Master core architectural patterns
+- [ ] **05_Agent-Development-Fundamentals**: Build and test functional agents
+- [ ] **06_Multi-Agent-Systems**: Implement collaborative agent workflows
+- [ ] **07_Agentic-AI-Advanced-Systems**: Design sophisticated reasoning systems
+- [ ] **08_Agent-Production-Deployment**: Deploy agents in production environments
 
 ### **Practical Projects**
 

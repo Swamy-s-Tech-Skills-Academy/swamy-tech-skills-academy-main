@@ -1,6 +1,13 @@
 # 🤖 AI and Machine Learning Track
 
-## Core artificial intelligence and machine learning domains
+## Core art### **🔗 [06_MCP-Servers/](06_MCP-Servers/)** - AI System Integration
+
+- **Purpose**: Model Context Protocol for connecting AI with external systems
+- **Content**: Server development, client integration, production deployment
+- **Prerequisites**: API development, AI application understanding
+- **Practical Bridge**: Transform AI concepts into production-ready systems
+
+### **🤖 [07_AI-Agents/](07_AI-Agents/)** - Autonomous AI Systemsintelligence and machine learning domains
 
 ---
 
@@ -40,14 +47,21 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 - **Prerequisites**: Machine learning, basic linguistics
 - **Specialization**: Human language processing and generation
 
-### **🔗 [05_MCP-Servers/](05_MCP-Servers/)** - AI System Integration
+### **� [05_LargeLanguageModels/](05_LargeLanguageModels/)** - Modern LLM Foundation
+
+- **Purpose**: Understanding and working with large language models
+- **Content**: LLM architecture, scaling laws, prompt engineering, fine-tuning
+- **Prerequisites**: NLP fundamentals, transformer understanding
+- **Critical Bridge**: Essential foundation for AI Agents and modern applications
+
+### **�🔗 [06_MCP-Servers/](06_MCP-Servers/)** - AI System Integration
 
 - **Purpose**: Model Context Protocol for connecting AI with external systems
 - **Content**: Server development, client integration, production deployment
 - **Prerequisites**: API development, AI application understanding
 - **Practical Bridge**: Transform AI concepts into production-ready systems
 
-### **🤖 [06_AI-Agents/](06_AI-Agents/)** - Autonomous AI Systems
+### **🤖 [07_AI-Agents/](07_AI-Agents/)** - Autonomous AI Systems
 
 - **Purpose**: Goal-oriented AI that can plan, reason, and take autonomous actions
 - **Content**: Agent architectures, multi-agent systems, agentic AI frameworks
