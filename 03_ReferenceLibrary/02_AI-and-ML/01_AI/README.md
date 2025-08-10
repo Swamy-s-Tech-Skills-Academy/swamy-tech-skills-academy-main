@@ -30,6 +30,11 @@
   - Code synthesis
   - Real-world applications
 
+- `LLM-GenAI-Agents-AgenticAI-Comparative-Guide.md` - Practical distinctions and when to use each
+  - LLM vs Generative AI vs AI Agents vs Agentic AI
+  - Capability matrix and lifecycle flows
+  - Decision guide, pitfalls, and implementation hints
+
 - `How-Language-Models-Work.md` - Deep dive into language model mechanisms
   - Tokenization and text processing
   - Word embeddings and semantic relationships
