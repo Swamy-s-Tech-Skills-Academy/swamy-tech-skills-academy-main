@@ -24,6 +24,8 @@ By completing this track, you'll understand how to create:
 
 This track is aligned with the **[Agentic AI Learning Roadmap](01_Agentic-AI-Learning-Roadmap.md)**, covering all essential components from programming foundations to enterprise deployment. See our comprehensive learning roadmap for detailed skill progression paths and career guidance.
 
+Note: Prefer a time-boxed plan? See the Express Track 2025 — Step-by-Step Roadmap in the same roadmap document.
+
 ---
 
 ## 🏗️ Learning Architecture
