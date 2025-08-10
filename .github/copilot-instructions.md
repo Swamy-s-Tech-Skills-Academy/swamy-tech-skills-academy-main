@@ -1,7 +1,7 @@
 # GitHub Copilot Instructions for STSA Knowledge Base
 
 **Version**: 1.0  
-**Last Updated**: July 29, 2025  
+**Last Updated**: August 10, 2025  
 **Scope**: Swamy's Tech Skills Academy Learning System
 
 ---
@@ -45,18 +45,21 @@ When provided with reference materials from books, websites, articles, video cou
 
 ```
 03_ReferenceLibrary/
-├── 01_Development/          ← Programming & Engineering Foundation
-│   ├── 01_Python/          ← Sequential learning progression
+├── 01_Development/                     ← Programming & Engineering Foundation
+│   ├── 01_Python/                      ← Sequential learning progression
 │   └── 02_software-design-principles/
-├── 02_AI-and-ML/           ← Artificial Intelligence Track
-│   ├── 01_AI/              ← Strategic overview first
-│   ├── 02_MachineLearning/ ← Classical algorithms
-│   ├── 03_DeepLearning/    ← Advanced neural networks
-│   └── 04_NaturalLanguageProcessing/
-└── 03_Data-Science/        ← Data Analysis & Infrastructure
-    ├── 01_DataScience/     ← Scientific methodology
-    ├── 02_DataAnalytics/   ← Business applications
-    └── 03_BigData/         ← Scale & infrastructure
+├── 02_AI-and-ML/                       ← Artificial Intelligence Track
+│   ├── 01_AI/                          ← Strategic overview first
+│   ├── 02_MachineLearning/             ← Classical algorithms
+│   ├── 03_DeepLearning/                ← Advanced neural networks
+│   ├── 04_NaturalLanguageProcessing/   ← NLP fundamentals
+│   ├── 05_LargeLanguageModels/         ← LLMs track (bridge to agents)
+│   ├── 06_MCP-Servers/                 ← Model Context Protocol (tools layer)
+│   └── 07_AI-Agents/                   ← Agents & Agentic AI
+└── 03_Data-Science/                    ← Data Analysis & Infrastructure
+    ├── 01_DataScience/                 ← Scientific methodology
+    ├── 02_DataAnalytics/               ← Business applications
+    └── 03_BigData/                     ← Scale & infrastructure
 ```
 
 ### **Numbering Convention**
@@ -107,29 +110,7 @@ When provided with reference materials from books, websites, articles, video cou
 
 ---
 
-## � Content Creation Protocols
-
-### **When Processing Reference Materials**
-
-1. **Analyze Source Intent**: Understand what the original author is trying to teach
-2. **Extract Core Concepts**: Identify the fundamental principles and ideas
-3. **Redesign Presentation**: Create new explanations using different examples and analogies
-4. **Add Educational Value**: Include exercises, questions, or practical applications
-5. **Fit Repository Context**: Ensure content aligns with existing learning progression
-
-### **Quality Assurance Checklist**
-
-- [ ] Content is completely original and not copied from source
-- [ ] Learning objectives are clearly stated
-- [ ] Content fits the numbered sequence appropriately
-- [ ] Cross-references to related topics are included
-- [ ] Examples are practical and relevant
-- [ ] Language is appropriate for target audience level
-- [ ] Formatting follows repository markdown standards
-
----
-
-## �🔗 Integration Requirements
+## 🔗 Integration Requirements
 
 ### **Cross-Domain Connections**
 
@@ -264,6 +245,10 @@ Content quality should be measured by:
 
 ---
 
-**Last Review**: July 29, 2025  
+**Last Review**: August 10, 2025  
 **Next Review**: Every 3 months or when significant changes are made  
 **Maintained By**: Swamy's Tech Skills Academy Learning System
+
+---
+
+Note: Prefer ASCII-first diagrams for universal preview. Mermaid diagrams may be included as an optional enhancement when an ASCII fallback is present.

@@ -23,7 +23,6 @@ By the end of this guide, you can:
 - AI Agent: A goal-driven orchestrator that uses tools and calls models to complete tasks.
 - Agentic AI: A self-directing system that plans, monitors, adapts, and learns across episodes.
 
-
 ## 🧭 Problem-routing cheat sheet
 
 - Need high-quality text/code completions with tight latency? Start with an LLM.
@@ -91,7 +90,35 @@ By the end of this guide, you can:
 
 ---
 
-## 🔁 Lifecycle patterns (plain-text diagram)
+## 🔁 Lifecycle patterns (Mermaid + plain-text)
+
+### Mermaid version (optional)
+
+```mermaid
+flowchart TB
+  subgraph LLM [LLM Inference]
+    A1[Prompt and context] --> A2[Token sampling] --> A3[Completion]
+  end
+
+  subgraph GEN [Generative AI]
+    B1[Inputs: text, image, audio] --> B2[Representation and constraints]
+    B2 --> B3[Generation] --> B4[Quality pass: rules and critique] --> B5[Deliver artifact]
+  end
+
+  subgraph AGT [AI Agent]
+    C1[Goal or task] --> C2[Plan] --> C3[Call tools via MCP]
+    C3 --> C4[Update memory] --> C5{Stop criteria met?}
+    C5 -- yes --> C6[Deliver result]
+    C5 -- no  --> C2
+  end
+
+  subgraph AGIC [Agentic AI]
+    D1[Objective and policies] --> D2[Situation assessment]
+    D2 --> D3[Strategy and subgoals] --> D4[Multi-agent and tool execution]
+    D4 --> D5[Monitoring and anomaly handling] --> D6[Adapt strategy]
+    D6 --> D7[Evaluate and learn] --> D2
+  end
+```
 
 ```text
 LLM Inference:
