@@ -117,6 +117,17 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 
 ---
 
+## ❓ Where is Generative AI?
+
+We do not keep a separate “Generative AI” folder. Generative AI is a cross-cutting capability and is organized by the modality/technique:
+
+- Conceptual/strategy overview → `01_AI/04_Generative-AI-Overview.md`
+- Text generation and LLM-specific topics → `05_LargeLanguageModels/`
+- Image/audio/video and generative architectures (GANs/VAEs/Diffusion) → `03_DeepLearning/` modules
+- Language applications and tasks → `04_NaturalLanguageProcessing/`
+
+This avoids duplication and keeps learning paths clear.
+
 **📅 Last Updated**: August 2025  
 **🎯 Focus**: Complete AI and ML learning ecosystem with production integration  
 **📍 Position**: Core track for artificial intelligence mastery
