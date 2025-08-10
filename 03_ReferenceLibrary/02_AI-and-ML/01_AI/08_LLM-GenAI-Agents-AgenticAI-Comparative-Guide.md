@@ -94,6 +94,8 @@ By the end of this guide, you can:
 
 ### Mermaid version (optional)
 
+Rendering note: If your viewer doesn't support Mermaid, the diagram below may appear as code. Use the plain-text diagram that follows.
+
 ```mermaid
 flowchart TB
   subgraph LLM [LLM Inference]
