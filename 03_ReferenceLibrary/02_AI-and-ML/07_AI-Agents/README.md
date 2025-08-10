@@ -1,4 +1,4 @@
-# 06_AI-Agents: Autonomous AI Systems Learning Track
+# 07_AI-Agents: Autonomous AI Systems Learning Track
 
 **Learning Domain**: AI Agents and Autonomous Systems  
 **Track Level**: Intermediate to Advanced  
@@ -367,6 +367,6 @@ You'll gain deep insight into:
 
 ---
 
-**Last Updated**: August 7, 2025  
+**Last Updated**: August 10, 2025  
 **Maintained By**: Swamy's Tech Skills Academy  
 **Next Review**: November 2025

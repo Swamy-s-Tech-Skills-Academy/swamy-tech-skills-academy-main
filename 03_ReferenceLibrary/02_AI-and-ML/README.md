@@ -74,16 +74,16 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 - **Current ML**: Deepen `02_MachineLearning/` expertise
 - **Modern AI**: Focus on `03_DeepLearning/` architectures
 - **Language AI**: Specialize in `04_NaturalLanguageProcessing/`
-- **System Integration**: Master `05_MCP-Servers/` for production AI
-- **Autonomous Systems**: Develop `06_AI-Agents/` for intelligent automation
+- **System Integration**: Master `06_MCP-Servers/` for production AI
+- **Autonomous Systems**: Develop `07_AI-Agents/` for intelligent automation
 - **Modern LLMs**: Build foundation in `05_LargeLanguageModels/`
 
 ### **🧠 Advanced Path**
 
 - **Research**: Latest developments in `03_DeepLearning/`
 - **Applications**: Cross-domain projects combining multiple areas
-- **Production Systems**: Advanced `05_MCP-Servers/` patterns and deployment
-- **Agentic AI**: Sophisticated `06_AI-Agents/` architectures and multi-agent systems
+- **Production Systems**: Advanced `06_MCP-Servers/` patterns and deployment
+- **Agentic AI**: Sophisticated `07_AI-Agents/` architectures and multi-agent systems
 - **LLMs**: Advanced `05_LargeLanguageModels/` techniques
 - **Leadership**: Strategic AI understanding from `01_AI/` perspective
 
@@ -109,8 +109,8 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 - **New to AI?** Start with `01_AI/07_AI-Terms-Learning-Order.md` for the complete roadmap
 - **Want the big picture?** Read `01_AI/01_AI-Domain-Relationships.md` first
 - **Have ML background?** Jump to `03_DeepLearning/` or `04_NaturalLanguageProcessing/`
-- **Building AI systems?** Focus on `05_MCP-Servers/` for production integration
-- **Want autonomous AI?** Explore `06_AI-Agents/` for goal-oriented systems
+- **Building AI systems?** Focus on `06_MCP-Servers/` for production integration
+- **Want autonomous AI?** Explore `07_AI-Agents/` for goal-oriented systems
 - **New to LLMs?** Start with `05_LargeLanguageModels/`
 - **Specific project?** Use domain cross-references to find relevant content
 - **Team training?** Follow the learning progression paths

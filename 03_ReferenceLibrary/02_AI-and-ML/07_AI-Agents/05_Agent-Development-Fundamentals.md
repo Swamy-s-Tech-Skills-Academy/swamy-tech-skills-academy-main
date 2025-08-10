@@ -885,7 +885,7 @@ class AgentDebugger:
 ### **Related**
 
 - **[04_Multi-Agent-Systems.md](04_Multi-Agent-Systems.md)** - Scaling to multiple collaborative agents
-- **[../05_MCP-Servers/01_MCP-Fundamentals.md](../05_MCP-Servers/01_MCP-Fundamentals.md)** - Tool integration protocols
+**[../06_MCP-Servers/01_MCP-Fundamentals.md](../06_MCP-Servers/01_MCP-Fundamentals.md)** - Tool integration protocols
 
 ### **Advanced**
 
