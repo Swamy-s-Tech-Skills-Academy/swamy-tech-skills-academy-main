@@ -128,6 +128,77 @@ We do not keep a separate “Generative AI” folder. Generative AI is a cross-c
 
 This avoids duplication and keeps learning paths clear.
 
+### How these fit together (STSA original view)
+
+ASCII-first visualization of containment and specialization:
+
+```text
++--------------------------------------------------------------+
+|                     Artificial Intelligence                   |
+|  +----------------------------------------------------------+ |
+|  |                     Machine Learning                      | |
+|  |  +------------------------------------------------------+ | |
+|  |  |                      Deep Learning                    | | |
+|  |  |  +-----------------------------------------------+   | | |
+|  |  |  |        Generative AI (content creation)        |   | | |
+|  |  |  |    +------------------+                        |   | | |
+|  |  |  |    |  LLMs (language) |                        |   | | |
+|  |  |  |    +------------------+                        |   | | |
+|  |  |  +-----------------------------------------------+   | | |
+|  |  +------------------------------------------------------+ | |
+|  +----------------------------------------------------------+ |
++--------------------------------------------------------------+
+```
+
+Clarifications
+
+- Generative AI spans text, image, audio, and video; LLMs specialize in language.
+- Not all deep learning is generative; many models are discriminative.
+- Many generative models aren’t LLMs (diffusion, GANs, VAEs).
+- Agents orchestrate models, tools, memory, and policies; they sit above this stack.
+
+Optional Mermaid (if supported):
+
+```mermaid
+graph TB
+    subgraph AI["Artificial Intelligence"]
+        subgraph ML["Machine Learning"]
+            subgraph DL["Deep Learning"]
+                subgraph GEN["Generative AI"]
+                    LLM["LLMs"]
+                end
+            end
+        end
+    end
+
+    %% Class definitions for colors
+    classDef ai fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1;
+    classDef ml fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#1b5e20;
+    classDef dl fill:#ede7f6,stroke:#7b1fa2,stroke-width:2px,color:#4a148c;
+    classDef gen fill:#e8eaf6,stroke:#303f9f,stroke-width:2px,color:#1a237e;
+    classDef llm fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#e65100;
+
+    %% Apply classes (Mermaid may not style subgraphs in all renderers; we also add style lines)
+    class AI ai;
+    class ML ml;
+    class DL dl;
+    class GEN gen;
+    class LLM llm;
+
+    %% Fallback styling for subgraphs if class on subgraph is ignored
+    style AI fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+    style ML fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#1b5e20
+    style DL fill:#ede7f6,stroke:#7b1fa2,stroke-width:2px,color:#4a148c
+    style GEN fill:#e8eaf6,stroke:#303f9f,stroke-width:2px,color:#1a237e
+    style LLM fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#e65100
+```
+
+Related reading:
+
+- Strategy: `01_AI/04_Generative-AI-Overview.md`
+- LLMs: `05_LargeLanguageModels/`
+- Beyond LLMs (diffusion, GANs): `03_DeepLearning/`
+
 **📅 Last Updated**: August 2025  
 **🎯 Focus**: Complete AI and ML learning ecosystem with production integration  
 **📍 Position**: Core track for artificial intelligence mastery
