@@ -20,11 +20,9 @@ By the end of this guide, you can:
 ## 🔎 One-sentence archetypes
 
 - LLM: A probabilistic language engine that predicts the next token conditioned on context.
-- Generative AI: A content factory that transforms input modalities into new artifacts (text, code, images, audio).
 - AI Agent: A goal-driven orchestrator that uses tools and calls models to complete tasks.
 - Agentic AI: A self-directing system that plans, monitors, adapts, and learns across episodes.
 
----
 
 ## 🧭 Problem-routing cheat sheet
 
@@ -35,7 +33,7 @@ By the end of this guide, you can:
 
 ---
 
-## � Stop conflating: four distinct layers
+## Stop conflating: four distinct layers
 
 - LLM
   - A token predictor: maps context → next tokens.
@@ -61,7 +59,7 @@ By the end of this guide, you can:
 
 ---
 
-## �🧬 Capability matrix (what changes across the stack)
+## 🧬 Capability matrix (what changes across the stack)
 
 | Dimension | LLM | Generative AI | AI Agent | Agentic AI |
 |---|---|---|---|---|
@@ -93,40 +91,24 @@ By the end of this guide, you can:
 
 ---
 
-## 🔁 Lifecycle patterns (original flows)
+## 🔁 Lifecycle patterns (plain-text diagram)
 
-```mermaid
-flowchart LR
-  subgraph LLM [LLM Inference]
-    A[Prompt & Context] --> B[Token Sampling]
-    B --> C[Completion]
-  end
+```text
+LLM Inference:
+  [Prompt & Context] -> [Token Sampling] -> [Completion]
 
-  subgraph GenAI [Generative AI]
-    G1[Inputs (txt/img/audio)] --> G2[Representation & Constraints]
-    G2 --> G3[Generation]
-    G3 --> G4[Quality Pass (rules/critique)]
-    G4 --> G5[Deliver Artifact]
-  end
+Generative AI:
+  [Inputs (txt/img/audio)] -> [Representation & Constraints] -> [Generation]
+  -> [Quality Pass (rules/critique)] -> [Deliver Artifact]
 
-  subgraph Agent [AI Agent]
-    P1[Goal/Task] --> P2[Plan]
-    P2 --> P3[Call Tools via MCP]
-    P3 --> P4[Update Memory]
-    P4 --> P5[Check Stop Criteria]
-    P5 -- no --> P2
-    P5 -- yes --> P6[Deliver Result]
-  end
+AI Agent:
+  [Goal/Task] -> [Plan] -> [Call Tools via MCP] -> [Update Memory]
+  -> [Check Stop Criteria] -> (yes -> Deliver Result | no -> Plan)
 
-  subgraph Agentic [Agentic AI]
-    H1[Objective & Policies] --> H2[Situation Assessment]
-    H2 --> H3[Strategy & Subgoals]
-    H3 --> H4[Multi-Agent/Tool Execution]
-    H4 --> H5[Monitoring & Anomaly Handling]
-    H5 --> H6[Adapt Strategy]
-    H6 --> H7[Evaluate & Learn]
-    H7 -->|loop| H2
-  end
+Agentic AI:
+  [Objective & Policies] -> [Situation Assessment] -> [Strategy & Subgoals]
+  -> [Multi-Agent/Tool Execution] -> [Monitoring & Anomaly Handling]
+  -> [Adapt Strategy] -> [Evaluate & Learn] -> (loop back to Situation Assessment)
 ```
 
 Notes:
