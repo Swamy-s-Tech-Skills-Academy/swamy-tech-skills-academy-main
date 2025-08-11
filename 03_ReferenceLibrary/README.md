@@ -16,7 +16,9 @@ Complete artificial intelligence and machine learning ecosystem
 - **[02_MachineLearning/](02_AI-and-ML/02_MachineLearning/)** - Classical algorithms and statistical learning
 - **[03_DeepLearning/](02_AI-and-ML/03_DeepLearning/)** - Neural networks and advanced architectures
 - **[04_NaturalLanguageProcessing/](02_AI-and-ML/04_NaturalLanguageProcessing/)** - Language AI and text processing
-- **[05_MCP-Servers/](02_AI-and-ML/05_MCP-Servers/)** - Model Context Protocol for AI system integration
+- **[05_LargeLanguageModels/](02_AI-and-ML/05_LargeLanguageModels/)** - Modern LLMs, prompt engineering, fine-tuning
+- **[06_MCP-Servers/](02_AI-and-ML/06_MCP-Servers/)** - Model Context Protocol for AI system integration
+- **[07_AI-Agents/](02_AI-and-ML/07_AI-Agents/)** - Agentic AI and multi-agent systems
 
 Perfect for: AI practitioners, ML engineers, researchers, and strategic AI planning
 
@@ -51,7 +53,7 @@ Perfect for: Software engineers, system architects, and anyone building technica
 
 ### **🎯 For Practitioners - Deep Expertise**
 
-- **AI/ML Engineers** → Focus on **[02_AI-and-ML/](02_AI-and-ML/)** + **[01_Development/](01_Development/)** + **[05_MCP-Servers/](02_AI-and-ML/05_MCP-Servers/)**
+- **AI/ML Engineers** → Focus on **[02_AI-and-ML/](02_AI-and-ML/)** + **[01_Development/](01_Development/)** + **[06_MCP-Servers/](02_AI-and-ML/06_MCP-Servers/)**
 - **Data Scientists** → Focus on **[03_Data-Science/](03_Data-Science/)** + **[01_Development/01_Python/](01_Development/01_Python/)**
 - **Software Architects** → Focus on **[01_Development/](01_Development/)** + cross-track integration
 
@@ -77,12 +79,14 @@ Perfect for: Software engineers, system architects, and anyone building technica
 - **Data Science Track**: **[03_Data-Science/README.md](03_Data-Science/README.md)**
 - **Development Track**: **[01_Development/README.md](01_Development/README.md)**
 
-### **📊 Key Resources**
+### **� Key Resources**
 
 - **AI Learning Roadmap**: **[02_AI-and-ML/01_AI/07_AI-Terms-Learning-Order.md](02_AI-and-ML/01_AI/07_AI-Terms-Learning-Order.md)**
 - **AI Relationship Diagrams**: **[02_AI-and-ML/01_AI/01_AI-Domain-Relationships.md](02_AI-and-ML/01_AI/01_AI-Domain-Relationships.md)**
 - **Learning Curricula**: **[02_AI-and-ML/01_AI/02_AI-Learning-Topics.md](02_AI-and-ML/01_AI/02_AI-Learning-Topics.md)**
-- **MCP Integration Guide**: **[02_AI-and-ML/05_MCP-Servers/01_MCP-Fundamentals.md](02_AI-and-ML/05_MCP-Servers/01_MCP-Fundamentals.md)**
+- **LLM Foundation**: **[02_AI-and-ML/05_LargeLanguageModels/README.md](02_AI-and-ML/05_LargeLanguageModels/README.md)**
+- **MCP Integration Guide**: **[02_AI-and-ML/06_MCP-Servers/01_MCP-Fundamentals.md](02_AI-and-ML/06_MCP-Servers/01_MCP-Fundamentals.md)**
+- **Agentic AI Roadmap**: **[02_AI-and-ML/07_AI-Agents/01_Agentic-AI-Learning-Roadmap.md](02_AI-and-ML/07_AI-Agents/01_Agentic-AI-Learning-Roadmap.md)**
 - **Organization Guide**: **[ORGANIZATION_GUIDE.md](ORGANIZATION_GUIDE.md)**
 
 ### **🔍 Find Content**
@@ -100,3 +104,13 @@ Perfect for: Software engineers, system architects, and anyone building technica
 ---
 
 **💡 Usage Tip**: Start with the track most relevant to your goals, then explore cross-track connections as your expertise grows. Each track maintains its distinct focus while connecting to related areas through documented relationships.
+
+---
+
+## 🗓️ Daily Update Workflow (lightweight)
+
+- Add or edit content in the correct domain folder using the STSA section structure
+- Cross-link from the domain README and at least one adjacent domain
+- Prefer ASCII diagrams; add Mermaid as optional fallback if helpful
+- Update “Last Updated” in the edited README(s)
+- Quick sanity check on numbering consistency (05 LLMs, 06 MCP, 07 Agents)

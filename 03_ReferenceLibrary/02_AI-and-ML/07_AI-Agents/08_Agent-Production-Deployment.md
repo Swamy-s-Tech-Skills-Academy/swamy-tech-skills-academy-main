@@ -55,7 +55,7 @@ This practical module will cover:
 ### **Prerequisites**
 
 - **[05_Agent-Development-Fundamentals.md](05_Agent-Development-Fundamentals.md)** - Agent building experience
-- **[../05_MCP-Servers/](../05_MCP-Servers/)** - Production integration patterns
+- **[../06_MCP-Servers/](../06_MCP-Servers/)** - Production integration patterns
 - **[../../07_DevOps/](../../07_DevOps/)** - DevOps and deployment fundamentals
 
 ### **Advanced Integration**

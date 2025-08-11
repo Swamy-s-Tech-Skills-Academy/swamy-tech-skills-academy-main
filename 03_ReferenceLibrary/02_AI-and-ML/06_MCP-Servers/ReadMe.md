@@ -1,4 +1,4 @@
-# 05_MCP-Servers: Model Context Protocol Learning Track
+# 06_MCP-Servers: Model Context Protocol Learning Track
 
 **Learning Level**: Intermediate to Advanced  
 **Prerequisites**: Programming experience, API concepts, AI application development  
@@ -44,7 +44,7 @@ Learn to build complete MCP servers with production-quality code.
 
 ### **Integration Phase** (2-3 hours)
 
-*Coming Soon*
+Coming soon.
 
 **03_MCP-Client-Integration** *(Planned)*
 
@@ -60,7 +60,7 @@ Learn to build complete MCP servers with production-quality code.
 
 ### **Advanced Phase** (2-3 hours)
 
-*Coming Soon*
+Coming soon.
 
 **05_MCP-Agent-Integration** *(Planned)*
 
@@ -132,21 +132,21 @@ Learn to build complete MCP servers with production-quality code.
 
 ### **Path 1: MCP Developer** (Focus: Building MCP servers)
 
-```
+```text
 01_MCP-Fundamentals → 02_MCP-Server-Development → 04_Production-MCP-Patterns
 Estimated Time: 6-8 hours
 ```
 
 ### **Path 2: AI Integration Specialist** (Focus: Connecting AI with MCP)
 
-```
+```text
 01_MCP-Fundamentals → 03_MCP-Client-Integration → 05_MCP-Agent-Integration
 Estimated Time: 5-7 hours
 ```
 
 ### **Path 3: MCP Architect** (Focus: Enterprise MCP systems)
 
-```
+```text
 Complete Track → Security Best Practices → Production Patterns
 Estimated Time: 8-10 hours
 ```

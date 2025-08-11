@@ -30,20 +30,8 @@ public class Person
         set => _age = value >= 0 ? value : throw new ArgumentOutOfRangeException(nameof(value));
     }
 
-    // Auto-implemented property (shorthand)---        _objects.Enqueue(obj);
-    }
-}
-```
-
----
-
-## � C# OOP in One Sentence🔗 Object Relationships in C#
-
-### \*\*7️⃣ Aggregation---
-
-## 💡 C# OOP in One Sentence
-
-> **"C# OOP combines the four pillars of object-oriented programming with powerful .NET features like properties, generics, LINQ, and modern syntax to create robust, type-safe, and maintainable applications."**-A, Independent)\*\*public string Email { get; set; }
+    // Auto-implemented property (shorthand)
+    public string Email { get; set; }
 
     // Constructor
     public Person(string name, int age)
@@ -57,10 +45,14 @@ public class Person
 
     // Override ToString for better debugging
     public override string ToString() => GetInfo();
-
 }
+```
 
-````
+---
+
+## 💡 C# OOP in One Sentence
+
+> **"C# OOP combines the four pillars of object-oriented programming with powerful .NET features like properties, generics, LINQ, and modern syntax to create robust, type-safe, and maintainable applications."**
 
 ### **Object Creation and Usage**
 
@@ -81,7 +73,7 @@ Person person3 = new("Charlie", 35);
 
 ---
 
-## 🧬 Inheritance in C#
+## 🧬 Inheritance in C #
 
 ### **Basic Inheritance**
 
@@ -147,7 +139,7 @@ public class Dog : Animal
 
 ---
 
-## 🎭 Polymorphism in C#
+## 🎭 Polymorphism in C #
 
 ### **Two Types of Polymorphism**
 
@@ -600,7 +592,7 @@ public class ShapeCalculator
 
 ---
 
-## 🔗 Object Relationships in C#
+## 🔗 Object Relationships in C #
 
 ### **Quick Examples**
 
@@ -811,7 +803,7 @@ public class ExpensiveObjectPool
 
 ---
 
-## � Object Relationships in C#
+## 🔗 Object Relationships in C #
 
 ### **7️⃣ Aggregation (Has-A, Independent)**
 

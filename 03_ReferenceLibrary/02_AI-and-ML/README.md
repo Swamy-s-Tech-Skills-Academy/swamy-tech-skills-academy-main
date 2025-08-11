@@ -1,14 +1,5 @@
 # 🤖 AI and Machine Learning Track
 
-## Core art### **🔗 [06_MCP-Servers/](06_MCP-Servers/)** - AI System Integration
-
-- **Purpose**: Model Context Protocol for connecting AI with external systems
-- **Content**: Server development, client integration, production deployment
-- **Prerequisites**: API development, AI application understanding
-- **Practical Bridge**: Transform AI concepts into production-ready systems
-
-### **🤖 [07_AI-Agents/](07_AI-Agents/)** - Autonomous AI Systemsintelligence and machine learning domains
-
 ---
 
 ## 🎯 Track Overview
@@ -47,14 +38,14 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 - **Prerequisites**: Machine learning, basic linguistics
 - **Specialization**: Human language processing and generation
 
-### **� [05_LargeLanguageModels/](05_LargeLanguageModels/)** - Modern LLM Foundation
+### **🧾 [05_LargeLanguageModels/](05_LargeLanguageModels/)** - Modern LLM Foundation
 
 - **Purpose**: Understanding and working with large language models
 - **Content**: LLM architecture, scaling laws, prompt engineering, fine-tuning
 - **Prerequisites**: NLP fundamentals, transformer understanding
 - **Critical Bridge**: Essential foundation for AI Agents and modern applications
 
-### **�🔗 [06_MCP-Servers/](06_MCP-Servers/)** - AI System Integration
+### **🔗 [06_MCP-Servers/](06_MCP-Servers/)** - AI System Integration
 
 - **Purpose**: Model Context Protocol for connecting AI with external systems
 - **Content**: Server development, client integration, production deployment
@@ -83,15 +74,17 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 - **Current ML**: Deepen `02_MachineLearning/` expertise
 - **Modern AI**: Focus on `03_DeepLearning/` architectures
 - **Language AI**: Specialize in `04_NaturalLanguageProcessing/`
-- **System Integration**: Master `05_MCP-Servers/` for production AI
-- **Autonomous Systems**: Develop `06_AI-Agents/` for intelligent automation
+- **System Integration**: Master `06_MCP-Servers/` for production AI
+- **Autonomous Systems**: Develop `07_AI-Agents/` for intelligent automation
+- **Modern LLMs**: Build foundation in `05_LargeLanguageModels/`
 
 ### **🧠 Advanced Path**
 
 - **Research**: Latest developments in `03_DeepLearning/`
 - **Applications**: Cross-domain projects combining multiple areas
-- **Production Systems**: Advanced `05_MCP-Servers/` patterns and deployment
-- **Agentic AI**: Sophisticated `06_AI-Agents/` architectures and multi-agent systems
+- **Production Systems**: Advanced `06_MCP-Servers/` patterns and deployment
+- **Agentic AI**: Sophisticated `07_AI-Agents/` architectures and multi-agent systems
+- **LLMs**: Advanced `05_LargeLanguageModels/` techniques
 - **Leadership**: Strategic AI understanding from `01_AI/` perspective
 
 ---
@@ -116,12 +109,95 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 - **New to AI?** Start with `01_AI/07_AI-Terms-Learning-Order.md` for the complete roadmap
 - **Want the big picture?** Read `01_AI/01_AI-Domain-Relationships.md` first
 - **Have ML background?** Jump to `03_DeepLearning/` or `04_NaturalLanguageProcessing/`
-- **Building AI systems?** Focus on `05_MCP-Servers/` for production integration
-- **Want autonomous AI?** Explore `06_AI-Agents/` for goal-oriented systems
+- **Building AI systems?** Focus on `06_MCP-Servers/` for production integration
+- **Want autonomous AI?** Explore `07_AI-Agents/` for goal-oriented systems
+- **New to LLMs?** Start with `05_LargeLanguageModels/`
 - **Specific project?** Use domain cross-references to find relevant content
 - **Team training?** Follow the learning progression paths
 
 ---
+
+## ❓ Where is Generative AI?
+
+We do not keep a separate “Generative AI” folder. Generative AI is a cross-cutting capability and is organized by the modality/technique:
+
+- Conceptual/strategy overview → `01_AI/04_Generative-AI-Overview.md`
+- Text generation and LLM-specific topics → `05_LargeLanguageModels/`
+- Image/audio/video and generative architectures (GANs/VAEs/Diffusion) → `03_DeepLearning/` modules
+- Language applications and tasks → `04_NaturalLanguageProcessing/`
+
+This avoids duplication and keeps learning paths clear.
+
+### How these fit together (STSA original view)
+
+ASCII-first visualization of containment and specialization:
+
+```text
++--------------------------------------------------------------+
+|                     Artificial Intelligence                   |
+|  +----------------------------------------------------------+ |
+|  |                     Machine Learning                      | |
+|  |  +------------------------------------------------------+ | |
+|  |  |                      Deep Learning                    | | |
+|  |  |  +-----------------------------------------------+   | | |
+|  |  |  |        Generative AI (content creation)        |   | | |
+|  |  |  |    +------------------+                        |   | | |
+|  |  |  |    |  LLMs (language) |                        |   | | |
+|  |  |  |    +------------------+                        |   | | |
+|  |  |  +-----------------------------------------------+   | | |
+|  |  +------------------------------------------------------+ | |
+|  +----------------------------------------------------------+ |
++--------------------------------------------------------------+
+```
+
+Clarifications
+
+- Generative AI spans text, image, audio, and video; LLMs specialize in language.
+- Not all deep learning is generative; many models are discriminative.
+- Many generative models aren’t LLMs (diffusion, GANs, VAEs).
+- Agents orchestrate models, tools, memory, and policies; they sit above this stack.
+
+Optional Mermaid (if supported):
+
+```mermaid
+graph TB
+    subgraph AI["Artificial Intelligence"]
+        subgraph ML["Machine Learning"]
+            subgraph DL["Deep Learning"]
+                subgraph GEN["Generative AI"]
+                    LLM["LLMs"]
+                end
+            end
+        end
+    end
+
+    %% Class definitions for colors
+    classDef ai fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1;
+    classDef ml fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#1b5e20;
+    classDef dl fill:#ede7f6,stroke:#7b1fa2,stroke-width:2px,color:#4a148c;
+    classDef gen fill:#e8eaf6,stroke:#303f9f,stroke-width:2px,color:#1a237e;
+    classDef llm fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#e65100;
+
+    %% Apply classes (Mermaid may not style subgraphs in all renderers; we also add style lines)
+    class AI ai;
+    class ML ml;
+    class DL dl;
+    class GEN gen;
+    class LLM llm;
+
+    %% Fallback styling for subgraphs if class on subgraph is ignored
+    style AI fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+    style ML fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#1b5e20
+    style DL fill:#ede7f6,stroke:#7b1fa2,stroke-width:2px,color:#4a148c
+    style GEN fill:#e8eaf6,stroke:#303f9f,stroke-width:2px,color:#1a237e
+    style LLM fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#e65100
+```
+
+Related reading:
+
+- Strategy: `01_AI/04_Generative-AI-Overview.md`
+- LLMs: `05_LargeLanguageModels/`
+- Beyond LLMs (diffusion, GANs): `03_DeepLearning/`
 
 **📅 Last Updated**: August 2025  
 **🎯 Focus**: Complete AI and ML learning ecosystem with production integration  

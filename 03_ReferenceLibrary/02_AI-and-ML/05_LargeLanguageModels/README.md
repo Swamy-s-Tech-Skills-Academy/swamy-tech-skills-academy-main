@@ -121,12 +121,12 @@ graph LR
 
 ### **Connections**
 
-- **[06_AI-Agents/](../06_AI-Agents/)** - Building on LLM foundation
+- **[07_AI-Agents/](../07_AI-Agents/)** - Building on LLM foundation
 - **[01_AI/05_How-Language-Models-Work.md](../01_AI/05_How-Language-Models-Work.md)** - Basic concepts
 
 ### **Applications**
 
-- **[05_MCP-Servers/](../05_MCP-Servers/)** - LLM integration patterns
+- **[06_MCP-Servers/](../06_MCP-Servers/)** - LLM integration patterns
 - **Enterprise AI Development** - Production LLM usage
 - **Research & Innovation** - Advanced LLM applications
 

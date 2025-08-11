@@ -547,4 +547,83 @@ Deploy a complete agent system that includes:
 
 **Document Type**: Original Educational Framework following STSA Learning Principles  
 **Version**: 1.0 - Comprehensive Learning-Centered Edition  
-**Last Updated**: August 8, 2025
+**Last Updated**: August 10, 2025
+
+---
+
+## ⚡ Express Track 2025 — Step-by-Step Roadmap (Beginner → Production)
+
+Purpose: A pragmatic, time-boxed path to go from zero to shipping agents this year. Each step ends with a tangible outcome and ties to STSA modules.
+
+Format
+
+- Timebox: suggested pace (adjust as needed)
+- Focus: what to learn/do
+- Goal: what you’ll deliver
+- STSA links: where to study next
+
+### Step 1. Programming + Prompting Foundations (4–6 weeks)
+
+- Focus: Python scripting (APIs, files), prompt craft for structured outputs, basic async and scraping
+- Goal: Scripts that call models and produce reliable JSON/CSV
+- STSA links: 03_ReferenceLibrary/01_Development/01_Python/, 03_ReferenceLibrary/02_AI-and-ML/05_LargeLanguageModels/05_Prompt-Engineering.md
+
+### Step 2. Agent Thinking: Plan, Memory, Tools (3–4 weeks)
+
+- Focus: Autonomy vs. assistance, goal decomposition, execution loops, memory basics
+- Goal: Explain and prototype how an agent decides and acts
+- STSA links: 03_ReferenceLibrary/02_AI-and-ML/07_AI-Agents/03_AI-Agent-Fundamentals.md, 03_ReferenceLibrary/02_AI-and-ML/07_AI-Agents/04_Agent-Architectures-Patterns.md
+
+### Step 3. LLM/API Mastery (3–4 weeks)
+
+- Focus: Model families (proprietary/open), auth, rate limits, tool/function calling
+- Goal: Connect to multiple providers with a common request/response shape
+- STSA links: 03_ReferenceLibrary/02_AI-and-ML/05_LargeLanguageModels/01_LLM-Fundamentals.md, 03_ReferenceLibrary/02_AI-and-ML/05_LargeLanguageModels/07_LLM-to-Agent-Bridge.md
+
+### Step 4. Tool Use and Integration (2–3 weeks)
+
+- Focus: Working memory, external API calls, retrieval/search, file/code ops
+- Goal: Agent that uses at least three tools to complete a task
+- STSA links: 03_ReferenceLibrary/02_AI-and-ML/06_MCP-Servers/01_MCP-Fundamentals.md, 03_ReferenceLibrary/02_AI-and-ML/06_MCP-Servers/02_MCP-Server-Development.md
+
+### Step 5. Pick a Framework and Go Deep (4–6 weeks)
+
+- Focus: One of LangChain, AutoGen, CrewAI, Flowise, or Semantic Kernel; multi-agent orchestration
+- Goal: A multi-agent workflow that solves a realistic problem end-to-end
+- STSA links: 03_ReferenceLibrary/02_AI-and-ML/07_AI-Agents/05_Agent-Development-Fundamentals.md, 03_ReferenceLibrary/02_AI-and-ML/07_AI-Agents/06_Multi-Agent-Systems.md
+
+### Step 6. Orchestrate Pipelines (2–3 weeks)
+
+- Focus: Graph-based flows (LangGraph), automation (n8n/Make/Zapier), guardrails
+- Goal: A scheduled pipeline with retries, timeouts, and success criteria
+- STSA links: 03_ReferenceLibrary/02_AI-and-ML/07_AI-Agents/04_Agent-Architectures-Patterns.md
+
+### Step 7. Memory, RAG, and Knowledge (3–4 weeks)
+
+- Focus: Vector stores (Pinecone/Weaviate/Chroma/FAISS), indexing, hybrid search
+- Goal: Agent that answers with citations using your documents
+- STSA links: 03_ReferenceLibrary/02_AI-and-ML/05_LargeLanguageModels/06_LLM-Limitations-and-Challenges.md, 03_ReferenceLibrary/02_AI-and-ML/04_NaturalLanguageProcessing/
+
+### Step 8. Deploy, Monitor, Govern (3–4 weeks)
+
+- Focus: FastAPI services, Docker/K8s packaging, monitoring (LangSmith/Prometheus/Grafana), security and compliance
+- Goal: A production-ready service with dashboards and guardrails
+- STSA links: 03_ReferenceLibrary/02_AI-and-ML/07_AI-Agents/08_Agent-Production-Deployment.md
+
+### Project cadence
+
+- Each step → one small project. Ship it, then move on.
+- Keep a simple eval rubric per project to avoid regressions when you tweak prompts or flows.
+
+### Minimal toolkit suggestions
+
+- Dev: Python 3.10+, virtual env, linter, tests
+- Ops: Docker, compose, optional local K8s (Kind/minikube) for Step 8
+- Observability: structured logs, run IDs, lightweight metrics
+
+### Exit criteria (production-ready when…)
+
+- You can sketch and defend an agent architecture for a new business task
+- You can implement tools via MCP and wire them to your agent reliably
+- You can add memory/RAG and validate with small, targeted evals
+- You can deploy behind an API, monitor runs, and roll back safely

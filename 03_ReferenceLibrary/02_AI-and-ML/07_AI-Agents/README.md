@@ -1,4 +1,4 @@
-# 06_AI-Agents: Autonomous AI Systems Learning Track
+# 07_AI-Agents: Autonomous AI Systems Learning Track
 
 **Learning Domain**: AI Agents and Autonomous Systems  
 **Track Level**: Intermediate to Advanced  
@@ -23,6 +23,8 @@ By completing this track, you'll understand how to create:
 ### **🗺️ Industry Alignment**
 
 This track is aligned with the **[Agentic AI Learning Roadmap](01_Agentic-AI-Learning-Roadmap.md)**, covering all essential components from programming foundations to enterprise deployment. See our comprehensive learning roadmap for detailed skill progression paths and career guidance.
+
+Note: Prefer a time-boxed plan? See the Express Track 2025 — Step-by-Step Roadmap in the same roadmap document.
 
 ---
 
@@ -245,7 +247,7 @@ Complete all modules in sequence with additional research extensions and experim
 
 ### **Related Technologies**
 
-- **[05_MCP-Servers/](../05_MCP-Servers/)** - Model Context Protocol for agent-data integration
+- **[06_MCP-Servers/](../06_MCP-Servers/)** - Model Context Protocol for agent-data integration
 - **[../../01_Development/02_software-design-principles/](../../01_Development/02_software-design-principles/)** - Software architecture patterns
 - **[../../03_Data-Science/](../../03_Data-Science/)** - Data integration and processing
 
@@ -365,6 +367,6 @@ You'll gain deep insight into:
 
 ---
 
-**Last Updated**: August 7, 2025  
+**Last Updated**: August 10, 2025  
 **Maintained By**: Swamy's Tech Skills Academy  
 **Next Review**: November 2025

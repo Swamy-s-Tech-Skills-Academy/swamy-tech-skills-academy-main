@@ -434,7 +434,7 @@ def prioritize_tasks(tasks, calendar_events, user_preferences):
 
 - **[../01_AI/03_AI-Fundamentals-Overview.md](../01_AI/03_AI-Fundamentals-Overview.md)** - Core AI and LLM concepts
 - **[../01_AI/07_AI-Terms-Learning-Order.md](../01_AI/07_AI-Terms-Learning-Order.md)** - AI terminology foundation
-- **[../05_MCP-Servers/01_MCP-Fundamentals.md](../05_MCP-Servers/01_MCP-Fundamentals.md)** - Understanding tool integration protocols
+**[../06_MCP-Servers/01_MCP-Fundamentals.md](../06_MCP-Servers/01_MCP-Fundamentals.md)** - Understanding tool integration protocols
 
 ### **Related**
 

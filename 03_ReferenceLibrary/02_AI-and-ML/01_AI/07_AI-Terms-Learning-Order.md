@@ -383,7 +383,7 @@ Foundation:       [ NN ] [ ML ] [ AI ]
 
 ### **Application Level Resources**
 
-- **Track**: `05_MCP-Servers/` for system integration
+- **Track**: `06_MCP-Servers/` for system integration
 - **Time**: 6-10 weeks total
 - **Focus**: Building production AI systems
 
@@ -458,7 +458,7 @@ After each level, ask yourself:
 - **Foundation**: `01_AI/` and `02_MachineLearning/`
 - **Core Tech**: `03_DeepLearning/`
 - **Specialization**: `04_NaturalLanguageProcessing/`
-- **Implementation**: `05_MCP-Servers/`
+- **Implementation**: `06_MCP-Servers/`
 
 ---
 
@@ -472,7 +472,7 @@ After each level, ask yourself:
 ### **Next Steps**
 
 - **[../02_MachineLearning/README.md](../02_MachineLearning/README.md)** - Start your ML journey
-- **[../05_MCP-Servers/README.md](../05_MCP-Servers/README.md)** - Build practical AI systems
+- **[../06_MCP-Servers/README.md](../06_MCP-Servers/README.md)** - Build practical AI systems
 
 ### **Advanced**
 
