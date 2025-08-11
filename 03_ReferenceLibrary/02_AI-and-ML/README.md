@@ -193,6 +193,19 @@ graph TB
     style LLM fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#e65100
 ```
 
+### Quick hierarchy recap
+
+- Artificial Intelligence — broadest umbrella; includes learning and symbolic/rule-based systems.
+- Machine Learning — AI systems that learn patterns from data (supervised, unsupervised, RL).
+- Deep Learning — subset of ML using multi-layer neural networks.
+- Generative AI — deep-learning models focused on producing content (text, images, audio, video).
+- Large Language Models (LLMs) — subset of Generative AI specialized for language and code.
+
+Sanity notes
+
+- Not all deep learning is generative; many models are discriminative/classifiers.
+- Many generative models aren’t LLMs (e.g., diffusion, GANs, VAEs for images/audio/video).
+
 Related reading:
 
 - Strategy: `01_AI/04_Generative-AI-Overview.md`
