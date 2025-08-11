@@ -1,8 +1,11 @@
 # 📊 Data Science Track
 
-**Statistical methods, analytics, and large-scale data processing**
+**Learning Level**: Beginner → Advanced  
+**Prerequisites**: Basic stats, Python, willingness to learn tools  
+**Estimated Time**: Variable by domain; see subfolders  
+**Next Steps**: Choose your path (Analyst/Scientist/Engineer) and follow progression
 
----
+## Statistical methods, analytics, and large-scale data processing
 
 ## 🎯 Track Overview
 

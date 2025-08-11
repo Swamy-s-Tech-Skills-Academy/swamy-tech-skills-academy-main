@@ -1,5 +1,10 @@
 # 🤖 AI and Machine Learning Track
 
+**Learning Level**: Beginner → Advanced  
+**Prerequisites**: Python basics, linear algebra (for DL), stats (for ML)  
+**Estimated Time**: Variable by domain; see subfolders  
+**Next Steps**: Follow domain learning progression and cross-references
+
 ---
 
 ## 🎯 Track Overview

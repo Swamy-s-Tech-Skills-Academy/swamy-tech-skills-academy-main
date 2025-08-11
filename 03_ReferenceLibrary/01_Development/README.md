@@ -1,8 +1,11 @@
 # 🛠️ Development Track
 
-**Programming foundations and software engineering excellence**
+**Learning Level**: Beginner → Advanced  
+**Prerequisites**: Basic programming (for Python), willingness to follow engineering practices  
+**Estimated Time**: Variable by domain; see subfolders  
+**Next Steps**: Start with Python or software design based on experience
 
----
+## Programming foundations and software engineering excellence
 
 ## 🎯 Track Overview
 
