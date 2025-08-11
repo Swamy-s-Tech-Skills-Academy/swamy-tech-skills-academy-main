@@ -124,6 +124,17 @@ This track provides the essential programming and software engineering foundatio
 
 ---
 
+## 🔗 Related Topics
+
+- AI foundations: `../02_AI-and-ML/01_AI/README.md`
+- Machine learning: `../02_AI-and-ML/02_MachineLearning/README.md`
+- Deep learning: `../02_AI-and-ML/03_DeepLearning/README.md`
+- NLP: `../02_AI-and-ML/04_NaturalLanguageProcessing/README.md`
+- LLMs: `../02_AI-and-ML/05_LargeLanguageModels/README.md`
+- Agents: `../02_AI-and-ML/07_AI-Agents/README.md`
+
+---
+
 **📅 Last Updated**: July 2025  
 **🎯 Focus**: Programming and engineering foundation for technical excellence  
 **📍 Position**: Supporting track that enables all other domains

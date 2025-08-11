@@ -112,6 +112,16 @@ This track covers the complete data science pipeline, from scientific methodolog
 
 ---
 
+## 🔗 Related Topics
+
+- Python implementation: `../01_Development/01_Python/README.md`
+- Software design: `../01_Development/02_software-design-principles/README.md`
+- AI strategy: `../02_AI-and-ML/01_AI/README.md`
+- Machine learning: `../02_AI-and-ML/02_MachineLearning/README.md`
+- Deep learning: `../02_AI-and-ML/03_DeepLearning/README.md`
+
+---
+
 **📅 Last Updated**: July 2025  
 **🎯 Focus**: End-to-end data science and analytics capability  
 **📍 Position**: Applied data track for business and research impact
