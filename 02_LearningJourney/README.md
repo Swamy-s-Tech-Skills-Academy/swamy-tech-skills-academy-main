@@ -17,7 +17,7 @@ This folder contains active weekly learning plans that provide structured, day-b
 
 ## Current Files
 
-- `Week-2025-08-11.md` - Lightweight weekly execution (no heavy planning)
+- `Notes/` - Daily capture-only notes (one file per day)
 - Templates in `00_Templates/` for daily logs and weekly retro
 
 ## Learning Approach
@@ -52,4 +52,4 @@ This folder contains active weekly learning plans that provide structured, day-b
 3. Capture evidence (code or notes) and check off one small deliverable
 4. End of week: use `00_Templates/Weekly-Execution-Template.md` for a 15-min retro
 
-This week’s execution file (created): `Week-2025-08-11.md`
+Start here for capture-only: `Notes/YYYY-MM-DD.md`

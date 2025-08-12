@@ -211,10 +211,10 @@ graph TD
 
 #### **Weekly Structure**
 
-- One file per week (e.g., `Week-2025-08-11.md`)
-- Daily sections with consistent tracking
+- Daily notes in `02_LearningJourney/Notes/`
+- Capture-only entries with evidence (code/notes)
 - Links to reference materials and resources
-- Progress indicators and retrospectives
+- Optional end-of-week retrospective
 
 ### **📖 03_ReferenceLibrary - Your Quick Reference Desk**
 
@@ -318,7 +318,7 @@ graph TD
     J --> K[Friday: Week 1 Portfolio Entry]
 
     C1[03_ReferenceLibrary/Python/] -.-> F
-    C2[02_LearningJourney/Week-2025-08-11.md] -.-> E
+    C2[02_LearningJourney/Notes/] -.-> E
     C3[01_LeadArchitectKnowledgeBase/Week-01/] -.-> H
 
     style A fill:#e8f5e8
@@ -486,7 +486,7 @@ This repository contains a **four-pillar learning system** designed to transform
 
 ### **🎯 Start Learning Now**
 
-🎯 **[Start Active Learning](02_LearningJourney/Week-2025-08-11.md)** - Open current week's execution
+🎯 **[Start Active Learning](02_LearningJourney/Notes/)** - Open daily capture notes
 
 📚 **[View Knowledge Base](01_LeadArchitectKnowledgeBase/KNOWLEDGE_BASE_README.md)** - Document your learning achievements
 
@@ -558,7 +558,7 @@ graph TD
     LAKB --> KBR[KNOWLEDGE_BASE_README.md\n(Clean slate, ready for Week 1)]
 
     R --> LJ[02_LearningJourney/\n🎯 Active learning & tracking]
-    LJ --> W1[Week-2025-08-11.md\n(Lightweight execution)]
+    LJ --> DN[Notes/\n(Daily capture)]
     LJ --> LJMD[README.md\n(Learning system overview)]
 
     R --> RL[03_ReferenceLibrary/\n📖 Curated reference materials]
@@ -590,7 +590,7 @@ graph TD
 
 ### Step 1: Begin Active Learning
 
-- **Start Now**: Open [current week execution](02_LearningJourney/Week-2025-08-11.md)
+- **Start Now**: Open [daily notes](02_LearningJourney/Notes/)
 - **Understand System**: Read [Learning Journey Overview](02_LearningJourney/README.md)
 - **Access Legacy**: Browse [Legacy Content](04_LegacyContent/) when you need specific materials
 
@@ -613,4 +613,4 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 ---
 
 **Ready to become a Lead Architect?** 🚀
-**[Start your journey now →](02_LearningJourney/Week-2025-08-11.md)**
+**[Start your journey now →](02_LearningJourney/Notes/)**

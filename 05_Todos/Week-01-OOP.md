@@ -2,9 +2,9 @@
 
 This planning file has been replaced by the lightweight weekly execution approach.
 
-## � Go here instead
+## ➡️ Go here instead
 
-- [Week-2025-08-11.md](./Week-2025-08-11.md)
+- [Daily Notes](../02_LearningJourney/Notes/)
 
 ## ℹ️ Why this changed
 
