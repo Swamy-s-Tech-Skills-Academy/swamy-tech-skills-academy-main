@@ -17,8 +17,8 @@ This folder contains active weekly learning plans that provide structured, day-b
 
 ## Current Files
 
-- `Week-01-OOP.md` - 21-day OOP foundations across Java, C#, and Python
-- Future: `Week-02-DesignPatterns.md`, `Week-03-SOLID.md`, `Week-04-Refactoring.md`
+- `Week-2025-08-11.md` - Lightweight weekly execution (no heavy planning)
+- Templates in `00_Templates/` for daily logs and weekly retro
 
 ## Learning Approach
 
@@ -42,3 +42,14 @@ This folder contains active weekly learning plans that provide structured, day-b
 - Update daily progress during the week
 - Complete retrospective on July 18, 2025
 - Use insights to create Week 2 file
+
+---
+
+## ⚡ Quick Start (lightweight, no heavy planning)
+
+1. Open your backlog: `Backlog.md` and pick one 60-minute item
+2. Create today’s log: copy `00_Templates/Daily-Learning-Log.md` into this week file
+3. Capture evidence (code or notes) and check off one small deliverable
+4. End of week: use `00_Templates/Weekly-Execution-Template.md` for a 15-min retro
+
+This week’s execution file (created): `Week-2025-08-11.md`

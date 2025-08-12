@@ -2,7 +2,6 @@
 
 ## 🎯 Today’s focus (one sentence)
 
-
 ## ⏱️ Timebox plan (total ~60 min)
 
 - Discover (10–15m): resource(s) you’ll skim

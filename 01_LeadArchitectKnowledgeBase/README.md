@@ -53,7 +53,7 @@ _Future weeks: Week-02-Design-Patterns/, Week-03-SOLID-Principles/, Week-04-Refa
 
 ## 🎯 Getting Started
 
-1. **Complete Week 1** in your [LearningJourney](../02_LearningJourney/Week-01-OOP.md)
+1. **Complete the current week** in your [LearningJourney](../02_LearningJourney/Week-2025-08-11.md)
 2. **Create `Week-01-OOP-Foundations/`** folder after completing the week
 3. **Add your actual implementations** and key learnings
 4. **Plan Week 2** only after Week 1 is truly complete

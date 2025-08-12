@@ -211,7 +211,7 @@ graph TD
 
 #### **Weekly Structure**
 
-- One file per week: `Week-01-OOP.md`, `Week-02-DesignPatterns.md`
+- One file per week (e.g., `Week-2025-08-11.md`)
 - Daily sections with consistent tracking
 - Links to reference materials and resources
 - Progress indicators and retrospectives
@@ -300,11 +300,11 @@ graph LR
 
 ## 🎯 Real Scenarios with Workflow Diagrams
 
-### **Scenario 1: Starting Week 1 OOP Learning (Your Immediate Need!)**
+### **Scenario 1: Kicking Off a New Week**
 
 ```mermaid
 graph TD
-    A[Monday Morning] --> B[Read Week-01-OOP.md Plan]
+    A[Monday Morning] --> B[Open current week's execution]
     B --> C[Check Python Reference Materials]
     C --> D[Set Up Daily Tracking]
     D --> E[Day 1: Classes & Objects]
@@ -318,7 +318,7 @@ graph TD
     J --> K[Friday: Week 1 Portfolio Entry]
 
     C1[03_ReferenceLibrary/Python/] -.-> F
-    C2[02_LearningJourney/Week-01-OOP.md] -.-> E
+    C2[02_LearningJourney/Week-2025-08-11.md] -.-> E
     C3[01_LeadArchitectKnowledgeBase/Week-01/] -.-> H
 
     style A fill:#e8f5e8
@@ -486,7 +486,7 @@ This repository contains a **four-pillar learning system** designed to transform
 
 ### **🎯 Start Learning Now**
 
-🎯 **[Start Active Learning](02_LearningJourney/Week-01-OOP.md)** - Begin Week 1: OOP Mastery
+🎯 **[Start Active Learning](02_LearningJourney/Week-2025-08-11.md)** - Open current week's execution
 
 📚 **[View Knowledge Base](01_LeadArchitectKnowledgeBase/KNOWLEDGE_BASE_README.md)** - Document your learning achievements
 
@@ -558,7 +558,7 @@ graph TD
     LAKB --> KBR[KNOWLEDGE_BASE_README.md\n(Clean slate, ready for Week 1)]
 
     R --> LJ[02_LearningJourney/\n🎯 Active learning & tracking]
-    LJ --> W1[Week-01-OOP.md\n(Current focus: OOP Mastery)]
+    LJ --> W1[Week-2025-08-11.md\n(Lightweight execution)]
     LJ --> LJMD[README.md\n(Learning system overview)]
 
     R --> RL[03_ReferenceLibrary/\n📖 Curated reference materials]
@@ -590,7 +590,7 @@ graph TD
 
 ### Step 1: Begin Active Learning
 
-- **Start Now**: Open [Week 1 Learning Journey](02_LearningJourney/Week-01-OOP.md)
+- **Start Now**: Open [current week execution](02_LearningJourney/Week-2025-08-11.md)
 - **Understand System**: Read [Learning Journey Overview](02_LearningJourney/README.md)
 - **Access Legacy**: Browse [Legacy Content](04_LegacyContent/) when you need specific materials
 
@@ -613,4 +613,4 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 ---
 
 **Ready to become a Lead Architect?** 🚀
-**[Start your journey now →](02_LearningJourney/Week-01-OOP.md)**
+**[Start your journey now →](02_LearningJourney/Week-2025-08-11.md)**

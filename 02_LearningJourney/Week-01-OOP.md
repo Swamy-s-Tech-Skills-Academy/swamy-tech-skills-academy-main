@@ -1,14 +1,18 @@
-# 🚀 **Week 1: OOP Foundations Learning Plan**
+# 🗒️ Deprecated: Use current weekly execution
 
-## 🎯 **Phase 1 Goal: Master Object-Oriented Programming Fundamentals**
+This planning file has been replaced by the lightweight weekly execution approach.
 
-**Outcome**: Solid understanding of OOP concepts across multiple languages, preparing for SOLID principles in Week 2+
+## � Go here instead
 
-**📊 Plan Overview**: 14 days, 1 hour daily = 14 hours total
+- [Week-2025-08-11.md](./Week-2025-08-11.md)
 
----
+## ℹ️ Why this changed
 
-## 📅 **Daily Learning Schedule (1 Hour Per Day)**
+- Optimize for daily momentum over heavy upfront planning
+- Capture one tiny deliverable and evidence in ~60 minutes
+- Use a short weekly retro to steer the next week
+
+If you need the old plan for reference, use git history.
 
 ### **🔸 Day 1 (Friday): OOP Fundamentals - Core Concepts**
 
