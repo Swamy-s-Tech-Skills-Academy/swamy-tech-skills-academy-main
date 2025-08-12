@@ -4,7 +4,7 @@ Purpose: Show a simple, working implementation of one-hot encoding for a short s
 
 ## Implementation
 
-- Code: `one_hot.py`
+- Code: see external repo script (link below)
 - Input: a tokenized sentence (list of lowercase words)
 - Output: one-hot matrix, vocabulary, and index mapping
 
@@ -12,7 +12,8 @@ Purpose: Show a simple, working implementation of one-hot encoding for a short s
 
 ```bash
 # Python 3.x
-python one_hot.py
+# Run the one-hot example from the external repo
+# (see repo README for exact path/command)
 ```
 
 Expected (example):
