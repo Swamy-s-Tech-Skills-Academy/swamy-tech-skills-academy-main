@@ -548,29 +548,42 @@ Viswanatha Swamy
 
 ## 🗂️ Repository Structure
 
-```text
-swamy-tech-skills-academy-main/
-├── README.md                          ← You are here (Complete Guide)
-├── 01_LeadArchitectKnowledgeBase/     ← 📚 Documented achievements
-│   └── KNOWLEDGE_BASE_README.md       ← Clean slate, ready for Week 1
-├── 02_LearningJourney/                ← 🎯 Active learning & tracking
-│   ├── Week-01-OOP.md                 ← Current focus: OOP Mastery
-│   └── README.md                      ← Learning system overview
-├── 03_ReferenceLibrary/               ← � Curated reference materials
-│   └── (Populated as needed)          ← Essential guides and templates
-├── 04_LegacyContent/                  ← 📁 Complete archive
-│   ├── 01_Foundation/                 ← All original knowledge areas
-│   ├── 02_Architecture/               ← Design patterns and principles
-│   ├── 03_Development/                ← Development best practices
-│   ├── 04_AI/                         ← AI and machine learning
-│   ├── 05_Data/                       ← Data architecture and analytics
-│   ├── 06_Cloud/                      ← Cloud platforms and services
-│   ├── 07_DevOps/                     ← DevOps and infrastructure
-│   ├── 08_Projects/                   ← Project templates
-│   ├── QuickReference/                ← Cheat sheets and guides
-│   ├── Templates/                     ← Reusable templates
-│   └── ProcessDocs/                   ← Process documentation
-└── LICENSE                           ← Repository license
+```mermaid
+graph TD
+    R[swamy-tech-skills-academy-main/]
+
+    R --> RMD[README.md\n(Complete Guide)]
+
+    R --> LAKB[01_LeadArchitectKnowledgeBase/\n📚 Documented achievements]
+    LAKB --> KBR[KNOWLEDGE_BASE_README.md\n(Clean slate, ready for Week 1)]
+
+    R --> LJ[02_LearningJourney/\n🎯 Active learning & tracking]
+    LJ --> W1[Week-01-OOP.md\n(Current focus: OOP Mastery)]
+    LJ --> LJMD[README.md\n(Learning system overview)]
+
+    R --> RL[03_ReferenceLibrary/\n📖 Curated reference materials]
+    RL --> RLN[(Populated as needed)\nEssential guides and templates]
+
+    R --> LC[04_LegacyContent/\n📁 Complete archive]
+    LC --> LC01[01_Foundation/]
+    LC --> LC02[02_Architecture/]
+    LC --> LC03[03_Development/]
+    LC --> LC04[04_AI/]
+    LC --> LC05[05_Data/]
+    LC --> LC06[06_Cloud/]
+    LC --> LC07[07_DevOps/]
+    LC --> LC08[08_Projects/]
+    LC --> LQR[QuickReference/]
+    LC --> LTM[Templates/]
+    LC --> LPD[ProcessDocs/]
+
+    R --> LIC[LICENSE]
+
+    style R fill:#f5f5f5
+    style LAKB fill:#fff3e0
+    style LJ fill:#e8f5e8
+    style RL fill:#e1f5fe
+    style LC fill:#f5f5f5
 ```
 
 ## 🏁 Getting Started
