@@ -1,32 +1,32 @@
-# Learning Journey - Active Weekly Learning Plans
+# Learning Journey — Active Learning (Capture-only)
 
 ## Purpose
 
-This folder contains active weekly learning plans that provide structured, day-by-day learning schedules for mastering programming concepts and skills.
+This folder is for capturing what you actually learn each day. No heavy planning—just daily notes and evidence.
 
 ## Current Focus
 
-**Week 1 (July 15 - August 4, 2025)** - OOP Foundations (21 days, 1 hour daily)
+Current focus: Capture-only notes in `Notes/` (one file per day)
 
 ## How to Use
 
-1. **Follow Daily Schedule**: Each day has specific learning objectives and deliverables
-2. **Track Progress**: Use checkboxes to mark completed deliverables
-3. **Build Incrementally**: Each day builds on previous learning
-4. **Practice Hands-On**: Heavy emphasis on coding practice and implementation
+1. Create today’s note in `Notes/` (see `Notes/README.md`)
+2. Capture a tiny deliverable (code or notes) and link evidence
+3. Optional: pick a 60-minute item from `Backlog.md`
 
 ## Current Files
 
 - `Notes/` - Daily capture-only notes (one file per day)
-- Templates in `00_Templates/` for daily logs and weekly retro
+- `00_Templates/` - Optional helpers (Daily log, simple retro)
 
 ## Learning Approach
 
-- **Sustainable Pace**: 1 hour daily commitment
-- **Multi-Language**: Build competency across Java, C#, Python
-- **Practical Focus**: Real coding projects and implementations
-- **Progressive Complexity**: From theory to advanced implementation
-- **Cross-Language Comparison**: Understand differences and similarities
+—
+Lightweight guidelines:
+
+- 1 hour daily is enough
+- Prefer doing and capturing over planning
+- Link to code or notes as evidence
 
 ## Benefits of This Structure
 
@@ -36,20 +36,8 @@ This folder contains active weekly learning plans that provide structured, day-b
 - **Language Competency**: Multi-language understanding for architecture decisions
 - **Foundation Building**: Proper progression from basics to advanced concepts
 
-## Next Steps
+## ⚡ Quick Start
 
-- Start Week 1 on July 14, 2025 using the planning section
-- Update daily progress during the week
-- Complete retrospective on July 18, 2025
-- Use insights to create Week 2 file
-
----
-
-## ⚡ Quick Start (lightweight, no heavy planning)
-
-1. Open your backlog: `Backlog.md` and pick one 60-minute item
-2. Create today’s log: copy `00_Templates/Daily-Learning-Log.md` into this week file
-3. Capture evidence (code or notes) and check off one small deliverable
-4. End of week: use `00_Templates/Weekly-Execution-Template.md` for a 15-min retro
-
-Start here for capture-only: `Notes/YYYY-MM-DD.md`
+1. Open `Notes/README.md` and click “Today”
+2. Capture what you did (bullets) and add evidence links
+3. Optional: 15-min retro on Friday using `00_Templates/Weekly-Execution-Template.md`
