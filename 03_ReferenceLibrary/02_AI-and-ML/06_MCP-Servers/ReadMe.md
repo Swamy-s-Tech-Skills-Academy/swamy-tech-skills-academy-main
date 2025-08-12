@@ -1,150 +1,129 @@
-# 06_MCP-Servers: Model Context Protocol Learning Track
+> Note: Canonical file name is `README.md`.
 
-**Learning Level**: Intermediate to Advanced  
-**Prerequisites**: Programming experience, API concepts, AI application development  
-**Total Time Investment**: 6-10 hours  
+# 06_MCP-Servers (Pointer)
 
-## 🎯 Track Overview
+This file exists only for case-insensitive filesystems. Please use the canonical document:
 
-This learning track provides comprehensive coverage of **Model Context Protocol (MCP)** - the standardized protocol that enables AI applications to securely connect with external data sources, tools, and systems. MCP bridges the gap between AI capabilities and real-world data access.
+- [README.md](./README.md)
 
-### **What You'll Master**
+Why this pointer exists:
 
-**Protocol Understanding**: Deep knowledge of MCP architecture, components, and communication patterns
-**Server Development**: Build production-ready MCP servers using Python, JavaScript/TypeScript, and other languages
-**Client Integration**: Connect AI applications to MCP servers for enhanced functionality
-**Production Deployment**: Scale, secure, and monitor MCP implementations in enterprise environments
-**AI Agent Integration**: Enable intelligent agents to leverage external tools and data through MCP
+- Some tools surface `ReadMe.md` instead of `README.md` on Windows
+- We standardize on `README.md` across the repository
+
+Last Updated: 2025-08-11
 
 ---
 
 ## 📚 Learning Progression
 
-### **Foundation Phase** (2-3 hours)
+### Foundation Phase (2-3 hours)
 
 Start here to understand MCP fundamentals and core concepts.
 
-**[01_MCP-Fundamentals](01_MCP-Fundamentals.md)**
+[01_MCP-Fundamentals](01_MCP-Fundamentals.md)
 
-- **Purpose**: Comprehensive introduction to MCP protocol and architecture
-- **Key Concepts**: 3-component architecture, JSON-RPC protocol, resources vs tools
-- **Practical Focus**: Customer service implementation example
-- **Prerequisites**: Basic understanding of APIs and JSON
+- Purpose: Introduction to MCP protocol and architecture
+- Key concepts: 3-component architecture, JSON-RPC, resources vs tools
+- Practical focus: Customer service scenario walkthrough
+- Prerequisites: Basic APIs and JSON
 
-### **Development Phase** (3-4 hours)
+### Development Phase (3-4 hours)
 
 Learn to build complete MCP servers with production-quality code.
 
-**[02_MCP-Server-Development](02_MCP-Server-Development.md)**
+[02_MCP-Server-Development](02_MCP-Server-Development.md)
 
-- **Purpose**: Build MCP servers from scratch using modern frameworks
-- **Key Concepts**: Resource/Tool provider patterns, security, performance optimization
-- **Practical Focus**: Python and TypeScript implementation examples
-- **Prerequisites**: Programming experience, API development knowledge
+- Purpose: Build MCP servers from scratch using modern frameworks
+- Key concepts: Resource/Tool provider patterns, security, performance
+- Practical focus: Python and TypeScript implementations
+- Prerequisites: Programming and API development experience
 
-### **Integration Phase** (2-3 hours)
+### Integration Phase (2-3 hours, planned)
 
-Coming soon.
+03_MCP-Client-Integration (Planned)
 
-**03_MCP-Client-Integration** *(Planned)*
+- Purpose: Build AI applications that consume MCP services
+- Key concepts: Client-side patterns, error handling, connection management
+- Practical focus: Chatbot and agent integrations
 
-- **Purpose**: Build AI applications that consume MCP services
-- **Key Concepts**: Client-side patterns, error handling, connection management
-- **Practical Focus**: Chatbot and agent integration examples
+04_Production-MCP-Patterns (Planned)
 
-**04_Production-MCP-Patterns** *(Planned)*
+- Purpose: Enterprise-grade MCP deployment and scaling
+- Key concepts: Containerization, monitoring, security, load balancing
+- Practical focus: Docker, Kubernetes, and cloud deployment
 
-- **Purpose**: Enterprise-grade MCP deployment and scaling
-- **Key Concepts**: Containerization, monitoring, security, load balancing
-- **Practical Focus**: Docker, Kubernetes, and cloud deployment
+### Advanced Phase (2-3 hours, planned)
 
-### **Advanced Phase** (2-3 hours)
+05_MCP-Agent-Integration (Planned)
 
-Coming soon.
+- Purpose: Enable AI agents to leverage MCP for autonomous operations
+- Key concepts: Agent workflows, tool discovery, context management
+- Practical focus: Multi-agent systems with MCP
 
-**05_MCP-Agent-Integration** *(Planned)*
+06_MCP-Security-Best-Practices (Planned)
 
-- **Purpose**: Enable AI agents to leverage MCP for autonomous operations
-- **Key Concepts**: Agent workflows, tool discovery, context management
-- **Practical Focus**: Multi-agent systems with MCP integration
-
-**06_MCP-Security-Best-Practices** *(Planned)*
-
-- **Purpose**: Implement robust security for MCP deployments
-- **Key Concepts**: Authentication, authorization, encryption, audit trails
-- **Practical Focus**: Enterprise security patterns and compliance
+- Purpose: Implement robust security for MCP deployments
+- Key concepts: Authentication, authorization, encryption, audit trails
+- Practical focus: Enterprise security patterns and compliance
 
 ---
 
 ## 🚀 Quick Start Guide
 
-### **New to MCP?**
+### New to MCP?
 
-1. **Start with fundamentals**: Read [01_MCP-Fundamentals](01_MCP-Fundamentals.md) to understand the protocol
-2. **Try the examples**: Follow the customer service scenario step-by-step
-3. **Build your first server**: Use the [02_MCP-Server-Development](02_MCP-Server-Development.md) guide
+1. Start with fundamentals: Read 01_MCP-Fundamentals to understand the protocol.
+2. Try the examples: Follow the customer service scenario step-by-step.
+3. Build your first server: Use the 02_MCP-Server-Development guide.
 
-### **Have MCP Experience?**
+### Have MCP Experience?
 
-1. **Jump to development**: Go directly to [02_MCP-Server-Development](02_MCP-Server-Development.md) for implementation patterns
-2. **Focus on production**: Review production deployment and security sections
-3. **Explore integrations**: Check out advanced agent integration patterns
+1. Jump to development: Go directly to 02_MCP-Server-Development.
+2. Focus on production: Review deployment and security sections.
+3. Explore integrations: Check advanced agent integration patterns.
 
-### **Building Production Systems?**
+### Building Production Systems?
 
-1. **Review architecture patterns**: Understand Resource vs Tool provider approaches
-2. **Implement security**: Follow authentication and authorization best practices  
-3. **Plan for scale**: Consider performance, monitoring, and deployment strategies
+1. Review architecture patterns: Resource vs Tool provider approaches.
+2. Implement security: Authentication and authorization best practices.
+3. Plan for scale: Performance, monitoring, and deployment strategies.
 
 ---
 
 ## 🔗 Cross-Domain Connections
 
-### **Prerequisites from Other Tracks**
+### Prerequisites from Other Tracks
 
-**Development Foundation**:
+- [01_Development/01_Python](../../01_Development/01_Python/README.md) — Python programming fundamentals
+- [01_AI](../01_AI/README.md) — AI systems and agents overview
+- [02_MachineLearning](../02_MachineLearning/README.md) — ML integration concepts
+- [04_NaturalLanguageProcessing](../04_NaturalLanguageProcessing/README.md) — Language model applications
 
-- **[01_Development/01_Python/](../01_Development/01_Python/)** - Python programming fundamentals
-- **[01_Development/02_JavaScript/](../01_Development/02_JavaScript/)** - JavaScript/TypeScript development
-- **[01_Development/03_APIs/](../01_Development/03_APIs/)** - API design and development patterns
+### Complementary Tracks
 
-**AI & ML Foundation**:
-
-- **[01_AI/01_AI-Fundamentals/](../01_AI/01_AI-Fundamentals/)** - Understanding AI systems and agents
-- **[02_MachineLearning/](../02_MachineLearning/)** - ML model integration concepts
-- **[04_NaturalLanguageProcessing/](../04_NaturalLanguageProcessing/)** - Language model applications
-
-### **Complementary Tracks**
-
-**Data Integration**:
-
-- **[03_Data-Science/01_DataEngineering/](../../03_Data-Science/01_DataEngineering/)** - Data pipeline concepts
-- **[03_Data-Science/02_Databases/](../../03_Data-Science/02_Databases/)** - Database integration patterns
-
-**Cloud & DevOps**:
-
-- **[03_Cloud/01_CloudFundamentals/](../../03_Cloud/01_CloudFundamentals/)** - Cloud deployment concepts
-- **[03_DevOps/01_Containerization/](../../03_DevOps/01_Containerization/)** - Docker and Kubernetes
+- [03_Data-Science/01_DataScience](../../03_Data-Science/01_DataScience/README.md) — Data foundations
+- [03_Data-Science/02_DataAnalytics](../../03_Data-Science/02_DataAnalytics/README.md) — Analytics applications
 
 ---
 
-## 🎯 Learning Paths
+## 🧭 Learning Paths
 
-### **Path 1: MCP Developer** (Focus: Building MCP servers)
+### Path 1: MCP Developer (Build servers)
 
 ```text
 01_MCP-Fundamentals → 02_MCP-Server-Development → 04_Production-MCP-Patterns
 Estimated Time: 6-8 hours
 ```
 
-### **Path 2: AI Integration Specialist** (Focus: Connecting AI with MCP)
+### Path 2: AI Integration Specialist (Connect AI with MCP)
 
 ```text
 01_MCP-Fundamentals → 03_MCP-Client-Integration → 05_MCP-Agent-Integration
 Estimated Time: 5-7 hours
 ```
 
-### **Path 3: MCP Architect** (Focus: Enterprise MCP systems)
+### Path 3: MCP Architect (Enterprise focus)
 
 ```text
 Complete Track → Security Best Practices → Production Patterns
@@ -155,107 +134,241 @@ Estimated Time: 8-10 hours
 
 ## 🏆 Learning Outcomes
 
-After completing this track, you will be able to:
+### Technical Mastery
 
-### **Technical Mastery**
+- Design and implement production-ready MCP servers for any data source or tool
+- Integrate AI applications with external systems through standardized MCP interfaces
+- Deploy and scale MCP implementations in cloud and enterprise environments
+- Implement security patterns for safe AI-to-system communication
 
-- **Design and implement** production-ready MCP servers for any data source or tool
-- **Integrate AI applications** with external systems through standardized MCP interfaces
-- **Deploy and scale** MCP implementations in cloud and enterprise environments
-- **Implement security** patterns for safe AI-to-system communication
+### Strategic Understanding
 
-### **Strategic Understanding**
+- Evaluate when MCP is the right solution for AI application architecture
+- Design system architectures that leverage MCP for modularity and reusability
+- Plan integration strategies for connecting AI agents with enterprise systems
+- Assess security and compliance requirements for MCP deployments
 
-- **Evaluate when MCP** is the right solution for AI application architecture
-- **Design system architectures** that leverage MCP for modularity and reusability
-- **Plan integration strategies** for connecting AI agents with enterprise systems
-- **Assess security and compliance** requirements for MCP deployments
+### Professional Applications
 
-### **Professional Applications**
-
-- **Enable AI applications** to access real-time data from databases, APIs, and file systems
-- **Build tool ecosystems** that AI agents can discover and use autonomously
-- **Create secure bridges** between AI models and sensitive enterprise systems
-- **Develop reusable MCP servers** that can serve multiple AI applications
+- Enable AI applications to access real-time data from databases, APIs, and file systems
+- Build tool ecosystems that AI agents can discover and use autonomously
+- Create secure bridges between AI models and sensitive enterprise systems
+- Develop reusable MCP servers that can serve multiple AI applications
 
 ---
 
-## 🧪 Practical Projects
+## 📈 Assessment Methods
 
-### **Beginner Projects**
+### Knowledge Validation
 
-1. **File System MCP Server**: Expose local directories as MCP resources
-2. **Weather API Bridge**: Create MCP server for weather data integration
-3. **Database Connector**: Build MCP server for SQL database access
+- Concept reviews: Regular comprehension checks for protocol understanding
+- Code walkthroughs: Explain MCP server implementations
+- Architecture discussions: Design MCP solutions for scenarios
 
-### **Intermediate Projects**
+### Practical Validation
 
-1. **E-commerce Integration**: Multi-resource MCP server for orders, products, customers
-2. **Email Tool Server**: MCP server with tools for sending and searching emails
-3. **Multi-API Aggregator**: Single MCP server exposing multiple external APIs
-
-### **Advanced Projects**
-
-1. **Enterprise System Bridge**: Secure MCP integration with ERP/CRM systems
-2. **AI Agent Toolkit**: Comprehensive MCP server enabling autonomous agent operations
-3. **Multi-Tenant MCP Platform**: Scalable MCP server with role-based access
+- Implementation exercises: Build MCP servers to spec
+- Integration challenges: Connect AI apps to custom MCP servers
+- Production deployment: Add monitoring and security
 
 ---
 
-## 📊 Assessment Methods
-
-### **Knowledge Validation**
-
-- **Concept Reviews**: Regular comprehension checks for protocol understanding
-- **Code Walkthroughs**: Review and explain MCP server implementations
-- **Architecture Discussions**: Design MCP solutions for specific business scenarios
-
-### **Practical Validation**
-
-- **Implementation Exercises**: Build MCP servers following provided specifications
-- **Integration Challenges**: Connect AI applications to custom MCP servers
-- **Production Deployment**: Deploy MCP servers with proper monitoring and security
-
-### **Professional Application**
-
-- **Real-World Projects**: Apply MCP to actual business integration challenges
-- **Team Collaborations**: Work with others on multi-component MCP systems
-- **Innovation Contributions**: Develop novel MCP use cases and patterns
+Tip: MCP is not just a protocol — it's an architectural pattern that unlocks safe, scalable tool and data access for AI.
 
 ---
 
-## 🔄 Continuous Learning
+Track Maintainer: Swamy's Tech Skills Academy
 
-### **Stay Current**
+Last Updated: January 2025
 
-- **MCP Specification Updates**: Follow protocol evolution and new features
-- **Community Contributions**: Engage with MCP developer communities
-- **Implementation Examples**: Study real-world MCP server implementations
+Next Review: Every 3 months (rapid field evolution)
 
-### **Advanced Exploration**
+# 06_MCP-Servers: Model Context Protocol Learning Track
 
-- **Performance Optimization**: Advanced patterns for high-throughput MCP servers
-- **Security Research**: Latest security patterns and threat mitigation
-- **AI Agent Evolution**: New patterns for agent-MCP interaction
+**Learning Level**: Intermediate to Advanced
 
----
+**Prerequisites**: Programming experience, API concepts, AI application development
 
-## 🎯 Success Metrics
+**Total Time Investment**: 6-10 hours
 
-Your mastery of this track can be measured by:
+## 🎯 Track Overview
 
-- **Implementation Speed**: How quickly you can build MCP servers for new requirements
-- **Architecture Quality**: Design decisions that balance functionality, security, and performance
-- **Integration Success**: Effectiveness of AI applications using your MCP implementations
-- **Production Readiness**: Ability to deploy and maintain MCP servers in live environments
-- **Innovation Capacity**: Development of novel MCP patterns and use cases
+This learning track covers Model Context Protocol (MCP) — a standardized way for AI apps to securely access external data, tools, and systems.
 
----
+### What You'll Master
 
-**💡 Remember**: MCP is not just a protocol - it's an **architectural pattern** that enables AI applications to safely and efficiently access the rich ecosystem of existing data sources and tools. Master MCP to become the bridge between AI potential and real-world implementation.
+- Protocol understanding: architecture, components, and JSON-RPC messaging
+- Server development: production-ready implementations in Python and TypeScript
+- Client integration: connecting AI applications to MCP servers
+- Production deployment: scaling, securing, and monitoring MCP systems
+- Agent integration: enabling tool use via MCP in agentic workflows
 
 ---
 
-**Track Maintainer**: Swamy's Tech Skills Academy  
-**Last Updated**: January 2025  
-**Next Review**: Every 3 months (rapid field evolution)
+## 📚 Learning Progression
+
+### Foundation Phase (2-3 hours)
+
+Start here to understand MCP fundamentals and core concepts.
+
+[01_MCP-Fundamentals](01_MCP-Fundamentals.md)
+
+- Purpose: Introduction to MCP protocol and architecture
+- Key concepts: 3-component architecture, JSON-RPC, resources vs tools
+- Practical focus: Customer service scenario walkthrough
+- Prerequisites: Basic APIs and JSON
+
+### Development Phase (3-4 hours)
+
+Learn to build complete MCP servers with production-quality code.
+
+[02_MCP-Server-Development](02_MCP-Server-Development.md)
+
+- Purpose: Build MCP servers from scratch using modern frameworks
+- Key concepts: Resource/Tool provider patterns, security, performance
+- Practical focus: Python and TypeScript implementations
+- Prerequisites: Programming and API development experience
+
+### Integration Phase (2-3 hours, planned)
+
+03_MCP-Client-Integration (Planned)
+
+- Purpose: Build AI applications that consume MCP services
+- Key concepts: Client-side patterns, error handling, connection management
+- Practical focus: Chatbot and agent integrations
+
+04_Production-MCP-Patterns (Planned)
+
+- Purpose: Enterprise-grade MCP deployment and scaling
+- Key concepts: Containerization, monitoring, security, load balancing
+- Practical focus: Docker, Kubernetes, and cloud deployment
+
+### Advanced Phase (2-3 hours, planned)
+
+05_MCP-Agent-Integration (Planned)
+
+- Purpose: Enable AI agents to leverage MCP for autonomous operations
+- Key concepts: Agent workflows, tool discovery, context management
+- Practical focus: Multi-agent systems with MCP
+
+06_MCP-Security-Best-Practices (Planned)
+
+- Purpose: Implement robust security for MCP deployments
+- Key concepts: Authentication, authorization, encryption, audit trails
+- Practical focus: Enterprise security patterns and compliance
+
+---
+
+## 🚀 Quick Start Guide
+
+### New to MCP?
+
+1. Start with fundamentals: Read 01_MCP-Fundamentals to understand the protocol.
+2. Try the examples: Follow the customer service scenario step-by-step.
+3. Build your first server: Use the 02_MCP-Server-Development guide.
+
+### Have MCP Experience?
+
+1. Jump to development: Go directly to 02_MCP-Server-Development.
+2. Focus on production: Review deployment and security sections.
+3. Explore integrations: Check advanced agent integration patterns.
+
+### Building Production Systems?
+
+1. Review architecture patterns: Resource vs Tool provider approaches.
+2. Implement security: Authentication and authorization best practices.
+3. Plan for scale: Performance, monitoring, and deployment strategies.
+
+---
+
+## 🔗 Cross-Domain Connections
+
+### Prerequisites from Other Tracks
+
+- [01_Development/01_Python](../01_Development/01_Python/README.md) — Python programming fundamentals
+- [01_AI](../01_AI/README.md) — AI systems and agents overview
+- [02_MachineLearning](../02_MachineLearning/README.md) — ML integration concepts
+- [04_NaturalLanguageProcessing](../04_NaturalLanguageProcessing/README.md) — Language model applications
+
+### Complementary Tracks
+
+- [03_Data-Science/01_DataScience](../../03_Data-Science/01_DataScience/README.md) — Data foundations
+- [03_Data-Science/02_DataAnalytics](../../03_Data-Science/02_DataAnalytics/README.md) — Analytics applications
+
+---
+
+## 🧭 Learning Paths
+
+### Path 1: MCP Developer (Build servers)
+
+```text
+01_MCP-Fundamentals → 02_MCP-Server-Development → 04_Production-MCP-Patterns
+Estimated Time: 6-8 hours
+```
+
+### Path 2: AI Integration Specialist (Connect AI with MCP)
+
+```text
+01_MCP-Fundamentals → 03_MCP-Client-Integration → 05_MCP-Agent-Integration
+Estimated Time: 5-7 hours
+```
+
+### Path 3: MCP Architect (Enterprise focus)
+
+```text
+Complete Track → Security Best Practices → Production Patterns
+Estimated Time: 8-10 hours
+```
+
+---
+
+## 🏆 Learning Outcomes
+
+### Technical Mastery
+
+- Design and implement production-ready MCP servers for any data source or tool
+- Integrate AI applications with external systems through standardized MCP interfaces
+- Deploy and scale MCP implementations in cloud and enterprise environments
+- Implement security patterns for safe AI-to-system communication
+
+### Strategic Understanding
+
+- Evaluate when MCP is the right solution for AI application architecture
+- Design system architectures that leverage MCP for modularity and reusability
+- Plan integration strategies for connecting AI agents with enterprise systems
+- Assess security and compliance requirements for MCP deployments
+
+### Professional Applications
+
+- Enable AI applications to access real-time data from databases, APIs, and file systems
+- Build tool ecosystems that AI agents can discover and use autonomously
+- Create secure bridges between AI models and sensitive enterprise systems
+- Develop reusable MCP servers that can serve multiple AI applications
+
+---
+
+## 📈 Assessment Methods
+
+### Knowledge Validation
+
+- Concept reviews: Regular comprehension checks for protocol understanding
+- Code walkthroughs: Explain MCP server implementations
+- Architecture discussions: Design MCP solutions for scenarios
+
+### Practical Validation
+
+- Implementation exercises: Build MCP servers to spec
+- Integration challenges: Connect AI apps to custom MCP servers
+- Production deployment: Add monitoring and security
+
+---
+
+Tip: MCP is not just a protocol — it's an architectural pattern that unlocks safe, scalable tool and data access for AI.
+
+---
+
+Track Maintainer: Swamy's Tech Skills Academy
+
+Last Updated: January 2025
+
+Next Review: Every 3 months (rapid field evolution)

@@ -1,8 +1,11 @@
 # 📊 Data Science Track
 
-**Statistical methods, analytics, and large-scale data processing**
+**Learning Level**: Beginner → Advanced  
+**Prerequisites**: Basic stats, Python, willingness to learn tools  
+**Estimated Time**: Variable by domain; see subfolders  
+**Next Steps**: Choose your path (Analyst/Scientist/Engineer) and follow progression
 
----
+## Statistical methods, analytics, and large-scale data processing
 
 ## 🎯 Track Overview
 
@@ -106,6 +109,16 @@ This track covers the complete data science pipeline, from scientific methodolog
 - **Research background?** Begin with `01_DataScience/`
 - **Engineering role?** Jump to `03_BigData/`
 - **Complete pipeline?** Follow beginner path progression
+
+---
+
+## 🔗 Related Topics
+
+- Python implementation: `../01_Development/01_Python/README.md`
+- Software design: `../01_Development/02_software-design-principles/README.md`
+- AI strategy: `../02_AI-and-ML/01_AI/README.md`
+- Machine learning: `../02_AI-and-ML/02_MachineLearning/README.md`
+- Deep learning: `../02_AI-and-ML/03_DeepLearning/README.md`
 
 ---
 

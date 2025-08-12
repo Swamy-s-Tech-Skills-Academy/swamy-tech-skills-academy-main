@@ -1,8 +1,11 @@
 # 🛠️ Development Track
 
-**Programming foundations and software engineering excellence**
+**Learning Level**: Beginner → Advanced  
+**Prerequisites**: Basic programming (for Python), willingness to follow engineering practices  
+**Estimated Time**: Variable by domain; see subfolders  
+**Next Steps**: Start with Python or software design based on experience
 
----
+## Programming foundations and software engineering excellence
 
 ## 🎯 Track Overview
 
@@ -118,6 +121,17 @@ This track provides the essential programming and software engineering foundatio
 - Leverage `01_Python/` for data processing and analysis
 - Apply `02_software-design-principles/` for maintainable data pipelines
 - Scale solutions using engineering best practices
+
+---
+
+## 🔗 Related Topics
+
+- AI foundations: `../02_AI-and-ML/01_AI/README.md`
+- Machine learning: `../02_AI-and-ML/02_MachineLearning/README.md`
+- Deep learning: `../02_AI-and-ML/03_DeepLearning/README.md`
+- NLP: `../02_AI-and-ML/04_NaturalLanguageProcessing/README.md`
+- LLMs: `../02_AI-and-ML/05_LargeLanguageModels/README.md`
+- Agents: `../02_AI-and-ML/07_AI-Agents/README.md`
 
 ---
 
