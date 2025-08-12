@@ -231,6 +231,14 @@ Related reading:
 - LLMs: `05_LargeLanguageModels/`
 - Beyond LLMs (diffusion, GANs): `03_DeepLearning/`
 
+## 🔗 Related Topics
+
+- Python implementation: `../01_Development/01_Python/README.md`
+- Software design: `../01_Development/02_software-design-principles/README.md`
+- Data science fundamentals: `../03_Data-Science/01_DataScience/README.md`
+- Analytics applications: `../03_Data-Science/02_DataAnalytics/README.md`
+- Big data infrastructure: `../03_Data-Science/03_BigData/README.md`
+
 **📅 Last Updated**: August 2025  
 **🎯 Focus**: Complete AI and ML learning ecosystem with production integration  
 **📍 Position**: Core track for artificial intelligence mastery

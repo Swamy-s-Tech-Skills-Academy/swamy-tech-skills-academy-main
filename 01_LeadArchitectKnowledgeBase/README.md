@@ -70,5 +70,15 @@ All reference materials, templates, and study guides are available in the [Refer
 
 ---
 
-_Last Updated: July 16, 2025_  
+## 🔗 From Strategy to Practice
+
+Jump into the corresponding learning tracks when turning decisions into implementation:
+
+- Development track: `../03_ReferenceLibrary/01_Development/README.md`
+- AI & ML track: `../03_ReferenceLibrary/02_AI-and-ML/README.md`
+- Data Science track: `../03_ReferenceLibrary/03_Data-Science/README.md`
+
+---
+
+_Last Updated: August 12, 2025_  
 _Current Focus: Week 1 - OOP Foundations (Java, C#, Python)_

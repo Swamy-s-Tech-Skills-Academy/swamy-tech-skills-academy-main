@@ -97,6 +97,15 @@ Perfect for: Software engineers, system architects, and anyone building technica
 
 ---
 
+## 🧠 Strategy Context
+
+Link back to the strategic guardrails and reference architectures when needed:
+
+- Lead Architect Knowledge Base: `../01_LeadArchitectKnowledgeBase/`
+- Portfolio examples and decisions: `../01_LeadArchitectKnowledgeBase/`
+
+---
+
 **📅 Last Updated**: August 7, 2025  
 **🎯 Purpose**: Comprehensive learning tracks for AI, Data Science, and Development  
 **📍 Structure**: 3 focused tracks with interconnected domains and clear learning paths
