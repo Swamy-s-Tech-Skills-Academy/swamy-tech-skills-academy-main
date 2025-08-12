@@ -1,6 +1,6 @@
 # 🎓 Swamy's Tech Skills Academy
 
-> 📖 **15-minute read** | 🕐 **Last updated**: July 22, 2025 | 🎯 **Ready to start**: Week 1 OOP
+> 📖 **15-minute read** | 🕐 **Last updated**: August 12, 2025 | 🎯 **Ready to start**: Week 1 OOP
 
 ## 🧭 Quick Navigation
 
@@ -58,6 +58,29 @@ graph LR
 - **01_LeadArchitectKnowledgeBase**: "Completed Week 1 OOP implementation + documentation"
 
 **Each folder captures a different stage and type of learning activity - no redundancy!**
+
+---
+
+## 🧭 Portal: Strategy ↔ Learning
+
+Use this quick portal to move between strategy, learning, and active work:
+
+- 🧠 Strategy (guardrails & decisions): [01_LeadArchitectKnowledgeBase/](01_LeadArchitectKnowledgeBase/)
+- 📚 Learning (tracks & references): [03_ReferenceLibrary/](03_ReferenceLibrary/)
+- 🗓️ Active week (plan & track): [02_LearningJourney/](02_LearningJourney/)
+
+```mermaid
+graph LR
+    S[01_LeadArchitectKnowledgeBase<br/>🧠 Strategy] --> L[03_ReferenceLibrary<br/>📚 Learning]
+    L --> A[02_LearningJourney<br/>🗓️ Active Work]
+    A --> P[01_LeadArchitectKnowledgeBase<br/>📁 Portfolio]
+    P -. Feedback .-> S
+
+    style S fill:#fff3e0
+    style L fill:#e1f5fe
+    style A fill:#e8f5e8
+    style P fill:#fff3e0
+```
 
 ---
 
