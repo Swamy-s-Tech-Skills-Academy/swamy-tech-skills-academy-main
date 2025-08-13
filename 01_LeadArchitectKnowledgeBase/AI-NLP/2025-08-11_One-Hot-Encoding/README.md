@@ -11,10 +11,11 @@ Purpose: Show a simple, working implementation of one-hot encoding for a short s
 ## Quick Usage
 
 ```powershell
-# Run the local canonical example (PowerShell)
-python .\03_ReferenceLibrary\02_AI-and-ML\04_NaturalLanguageProcessing\01_Basics\examples\one_hot.py
-# Or pass a custom sentence
-python .\03_ReferenceLibrary\02_AI-and-ML\04_NaturalLanguageProcessing\01_Basics\examples\one_hot.py "should we go to a pizzeria or prefer a restaurant"
+# Run canonical example from GitHub clone (PowerShell)
+# (clone repo if needed)
+# git clone https://github.com/Swamy-s-Tech-Skills-Academy-AI-ML-Data/llm-agents-learning
+Set-Location .\llm-agents-learning
+python .\one_hot.py "i like pizza"
 ```
 
 Expected (example):
@@ -36,5 +37,4 @@ matrix:
 ## Related
 
 - Reference: `03_ReferenceLibrary/02_AI-and-ML/04_NaturalLanguageProcessing/01_Basics/01_One-Hot-Encoding.md`
-- Local example (canonical): `03_ReferenceLibrary/02_AI-and-ML/04_NaturalLanguageProcessing/01_Basics/examples/one_hot.py`
-- External repo (optional experiments): [llm-agents-learning](https://github.com/Swamy-s-Tech-Skills-Academy-AI-ML-Data/llm-agents-learning)
+- Canonical code (external): [llm-agents-learning](https://github.com/Swamy-s-Tech-Skills-Academy-AI-ML-Data/llm-agents-learning)

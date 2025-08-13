@@ -69,13 +69,10 @@ if __name__ == "__main__":
 - TF-IDF to weight importance
 - Distributed representations (word2vec, GloVe, fastText)
 
-## Local Example (Canonical)
+## Canonical Code Location
 
-- Run the minimal example:
-  - PowerShell:
-    - `python .\\03_ReferenceLibrary\\02_AI-and-ML\\04_NaturalLanguageProcessing\\01_Basics\\examples\\one_hot.py`
-    - `python .\\03_ReferenceLibrary\\02_AI-and-ML\\04_NaturalLanguageProcessing\\01_Basics\\examples\\one_hot.py "i like pizza"`
-  - File: `03_ReferenceLibrary/02_AI-and-ML/04_NaturalLanguageProcessing/01_Basics/examples/one_hot.py`
+- External repo (single source of truth for runnable code):
+  - GitHub: [Swamy-s-Tech-Skills-Academy-AI-ML-Data/llm-agents-learning](https://github.com/Swamy-s-Tech-Skills-Academy-AI-ML-Data/llm-agents-learning)
 
 ## 🔗 Related Topics
 
