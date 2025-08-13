@@ -17,6 +17,11 @@ BoW counts token occurrences per vocabulary item. Order is ignored.
 - Vector length = vocabulary size
 - Value = token frequency (per sentence or document)
 
+## Code policy (single source of truth)
+
+- Runnable code lives in the external canonical repo. This page shows reference-only pseudocode to explain the idea.
+- If you need runnable examples, use the repo linked below. If no repo exists for this topic, ask for code and we’ll generate it externally.
+
 ## Toy Corpus Example
 
 Sentences (lowercased and tokenized):
@@ -31,18 +36,16 @@ How to read it:
 - Row 1 shows 2 for "awesome"; absent words have 0.
 - Order is ignored: "movie awesome" equals "awesome movie".
 
-## Minimal Example (Python)
+## Reference pseudocode (non-runnable)
 
-```python
-from collections import Counter
-
-def bag_of_words(tokens: list[str]):
-    vocab = sorted(set(tokens))
-    counts = Counter(tokens)
-    vec = [counts.get(w, 0) for w in vocab]
-    return vec, vocab
-
-print(bag_of_words("i like pizza i like".split()))
+```text
+function bag_of_words(tokens):
+  vocab := sorted(unique(tokens))
+  counts := frequency_map(tokens)
+  vector := []
+  for each word w in vocab:
+    append counts[w] or 0 to vector
+  return vector, vocab
 ```
 
 ## Next Steps

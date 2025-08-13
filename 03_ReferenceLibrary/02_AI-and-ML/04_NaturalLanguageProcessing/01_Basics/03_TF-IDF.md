@@ -16,6 +16,11 @@ Estimated Time: 15–20 minutes
 - IDF (inverse document frequency): down-weights terms common across many documents
 - TF-IDF = TF × IDF: highlights terms that are frequent in a document but rare overall
 
+## Code policy (single source of truth)
+
+- Runnable code lives in the external canonical repo. This page shows reference-only pseudocode to explain the idea.
+- If you need runnable examples, use the repo linked below. If no repo exists for this topic, ask for code and we’ll generate it externally.
+
 ## Tiny Example (3 sentences)
 
 1) "this movie is awesome awesome"  
@@ -33,39 +38,34 @@ Intuition:
 - Compute IDF with smoothing (sklearn-style): log((1+N)/(1+df)) + 1
 - Multiply TF by IDF per term to get TF-IDF matrix
 
-## Code (reference-only, see repo for runnable)
+## Reference pseudocode (non-runnable)
 
-```python
-import numpy as np
+```text
+function compute_tf(sentences):
+    tokenized := [clean_tokenize(s) for s in sentences]
+    vocab := sorted(unique(all tokens))
+    word_index := { word -> index }
+    TF := zeros(num_sentences, vocab_size)
+    for each sentence i, words in tokenized:
+        denom := max(1, len(words))
+        for each word w in words:
+            TF[i, word_index[w]] += 1/denom
+    return TF, vocab
 
+function compute_idf(sentences, vocab):
+    token_sets := [set(clean_tokenize(s)) for s in sentences]
+    N := number of sentences
+    word_index := { word -> index }
+    IDF := zeros(vocab_size)
+    for each word w in vocab:
+        df := count of token_sets that contain w
+        IDF[word_index[w]] := log((1+N)/(1+df)) + 1
+    return IDF
 
-def compute_tf(sentences):
-    tokenized = [clean_tokenize(s) for s in sentences]
-    vocabulary = sorted(set(w for sent in tokenized for w in sent))
-    word_index = {w: i for i, w in enumerate(vocabulary)}
-    tf = np.zeros((len(sentences), len(vocabulary)), dtype=np.float32)
-    for i, words in enumerate(tokenized):
-        denom = len(words) or 1
-        for w in words:
-            tf[i, word_index[w]] += 1.0 / denom
-    return tf, vocabulary
-
-
-def compute_idf(sentences, vocabulary):
-    tokenized = [set(clean_tokenize(s)) for s in sentences]
-    N = len(sentences)
-    word_index = {w: i for i, w in enumerate(vocabulary)}
-    idf = np.zeros(len(vocabulary), dtype=np.float32)
-    for w in vocabulary:
-        df = sum(1 for s in tokenized if w in s)
-        idf[word_index[w]] = np.log((1 + N) / (1 + df)) + 1.0
-    return idf
-
-
-def tf_idf(sentences):
-    tf, vocab = compute_tf(sentences)
-    idf = compute_idf(sentences, vocab)
-    return vocab, tf * idf
+function tf_idf(sentences):
+    TF, vocab := compute_tf(sentences)
+    IDF := compute_idf(sentences, vocab)
+    return vocab, TF * IDF
 ```
 
 ## Canonical Code Location
