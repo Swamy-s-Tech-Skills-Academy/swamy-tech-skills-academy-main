@@ -37,3 +37,4 @@ print(clean_tokenize("Should we go to a pizzeria or do you prefer a restaurant?"
 
 - One-hot encoding (see 01_One-Hot-Encoding.md)
 - Bag-of-Words (02_Bag-of-Words.md)
+- TF-IDF (03_TF-IDF.md)
