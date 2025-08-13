@@ -2,8 +2,8 @@
 
 Quick links:
 
-- Today: [2025-08-12.md](./2025-08-12.md)
-- Yesterday: [2025-08-11.md](./2025-08-11.md)
+- Today: [2025-08-13.md](./2025-08-13.md)
+- Yesterday: [2025-08-12.md](./2025-08-12.md)
 
 How to add a new day:
 
