@@ -1,0 +1,9 @@
+# Ignore archived/backup legacy content to reduce lint noise
+
+04_LegacyContent/_Backup/**
+
+## Ignore generated or temp files
+
+**/node_modules/**
+**/.venv/**
+**/.vscode/**
