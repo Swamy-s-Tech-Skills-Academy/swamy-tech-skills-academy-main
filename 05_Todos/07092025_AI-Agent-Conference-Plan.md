@@ -195,6 +195,62 @@
 
 ---
 
+## 🧩 Appendix: Free-Only AI Automation + Agent Orchestration Stack (n8n alternative)
+
+A self-hostable stack to replace n8n while keeping multi-agent/orchestration workflows intact for labs, demos, and production prototypes.
+
+### 1) Workflow Automation Layer (replace n8n)
+
+- Activepieces (free, open-source, visual)
+ 	- Similar to n8n with a clean UI and growing integrations
+ 	- Runs locally or self-hosted on a low-cost VPS
+ 	- Trigger → Action flows for APIs, databases, and files
+
+- Alternative: Node-RED (free, mature, open-source)
+ 	- Strong for IoT, APIs, and event-driven flows
+ 	- Integrates with AI APIs and custom scripts
+
+### 2) AI Agent Orchestration Layer
+
+- CrewAI (free & open-source)
+ 	- Multi-role AI agents for collaborative, complex tasks
+ 	- Handles reasoning and task distribution
+
+### 3) Conversational Multi-Agent Coordination
+
+- AutoGen (free, open-source by Microsoft)
+ 	- Structured agent↔agent and agent↔human conversations
+ 	- Supports human-in-the-loop workflows
+
+### 4) AI Planning & Integration SDK
+
+- Semantic Kernel (free, open-source by Microsoft)
+ 	- Adds memory, planning, and plugin execution to AI
+ 	- Ideal for embedding AI into apps/services
+
+### How They Work Together
+
+```
+[Activepieces / Node-RED]
+ ↓ triggers
+[CrewAI] → assigns roles and sub-tasks
+ ↓
+[AutoGen] → coordinates conversations between agents/humans
+ ↓
+[Semantic Kernel] → executes AI-powered plans & integrates code/plugins
+ ↓
+[Activepieces / Node-RED]
+  → sends results to target systems (email, Slack, DB, etc.)
+```
+
+### Why This Stack
+
+- ✅ Completely free if self-hosted
+- ✅ Flexible — swap components as needs grow
+- ✅ Works for both business automation and AI-assisted projects
+
+---
+
 **Last Updated**: July 9, 2025  
 **Status**: Concept Development Phase  
 **Owner**: Viswanatha Swamy
