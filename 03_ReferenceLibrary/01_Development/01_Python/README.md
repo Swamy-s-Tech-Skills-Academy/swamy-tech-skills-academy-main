@@ -66,7 +66,7 @@ This comprehensive Python learning system is designed to take you from complete 
 
 ### **For Complete Beginners**
 
-```
+```text
 📍 START HERE: 01_Fundamentals/01_Noob-to-Nerd/
 ↓
 Complete all 9 levels in 01_Fundamentals/ sequentially
@@ -80,7 +80,7 @@ Master professional practices in 04_Professional-Practice/
 
 ### **For Experienced Programmers**
 
-```
+```text
 📍 Assessment: Review 01_Fundamentals/README.md
 ↓
 Start at appropriate level in 01_Fundamentals/ (likely Level 4-6)
@@ -94,7 +94,7 @@ Specialize in 03_Specialized-Topics/ based on career goals
 
 ### **For Python Practitioners**
 
-```
+```text
 📍 Direct Focus: 02_Advanced-Patterns/ and 04_Professional-Practice/
 ↓
 Fill gaps with specific 01_Fundamentals/ levels as needed

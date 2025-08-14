@@ -35,7 +35,7 @@ This guide focuses on **UML diagrams that directly support OOP design** - practi
 
 ### **Basic Class Notation**
 
-```
+```text
 ┌─────────────────────┐
 │      ClassName      │ ← Class name in bold
 ├─────────────────────┤
@@ -51,7 +51,7 @@ This guide focuses on **UML diagrams that directly support OOP design** - practi
 
 ### **Real Example: BankAccount Class**
 
-```
+```text
 ┌─────────────────────┐
 │    BankAccount      │
 ├─────────────────────┤

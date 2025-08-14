@@ -14,7 +14,7 @@ Our reference library follows the **interconnected domain model** where each fol
 
 ### **Core AI Ecosystem**
 
-```
+```text
 03_ReferenceLibrary/
 ├── AI/                           # Umbrella domain (broadest scope)
 ├── MachineLearning/              # AI subset (algorithms & training)
