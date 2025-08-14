@@ -18,6 +18,11 @@ One-hot encoding represents each token (word) by a vector where exactly one elem
 - Columns correspond to the unique vocabulary for that sentence or corpus
 - It captures presence/position but not similarity or meaning
 
+## Code policy (single source of truth)
+
+- Runnable code lives in the external canonical repo. This page shows reference-only pseudocode to explain the idea.
+- If you need runnable examples, use the repo linked below. If no repo exists for this topic, ask for code and we’ll generate it externally.
+
 ## Practical Example
 
 Sentence: "I like pizza"
@@ -32,29 +37,18 @@ Matrix (rows = tokens in order, columns = vocabulary):
 | like  | 0 | 1    | 0     |
 | pizza | 0 | 0    | 1     |
 
-## Minimal Implementation (Python)
+## Reference pseudocode (non-runnable)
 
-```python
-from typing import List, Dict
-
-def one_hot(tokens: List[str]) -> tuple[list[list[int]], List[str], Dict[str, int]]:
-    vocab = sorted(set(tokens))
-    index = {w: i for i, w in enumerate(vocab)}
-    matrix = []
-    for t in tokens:
-        row = [0] * len(vocab)
-        row[index[t]] = 1
-        matrix.append(row)
+```text
+function one_hot(tokens):
+    vocab := sorted(unique(tokens))
+    index := { word -> position } from vocab order
+    matrix := []
+    for each token t in tokens:
+        row := zeros(length(vocab))
+        row[index[t]] := 1
+        append row to matrix
     return matrix, vocab, index
-
-if __name__ == "__main__":
-    sent = "i like pizza".split()
-    mat, vocab, idx = one_hot(sent)
-    print("vocab:", vocab)
-    print("index:", idx)
-    print("matrix:")
-    for r in mat:
-        print(r)
 ```
 
 ## Common Pitfalls
@@ -69,9 +63,10 @@ if __name__ == "__main__":
 - TF-IDF to weight importance
 - Distributed representations (word2vec, GloVe, fastText)
 
-## External Repository
+## Canonical Code Location
 
-- Authoritative examples and experiments: [llm-agents-learning](https://github.com/Swamy-s-Tech-Skills-Academy-AI-ML-Data/llm-agents-learning)
+- External repo (single source of truth for runnable code):
+  - GitHub: [Swamy-s-Tech-Skills-Academy-AI-ML-Data/llm-agents-learning](https://github.com/Swamy-s-Tech-Skills-Academy-AI-ML-Data/llm-agents-learning)
 
 ## 🔗 Related Topics
 

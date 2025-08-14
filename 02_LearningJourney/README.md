@@ -12,12 +12,11 @@ Current focus: Capture-only notes in `Notes/` (one file per day)
 
 1. Create today’s note in `Notes/` (see `Notes/README.md`)
 2. Capture a tiny deliverable (code or notes) and link evidence
-3. Optional: pick a 60-minute item from `Backlog.md`
 
 ## Current Files
 
 - `Notes/` - Daily capture-only notes (one file per day)
-- `00_Templates/` - Optional helpers (Daily log, simple retro)
+- `00_Templates/` - Optional helpers (Daily log)
 
 ## Learning Approach
 

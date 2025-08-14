@@ -252,3 +252,19 @@ Content quality should be measured by:
 ---
 
 Note: Prefer ASCII-first diagrams for universal preview. Mermaid diagrams may be included as an optional enhancement when an ASCII fallback is present.
+
+---
+
+## 🧭 Code Single-Source-of-Truth Policy (STSA)
+
+- Runnable code lives in dedicated external GitHub repositories per concept or per date. Prefer concept-scoped repos; use date-scoped sandboxes when they exist.
+  - Example (One-Hot Encoding): [Swamy-s-Tech-Skills-Academy-AI-ML-Data/llm-agents-learning](https://github.com/Swamy-s-Tech-Skills-Academy-AI-ML-Data/llm-agents-learning)
+- This repository stores:
+  - Curated concept pages (ReferenceLibrary)
+  - Evidence and outcomes (LeadArchitectKnowledgeBase)
+  - Capture-only notes (LearningJourney/Notes)
+- Do NOT duplicate runnable code here if an external repo exists for that concept/date. Link to the canonical repo instead.
+- If no external repo exists for a concept:
+  - On user request, generate minimal runnable code and (preferred) create or use a new external GitHub repo for that concept/date; then link to it.
+  - Only place code in this repo if explicitly asked. Mark it as temporary, and when an external repo is created later, migrate the code and update links; remove the local duplicate.
+- If multiple external repos exist for a concept, use the one the user designates as canonical; otherwise, choose the most recent primary repo and note it in the docs.

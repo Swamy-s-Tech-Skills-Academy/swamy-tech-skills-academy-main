@@ -19,21 +19,29 @@ Tokenization splits text into smaller units (tokens). A simple baseline:
 - Collapse whitespace
 - Split on spaces
 
-## Minimal Example (Python)
+## Code policy (single source of truth)
 
-```python
-import re
+- Runnable code lives in the external canonical repo. This page shows reference-only pseudocode to explain the idea.
+- If you need runnable examples, use the repo linked below. If no repo exists for this topic, ask for code and we’ll generate it externally.
 
-def clean_tokenize(text: str) -> list[str]:
-    text = text.lower()
-    text = re.sub(r"[^a-z]+", " ", text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text.split()
+## Reference pseudocode (non-runnable)
 
-print(clean_tokenize("Should we go to a pizzeria or do you prefer a restaurant?"))
+```text
+function clean_tokenize(text):
+    1) lowercase text
+    2) replace all non-letters with a space
+    3) collapse multiple spaces to one and trim ends
+    4) split on space to get tokens
+    5) return tokens
 ```
 
 ## Next Steps
 
 - One-hot encoding (see 01_One-Hot-Encoding.md)
 - Bag-of-Words (02_Bag-of-Words.md)
+- TF-IDF (03_TF-IDF.md)
+
+## Canonical code location
+
+- External repo (single source of truth for runnable code):
+  - GitHub: [Swamy-s-Tech-Skills-Academy-AI-ML-Data/llm-agents-learning](https://github.com/Swamy-s-Tech-Skills-Academy-AI-ML-Data/llm-agents-learning)

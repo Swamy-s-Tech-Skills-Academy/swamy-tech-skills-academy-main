@@ -10,10 +10,12 @@ Purpose: Show a simple, working implementation of one-hot encoding for a short s
 
 ## Quick Usage
 
-```bash
-# Python 3.x
-# Run the one-hot example from the external repo
-# (see repo README for exact path/command)
+```powershell
+# Run canonical example from GitHub clone (PowerShell)
+# (clone repo if needed)
+# git clone https://github.com/Swamy-s-Tech-Skills-Academy-AI-ML-Data/llm-agents-learning
+Set-Location .\llm-agents-learning
+python .\one_hot.py "i like pizza"
 ```
 
 Expected (example):
@@ -35,4 +37,4 @@ matrix:
 ## Related
 
 - Reference: `03_ReferenceLibrary/02_AI-and-ML/04_NaturalLanguageProcessing/01_Basics/01_One-Hot-Encoding.md`
-- External repo (code experiments): [llm-agents-learning](https://github.com/Swamy-s-Tech-Skills-Academy-AI-ML-Data/llm-agents-learning)
+- Canonical code (external): [llm-agents-learning](https://github.com/Swamy-s-Tech-Skills-Academy-AI-ML-Data/llm-agents-learning)
