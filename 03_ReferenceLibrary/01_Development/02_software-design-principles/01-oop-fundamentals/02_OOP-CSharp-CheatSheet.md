@@ -1,6 +1,6 @@
 # 🔷 C# OOP Cheat Sheet
 
-**C#-Specific Object-Oriented Programming Reference**
+C#-Specific Object-Oriented Programming Reference
 
 > 📖 **8-minute reference** | 🎯 **Focus**: C# syntax and best practices | 🔷 **Platform**: .NET ecosystem
 
@@ -8,7 +8,7 @@
 
 ## 🚀 Quick Start: Classes and Objects
 
-### **Basic Class Definition**
+### Basic Class Definition
 
 ```csharp
 public class Person
