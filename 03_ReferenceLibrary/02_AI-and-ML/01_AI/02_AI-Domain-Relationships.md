@@ -1,6 +1,6 @@
 # 🔗 AI Domain Relationships & Conceptual Hierarchy
 
-**Understanding how AI, ML, Deep Learning, and Data Science interconnect**
+## Understanding how AI, ML, Deep Learning, and Data Science interconnect
 
 ---
 
@@ -14,7 +14,7 @@ This reference provides visual and conceptual understanding of how different AI-
 
 ### **Foundational Relationship Model**
 
-```
+```text
 Artificial Intelligence (Broadest Domain)
 ├── Machine Learning (Subset of AI)
 │   ├── Deep Learning (Subset of ML)
@@ -66,7 +66,7 @@ Data Science (Overlapping Domain)
 
 ### **Model 1: Nested Circles (Hierarchical)**
 
-_Shows how domains build upon each other_
+#### Shows how domains build upon each other
 
 - **Outer Ring**: Artificial Intelligence (Broadest scope)
 - **Middle Rings**: Machine Learning, Data Science, Natural Language Processing
@@ -77,7 +77,7 @@ _Shows how domains build upon each other_
 
 ### **Model 2: Overlapping Domains (Venn Diagram)**
 
-_Shows how domains intersect and share technologies_
+#### Shows how domains intersect and share technologies
 
 - **Intersection Zones**: Areas where domains collaborate
 - **Unique Areas**: Domain-specific technologies and approaches
@@ -87,7 +87,7 @@ _Shows how domains intersect and share technologies_
 
 ### **Model 3: Concentric Evolution (Maturity Model)**
 
-_Shows how domains evolved and matured over time_
+#### Shows how domains evolved and matured over time
 
 - **Core**: Data Analytics (Traditional foundation)
 - **Layer 2**: Big Data (Scale evolution)
