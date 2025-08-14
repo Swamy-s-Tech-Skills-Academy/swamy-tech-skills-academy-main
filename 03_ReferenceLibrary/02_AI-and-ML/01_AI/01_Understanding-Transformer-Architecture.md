@@ -61,7 +61,7 @@ Think of the Transformer as a **translation team**:
 
 ### **Information Flow Example**
 
-```
+```text
 Input: "The cat sat on the mat"
 ↓
 Encoder: Creates understanding matrix showing:
@@ -87,7 +87,7 @@ When processing words in parallel, we lose natural order information. The senten
 
 Simple indexing creates instability:
 
-```
+```text
 Word      Position Index
 The       0
 quick     1
@@ -115,7 +115,7 @@ Instead of simple numbers, Transformers use mathematical functions that create *
 
 #### **Practical Benefits**
 
-```
+```text
 Position 1: [0.0, 1.0, 0.0, 1.0, ...]
 Position 2: [0.8, 0.6, 0.1, 0.9, ...]
 Position 3: [0.9, -0.4, 0.2, 0.8, ...]
@@ -162,7 +162,7 @@ Every word in the sequence plays three roles:
 
 #### **Real Example**
 
-```
+```text
 Sentence: "The brilliant playwright Shakespeare wrote Hamlet"
 
 When processing "Shakespeare":
@@ -195,7 +195,7 @@ This parallel processing creates nuanced understanding from multiple angles.
 
 #### **Before Transformers (RNNs):**
 
-```
+```text
 Word 1 → Process → Word 2 → Process → Word 3 → Process...
 Time: Sequential, slow
 GPU Usage: Poor (waiting for sequential completion)
@@ -203,7 +203,7 @@ GPU Usage: Poor (waiting for sequential completion)
 
 #### **With Transformers:**
 
-```
+```text
 Word 1 ↘
 Word 2 → Process All Simultaneously → Rich Understanding
 Word 3 ↗

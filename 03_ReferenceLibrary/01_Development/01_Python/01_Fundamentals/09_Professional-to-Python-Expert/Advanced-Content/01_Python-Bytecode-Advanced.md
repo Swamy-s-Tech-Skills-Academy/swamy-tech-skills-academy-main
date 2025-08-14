@@ -121,7 +121,7 @@ exec(code_obj)
 
 ### .pyc File Structure
 
-```
+```text
 Magic Number (4 bytes)    - Python version identifier
 Flags (4 bytes)          - Compilation flags
 Modification Time (4 bytes) - Source file timestamp

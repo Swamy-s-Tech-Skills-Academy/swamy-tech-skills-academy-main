@@ -1,8 +1,10 @@
+# Python Fundamentals: Learning Progression Notes
+
 Yes, Swamy — this revised progression is well-structured, intuitive, and modern. Here's a quick evaluation of your path:
 
 ---
 
-### ✅ Finalized 9-Level Progression (Python Journey)
+## ✅ Finalized 9-Level Progression (Python Journey)
 
 1. **Noob → Nerd**
    *From clueless to curious*
@@ -42,7 +44,7 @@ Yes, Swamy — this revised progression is well-structured, intuitive, and moder
 
 ---
 
-### 💡 Summary:
+### 💡 Summary
 
 * ✅ Logical flow and natural growth curve
 * ✅ Inclusive and inspiring terminology
