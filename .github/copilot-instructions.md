@@ -1,7 +1,7 @@
 # GitHub Copilot Instructions for STSA Knowledge Base
 
 **Version**: 1.0  
-**Last Updated**: August 10, 2025  
+**Last Updated**: August 14, 2025  
 **Scope**: Swamy's Tech Skills Academy Learning System
 
 ---
@@ -107,6 +107,7 @@ When provided with reference materials from books, websites, articles, video cou
 - [ ] Examples are practical and relevant
 - [ ] Language is appropriate for target audience level
 - [ ] Formatting follows repository markdown standards
+- [ ] Pass markdownlint (no hard tabs; two-space sub-bullets; code fences have language)
 
 ---
 
@@ -245,7 +246,7 @@ Content quality should be measured by:
 
 ---
 
-**Last Review**: August 10, 2025  
+**Last Review**: August 14, 2025  
 **Next Review**: Every 3 months or when significant changes are made  
 **Maintained By**: Swamy's Tech Skills Academy Learning System
 
@@ -254,6 +255,51 @@ Content quality should be measured by:
 Note: Prefer ASCII-first diagrams for universal preview. Mermaid diagrams may be included as an optional enhancement when an ASCII fallback is present.
 
 ---
+
+## 📝 Markdown Authoring & Linting Standards (STSA)
+
+Follow these rules to keep Markdown clean, consistent, and lint-safe across the repo.
+
+### Core rules
+
+- Use spaces only — no hard tabs anywhere (MD010)
+- Nested list indentation is two spaces per level (MD007)
+  - Example:
+    - Parent item
+      - Child item
+      - Another child
+- Always specify a language for fenced code blocks (MD040)
+  - Use: text (ASCII diagrams), bash (POSIX shell), powershell (Windows pwsh), json, yaml, python, ts, js, csharp
+  - Example:
+    ```text
+    [Service A]
+      ↓ calls
+    [Service B]
+    ```
+- Surround headings, lists, and code fences with a blank line (MD022/MD032/MD031)
+- Avoid trailing spaces (use two spaces only when you intentionally want a line break)
+- Prefer hyphens (-) for unordered lists; use numeric lists as 1., 2., 3. or just 1. auto-number consistently
+- Keep line length reasonable (~120 chars); tables/URLs may exceed
+- Wrap file names, paths, and inline code in backticks
+- Emojis are fine; keep them minimal and meaningful
+
+### Tables
+
+- Include a header row and separator line
+- Use spaces, not tabs; keep columns concise
+- Align pipes consistently; avoid trailing spaces at row ends
+
+### Diagrams
+
+- Provide ASCII-first diagrams using ```text fences
+- Optional: add Mermaid only if an ASCII fallback is present
+
+### Pre-publish lint checklist
+
+- No tabs; two-space nested list indentation
+- All fenced code blocks have a language
+- Headings/lists/code fences separated by blank lines
+- Preview in VS Code Markdown preview to check rendering
 
 ## 🧭 Code Single-Source-of-Truth Policy (STSA)
 
