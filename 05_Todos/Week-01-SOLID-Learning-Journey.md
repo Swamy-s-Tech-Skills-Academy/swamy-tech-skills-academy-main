@@ -6,7 +6,7 @@
 
 ### 🎯 Primary Focus
 
-**SOLID Principles Mastery**
+#### SOLID Principles Mastery
 
 ### 📅 Weekly Schedule
 

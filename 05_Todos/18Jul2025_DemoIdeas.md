@@ -1,3 +1,5 @@
+# AI/ML Demo Ideas for AgentCon 2025
+
 Absolutely, Swamy! A hands-on demo for each of the seven stages of AI/ML evolution would be a brilliant way to showcase the progression from foundational concepts to cutting-edge autonomy at AgentCon 2025. Here's a curated lineup of demo ideas tailored for each stage:
 
 ---
@@ -145,7 +147,7 @@ Absolutely, Swamy! Structuring **AI AgentCon 2025** around **7 hands-on demos** 
 
 ---
 
-## 🧩 Bonus Tips:
+## 🧩 Bonus Tips
 
 - Use **Colab Notebooks** or **streamlit apps** for hands-on simplicity.
 - Provide **step-by-step GitHub repo** with starter code.

@@ -310,7 +310,7 @@ If you need the old plan for reference, use git history.
 
 Implement the same system in all three languages:
 
-```
+```text
 Vehicle (base class)
 ├── Car
 ├── Motorcycle

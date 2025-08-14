@@ -36,9 +36,9 @@ This guide covers the complete journey from code-level design principles to syst
 
 ---
 
-## 2️⃣ **OOP + SOLID Principles**
+## 2⃣ **OOP + SOLID Principles**
 
-_Essential for maintainable, scalable object-oriented design_
+Essential for maintainable, scalable object-oriented design
 
 | Principle                     | Description                                   | Benefit                     |
 | ----------------------------- | --------------------------------------------- | --------------------------- |
@@ -100,9 +100,9 @@ _Reusable solutions to common software design problems_
 
 ---
 
-## 5️⃣ **Architectural Principles**
+## 5⃣ **Architectural Principles**
 
-_High-level guidelines for robust system design_
+High-level guidelines for robust system design
 
 | Principle                            | Description                           | Benefit                     |
 | ------------------------------------ | ------------------------------------- | --------------------------- |
