@@ -1,6 +1,6 @@
 # 🎨 UML for OOP - Object Modeling Reference
 
-**Visual Object-Oriented Design and Modeling Guide**
+### Visual Object-Oriented Design and Modeling Guide
 
 > 📖 **7-minute reference** | 🎯 **Focus**: Object relationships and class design | 🎨 **Visual**: UML diagrams for OOP concepts
 
@@ -98,7 +98,7 @@ public class BankAccount
 
 ### **Association Examples**
 
-```
+```text
 ┌─────────┐                    ┌─────────┐
 │ Student │ ────────────────> │ Course  │
 └─────────┘    "attends"       └─────────┘
@@ -116,7 +116,7 @@ public class Student
 
 ### **Aggregation Examples**
 
-```
+```text
 ┌─────────┐                    ┌─────────┐
 │ Library │ ◇─────────────────> │  Book   │
 └─────────┘   "contains"        └─────────┘
@@ -135,7 +135,7 @@ public class Library
 
 ### **Composition Examples**
 
-```
+```text
 ┌─────────┐                    ┌─────────┐
 │  House  │ ◆─────────────────> │  Room   │
 └─────────┘    "contains"       └─────────┘
@@ -163,7 +163,7 @@ public class House
 
 ### **Simple Inheritance Hierarchy**
 
-```
+```text
                     ┌─────────┐
                     │ Animal  │
                     │---------|
@@ -183,7 +183,7 @@ public class House
 
 ### **Interface Implementation**
 
-```
+```text
         ┌─────────────┐
         │ <<interface>>│
         │  IFlyable   │ ← Italic text or <<interface>>
@@ -208,7 +208,7 @@ public class House
 
 ### **Runtime Polymorphism Through Inheritance**
 
-```
+```text
 ┌─────────────┐                ┌─────────────┐
 │    Shape    │                │   Client    │
 │-------------|                │-------------|
@@ -226,11 +226,11 @@ public class House
 └─────────┘ └─────────┘
 ```
 
-**Shows how Client can work with any Shape subclass**
+#### How the client can work with any Shape subclass
 
 ### **Interface-Based Polymorphism**
 
-```
+```text
 ┌─────────────┐              ┌─────────────┐
 │<<interface>>│              │   Logger    │
 │ IRepository │ ←────────────│-------------|
@@ -267,7 +267,7 @@ public class House
 
 ### **Real-World Example: Order System**
 
-```
+```text
 ┌─────────┐     1      0..*  ┌─────────┐     *      1  ┌─────────┐
 │Customer │ ◇─────────────── │  Order  │ ◇─────────────│ Product │
 │---------|  "places"        │---------|  "contains"   │---------|
@@ -288,7 +288,7 @@ public class House
 
 ### **Observer Pattern**
 
-```
+```text
 ┌─────────────┐              ┌─────────────┐
 │  Subject    │              │ <<interface>>│
 │-------------|              │  Observer   │
@@ -308,7 +308,7 @@ public class House
 
 ### **Strategy Pattern**
 
-```
+```text
 ┌─────────────┐              ┌─────────────┐
 │   Context   │              │ <<interface>>│
 │-------------|              │  Strategy   │
@@ -332,7 +332,7 @@ public class House
 
 ### **Step 1: Design First**
 
-```
+```text
 1. Draw classes and relationships
 2. Define multiplicities
 3. Identify abstract classes and interfaces
@@ -341,7 +341,7 @@ public class House
 
 ### **Step 2: Validate Design**
 
-```
+```text
 - Can you trace through use cases?
 - Are relationships logical?
 - Do multiplicities make sense?
@@ -370,7 +370,7 @@ public class Customer
 
 ### **❌ Over-Complicating Diagrams**
 
-```
+```text
 // BAD - too much detail
 Every method, every parameter, every field shown
 
@@ -380,7 +380,7 @@ Show key methods, important attributes, clear relationships
 
 ### **❌ Wrong Relationship Types**
 
-```
+```text
 // BAD - using association for composition
 Library ────> Book (should be composition)
 
@@ -390,7 +390,7 @@ Library ◆───> Book (book is part of library)
 
 ### **❌ Missing Multiplicities**
 
-```
+```text
 // BAD - unclear relationships
 Customer ────> Order
 
@@ -456,7 +456,7 @@ Customer ||--o{ BankAccount : "owns"
 
 ### **Workflow Integration**
 
-```
+```text
 1. Learn OOP concepts (Fundamentals sheet)
 2. Design with UML (This sheet)
 3. Implement in C# (C# sheet)

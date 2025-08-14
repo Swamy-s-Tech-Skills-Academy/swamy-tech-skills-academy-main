@@ -41,13 +41,13 @@ This domain covers the technologies, patterns, and practices needed to process m
 
 ### **Intermediate Level**
 
-3. **Stream Processing** - Real-time data processing mastery
-4. **Batch Optimization** - Large-scale computation efficiency
+1. **Stream Processing** - Real-time data processing mastery
+2. **Batch Optimization** - Large-scale computation efficiency
 
 ### **Advanced Level**
 
-5. **Alternative Architectures** - Kappa and Delta patterns
-6. **Data Lake Management** - Enterprise-scale data organization
+1. **Alternative Architectures** - Kappa and Delta patterns
+2. **Data Lake Management** - Enterprise-scale data organization
 
 ---
 
