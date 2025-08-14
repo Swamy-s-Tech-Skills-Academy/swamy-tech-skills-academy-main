@@ -1,20 +1,20 @@
 # 🔧 Python Bytecode Documentation
 
-**Complete Guide to Python Bytecode Generation, Management, and Analysis**
+A complete guide to Python bytecode generation, management, and analysis.
 
 ---
 
 ## 📋 Table of Contents
 
-1. [What is Python Bytecode?](#what-is-python-bytecode)
-2. [A. Generate Bytecode](#a-generate-bytecode)
-3. [B. .pyc Files](#b-pyc-files)
-4. [C. View Bytecode](#c-view-bytecode)
-5. [Advanced Topics](#advanced-topics)
-6. [Practical Examples](#practical-examples)
-7. [Tools and Resources](#tools-and-resources)
-8. [Best Practices](#best-practices)
-9. [Troubleshooting](#troubleshooting)
+1. [What is Python Bytecode?](#-what-is-python-bytecode)
+2. [A Generate Bytecode](#-a-generate-bytecode)
+3. [B PYC Files](#-b-pyc-files)
+4. [C View Bytecode](#-c-view-bytecode)
+5. [Advanced Topics](#-advanced-topics)
+6. [Practical Examples](#-practical-examples)
+7. [Tools and Resources](#-tools-and-resources)
+8. [Best Practices](#-best-practices)
+9. [Troubleshooting](#-troubleshooting)
 
 ---
 
@@ -110,7 +110,7 @@ exec(code_obj)
 
 ---
 
-## 📁 B. .pyc Files
+## 📁 B PYC Files
 
 ### What are .pyc files?
 

@@ -1,6 +1,6 @@
 # 🎨 UML for OOP - Object Modeling Reference
 
-### Visual Object-Oriented Design and Modeling Guide
+## Visual Object-Oriented Design and Modeling Guide
 
 > 📖 **7-minute reference** | 🎯 **Focus**: Object relationships and class design | 🎨 **Visual**: UML diagrams for OOP concepts
 

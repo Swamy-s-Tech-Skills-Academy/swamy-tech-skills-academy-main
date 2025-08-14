@@ -53,7 +53,7 @@ MCP consists of exactly **three main components** that work together:
 
 **Real-World Example**:
 
-```
+```text
 Company Database MCP Server:
 - Connects to internal CRM database
 - Exposes customer data through MCP protocol
@@ -81,7 +81,7 @@ Company Database MCP Server:
 
 **Real-World Example**:
 
-```
+```text
 AI Customer Service Assistant:
 - Connects to Customer Database MCP Server
 - Requests customer history for current inquiry
@@ -139,7 +139,7 @@ AI Customer Service Assistant:
 
 ## ⚡ MCP Data Flow Architecture
 
-```
+```text
 AI Application (MCP Client)
        ↓
    [Connection Request]
@@ -230,7 +230,7 @@ AI Application (MCP Client)
 
 #### **MCP Server Setup**
 
-```
+```text
 Customer Database MCP Server (Port 3001):
 - Provides customer lookup by ID, email, phone
 - Exposes purchase history and preferences
