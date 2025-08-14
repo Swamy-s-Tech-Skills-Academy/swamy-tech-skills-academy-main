@@ -72,7 +72,7 @@ Essential for maintainable, scalable object-oriented design
 
 ## 4️⃣ **Design Patterns**
 
-_Reusable solutions to common software design problems_
+Reusable solutions to common software design problems
 
 ### Creational Patterns
 
@@ -118,7 +118,7 @@ High-level guidelines for robust system design
 
 ## 6️⃣ **Architectural Patterns**
 
-_Proven blueprints for system-level structure_
+Proven blueprints for system-level structure
 
 | Pattern                | Description                                         | Best For                           |
 | ---------------------- | --------------------------------------------------- | ---------------------------------- |
@@ -140,18 +140,18 @@ _Proven blueprints for system-level structure_
 
 ### Phase 2: Patterns (Weeks 3-4)
 
-3. ✅ **Learn Core Design Patterns** - Focus on 5-10 most common
-4. 🔄 **Practice in C# and JavaScript** - Real-world implementations
+1. ✅ **Learn Core Design Patterns** - Focus on 5-10 most common
+2. 🔄 **Practice in C# and JavaScript** - Real-world implementations
 
 ### Phase 3: Architecture (Weeks 5-6)
 
-5. 🧠 **Study Architectural Principles** - Apply in small projects
-6. 🚀 **Explore Architectural Patterns** - Clean, Microservices, Hexagonal
+1. 🧠 **Study Architectural Principles** - Apply in small projects
+2. 🚀 **Explore Architectural Patterns** - Clean, Microservices, Hexagonal
 
 ### Phase 4: Integration (Weeks 7+)
 
-7. 🎯 **Build Complete Applications** - Combine all concepts
-8. 📚 **Document Learning Journey** - Create portfolio examples
+1. 🎯 **Build Complete Applications** - Combine all concepts
+2. 📚 **Document Learning Journey** - Create portfolio examples
 
 ---
 
