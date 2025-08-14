@@ -54,7 +54,7 @@ graph TD
     class GEN,ASYNC,LINQ advanced
     class PATTERNS,PERF,TESTING architecture
     class DOTNET,ENTERPRISE ecosystem
-```
+
 
 ---
 
@@ -144,27 +144,27 @@ graph TD
 
 ### **🔰 Beginner Path** (3-4 months)
 
-```
+```text
 01_Fundamentals → 02_Object-Oriented-Mastery → 03_Generics-and-Variance → 08_Testing-and-Quality
 ```
 
 ### **🚀 Intermediate Path** (4-5 months)
 
-```
+```text
 02_Object-Oriented-Mastery → 03_Generics-and-Variance → 04_Async-and-Parallel → 
 05_LINQ-and-Expressions → 06_Design-Patterns → 07_Performance-Optimization
 ```
 
 ### **🏗️ Enterprise Path** (6-8 months)
 
-```
+```text
 Complete all modules with emphasis on 06_Design-Patterns → 07_Performance-Optimization → 
 08_Testing-and-Quality → 09_NET-Ecosystem → 10_Enterprise-Development
 ```
 
 ### **🎓 Architect Path** (8-12 months)
 
-```
+```text
 All modules + deep architectural projects + contribution to open source .NET projects
 ```
 
@@ -277,7 +277,7 @@ All modules + deep architectural projects + contribution to open source .NET pro
 
 ---
 
-**🎯 Mission**: Transform developers into C# and .NET experts capable of building world-class enterprise applications with confidence, performance, and maintainability.**
+**🎯 Mission**: Transform developers into C# and .NET experts capable of building world-class enterprise applications with confidence, performance, and maintainability.
 
 ---
 

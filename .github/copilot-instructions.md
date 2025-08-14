@@ -43,7 +43,7 @@ When provided with reference materials from books, websites, articles, video cou
 
 ### **Organizational Hierarchy**
 
-```
+```text
 03_ReferenceLibrary/
 ├── 01_Development/                     ← Programming & Engineering Foundation
 │   ├── 01_Python/                      ← Sequential learning progression
@@ -291,7 +291,7 @@ Follow these rules to keep Markdown clean, consistent, and lint-safe across the 
 
 ### Diagrams
 
-- Provide ASCII-first diagrams using ```text fences
+- Provide ASCII-first diagrams using text code fences
 - Optional: add Mermaid only if an ASCII fallback is present
 
 ### Pre-publish lint checklist
