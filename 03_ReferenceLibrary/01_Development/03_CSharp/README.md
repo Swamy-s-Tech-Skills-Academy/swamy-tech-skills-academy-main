@@ -1,6 +1,6 @@
 # 🔷 C# and .NET Development Track
 
-**Enterprise-grade programming with Microsoft's premier development platform**
+## Enterprise-grade programming with Microsoft's premier development platform
 
 ---
 

@@ -1,6 +1,6 @@
 # 🏗️ Reference Library Organization & Domain Structure
 
-**Comprehensive mapping of AI ecosystem domains with clear boundaries and relationships**
+## Comprehensive mapping of AI ecosystem domains with clear boundaries and relationships
 
 ---
 
