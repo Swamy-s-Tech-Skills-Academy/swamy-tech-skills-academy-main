@@ -1,6 +1,6 @@
 # 🧠 How Language Models Work: From Text to Understanding
 
-**Decoding the journey from raw text to intelligent language comprehension**
+Decoding the journey from raw text to intelligent language comprehension
 
 ---
 
@@ -14,7 +14,7 @@ Language models represent one of the most remarkable achievements in artificial 
 
 Modern language models operate through a sophisticated multi-stage process that transforms raw text into meaningful understanding:
 
-```
+```text
 Raw Text → Tokenization → Embeddings → Context Processing → Understanding → Generation
 ```
 
@@ -24,7 +24,7 @@ Each stage builds upon the previous one, creating layers of increasingly sophist
 
 ## 📝 Stage 1: Making Text Machine-Readable (Tokenization)
 
-### **The Challenge**
+### The Challenge: Converting Text to Numbers
 
 Computers operate with numbers, not words. The first hurdle in language processing is converting human text into a format machines can work with.
 
@@ -36,25 +36,26 @@ Tokenization breaks down text into manageable units called "tokens" - typically 
 
 1. **Text Segmentation**: Split text into individual units
 
-   ```
+   ```text
    "The quick brown fox" → ["The", "quick", "brown", "fox"]
    ```
 
 2. **Normalization**: Handle variations in capitalization, punctuation, and formatting
 
-   ```
+   ```text
    "Hello!" → "hello" (lowercase, punctuation removed)
    ```
 
 3. **Vocabulary Mapping**: Assign unique numerical identifiers to each token
 
-   ```
+   ```text
    "hello" → 1247
    "world" → 3891
    ```
 
 4. **Special Tokens**: Add markers for sentence boundaries, unknown words, and control signals
-   ```
+
+   ```text
    [START] "Hello world" [END] → [1, 1247, 3891, 2]
    ```
 
@@ -68,7 +69,7 @@ Tokenization breaks down text into manageable units called "tokens" - typically 
 
 ## 🎯 Stage 2: Capturing Word Relationships (Embeddings)
 
-### **The Challenge**
+### The Challenge: Capturing Meaning
 
 Numbers alone don't capture the rich relationships between words. "Dog" and "puppy" should be understood as related concepts, not just different numbers.
 
@@ -80,7 +81,7 @@ Embeddings transform tokens into high-dimensional vectors that encode semantic r
 
 **Vector Representation**:
 
-```
+```text
 "king" → [0.2, -0.1, 0.8, 0.3, ...]  (300 dimensions)
 "queen" → [0.1, -0.2, 0.7, 0.4, ...]
 ```
@@ -89,16 +90,17 @@ Embeddings transform tokens into high-dimensional vectors that encode semantic r
 
 - Similar concepts have similar vector directions
 - Mathematical operations reveal relationships:
-  ```
-  king - man + woman ≈ queen
-  ```
+
+   ```text
+   king - man + woman ≈ queen
+   ```
 
 **Distance Measurements**:
 
 - Cosine similarity measures vector alignment
 - Closer vectors = more semantically related words
 
-#### **Training Process**
+#### Embedding Training Process
 
 Embeddings learn relationships by analyzing massive text corpora:
 
@@ -121,7 +123,7 @@ Individual words change meaning based on surrounding text. "Bank" means differen
 
 **Sequential Processing**:
 
-```
+```text
 Input:    "The  cat  sat  on  the  mat"
 Step 1:   "The" → Hidden State 1
 Step 2:   "cat" + Hidden State 1 → Hidden State 2
@@ -139,7 +141,7 @@ Step 3:   "sat" + Hidden State 2 → Hidden State 3
 
 **Vanishing Gradients**: Information from early words fades over long sequences
 
-```
+```text
 "Vincent Van Gogh was a painter known for [MASK]"
 By the time we reach [MASK], "Vincent Van Gogh" information may be lost
 ```
@@ -179,7 +181,7 @@ Transformers solved RNN limitations by introducing "attention" - the ability to 
 
 For the sentence: "The cat that chased the mouse was hungry"
 
-```
+```text
 Word: "was"
 Attention Weights:
 - "cat": 0.8    (high - subject of "was")
@@ -196,7 +198,7 @@ Attention Weights:
 
 Modern language models combine all previous innovations at massive scale:
 
-#### **Training Process**
+#### Training Process for LLMs
 
 **Pre-training**:
 
@@ -227,7 +229,7 @@ As models scale, they develop unexpected abilities:
 
 ### **Text Processing Flow**
 
-```
+```text
 Input: "Explain quantum computing"
 
 1. Tokenization:

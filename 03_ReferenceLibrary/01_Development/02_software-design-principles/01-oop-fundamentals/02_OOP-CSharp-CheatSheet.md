@@ -50,7 +50,7 @@ public class Person
 
 ---
 
-## 💡 C# OOP in One Sentence
+## 💡 C# OOP in One Sentence (Overview)
 
 > **"C# OOP combines the four pillars of object-oriented programming with powerful .NET features like properties, generics, LINQ, and modern syntax to create robust, type-safe, and maintainable applications."**
 
@@ -69,11 +69,11 @@ var person2 = new Person("Bob", 25)
 
 // Target-typed new (C# 9.0+)
 Person person3 = new("Charlie", 35);
-````
+```
 
 ---
 
-## 🧬 Inheritance in C #
+## 🧬 Inheritance in C# (Overview)
 
 ### **Basic Inheritance**
 
@@ -139,7 +139,7 @@ public class Dog : Animal
 
 ---
 
-## 🎭 Polymorphism in C #
+## 🎭 Polymorphism in C# (Overview)
 
 ### **Two Types of Polymorphism**
 
@@ -592,7 +592,7 @@ public class ShapeCalculator
 
 ---
 
-## 🔗 Object Relationships in C #
+## 🔗 Object Relationships in C# (Overview)
 
 ### **Quick Examples**
 
@@ -803,7 +803,7 @@ public class ExpensiveObjectPool
 
 ---
 
-## 🔗 Object Relationships in C #
+## 🔗 Object Relationships in C# (More Examples)
 
 ### **7️⃣ Aggregation (Has-A, Independent)**
 
@@ -863,7 +863,7 @@ public class Wheel
 
 ---
 
-## �💡 C# OOP in One Sentence
+## 💡 C# OOP in One Sentence (Recap)
 
 > **"C# OOP combines the four pillars of object-oriented programming with powerful .NET features like properties, generics, LINQ, and modern syntax to create robust, type-safe, and maintainable applications."**
 
