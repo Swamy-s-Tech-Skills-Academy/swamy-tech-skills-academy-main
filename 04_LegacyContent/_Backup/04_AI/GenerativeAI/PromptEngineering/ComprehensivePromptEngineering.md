@@ -901,7 +901,7 @@ Respond with:
 ### **Essential Guides**
 
 1. **[Prompt Engineering Guide](https://www.promptingguide.ai/)** – Covers fundamentals, techniques, and best practices
-2. **[Prompt Engineering Tutorial](https://www.tutorialspoint.com/prompt_engineering/index.html)** – A beginner-friendly guide with practical examples
+2. **Prompt Engineering Tutorial (link removed – legacy site unavailable)** – A beginner-friendly guide with practical examples
 3. **[Basic Prompt Engineering](https://aiengineering.academy/PromptEngineering/Basic_Prompting/)** – Explains different prompting techniques with examples
 
 ### **Platform-Specific Documentation**

@@ -76,7 +76,7 @@ This folder contains resources, patterns, and best practices for hybrid cloud an
 - [Azure Hybrid and Multi-cloud Patterns](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/hybrid/)
 - [AWS Hybrid Cloud](https://aws.amazon.com/hybrid/)
 - [GCP Hybrid and Multi-cloud](https://cloud.google.com/anthos)
-- [Multi-cloud Security Best Practices](https://www.sans.org/white-papers/multi-cloud-security/)
+- Multi-cloud Security Best Practices (link removed – legacy white paper unavailable)
 
 ---
 
