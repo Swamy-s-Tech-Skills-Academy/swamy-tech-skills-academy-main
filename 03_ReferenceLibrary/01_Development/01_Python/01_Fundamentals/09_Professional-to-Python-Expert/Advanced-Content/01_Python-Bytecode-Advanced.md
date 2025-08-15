@@ -4,21 +4,21 @@ A complete guide to Python bytecode generation, management, and analysis.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-1. [What is Python Bytecode?](#-what-is-python-bytecode)
-2. [A Generate Bytecode](#-a-generate-bytecode)
-3. [B PYC Files](#-b-pyc-files)
-4. [C View Bytecode](#-c-view-bytecode)
-5. [Advanced Topics](#-advanced-topics)
-6. [Practical Examples](#-practical-examples)
-7. [Tools and Resources](#-tools-and-resources)
-8. [Best Practices](#-best-practices)
-9. [Troubleshooting](#-troubleshooting)
+1. [What is Python Bytecode?](#what-is-python-bytecode)
+2. [A Generate Bytecode](#a-generate-bytecode)
+3. [B PYC Files](#b-pyc-files)
+4. [C View Bytecode](#c-view-bytecode)
+5. [Advanced Topics](#advanced-topics)
+6. [Practical Examples](#practical-examples)
+7. [Tools and Resources](#tools-and-resources)
+8. [Best Practices](#best-practices)
+9. [Troubleshooting](#troubleshooting)
 
 ---
 
-## 🎯 What is Python Bytecode?
+## What is Python Bytecode?
 
 Python bytecode is an intermediate representation of Python code that the Python Virtual Machine (PVM) executes. When you run a Python program, the interpreter:
 
@@ -44,7 +44,7 @@ graph LR
 
 ---
 
-## 🔄 A. Generate Bytecode
+## A Generate Bytecode
 
 ### Automatic Generation
 
@@ -110,7 +110,7 @@ exec(code_obj)
 
 ---
 
-## 📁 B PYC Files
+## B PYC Files
 
 ### What are .pyc files?
 
@@ -161,7 +161,7 @@ def clean_pyc_files(directory):
 
 ---
 
-## 👀 C. View Bytecode
+## C View Bytecode
 
 ### 1. Using `dis` module (Recommended)
 
@@ -246,7 +246,7 @@ print(bytecode_str)
 
 ---
 
-## 🚀 Advanced Topics
+## Advanced Topics
 
 ### Bytecode Optimization Levels
 
@@ -292,7 +292,7 @@ Common bytecode instructions:
 
 ---
 
-## 💡 Practical Examples
+## Practical Examples
 
 ### Example 1: Compare Source vs Bytecode Performance
 
@@ -371,7 +371,7 @@ instructions = analyze_function(utils.add_numbers)
 
 ---
 
-## 🛠️ Tools and Resources
+## Tools and Resources
 
 ### Built-in Modules
 
@@ -403,7 +403,7 @@ python -OO script.py     # Level 2
 
 ---
 
-## ✅ Best Practices
+## Best Practices
 
 1. **Don't commit .pyc files** to version control
 2. **Use .gitignore** to exclude `__pycache__/` directories
@@ -440,7 +440,7 @@ wheels/
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
