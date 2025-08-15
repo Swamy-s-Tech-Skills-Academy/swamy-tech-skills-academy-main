@@ -163,7 +163,7 @@ All folders as reference + Focus on 06-Architectural-Principles → 07-Architect
 
 1. Review **02-Advanced-OOP** for enterprise patterns
 2. Master **05-Design-Patterns** for common solutions
-3. Study **06-Architecture-Patterns** for system design
+3. Study **07-Architecture-Patterns** for system design
 
 ### **Team Lead/Architect?**
 

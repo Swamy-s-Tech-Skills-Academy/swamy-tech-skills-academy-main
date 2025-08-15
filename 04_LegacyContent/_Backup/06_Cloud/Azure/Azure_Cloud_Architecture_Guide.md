@@ -211,13 +211,10 @@ Common architectural patterns for Azure applications:
 
 ## Reference Architectures
 
-Azure offers several reference architectures for common scenarios:
-
-- [Web Applications](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/app-service-web-app/)
-- [Microservices](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/microservices/)
-- [Serverless Applications](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/serverless/)
-- [High-Performance Computing](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/hpc/)
-- [Data Solutions](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/data/)
+ Azure offers several reference architectures for common scenarios:
+ 
+ - [Azure Architecture Center](https://learn.microsoft.com/azure/architecture/)
+ - [Reference architectures overview](https://learn.microsoft.com/azure/architecture/browse/)
 
 ## Resources
 

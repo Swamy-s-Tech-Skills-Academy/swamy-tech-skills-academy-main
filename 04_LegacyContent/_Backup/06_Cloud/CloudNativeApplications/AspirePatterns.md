@@ -189,11 +189,11 @@ redisCache.Name = _namingStrategy.GenerateName("redis", "cache");
 
 ## Related Patterns
 
-- [Configuration Management Patterns](../SystemDesign/ConfigurationManagement.md)
-- [Service Discovery Patterns](../Microservices/ServiceDiscovery.md)
-- [Infrastructure as Code Patterns](../../07_DevOps/IaC/Patterns.md)
-- [Cloud Resource Management](../../06_Cloud/Patterns/ResourceManagement.md)
 
+- Service Discovery (coming soon)
+- Resource Management (coming soon)
+- Configuration Management (coming soon)
+- IaC Patterns (see ../../07_DevOps/IaC/)
 ---
 
 *Proper resource naming in .NET Aspire applications ensures consistency, maintainability, and enterprise compliance across all environments and deployments.*

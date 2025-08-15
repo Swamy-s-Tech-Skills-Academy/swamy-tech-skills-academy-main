@@ -12,8 +12,8 @@
 
 ### **Daily Use**
 
-- 📅 **[This Week's Focus](./CurrentFocus/2025-07-09-Week1-Focus.md)** - Current goals and daily priorities
-- 📝 **[Weekly Progress Log](./WeeklyProgress/2025-Week-01-Learning-Log.md)** - Detailed learning documentation
+- 📅 This Week's Focus (coming soon) - Current goals and daily priorities
+- 📝 Weekly Progress Log (coming soon) - Detailed learning documentation
 
 ### **All Sections**
 
