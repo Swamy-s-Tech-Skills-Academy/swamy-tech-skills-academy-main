@@ -1,6 +1,6 @@
 # 🐍 Python Compilation and Interpretation Process
 
-**Understanding How Python Code Executes**
+## Understanding How Python Code Executes
 
 ---
 
