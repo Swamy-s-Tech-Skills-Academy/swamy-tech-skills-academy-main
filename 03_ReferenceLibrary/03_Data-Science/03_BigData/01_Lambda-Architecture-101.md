@@ -332,18 +332,18 @@ def get_daily_revenue(date):
 
 ### **Prerequisites**
 
-- **[01_DataScience/01_Distributed-Systems-Basics](../01_DataScience/01_Distributed-Systems-Basics.md)** - Understanding distributed computing
-- **[01_DataScience/02_Data-Pipeline-Fundamentals](../01_DataScience/02_Data-Pipeline-Fundamentals.md)** - Basic data processing concepts
+- **[01_DataScience/01_Distributed-Systems-Basics](../01_DataScience/)** - Understanding distributed computing (coming soon)
+- **[01_DataScience/02_Data-Pipeline-Fundamentals](../01_DataScience/)** - Basic data processing concepts (coming soon)
 
 ### **Related**
 
-- **[03_BigData/03_Stream-Processing-Patterns](03_Stream-Processing-Patterns.md)** - Advanced streaming architectures
-- **[03_BigData/04_Batch-Processing-Optimization](04_Batch-Processing-Optimization.md)** - Optimizing batch workloads
+- **[03_BigData/03_Stream-Processing-Patterns](.)** - Advanced streaming architectures (coming soon)
+- **[03_BigData/04_Batch-Processing-Optimization](.)** - Optimizing batch workloads (coming soon)
 
 ### **Advanced**
 
-- **[03_BigData/05_Kappa-Architecture](05_Kappa-Architecture.md)** - Stream-only alternative
-- **[03_BigData/06_Delta-Architecture](06_Delta-Architecture.md)** - Modern lakehouse approach
+- **[03_BigData/05_Kappa-Architecture](.)** - Stream-only alternative (coming soon)
+- **[03_BigData/06_Delta-Architecture](.)** - Modern lakehouse approach (coming soon)
 
 ---
 

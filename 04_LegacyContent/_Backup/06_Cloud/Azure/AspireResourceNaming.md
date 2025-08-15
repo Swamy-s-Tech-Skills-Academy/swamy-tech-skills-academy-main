@@ -214,10 +214,10 @@ As a Lead Architect, consider:
 
 ## Related Topics
 
-- [Azure Resource Naming Best Practices](../Patterns/NamingConventions.md)
-- [.NET Aspire Deployment Patterns](../Patterns/AspireDeployment.md)
-- [Azure DevOps Integration](../../07_DevOps/CI_CD/AzureDevOps.md)
-- [Infrastructure as Code](../../07_DevOps/IaC/README.md)
+- Azure Resource Naming Best Practices (coming soon)
+- .NET Aspire Deployment Patterns (coming soon)
+- Azure DevOps Integration (see ../../07_DevOps/CI_CD/)
+- Infrastructure as Code (see ../../07_DevOps/IaC/)
 
 ---
 

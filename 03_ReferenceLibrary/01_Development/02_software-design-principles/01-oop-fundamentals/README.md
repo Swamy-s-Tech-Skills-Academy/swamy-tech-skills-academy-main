@@ -147,7 +147,7 @@ This folder is **Step 1** in the comprehensive software design learning path:
 3. [UML & Modeling](../03-uml-and-modeling/)
 4. [Design Principles](../04-design-principles/)
 5. [Design Patterns](../05-design-patterns/)
-6. [Architecture Patterns](../06-architecture-patterns/)
+6. [Architectural Principles](../06-architectural-principles/)
 
 ### **Cross-References**
 

@@ -342,17 +342,17 @@ class CustomerServiceAI:
 ### **Prerequisites**
 
 - **[01_Development/02_software-design-principles/](../../01_Development/02_software-design-principles/)** - API design and architectural patterns
-- **[JSON-RPC Protocol Basics](../02_JSON-RPC-Fundamentals.md)** - Understanding the underlying protocol
+- JSON-RPC Protocol Basics (coming soon) - Understanding the underlying protocol
 
 ### **Related**
 
 - **[02_MCP-Server-Development](02_MCP-Server-Development.md)** - Building custom MCP servers
-- **[03_MCP-Client-Integration](03_MCP-Client-Integration.md)** - Integrating MCP in applications
+- MCP Client Integration (coming soon) - Integrating MCP in applications
 
 ### **Advanced**
 
-- **[04_Production-MCP-Patterns](04_Production-MCP-Patterns.md)** - Enterprise deployment strategies
-- **[05_MCP-Agent-Integration](05_MCP-Agent-Integration.md)** - Combining MCP with AI agents
+- Production MCP Patterns (coming soon) - Enterprise deployment strategies
+- MCP Agent Integration (coming soon) - Combining MCP with AI agents
 
 ---
 

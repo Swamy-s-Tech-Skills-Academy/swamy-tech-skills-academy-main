@@ -498,7 +498,7 @@ This repository contains a **four-pillar learning system** designed to transform
 
 #### **For Complete Mastery (Learn Everything!)**
 
-🌟 **[Complete Mastery Path](04_LegacyContent/09_Documentation/COMPLETE_MASTERY_PATH.md)** - Comprehensive 18-week journey covering all 8 knowledge areas
+🌟 **[Complete Mastery Path](04_LegacyContent/_Backup/ProcessDocs/COMPLETE_MASTERY_PATH.md)** - Comprehensive 18-week journey covering all 8 knowledge areas
 
 #### **For New Architects**
 
