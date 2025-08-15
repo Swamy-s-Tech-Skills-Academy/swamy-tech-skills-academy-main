@@ -103,7 +103,7 @@ AI Fundamentals → Machine Learning → Deep Learning →
 Natural Language Processing → Large Language Models → Agentic AI
 ```
 
-### **Learning Objectives**
+### **Learning Objectives — Stage 2**
 
 By completion, you will:
 
@@ -113,7 +113,7 @@ By completion, you will:
 - Master the essential tools and frameworks for agent development
 - Develop strong prompt engineering and context management skills
 
-### **Module Progression**
+### **Module Progression — Stage 2**
 
 #### **Module 1.1: Agent Fundamentals**
 
@@ -172,7 +172,7 @@ class FoundationalAgent:
 
 ## 🛠️ Stage 2: Implementation Proficiency (🟡)
 
-### **Learning Objectives**
+### **Learning Objectives — Stage 3**
 
 By completion, you will:
 
@@ -181,7 +181,7 @@ By completion, you will:
 - Optimize agent performance and resource utilization
 - Understand enterprise considerations for agent deployment
 
-### **Module Progression**
+### **Module Progression — Stage 3**
 
 #### **Module 2.1: Architecture Patterns**
 

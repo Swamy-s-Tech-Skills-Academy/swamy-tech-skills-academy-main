@@ -1,6 +1,6 @@
 # 🏗️ Architectural Principles Reference Library
 
-**System-Level Design Guidelines for Scalable Software Architecture**
+## System-Level Design Guidelines for Scalable Software Architecture
 
 ---
 

@@ -1,6 +1,6 @@
 # 🤖 Machine Learning Reference
 
-**Classical algorithms, training methods, and statistical learning approaches**
+## Classical algorithms, training methods, and statistical learning approaches
 
 ---
 

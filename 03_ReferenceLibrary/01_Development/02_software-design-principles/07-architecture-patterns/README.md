@@ -1,6 +1,6 @@
 # 🏛️ Architecture Patterns Reference Library
 
-**System-Level Design Solutions for Enterprise Applications**
+## System-Level Design Solutions for Enterprise Applications
 
 ---
 

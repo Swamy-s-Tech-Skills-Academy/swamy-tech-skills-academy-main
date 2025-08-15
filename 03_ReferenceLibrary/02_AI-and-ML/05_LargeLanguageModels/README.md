@@ -53,7 +53,7 @@ graph TD
     class CLEVER,SIMPLE,RESULT insight
 ```
 
-*Insight: LLMs achieve superior performance through scale rather than algorithmic sophistication*
+> Insight: LLMs achieve superior performance through scale rather than algorithmic sophistication
 
 ---
 

@@ -1,6 +1,6 @@
 # 01_Noob-to-Nerd - Python Basics
 
-**Level 1: Foundation Building - "I can code!"**
+## Level 1: Foundation Building - "I can code!"
 
 ---
 

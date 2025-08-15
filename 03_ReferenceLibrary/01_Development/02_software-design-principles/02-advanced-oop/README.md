@@ -1,6 +1,6 @@
 # 🚀 Advanced OOP Reference Library
 
-**Advanced Object-Oriented Programming Concepts and Patterns**
+## Advanced Object-Oriented Programming Concepts and Patterns
 
 ---
 
@@ -12,7 +12,7 @@ This folder contains **advanced OOP concepts** that build upon the foundational 
 
 ### **🏗️ [01_SOLID-Principles-Deep-Dive.md](01_SOLID-Principles-Deep-Dive.md)**
 
-**Comprehensive SOLID Principles Mastery**
+#### Comprehensive SOLID Principles Mastery
 
 - Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion
 - Real-world refactoring examples from violations to compliance

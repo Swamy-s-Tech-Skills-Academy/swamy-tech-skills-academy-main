@@ -1,6 +1,6 @@
 # 🛠️ Design Patterns Reference Library
 
-**Proven Solutions to Common Programming Problems**
+## Proven Solutions to Common Programming Problems
 
 ---
 

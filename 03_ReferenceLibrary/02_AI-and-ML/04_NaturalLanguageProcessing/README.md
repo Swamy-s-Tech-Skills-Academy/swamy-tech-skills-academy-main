@@ -1,6 +1,6 @@
 # 🗣️ Natural Language Processing Reference
 
-**Text processing, language understanding, and linguistic AI applications**
+## Text processing, language understanding, and linguistic AI applications
 
 ---
 

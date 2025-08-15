@@ -1,6 +1,6 @@
 # 🎓 AI Individual Learning Topics & Modules
 
-**Structured learning paths for mastering AI domains one topic at a time**
+## Structured learning paths for mastering AI domains one topic at a time
 
 ---
 

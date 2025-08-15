@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+.copilot_tmp/mdlint-2.txt
+.copilot_tmp/mdlint-3.txt
+.copilot_tmp/mdlint-4.txt

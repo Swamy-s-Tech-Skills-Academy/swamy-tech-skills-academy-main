@@ -1,6 +1,6 @@
 # 🎯 OOP Fundamentals Cheat Sheet
 
-**Language-Agnostic Object-Oriented Programming Reference**
+## Language-Agnostic Object-Oriented Programming Reference
 
 > 📖 **5-minute quick reference** | 🎯 **Focus**: Core concepts and principles | 🔄 **Universal**: Works with any OOP language
 
