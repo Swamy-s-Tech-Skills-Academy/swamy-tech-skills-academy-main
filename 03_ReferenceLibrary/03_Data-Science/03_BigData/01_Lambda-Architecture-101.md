@@ -49,7 +49,7 @@ Lambda Architecture consists of exactly **three layers** that work together to p
 
 **Real-World Example**:
 
-```
+```text
 E-commerce Daily Revenue Calculation:
 - Processes ALL transaction data since company started
 - Calculates precise revenue, accounting for refunds, cancellations
@@ -76,7 +76,7 @@ E-commerce Daily Revenue Calculation:
 
 **Real-World Example**:
 
-```
+```text
 E-commerce Real-Time Dashboard:
 - Processes transactions as they happen
 - Shows approximate revenue for "today so far"
@@ -103,7 +103,7 @@ E-commerce Real-Time Dashboard:
 
 **Real-World Example**:
 
-```
+```text
 E-commerce Analytics API:
 - Question: "What's our revenue for today?"
 - Serving Layer Response:
@@ -122,7 +122,7 @@ E-commerce Analytics API:
 
 ## ⚡ Data Flow Architecture
 
-```
+```text
 Raw Data Input
        ↓
    [Data Ingestion]

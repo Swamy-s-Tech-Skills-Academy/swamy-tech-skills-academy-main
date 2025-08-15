@@ -904,4 +904,4 @@ public class Wheel
 
 **🎯 Next Steps**: Practice these concepts with hands-on coding exercises and explore advanced topics like async/await, LINQ, and dependency injection.
 
-_This cheat sheet covers C# versions through C# 11.0 and .NET 6+_
+Note: This cheat sheet covers C# versions through C# 11.0 and .NET 6+.
