@@ -443,8 +443,7 @@ public class CachedProductsQueryHandler : IRequestHandler<GetProductsQuery, List
 
 ## Sample Implementation
 
-A complete sample project demonstrating these concepts is available at:
-[dotnet-cleanarch-cqrs-sample](https://github.com/username/dotnet-cleanarch-cqrs-sample)
+Sample project repository: *(coming soon – legacy placeholder removed; real example will be linked once curated)*
 
 ## References
 

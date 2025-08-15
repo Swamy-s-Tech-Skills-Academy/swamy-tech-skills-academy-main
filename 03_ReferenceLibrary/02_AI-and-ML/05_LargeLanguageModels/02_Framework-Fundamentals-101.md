@@ -607,7 +607,7 @@ Compare training speed for the same model:
 This framework knowledge directly enables:
 
 - **[03_Transformer-Deep-Dive.md](03_Transformer-Deep-Dive.md)** - Implement architectures hands-on
-- **[03_Training-and-Fine-Tuning.md](03_Training-and-Fine-Tuning.md)** - Use frameworks for model training
+- **[04_Training-and-Fine-Tuning.md](04_Training-and-Fine-Tuning.md)** - Use frameworks for model training
 - **[07_LLM-to-Agent-Bridge.md](07_LLM-to-Agent-Bridge.md)** - Build agent systems with proper tools
 
 ### **Real-World Application**

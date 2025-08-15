@@ -4,7 +4,7 @@ When conducting C# code reviews, it's important to evaluate the code across mult
 
 ## Reference(s)
 
-> 1. <https://gist.github.com/softwareantics/da1b007004d6eb504610c76e9f13aab2>
+> 1. External checklist (legacy gist removed – will be replaced with internal curated checklist)
 > 1. <https://microsoft.github.io/code-with-engineering-playbook/code-reviews/recipes/csharp/>
 > 1. <https://medium.com/c-sharp-programming/c-best-practices-and-code-review-checklist-25880d9606>
 
