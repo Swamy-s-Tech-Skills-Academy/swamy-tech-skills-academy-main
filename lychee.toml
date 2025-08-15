@@ -25,4 +25,5 @@ exclude = [
   "^https://www\\.youtube\\.com/watch\\?v=pTB0EiLXL1Q$",
   "^https://www\\.youtube\\.com/watch\\?v=1ppgUMfUUJw$",
   "^https://www\\.youtube\\.com/watch\\?v=xR1qU-3h_ns$"
+  , "^https://(www\\.)?linkedin\\.com/.*"
 ]

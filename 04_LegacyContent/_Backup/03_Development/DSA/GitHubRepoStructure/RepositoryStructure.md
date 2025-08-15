@@ -116,7 +116,8 @@ A comprehensive 12-week curriculum for mastering Algorithms, Data Structures, an
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-org/dsa-ai-curriculum.git
+  # (Illustrative placeholder – repo not yet created)
+  git clone https://github.com/your-org/dsa-ai-curriculum.git
    cd dsa-ai-curriculum
    ```
 ````
@@ -154,7 +155,7 @@ A comprehensive 12-week curriculum for mastering Algorithms, Data Structures, an
 - 📖 **[Start Here](docs/student-resources/getting-started.md)** - Your learning journey begins
 - 🔧 **[Setup Guide](docs/setup/environment-setup.md)** - Development environment
 - 📅 **[Weekly Schedule](docs/curriculum-overview/schedule.md)** - Pacing and deadlines
-- 💬 **[Discussion Forum](https://github.com/your-org/dsa-ai-curriculum/discussions)** - Get help and collaborate
+- 💬 **Discussion Forum** (placeholder – repo not yet live) - Get help and collaborate
 
 ## 👨‍🏫 For Instructors
 
@@ -167,9 +168,9 @@ A comprehensive 12-week curriculum for mastering Algorithms, Data Structures, an
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
-- 🐛 **Report bugs** via [Issues](https://github.com/your-org/dsa-ai-curriculum/issues)
-- 💡 **Suggest features** via [Discussions](https://github.com/your-org/dsa-ai-curriculum/discussions)
-- 🔧 **Submit improvements** via [Pull Requests](https://github.com/your-org/dsa-ai-curriculum/pulls)
+- 🐛 **Report bugs** (Issues placeholder – repo pending creation)
+- 💡 **Suggest features** (Discussions placeholder – repo pending creation)
+- 🔧 **Submit improvements** (Pull Requests placeholder – repo pending creation)
 
 ## 📄 License
 
@@ -301,7 +302,7 @@ Please follow our [Code of Conduct](CODE_OF_CONDUCT.md):
 
 ## 📞 Getting Help
 
-- 💬 **[Discussions](https://github.com/your-org/dsa-ai-curriculum/discussions)** - General questions
+- 💬 **Discussions** (placeholder – repo not yet created) - General questions
 - 📧 **Email**: [maintainers@curriculum.com] - Private concerns
 - 🕐 **Office Hours**: Tuesdays 2-4 PM EST (link in Discord)
 
