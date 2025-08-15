@@ -85,7 +85,7 @@
 
 ### **Interactive Learning:**
 
-- [Microsoft Learn - Object-Oriented Programming](https://docs.microsoft.com/en-us/learn/paths/csharp-object-oriented/)
+- [Microsoft Learn - Object-Oriented Programming](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/)
 - [Codecademy - Learn C#](https://www.codecademy.com/learn/learn-c-sharp)
 - [freeCodeCamp - C# Tutorial](https://www.youtube.com/watch?v=GhQdlIFylQ8)
 
@@ -128,7 +128,7 @@
 ### **Week 1-2: Object-Oriented Foundations**
 
 1. Start with [Kudvenkat C# OOP Basics](https://www.youtube.com/playlist?list=PLAC325451207E3105) (Videos 1-30)
-2. Follow with [Microsoft Learn C# Path](https://docs.microsoft.com/en-us/learn/paths/csharp-object-oriented/)
+2. Follow with [Microsoft Learn C# OOP Docs](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/)
 3. Practice: Create basic classes, inheritance, polymorphism examples
 
 ### **Week 3-4: SOLID Principles Deep Dive**
