@@ -54,7 +54,7 @@ graph TD
 
 ## 📈 **Covariance: "out" Parameters**
 
-### **Core Concept**
+### **Core Concept — Contravariance**
 
 Covariance allows you to use a more derived type than originally specified. **You can only return/output the type, never accept it as input.**
 
@@ -148,7 +148,7 @@ graph LR
 
 ## 📉 **Contravariance: "in" Parameters**
 
-### **Core Concept**
+### **Core Concept — Invariance**
 
 Contravariance allows you to use a more general (base) type than originally specified. **You can only accept the type as input, never return it.**
 

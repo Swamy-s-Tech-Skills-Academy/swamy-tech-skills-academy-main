@@ -46,7 +46,7 @@ graph LR
     style C fill:#ffebee
 ```
 
-### **Step-by-Step Breakdown**
+### **Step-by-Step Breakdown: Compilation Flow**
 
 1. **Source Code (`app.py`)**: Your Python file with human-readable code
 2. **Python Compiler**: Parses and compiles source code
@@ -72,7 +72,7 @@ graph LR
     style C fill:#f0f4c3
 ```
 
-### **Step-by-Step Breakdown**
+### **Step-by-Step Breakdown: Execution Flow**
 
 1. **Bytecode**: Platform-independent intermediate code
 2. **Python Virtual Machine (PVM)**: Executes bytecode instructions

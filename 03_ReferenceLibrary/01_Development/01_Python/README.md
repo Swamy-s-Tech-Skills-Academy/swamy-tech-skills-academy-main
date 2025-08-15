@@ -1,6 +1,6 @@
 # 01_Python - Complete Python Learning System
 
-**Master Python from Absolute Beginner to Expert Level**
+## Master Python from Absolute Beginner to Expert Level
 
 ---
 

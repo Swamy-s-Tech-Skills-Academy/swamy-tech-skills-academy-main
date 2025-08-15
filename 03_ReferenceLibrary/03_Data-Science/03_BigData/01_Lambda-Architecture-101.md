@@ -213,7 +213,7 @@ Raw Data Input
 
 #### **Master Dataset Design**
 
-```
+```text
 Immutable Event Store:
 - customer_purchases (timestamp, customer_id, product_id, amount, metadata)
 - product_views (timestamp, customer_id, product_id, session_data)

@@ -1,6 +1,6 @@
 # 🤖 AI Reference Materials
 
-**Curated AI fundamentals and advanced concepts**
+## Curated AI fundamentals and advanced concepts
 
 ---
 

@@ -1,6 +1,6 @@
 # 03_Specialized-Topics - Domain-Specific Python Applications
 
-**Deep Dive into Specialized Python Application Domains**
+## Deep Dive into Specialized Python Application Domains
 
 ---
 
