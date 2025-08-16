@@ -246,6 +246,49 @@ Each domain README includes:
 - **Relationship Updates**: Keep cross-references current
 - **Scope Expansion**: Add new domains as needed
 
+### **Deprecation & Renumbering Policy**
+
+When learning sequences are renumbered or restructured to improve pedagogy:
+
+1. **Canonical Files First**: Create (or move) the authoritative content at its new numbered filename.
+2. **Redirect Stubs**: Replace the old filename with a short Markdown stub that includes: deprecated notice; bold forward link to canonical file; one-sentence rationale (e.g., sequencing normalization, insertion of new foundational module); removal target date (90–180 day window) and last-reviewed date.
+3. **Internal Link Sweep**: Update all internal cross-references to point to the canonical file (avoid chaining through stubs).
+4. **Lychee Integrity**: Keep stubs until repository-wide link scans show zero references to the deprecated path for two consecutive review cycles.
+5. **Sunset Removal**: Remove the stub file after the retention window; add an entry to a central CHANGELOG (future) or migration note section for historical traceability.
+6. **Avoid Silent Deletes**: Never delete or rename numbered learning modules without adding a stub (prevents external link rot and preserves learner bookmarks).
+
+#### Stub Template
+
+```markdown
+# {OLD_NUMBER}_{Title} (Renumbered → {NEW_NUMBER}_{Title}.md)
+
+**➡️ Go to: [{NEW_NUMBER}_{Title}.md]({NEW_NUMBER}_{Title}.md)**
+
+This module was renumbered as part of sequence restructuring to improve progression clarity.
+
+**Deprecated**: Yes  
+**Original Path**: {old relative path}  
+**Canonical Path**: {new relative path}  
+**Removal Target**: {YYYY-MM-DD} (≥90 days from change)  
+**Last Reviewed**: {YYYY-MM-DD}
+```
+
+#### Rationale
+
+Renumbering is sometimes required when:
+
+- Inserting foundational material earlier in the sequence
+- Splitting an overloaded module into multiple focused ones
+- Aligning numbering across parallel tracks (e.g., AI Agents vs LLM Fundamentals)
+
+#### Review Cadence
+
+- Perform a quarterly audit of deprecated stubs
+- Remove any past their removal target with no inbound references
+- Document removals in the central CHANGELOG (planned) or quarterly audit note
+
+> NOTE: Current active stubs (Aug 2025): legacy agent files 01_–06_ redirecting to canonical 03_–08_.
+
 ### **Future Considerations**
 
 Potential additional domains:
