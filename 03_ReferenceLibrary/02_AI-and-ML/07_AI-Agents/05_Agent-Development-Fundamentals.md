@@ -879,18 +879,18 @@ class AgentDebugger:
 
 ### **Prerequisites**
 
-- **[01_AI-Agent-Fundamentals.md](01_AI-Agent-Fundamentals.md)** - Core agent concepts and capabilities
-- **[02_Agent-Architectures-Patterns.md](02_Agent-Architectures-Patterns.md)** - Architectural patterns and design approaches
+- **[03_AI-Agent-Fundamentals.md](03_AI-Agent-Fundamentals.md)** - Core agent concepts and capabilities (renumbered from 01_)
+- **[04_Agent-Architectures-Patterns.md](04_Agent-Architectures-Patterns.md)** - Architectural patterns and design approaches (renumbered from 02_)
 
 ### **Related**
 
-- **[04_Multi-Agent-Systems.md](04_Multi-Agent-Systems.md)** - Scaling to multiple collaborative agents
+- **[06_Multi-Agent-Systems.md](06_Multi-Agent-Systems.md)** - Scaling to multiple collaborative agents (renumbered from 04_)
 **[../06_MCP-Servers/01_MCP-Fundamentals.md](../06_MCP-Servers/01_MCP-Fundamentals.md)** - Tool integration protocols
 
 ### **Advanced**
 
-- **[05_Agentic-AI-Advanced-Systems.md](05_Agentic-AI-Advanced-Systems.md)** - Advanced reasoning and planning
-- **[06_Agent-Production-Deployment.md](06_Agent-Production-Deployment.md)** - Production deployment and monitoring
+- **[07_Agentic-AI-Advanced-Systems.md](07_Agentic-AI-Advanced-Systems.md)** - Advanced reasoning and planning (renumbered from 05_)
+- **[08_Agent-Production-Deployment.md](08_Agent-Production-Deployment.md)** - Production deployment and monitoring (renumbered from 06_)
 
 ---
 
