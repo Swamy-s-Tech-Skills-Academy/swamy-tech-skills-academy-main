@@ -631,18 +631,18 @@ class StrategicPlanningAgent:
 
 ### **Prerequisites**
 
-- **[01_AI-Agent-Fundamentals.md](01_AI-Agent-Fundamentals.md)** - Core agent concepts and capabilities
+- **[03_AI-Agent-Fundamentals.md](03_AI-Agent-Fundamentals.md)** - Core agent concepts and capabilities (renumbered from 01_)
 - **[../01_AI/03_AI-Fundamentals-Overview.md](../01_AI/03_AI-Fundamentals-Overview.md)** - LLM and AI foundations
 
 ### **Related**
 
-- **[03_Agent-Development-Fundamentals.md](03_Agent-Development-Fundamentals.md)** - Hands-on implementation of these patterns
-- **[04_Multi-Agent-Systems.md](04_Multi-Agent-Systems.md)** - Scaling patterns to multiple agents
+- **[05_Agent-Development-Fundamentals.md](05_Agent-Development-Fundamentals.md)** - Hands-on implementation of these patterns (renumbered from 03_)
+- **[06_Multi-Agent-Systems.md](06_Multi-Agent-Systems.md)** - Scaling patterns to multiple agents (renumbered from 04_)
 
 ### **Advanced**
 
-- **[05_Agentic-AI-Advanced-Systems.md](05_Agentic-AI-Advanced-Systems.md)** - Sophisticated reasoning and emergent behaviors
-- **[06_Agent-Production-Deployment.md](06_Agent-Production-Deployment.md)** - Production considerations for different patterns
+- **[07_Agentic-AI-Advanced-Systems.md](07_Agentic-AI-Advanced-Systems.md)** - Sophisticated reasoning and emergent behaviors (renumbered from 05_)
+- **[08_Agent-Production-Deployment.md](08_Agent-Production-Deployment.md)** - Production considerations for different patterns (renumbered from 06_)
 
 ---
 

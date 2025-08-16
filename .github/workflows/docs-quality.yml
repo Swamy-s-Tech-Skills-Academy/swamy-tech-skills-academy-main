@@ -1,0 +1,80 @@
+name: Docs Quality
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - "01_LeadArchitectKnowledgeBase/**/*.md"
+      - "02_LearningJourney/**/*.md"
+      - "03_ReferenceLibrary/**/*.md"
+      - "04_LegacyContent/**/*.md"
+      - "05_Todos/**/*.md"
+      - ".github/**/*.md"
+      - "lychee.toml"
+      - ".markdownlint.*"
+      - ".github/workflows/docs-quality.yml"
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "01_LeadArchitectKnowledgeBase/**/*.md"
+      - "02_LearningJourney/**/*.md"
+      - "03_ReferenceLibrary/**/*.md"
+      - "04_LegacyContent/**/*.md"
+      - "05_Todos/**/*.md"
+      - ".github/**/*.md"
+      - "lychee.toml"
+      - ".markdownlint.*"
+      - ".github/workflows/docs-quality.yml"
+
+concurrency:
+  group: docs-quality-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  markdownlint:
+    name: Markdown Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run markdownlint-cli2
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: |
+            README.md
+            01_LeadArchitectKnowledgeBase/**/*.md
+            02_LearningJourney/**/*.md
+            03_ReferenceLibrary/**/*.md
+            04_LegacyContent/**/*.md
+            05_Todos/**/*.md
+            .github/**/*.md
+
+  link-check:
+    name: Link Check (Lychee)
+    runs-on: ubuntu-latest
+    needs: markdownlint
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Lychee link checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --config lychee.toml --no-progress
+            README.md
+            01_LeadArchitectKnowledgeBase/**/*.md
+            02_LearningJourney/**/*.md
+            03_ReferenceLibrary/**/*.md
+            04_LegacyContent/**/*.md
+            05_Todos/**/*.md
+            .github/**/*.md
+          fail: true
+      - name: Upload Lychee report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lychee-report
+          path: lychee/out.md

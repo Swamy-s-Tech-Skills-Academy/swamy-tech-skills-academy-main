@@ -1,5 +1,12 @@
-# 02 Agent Architectures & Patterns
+# 02_Agent-Architectures-Patterns (Renumbered → 04_Agent-Architectures-Patterns.md)
 
-(Placeholder) Coming soon – single-loop vs multi-loop, planner-executor, tool orchestration, hierarchical agents, blackboard patterns.
+Legacy placeholder retained for link compatibility. The authoritative architecture & patterns module is now here:
 
-> Temporary file to resolve broken internal links. Replace with full content.
+**➡️ Go to: [04_Agent-Architectures-Patterns.md](04_Agent-Architectures-Patterns.md)**
+
+## Renumbering Rationale
+
+Two foundational modules were inserted ahead of this one; all downstream modules shifted by +2 to preserve conceptual sequencing (roadmap → lexicon → fundamentals → architectures ...).
+
+---
+_Status: Deprecated redirect stub. Last Reviewed: 2025-08-16._

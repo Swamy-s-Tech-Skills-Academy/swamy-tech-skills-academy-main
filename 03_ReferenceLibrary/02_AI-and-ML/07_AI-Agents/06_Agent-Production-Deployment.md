@@ -1,3 +1,8 @@
-# 06 Agent Production Deployment
+# 06_Agent-Production-Deployment (Renumbered → 08_Agent-Production-Deployment.md)
 
-(Placeholder) Coming soon – observability, safety guardrails, scaling strategies, rollback patterns, CI/CD integration for agent workflows.
+Legacy stub. The current production deployment module draft is located at:
+
+**➡️ Go to: [08_Agent-Production-Deployment.md](08_Agent-Production-Deployment.md)**
+
+---
+_Status: Deprecated redirect stub. Last Reviewed: 2025-08-16._
