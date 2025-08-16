@@ -1,3 +1,8 @@
-# 03 Agent Development Fundamentals
+# 03_Agent-Development-Fundamentals (Renumbered → 05_Agent-Development-Fundamentals.md)
 
-(Placeholder) Coming soon – environment setup, prompt/tool design, state handling, logging & tracing, iterative refinement workflow.
+This legacy stub remains so old links resolve. Current, expanded development fundamentals live at:
+
+**➡️ Go to: [05_Agent-Development-Fundamentals.md](05_Agent-Development-Fundamentals.md)**
+
+---
+_Status: Deprecated redirect stub. Last Reviewed: 2025-08-16._

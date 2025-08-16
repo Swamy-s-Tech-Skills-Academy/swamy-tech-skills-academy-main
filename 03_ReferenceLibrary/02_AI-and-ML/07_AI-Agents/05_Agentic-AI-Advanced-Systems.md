@@ -1,3 +1,8 @@
-# 05 Agentic AI Advanced Systems
+# 05_Agentic-AI-Advanced-Systems (Renumbered → 07_Agentic-AI-Advanced-Systems.md)
 
-(Placeholder) Coming soon – emergent behaviors, long-horizon planning, adaptive memory graphs, evaluation harness design.
+This stub points to the fully developed advanced systems module:
+
+**➡️ Go to: [07_Agentic-AI-Advanced-Systems.md](07_Agentic-AI-Advanced-Systems.md)**
+
+---
+_Status: Deprecated redirect stub. Last Reviewed: 2025-08-16._
