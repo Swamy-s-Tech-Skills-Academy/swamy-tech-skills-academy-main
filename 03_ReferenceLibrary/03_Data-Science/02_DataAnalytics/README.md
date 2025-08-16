@@ -1,6 +1,6 @@
 # 📈 Data Analytics Reference
 
-**Business intelligence, visualization, and descriptive analytics**
+## Business intelligence, visualization, and descriptive analytics
 
 ---
 

@@ -12,15 +12,15 @@ This folder contains comprehensive resources on Clean Architecture principles, C
 ## Key Contents
 
 - [CQRS_MediatR_Guide.md](./CQRS_MediatR_Guide.md) - Comprehensive guide to implementing CQRS with MediatR
-- [Clean_Architecture_Principles.md](./Clean_Architecture_Principles.md) - Core principles and layer organization
-- [Repository_Pattern.md](./Repository_Pattern.md) - Implementation of the repository pattern
-- [Domain_Layer_Design.md](./Domain_Layer_Design.md) - Structuring the domain layer in clean architecture
+*Clean_Architecture_Principles.md* (coming soon) - Core principles and layer organization
+*Repository_Pattern.md* (coming soon) - Implementation of the repository pattern
+*Domain_Layer_Design.md* (coming soon) - Structuring the domain layer in clean architecture
 
 ## Related Topics
 
-- [Domain-Driven Design](../Patterns/Domain_Driven_Design.md)
-- [Onion Architecture](../Patterns/Onion_Architecture.md)
-- [Dependency Injection](../Patterns/Dependency_Injection.md)
+*Domain-Driven Design* (coming soon)
+*Onion Architecture* (coming soon)
+*Dependency Injection* (coming soon)
 
 ## Implementations
 

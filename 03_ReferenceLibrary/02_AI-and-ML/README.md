@@ -20,7 +20,7 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 - **Purpose**: AI fundamentals, ethics, and cross-domain strategy
 - **Content**: Domain relationships, strategic overview, learning paths
 - **Start Here**: For conceptual understanding and navigation
-- **Key Files**: `01_AI-Domain-Relationships.md`, `02_Generative-AI-Overview.md`
+- **Key Files**: `01_AI/02_AI-Domain-Relationships.md`, `01_AI/04_Generative-AI-Overview.md`
 
 ### **🧠 [02_MachineLearning/](02_MachineLearning/)** - Classical ML Algorithms
 
@@ -112,7 +112,7 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 ## 💡 Quick Start Tips
 
 - **New to AI?** Start with `01_AI/07_AI-Terms-Learning-Order.md` for the complete roadmap
-- **Want the big picture?** Read `01_AI/01_AI-Domain-Relationships.md` first
+- **Want the big picture?** Read `01_AI/02_AI-Domain-Relationships.md` first
 - **Have ML background?** Jump to `03_DeepLearning/` or `04_NaturalLanguageProcessing/`
 - **Building AI systems?** Focus on `06_MCP-Servers/` for production integration
 - **Want autonomous AI?** Explore `07_AI-Agents/` for goal-oriented systems

@@ -82,8 +82,8 @@ Perfect for: Software engineers, system architects, and anyone building technica
 ### **� Key Resources**
 
 - **AI Learning Roadmap**: **[02_AI-and-ML/01_AI/07_AI-Terms-Learning-Order.md](02_AI-and-ML/01_AI/07_AI-Terms-Learning-Order.md)**
-- **AI Relationship Diagrams**: **[02_AI-and-ML/01_AI/01_AI-Domain-Relationships.md](02_AI-and-ML/01_AI/01_AI-Domain-Relationships.md)**
-- **Learning Curricula**: **[02_AI-and-ML/01_AI/02_AI-Learning-Topics.md](02_AI-and-ML/01_AI/02_AI-Learning-Topics.md)**
+- **AI Relationship Diagrams**: **[02_AI-and-ML/01_AI/02_AI-Domain-Relationships.md](02_AI-and-ML/01_AI/02_AI-Domain-Relationships.md)**
+- **Learning Curricula**: **[02_AI-and-ML/01_AI/06_AI-Learning-Topics.md](02_AI-and-ML/01_AI/06_AI-Learning-Topics.md)**
 - **LLM Foundation**: **[02_AI-and-ML/05_LargeLanguageModels/README.md](02_AI-and-ML/05_LargeLanguageModels/README.md)**
 - **MCP Integration Guide**: **[02_AI-and-ML/06_MCP-Servers/01_MCP-Fundamentals.md](02_AI-and-ML/06_MCP-Servers/01_MCP-Fundamentals.md)**
 - **Agentic AI Roadmap**: **[02_AI-and-ML/07_AI-Agents/01_Agentic-AI-Learning-Roadmap.md](02_AI-and-ML/07_AI-Agents/01_Agentic-AI-Learning-Roadmap.md)**

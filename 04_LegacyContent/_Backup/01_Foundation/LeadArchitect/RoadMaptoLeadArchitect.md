@@ -65,7 +65,7 @@ This roadmap provides a focused, step-by-step preparation plan to help aspiring 
 
 > 1. [System Design Primer on GitHub](https://github.com/donnemartin/system-design-primer) – Comprehensive guide for system design patterns and principles. Start with the basics of approaching system design questions in interviews.
 > 1. [Gaurav Sen’s YouTube channel](https://www.youtube.com/@gkcs/playlists) – Great examples of distributed systems design and microservices architectures.
-
+ 1. Video Overview (legacy video removed – link deprecated)
 ---
 
 ### 2. Week 2: Mastering Architectural Patterns
@@ -96,7 +96,7 @@ This roadmap provides a focused, step-by-step preparation plan to help aspiring 
 ##### 3.2.1. Scalability
 
 > 1. **Article**: [Scalability Best Practices on Azure](https://learn.microsoft.com/en-us/azure/architecture/framework/scalability) – Essential reading for Azure-native scaling practices, exploring horizontal and vertical scaling, load balancing, and autoscaling.
-> 1. **Video**: [Martin Kleppmann on Scalability](https://www.youtube.com/watch?v=-pQu92FT0b0) – An in-depth discussion on scalability principles by Martin Kleppmann.
+> 1. **Video**: Martin Kleppmann on Scalability (legacy link removed – video unavailable)
 > 1. **Book (Optional)**: *Designing Data-Intensive Applications* by Martin Kleppmann – Chapters on scalability provide deeper insights into data scaling and distributed system strategies.
 
 ---

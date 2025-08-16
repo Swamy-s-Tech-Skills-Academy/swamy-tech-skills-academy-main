@@ -628,9 +628,9 @@ public class Dog : Animal
 
 ## ⚠️ Common C# OOP Pitfalls
 
-### **❌ Mistakes to Avoid**
+### ❌ Mistakes to Avoid
 
-**1. Exposing Mutable Collections**
+#### 1. Exposing Mutable Collections
 
 ```csharp
 // BAD - exposes internal collection
@@ -640,7 +640,7 @@ public List<Item> Items { get; set; } = new();
 public IReadOnlyList<Item> Items => _items.AsReadOnly();
 ```
 
-**2. Not Using Properties**
+#### 2. Not Using Properties
 
 ```csharp
 // BAD - public fields
@@ -652,7 +652,7 @@ public string Name { get; set; }
 public int Age { get; set; }
 ```
 
-**3. Inappropriate Static Usage**
+#### 3. Inappropriate Static Usage
 
 ```csharp
 // BAD - everything static (procedural programming)
@@ -671,7 +671,7 @@ public class UserManager
 }
 ```
 
-**4. Inheritance Abuse**
+#### 4. Inheritance Abuse
 
 ```csharp
 // BAD - inheritance for code reuse only
@@ -690,9 +690,9 @@ public class EmailSender
 
 ## 🏆 C# OOP Best Practices
 
-### **✅ Recommended Practices**
+### ✅ Recommended Practices
 
-**1. Use Properties Over Fields**
+#### 1. Use Properties Over Fields
 
 ```csharp
 // Properties provide encapsulation and future flexibility
@@ -700,7 +700,7 @@ public string Name { get; set; }
 public int Age { get; private set; }
 ```
 
-**2. Follow Naming Conventions**
+#### 2. Follow Naming Conventions
 
 ```csharp
 public class UserManager          // PascalCase for public members
@@ -712,7 +712,7 @@ public class UserManager          // PascalCase for public members
 }
 ```
 
-**3. Use Expression-Bodied Members**
+#### 3. Use Expression-Bodied Members
 
 ```csharp
 public string FullName => $"{FirstName} {LastName}";
@@ -720,7 +720,7 @@ public override string ToString() => FullName;
 public void LogInfo() => Console.WriteLine(FullName);
 ```
 
-**4. Prefer Composition with Interfaces**
+#### 4. Prefer Composition with Interfaces
 
 ```csharp
 public class OrderService
@@ -736,7 +736,7 @@ public class OrderService
 }
 ```
 
-**5. Use Modern C# Features**
+#### 5. Use Modern C# Features
 
 ```csharp
 // Records for data objects
@@ -755,9 +755,9 @@ public decimal CalculateDiscount(Customer customer) => customer switch
 
 ## 🎯 Performance Considerations
 
-### **Memory and Performance Tips**
+### Memory and Performance Tips
 
-**1. Use Structs for Small, Immutable Data**
+#### 1. Use Structs for Small, Immutable Data
 
 ```csharp
 public readonly struct Point
@@ -769,7 +769,7 @@ public readonly struct Point
 }
 ```
 
-**2. Avoid Boxing with Generics**
+#### 2. Avoid Boxing with Generics
 
 ```csharp
 // BAD - boxing occurs
@@ -781,7 +781,7 @@ List<int> list = new();
 list.Add(42); // int stays as int
 ```
 
-**3. Use Object Pooling for Expensive Objects**
+#### 3. Use Object Pooling for Expensive Objects
 
 ```csharp
 public class ExpensiveObjectPool
@@ -904,4 +904,4 @@ public class Wheel
 
 **🎯 Next Steps**: Practice these concepts with hands-on coding exercises and explore advanced topics like async/await, LINQ, and dependency injection.
 
-_This cheat sheet covers C# versions through C# 11.0 and .NET 6+_
+Note: This cheat sheet covers C# versions through C# 11.0 and .NET 6+.

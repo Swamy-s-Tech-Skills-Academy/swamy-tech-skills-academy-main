@@ -631,13 +631,13 @@ class MonitoredMCPServer(PerformantMCPServer):
 
 ### **Related**
 
-- **[03_MCP-Client-Integration](03_MCP-Client-Integration.md)** - Building MCP clients
-- **[04_Production-MCP-Patterns](04_Production-MCP-Patterns.md)** - Enterprise deployment
+• 03_MCP-Client-Integration (coming soon) - Building MCP clients
+• 04_Production-MCP-Patterns (coming soon) - Enterprise deployment
 
 ### **Advanced**
 
-- **[05_MCP-Agent-Integration](05_MCP-Agent-Integration.md)** - AI agent integration patterns
-- **[06_MCP-Security-Best-Practices](06_MCP-Security-Best-Practices.md)** - Security implementation
+• 05_MCP-Agent-Integration (coming soon) - AI agent integration patterns
+• 06_MCP-Security-Best-Practices (coming soon) - Security implementation
 
 ---
 

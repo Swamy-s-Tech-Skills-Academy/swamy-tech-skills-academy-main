@@ -1,6 +1,6 @@
 # 💡 Understanding Neural Networks, Transformers, Language Models & Agentic AI
 
-**From Foundations to Autonomy in Modern AI**
+## From Foundations to Autonomy in Modern AI
 
 ---
 

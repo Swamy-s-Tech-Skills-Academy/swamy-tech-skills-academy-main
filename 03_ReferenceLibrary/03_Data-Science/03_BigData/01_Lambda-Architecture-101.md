@@ -49,7 +49,7 @@ Lambda Architecture consists of exactly **three layers** that work together to p
 
 **Real-World Example**:
 
-```
+```text
 E-commerce Daily Revenue Calculation:
 - Processes ALL transaction data since company started
 - Calculates precise revenue, accounting for refunds, cancellations
@@ -76,7 +76,7 @@ E-commerce Daily Revenue Calculation:
 
 **Real-World Example**:
 
-```
+```text
 E-commerce Real-Time Dashboard:
 - Processes transactions as they happen
 - Shows approximate revenue for "today so far"
@@ -103,7 +103,7 @@ E-commerce Real-Time Dashboard:
 
 **Real-World Example**:
 
-```
+```text
 E-commerce Analytics API:
 - Question: "What's our revenue for today?"
 - Serving Layer Response:
@@ -122,7 +122,7 @@ E-commerce Analytics API:
 
 ## ⚡ Data Flow Architecture
 
-```
+```text
 Raw Data Input
        ↓
    [Data Ingestion]
@@ -213,7 +213,7 @@ Raw Data Input
 
 #### **Master Dataset Design**
 
-```
+```text
 Immutable Event Store:
 - customer_purchases (timestamp, customer_id, product_id, amount, metadata)
 - product_views (timestamp, customer_id, product_id, session_data)
@@ -332,18 +332,18 @@ def get_daily_revenue(date):
 
 ### **Prerequisites**
 
-- **[01_DataScience/01_Distributed-Systems-Basics](../01_DataScience/01_Distributed-Systems-Basics.md)** - Understanding distributed computing
-- **[01_DataScience/02_Data-Pipeline-Fundamentals](../01_DataScience/02_Data-Pipeline-Fundamentals.md)** - Basic data processing concepts
+- **[01_DataScience/01_Distributed-Systems-Basics](../01_DataScience/)** - Understanding distributed computing (coming soon)
+- **[01_DataScience/02_Data-Pipeline-Fundamentals](../01_DataScience/)** - Basic data processing concepts (coming soon)
 
 ### **Related**
 
-- **[03_BigData/03_Stream-Processing-Patterns](03_Stream-Processing-Patterns.md)** - Advanced streaming architectures
-- **[03_BigData/04_Batch-Processing-Optimization](04_Batch-Processing-Optimization.md)** - Optimizing batch workloads
+- **[03_BigData/03_Stream-Processing-Patterns](.)** - Advanced streaming architectures (coming soon)
+- **[03_BigData/04_Batch-Processing-Optimization](.)** - Optimizing batch workloads (coming soon)
 
 ### **Advanced**
 
-- **[03_BigData/05_Kappa-Architecture](05_Kappa-Architecture.md)** - Stream-only alternative
-- **[03_BigData/06_Delta-Architecture](06_Delta-Architecture.md)** - Modern lakehouse approach
+- **[03_BigData/05_Kappa-Architecture](.)** - Stream-only alternative (coming soon)
+- **[03_BigData/06_Delta-Architecture](.)** - Modern lakehouse approach (coming soon)
 
 ---
 

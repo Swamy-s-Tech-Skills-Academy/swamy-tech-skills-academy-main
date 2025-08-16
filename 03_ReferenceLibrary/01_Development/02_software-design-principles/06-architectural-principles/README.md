@@ -1,6 +1,6 @@
 # 🏗️ Architectural Principles Reference Library
 
-**System-Level Design Guidelines for Scalable Software Architecture**
+## System-Level Design Guidelines for Scalable Software Architecture
 
 ---
 
@@ -16,20 +16,20 @@ This folder contains **architectural principles** - fundamental guidelines that 
 
 **Principle**: Divide complex systems into distinct, focused components
 
-#### **Key Concepts**
+#### Key Concepts — Separation of Concerns
 
 - Each component should have a single, well-defined responsibility
 - Minimize overlap between component responsibilities
 - Enable independent development, testing, and deployment
 - Reduce complexity by isolating different aspects of the system
 
-#### **System-Level Applications**
+#### System-Level Applications — Separation of Concerns
 
 - **Layered Architecture**: UI, Business Logic, Data layers
 - **Domain Separation**: User Management, Order Processing, Payment systems
 - **Cross-Cutting Concerns**: Logging, Security, Caching as separate components
 
-#### **Benefits**
+#### Benefits — Separation of Concerns
 
 - Easier to understand, maintain, and modify
 - Parallel development by different teams
@@ -42,21 +42,21 @@ This folder contains **architectural principles** - fundamental guidelines that 
 
 **Principle**: Each piece of system-wide information should have one authoritative source
 
-#### **Key Concepts**
+#### Key Concepts — Single Source of Truth
 
 - Centralize critical system state and configuration
 - Avoid duplicating important data across system boundaries
 - Establish clear ownership of data domains
 - Implement synchronization mechanisms for necessary data sharing
 
-#### **System-Level Applications**
+#### System-Level Applications — Single Source of Truth
 
 - **Configuration Management**: Single config service for all components
 - **User Identity**: Central identity provider (not duplicated user data)
 - **Business Rules**: Centralized rule engine rather than scattered logic
 - **Master Data**: Single source for reference data (products, customers)
 
-#### **Benefits**
+#### Benefits — Single Source of Truth
 
 - Eliminates inconsistencies across system
 - Simplified data governance and compliance
@@ -69,21 +69,21 @@ This folder contains **architectural principles** - fundamental guidelines that 
 
 **Principle**: Minimize dependencies between components while maximizing internal component unity
 
-#### **Loose Coupling Concepts**
+#### Loose Coupling Concepts — Loose Coupling, High Cohesion
 
 - Components should depend on interfaces, not implementations
 - Minimize the number of interconnections between system parts
 - Use message passing or events instead of direct calls where possible
 - Enable independent deployment and scaling
 
-#### **High Cohesion Concepts**
+#### High Cohesion Concepts — Loose Coupling, High Cohesion
 
 - Related functionality should be grouped together
 - Component elements should work together toward a common purpose
 - Strong internal relationships within components
 - Clear, focused component boundaries
 
-#### **System-Level Applications**
+#### System-Level Applications — Loose Coupling, High Cohesion
 
 - **Microservices**: Independent services with well-defined APIs
 - **Event-Driven Architecture**: Components communicate through events
@@ -96,21 +96,21 @@ This folder contains **architectural principles** - fundamental guidelines that 
 
 **Principle**: High-level system components should not depend on low-level implementation details
 
-#### **Key Concepts**
+#### Key Concepts — Dependency Inversion (Architecture Level)
 
 - Define system interfaces based on business needs, not technical constraints
 - Abstract external dependencies (databases, services, frameworks)
 - Enable substitution of implementation components
 - Protect core business logic from external changes
 
-#### **System-Level Applications**
+#### System-Level Applications — Dependency Inversion (Architecture Level)
 
 - **Hexagonal Architecture**: Core business logic isolated from external concerns
 - **Clean Architecture**: Business rules independent of frameworks and databases
 - **Repository Pattern**: Data access abstraction at system level
 - **Service Interfaces**: Business services independent of technical implementation
 
-#### **Benefits**
+#### Benefits — Dependency Inversion (Architecture Level)
 
 - System resilience to technology changes
 - Enhanced testability with mock implementations
@@ -123,21 +123,21 @@ This folder contains **architectural principles** - fundamental guidelines that 
 
 **Principle**: Design systems to handle growth in users, data, and functionality
 
-#### **Horizontal Scalability**
+#### Horizontal Scalability — Scalability Principles
 
 - Design for adding more servers rather than bigger servers
 - Stateless component design
 - Load distribution strategies
 - Data partitioning and sharding
 
-#### **Vertical Concerns**
+#### Vertical Concerns — Scalability Principles
 
 - Efficient resource utilization
 - Performance optimization strategies
 - Caching and optimization layers
 - Resource monitoring and management
 
-#### **System-Level Applications**
+#### System-Level Applications — Scalability Principles
 
 - **Stateless Services**: No server-side session state
 - **Database Sharding**: Distributed data storage
@@ -150,21 +150,21 @@ This folder contains **architectural principles** - fundamental guidelines that 
 
 **Principle**: Build systems that continue to function despite failures
 
-#### **Fault Tolerance**
+#### Fault Tolerance — Reliability and Resilience Principles
 
 - Expect and plan for component failures
 - Implement graceful degradation strategies
 - Design redundancy at critical points
 - Circuit breaker patterns for external dependencies
 
-#### **Recovery and Monitoring**
+#### Recovery and Monitoring — Reliability and Resilience Principles
 
 - Automated health checking and alerting
 - Quick recovery procedures and rollback capabilities
 - Comprehensive logging and observability
 - Disaster recovery and business continuity planning
 
-#### **System-Level Applications**
+#### System-Level Applications — Reliability and Resilience Principles
 
 - **Circuit Breaker Pattern**: Prevent cascade failures
 - **Bulkhead Pattern**: Isolate critical resources

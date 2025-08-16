@@ -1,6 +1,6 @@
 # 🏛️ Architecture Patterns Reference Library
 
-**System-Level Design Solutions for Enterprise Applications**
+## System-Level Design Solutions for Enterprise Applications
 
 ---
 
@@ -16,20 +16,20 @@ This folder contains **architectural patterns** - high-level structural solution
 
 **Purpose**: Separate user interface from business logic
 
-#### **Components**
+#### Components — MVC
 
 - **Model**: Data and business logic
 - **View**: User interface and presentation
 - **Controller**: Handles user input and coordinates Model/View
 
-#### **Benefits**
+#### Benefits — MVC
 
 - Clear separation of concerns
 - Independent development of UI and business logic
 - Easier testing and maintenance
 - Multiple views for same data
 
-#### **When to Use**
+#### When to Use — MVC
 
 - Web applications with clear UI/business separation
 - Applications requiring multiple user interfaces
@@ -41,20 +41,20 @@ This folder contains **architectural patterns** - high-level structural solution
 
 **Purpose**: Improve testability by reducing View dependencies
 
-#### **Components**
+#### Components — MVP
 
 - **Model**: Data and business logic (same as MVC)
 - **View**: Passive user interface (no logic)
 - **Presenter**: Contains presentation logic, manipulates View
 
-#### **Benefits**
+#### Benefits — MVP
 
 - Highly testable (View has no logic)
 - Better separation than MVC
 - View can be easily mocked
 - Presenter handles all UI behavior
 
-#### **When to Use**
+#### When to Use — MVP
 
 - Applications requiring extensive unit testing
 - Complex UI logic that needs isolated testing
@@ -66,20 +66,20 @@ This folder contains **architectural patterns** - high-level structural solution
 
 **Purpose**: Enable data binding and reactive UI updates
 
-#### **Components**
+#### Components — MVVM
 
 - **Model**: Data and business logic
 - **View**: User interface with data binding
 - **ViewModel**: Exposes data and commands for View binding
 
-#### **Benefits**
+#### Benefits — MVVM
 
 - Two-way data binding
 - Automatic UI updates
 - Excellent for rich client applications
 - Strong separation with reactive updates
 
-#### **When to Use**
+#### When to Use — MVVM
 
 - WPF, Xamarin, or similar data-binding frameworks
 - Applications with complex, dynamic user interfaces
@@ -91,21 +91,21 @@ This folder contains **architectural patterns** - high-level structural solution
 
 **Purpose**: Create systems independent of frameworks, databases, and external agencies
 
-#### **Layers** (Inside-Out)
+#### Layers — Clean Architecture (Inside-Out)
 
 1. **Entities**: Core business rules and models
 2. **Use Cases**: Application-specific business rules
 3. **Interface Adapters**: Controllers, presenters, gateways
 4. **Frameworks & Drivers**: Web, database, external interfaces
 
-#### **Benefits**
+#### Benefits — Clean Architecture
 
 - Framework independence
 - Testability at all levels
 - Database independence
 - External agency independence
 
-#### **When to Use**
+#### When to Use — Clean Architecture
 
 - Large, complex applications
 - Projects requiring high testability
@@ -118,20 +118,20 @@ This folder contains **architectural patterns** - high-level structural solution
 
 **Purpose**: Isolate core application logic from external concerns
 
-#### **Components**
+#### Components — Hexagonal Architecture (Ports & Adapters)
 
 - **Core**: Application logic and domain models
 - **Ports**: Interfaces defining how core communicates externally
 - **Adapters**: Implementations of ports for specific technologies
 
-#### **Benefits**
+#### Benefits — Hexagonal Architecture
 
 - Complete isolation of business logic
 - Easy swapping of external dependencies
 - Excellent testability
 - Technology-agnostic core
 
-#### **When to Use**
+#### When to Use — Hexagonal Architecture
 
 - Applications with multiple external integrations
 - Systems requiring technology flexibility

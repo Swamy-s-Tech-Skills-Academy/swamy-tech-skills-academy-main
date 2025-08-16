@@ -32,20 +32,14 @@ Welcome to the comprehensive Lead Architect journey covering **ALL 8 knowledge a
 
 📍 **Start Here:** [01_Foundation](../01_Foundation/ReadMe.md)
 
-- Review the Lead Architect role and responsibilities
-- Create your personal roadmap for all 8 areas
-- Set up your tracking system using the [Action Tracker](../01_Foundation/ArchitectsJourney/ACTION_TRACKER.md)
-
-### **Step 2: Follow Progressive Learning**
-
+- ACTION_TRACKER.md (coming soon)
+- START_HERE.md (coming soon)
+- COMPLETE_LEARNING_PLAN.md (coming soon)
 📍 **Use This Plan:** [Complete Learning Plan](../09_Documentation/COMPLETE_LEARNING_PLAN.md)
 
 - Structured 18-week curriculum
 - Daily learning objectives
 - Progressive skill building across all domains
-
-### **Step 3: Track Comprehensive Progress**
-
 📍 **Monitor Everything:** Multiple tracking methods
 
 - Weekly progress in each knowledge area

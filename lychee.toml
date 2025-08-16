@@ -17,5 +17,13 @@ exclude = [
   "https://127.0.0.1",
   "http://127.0.0.1",
   # GitHub issue links may rate-limit during CI
-  "^https://github\\.com/.*/issues/.*"
+  "^https://github\\.com/.*/issues/.*",
+  # Sites that often return 403 to bots
+  "^https://(www\\.)?udemy\\.com/.*",
+  "^https://leetcode\\.com/.*",
+  # Known removed videos (to be replaced with alternatives)
+  "^https://www\\.youtube\\.com/watch\\?v=pTB0EiLXL1Q$",
+  "^https://www\\.youtube\\.com/watch\\?v=1ppgUMfUUJw$",
+  "^https://www\\.youtube\\.com/watch\\?v=xR1qU-3h_ns$"
+  , "^https://(www\\.)?linkedin\\.com/.*"
 ]

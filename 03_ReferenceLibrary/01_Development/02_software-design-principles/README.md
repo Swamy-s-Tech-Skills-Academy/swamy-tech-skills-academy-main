@@ -1,6 +1,6 @@
 # 🎯 Software Design Principles
 
-**Comprehensive Guide to Modern Software Design Excellence**
+## Comprehensive Guide to Modern Software Design Excellence
 
 ---
 
@@ -16,7 +16,7 @@ This library provides a **structured progression** through essential software de
 
 #### **01. [OOP Fundamentals](01-oop-fundamentals/)**
 
-**Core Object-Oriented Programming Concepts**
+#### Core Object-Oriented Programming Concepts
 
 - Four Pillars of OOP (Encapsulation, Inheritance, Polymorphism, Abstraction)
 - C# Implementation and Best Practices
@@ -25,7 +25,7 @@ This library provides a **structured progression** through essential software de
 
 #### **02. [Advanced OOP](02-advanced-oop/)**
 
-**Enterprise-Level Object-Oriented Design**
+#### Enterprise-Level Object-Oriented Design
 
 - SOLID Principles Deep Dive
 - Dependency Injection Patterns
@@ -34,7 +34,7 @@ This library provides a **structured progression** through essential software de
 
 #### **03. [UML and Modeling](03-uml-and-modeling/)**
 
-**System Design and Visual Communication**
+#### System Design and Visual Communication
 
 - Advanced Class Diagrams
 - Behavioral Modeling (Sequence, Activity, State)
@@ -47,7 +47,7 @@ This library provides a **structured progression** through essential software de
 
 #### **04. [Design Principles](04-design-principles/)**
 
-**Fundamental Rules for Quality Code**
+#### Fundamental Rules for Quality Code
 
 - **KISS** (Keep It Simple, Stupid)
 - **DRY** (Don't Repeat Yourself)
@@ -61,7 +61,7 @@ This library provides a **structured progression** through essential software de
 
 #### **05. [Design Patterns](05-design-patterns/)**
 
-**Proven Solutions to Common Problems**
+#### Proven Solutions to Common Problems
 
 - **Creational**: Factory, Builder, Singleton
 - **Structural**: Adapter, Decorator, Facade
@@ -70,7 +70,7 @@ This library provides a **structured progression** through essential software de
 
 #### **06. [Architectural Principles](06-architectural-principles/)**
 
-**System-Level Design Guidelines**
+#### System-Level Design Guidelines
 
 - **Separation of Concerns**
 - **Single Source of Truth**
@@ -80,7 +80,7 @@ This library provides a **structured progression** through essential software de
 
 #### **07. [Architecture Patterns](07-architecture-patterns/)**
 
-**System-Level Design Solutions**
+#### System-Level Design Solutions
 
 - **MVC** (Model-View-Controller)
 - **MVP** (Model-View-Presenter)
@@ -163,7 +163,7 @@ All folders as reference + Focus on 06-Architectural-Principles → 07-Architect
 
 1. Review **02-Advanced-OOP** for enterprise patterns
 2. Master **05-Design-Patterns** for common solutions
-3. Study **06-Architecture-Patterns** for system design
+3. Study **07-Architecture-Patterns** for system design
 
 ### **Team Lead/Architect?**
 

@@ -1,6 +1,6 @@
 # 🎯 Design Principles Reference Library
 
-**Fundamental Rules for Writing Quality Code**
+## Fundamental Rules for Writing Quality Code
 
 ---
 
@@ -14,7 +14,7 @@ This folder contains **core design principles** that guide decision-making in so
 
 ### **🎯 KISS - Keep It Simple, Stupid**
 
-**The Simplicity Principle**
+#### The Simplicity Principle
 
 - Prefer simple solutions over complex ones
 - Avoid over-engineering and premature optimization
@@ -27,7 +27,7 @@ This folder contains **core design principles** that guide decision-making in so
 
 ### **🔄 DRY - Don't Repeat Yourself**
 
-**The Single Source of Truth Principle**
+#### The Single Source of Truth Principle
 
 - Every piece of knowledge should have a single, unambiguous representation
 - Extract common functionality into reusable components
@@ -40,7 +40,7 @@ This folder contains **core design principles** that guide decision-making in so
 
 ### **🚫 YAGNI - You Aren't Gonna Need It**
 
-**The Requirement-Driven Development Principle**
+#### The Requirement-Driven Development Principle
 
 - Don't implement features until you actually need them
 - Avoid building functionality based on assumptions about future needs
@@ -53,7 +53,7 @@ This folder contains **core design principles** that guide decision-making in so
 
 ### **🎯 Single Purpose Principle**
 
-**The Focused Responsibility Principle**
+#### The Focused Responsibility Principle
 
 - Each function, class, or module should have one clear responsibility
 - Separate concerns into distinct, focused components
@@ -66,7 +66,7 @@ This folder contains **core design principles** that guide decision-making in so
 
 ### **🔗 Composition Over Inheritance**
 
-**The Flexible Design Principle**
+#### The Flexible Design Principle
 
 - Prefer object composition to class inheritance
 - Build complex functionality by combining simpler components

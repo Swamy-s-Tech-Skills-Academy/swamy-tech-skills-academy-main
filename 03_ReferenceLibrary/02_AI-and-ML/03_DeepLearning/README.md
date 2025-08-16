@@ -1,6 +1,6 @@
 # 🧠 Deep Learning Reference
 
-**Neural networks, advanced architectures, and deep learning systems**
+## Neural networks, advanced architectures, and deep learning systems
 
 ---
 

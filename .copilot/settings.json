@@ -1,0 +1,43 @@
+{
+    "schemaVersion": "1.0",
+    "instructions": {
+        "paths": [
+            ".github/copilot-instructions.md"
+        ]
+    },
+    "environment": {
+        "os": "windows",
+        "shell": "pwsh"
+    },
+    "workspace": {
+        "analyze": [
+            "README.md",
+            "01_LeadArchitectKnowledgeBase/**/*.md",
+            "02_LearningJourney/**/*.md",
+            "03_ReferenceLibrary/**/*.md",
+            "04_LegacyContent/**/*.md",
+            "05_Todos/**/*.md",
+            ".github/**/*.md"
+        ],
+        "exclude": [
+            "04_LegacyContent/_Backup/**",
+            "**/node_modules/**",
+            "**/.venv/**",
+            "**/.vscode/**"
+        ]
+    },
+    "commands": {
+        "docs:lint": {
+            "run": "npx --yes markdownlint-cli2 \"README.md\" \"01_LeadArchitectKnowledgeBase/**/*.md\" \"02_LearningJourney/**/*.md\" \"03_ReferenceLibrary/**/*.md\" \"04_LegacyContent/**/*.md\" \"05_Todos/**/*.md\" \".github/**/*.md\"",
+            "description": "Run Markdown lint for all docs"
+        },
+        "links:dump": {
+            "run": "docker run --rm -w /input -v \"${PWD}:/input\" lycheeverse/lychee:latest --config lychee.toml --no-progress --dump README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 04_LegacyContent/**/*.md 05_Todos/**/*.md .github/**/*.md",
+            "description": "Extract links (no validation) using Lychee"
+        },
+        "links:check": {
+            "run": "docker run --rm -w /input -v \"${PWD}:/input\" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 04_LegacyContent/**/*.md 05_Todos/**/*.md .github/**/*.md",
+            "description": "Validate links using Lychee"
+        }
+    }
+}

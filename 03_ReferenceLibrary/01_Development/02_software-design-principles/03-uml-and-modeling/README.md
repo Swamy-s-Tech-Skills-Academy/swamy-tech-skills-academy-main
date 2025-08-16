@@ -1,6 +1,6 @@
 # 🎨 UML Reference Library
 
-**Unified Modeling Language for System Design and Documentation**
+## Unified Modeling Language for System Design and Documentation
 
 ---
 

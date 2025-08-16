@@ -250,9 +250,9 @@ graph TD
 
 ## 🚀 **Next Steps**
 
-1. **[02_Transformer-Deep-Dive.md](02_Transformer-Deep-Dive.md)** - Detailed architecture understanding
-2. **[04_Prompt-Engineering.md](04_Prompt-Engineering.md)** - Practical LLM interaction
-3. **[06_LLM-to-Agent-Bridge.md](06_LLM-to-Agent-Bridge.md)** - Connecting to autonomous systems
+1. **[03_Transformer-Deep-Dive.md](03_Transformer-Deep-Dive.md)** - Detailed architecture understanding
+2. **[05_Prompt-Engineering.md](05_Prompt-Engineering.md)** - Practical LLM interaction
+3. **[07_LLM-to-Agent-Bridge.md](07_LLM-to-Agent-Bridge.md)** - Connecting to autonomous systems
 
 ---
 

@@ -12,24 +12,7 @@ This folder contains resources, best practices, and implementation guides for De
 
 ## Key Contents
 
-- [CI_CD_Pipelines.md](./CI_CD_Pipelines.md) - Comprehensive guide to CI/CD implementation
-- [IaC_Best_Practices.md](./IaC_Best_Practices.md) - Best practices for Infrastructure as Code
-- [Container_Orchestration.md](./Container_Orchestration.md) - Kubernetes and container management
-- [Monitoring_Strategies.md](./Monitoring_Strategies.md) - Logging, metrics, and observability
-
-## Tools & Technologies
-
-### CI/CD
-- GitHub Actions
 - Azure DevOps
-- Jenkins
-- GitLab CI
-
-### Infrastructure as Code
-- Terraform
-- Azure Bicep
-- ARM Templates
-- CloudFormation
 
 ### Containerization
 - Docker

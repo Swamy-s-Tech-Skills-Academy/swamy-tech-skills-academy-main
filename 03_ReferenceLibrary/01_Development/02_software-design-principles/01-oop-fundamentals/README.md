@@ -1,6 +1,6 @@
 # 🎯 OOP Fundamentals Reference Library
 
-**Core Object-Oriented Programming Concepts and Implementation**
+## Core Object-Oriented Programming Concepts and Implementation
 
 ---
 
@@ -8,7 +8,7 @@
 
 ### **🌍 [01_OOP-Fundamentals-CheatSheet.md](01_OOP-Fundamentals-CheatSheet.md)**
 
-**Language-Agnostic OOP Concepts**
+#### Language-Agnostic OOP Concepts
 
 - Four Pillars of OOP (Encapsulation, Inheritance, Polymorphism, Abstraction)
 - Object relationships (Association, Aggregation, Composition)
@@ -22,7 +22,7 @@
 
 ### **🔷 [02_OOP-CSharp-CheatSheet.md](02_OOP-CSharp-CheatSheet.md)**
 
-**C# Specific Implementation**
+#### C# Specific Implementation
 
 - C# syntax and idioms for OOP
 - Properties vs fields, access modifiers
@@ -36,7 +36,7 @@
 
 ### **🎨 [03_UML-for-OOP.md](03_UML-for-OOP.md)**
 
-**Object Modeling and Basic UML**
+#### Object Modeling and Basic UML
 
 - Class diagram notation for object design
 - Object relationship visualization (UML arrows and symbols)
@@ -54,7 +54,7 @@
 
 #### **📈 [Advanced OOP](../02-advanced-oop/)**
 
-**Enterprise-Level OOP Patterns and Principles**
+#### Enterprise-Level OOP Patterns and Principles
 
 - SOLID Principles Deep Dive
 - Dependency Injection Patterns
@@ -63,7 +63,7 @@
 
 #### **🎯 [Design Principles](../04-design-principles/)**
 
-**Fundamental Coding Guidelines**
+#### Fundamental Coding Guidelines
 
 - KISS (Keep It Simple, Stupid)
 - DRY (Don't Repeat Yourself)
@@ -72,7 +72,7 @@
 
 #### **🎨 [UML & Modeling](../03-uml-and-modeling/)**
 
-**System-Level Design and Architecture**
+#### System-Level Design and Architecture
 
 - Advanced class diagrams for enterprise systems
 - Behavioral modeling (sequence, activity, state)
@@ -147,7 +147,7 @@ This folder is **Step 1** in the comprehensive software design learning path:
 3. [UML & Modeling](../03-uml-and-modeling/)
 4. [Design Principles](../04-design-principles/)
 5. [Design Patterns](../05-design-patterns/)
-6. [Architecture Patterns](../06-architecture-patterns/)
+6. [Architectural Principles](../06-architectural-principles/)
 
 ### **Cross-References**
 

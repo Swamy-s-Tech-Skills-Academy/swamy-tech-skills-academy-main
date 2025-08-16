@@ -488,7 +488,7 @@ This repository contains a **four-pillar learning system** designed to transform
 
 🎯 **[Start Active Learning](02_LearningJourney/Notes/)** - Open daily capture notes
 
-📚 **[View Knowledge Base](01_LeadArchitectKnowledgeBase/KNOWLEDGE_BASE_README.md)** - Document your learning achievements
+📚 **[View Knowledge Base](01_LeadArchitectKnowledgeBase/README.md)** - Document your learning achievements
 
 📖 **[Access References](03_ReferenceLibrary/)** - Essential guides and templates
 
@@ -498,7 +498,7 @@ This repository contains a **four-pillar learning system** designed to transform
 
 #### **For Complete Mastery (Learn Everything!)**
 
-🌟 **[Complete Mastery Path](04_LegacyContent/09_Documentation/COMPLETE_MASTERY_PATH.md)** - Comprehensive 18-week journey covering all 8 knowledge areas
+🌟 **[Complete Mastery Path](04_LegacyContent/_Backup/ProcessDocs/COMPLETE_MASTERY_PATH.md)** - Comprehensive 18-week journey covering all 8 knowledge areas
 
 #### **For New Architects**
 
@@ -555,7 +555,7 @@ graph TD
     R --> RMD[README.md\n(Complete Guide)]
 
     R --> LAKB[01_LeadArchitectKnowledgeBase/\n📚 Documented achievements]
-    LAKB --> KBR[KNOWLEDGE_BASE_README.md\n(Clean slate, ready for Week 1)]
+    LAKB --> KBR[README.md\n(Clean slate, ready for Week 1)]
 
     R --> LJ[02_LearningJourney/\n🎯 Active learning & tracking]
     LJ --> DN[Notes/\n(Daily capture)]

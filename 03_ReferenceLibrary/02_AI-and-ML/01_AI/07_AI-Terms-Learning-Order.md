@@ -440,7 +440,7 @@ Foundation:       [ NN ] [ ML ] [ AI ]
 
 ### **Week 1 Action Plan**
 
-1. **Start Here**: Read `01_AI-Domain-Relationships.md` for the big picture
+1. **Start Here**: Read `02_AI-Domain-Relationships.md` for the big picture
 2. **Understand Context**: Learn what AI actually is and isn't
 3. **Set Expectations**: Choose your learning path based on goals
 
@@ -466,8 +466,8 @@ After each level, ask yourself:
 
 ### **Prerequisites**
 
-- **[01_AI-Domain-Relationships](01_AI-Domain-Relationships.md)** - How all AI domains connect
-- **[02_AI-Learning-Topics](02_AI-Learning-Topics.md)** - Detailed learning modules
+- **[02_AI-Domain-Relationships](02_AI-Domain-Relationships.md)** - How all AI domains connect
+- **[06_AI-Learning-Topics](06_AI-Learning-Topics.md)** - Detailed learning modules
 
 ### **Next Steps**
 
@@ -476,8 +476,8 @@ After each level, ask yourself:
 
 ### **Advanced**
 
-- **[Generative-AI-Overview](Generative-AI-Overview.md)** - Deep dive into generative AI
-- **[AI-Individual-Learning-Topics](AI-Individual-Learning-Topics.md)** - Structured learning modules
+- **[Generative-AI-Overview](04_Generative-AI-Overview.md)** - Deep dive into generative AI
+- **[AI-Learning-Topics](06_AI-Learning-Topics.md)** - Structured learning modules
 
 ---
 

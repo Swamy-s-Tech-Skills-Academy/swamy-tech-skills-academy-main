@@ -1,6 +1,6 @@
 # 📊 Data Science Reference
 
-**Statistical methods, scientific methodology, and data-driven insights**
+## Statistical methods, scientific methodology, and data-driven insights
 
 ---
 

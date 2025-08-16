@@ -1,6 +1,6 @@
 # L1 - Python Fundamentals Learning Progression
 
-**Complete Journey from Absolute Beginner to Python Expert**
+## Complete Journey from Absolute Beginner to Python Expert
 
 ---
 
@@ -124,7 +124,7 @@ This L1 fundamentals track takes you through a carefully designed 9-level progre
 | 7-8   | ●●●●●       | ●●●●○           | ●●●●○       | ●●●○○        | ●●●○○        |
 | 9     | ●●●●●       | ●●●●●           | ●●●●●       | ●●●●●        | ●●●●●        |
 
-_● = Skill level achieved, ○ = Future development_
+Legend: ● = Skill level achieved, ○ = Future development
 
 ---
 

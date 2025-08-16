@@ -1,6 +1,6 @@
 # 04_Professional-Practice - Industry-Standard Python Development
 
-**Master Professional Python Development Practices and Industry Standards**
+## Master Professional Python Development Practices and Industry Standards
 
 ---
 
