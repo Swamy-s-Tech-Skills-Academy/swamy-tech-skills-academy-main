@@ -1,6 +1,8 @@
 name: Docs Quality
 
 on:
+  # Manual run capability (use Run workflow button in GitHub UI)
+  workflow_dispatch: {}
   pull_request:
     paths:
       - "README.md"
@@ -8,6 +10,8 @@ on:
       - "02_LearningJourney/**/*.md"
       - "03_ReferenceLibrary/**/*.md"
       - "04_LegacyContent/**/*.md"
+      # Include placeholder keep files so adding/removing them triggers quality gate
+      - "04_LegacyContent/**/.keep"
       - "05_Todos/**/*.md"
       - ".github/**/*.md"
       - "lychee.toml"
@@ -21,6 +25,7 @@ on:
       - "02_LearningJourney/**/*.md"
       - "03_ReferenceLibrary/**/*.md"
       - "04_LegacyContent/**/*.md"
+      - "04_LegacyContent/**/.keep"
       - "05_Todos/**/*.md"
       - ".github/**/*.md"
       - "lychee.toml"
