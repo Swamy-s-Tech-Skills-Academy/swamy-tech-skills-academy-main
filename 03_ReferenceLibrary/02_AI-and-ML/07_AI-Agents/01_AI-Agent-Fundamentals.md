@@ -1,16 +1,12 @@
-# 01_AI-Agent-Fundamentals (Renumbered → 03_AI-Agent-Fundamentals.md)
+# 01_AI-Agent-Fundamentals (Deprecated Stub)
 
-This file is a legacy stub kept to avoid breaking older links. The complete, up-to-date module now lives at:
+Renumbered to: [03_AI-Agent-Fundamentals](03_AI-Agent-Fundamentals.md)
 
-**➡️ Go to: [03_AI-Agent-Fundamentals.md](03_AI-Agent-Fundamentals.md)**
+Reason: Added two preparation modules (Roadmap, Lexicon) ahead of Fundamentals to clarify learning sequence.
 
-## Why the Change
+Action: Update links to the canonical file above. Do not add new references to this stub.
 
-The Agentic AI track inserted two preparatory modules (Roadmap & Lexicon) at positions 01 and 02. The original numbering for "AI Agent Fundamentals" (01) shifted to 03 to maintain a consistent progression foundation → architecture → implementation.
-
-## If You Bookmarked This Page
-
-Update any personal notes or external references to point to: `03_ReferenceLibrary/02_AI-and-ML/07_AI-Agents/03_AI-Agent-Fundamentals.md`.
+Removal Target: Stub eligible for removal after deprecation window (see Deprecation & Renumbering Policy).
 
 ---
-_Status: Deprecated redirect stub. Last Reviewed: 2025-08-16._
+Status: Deprecated redirect stub • Last Reviewed: 2025-08-17

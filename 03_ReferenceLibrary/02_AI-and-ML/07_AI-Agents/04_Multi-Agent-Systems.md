@@ -1,8 +1,12 @@
-# 04_Multi-Agent-Systems (Renumbered → 06_Multi-Agent-Systems.md)
+# 04_Multi-Agent-Systems (Deprecated Stub)
 
-Legacy placeholder retained. The active (work-in-progress) module is now:
+Renumbered to: [06_Multi-Agent-Systems](06_Multi-Agent-Systems.md)
 
-**➡️ Go to: [06_Multi-Agent-Systems.md](06_Multi-Agent-Systems.md)**
+Reason: Track normalization and consistent eight-module progression.
+
+Action: Update links to canonical file; do not create new references here.
+
+Removal Target: After deprecation period per policy.
 
 ---
-_Status: Deprecated redirect stub. Last Reviewed: 2025-08-16._
+Status: Deprecated redirect stub • Last Reviewed: 2025-08-17

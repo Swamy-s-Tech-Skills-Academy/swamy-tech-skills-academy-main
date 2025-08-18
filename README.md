@@ -641,3 +641,17 @@ docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config 
 # Validate links (recommended; matches CI behavior)
 docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 04_LegacyContent/**/*.md 05_Todos/**/*.md .github/**/*.md
 ```
+
+### Manual Docs Quality Workflow
+
+CI runs automatically on PRs and pushes that modify documentation, but you can also trigger it manually:
+
+1. Open GitHub → Actions → "Docs Quality" workflow
+2. Click "Run workflow" (no inputs required)
+3. View markdownlint + Lychee results; download the `lychee-report` artifact for details
+
+Reason: Manual trigger accelerates iteration when adjusting large batches of links or performing structural renumbering.
+
+### Deprecation & Renumbering Policy Reference
+
+When content is renumbered (e.g., Agent modules) the old files become lightweight stubs that point to the canonical versions for 90–180 days. See the policy in `03_ReferenceLibrary/ORGANIZATION_GUIDE.md` (section: "Deprecation & Renumbering Policy"). Avoid adding new links to stub files; always point to the canonical module numbers.

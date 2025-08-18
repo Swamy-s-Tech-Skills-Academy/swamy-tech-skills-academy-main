@@ -1,12 +1,12 @@
-# 02_Agent-Architectures-Patterns (Renumbered → 04_Agent-Architectures-Patterns.md)
+# 02_Agent-Architectures-Patterns (Deprecated Stub)
 
-Legacy placeholder retained for link compatibility. The authoritative architecture & patterns module is now here:
+Renumbered to: [04_Agent-Architectures-Patterns](04_Agent-Architectures-Patterns.md)
 
-**➡️ Go to: [04_Agent-Architectures-Patterns.md](04_Agent-Architectures-Patterns.md)**
+Reason: Track normalization after inserting Roadmap (01) and Lexicon (02).
 
-## Renumbering Rationale
+Action: Point any existing links to the canonical file above. Do not create new links to this stub.
 
-Two foundational modules were inserted ahead of this one; all downstream modules shifted by +2 to preserve conceptual sequencing (roadmap → lexicon → fundamentals → architectures ...).
+Removal Target: Eligible for cleanup after deprecation window per policy.
 
 ---
-_Status: Deprecated redirect stub. Last Reviewed: 2025-08-16._
+Status: Deprecated redirect stub • Last Reviewed: 2025-08-17

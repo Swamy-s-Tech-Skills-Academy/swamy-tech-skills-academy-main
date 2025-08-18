@@ -1,8 +1,12 @@
-# 06_Agent-Production-Deployment (Renumbered → 08_Agent-Production-Deployment.md)
+# 06_Agent-Production-Deployment (Deprecated Stub)
 
-Legacy stub. The current production deployment module draft is located at:
+Renumbered to: [08_Agent-Production-Deployment](08_Agent-Production-Deployment.md)
 
-**➡️ Go to: [08_Agent-Production-Deployment.md](08_Agent-Production-Deployment.md)**
+Reason: Final module shift after earlier insertions.
+
+Action: Update any links; do not create new references here.
+
+Removal Target: After policy deprecation window.
 
 ---
-_Status: Deprecated redirect stub. Last Reviewed: 2025-08-16._
+Status: Deprecated redirect stub • Last Reviewed: 2025-08-17

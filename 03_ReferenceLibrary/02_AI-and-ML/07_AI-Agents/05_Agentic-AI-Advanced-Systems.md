@@ -1,8 +1,12 @@
-# 05_Agentic-AI-Advanced-Systems (Renumbered → 07_Agentic-AI-Advanced-Systems.md)
+# 05_Agentic-AI-Advanced-Systems (Deprecated Stub)
 
-This stub points to the fully developed advanced systems module:
+Renumbered to: [07_Agentic-AI-Advanced-Systems](07_Agentic-AI-Advanced-Systems.md)
 
-**➡️ Go to: [07_Agentic-AI-Advanced-Systems.md](07_Agentic-AI-Advanced-Systems.md)**
+Reason: Sequential shift after insertion of preparation and fundamentals modules.
+
+Action: Update references; avoid linking here going forward.
+
+Removal Target: Cleanup after deprecation window.
 
 ---
-_Status: Deprecated redirect stub. Last Reviewed: 2025-08-16._
+Status: Deprecated redirect stub • Last Reviewed: 2025-08-17
