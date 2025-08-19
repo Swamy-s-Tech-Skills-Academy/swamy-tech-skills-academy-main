@@ -64,5 +64,3 @@
 > This structure keeps **30 min for Git**, **25 min for GitHub**, and **5 min buffer** for wrap-up/Q&A.
 
 ---
-
-Would you like a slide-by-slide breakdown for presentation use? Let me know!

@@ -103,7 +103,7 @@ Workflow Demonstrated:
 
 ## 🔗 Related Internal Content
 
-- `1-Git-GitHub-Workshop-Agenda.md` (Session 1)  
+- `Git-GitHub-Workshop-Agenda.md` (Session 1)  
 - `../02_software-design-principles/` (code review quality & structure)  
 - `../../02_AI-and-ML/07_AI-Agents/` (collaborative experimentation patterns)
 

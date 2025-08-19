@@ -10,7 +10,7 @@ Central hub for version control learning: Git fundamentals, workflows, and colla
 
 ## 📋 Modules & Assets
 
-- **Workshop Agenda**: `Git-GitHub-Workshop-Agenda.md` (1-hour intro session)
+- **Workshop Agenda**: `1-Git-GitHub-Workshop-Agenda.md` (Session 1 – 1-hour intro)
 - Coming Soon: Core Concepts (staging, branching, merging), Undo Strategies, Collaboration Patterns, Advanced Workflows.
 
 ## 🧠 Core Concepts (Preview)
