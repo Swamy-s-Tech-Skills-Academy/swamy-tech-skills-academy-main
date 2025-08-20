@@ -36,6 +36,13 @@ This track provides the essential programming and software engineering foundatio
 - **Foundation For**: Enterprise software, cloud applications, high-performance systems
 - **Key Skills**: Type safety, enterprise patterns, .NET ecosystem
 
+### **🗃️ [04_Git-Version-Control/](04_Git-Version-Control/)** - Version Control & Collaboration
+
+- **Purpose**: Git fundamentals, workflows, and collaborative development practices
+- **Content**: Intro workshop agenda (Git & GitHub), core concepts, branching & merging (coming soon)
+- **Foundation For**: All team-based development, code review, CI/CD integration
+- **Key Skills**: Repository hygiene, branching strategies, safe undo, collaboration flow
+
 ---
 
 ## 🚀 Learning Progression
