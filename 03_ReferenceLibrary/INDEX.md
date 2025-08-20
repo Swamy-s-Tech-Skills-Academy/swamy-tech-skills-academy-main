@@ -36,6 +36,43 @@
                                               [NLP Fundamentals] --> [LLMs] --> [MCP Servers] --> [AI Agents]
 ```
 
+### Mermaid Visualization (Optional)
+
+```mermaid
+flowchart LR
+       subgraph Dev[Development]
+              PYF[Python Fundamentals]
+              PYA[Advanced Patterns]
+              PYS[Specialized Topics]
+              PYP[Professional Practice]
+              GITC[Git Core]
+              GITB[Branching Patterns]
+              GITA[Automation]
+              DESP[Design Principles]
+              DESD[Design Patterns]
+              DESA[Architecture Patterns]
+       end
+
+       subgraph AI[AI & ML]
+              AIF[AI Foundations]
+              MLALG[ML Algorithms]
+              DNN[Deep Learning]
+              NLPF[NLP Fundamentals]
+              LLM[LLMs]
+              MCP[MCP Servers]
+              AGT[AI Agents]
+       end
+
+       PYF --> PYA --> PYS --> PYP
+       PYF --> GITC --> GITB --> GITA
+       DESP --> DESD --> DESA
+       PYF --> DESP
+       DESA --> AIF
+       AIF --> MLALG --> DNN
+       MLALG --> NLPF --> LLM --> MCP --> AGT
+       LLM --> MCP --> AGT
+```
+
 ## 📂 Domain Indices
 
 See each domain README plus forthcoming PATHWAY.md files.
