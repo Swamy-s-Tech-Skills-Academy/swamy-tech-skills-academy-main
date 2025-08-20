@@ -5,10 +5,12 @@
 **Status**: Draft
 
 ## Legend
+
 - Level: B (Beginner), I (Intermediate), A (Advanced)
 - Status: Stub | Draft | Complete
 
 ## Development Track
+
 | Code | Concept | Level | Status | Prerequisites |
 |------|---------|-------|--------|---------------|
 | DEV-PY-001 | Python Syntax & Flow | B | Complete | None |
@@ -22,6 +24,7 @@
 | DEV-DES-010 | Patterns Catalog Intro | I | Stub | DEV-DES-001 |
 
 ## AI & ML Track
+
 | Code | Concept | Level | Status | Prerequisites |
 |------|---------|-------|--------|---------------|
 | AI-FND-001 | AI vs ML vs DL | B | Draft | None |
@@ -37,6 +40,7 @@
 | MCP-SRV-001 | MCP Server Fundamentals | I | Stub | LLM-LIF-002 |
 
 ## Data Science Track
+
 | Code | Concept | Level | Status | Prerequisites |
 |------|---------|-------|--------|---------------|
 | DS-MTH-001 | Statistical Foundations (External Anchor) | B | Stub | None |
@@ -46,6 +50,7 @@
 | DS-GOV-001 | Data Governance & Lineage | I | Stub | DS-METH-001 |
 
 ## Cross-Cutting
+
 | Code | Concept | Level | Status | Prerequisites |
 |------|---------|-------|--------|---------------|
 | X-GOV-001 | AI Ethics & Governance Integration | I | Draft | AI-FND-001 |
@@ -54,10 +59,12 @@
 | X-AUTO-001 | CI/CD & Deployment Pipelines | I | Stub | DEV-GIT-001 |
 
 ## Roadmap Notes
+
 - Promote stubs to draft in priority order: Git Branching, ML Supervised Overview, Tokenization, Prompt Patterns.
 - Add IDs to file headers to match codes for future automation.
 
 ## Update Workflow
+
 1. Add row → create stub file with matching code in header.
 2. Ensure forward/backward links.
 3. Increment progress dashboard in `INDEX.md`.
