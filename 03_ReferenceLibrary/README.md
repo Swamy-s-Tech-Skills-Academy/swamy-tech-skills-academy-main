@@ -79,6 +79,11 @@ Perfect for: Software engineers, system architects, and anyone building technica
 - **Data Science Track**: **[03_Data-Science/README.md](03_Data-Science/README.md)**
 - **Development Track**: **[01_Development/README.md](01_Development/README.md)**
 
+### Library Maps
+
+- Reference Index: **[INDEX.md](INDEX.md)**
+- Taxonomy Map: **[TAXONOMY_MAP.md](TAXONOMY_MAP.md)**
+
 ### **� Key Resources**
 
 - **AI Learning Roadmap**: **[02_AI-and-ML/01_AI/07_AI-Terms-Learning-Order.md](02_AI-and-ML/01_AI/07_AI-Terms-Learning-Order.md)**
