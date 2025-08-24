@@ -84,7 +84,7 @@ Perfect for: Software engineers, system architects, and anyone building technica
 - Reference Index: **[INDEX.md](INDEX.md)**
 - Taxonomy Map: **[TAXONOMY_MAP.md](TAXONOMY_MAP.md)**
 
-### **� Key Resources**
+### Key Resources
 
 - **AI Learning Roadmap**: **[02_AI-and-ML/01_AI/07_AI-Terms-Learning-Order.md](02_AI-and-ML/01_AI/07_AI-Terms-Learning-Order.md)**
 - **AI Relationship Diagrams**: **[02_AI-and-ML/01_AI/02_AI-Domain-Relationships.md](02_AI-and-ML/01_AI/02_AI-Domain-Relationships.md)**
