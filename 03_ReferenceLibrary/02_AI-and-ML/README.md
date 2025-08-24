@@ -13,7 +13,13 @@ This track covers the complete AI and ML spectrum, from foundational concepts to
 
 ---
 
-## 📚 Domains in This Track
+## �️ Pathway Guide
+
+For a sequence map and cross-links across AI subdomains, see the AI & ML Pathway: [PATHWAY.md](PATHWAY.md)
+
+---
+
+## �📚 Domains in This Track
 
 ### **🤖 [01_AI/](01_AI/)** - Artificial Intelligence (Strategic Overview)
 
