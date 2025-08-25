@@ -37,9 +37,9 @@ function clean_tokenize(text):
 
 ## Next Steps
 
-- One-hot encoding (see 02_One-Hot-Encoding.md)
-- Bag-of-Words (03_Bag-of-Words.md)
-- TF-IDF (04_TF-IDF.md)
+- One-hot encoding (see 01_One-Hot-Encoding.md)
+- Bag-of-Words (02_Bag-of-Words.md)
+- TF-IDF (03_TF-IDF.md)
 
 ## Canonical code location
 

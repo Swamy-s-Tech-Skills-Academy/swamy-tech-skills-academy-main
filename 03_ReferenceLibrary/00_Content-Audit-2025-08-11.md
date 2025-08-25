@@ -1,5 +1,7 @@
 # 00_Content-Audit — Reference Library (2025-08-11)
 
+> Note: This page has been renumbered. See `01_Content-Audit-2025-08-11.md` for the current version. This file remains temporarily for backward-compatibility and will be removed after links are fully updated.
+
 Purpose: Snapshot audit of 03_ReferenceLibrary to highlight structure, strengths, gaps, and actionable fixes.
 
 Scope: 03_ReferenceLibrary and immediate subfolders.
