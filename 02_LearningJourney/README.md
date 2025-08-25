@@ -16,7 +16,7 @@ Current focus: Capture-only notes in `Notes/` (one file per day)
 ## Current Files
 
 - `Notes/` - Daily capture-only notes (one file per day)
-- `00_Templates/` - Optional helpers (Daily log)
+- `01_Templates/` - Optional helpers (Daily log)
 
 ## Learning Approach
 
@@ -39,4 +39,4 @@ Lightweight guidelines:
 
 1. Open `Notes/README.md` and click “Today”
 2. Capture what you did (bullets) and add evidence links
-3. Optional: 15-min retro on Friday using `00_Templates/Weekly-Execution-Template.md`
+3. Optional: 15-min retro on Friday using `01_Templates/Weekly-Execution-Template.md`
