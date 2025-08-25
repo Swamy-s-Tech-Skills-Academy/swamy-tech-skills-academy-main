@@ -13,13 +13,13 @@ This track covers the complete data science pipeline, from scientific methodolog
 
 ---
 
-## �️ Pathway Guide
+## 🗺️ Pathway Guide
 
 For recommended sequences and cross-links, see the Data Science Pathway: [PATHWAY.md](PATHWAY.md)
 
 ---
 
-## �📚 Domains in This Track
+## 📚 Domains in This Track
 
 ### **📊 [01_DataScience/](01_DataScience/)** - Statistical Methods & Research
 

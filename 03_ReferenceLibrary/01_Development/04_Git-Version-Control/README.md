@@ -8,11 +8,11 @@
 
 Central hub for version control learning: Git fundamentals, workflows, and collaborative development using GitHub.
 
-## �️ Pathway Guide
+## 🗺️ Pathway Guide
 
 For sequencing and cross-links, see the Development Pathway: `../PATHWAY.md`
 
-## �📋 Modules & Assets
+## 📋 Modules & Assets
 
 - `01_Git-GitHub-Workshop-Agenda.md` (Session 1 – 1-hour intro)
 - `02_GitHub-Collaboration-Session2-Agenda.md` (Session 2 – collaboration & PR workflow)

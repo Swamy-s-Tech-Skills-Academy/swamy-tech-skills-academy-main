@@ -13,13 +13,13 @@ This track provides the essential programming and software engineering foundatio
 
 ---
 
-## �️ Pathway Guide
+## 🗺️ Pathway Guide
 
 For a bird's-eye view of sequence and cross-links, see the Development Pathway: [PATHWAY.md](PATHWAY.md)
 
 ---
 
-## �📚 Domains in This Track
+## 📚 Domains in This Track
 
 ### **🐍 [01_Python/](01_Python/)** - Programming Foundation
 
