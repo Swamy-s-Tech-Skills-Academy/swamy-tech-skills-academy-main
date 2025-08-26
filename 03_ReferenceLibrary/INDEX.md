@@ -39,38 +39,39 @@
 ### Mermaid Visualization (Optional)
 
 ```mermaid
-flowchart LR
-       subgraph Dev[Development]
-              PYF[Python Fundamentals]
-              PYA[Advanced Patterns]
-              PYS[Specialized Topics]
-              PYP[Professional Practice]
-              GITC[Git Core]
-              GITB[Branching Patterns]
-              GITA[Automation]
-              DESP[Design Principles]
-              DESD[Design Patterns]
-              DESA[Architecture Patterns]
-       end
+flowchart TB
 
-       subgraph AI[AI & ML]
-              AIF[AI Foundations]
-              MLALG[ML Algorithms]
-              DNN[Deep Learning]
-              NLPF[NLP Fundamentals]
-              LLM[LLMs]
-              MCP[MCP Servers]
-              AGT[AI Agents]
-       end
+%% Row 1: Development progression
+subgraph Row1[Development]
+       direction LR
+       PYF[Python Fundamentals] --> PYA[Advanced Patterns] --> PYS[Specialized Topics] --> PYP[Professional Practice]
+end
 
-       PYF --> PYA --> PYS --> PYP
-       PYF --> GITC --> GITB --> GITA
-       DESP --> DESD --> DESA
-       PYF --> DESP
-       DESA --> AIF
-       AIF --> MLALG --> DNN
-       MLALG --> NLPF --> LLM --> MCP --> AGT
-       LLM --> MCP --> AGT
+%% Row 2: Version Control
+subgraph Row2[Version Control]
+       direction LR
+       GITC[Git Core] --> GITB[Branching Patterns] --> GITA[Automation]
+end
+
+%% Row 3: Design & Architecture
+subgraph Row3[Design & Architecture]
+       direction LR
+       DESP[Design Principles] --> DESD[Design Patterns] --> DESA[Architecture Patterns]
+end
+
+%% Row 4: AI & ML Path
+subgraph Row4[AI & ML]
+       direction LR
+       AIF[AI Foundations] --> MLALG[ML Algorithms] --> DNN[Deep Learning]
+       NLPF[NLP Fundamentals] --> LLM[LLMs] --> MCP[MCP Servers] --> AGT[AI Agents]
+end
+
+%% Cross-row dependencies
+PYF --> GITC
+PYF --> DESP
+DESA --> AIF
+MLALG --> NLPF
+LLM --> MCP --> AGT
 ```
 
 ## 📂 Domain Indices

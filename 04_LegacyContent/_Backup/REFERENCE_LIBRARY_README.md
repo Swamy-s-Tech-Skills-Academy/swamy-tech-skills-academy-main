@@ -102,7 +102,7 @@ Comprehensive reference materials organized by domain:
 
 ## 🚀 Quick Start References
 
-### **📍 [00_NAVIGATION_GUIDE.md](./00_NAVIGATION_GUIDE.md)**
+### **📍 [01_NAVIGATION_GUIDE.md](./01_NAVIGATION_GUIDE.md)**
 
 Complete navigation guide for the entire learning ecosystem.
 

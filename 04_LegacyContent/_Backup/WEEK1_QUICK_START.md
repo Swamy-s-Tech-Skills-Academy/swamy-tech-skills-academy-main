@@ -199,7 +199,7 @@
 ### **Support Materials:**
 
 - [Complete Learning Plan](COMPLETE_LEARNING_PLAN.md) - Full 16-week overview
-- [Navigation Guide](00_NAVIGATION_GUIDE.md) - Knowledge base structure
+- [Navigation Guide](01_NAVIGATION_GUIDE.md) - Knowledge base structure
 - [Foundation Overview](01_Foundation/ReadMe.md) - Category introduction
 
 ## 📈 Tracking Your Progress

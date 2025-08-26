@@ -1,6 +1,4 @@
-# 00_Tokenization
-
-> Note: Renumbered. See `01_Tokenization.md` for the current version. This file remains temporarily for backward-compatibility and will be removed after links are fully updated.
+# 01_Tokenization
 
 Learning Level: Beginner  
 Prerequisites: Basic Python strings  

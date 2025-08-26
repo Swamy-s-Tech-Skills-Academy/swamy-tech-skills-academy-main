@@ -1,5 +1,7 @@
 # 🧭 Lead Architect Knowledge Base - Navigation Guide
 
+> Note: This file has been renumbered. See `01_NAVIGATION_GUIDE.md` for the current version. This file remains for backward-compatibility and will be removed after links are fully updated.
+
 ## 📋 Overview
 
 This knowledge base has been reorganized into logical categories to improve navigation and reduce duplication. Each numbered category contains related topics and follows a hierarchical structure.

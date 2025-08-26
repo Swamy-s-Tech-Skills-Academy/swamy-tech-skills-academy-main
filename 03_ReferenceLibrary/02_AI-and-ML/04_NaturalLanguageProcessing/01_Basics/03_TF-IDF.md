@@ -75,6 +75,6 @@ function tf_idf(sentences):
 
 ## 🔗 Related Topics
 
-- Prerequisites: `00_Tokenization.md`
+- Prerequisites: `01_Tokenization.md`
 - Related: `02_Bag-of-Words.md`
 - Next: distributed embeddings (word2vec, GloVe)

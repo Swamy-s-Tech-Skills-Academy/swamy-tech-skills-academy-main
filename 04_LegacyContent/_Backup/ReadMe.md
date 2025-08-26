@@ -170,7 +170,7 @@ Your existing planning documents (organized):
 
 ### 🧭 **Navigation & Structure**
 
-- **[00_NAVIGATION_GUIDE.md](./00_NAVIGATION_GUIDE.md)** - Complete knowledge base structure and navigation guide
+- **[01_NAVIGATION_GUIDE.md](./01_NAVIGATION_GUIDE.md)** - Complete knowledge base structure and navigation guide
 - **[DEEP_DIVE_ANALYSIS.md](./DEEP_DIVE_ANALYSIS.md)** - Comprehensive analysis of knowledge base organization
 
 ### 🎓 **Learning Resources**
@@ -189,11 +189,11 @@ Your existing planning documents (organized):
 
 1. **Start Here**: [WEEK1_QUICK_START.md](./WEEK1_QUICK_START.md)
 2. **Full Plan**: [COMPLETE_LEARNING_PLAN.md](./COMPLETE_LEARNING_PLAN.md)
-3. **Navigation**: [00_NAVIGATION_GUIDE.md](./00_NAVIGATION_GUIDE.md)
+3. **Navigation**: [01_NAVIGATION_GUIDE.md](./01_NAVIGATION_GUIDE.md)
 
 ### **Understanding the Structure?**
 
-1. **Complete Overview**: [00_NAVIGATION_GUIDE.md](./00_NAVIGATION_GUIDE.md)
+1. **Complete Overview**: [01_NAVIGATION_GUIDE.md](./01_NAVIGATION_GUIDE.md)
 2. **Analysis Details**: [DEEP_DIVE_ANALYSIS.md](./DEEP_DIVE_ANALYSIS.md)
 3. **Final Results**: [DEEP_DIVE_COMPLETE.md](./DEEP_DIVE_COMPLETE.md)
 
@@ -209,7 +209,7 @@ Your existing planning documents (organized):
 
 | Document                   | Purpose                          | Best For                                  |
 | -------------------------- | -------------------------------- | ----------------------------------------- |
-| **00_NAVIGATION_GUIDE.md** | Complete knowledge base overview | Understanding structure and relationships |
+| **01_NAVIGATION_GUIDE.md** | Complete knowledge base overview | Understanding structure and relationships |
 | **DEEP_DIVE_ANALYSIS.md**  | Detailed structural analysis     | Understanding organizational decisions    |
 | **DEEP_DIVE_COMPLETE.md**  | Final optimization results       | Seeing quality improvements achieved      |
 
@@ -271,7 +271,7 @@ Your existing planning documents (organized):
 
 1. **Read**: [WEEK1_QUICK_START.md](./WEEK1_QUICK_START.md) to begin immediately
 2. **Plan**: Review [COMPLETE_LEARNING_PLAN.md](./COMPLETE_LEARNING_PLAN.md) for full journey
-3. **Navigate**: Use [00_NAVIGATION_GUIDE.md](./00_NAVIGATION_GUIDE.md) as reference
+3. **Navigate**: Use [01_NAVIGATION_GUIDE.md](./01_NAVIGATION_GUIDE.md) as reference
 
 ### **For Returning Learners**
 

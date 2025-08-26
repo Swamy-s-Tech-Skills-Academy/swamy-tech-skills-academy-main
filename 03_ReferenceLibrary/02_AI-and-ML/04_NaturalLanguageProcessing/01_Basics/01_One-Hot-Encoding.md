@@ -70,6 +70,6 @@ function one_hot(tokens):
 
 ## 🔗 Related Topics
 
-- Prerequisites: `../01_Basics/00_Tokenization.md` (create if missing)
+- Prerequisites: `../01_Basics/01_Tokenization.md` (create if missing)
 - Related: `../01_Basics/02_Bag-of-Words.md` (create if missing)
 - Advanced: `../../05_LargeLanguageModels/01_LLM-Fundamentals.md`
