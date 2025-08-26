@@ -49,7 +49,7 @@ When provided with reference materials from books, websites, articles, video cou
 - Clear objectives and outcomes
 - Progressive scaffolding (Foundations → Practice → Pitfalls → Next Steps)
 - Original examples, datasets, and exercises
-- ASCII‑first visuals; Mermaid optional with ASCII fallback
+- ASCII‑first visuals; also include Mermaid where feasible with an ASCII fallback
 - Cross‑references (Prereqs / Builds Upon / Enables)
 - STSA metadata block on significant pages
 
