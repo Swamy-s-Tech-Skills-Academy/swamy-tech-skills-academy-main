@@ -93,6 +93,7 @@ Perfect for: Software engineers, system architects, and anyone building technica
 - **MCP Integration Guide**: **[02_AI-and-ML/06_MCP-Servers/01_MCP-Fundamentals.md](02_AI-and-ML/06_MCP-Servers/01_MCP-Fundamentals.md)**
 - **Agentic AI Roadmap**: **[02_AI-and-ML/07_AI-Agents/01_Agentic-AI-Learning-Roadmap.md](02_AI-and-ML/07_AI-Agents/01_Agentic-AI-Learning-Roadmap.md)**
 - **Organization Guide**: **[ORGANIZATION_GUIDE.md](ORGANIZATION_GUIDE.md)**
+- **Cloud‑Native Overview**: **[01_Development/02_software-design-principles/06-architectural-principles/01_Cloud-Native-Distributed-Apps-Key-Characteristics.md](01_Development/02_software-design-principles/06-architectural-principles/01_Cloud-Native-Distributed-Apps-Key-Characteristics.md)**
 
 ### **🔍 Find Content**
 
@@ -111,7 +112,7 @@ Link back to the strategic guardrails and reference architectures when needed:
 
 ---
 
-**📅 Last Updated**: August 7, 2025  
+**📅 Last Updated**: August 26, 2025  
 **🎯 Purpose**: Comprehensive learning tracks for AI, Data Science, and Development  
 **📍 Structure**: 3 focused tracks with interconnected domains and clear learning paths
 
