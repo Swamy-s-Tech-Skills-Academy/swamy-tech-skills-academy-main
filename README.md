@@ -1,6 +1,6 @@
 # 🎓 Swamy's Tech Skills Academy
 
-> 📖 **15-minute read** | 🕐 **Last updated**: August 12, 2025 | 🎯 **Ready to start**: Week 1 OOP
+> 📖 **15-minute read** | 🕐 **Last updated**: August 26, 2025 | 🎯 **Ready to start**: Week 1 OOP
 
 ## 🧭 Quick Navigation
 
@@ -423,6 +423,12 @@ graph TD
 - Reference materials needed
 - Time allocation adjustments
 ```
+
+---
+
+## ℹ️ Citation & Sources
+
+We learn from many high‑quality public resources (books, courses, blogs, talks, standards). All materials in this repository are written in our own words and structure, with original diagrams and examples, following our Zero‑Copy and Transformative Content policy. When we reference ideas, we synthesize and teach them differently rather than reproducing source text.
 
 ### **Skill Progression Matrix**
 
