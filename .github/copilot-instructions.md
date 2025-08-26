@@ -8,7 +8,7 @@
 
 When working with this repository, GitHub Copilot should function as an **educational content creator and learning system architect**, not a content copier. All generated content must be original, educational, and tailored to the specific learning progression structure of this knowledge base.
 
-### � Zero‑Copy Policy (Non‑Negotiable)
+### Zero‑Copy Policy (Non‑Negotiable)
 
 - Do not copy text verbatim from books, articles, websites, videos, or any third‑party materials.
 - Do not mirror a source’s outline, section order, headings, or example sequence—reframe the pedagogy.
@@ -17,7 +17,7 @@ When working with this repository, GitHub Copilot should function as an **educat
 - For code, write fresh, minimal originals. If an algorithm is standard, implement from first principles with our own naming, comments, and tests.
 - If quotation is unavoidable, keep it brief, use quotation marks, and cite the source link. Prefer synthesis over quotes.
 
-## �📚 Content Creation Philosophy
+## � Content Creation Philosophy
 
 ### **Original Content Generation**
 
@@ -114,7 +114,7 @@ When provided with reference materials from books, websites, articles, video cou
 - Zero‑copy audit: no sentences, bullet structures, or diagrams mirror a specific source.
 - STSA metadata block included and filled (Level, Prereqs, Time, Next Steps).
 - Related Topics present (Prereqs / Builds Upon / Enables / Cross‑Refs).
-- ASCII diagram provided; Mermaid optional with ASCII fallback.
+- ASCII diagram provided; also include a Mermaid equivalent where feasible with an ASCII fallback.
 - Internal links checked; numbering starts at `01_`.
 - Code follows STSA single‑source‑of‑truth policy (external repo for runnable code when appropriate).
 
@@ -228,7 +228,7 @@ Content quality should be measured by:
 **Next Review**: Every 3 months or when significant changes are made  
 **Maintained By**: Swamy's Tech Skills Academy Learning System
 
-Note: Prefer ASCII-first diagrams for universal preview. Mermaid diagrams may be included as an optional enhancement when an ASCII fallback is present.
+Note: Prefer ASCII-first diagrams for universal preview. Where feasible, include a Mermaid equivalent next to the ASCII fallback.
 
 ## 📝 Markdown Authoring & Linting Standards (STSA)
 
@@ -253,6 +253,7 @@ Follow these rules to keep Markdown clean, consistent, and lint-safe across the 
 Supported fence languages commonly used here:
 
 - text (ASCII diagrams)
+- mermaid (diagram DSL; include ASCII fallback)
 - bash (POSIX shell)
 - powershell (Windows pwsh)
 - json, yaml, python, ts, js, csharp
@@ -274,7 +275,7 @@ Example code fence with required blank lines:
 ### Diagrams
 
 - Provide ASCII-first diagrams using text code fences
-- Optional: add Mermaid only if an ASCII fallback is present
+- Also include a Mermaid version where feasible; ensure an ASCII fallback is present
 
 ### Pre-publish lint checklist
 
@@ -282,6 +283,7 @@ Example code fence with required blank lines:
 - All fenced code blocks have a language
 - Headings/lists/code fences separated by blank lines
 - Preview in VS Code Markdown preview to check rendering
+- For diagrams: verify both ASCII and Mermaid render correctly; ensure ASCII fallback is present
 
 ## 🧭 Code Single-Source-of-Truth Policy (STSA)
 
