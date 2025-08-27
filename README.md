@@ -636,6 +636,15 @@ npx --yes markdownlint-cli2 "README.md" "01_LeadArchitectKnowledgeBase/**/*.md" 
 
 This uses the repository's .markdownlint.json automatically.
 
+Shortcut on Windows (PowerShell):
+
+```powershell
+# Lint
+./tools/docs-lint.ps1
+# Or auto-fix where possible
+./tools/docs-lint.ps1 -Fix
+```
+
 ### Link check (Lychee)
 
 Run a quick local link check using Lychee (via Docker):
@@ -646,6 +655,16 @@ docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config 
 
 # Validate links (recommended; matches CI behavior)
 docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 04_LegacyContent/**/*.md 05_Todos/**/*.md .github/**/*.md
+```
+
+Shortcut on Windows (PowerShell):
+
+```powershell
+# Extract links only
+./tools/docs-links.ps1 -DumpOnly
+
+# Validate links (recommended)
+./tools/docs-links.ps1
 ```
 
 ### Manual Docs Quality Workflow

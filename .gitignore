@@ -399,3 +399,6 @@ FodyWeavers.xsd
 
 # .copilot_tmp files
 .copilot_tmp/
+
+# Learning Ground
+07_LearningGround/

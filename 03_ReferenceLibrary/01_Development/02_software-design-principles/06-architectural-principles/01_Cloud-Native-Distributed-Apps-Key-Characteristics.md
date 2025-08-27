@@ -4,6 +4,8 @@
 **Prerequisites**: Containers 101, basic DevOps/CI/CD, fundamentals of distributed systems
 **Estimated Time**: 30–45 minutes
 
+> Navigation: [Reference Library](../../../README.md) › [Development](../../README.md) › [Software Design Principles](../README.md) › [Architectural Principles](./README.md) › Cloud‑Native Characteristics
+
 ## 🎯 Learning Objectives
 
 By the end of this guide, you will be able to:
@@ -148,3 +150,7 @@ graph TB
 - 03_ReferenceLibrary → 01_Development → 02_software-design-principles → 07-architecture-patterns
 - 03_ReferenceLibrary → 01_Development → Containers & Kubernetes (when available)
 - 02_LearningJourney → Weekly plans that exercise cloud‑native deployments
+
+---
+
+[⬅ Back to Architectural Principles](./README.md)

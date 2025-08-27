@@ -77,6 +77,7 @@ This library provides a **structured progression** through essential software de
 - **Loose Coupling / High Cohesion**
 - **Dependency Inversion (System Level)**
 - **Scalability and Reliability Principles**
+- Cloud‑Native overview: [01_Cloud‑Native Distributed Apps: Key Characteristics](06-architectural-principles/01_Cloud-Native-Distributed-Apps-Key-Characteristics.md)
 
 #### **07. [Architecture Patterns](07-architecture-patterns/)**
 
@@ -198,5 +199,5 @@ After completing this learning system, you will:
 
 _**Software Design Principles** - Your comprehensive guide from fundamentals to architectural mastery._
 
-**Last Updated**: July 22, 2025  
+**Last Updated**: August 26, 2025  
 **Current Focus**: Structured learning progression for software design excellence

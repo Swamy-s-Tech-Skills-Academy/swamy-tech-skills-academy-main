@@ -2,7 +2,7 @@
 
 **Purpose**: Master navigation map across domains (Development, AI & ML, Data Science) with prerequisite flow.
 
-**Last Updated**: 2025-08-20
+**Last Updated**: 2025-08-26
 
 **Status**: Draft
 
@@ -56,7 +56,7 @@ end
 %% Row 3: Design & Architecture
 subgraph Row3[Design & Architecture]
        direction LR
-       DESP[Design Principles] --> DESD[Design Patterns] --> DESA[Architecture Patterns]
+       DESP[Design Principles] --> DESD[Design Patterns] --> DESA[Architecture Patterns] --> CNAT[Cloud‑Native Characteristics]
 end
 
 %% Row 4: AI & ML Path
@@ -77,6 +77,8 @@ LLM --> MCP --> AGT
 ## 📂 Domain Indices
 
 See each domain README plus forthcoming PATHWAY.md files.
+
+- Cloud‑Native overview (Development → Architectural Principles): [01_Development/02_software-design-principles/06-architectural-principles/01_Cloud-Native-Distributed-Apps-Key-Characteristics.md](01_Development/02_software-design-principles/06-architectural-principles/01_Cloud-Native-Distributed-Apps-Key-Characteristics.md)
 
 ## 🧵 Cross-Domain Threads
 

@@ -276,5 +276,11 @@ After mastering architectural principles:
 
 _These principles are the foundation of sound system architecture. They guide every major design decision and ensure your systems can grow, evolve, and remain reliable over time._
 
-**Last Updated**: July 23, 2025  
+**Last Updated**: August 26, 2025  
 **Current Focus**: System-level design principles for scalable, maintainable architecture
+
+---
+
+## 🔎 Discover
+
+- Cloud‑Native overview: [01_Cloud‑Native Distributed Apps: Key Characteristics](./01_Cloud-Native-Distributed-Apps-Key-Characteristics.md)
