@@ -680,3 +680,20 @@ Reason: Manual trigger accelerates iteration when adjusting large batches of lin
 ### Deprecation & Renumbering Policy Reference
 
 When content is renumbered (e.g., Agent modules) the old files become lightweight stubs that point to the canonical versions for 90–180 days. See the policy in `03_ReferenceLibrary/ORGANIZATION_GUIDE.md` (section: "Deprecation & Renumbering Policy"). Avoid adding new links to stub files; always point to the canonical module numbers.
+
+### Pre-commit guard (optional, recommended)
+
+Enable a local git hook that blocks adding files/folders starting with `00_` (use `01_` or later). From repo root:
+
+```powershell
+# One-time setup
+git config core.hooksPath .githooks
+
+# Now commits will fail if staged paths contain a 00_ segment
+```
+
+Details:
+
+- Hook path: `.githooks/pre-commit`
+- Windows uses PowerShell script: `tools/pre-commit.ps1`
+- Rule: 00_ allowed only for short-lived deprecation stubs
