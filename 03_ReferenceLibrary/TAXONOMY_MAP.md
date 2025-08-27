@@ -1,5 +1,9 @@
 # Reference Library Taxonomy Map
 
+> See also: [README](README.md) · [INDEX](INDEX.md) · [ORGANIZATION_GUIDE](ORGANIZATION_GUIDE.md)
+
+> When to edit this file: Add/rename canonical tags and concept codes. Don’t invent ad‑hoc tags in pages—define them here first.
+
 **Purpose**: Canonical concept classification + prerequisite layering.
 **Last Updated**: 2025-08-20
 **Status**: Draft

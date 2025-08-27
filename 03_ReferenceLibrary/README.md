@@ -1,5 +1,9 @@
 # 📚 Reference Library
 
+> See also: [INDEX](INDEX.md) · [ORGANIZATION_GUIDE](ORGANIZATION_GUIDE.md) · [TAXONOMY_MAP](TAXONOMY_MAP.md)
+
+> When to edit this file: Update scope, track overviews, and entry points. Do not duplicate dependency graphs (see INDEX) or contribution rules (see ORGANIZATION_GUIDE).
+
 ## Curated knowledge base for AI, Data Science, and Software Development
 
 ---

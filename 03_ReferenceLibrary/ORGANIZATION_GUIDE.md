@@ -1,5 +1,9 @@
 # 🏗️ Reference Library Organization & Domain Structure
 
+> See also: [README](README.md) · [INDEX](INDEX.md) · [TAXONOMY_MAP](TAXONOMY_MAP.md)
+
+> When to edit this file: Update structure rules, numbering, stub policy, and governance. Do not place navigation graphs here (see INDEX).
+
 ## Comprehensive mapping of AI ecosystem domains with clear boundaries and relationships
 
 ---
