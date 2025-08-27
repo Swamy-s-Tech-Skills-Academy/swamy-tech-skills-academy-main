@@ -631,7 +631,7 @@ Run Markdown lint against README and all docs before opening a PR:
 
 ```powershell
 # From repo root
-npx --yes markdownlint-cli2 "README.md" "01_LeadArchitectKnowledgeBase/**/*.md" "02_LearningJourney/**/*.md" "03_ReferenceLibrary/**/*.md" "04_LegacyContent/**/*.md" "05_Todos/**/*.md" ".github/**/*.md"
+npx --yes markdownlint-cli2 "README.md" "01_LeadArchitectKnowledgeBase/**/*.md" "02_LearningJourney/**/*.md" "03_ReferenceLibrary/**/*.md" "04_LegacyContent/**/*.md" "05_Todos/**/*.md" "06_AuditFiles/**/*.md" ".github/**/*.md"
 ```
 
 This uses the repository's .markdownlint.json automatically.
@@ -651,10 +651,10 @@ Run a quick local link check using Lychee (via Docker):
 
 ```powershell
 # Extract links only (does not validate)
-docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress --dump README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 04_LegacyContent/**/*.md 05_Todos/**/*.md .github/**/*.md
+docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress --dump README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 04_LegacyContent/**/*.md 05_Todos/**/*.md 06_AuditFiles/**/*.md .github/**/*.md
 
 # Validate links (recommended; matches CI behavior)
-docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 04_LegacyContent/**/*.md 05_Todos/**/*.md .github/**/*.md
+docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 04_LegacyContent/**/*.md 05_Todos/**/*.md 06_AuditFiles/**/*.md .github/**/*.md
 ```
 
 Shortcut on Windows (PowerShell):

@@ -10,6 +10,7 @@ $patterns = @(
     '03_ReferenceLibrary/**/*.md',
     '04_LegacyContent/**/*.md',
     '05_Todos/**/*.md',
+    '06_AuditFiles/**/*.md',
     '.github/**/*.md'
 )
 
