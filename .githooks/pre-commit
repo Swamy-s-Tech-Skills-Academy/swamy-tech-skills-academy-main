@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Prefer PowerShell implementation if available for Windows users
+if command -v pwsh >/dev/null 2>&1; then
+  pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -File "./tools/pre-commit.ps1"
+  exit $?
+fi
+
+# Fallback: bash-only check for added/renamed files with segments starting with 00_
+files=$(git diff --cached --name-only --diff-filter=ARCM)
+if echo "$files" | grep -E '(^|/|\\)00_[^/\\]+' >/dev/null; then
+  echo "✖ pre-commit: Files or folders starting with 00_ are not allowed. Use 01_ or later." >&2
+  echo "  Offending:" >&2
+  echo "$files" | grep -E '(^|/|\\)00_[^/\\]+' >&2
+  exit 1
+fi
+
+exit 0

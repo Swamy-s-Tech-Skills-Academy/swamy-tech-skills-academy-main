@@ -1,27 +1,10 @@
-# 🗓️ Daily Learning Log (60 minutes)
+# Deprecated: Daily Learning Log template (00_)
 
-## 🎯 Today’s focus (one sentence)
+This template has moved. Use the canonical version instead:
 
-## ⏱️ Timebox plan (total ~60 min)
+- 01_Templates/Daily-Learning-Log.md
 
-- Discover (10–15m): resource(s) you’ll skim
-- Do (35–45m): tiny, concrete deliverable
-- Document (5–10m): capture what you learned (notes/code)
+Notes:
 
-## 📦 Deliverable (one tiny artifact)
-
-- [ ] Name it (e.g., “Python list slicing examples”)
-
-## 🔎 Evidence (links/paths)
-
-- Code: [path]
-- Notes: [path]
-- Screenshot (optional): [path]
-
-## 🧠 Notes / blockers
-
-## ➡️ Next step (tomorrow)
-
-## 🏷️ Tags
-
-`#topic` `#language` `#level` (e.g., #python #oop #beginner)
+- Update any personal links to point to the 01_ path.
+- This stub will be removed after link cleanup.

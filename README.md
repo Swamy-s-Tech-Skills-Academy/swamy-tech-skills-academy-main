@@ -631,7 +631,7 @@ Run Markdown lint against README and all docs before opening a PR:
 
 ```powershell
 # From repo root
-npx --yes markdownlint-cli2 "README.md" "01_LeadArchitectKnowledgeBase/**/*.md" "02_LearningJourney/**/*.md" "03_ReferenceLibrary/**/*.md" "04_LegacyContent/**/*.md" "05_Todos/**/*.md" ".github/**/*.md"
+npx --yes markdownlint-cli2 "README.md" "01_LeadArchitectKnowledgeBase/**/*.md" "02_LearningJourney/**/*.md" "03_ReferenceLibrary/**/*.md" "04_LegacyContent/**/*.md" "05_Todos/**/*.md" "06_AuditFiles/**/*.md" ".github/**/*.md"
 ```
 
 This uses the repository's .markdownlint.json automatically.
@@ -651,10 +651,10 @@ Run a quick local link check using Lychee (via Docker):
 
 ```powershell
 # Extract links only (does not validate)
-docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress --dump README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 04_LegacyContent/**/*.md 05_Todos/**/*.md .github/**/*.md
+docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress --dump README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 04_LegacyContent/**/*.md 05_Todos/**/*.md 06_AuditFiles/**/*.md .github/**/*.md
 
 # Validate links (recommended; matches CI behavior)
-docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 04_LegacyContent/**/*.md 05_Todos/**/*.md .github/**/*.md
+docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 04_LegacyContent/**/*.md 05_Todos/**/*.md 06_AuditFiles/**/*.md .github/**/*.md
 ```
 
 Shortcut on Windows (PowerShell):
@@ -680,3 +680,20 @@ Reason: Manual trigger accelerates iteration when adjusting large batches of lin
 ### Deprecation & Renumbering Policy Reference
 
 When content is renumbered (e.g., Agent modules) the old files become lightweight stubs that point to the canonical versions for 90–180 days. See the policy in `03_ReferenceLibrary/ORGANIZATION_GUIDE.md` (section: "Deprecation & Renumbering Policy"). Avoid adding new links to stub files; always point to the canonical module numbers.
+
+### Pre-commit guard (optional, recommended)
+
+Enable a local git hook that blocks adding files/folders starting with `00_` (use `01_` or later). From repo root:
+
+```powershell
+# One-time setup
+git config core.hooksPath .githooks
+
+# Now commits will fail if staged paths contain a 00_ segment
+```
+
+Details:
+
+- Hook path: `.githooks/pre-commit`
+- Windows uses PowerShell script: `tools/pre-commit.ps1`
+- Rule: 00_ allowed only for short-lived deprecation stubs

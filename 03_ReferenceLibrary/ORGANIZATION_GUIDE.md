@@ -1,5 +1,9 @@
 # 🏗️ Reference Library Organization & Domain Structure
 
+> See also: [README](README.md) · [INDEX](INDEX.md) · [TAXONOMY_MAP](TAXONOMY_MAP.md)
+
+> When to edit this file: Update structure rules, numbering, stub policy, and governance. Do not place navigation graphs here (see INDEX).
+
 ## Comprehensive mapping of AI ecosystem domains with clear boundaries and relationships
 
 ---
@@ -9,6 +13,18 @@
 Our reference library follows the **interconnected domain model** where each folder represents a distinct field while maintaining clear relationships with related domains. This structure reflects the reality that modern AI solutions typically combine multiple domains.
 
 ---
+
+## ✅ Numbering Rules
+
+- Start numbering at `01_` for files and folders (avoid `00_` except temporary deprecation stubs).
+- Preserve existing numbers when possible; use deprecation stubs during transitions.
+- Keep numbers stable to avoid link churn; batch renames when necessary.
+
+## 🚫 Anti‑patterns to avoid
+
+- Don’t put contribution rules in README—keep them here and link from README.
+- Don’t duplicate the dependency graph in README—keep it in `INDEX.md` and reference it.
+- Don’t invent ad‑hoc tags in pages—add them to `TAXONOMY_MAP.md` first and then use.
 
 ## 📁 Domain Structure & Relationships
 
