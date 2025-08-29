@@ -89,7 +89,7 @@ graph LR
     subgraph "📚 Current Learning Path"
         NLP[04_NaturalLanguageProcessing<br/>Theory & Algorithms]
         LLM[05_LargeLanguageModels<br/>Scale & Performance]
-        AGENT[06_AI-Agents<br/>Autonomous Systems]
+        AGENT[07_AI-Agents<br/>Autonomous Systems]
     end
     
     subgraph "🎯 Skills Development"

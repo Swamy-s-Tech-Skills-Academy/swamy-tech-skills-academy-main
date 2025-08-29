@@ -56,7 +56,7 @@ This practical module will cover:
 
 - **[05_Agent-Development-Fundamentals.md](05_Agent-Development-Fundamentals.md)** - Agent building experience
 - **[../06_MCP-Servers/](../06_MCP-Servers/)** - Production integration patterns
-- **[../../07_DevOps/](../../07_DevOps/)** - DevOps and deployment fundamentals
+- **[../../04_DevOps/](../../04_DevOps/)** - DevOps and deployment fundamentals
 
 ### **Advanced Integration**
 

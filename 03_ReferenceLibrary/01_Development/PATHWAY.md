@@ -11,7 +11,7 @@
 ```text
 [01_Python] → [02_software-design-principles] → [04_Git-Version-Control]
                  ↘                                   ↘
-                   [03_CSharp]                         [07_DevOps (cross-track)]
+                   [03_CSharp]                         [04_DevOps (cross-track)]
 ```
 
 ## Modules
