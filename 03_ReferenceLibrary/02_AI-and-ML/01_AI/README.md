@@ -52,6 +52,12 @@
   - Specialized domain tracks (NLP, Computer Vision, Robotics)
   - Learning path recommendations by skill level
 
+- `08_Foundation-Models-Architecture.md` - Multi-modal foundation models and adaptation patterns
+  - Training → Adaptation → Task specialization pipeline
+  - Multi-modal input processing (text, images, speech, structured data)
+  - Foundation model architecture principles and transformer connections
+  - Practical applications mapping and implementation guidance
+
 ---
 
 ## 🎯 Purpose
