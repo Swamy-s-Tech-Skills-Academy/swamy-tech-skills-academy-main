@@ -105,6 +105,7 @@ See each domain README plus forthcoming PATHWAY.md files.
 - Missing Git modules (Undo, Branching, Rewriting, Automation)
 - LLM lifecycle (Evaluation, Retrieval Pipeline, Prompt Patterns)
 - Data Science methodology overview
+- Multi-modal AI and foundation model architectures
 
 ## ✅ Immediate Priorities (P0/P1)
 
