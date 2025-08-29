@@ -1,8 +1,8 @@
 # Reference Library Index
 
-> See also: [README](README.md) · [ORGANIZATION_GUIDE](ORGANIZATION_GUIDE.md) · [TAXONOMY_MAP](TAXONOMY_MAP.md)
+> See also: [03_README](03_README.md) · [02_ORGANIZATION_GUIDE](02_ORGANIZATION_GUIDE.md) · [04_TAXONOMY_MAP](04_TAXONOMY_MAP.md)
 
-> When to edit this file: Update navigation, dependency flows, cross-links, gaps, and priorities. Keep contribution rules in ORGANIZATION_GUIDE.
+> When to edit this file: Update navigation, dependency flows, cross-links, gaps, and priorities. Keep contribution rules in 02_ORGANIZATION_GUIDE.
 
 **Purpose**: Master navigation map across domains (Development, AI & ML, Data Science) with prerequisite flow.
 
