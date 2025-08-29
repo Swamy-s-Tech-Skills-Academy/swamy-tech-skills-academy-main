@@ -646,7 +646,7 @@ class AgenticAISafetyFramework:
 
 **Based on**: Industry best practices and emerging Agentic AI roadmap 2025  
 **Status**: Comprehensive Advanced Guide  
-**Last Updated**: August 7, 2025
+**Last Updated**: August 29, 2025
 
 ---
 
