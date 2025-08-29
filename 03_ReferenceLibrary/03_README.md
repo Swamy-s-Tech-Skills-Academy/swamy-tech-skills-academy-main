@@ -1,8 +1,8 @@
 # 📚 Reference Library
 
-> See also: [INDEX](INDEX.md) · [ORGANIZATION_GUIDE](ORGANIZATION_GUIDE.md) · [TAXONOMY_MAP](TAXONOMY_MAP.md)
+> See also: [01_INDEX](01_INDEX.md) · [02_ORGANIZATION_GUIDE](02_ORGANIZATION_GUIDE.md) · [04_TAXONOMY_MAP](04_TAXONOMY_MAP.md)
 
-> When to edit this file: Update scope, track overviews, and entry points. Do not duplicate dependency graphs (see INDEX) or contribution rules (see ORGANIZATION_GUIDE).
+> When to edit this file: Update scope, track overviews, and entry points. Do not duplicate dependency graphs (see 01_INDEX) or contribution rules (see 02_ORGANIZATION_GUIDE).
 
 ## Curated knowledge base for AI, Data Science, and Software Development
 
@@ -85,8 +85,8 @@ Perfect for: Software engineers, system architects, and anyone building technica
 
 ### Library Maps
 
-- Reference Index: **[INDEX.md](INDEX.md)**
-- Taxonomy Map: **[TAXONOMY_MAP.md](TAXONOMY_MAP.md)**
+- Reference Index: **[01_INDEX.md](01_INDEX.md)**
+- Taxonomy Map: **[04_TAXONOMY_MAP.md](04_TAXONOMY_MAP.md)**
 
 ### Key Resources
 
@@ -96,7 +96,7 @@ Perfect for: Software engineers, system architects, and anyone building technica
 - **LLM Foundation**: **[02_AI-and-ML/05_LargeLanguageModels/README.md](02_AI-and-ML/05_LargeLanguageModels/README.md)**
 - **MCP Integration Guide**: **[02_AI-and-ML/06_MCP-Servers/01_MCP-Fundamentals.md](02_AI-and-ML/06_MCP-Servers/01_MCP-Fundamentals.md)**
 - **Agentic AI Roadmap**: **[02_AI-and-ML/07_AI-Agents/01_Agentic-AI-Learning-Roadmap.md](02_AI-and-ML/07_AI-Agents/01_Agentic-AI-Learning-Roadmap.md)**
-- **Organization Guide**: **[ORGANIZATION_GUIDE.md](ORGANIZATION_GUIDE.md)**
+- **Organization Guide**: **[02_ORGANIZATION_GUIDE.md](02_ORGANIZATION_GUIDE.md)**
 - **Cloud‑Native Overview**: **[01_Development/02_software-design-principles/06-architectural-principles/01_Cloud-Native-Distributed-Apps-Key-Characteristics.md](01_Development/02_software-design-principles/06-architectural-principles/01_Cloud-Native-Distributed-Apps-Key-Characteristics.md)**
 
 ### **🔍 Find Content**
@@ -116,7 +116,7 @@ Link back to the strategic guardrails and reference architectures when needed:
 
 ---
 
-**📅 Last Updated**: August 26, 2025  
+**📅 Last Updated**: August 29, 2025  
 **🎯 Purpose**: Comprehensive learning tracks for AI, Data Science, and Development  
 **📍 Structure**: 3 focused tracks with interconnected domains and clear learning paths
 

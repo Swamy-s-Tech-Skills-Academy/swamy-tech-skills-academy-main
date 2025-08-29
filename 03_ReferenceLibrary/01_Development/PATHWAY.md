@@ -33,5 +33,5 @@
 
 ## Related Maps
 
-- Reference Index: `../INDEX.md`
-- Taxonomy Map: `../TAXONOMY_MAP.md`
+- Reference Index: `../01_INDEX.md`
+- Taxonomy Map: `../04_TAXONOMY_MAP.md`

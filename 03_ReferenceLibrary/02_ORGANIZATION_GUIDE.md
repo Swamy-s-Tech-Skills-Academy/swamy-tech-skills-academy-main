@@ -1,4 +1,6 @@
-# 🏗️ Reference Library Organization & Domain Structure
+# 🏗️ Reference Library O- Don't duplicate the dependency graph in README—keep it in `01_INDEX.md` and reference it
+
+- Don't invent ad‑hoc tags in pages—add them to `04_TAXONOMY_MAP.md` first and then use.anization & Domain Structure
 
 > See also: [03_README](03_README.md) · [01_INDEX](01_INDEX.md) · [04_TAXONOMY_MAP](04_TAXONOMY_MAP.md)
 
