@@ -1,4 +1,4 @@
-# 03_Text-Classification
+# 05_Text-Classification
 
 Learning Level: Beginner → Intermediate  
 Prerequisites: Text representation (one-hot/BoW/TF-IDF/embeddings)  

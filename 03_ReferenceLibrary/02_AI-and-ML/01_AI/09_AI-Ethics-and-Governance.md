@@ -1,4 +1,4 @@
-# 03_AI-Ethics-and-Governance
+# 09_AI-Ethics-and-Governance
 
 **Learning Level**: Beginner to Advanced  
 **Prerequisites**: Basic understanding of AI concepts  
