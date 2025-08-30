@@ -622,7 +622,7 @@ class AgenticAISafetyFramework:
 
 - **[../06_MCP-Servers/](../06_MCP-Servers/)** - Tool integration and external system connectivity
 - **[../../03_Data-Science/](../../03_Data-Science/)** - Knowledge management and analytics
-- **[../../07_DevOps/](../../07_DevOps/)** - Production deployment and monitoring
+- **[../../04_DevOps/](../../04_DevOps/)** - Production deployment and monitoring
 
 ### **Advanced Applications**
 
@@ -646,7 +646,7 @@ class AgenticAISafetyFramework:
 
 **Based on**: Industry best practices and emerging Agentic AI roadmap 2025  
 **Status**: Comprehensive Advanced Guide  
-**Last Updated**: August 7, 2025
+**Last Updated**: August 29, 2025
 
 ---
 

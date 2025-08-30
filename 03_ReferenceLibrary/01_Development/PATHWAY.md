@@ -11,7 +11,7 @@
 ```text
 [01_Python] → [02_software-design-principles] → [04_Git-Version-Control]
                  ↘                                   ↘
-                   [03_CSharp]                         [07_DevOps (cross-track)]
+                   [03_CSharp]                         [04_DevOps (cross-track)]
 ```
 
 ## Modules
@@ -33,5 +33,5 @@
 
 ## Related Maps
 
-- Reference Index: `../INDEX.md`
-- Taxonomy Map: `../TAXONOMY_MAP.md`
+- Reference Index: `../01_INDEX.md`
+- Taxonomy Map: `../04_TAXONOMY_MAP.md`

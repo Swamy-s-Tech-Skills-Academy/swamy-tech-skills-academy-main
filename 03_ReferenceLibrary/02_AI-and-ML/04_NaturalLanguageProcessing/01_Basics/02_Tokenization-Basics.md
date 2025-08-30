@@ -1,4 +1,4 @@
-# 01_Tokenization
+# 02_Tokenization-Basics
 
 Learning Level: Beginner  
 Prerequisites: Basic Python strings  

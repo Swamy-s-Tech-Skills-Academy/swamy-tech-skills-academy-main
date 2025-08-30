@@ -1,11 +1,21 @@
 # Reference Library Taxonomy Map
 
+> See also: [03_README](03_README.md) · [01_INDEX](01_INDEX.md) · [02_ORGANIZATION_GUIDE](02_ORGANIZATION_GUIDE.md)
+
+> When to edit this file: Add/rename canonical tags and concept codes. Don't invent ad‑hoc tags in pages—define them here first.
+
+**Purpose**: Canonical concept classification + prerequisite layering. Library Taxonomy Map
+
+> See also: [03_README](03_README.md) · [01_INDEX](01_INDEX.md) · [02_ORGANIZATION_GUIDE](02_ORGANIZATION_GUIDE.md)
+
+> When to edit this file: Add/rename canonical tags and concept codes. Don't invent ad‑hoc tags in pages—define them here first.erence Library Taxonomy Map
+
 > See also: [README](README.md) · [INDEX](INDEX.md) · [ORGANIZATION_GUIDE](ORGANIZATION_GUIDE.md)
 
 > When to edit this file: Add/rename canonical tags and concept codes. Don’t invent ad‑hoc tags in pages—define them here first.
 
 **Purpose**: Canonical concept classification + prerequisite layering.
-**Last Updated**: 2025-08-20
+**Last Updated**: 2025-08-29
 **Status**: Draft
 
 ## Legend
@@ -71,4 +81,4 @@
 
 1. Add row → create stub file with matching code in header.
 2. Ensure forward/backward links.
-3. Increment progress dashboard in `INDEX.md`.
+3. Increment progress dashboard in `01_INDEX.md`.

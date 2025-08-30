@@ -1,4 +1,4 @@
-# LLMs, Generative AI, AI Agents, and Agentic AI — A Practical Comparative Guide
+# 10_LLM-GenAI-Agents-AgenticAI-Comparative-Guide
 
 Learning Level: Intermediate  
 Prerequisites: Basics of transformers and LLMs, prompt engineering fundamentals  

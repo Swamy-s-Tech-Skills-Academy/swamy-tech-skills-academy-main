@@ -679,7 +679,7 @@ Reason: Manual trigger accelerates iteration when adjusting large batches of lin
 
 ### Deprecation & Renumbering Policy Reference
 
-When content is renumbered (e.g., Agent modules) the old files become lightweight stubs that point to the canonical versions for 90–180 days. See the policy in `03_ReferenceLibrary/ORGANIZATION_GUIDE.md` (section: "Deprecation & Renumbering Policy"). Avoid adding new links to stub files; always point to the canonical module numbers.
+When content is renumbered (e.g., Agent modules) the old files become lightweight stubs that point to the canonical versions for 90–180 days. See the policy in `03_ReferenceLibrary/02_ORGANIZATION_GUIDE.md` (section: "Deprecation & Renumbering Policy"). Avoid adding new links to stub files; always point to the canonical module numbers.
 
 ### Pre-commit guard (optional, recommended)
 

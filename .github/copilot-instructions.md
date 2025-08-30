@@ -117,6 +117,7 @@ When provided with reference materials from books, websites, articles, video cou
 - ASCII diagram provided; also include a Mermaid equivalent where feasible with an ASCII fallback.
 - Internal links checked; numbering starts at `01_`.
 - Code follows STSA single‑source‑of‑truth policy (external repo for runnable code when appropriate).
+- **Post-update verification**: Run markdownlint and lychee checks after any documentation changes.
 
 ## 🔗 Integration Requirements
 
@@ -215,6 +216,53 @@ Before finalizing any content, ask:
 - [ ] STSA metadata present and accurate
 - [ ] Related Topics wired and links valid
 - [ ] Numbering and casing consistent
+- [ ] Markdownlint passes without errors
+- [ ] Lychee link checker shows no broken links
+
+### **Post-Update Verification Protocol**
+
+After creating or updating any documentation content, **always** run these verification tools:
+
+#### 1. Markdownlint Check
+
+```powershell
+# Run markdownlint on specific file
+npx markdownlint-cli2 "path/to/file.md"
+
+# Run on entire ReferenceLibrary
+npx markdownlint-cli2 "03_ReferenceLibrary/**/*.md"
+
+# Run on entire repository
+npx markdownlint-cli2 "**/*.md"
+```
+
+#### 2. Lychee Link Validation
+
+```powershell
+# Check specific file for broken links
+lychee "path/to/file.md"
+
+# Check entire ReferenceLibrary
+lychee "03_ReferenceLibrary/**/*.md"
+
+# Use repository config (recommended)
+lychee --config lychee.toml .
+```
+
+#### 3. Fix Common Issues
+
+- **MD010**: Remove hard tabs, use spaces only
+- **MD007**: Fix list indentation (2 spaces per level)
+- **MD040**: Add language to fenced code blocks
+- **MD022/MD031/MD032**: Add blank lines around headings, lists, code blocks
+- **Broken links**: Update URLs, fix internal references, check file paths
+
+#### 4. Required Actions
+
+- Fix all markdownlint errors before committing
+- Investigate and resolve any broken links found by lychee
+- Re-run checks after fixes to ensure clean results
+- Document any intentional exceptions (e.g., placeholder links)
 
 ### **Continuous Improvement**
 
@@ -224,7 +272,7 @@ Content quality should be measured by:
 
 **🎯 Remember**: The goal is not to reproduce existing content, but to create superior educational experiences that help learners master complex technical concepts through structured, progressive learning paths.
 
-**Last Review**: August 26, 2025  
+**Last Review**: August 29, 2025  
 **Next Review**: Every 3 months or when significant changes are made  
 **Maintained By**: Swamy's Tech Skills Academy Learning System
 
@@ -284,6 +332,7 @@ Example code fence with required blank lines:
 - Headings/lists/code fences separated by blank lines
 - Preview in VS Code Markdown preview to check rendering
 - For diagrams: verify both ASCII and Mermaid render correctly; ensure ASCII fallback is present
+- **Post-update verification**: Run markdownlint and lychee checks after any documentation changes
 
 ## 🧭 Code Single-Source-of-Truth Policy (STSA)
 

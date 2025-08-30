@@ -5,7 +5,7 @@ Temporary, author-facing content audits and migration plans. Not learner-facing;
 - Keep active audits here (30–90 days typical)
 - Prefer a single current audit file; supersede older with a short stub
 - When done:
-  - Move durable guidance into `03_ReferenceLibrary/ORGANIZATION_GUIDE.md`
+  - Move durable guidance into `03_ReferenceLibrary/02_ORGANIZATION_GUIDE.md`
   - Convert task lists to GitHub issues or `05_Todos/`
   - Archive any historical notes under `04_LegacyContent/_Backup/`
 

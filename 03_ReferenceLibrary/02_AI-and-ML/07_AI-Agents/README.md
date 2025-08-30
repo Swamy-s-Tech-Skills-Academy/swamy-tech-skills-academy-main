@@ -367,6 +367,6 @@ You'll gain deep insight into:
 
 ---
 
-**Last Updated**: August 10, 2025  
+**Last Updated**: August 29, 2025  
 **Maintained By**: Swamy's Tech Skills Academy  
 **Next Review**: November 2025

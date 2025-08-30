@@ -1,4 +1,4 @@
-# 02_Bag-of-Words
+# 03_Bag-of-Words
 
 Learning Level: Beginner  
 Prerequisites: Tokenization  
