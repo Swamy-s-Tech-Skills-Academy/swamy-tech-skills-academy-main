@@ -10,7 +10,49 @@ This library provides a **structured progression** through essential software de
 
 ---
 
-## 📚 **Learning Path Structure**
+## � **NEW: Multi-Language Learning Tracks**
+
+### **🎓 Foundation Learning Tracks (Following Your Proven Daily Pattern)**
+
+#### **[01_OOP-Foundation-Track.md](01_OOP-Foundation-Track.md)** - 3-4 Weeks
+
+**Object-Oriented Programming Mastery (Generic, C#, Python)**
+
+- Week 1: Generic concepts (Universal principles)
+- Week 2: C# implementation (Type-safe enterprise)
+- Week 3: Python implementation (Dynamic flexibility)
+- Week 4: Cross-language comparison & mastery
+
+#### **[02_SOLID-Principles-Track.md](02_SOLID-Principles-Track.md)** - 2-3 Weeks
+
+**Design Principles Mastery (Generic, C#, Python)**
+
+- Week 1: Core SOLID principles understanding
+- Week 2: Language-specific implementations
+- Week 3: Advanced application & refactoring
+
+#### **[03_Design-Patterns-Track.md](03_Design-Patterns-Track.md)** - 4-5 Weeks
+
+**Gang of Four Patterns (Generic, C#, Python)**
+
+- Week 1: Creational patterns
+- Week 2: Structural patterns
+- Week 3: Behavioral patterns (Core)
+- Week 4: Behavioral patterns (Advanced)
+- Week 5: Pattern integration & real-world application
+
+#### **[00_Daily-Learning-Template.md](00_Daily-Learning-Template.md)** - Learning Support
+
+**Daily Learning Template Following Your Proven System**
+
+- 1-hour daily capture-only approach
+- Evidence-based learning with implementation
+- Progressive scaffolding across languages
+- Links to your existing learning infrastructure
+
+---
+
+## �📚 **Legacy Learning Path Structure** (Reference Library)
 
 ### **🔢 Foundation Phase**
 
