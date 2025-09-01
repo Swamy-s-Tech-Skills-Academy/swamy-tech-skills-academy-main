@@ -11,7 +11,7 @@
 You've already proven this works with your NLP learning:
 
 ```text
-✅ Daily 1-hour sessions
+✅ Daily 30-minute sessions
 ✅ Capture-only approach (no heavy planning)
 ✅ Real implementations with evidence
 ✅ External repo for runnable code
@@ -31,9 +31,9 @@ Let's apply this exact pattern to Software Design Principles!
 
 **Your Daily Pattern**:
 
-1. **Today (Aug 30)**: Read `01_OOP-Foundation-Track.md` → Start Day 1 (Encapsulation)
-2. **Create daily note**: `02_LearningJourney/Notes/2025-08-30.md`
-3. **Build one simple example**: Bank account with proper encapsulation
+1. **Today (Aug 31)**: Read `01_OOP-Foundation-Track.md` → Start Day 1 (Encapsulation)
+2. **Create daily note**: `02_LearningJourney/Notes/2025-08-31.md`
+3. **Build one simple example**: Bank account with proper encapsulation (30 minutes)
 4. **Capture in your notes**: What you learned, code snippet, insights
 5. **Set tomorrow's focus**: Inheritance concepts
 
@@ -167,7 +167,7 @@ Your daily notes should link to:
 
 ### **Daily Success** ✓
 
-- [ ] 1-hour focused learning session
+- [ ] 30-minute focused learning session
 - [ ] Real code implementation
 - [ ] Daily note with evidence
 - [ ] Clear tomorrow's focus

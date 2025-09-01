@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Use this template for daily 1-hour learning sessions following your proven capture-only approach.
+Use this template for daily 30-minute learning sessions following your proven capture-only approach.
 
 ---
 

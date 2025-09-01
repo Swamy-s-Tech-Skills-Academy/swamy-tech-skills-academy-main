@@ -78,8 +78,9 @@ When provided with reference materials from books, websites, articles, video cou
 
 ### **Numbering Convention**
 
-- Use zero‑padded numeric prefixes starting at `01_` for folders and files.
-- Avoid `00_` except briefly during migrations; replace with `01_` and update links promptly.
+- **ALWAYS** use zero‑padded numeric prefixes starting at `01_` for folders and files.
+- **NEVER** use `00_` prefixes - all content should start with `01_` or higher.
+- If `00_` prefixes exist, they must be immediately renamed to `01_` and all internal links updated.
 - Keep numbering stable; if reordering is needed, add a new number rather than renumbering widely.
 
 ## 🎓 Learning-Centered Approach
