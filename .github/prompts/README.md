@@ -8,7 +8,7 @@ This directory contains specialized prompts for different aspects of the Swamy's
 
 ### **🎯 [daily-learning-assistant.md](daily-learning-assistant.md)**
 
-**Purpose**: Support daily 1-hour learning sessions following the proven capture-only approach
+**Purpose**: Support daily 30-minute learning sessions following the proven capture-only approach
 
 **Use Cases**:
 
@@ -19,7 +19,7 @@ This directory contains specialized prompts for different aspects of the Swamy's
 
 **Key Features**:
 
-- Supports proven 1-hour daily pattern
+- Supports proven 30-minute daily pattern
 - Evidence-based learning approach
 - Integration with existing learning infrastructure
 - Multi-language progression (Generic → C# → Python)
@@ -77,6 +77,60 @@ This directory contains specialized prompts for different aspects of the Swamy's
 - Educational architecture design
 - Multi-language implementation strategies
 - Pattern selection guidance
+
+### **🔧 [workspace-maintenance-assistant.md](workspace-maintenance-assistant.md)**
+
+**Purpose**: Maintain and optimize the STSA workspace for consistent quality and structure
+
+**Use Cases**:
+
+- Identifying and fixing numbering convention violations
+- Ensuring link integrity across the repository
+- Validating markdown formatting and standards
+- Monitoring repository health and structure
+
+**Key Features**:
+
+- Automated workspace health checks
+- 00_ prefix violation detection and remediation
+- Link validation and maintenance protocols
+- Content quality assurance processes
+
+### **🎯 [learning-assessment-assistant.md](learning-assessment-assistant.md)**
+
+**Purpose**: Evaluate learning progress and provide evidence-based feedback
+
+**Use Cases**:
+
+- Assessing daily and weekly learning progress
+- Providing constructive feedback on implementations
+- Tracking competency development across domains
+- Creating personalized learning recommendations
+
+**Key Features**:
+
+- Evidence-based assessment methodology
+- Multi-domain competency evaluation
+- Constructive feedback frameworks
+- Progress tracking and reporting
+
+### **🌍 [cross-domain-integration-assistant.md](cross-domain-integration-assistant.md)**
+
+**Purpose**: Facilitate knowledge integration across Development, AI/ML, and Data Science domains
+
+**Use Cases**:
+
+- Connecting concepts across different technical domains
+- Designing projects that require multi-domain expertise
+- Developing systems-level thinking and architecture skills
+- Building comprehensive technical competency
+
+**Key Features**:
+
+- Cross-domain concept mapping
+- Integration methodology frameworks
+- Real-world application scenarios
+- Holistic technical skill development
 
 ## How to Use These Prompts
 

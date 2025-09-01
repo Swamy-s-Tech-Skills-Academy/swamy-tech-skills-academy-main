@@ -1,7 +1,7 @@
 # GitHub Copilot Instructions for STSA Knowledge Base
 
 **Version**: 1.0  
-**Last Updated**: August 26, 2025  
+**Last Updated**: September 1, 2025  
 **Scope**: Swamy's Tech Skills Academy Learning System
 
 ## 🎯 Primary Directive
@@ -343,3 +343,36 @@ Example code fence with required blank lines:
 - Capture-only notes (LearningJourney/Notes)
 - On user request, generate minimal runnable code and (preferred) create or use a new external GitHub repo for that concept/date; then link to it.
 - Only place code in this repo if explicitly asked. Mark it as temporary, and when an external repo is created later, migrate the code and update links; remove the local duplicate.
+
+## 🚨 Critical Workspace Maintenance Tasks
+
+### **Immediate Actions Required**
+
+1. **00\_ Prefix Violations**: The following files/folders violate numbering convention and must be renamed:
+
+   - `02_LearningJourney/00_Templates` → `02_LearningJourney/01_Templates`
+   - `03_ReferenceLibrary/01_Development/02_software-design-principles/00_Daily-Learning-Template.md` → `01_Daily-Learning-Template.md`
+   - `03_ReferenceLibrary/01_Development/02_software-design-principles/00_LEARNING-SYSTEM-OVERVIEW.md` → `01_LEARNING-SYSTEM-OVERVIEW.md`
+   - `06_AuditFiles/00_Content-Audit-2025-08-11.md` → `01_Content-Audit-2025-08-11.md`
+
+2. **Link Updates Required**: After renaming, update all internal links to reflect new paths
+
+3. **Workspace Integrity Check**: Run markdownlint and lychee validation after changes
+
+### **Quality Assurance Protocol**
+
+Before any major changes:
+
+1. **Backup Check**: Ensure git commits are up to date
+2. **Link Validation**: Run `lychee --config lychee.toml .` to check for broken links
+3. **Markdown Lint**: Run `npx markdownlint-cli2 "**/*.md"` for formatting consistency
+4. **Numbering Audit**: Verify no new 00\_ prefixes are introduced
+
+## 🎯 Repository Health Monitoring
+
+### **Regular Maintenance Tasks**
+
+- **Weekly**: Check for new 00\_ prefix violations
+- **Monthly**: Full link validation with lychee
+- **Quarterly**: Comprehensive markdown lint review
+- **As needed**: Update prompts based on learning system evolution

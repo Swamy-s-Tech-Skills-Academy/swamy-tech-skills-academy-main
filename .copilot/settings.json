@@ -15,29 +15,40 @@
             "01_LeadArchitectKnowledgeBase/**/*.md",
             "02_LearningJourney/**/*.md",
             "03_ReferenceLibrary/**/*.md",
-            "04_LegacyContent/**/*.md",
             "05_Todos/**/*.md",
+            "06_AuditFiles/**/*.md",
+            "07_LearningGround/**/*.md",
             ".github/**/*.md"
         ],
         "exclude": [
-            "04_LegacyContent/_Backup/**",
+            "04_LegacyContent/**",
             "**/node_modules/**",
             "**/.venv/**",
-            "**/.vscode/**"
+            "**/.vscode/**",
+            "**/.git/**",
+            "**/.copilot_tmp/**"
         ]
     },
     "commands": {
         "docs:lint": {
-            "run": "npx --yes markdownlint-cli2 \"README.md\" \"01_LeadArchitectKnowledgeBase/**/*.md\" \"02_LearningJourney/**/*.md\" \"03_ReferenceLibrary/**/*.md\" \"04_LegacyContent/**/*.md\" \"05_Todos/**/*.md\" \".github/**/*.md\"",
+            "run": "npx --yes markdownlint-cli2 \"README.md\" \"01_LeadArchitectKnowledgeBase/**/*.md\" \"02_LearningJourney/**/*.md\" \"03_ReferenceLibrary/**/*.md\" \"05_Todos/**/*.md\" \"06_AuditFiles/**/*.md\" \"07_LearningGround/**/*.md\" \".github/**/*.md\"",
             "description": "Run Markdown lint for all docs"
         },
         "links:dump": {
-            "run": "docker run --rm -w /input -v \"${PWD}:/input\" lycheeverse/lychee:latest --config lychee.toml --no-progress --dump README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 04_LegacyContent/**/*.md 05_Todos/**/*.md .github/**/*.md",
+            "run": "docker run --rm -w /input -v \"${PWD}:/input\" lycheeverse/lychee:latest --config lychee.toml --no-progress --dump README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 05_Todos/**/*.md 06_AuditFiles/**/*.md 07_LearningGround/**/*.md .github/**/*.md",
             "description": "Extract links (no validation) using Lychee"
         },
         "links:check": {
-            "run": "docker run --rm -w /input -v \"${PWD}:/input\" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 04_LegacyContent/**/*.md 05_Todos/**/*.md .github/**/*.md",
+            "run": "docker run --rm -w /input -v \"${PWD}:/input\" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 05_Todos/**/*.md 06_AuditFiles/**/*.md 07_LearningGround/**/*.md .github/**/*.md",
             "description": "Validate links using Lychee"
+        },
+        "workspace:health": {
+            "run": "Get-ChildItem -Path . -Recurse -Name '*00_*' | Where-Object { $_ -notlike '*\\.git*' }",
+            "description": "Check for 00_ prefix violations"
+        },
+        "prompts:validate": {
+            "run": "Get-ChildItem -Path .github/prompts/*.md | ForEach-Object { Write-Host \"Validating: $($_.Name)\"; npx --yes markdownlint-cli2 $_.FullName }",
+            "description": "Validate all prompt files for markdown compliance"
         }
     }
 }
