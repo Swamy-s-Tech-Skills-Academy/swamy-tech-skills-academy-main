@@ -51,9 +51,11 @@ Statistical methods, analytics, and large-scale data processing
 - **Data Analytics** - Business intelligence and visualization
 - **Big Data** - Distributed computing and scalable infrastructure
 
-### **⚙️ [04_DevOps/](04_DevOps/)** - DevOps & Infrastructure
+### **⚙️ [04_DevOps/](04_DevOps/)** - DevOps & Infrastructure *(Emerging)*
 
 Development operations and infrastructure management
+
+*Note: Track currently in development. Core content available in legacy materials.*
 
 ## 🧭 Navigation Tips
 
@@ -81,7 +83,7 @@ The Reference Library integrates with:
 
 ## 📅 Last Updated
 
-**September 3, 2025** - Main README created for improved navigation
+**September 3, 2025** - DevOps track alignment and status clarification
 
 ---
 
