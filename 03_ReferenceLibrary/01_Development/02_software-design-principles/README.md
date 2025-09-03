@@ -41,7 +41,7 @@ This library provides a **structured progression** through essential software de
 - Week 4: Behavioral patterns (Advanced)
 - Week 5: Pattern integration & real-world application
 
-#### **[00_Daily-Learning-Template.md](00_Daily-Learning-Template.md)** - Learning Support
+#### **[01_Daily-Learning-Template.md](01_Daily-Learning-Template.md)** - Learning Support
 
 **Daily Learning Template Following Your Proven System**
 

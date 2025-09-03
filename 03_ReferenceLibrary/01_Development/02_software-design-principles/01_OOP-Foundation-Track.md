@@ -142,7 +142,8 @@ Create a flexible game entity system:
 
 ### **Reference Implementation**
 
-- External repository: [oop-design-patterns-examples](TBD)
+- External repository: [oop-design-patterns-examples](https://github.com/Swamy-s-Tech-Skills-Academy-AI-ML-Data)
+  *(Example repository for OOP concepts - to be created)*
 - Language comparison charts
 - Best practices checklists
 

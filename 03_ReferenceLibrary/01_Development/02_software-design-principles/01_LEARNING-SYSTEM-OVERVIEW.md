@@ -24,7 +24,7 @@
 
 ### **🛠️ Learning Support System**
 
-4. **[00_Daily-Learning-Template.md](00_Daily-Learning-Template.md)**
+4. **[01_Daily-Learning-Template.md](01_Daily-Learning-Template.md)**
    - Copy-paste templates for your daily notes
    - Weekly planning structure
    - Integration with your existing learning system
