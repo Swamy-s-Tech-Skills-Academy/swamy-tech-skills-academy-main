@@ -4,8 +4,18 @@
 
 > When to edit this file: Add/rename canonical tags and concept codes. Don't invent ad‑hoc tags in pages—define them here first.
 
+**Purpose**: Canonical concept classification + prerequisite layering. Library Taxonomy Map
+
+> See also: [03_README](03_README.md) · [01_INDEX](01_INDEX.md) · [02_ORGANIZATION_GUIDE](02_ORGANIZATION_GUIDE.md)
+
+> When to edit this file: Add/rename canonical tags and concept codes. Don't invent ad‑hoc tags in pages—define them here first.erence Library Taxonomy Map
+
+> See also: [README](README.md) · [INDEX](INDEX.md) · [ORGANIZATION_GUIDE](ORGANIZATION_GUIDE.md)
+
+> When to edit this file: Add/rename canonical tags and concept codes. Don’t invent ad‑hoc tags in pages—define them here first.
+
 **Purpose**: Canonical concept classification + prerequisite layering.
-**Last Updated**: 2025-09-03
+**Last Updated**: 2025-08-29
 **Status**: Draft
 
 ## Legend
@@ -53,16 +63,6 @@
 | DS-BIG-001 | Lakehouse & Medallion | I | Stub | DS-METH-001 |
 | DS-GOV-001 | Data Governance & Lineage | I | Stub | DS-METH-001 |
 
-## DevOps Track
-
-| Code | Concept | Level | Status | Prerequisites |
-|------|---------|-------|--------|---------------|
-| OPS-CI-001 | CI/CD Pipeline Fundamentals | B | Stub | DEV-GIT-001 |
-| OPS-IaC-001 | Infrastructure as Code | I | Stub | OPS-CI-001 |
-| OPS-OBS-001 | Observability & Monitoring | I | Stub | OPS-CI-001 |
-| OPS-SEC-001 | Security in DevOps | I | Stub | OPS-CI-001 |
-| OPS-REL-001 | Release Strategies | A | Stub | OPS-CI-001 |
-
 ## Cross-Cutting
 
 | Code | Concept | Level | Status | Prerequisites |
@@ -76,7 +76,6 @@
 
 - Promote stubs to draft in priority order: Git Branching, ML Supervised Overview, Tokenization, Prompt Patterns.
 - Add IDs to file headers to match codes for future automation.
-- DevOps track concepts added for emerging track development
 
 ## Update Workflow
 
