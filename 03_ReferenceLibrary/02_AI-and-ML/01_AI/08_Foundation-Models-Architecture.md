@@ -1,7 +1,7 @@
 # 08_Foundation-Models-Architecture
 
 **Learning Level**: Intermediate  
-**Prerequisites**: [01_AI-Fundamentals-Overview](01_AI-Fundamentals-Overview.md), [02_AI-Domain-Relationships](02_AI-Domain-Relationships.md)  
+**Prerequisites**: [03_AI-Fundamentals-Overview](03_AI-Fundamentals-Overview.md), [02_AI-Domain-Relationships](02_AI-Domain-Relationships.md)  
 **Estimated Time**: 25 minutes
 
 ## 🎯 Learning Objectives

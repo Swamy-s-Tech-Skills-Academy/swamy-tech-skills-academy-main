@@ -10,7 +10,7 @@
 
 > When to edit this file: Add/rename canonical tags and concept codes. Don't invent ad‑hoc tags in pages—define them here first.erence Library Taxonomy Map
 
-> See also: [README](README.md) · [INDEX](INDEX.md) · [ORGANIZATION_GUIDE](ORGANIZATION_GUIDE.md)
+> See also: [README](README.md) · [01_INDEX](01_INDEX.md) · [02_ORGANIZATION_GUIDE](02_ORGANIZATION_GUIDE.md)
 
 > When to edit this file: Add/rename canonical tags and concept codes. Don’t invent ad‑hoc tags in pages—define them here first.
 

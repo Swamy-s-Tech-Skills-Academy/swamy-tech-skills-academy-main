@@ -194,7 +194,7 @@ Build Stage → Configurable Test Environment → Parameterized Deploy
 ### Prerequisites
 
 - [Git Fundamentals](../../01_Development/README.md)
-- [Software Development Lifecycle](../../01_Development/04_Professional-Practice/)
+- [Software Development Lifecycle](../../01_Development/01_Python/04_Professional-Practice/)
 
 ### Builds Upon
 
