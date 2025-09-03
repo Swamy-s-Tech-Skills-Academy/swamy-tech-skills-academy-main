@@ -12,7 +12,17 @@ By completing this module, you will:
 
 - **Understand the scale vs. cleverness paradigm** that revolutionized AI
 - **Grasp why LLMs outperform traditional algorithms** despite being "less clever"
-- **Recognize emergent capabilities** that arise at scale without explicit programming
+- **Recognize emergent capabilities** that arise at scale without ex- [ ] Recognize the limitations that lead to agent development needs
+- [ ] Can design systems that leverage LLM strengths effectively
+
+---
+
+## 🔧 **LLM Architecture Variants: From Raw Power to Specialized Intelligence**
+
+### **Understanding the LLM Evolution Spectrum**
+
+Large Language Models exist in multiple forms, each optimized for different use cases and deployment scenarios. Understanding these variants helps you choose the right approach for your specific needs.gramming
+
 - **Connect theoretical understanding** to practical LLM capabilities
 - **Prepare for advanced topics** like prompt engineering and agent development
 
