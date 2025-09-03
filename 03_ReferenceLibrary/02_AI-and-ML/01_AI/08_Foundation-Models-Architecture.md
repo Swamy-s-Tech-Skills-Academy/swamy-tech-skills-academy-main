@@ -29,7 +29,7 @@ Traditional AI Development Pattern:
 Email Spam Detection     ──→  [Custom Dataset] ──→ [Spam Filter Model] ──→ Spam/Not Spam
 Named Entity Recognition ──→  [NER Dataset]    ──→ [NER Model]        ──→ Names/Places/Orgs
 News Summarization      ──→  [Summary Dataset] ──→ [Summary Model]    ──→ Article Summary
-Translation             ──→  [Language Pairs]  ──→ [Translation Model] ──→ Target Language
+Temperature Conversion  ──→  [Temp Dataset]    ──→ [Conversion Model] ──→ Converted Units
 ```
 
 **Challenges of the Narrow AI Approach:**
@@ -61,7 +61,7 @@ graph TD
             FOUNDATION --> FINETUNE1[📧 Email Classification]
             FOUNDATION --> FINETUNE2[🏷️ Entity Recognition]
             FOUNDATION --> FINETUNE3[📰 Text Summarization]
-            FOUNDATION --> FINETUNE4[🔄 Language Translation]
+            FOUNDATION --> FINETUNE4[🌡️ Temperature Conversion]
             FOUNDATION --> FINETUNE5[💻 Code Generation]
             FOUNDATION --> FINETUNE6[🖼️ Image Captioning]
         end

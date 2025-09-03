@@ -95,7 +95,7 @@ Past: Narrow AI Era
 │  📧 Email Spam Filter                │
 │  🏷️ Named Entity Recognition         │
 │  📰 News Summarization              │
-│  🔄 Language Translation            │
+│  🌡️ Temperature Conversion           │
 │  💻 Code Analysis                   │
 │  🖼️ Image Classification            │
 └──────────────────────────────────────┘
@@ -210,10 +210,10 @@ Problem 1: Email Spam Detection
 │ Result: Spam/Not Spam Only      │
 └─────────────────────────────────┘
 
-Problem 2: Language Translation
+Problem 2: Temperature Conversion
 ┌─────────────────────────────────┐
-│ Translation Dataset → Trans Model│
-│ Result: French→English Only     │
+│ Temp Dataset → Conversion Model │
+│ Result: Celsius→Fahrenheit Only │
 └─────────────────────────────────┘
 
 Problem 3: Image Recognition
@@ -236,9 +236,9 @@ Problem 3: Image Recognition
             ┌───────────────┼───────────────┐
             ▼               ▼               ▼
     ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
-    │📧 Email Task│ │🔄 Translation│ │🖼️ Vision Task│
+    │📧 Email Task│ │🌡️ Temp Convert│ │🖼️ Vision Task│
     │Fine-tune    │ │Fine-tune    │ │Fine-tune    │
-    │Spam Filter  │ │Translator   │ │Object Detect│
+    │Spam Filter  │ │C→F Converter│ │Object Detect│
     └─────────────┘ └─────────────┘ └─────────────┘
 ```
 

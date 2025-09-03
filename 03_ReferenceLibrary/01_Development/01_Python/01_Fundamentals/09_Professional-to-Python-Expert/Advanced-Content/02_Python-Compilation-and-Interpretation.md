@@ -65,7 +65,7 @@ graph LR
 ```mermaid
 graph LR
     A[Bytecode] --> B[PVM<br/>Python Virtual Machine]
-    B --> C["Hello World"]
+    B --> C["Output Result"]
 
     style A fill:#ffebee
     style B fill:#e8f5e8
