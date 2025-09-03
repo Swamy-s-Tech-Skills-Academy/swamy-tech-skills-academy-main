@@ -328,7 +328,7 @@ Neural Network Processing
 
 - [Text Preprocessing Fundamentals](./01_Basics/README.md)
 - [Embedding Techniques](./02_Text-Representation/04_Word2Vec-and-Embeddings.md)
-- [Language Model Architecture](../../03_DeepLearning/01_Transformer-Architecture.md)
+- [Language Model Architecture](../03_DeepLearning/01_Transformer-Architecture.md)
 
 ## 🔗 Related Topics
 
@@ -353,9 +353,9 @@ Neural Network Processing
 
 **Cross-References:**
 
-- [Transformer Architecture](../../01_AI/01_Understanding-Transformer-Architecture.md)
+- [Transformer Architecture](../01_AI/01_Understanding-Transformer-Architecture.md)
 - [NLP Basics](./01_Basics/README.md)
-- [Large Language Models Overview](../../05_LargeLanguageModels/01_LLM-Fundamentals.md)
+- [Large Language Models Overview](../05_LargeLanguageModels/01_LLM-Fundamentals.md)
 
 ---
 
