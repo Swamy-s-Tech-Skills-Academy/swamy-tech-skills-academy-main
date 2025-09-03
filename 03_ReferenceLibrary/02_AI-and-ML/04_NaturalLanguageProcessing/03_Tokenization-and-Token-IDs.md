@@ -28,14 +28,31 @@ Tokenization is the process of breaking down text into smaller, manageable piece
 
 ### 🔢 The Two-Step Transformation Process
 
-When Large Language Models (LLMs) process text, they follow a systematic transformation:
+When Large Language Models (LLMs) process text, they follow a systematic transformation that prepares text for neural network processing:
 
 ```text
-Step 1: Text Segmentation
-"The human brain is complex" → ["The", " human", " brain", " is", " complex"]
+Input Text Processing Pipeline:
 
-Step 2: Numerical Mapping  
-["The", " human", " brain", " is", " complex"] → [791, 3823, 8271, 374, 6485]
+┌─────────────────────────────────┐
+│  "The human brain is complex"   │  ← Raw input text (string)
+└─────────────┬───────────────────┘
+              │ Step 1: Tokenization
+              ▼
+┌─────────────────────────────────┐
+│ ["The", " human", " brain",     │  ← Tokens (string array)
+│  " is", " complex"]             │
+└─────────────┬───────────────────┘
+              │ Step 2: Token ID Mapping
+              ▼
+┌─────────────────────────────────┐
+│    [791, 3823, 8271, 374, 6485] │  ← Token IDs (integer array)
+└─────────────┬───────────────────┘
+              │ Ready for neural network
+              ▼
+┌─────────────────────────────────┐
+│      Embedding Layer           │  ← Convert IDs to vectors
+│     (Neural Network)            │
+└─────────────────────────────────┘
 ```
 
 #### Why This Two-Step Process?
