@@ -58,6 +58,12 @@
   - Foundation model architecture principles and transformer connections
   - Practical applications mapping and implementation guidance
 
+- `11_Foundation-Models-Visual-Guide.md` - Beginner-friendly visual understanding of foundation models
+  - ASCII diagrams showing Foundation Models ⊃ LLMs hierarchy
+  - Visual analogies and mental models for complex relationships
+  - Step-by-step evolution from narrow AI to foundation models
+  - Quick reference for foundation model categories and applications
+
 ---
 
 ## 🎯 Purpose
@@ -88,6 +94,6 @@ This folder contains AI reference materials that support:
 
 ---
 
-**📅 Last Updated**: July 20, 2025  
-**🎯 Focus**: Professional-grade AI fundamentals  
-**📍 Learning Context**: Conference preparation and technical discussions
+**📅 Last Updated**: September 3, 2025  
+**🎯 Focus**: Professional-grade AI fundamentals with visual learning support  
+**📍 Learning Context**: Conference preparation, technical discussions, and accessible AI education
