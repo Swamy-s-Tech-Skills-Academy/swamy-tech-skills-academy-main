@@ -50,38 +50,34 @@ graph TD
 1. **Study** educational content in `01_ReferenceLibrary/[domain]`
 2. **Implement** hands-on projects and document in `MyAchievements/`
 3. **Reference** both educational content and personal achievements as needed
-4. **Document** completed work and mastery in `01_LeadArchitectKnowledgeBase`
 
-### **Real Example: Week 1 OOP Learning**
+### **Real Example: NLP Learning Journey**
 
-- **02_LearningJourney**: "Week 1 daily plan + OOP exercises tracking"
-- **03_ReferenceLibrary**: "Python internals guide for quick reference"
-- **04_LegacyContent**: "Complete OOP tutorials and comprehensive materials"
-- **01_LeadArchitectKnowledgeBase**: "Completed Week 1 OOP implementation + documentation"
+- **01_ReferenceLibrary/02_AI-and-ML/04_NaturalLanguageProcessing/**: "Comprehensive NLP educational guides"
+- **01_ReferenceLibrary/MyAchievements/AI-NLP/**: "Personal NLP implementations with working code and insights"
 
 **Each folder captures a different stage and type of learning activity - no redundancy!**
 
 ---
 
-## 🧭 Portal: Strategy ↔ Learning
+## 🧭 Portal: Streamlined Learning System
 
-Use this quick portal to move between strategy, learning, and active work:
+Use this streamlined system for all your learning needs:
 
-- 🧠 Strategy (guardrails & decisions): [01_LeadArchitectKnowledgeBase/](01_LeadArchitectKnowledgeBase/)
-- 📚 Learning (tracks & references): [03_ReferenceLibrary/](03_ReferenceLibrary/)
-- 🗓️ Active week (plan & track): [02_LearningJourney/](02_LearningJourney/)
+- 📚 **Primary Hub**: [01_ReferenceLibrary/](01_ReferenceLibrary/) - Educational content + personal achievements
+- 🏆 **My Portfolio**: [01_ReferenceLibrary/MyAchievements/](01_ReferenceLibrary/MyAchievements/) - Evidence of learning and mastery
+- 📋 **Planning**: [05_Todos/](05_Todos/) - Future learning tasks and ideas
 
 ```mermaid
 graph LR
-    S[01_LeadArchitectKnowledgeBase<br/>🧠 Strategy] --> L[03_ReferenceLibrary<br/>📚 Learning]
-    L --> A[02_LearningJourney<br/>🗓️ Active Work]
-    A --> P[01_LeadArchitectKnowledgeBase<br/>📁 Portfolio]
-    P -. Feedback .-> S
+    R[01_ReferenceLibrary<br/>📚 Learning Hub] --> M[MyAchievements<br/>🏆 Portfolio]
+    R --> T[05_Todos<br/>� Planning]
+    M -. Evidence .-> R
+    T -. Ideas .-> R
 
-    style S fill:#fff3e0
-    style L fill:#e1f5fe
-    style A fill:#e8f5e8
-    style P fill:#fff3e0
+    style R fill:#e1f5fe
+    style M fill:#fff3e0
+    style T fill:#e8f5e8
 ```
 
 ---
