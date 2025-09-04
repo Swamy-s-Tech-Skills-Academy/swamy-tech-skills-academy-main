@@ -1,6 +1,29 @@
 # 🎓 Swamy's Tech Skills Academy
 
-> 📖 **15-minute read** | 🕐 **Last updated**: August 26, 2025 | 🎯 **Ready to start**: Week 1 OOP
+> 📖 **15-minute read** | 🕐 **Last updated**:```mermaid
+graph LR
+    R[01_ReferenceLibrary<br/>📚 Learning Hub] --> T[05_Todos<br/>📋 Planning]
+    R --> E[Examples<br/>🛠️ Implementations]
+    T -. Ideas .-> R
+
+    style R fill:#e1f5fe
+    style T fill:#e8f5e8
+    style E fill:#fff3e0
+```4, 2025 | 🎯 **Ready to start**: Unified Reference Libraryech Skills Academ```mermaid
+graph TD
+    A[01_ReferenceLibrary<br/>📚 Complete Learning System] --> C[01_Development<br/>🛠️ Programming]
+    A --> D[02_AI-and-ML<br/>🤖 AI & Machine Learning]
+    A --> E[03_Data-Science<br/>� Data & Analytics]
+
+    D --> F[04_NLP<br/>💬 Language Processing]
+    D --> G[Examples<br/>🛠️ Practical Implementations]
+    
+    style A fill:#e8f5e8
+    style C fill:#e1f5fe
+    style D fill:#fce4ec
+    style E fill:#f3e5f5
+
+```minute read** | 🕐 **Last updated**: August 26, 2025 | 🎯 **Ready to start**: Week 1 OOP
 
 ## 🧭 Quick Navigation
 
@@ -48,13 +71,13 @@ graph TD
 ### **Simplified Learning Workflow**
 
 1. **Study** educational content in `01_ReferenceLibrary/[domain]`
-2. **Implement** hands-on projects and document in `MyAchievements/`
-3. **Reference** both educational content and personal achievements as needed
+2. **Apply** concepts through practical examples and implementations
+3. **Reference** both educational content and practical examples as needed
 
 ### **Real Example: NLP Learning Journey**
 
 - **01_ReferenceLibrary/02_AI-and-ML/04_NaturalLanguageProcessing/**: "Comprehensive NLP educational guides"
-- **01_ReferenceLibrary/MyAchievements/AI-NLP/**: "Personal NLP implementations with working code and insights"
+- **01_ReferenceLibrary/.../examples/practical-implementations/**: "Working code examples and demonstrations"
 
 **Each folder captures a different stage and type of learning activity - no redundancy!**
 
@@ -64,8 +87,7 @@ graph TD
 
 Use this streamlined system for all your learning needs:
 
-- 📚 **Primary Hub**: [01_ReferenceLibrary/](01_ReferenceLibrary/) - Educational content + personal achievements
-- 🏆 **My Portfolio**: [01_ReferenceLibrary/MyAchievements/](01_ReferenceLibrary/MyAchievements/) - Evidence of learning and mastery
+- 📚 **Primary Hub**: [01_ReferenceLibrary/](01_ReferenceLibrary/) - Educational content with practical examples
 - 📋 **Planning**: [05_Todos/](05_Todos/) - Future learning tasks and ideas
 
 ```mermaid
