@@ -13,6 +13,7 @@ Evidence of hands-on NLP learning with practical implementations:
 - **[2025-08-11_One-Hot-Encoding/](AI-NLP/2025-08-11_One-Hot-Encoding/)** - Token representation fundamentals
 - **[2025-08-12_Bag-of-Words/](AI-NLP/2025-08-12_Bag-of-Words/)** - Document frequency analysis  
 - **[2025-08-13_TF-IDF/](AI-NLP/2025-08-13_TF-IDF/)** - Term importance weighting
+- **[2025-09-04_Token-Encoding-and-Embeddings/](AI-NLP/2025-09-04_Token-Encoding-and-Embeddings/)** - LLM text-to-vector pipeline mastery
 
 ## 📝 What's Documented Here
 
@@ -56,7 +57,7 @@ Each achievement folder includes:
 ---
 
 **Last Updated**: September 4, 2025  
-**Achievement Count**: 3 NLP fundamentals completed
+**Achievement Count**: 4 NLP fundamentals completed
 
 - ❌ Theoretical knowledge without application
 - ❌ Copy-pasted content from tutorials
