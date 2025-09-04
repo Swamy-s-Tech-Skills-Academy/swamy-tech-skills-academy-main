@@ -7,7 +7,7 @@
 | Section                     | Purpose                             | Go To                                                                 |
 | --------------------------- | ----------------------------------- | --------------------------------------------------------------------- |
 | **🎯 Start Learning**       | Begin your journey today            | [Quick Start](#-quick-start)                                          |
-| **📋 Understanding System** | Learn how the 4-pillar system works | [Four-Pillar System](#-understanding-the-four-pillar-system)          |
+| **📋 Understanding System** | Learn how the unified system works | [Unified Structure](#-understanding-the-unified-structure)        |
 | **⚡ Daily Workflows**      | Master productive learning habits   | [Learning System Guide](#-learning-system-guide-your-success-formula) |
 | **📊 Track Progress**       | Monitor and document your growth    | [Progress Tracking](#-progress-tracking-methodologies)                |
 | **🎪 See It in Action**     | Real learning scenarios             | [System in Action](#-your-learning-system-in-action)                  |
