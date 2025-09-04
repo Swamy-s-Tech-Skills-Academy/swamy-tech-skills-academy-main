@@ -14,40 +14,42 @@
 
 ---
 
-## 🔍 Understanding the Four-Pillar System
+## 🔍 Understanding the Unified Structure
 
-### **Why Four Folders? Are They Redundant?**
+### **Simplified Organization - One Primary Folder**
 
-**NO - Each serves a distinct, non-overlapping purpose:**
+**The new streamlined approach eliminates unused folders and consolidates everything into a single, comprehensive reference library:**
 
-| Folder                            | Purpose                  | Content Type                                               | When You Use It                                          |
-| --------------------------------- | ------------------------ | ---------------------------------------------------------- | -------------------------------------------------------- |
-| **01_LeadArchitectKnowledgeBase** | **Portfolio of Mastery** | Your completed work, implementations, evidence of learning | When showcasing what you've accomplished and mastered    |
-| **02_LearningJourney**            | **Active Workspace**     | Current learning plans, daily tracking, active work        | When you're actively learning and need to track progress |
-| **03_ReferenceLibrary**           | **Quick Reference Desk** | Curated materials you actively use                         | When you need quick reference during learning or work    |
-| **04_LegacyContent**              | **Complete Archive**     | All original materials and comprehensive resources         | When you need to explore comprehensive materials         |
+| Folder                     | Purpose                         | Content Type                                              | When You Use It                                      |
+| -------------------------- | ------------------------------- | --------------------------------------------------------- | ---------------------------------------------------- |
+| **01_ReferenceLibrary**    | **Complete Learning System**    | Educational content + Personal achievements               | Primary workspace for all learning activities       |
+| **04_LegacyContent**       | **Migration Source**            | Original materials being systematically migrated         | Source for content migration (temporary)            |
+| **05_Todos**               | **Planning & Backlog**          | Task planning and future learning ideas                  | When planning future learning activities            |
+| **06_AuditFiles**          | **System Documentation**        | Process documentation and audit trails                   | When reviewing system organization                   |
 
-### **How They Work Together**
+### **Unified ReferenceLibrary Structure**
 
 ```mermaid
-graph LR
-    A[02_LearningJourney<br/>📝 Plan & Track] --> B[03_ReferenceLibrary<br/>📖 Quick Reference]
-    A --> C[01_LeadArchitectKnowledgeBase<br/>📚 Document Mastery]
-    B -.-> A
-    D[04_LegacyContent<br/>📁 Source Materials] -.-> B
-    D -.-> A
-
+graph TD
+    A[01_ReferenceLibrary<br/>� Complete Learning System] --> B[MyAchievements<br/>🏆 Personal Portfolio]
+    A --> C[01_Development<br/>�️ Programming]
+    A --> D[02_AI-and-ML<br/>🤖 AI & Machine Learning]
+    A --> E[03_Data-Science<br/>� Data & Analytics]
+    
+    B --> F[AI-NLP<br/>💡 NLP Implementations]
+    
     style A fill:#e8f5e8
-    style B fill:#e1f5fe
-    style C fill:#fff3e0
-    style D fill:#f5f5f5
+    style B fill:#fff3e0
+    style C fill:#e1f5fe
+    style D fill:#fce4ec
+    style E fill:#f3e5f5
 ```
 
-### **Typical Learning Workflow**
+### **Simplified Learning Workflow**
 
-1. **Plan** your week in `02_LearningJourney`
-2. **Reference** curated materials from `03_ReferenceLibrary` while learning
-3. **Explore** comprehensive materials in `04_LegacyContent` when needed
+1. **Study** educational content in `01_ReferenceLibrary/[domain]`
+2. **Implement** hands-on projects and document in `MyAchievements/`
+3. **Reference** both educational content and personal achievements as needed
 4. **Document** completed work and mastery in `01_LeadArchitectKnowledgeBase`
 
 ### **Real Example: Week 1 OOP Learning**
