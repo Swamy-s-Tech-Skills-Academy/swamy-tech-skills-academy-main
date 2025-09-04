@@ -22,49 +22,71 @@
 
 ---
 
-## 🎯 Tomorrow's Plan (September 5, 2025)
+## 🎯 **REVISED Strategy**: Learning Content Only in Reference Library
 
-### **Phase 1: High-Value Content Migration** ⏱️ 60 minutes
+### **New Approach**: Pure Learning Content Focus
 
-#### **Priority 1: Strategic Planning Documents**
+- **01_ReferenceLibrary**: **ONLY** educational content, tutorials, guides, concepts
+- **Planning Materials**: Move to separate dedicated planning folder
+- **Course Development**: Keep planning separate from learning content
+- **Intake System**: Dedicated workflow folder outside Reference Library
 
-- [ ] Migrate `07092025_AI-Agent-Conference-Plan.md` → Reference Library
-- [ ] Migrate `Design-Principles-Complete-Guide.md` → Reference Library
-- [ ] Update with STSA metadata and cross-references
+### **Updated Migration Targets**
 
-#### **Priority 2: Course Development**
+| Content Type | Current Location | **NEW Target** | Reason |
+|--------------|------------------|----------------|---------|
+| **Learning Guides** | `Design-Principles-Complete-Guide.md` | `01_ReferenceLibrary/01_Development/02_software-design-principles/` | ✅ Pure learning content |
+| **Conference Planning** | `AI-Agent-Conference-Plan.md` | `02_Planning-and-Development/conferences/` | ❌ Planning, not learning |
+| **Course Development** | `OOP_DP.md`, `SOLID-Video-Courses.md` | `02_Planning-and-Development/course-dev/` | ❌ Planning, not learning |
+| **Intake System** | `07_LearningGround/` | `02_Planning-and-Development/content-intake/` | ❌ Process, not learning |
+| **Active Backlog** | `Backlog.md` | `02_Planning-and-Development/backlog/` | ❌ Planning, not learning |
 
-- [ ] Migrate `07092025_OOP_DP.md` → Course Development section
-- [ ] Migrate `07092025_SOLID-Principles-Video-Courses.md` → Course Development
-- [ ] Add learning objectives and prerequisites
+---
+
+## 🎯 Tomorrow's Plan (September 5, 2025) - **REVISED**
+
+### **Phase 1: Learning Content Extraction** ⏱️ 60 minutes
+
+#### **Priority 1: Extract Pure Learning Content**
+
+- [ ] Review `Design-Principles-Complete-Guide.md` → Extract learning sections for Reference Library
+- [ ] Review `AI-Agent-Conference-Plan.md` → Extract educational framework for Reference Library  
+- [ ] Review `OOP_DP.md` → Extract learning concepts for Reference Library
+- [ ] **Focus**: Only migrate educational/tutorial content, not planning aspects
+
+#### **Priority 2: Create Planning Structure Outside Reference Library**
+
+- [ ] Create `02_Planning-and-Development/` folder structure (separate from Reference Library)
+- [ ] Move all planning materials to dedicated planning folder
+- [ ] Keep `01_ReferenceLibrary/` purely for learning content
 
 #### **Setup Tasks**
 
-- [ ] Create `00_Planning-and-Development/` folder structure in Reference Library
-- [ ] Create initial README files for new folders
-- [ ] Establish cross-reference links
+- [ ] Create `02_Planning-and-Development/` folder structure
+- [ ] Extract learning content from planning documents  
+- [ ] Maintain clear separation: Learning vs Planning
 
 ---
 
 ## 📋 Future Daily Sessions
 
-### **Day 3 (September 6, 2025)**: System Integration
+### **Day 3 (September 6, 2025)**: Planning System Setup
 
-- [ ] Unified Backlog system enhancement
-- [ ] LearningGround intake workflow integration
-- [ ] Cross-reference updates
+- [ ] Complete `02_Planning-and-Development/` folder organization
+- [ ] Move all planning materials to dedicated planning structure
+- [ ] Establish intake workflow outside Reference Library
 
-### **Day 4 (September 7, 2025)**: Historical Archive
+### **Day 4 (September 7, 2025)**: Content Refinement  
 
-- [ ] Move historical planning docs to Legacy Content
-- [ ] Archive outdated materials
-- [ ] Quality assurance validation
+- [ ] Review extracted learning content for quality
+- [ ] Add STSA metadata to learning materials
+- [ ] Cross-reference between learning topics
 
-### **Day 5 (September 8, 2025)**: Final Cleanup
+### **Day 5 (September 8, 2025)**: Final Organization
 
 - [ ] Archive original `05_Todos/` and `07_LearningGround/` folders
-- [ ] Update main repository README
-- [ ] Migration completion documentation
+- [ ] Update main repository README with clear structure
+- [ ] Document separation: Learning (Reference Library) vs Planning (Planning folder)
 
 ---
 
@@ -72,20 +94,20 @@
 
 ### **When Ready to Continue**
 
-1. **Open this tracker** to see tomorrow's checklist
-2. **Review migration plan** (if needed): `Migration-Plan-Todos-LearningGround.md`
-3. **Start with Priority 1** tasks - high-value content migration
-4. **Estimated time**: ~60 minutes for Phase 1
+1. **Focus**: Extract **only learning content** from planning documents
+2. **Create**: `02_Planning-and-Development/` for all planning materials  
+3. **Maintain**: Pure learning focus in `01_ReferenceLibrary/`
+4. **Estimated time**: ~60 minutes for content extraction
 
-### **Key Files to Migrate Tomorrow**
+### **Key Files to Review Tomorrow**
 
-- `05_Todos/07092025_AI-Agent-Conference-Plan.md` (257 lines - Active conference planning)
-- `05_Todos/Design-Principles-Complete-Guide.md` (233 lines - Core curriculum)
-- `05_Todos/07092025_OOP_DP.md` (Course development)
-- `05_Todos/07092025_SOLID-Principles-Video-Courses.md` (Video strategy)
+- `05_Todos/Design-Principles-Complete-Guide.md` → **Extract learning sections only**
+- `05_Todos/07092025_AI-Agent-Conference-Plan.md` → **Extract educational framework only**  
+- `05_Todos/07092025_OOP_DP.md` → **Extract learning concepts only**
+- `07_LearningGround/` → **Move entire intake system to planning folder**
 
 ---
 
-**Today's Status**: ✅ **Planning Complete - Ready for Implementation**  
-**Next Session**: September 5, 2025 - Phase 1 Migration  
-**Overall Progress**: 1/5 days complete (20%)
+**Today's Status**: ✅ **Planning Complete - Learning Content Focus Established**  
+**Next Session**: September 5, 2025 - Learning Content Extraction  
+**New Approach**: Pure learning content in Reference Library, planning separate

@@ -1,7 +1,7 @@
 # GitHub Copilot Instructions for STSA Knowledge Base
 
-**Version**: 1.0  
-**Last Updated**: September 1, 2025  
+**Version**: 1.1  
+**Last Updated**: September 4, 2025  
 **Scope**: Swamy's Tech Skills Academy Learning System
 
 ## 🎯 Primary Directive
@@ -58,7 +58,7 @@ When provided with reference materials from books, websites, articles, video cou
 ### **Organizational Hierarchy**
 
 ```text
-03_ReferenceLibrary/
+01_ReferenceLibrary/                    ← 📚 PURE LEARNING CONTENT ONLY
 ├── 01_Development/                     ← Programming & Engineering Foundation
 │   ├── 01_Python/                      ← Sequential learning progression
 │   └── 02_software-design-principles/
@@ -70,11 +70,30 @@ When provided with reference materials from books, websites, articles, video cou
 │   ├── 05_LargeLanguageModels/         ← LLMs track (bridge to agents)
 │   ├── 06_MCP-Servers/                 ← Model Context Protocol (tools layer)
 │   └── 07_AI-Agents/                   ← Agents & Agentic AI
-└── 03_Data-Science/                    ← Data Analysis & Infrastructure
-    ├── 01_DataScience/                 ← Scientific methodology
-    ├── 02_DataAnalytics/               ← Business applications
-    └── 03_BigData/                     ← Scale & infrastructure
+├── 03_Data-Science/                    ← Data Analysis & Infrastructure
+│   ├── 01_DataScience/                 ← Scientific methodology
+│   ├── 02_DataAnalytics/               ← Business applications
+│   └── 03_BigData/                     ← Scale & infrastructure
+02_Planning-and-Development/            ← 📋 ALL PLANNING & WORKFLOW MATERIALS
+├── course-development/                 ← Course creation and planning
+├── conferences/                        ← Event planning and strategies
+├── content-intake/                     ← Source material processing workflow
+└── backlog/                           ← Task management and planning
+04_LegacyContent/                      ← Historical archives and backups
 ```
+
+### **CRITICAL: Reference Library Content Policy**
+
+**01_ReferenceLibrary/ is EXCLUSIVELY for learning content:**
+
+- ✅ **Educational content**: Tutorials, guides, concepts, examples
+- ✅ **Learning materials**: Step-by-step instructions, explanations
+- ✅ **Reference documents**: Technical knowledge, best practices
+- ❌ **Planning materials**: Course development, project planning
+- ❌ **Workflow documents**: Intake systems, task management
+- ❌ **Meta content**: Repository organization, processes
+
+**Separation Principle**: Learning content (Reference Library) vs Planning content (Planning-and-Development) must remain strictly separated.
 
 ### **Numbering Convention**
 
@@ -99,6 +118,16 @@ When provided with reference materials from books, websites, articles, video cou
 - Replace source examples with original ones relevant to STSA contexts.
 - Prefer minimal, fresh code over large copied blocks; runnable code lives in external repos when appropriate.
 - Maintain a consistent voice and terminology across the knowledge base.
+
+### **Content Separation Policy**
+
+**CRITICAL**: Maintain strict separation between learning content and planning materials:
+
+- **01_ReferenceLibrary/**: **EXCLUSIVELY** for educational content, tutorials, guides, concepts
+- **02_Planning-and-Development/**: **ALL** planning, workflow, course development, intake systems
+- **Never mix**: Learning content must never include planning materials or vice versa
+- **When in doubt**: If content has both learning and planning aspects, extract the pure learning essence for Reference Library and place planning aspects in Planning-and-Development
+- **Quality gate**: Before adding content to Reference Library, ask: "Is this purely educational, or does it contain planning/process elements?"
 
 ## 📖 Content Creation Protocols
 
@@ -231,7 +260,7 @@ After creating or updating any documentation content, **always** run these verif
 npx markdownlint-cli2 "path/to/file.md"
 
 # Run on entire ReferenceLibrary
-npx markdownlint-cli2 "03_ReferenceLibrary/**/*.md"
+npx markdownlint-cli2 "01_ReferenceLibrary/**/*.md"
 
 # Run on entire repository
 npx markdownlint-cli2 "**/*.md"
@@ -244,7 +273,7 @@ npx markdownlint-cli2 "**/*.md"
 lychee "path/to/file.md"
 
 # Check entire ReferenceLibrary
-lychee "03_ReferenceLibrary/**/*.md"
+lychee "01_ReferenceLibrary/**/*.md"
 
 # Use repository config (recommended)
 lychee --config lychee.toml .
@@ -351,8 +380,8 @@ Example code fence with required blank lines:
 1. **00\_ Prefix Violations**: The following files/folders violate numbering convention and must be renamed:
 
    - `02_LearningJourney/00_Templates` → `02_LearningJourney/01_Templates`
-   - `03_ReferenceLibrary/01_Development/02_software-design-principles/00_Daily-Learning-Template.md` → `01_Daily-Learning-Template.md`
-   - `03_ReferenceLibrary/01_Development/02_software-design-principles/00_LEARNING-SYSTEM-OVERVIEW.md` → `01_LEARNING-SYSTEM-OVERVIEW.md`
+   - `01_ReferenceLibrary/01_Development/02_software-design-principles/00_Daily-Learning-Template.md` → `01_Daily-Learning-Template.md`
+   - `01_ReferenceLibrary/01_Development/02_software-design-principles/00_LEARNING-SYSTEM-OVERVIEW.md` → `01_LEARNING-SYSTEM-OVERVIEW.md`
    - `06_AuditFiles/00_Content-Audit-2025-08-11.md` → `01_Content-Audit-2025-08-11.md`
 
 2. **Link Updates Required**: After renaming, update all internal links to reflect new paths
