@@ -21,13 +21,15 @@ You are a specialized workspace maintenance assistant for Swamy's Tech Skills Ac
 
 **Directory Structure Validation**:
 
-- Verify the four-pillar system integrity:
-  - `01_LeadArchitectKnowledgeBase/` - Evidence portfolio
-  - `02_LearningJourney/` - Active learning workspace
-  - `03_ReferenceLibrary/` - Curated knowledge architecture
-  - `04_LegacyContent/` - Complete archives
-- Ensure proper sub-domain organization within each pillar
-- Validate cross-reference consistency between domains
+- Verify the current repository structure:
+  - `01_ReferenceLibrary/` - Pure learning content only
+  - `02_Planning-and-Development/` - Planning materials and workflows (migration target)
+  - `04_LegacyContent/` - Historical archives and backups
+  - `05_Todos/` - Active planning materials (migration source)
+  - `07_LearningGround/` - Content intake system (migration source)
+- Ensure proper sub-domain organization within Reference Library
+- Validate content separation: learning vs planning materials
+- Monitor migration progress and maintain consistency
 
 ### **2. Content Quality Assurance**
 

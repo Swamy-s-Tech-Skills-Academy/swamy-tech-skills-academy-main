@@ -1,85 +1,105 @@
 # 🎓 Swamy's Tech Skills Academy
 
-> 📖 **15-minute read** | 🕐 **Last updated**: August 26, 2025 | 🎯 **Ready to start**: Week 1 OOP
+> 📖 **15-minute read** | 🕐 **Last updated**:```mermaid
+graph LR
+    R[01_ReferenceLibrary<br/>📚 Learning Hub] --> T[05_Todos<br/>📋 Planning]
+    R --> E[Examples<br/>🛠️ Implementations]
+    T -. Ideas .-> R
+
+    style R fill:#e1f5fe
+    style T fill:#e8f5e8
+    style E fill:#fff3e0
+```4, 2025 | 🎯 **Ready to start**: Unified Reference Libraryech Skills Academ```mermaid
+graph TD
+    A[01_ReferenceLibrary<br/>📚 Complete Learning System] --> C[01_Development<br/>🛠️ Programming]
+    A --> D[02_AI-and-ML<br/>🤖 AI & Machine Learning]
+    A --> E[03_Data-Science<br/>� Data & Analytics]
+
+    D --> F[04_NLP<br/>💬 Language Processing]
+    D --> G[Examples<br/>🛠️ Practical Implementations]
+    
+    style A fill:#e8f5e8
+    style C fill:#e1f5fe
+    style D fill:#fce4ec
+    style E fill:#f3e5f5
+
+```minute read** | 🕐 **Last updated**: August 26, 2025 | 🎯 **Ready to start**: Week 1 OOP
 
 ## 🧭 Quick Navigation
 
 | Section                     | Purpose                             | Go To                                                                 |
 | --------------------------- | ----------------------------------- | --------------------------------------------------------------------- |
 | **🎯 Start Learning**       | Begin your journey today            | [Quick Start](#-quick-start)                                          |
-| **📋 Understanding System** | Learn how the 4-pillar system works | [Four-Pillar System](#-understanding-the-four-pillar-system)          |
+| **📋 Understanding System** | Learn how the unified system works | [Unified Structure](#-understanding-the-unified-structure)        |
 | **⚡ Daily Workflows**      | Master productive learning habits   | [Learning System Guide](#-learning-system-guide-your-success-formula) |
 | **📊 Track Progress**       | Monitor and document your growth    | [Progress Tracking](#-progress-tracking-methodologies)                |
 | **🎪 See It in Action**     | Real learning scenarios             | [System in Action](#-your-learning-system-in-action)                  |
 
 ---
 
-## 🔍 Understanding the Four-Pillar System
+## 🔍 Understanding the Unified Structure
 
-### **Why Four Folders? Are They Redundant?**
+### **Simplified Organization - One Primary Folder**
 
-**NO - Each serves a distinct, non-overlapping purpose:**
+**The new streamlined approach eliminates unused folders and consolidates everything into a single, comprehensive reference library:**
 
-| Folder                            | Purpose                  | Content Type                                               | When You Use It                                          |
-| --------------------------------- | ------------------------ | ---------------------------------------------------------- | -------------------------------------------------------- |
-| **01_LeadArchitectKnowledgeBase** | **Portfolio of Mastery** | Your completed work, implementations, evidence of learning | When showcasing what you've accomplished and mastered    |
-| **02_LearningJourney**            | **Active Workspace**     | Current learning plans, daily tracking, active work        | When you're actively learning and need to track progress |
-| **03_ReferenceLibrary**           | **Quick Reference Desk** | Curated materials you actively use                         | When you need quick reference during learning or work    |
-| **04_LegacyContent**              | **Complete Archive**     | All original materials and comprehensive resources         | When you need to explore comprehensive materials         |
+| Folder                     | Purpose                         | Content Type                                              | When You Use It                                      |
+| -------------------------- | ------------------------------- | --------------------------------------------------------- | ---------------------------------------------------- |
+| **01_ReferenceLibrary**    | **Complete Learning System**    | Educational content + Personal achievements               | Primary workspace for all learning activities       |
+| **04_LegacyContent**       | **Migration Source**            | Original materials being systematically migrated         | Source for content migration (temporary)            |
+| **05_Todos**               | **Planning & Backlog**          | Task planning and future learning ideas                  | When planning future learning activities            |
+| **06_AuditFiles**          | **System Documentation**        | Process documentation and audit trails                   | When reviewing system organization                   |
 
-### **How They Work Together**
+### **Unified ReferenceLibrary Structure**
 
 ```mermaid
-graph LR
-    A[02_LearningJourney<br/>📝 Plan & Track] --> B[03_ReferenceLibrary<br/>📖 Quick Reference]
-    A --> C[01_LeadArchitectKnowledgeBase<br/>📚 Document Mastery]
-    B -.-> A
-    D[04_LegacyContent<br/>📁 Source Materials] -.-> B
-    D -.-> A
-
+graph TD
+    A[01_ReferenceLibrary<br/>� Complete Learning System] --> B[MyAchievements<br/>🏆 Personal Portfolio]
+    A --> C[01_Development<br/>�️ Programming]
+    A --> D[02_AI-and-ML<br/>🤖 AI & Machine Learning]
+    A --> E[03_Data-Science<br/>� Data & Analytics]
+    
+    B --> F[AI-NLP<br/>💡 NLP Implementations]
+    
     style A fill:#e8f5e8
-    style B fill:#e1f5fe
-    style C fill:#fff3e0
-    style D fill:#f5f5f5
+    style B fill:#fff3e0
+    style C fill:#e1f5fe
+    style D fill:#fce4ec
+    style E fill:#f3e5f5
 ```
 
-### **Typical Learning Workflow**
+### **Simplified Learning Workflow**
 
-1. **Plan** your week in `02_LearningJourney`
-2. **Reference** curated materials from `03_ReferenceLibrary` while learning
-3. **Explore** comprehensive materials in `04_LegacyContent` when needed
-4. **Document** completed work and mastery in `01_LeadArchitectKnowledgeBase`
+1. **Study** educational content in `01_ReferenceLibrary/[domain]`
+2. **Apply** concepts through practical examples and implementations
+3. **Reference** both educational content and practical examples as needed
 
-### **Real Example: Week 1 OOP Learning**
+### **Real Example: NLP Learning Journey**
 
-- **02_LearningJourney**: "Week 1 daily plan + OOP exercises tracking"
-- **03_ReferenceLibrary**: "Python internals guide for quick reference"
-- **04_LegacyContent**: "Complete OOP tutorials and comprehensive materials"
-- **01_LeadArchitectKnowledgeBase**: "Completed Week 1 OOP implementation + documentation"
+- **01_ReferenceLibrary/02_AI-and-ML/04_NaturalLanguageProcessing/**: "Comprehensive NLP educational guides"
+- **01_ReferenceLibrary/.../examples/practical-implementations/**: "Working code examples and demonstrations"
 
 **Each folder captures a different stage and type of learning activity - no redundancy!**
 
 ---
 
-## 🧭 Portal: Strategy ↔ Learning
+## 🧭 Portal: Streamlined Learning System
 
-Use this quick portal to move between strategy, learning, and active work:
+Use this streamlined system for all your learning needs:
 
-- 🧠 Strategy (guardrails & decisions): [01_LeadArchitectKnowledgeBase/](01_LeadArchitectKnowledgeBase/)
-- 📚 Learning (tracks & references): [03_ReferenceLibrary/](03_ReferenceLibrary/)
-- 🗓️ Active week (plan & track): [02_LearningJourney/](02_LearningJourney/)
+- 📚 **Primary Hub**: [01_ReferenceLibrary/](01_ReferenceLibrary/) - Educational content with practical examples
+- 📋 **Planning**: [05_Todos/](05_Todos/) - Future learning tasks and ideas
 
 ```mermaid
 graph LR
-    S[01_LeadArchitectKnowledgeBase<br/>🧠 Strategy] --> L[03_ReferenceLibrary<br/>📚 Learning]
-    L --> A[02_LearningJourney<br/>🗓️ Active Work]
-    A --> P[01_LeadArchitectKnowledgeBase<br/>📁 Portfolio]
-    P -. Feedback .-> S
+    R[01_ReferenceLibrary<br/>📚 Learning Hub] --> M[MyAchievements<br/>🏆 Portfolio]
+    R --> T[05_Todos<br/>� Planning]
+    M -. Evidence .-> R
+    T -. Ideas .-> R
 
-    style S fill:#fff3e0
-    style L fill:#e1f5fe
-    style A fill:#e8f5e8
-    style P fill:#fff3e0
+    style R fill:#e1f5fe
+    style M fill:#fff3e0
+    style T fill:#e8f5e8
 ```
 
 ---
@@ -651,10 +671,10 @@ Run a quick local link check using Lychee (via Docker):
 
 ```powershell
 # Extract links only (does not validate)
-docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress --dump README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 04_LegacyContent/**/*.md 05_Todos/**/*.md 06_AuditFiles/**/*.md .github/**/*.md
+docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress --dump README.md 01_ReferenceLibrary/**/*.md 02_Planning-and-Development/**/*.md 05_Todos/**/*.md 07_LearningGround/**/*.md Daily-Migration-Tracker.md Migration-Plan-Todos-LearningGround.md .github/**/*.md
 
 # Validate links (recommended; matches CI behavior)
-docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 04_LegacyContent/**/*.md 05_Todos/**/*.md 06_AuditFiles/**/*.md .github/**/*.md
+docker run --rm -w /input -v "${PWD}:/input" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md 01_ReferenceLibrary/**/*.md 02_Planning-and-Development/**/*.md 05_Todos/**/*.md 07_LearningGround/**/*.md Daily-Migration-Tracker.md Migration-Plan-Todos-LearningGround.md .github/**/*.md
 ```
 
 Shortcut on Windows (PowerShell):

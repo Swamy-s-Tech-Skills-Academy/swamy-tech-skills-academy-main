@@ -159,13 +159,17 @@ This directory contains specialized prompts for different aspects of the Swamy's
 
 ### **Repository Structure Awareness**
 
-All prompts understand the STSA structure:
+All prompts understand the current STSA structure:
 
 ```text
-01_LeadArchitectKnowledgeBase/  ← Evidence portfolio
-02_LearningJourney/            ← Daily learning engine
-03_ReferenceLibrary/           ← Knowledge architecture
+01_ReferenceLibrary/              ← Pure learning content only
+02_Planning-and-Development/      ← Planning materials (migration target)
+04_LegacyContent/                 ← Historical archives
+05_Todos/                         ← Active planning (migration source)
+07_LearningGround/                ← Content intake (migration source)
 ```
+
+**Migration Status**: Repository is transitioning to unified structure with strict separation between learning content and planning materials.
 
 ### **Learning Track Support**
 
