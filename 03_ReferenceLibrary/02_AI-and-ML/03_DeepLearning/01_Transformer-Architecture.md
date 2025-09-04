@@ -78,9 +78,55 @@ Imagine reading a book where all sentences are scrambled:
 - **With position encoding**: The model knows word #1 is "I", word #2 is "went", etc.
 - **Combined with attention**: The model understands both meaning AND structure
 
-## 🏗️ Architectural Components
+## 🏗️ Transformer Processing Pipeline
 
-### Core Components of a Transformer
+### Complete Flow: From Text to Output
+
+The Transformer architecture follows a clear processing pipeline that transforms human-readable text into meaningful outputs:
+
+```text
+┌─────────────────┐
+│   Input Text    │  ← Raw text prompt or document
+│    (prompt)     │
+└─────────┬───────┘
+          │ Tokenization
+          ▼
+┌─────────────────┐
+│     Token       │  ← Text broken into discrete tokens
+│   Sequence      │
+└─────────┬───────┘
+          │ Token → Vector
+          ▼
+┌─────────────────┐
+│   Embedding     │  ← Tokens converted to numerical vectors
+│   Vectors       │
+└─────────┬───────┘
+          │ Context Processing
+          ▼
+┌─────────────────┐
+│    Encoder      │  ← Multi-head attention + feed-forward
+│    Layers       │    (Understanding context & relationships)
+└─────────┬───────┘
+          │ Generation/Analysis
+          ▼
+┌─────────────────┐
+│    Decoder      │  ← Output generation layer
+│    Layers       │
+└─────────┬───────┘
+          │ Multiple Output Types
+          ▼
+┌─────────────────┐     ┌─────────────────┐
+│ Generated Text  │     │   Numerical     │
+│  (completion)   │     │ Representation  │
+└─────────────────┘     └─────────────────┘
+      │                         │
+      ▼                         ▼
+  Chat responses,          Embeddings for
+  Code generation,         "Bring your own data",
+  Content creation         Search, RAG, etc.
+```
+
+### Core Architectural Components
 
 1. **Multi-Head Attention**
 
@@ -123,6 +169,27 @@ Imagine reading a book where all sentences are scrambled:
 - Large Transformer models show unexpected capabilities
 - In-context learning, reasoning, code generation
 - Scale enables qualitative improvements, not just quantitative
+
+### Dual Output Capabilities
+
+The Transformer architecture's flexibility enables two primary output modes:
+
+**1. Text Generation (Decoder Output)**:
+
+- Chat responses and conversations
+- Code generation and programming assistance
+- Content creation (articles, summaries, creative writing)
+- Language translation and text transformation
+
+**2. Numerical Representations (Encoder Output)**:
+
+- **Embeddings for "Bring Your Own Data"** scenarios
+- Vector search and semantic similarity
+- RAG (Retrieval-Augmented Generation) systems
+- Document classification and clustering
+- Recommendation systems based on content similarity
+
+This dual capability makes Transformers uniquely versatile - the same base architecture can power both generative applications and analytical/search applications.
 
 ## 🔗 Related Topics
 

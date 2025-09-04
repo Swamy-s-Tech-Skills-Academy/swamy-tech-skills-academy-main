@@ -472,7 +472,7 @@ After each level, ask yourself:
 ### **Next Steps**
 
 - **[../02_MachineLearning/README.md](../02_MachineLearning/README.md)** - Start your ML journey
-- **[../06_MCP-Servers/README.md](../06_MCP-Servers/README.md)** - Build practical AI systems
+- **[../06_MCP-Servers/ReadMe.md](../06_MCP-Servers/ReadMe.md)** - Build practical AI systems
 
 ### **Advanced**
 

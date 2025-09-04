@@ -10,7 +10,7 @@
 
 ## 🏗️ Learning Track Organization
 
-Our reference library is organized into **3 focused learning tracks** that group related domains together while maintaining clear relationships and learning paths. Each track has its own specialized focus and cross-connects with others.
+Our reference library is organized into **4 learning tracks** that group related domains together while maintaining clear relationships and learning paths. Each track has its own specialized focus and cross-connects with others.
 
 ### **🤖 [02_AI-and-ML/](02_AI-and-ML/)** - AI & Machine Learning Track
 
@@ -45,6 +45,19 @@ Programming foundations and software engineering excellence
 
 Perfect for: Software engineers, system architects, and anyone building technical systems
 
+### **⚙️ [04_DevOps/](04_DevOps/)** - DevOps & Infrastructure Track *(Emerging)*
+
+Infrastructure, deployment, and operational excellence
+
+- **Development Operations** - CI/CD pipelines and automation workflows
+- **Infrastructure as Code** - Declarative infrastructure management
+- **Observability** - Monitoring, logging, and performance optimization
+- **Release Strategies** - Deployment patterns and rollback procedures
+
+*Note: Currently in development phase. Core content available in legacy materials under `04_LegacyContent/_Backup/07_DevOps/`*
+
+Perfect for: DevOps engineers, site reliability engineers, and infrastructure specialists
+
 ---
 
 ## 🔗 Navigation Guide
@@ -54,12 +67,14 @@ Perfect for: Software engineers, system architects, and anyone building technica
 - **Interest in AI?** → Start with **[02_AI-and-ML/](02_AI-and-ML/)** track
 - **Business/Analytics focus?** → Start with **[03_Data-Science/](03_Data-Science/)** track
 - **Want to build systems?** → Start with **[01_Development/](01_Development/)** track
+- **Infrastructure/Operations focus?** → Check **[04_DevOps/](04_DevOps/)** track *(emerging)*
 
 ### **🎯 For Practitioners - Deep Expertise**
 
 - **AI/ML Engineers** → Focus on **[02_AI-and-ML/](02_AI-and-ML/)** + **[01_Development/](01_Development/)** + **[06_MCP-Servers/](02_AI-and-ML/06_MCP-Servers/)**
 - **Data Scientists** → Focus on **[03_Data-Science/](03_Data-Science/)** + **[01_Development/01_Python/](01_Development/01_Python/)**
 - **Software Architects** → Focus on **[01_Development/](01_Development/)** + cross-track integration
+- **DevOps Engineers** → Focus on **[04_DevOps/](04_DevOps/)** + **[01_Development/](01_Development/)** *(emerging track)*
 
 ### **🧠 For Leaders & Strategists**
 
@@ -82,6 +97,7 @@ Perfect for: Software engineers, system architects, and anyone building technica
 - **AI & ML Track**: **[02_AI-and-ML/README.md](02_AI-and-ML/README.md)**
 - **Data Science Track**: **[03_Data-Science/README.md](03_Data-Science/README.md)**
 - **Development Track**: **[01_Development/README.md](01_Development/README.md)**
+- **DevOps Track**: **[04_DevOps/README.md](04_DevOps/README.md)** *(emerging)*
 
 ### Library Maps
 
@@ -116,9 +132,9 @@ Link back to the strategic guardrails and reference architectures when needed:
 
 ---
 
-**📅 Last Updated**: August 29, 2025  
-**🎯 Purpose**: Comprehensive learning tracks for AI, Data Science, and Development  
-**📍 Structure**: 3 focused tracks with interconnected domains and clear learning paths
+**📅 Last Updated**: September 3, 2025  
+**🎯 Purpose**: Comprehensive learning tracks for AI, Data Science, Development, and DevOps  
+**📍 Structure**: 4 learning tracks with interconnected domains and clear learning paths
 
 ---
 

@@ -28,14 +28,31 @@ Tokenization is the process of breaking down text into smaller, manageable piece
 
 ### 🔢 The Two-Step Transformation Process
 
-When Large Language Models (LLMs) process text, they follow a systematic transformation:
+When Large Language Models (LLMs) process text, they follow a systematic transformation that prepares text for neural network processing:
 
 ```text
-Step 1: Text Segmentation
-"The human brain is complex" → ["The", " human", " brain", " is", " complex"]
+Input Text Processing Pipeline:
 
-Step 2: Numerical Mapping  
-["The", " human", " brain", " is", " complex"] → [791, 3823, 8271, 374, 6485]
+┌─────────────────────────────────┐
+│  "The human brain is complex"   │  ← Raw input text (string)
+└─────────────┬───────────────────┘
+              │ Step 1: Tokenization
+              ▼
+┌─────────────────────────────────┐
+│ ["The", " human", " brain",     │  ← Tokens (string array)
+│  " is", " complex"]             │
+└─────────────┬───────────────────┘
+              │ Step 2: Token ID Mapping
+              ▼
+┌─────────────────────────────────┐
+│    [791, 3823, 8271, 374, 6485] │  ← Token IDs (integer array)
+└─────────────┬───────────────────┘
+              │ Ready for neural network
+              ▼
+┌─────────────────────────────────┐
+│      Embedding Layer           │  ← Convert IDs to vectors
+│     (Neural Network)            │
+└─────────────────────────────────┘
 ```
 
 #### Why This Two-Step Process?
@@ -133,6 +150,112 @@ Possible Tokenization: ["Chat", "GPT"]
 Token IDs: [14581, 38, 18276]
 ```
 
+## 🛠️ Tokenizer Libraries and Model Compatibility
+
+### Critical Understanding: Model-Specific Tokenizers
+
+**Important**: Each tokenizer is designed for its corresponding LLM and **cannot be interchanged**. Using the wrong tokenizer will produce incorrect results because models expect specific token vocabularies and encoding schemes.
+
+### Major Tokenizer Types and Their Models
+
+#### **tiktoken** - OpenAI's GPT Models
+
+```text
+Used by: GPT-3.5, GPT-4, ChatGPT, Codex
+Characteristics:
+├── Byte Pair Encoding (BPE) approach
+├── Optimized for English and code
+├── Handles various text formats efficiently
+└── Popular in educational examples and tutorials
+
+Example Usage:
+"Hello world!" → ['Hello', ' world', '!'] → [9906, 1917, 0]
+```
+
+#### **WordPiece** - Google's BERT Family
+
+```text
+Used by: BERT, DistilBERT, ELECTRA
+Characteristics:
+├── Splits text into smaller units based on frequency
+├── Handles rare/out-of-vocabulary words effectively  
+├── Uses "##" prefix for subword continuations
+└── Optimized for understanding tasks (not generation)
+
+Example Usage:
+"incredible" → ['in', '##credible'] → [1999, 23652]
+"running" → ['run', '##ning'] → [2448, 6655]
+```
+
+#### **SentencePiece** - Meta's RoBERTa Family
+
+```text
+Used by: RoBERTa (Robustly Optimized BERT), XLM-R
+Characteristics:
+├── Combines WordPiece and BPE approaches
+├── Language-agnostic framework
+├── Treats spaces as special characters
+└── More flexible for multilingual scenarios
+
+Example Usage:
+"Hello world" → ['▁Hello', '▁world'] → [8774, 296]
+Note: ▁ represents space character
+```
+
+#### **T5 Tokenizer** - Google's Text-to-Text Models
+
+```text
+Used by: T5 (Text-to-Text Transfer Transformer), UL2
+Characteristics:
+├── Based on SentencePiece implementation
+├── Designed for text-to-text tasks
+├── Handles input-output formatting
+└── Optimized for sequence-to-sequence learning
+
+Example Usage:
+"translate: Hello" → ['translate', ':', '▁Hello'] → [13959, 10, 8774]
+```
+
+#### **XLM Tokenizer** - Meta's Cross-Lingual Models
+
+```text
+Used by: XLM (Cross-lingual Language Model), mBERT variants
+Characteristics:
+├── Implements BPE with learned embeddings (BPEmb)
+├── Designed for multilingual text processing
+├── Supports cross-lingual transfer learning
+└── Handles multiple scripts and languages
+
+Example Usage:
+"Hello" (English) → [8774]
+"Bonjour" (French) → [25402] 
+"こんにちは" (Japanese) → [38188, 42156]
+```
+
+### 🔄 Practical Implications
+
+#### Why Tokenizer Choice Matters
+
+```text
+Same Text, Different Tokenizers:
+
+Input: "machine learning"
+
+tiktoken (GPT):     ['machine', ' learning'] → [27834, 6975]
+WordPiece (BERT):   ['machine', 'learning'] → [3698, 4083]  
+SentencePiece (T5): ['▁machine', '▁learning'] → [1437, 1036]
+XLM (Multilingual): ['▁machine', '▁learning'] → [2983, 1379]
+
+Result: Completely different token IDs for the same text!
+```
+
+#### Development Best Practices
+
+1. **Always Use Matching Tokenizer**: Use tiktoken for GPT models, transformers library for BERT/RoBERTa
+2. **Model Documentation**: Check model cards for specified tokenizer requirements
+3. **Preprocessing Consistency**: Ensure training and inference use identical tokenization
+4. **Testing**: Validate tokenization output before model inference
+
 ### 💡 Key Insights and Analogies
 
 #### Dictionary Analogy
@@ -203,9 +326,9 @@ Neural Network Processing
 
 ### Related Learning Paths
 
-- [Text Preprocessing Fundamentals](../01_Text-Preprocessing-Fundamentals.md)
-- [Embedding Techniques](../02_Word-Embeddings-and-Representations.md)
-- [Language Model Architecture](../../05_LargeLanguageModels/01_Transformer-Architecture.md)
+- [Text Preprocessing Fundamentals](./01_Basics/README.md)
+- [Embedding Techniques](./02_Text-Representation/04_Word2Vec-and-Embeddings.md)
+- [Language Model Architecture](../03_DeepLearning/01_Transformer-Architecture.md)
 
 ## 🔗 Related Topics
 
@@ -230,9 +353,9 @@ Neural Network Processing
 
 **Cross-References:**
 
-- [Transformer Architecture](../../01_AI/01_Understanding-Transformer-Architecture.md)
-- [Natural Language Processing Pipeline](./01_NLP-Processing-Pipeline.md)
-- [Large Language Models Overview](../../05_LargeLanguageModels/01_LLM-Fundamentals.md)
+- [Transformer Architecture](../01_AI/01_Understanding-Transformer-Architecture.md)
+- [NLP Basics](./01_Basics/README.md)
+- [Large Language Models Overview](../05_LargeLanguageModels/01_LLM-Fundamentals.md)
 
 ---
 

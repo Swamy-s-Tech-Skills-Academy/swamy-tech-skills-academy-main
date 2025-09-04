@@ -66,7 +66,7 @@ By completing this level, you will:
 
 ## 🚀 Hands-on Projects
 
-### **Project 1: Hello World Plus**
+### **Project 1: Personal Calculator**
 
 Create your first Python program that:
 

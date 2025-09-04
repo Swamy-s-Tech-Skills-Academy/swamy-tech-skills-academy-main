@@ -405,9 +405,9 @@ public static class StringExtensions
 }
 
 // Usage
-string text = "Hello World";
+string text = "Learning OOP";
 bool isEmpty = text.IsNullOrWhiteSpace(); // Extension method
-string truncated = text.Truncate(5); // "Hello"
+string truncated = text.Truncate(8); // "Learning"
 ```
 
 ---

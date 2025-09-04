@@ -56,7 +56,7 @@ Tokenization breaks down text into manageable units called "tokens" - typically 
 4. **Special Tokens**: Add markers for sentence boundaries, unknown words, and control signals
 
    ```text
-   [START] "Hello world" [END] → [1, 1247, 3891, 2]
+   [START] "Convert 25C" [END] → [1, 2574, 9183, 2]
    ```
 
 ### **Modern Tokenization Techniques**
