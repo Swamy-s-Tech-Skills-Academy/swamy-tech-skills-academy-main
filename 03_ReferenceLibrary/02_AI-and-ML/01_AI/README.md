@@ -42,6 +42,13 @@
   - Attention mechanisms and context understanding
   - Large-scale language model training
 
+- `01_LLM-Fundamentals.md` - Comprehensive LLM classification and model type analysis
+  - Base LLM vs Instruction-Based vs Fine-Tuned LLM comparison
+  - Foundation model hierarchy and relationships
+  - Practical model selection criteria and use cases
+  - Small Language Models (SLMs) integration and decision framework
+  - Interactive knowledge checks and hands-on exercises
+
 ### **Learning Curricula**
 
 - `AI-Learning-Topics.md` - Individual learning modules and structured paths
