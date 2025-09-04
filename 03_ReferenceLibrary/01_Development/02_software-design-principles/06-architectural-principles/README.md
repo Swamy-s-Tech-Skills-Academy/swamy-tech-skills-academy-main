@@ -12,6 +12,37 @@ This folder contains **architectural principles** - fundamental guidelines that 
 
 ## 📚 **Core Architectural Principles**
 
+### **🏗️ Clean Architecture**
+
+**Principle**: Organize systems with clear dependency direction toward business logic
+
+#### Learning Resources — Clean Architecture
+
+- **[Clean Architecture Fundamentals](01_Clean-Architecture-Fundamentals.md)** - Complete guide to Clean Architecture implementation with .NET examples
+
+#### Key Concepts — Clean Architecture
+
+- Dependency Inversion at architectural scale
+- Four-layer structure: Domain, Application, Infrastructure, Presentation
+- Business logic independence from frameworks and databases
+- Enhanced testability through abstraction layers
+
+#### System-Level Applications — Clean Architecture
+
+- **Enterprise Applications**: Complex business rules with changing requirements
+- **Long-term Projects**: Systems expected to evolve over multiple years
+- **Multi-Platform Systems**: Same business logic across web, mobile, desktop
+- **Team Collaboration**: Clear boundaries for parallel development
+
+#### Benefits — Clean Architecture
+
+- Framework and database independence
+- Exceptional testability of business logic
+- Flexible UI and infrastructure changes
+- Clear team responsibilities and boundaries
+
+---
+
 ### **🔗 Separation of Concerns**
 
 **Principle**: Divide complex systems into distinct, focused components
