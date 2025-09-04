@@ -20,8 +20,10 @@ Text Representation Journey:
     ↓ (simple counting approaches)
 04_TF-IDF.md
     ↓ (weighted text representation)
-05_Model-Tokenizer-Compatibility.md ← NEW!
+05_Model-Tokenizer-Compatibility.md
     ↓ (critical for modern LLMs)
+06_Token-Encoding-and-Embeddings.md ← NEW!
+    ↓ (complete LLM text processing pipeline)
 Advanced Text Representations →
 ```
 
@@ -61,6 +63,14 @@ Advanced Text Representations →
 - **Why Important**: Prevents critical errors when working with modern LLMs
 - **Learning Level**: Beginner to Intermediate
 - **Time**: 20 minutes
+
+#### **06_Token-Encoding-and-Embeddings** 🚀 **Complete LLM Pipeline**
+
+- **What**: Comprehensive guide to text-to-vector transformation in LLMs
+- **Why Important**: Master the complete pipeline from raw text to model processing
+- **Key Concepts**: Tokenization strategies, embedding mathematics, semantic relationships
+- **Learning Level**: Intermediate
+- **Time**: 60 minutes
 
 ## 🔗 Connections to Advanced Topics
 

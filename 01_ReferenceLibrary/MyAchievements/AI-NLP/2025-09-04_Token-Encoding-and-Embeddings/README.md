@@ -20,6 +20,7 @@ I've mastered how LLMs transform human text into mathematical representations th
 **What I Learned**: Tokenization breaks text into manageable units and assigns unique numerical identifiers.
 
 **My Example Implementation Concept**:
+
 ```text
 Input Text: "Learning AI is fascinating!"
 
@@ -37,6 +38,7 @@ Step 2: Map to Token IDs (using hypothetical vocabulary)
 **What I Learned**: Each token ID maps to a high-dimensional vector that captures semantic meaning through learned relationships.
 
 **My Conceptual Example**:
+
 ```text
 Token ID 1247 ("Learning") → [0.2, -0.1, 0.8, 0.4, ...] (512 dimensions)
 Token ID 891 ("AI")       → [0.3, -0.2, 0.7, 0.5, ...] (512 dimensions)
@@ -44,6 +46,7 @@ Token ID 45 ("is")        → [0.1,  0.0, 0.1, 0.2, ...] (512 dimensions)
 ```
 
 **Semantic Relationships Discovered**:
+
 - **Similar concepts cluster together**: "Learning" and "studying" vectors are close
 - **Functional words are distinct**: "is", "the", "and" form their own clusters
 - **Context sensitivity**: Same word in different contexts can have different embeddings
@@ -67,16 +70,19 @@ Output Generation: Probability distributions over vocabulary
 ## 💡 Key Insights and "Aha!" Moments
 
 ### **Insight 1: Vocabulary Limitations Drive Design**
+
 - **Discovery**: LLMs can't handle infinite vocabulary, so tokenization creates a fixed, manageable set
 - **Implication**: Unknown words get broken into known sub-word pieces
 - **Example**: "supercalifragilisticexpialidocious" → ["super", "cal", "ifrag", "ilis", "tic", "exp", "ial", "ido", "cious"]
 
 ### **Insight 2: Embeddings Capture Meaning Through Training**
+
 - **Discovery**: Vector similarities emerge from language patterns in training data
 - **Mechanism**: Words appearing in similar contexts develop similar embeddings
 - **Example**: "doctor" and "physician" vectors become close because they appear in similar sentence structures
 
 ### **Insight 3: The Encoding-Embedding Bridge**
+
 - **Discovery**: Token encoding creates the "address" system, embeddings provide the "content"
 - **Analogy**: Like a library where book numbers (token IDs) point to actual books (embedding vectors)
 - **Efficiency**: This two-stage process allows models to handle any vocabulary size with fixed computational requirements
@@ -84,34 +90,40 @@ Output Generation: Probability distributions over vocabulary
 ## 🛠️ Practical Applications I Can Now Implement
 
 ### **Text Preprocessing Pipeline**
+
 1. **Clean and normalize** input text
 2. **Apply tokenization** using model-specific tokenizer
 3. **Convert to token IDs** for model input
 4. **Retrieve embeddings** for similarity analysis or fine-tuning
 
 ### **Similarity Analysis**
+
 - **Semantic search**: Compare embedding vectors to find similar concepts
 - **Clustering**: Group related terms based on embedding distances
 - **Anomaly detection**: Identify unusual token combinations
 
 ### **Model Debugging**
+
 - **Tokenization inspection**: Verify how text gets split
 - **Embedding analysis**: Examine learned relationships between concepts
 - **Vocabulary coverage**: Check if domain-specific terms are properly tokenized
 
 ## 🔗 Cross-References to Learning System
 
-### **Prerequisites Mastered**:
+### **Prerequisites Mastered**
+
 - **[One-Hot Encoding](../2025-08-11_One-Hot-Encoding/)** - Foundation for understanding discrete representations
 - **[Bag-of-Words](../2025-08-12_Bag-of-Words/)** - Context for why dense embeddings improve on sparse representations
 - **[TF-IDF](../2025-08-13_TF-IDF/)** - Understanding term importance weighting
 
-### **Builds Upon**:
+### **Builds Upon**
+
 - Vector space mathematics from linear algebra foundations
 - Neural network basics for understanding learned representations
 - Information theory concepts for tokenization efficiency
 
-### **Enables Next Steps**:
+### **Enables Next Steps**
+
 - **Attention Mechanisms** - How models use embeddings to focus on relevant tokens
 - **Transformer Architecture** - The complete picture of modern LLM processing
 - **Fine-tuning Strategies** - Adapting pre-trained embeddings for specific tasks
