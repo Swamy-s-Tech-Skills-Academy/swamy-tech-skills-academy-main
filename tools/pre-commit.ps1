@@ -19,7 +19,7 @@ if ($offenders.Count -gt 0) {
     $offenders | ForEach-Object { Write-Host " - $_" }
     Write-Host "Guidance:"
     Write-Host " - Number from 01_. Use 00_ only as a short-lived deprecation stub."
-    Write-Host " - See 03_ReferenceLibrary/02_ORGANIZATION_GUIDE.md → Numbering Rules."
+    Write-Host " - See 01_ReferenceLibrary/02_ORGANIZATION_GUIDE.md → Numbering Rules."
     exit 1
 }
 

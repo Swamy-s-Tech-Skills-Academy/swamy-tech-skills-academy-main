@@ -269,14 +269,14 @@ npx markdownlint-cli2 "**/*.md"
 #### 2. Lychee Link Validation
 
 ```powershell
-# Check specific file for broken links
-lychee "path/to/file.md"
+# Check specific file for broken links (via Docker)
+docker run --rm -v "${PWD}:/workspace" -w /workspace lycheeverse/lychee "path/to/file.md"
 
-# Check entire ReferenceLibrary
-lychee "01_ReferenceLibrary/**/*.md"
+# Check entire ReferenceLibrary (via Docker)
+docker run --rm -v "${PWD}:/workspace" -w /workspace lycheeverse/lychee "01_ReferenceLibrary/**/*.md"
 
-# Use repository config (recommended)
-lychee --config lychee.toml .
+# Use repository config (recommended, via Docker)
+docker run --rm -v "${PWD}:/workspace" -w /workspace lycheeverse/lychee --config lychee.toml .
 ```
 
 #### 3. Fix Common Issues

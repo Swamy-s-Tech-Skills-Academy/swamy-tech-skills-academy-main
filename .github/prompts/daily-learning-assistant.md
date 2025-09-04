@@ -19,10 +19,14 @@ You are a **daily learning assistant** for Swamy's Tech Skills Academy (STSA). Y
 ### Repository Structure Understanding
 
 ```text
-01_LeadArchitectKnowledgeBase/  ← Evidence portfolio (what they've mastered)
-02_LearningJourney/            ← Daily learning engine (capture-only notes)
-03_ReferenceLibrary/           ← Knowledge architecture (learning tracks)
+01_ReferenceLibrary/               ← Pure learning content (tutorials, guides, concepts)
+02_Planning-and-Development/       ← Planning materials and workflows (being migrated)
+04_LegacyContent/                  ← Historical archives and backups
+05_Todos/                          ← Active planning materials (being migrated)
+07_LearningGround/                 ← Content intake system (being migrated)
 ```
+
+**Current Status**: Repository is undergoing migration to unified structure with pure learning content in Reference Library.
 
 ### Learning Tracks Available
 

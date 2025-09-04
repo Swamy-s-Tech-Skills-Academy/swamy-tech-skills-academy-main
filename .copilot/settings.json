@@ -12,16 +12,17 @@
     "workspace": {
         "analyze": [
             "README.md",
-            "01_LeadArchitectKnowledgeBase/**/*.md",
-            "02_LearningJourney/**/*.md",
-            "03_ReferenceLibrary/**/*.md",
+            "01_ReferenceLibrary/**/*.md",
+            "02_Planning-and-Development/**/*.md",
             "05_Todos/**/*.md",
-            "06_AuditFiles/**/*.md",
             "07_LearningGround/**/*.md",
+            "Daily-Migration-Tracker.md",
+            "Migration-Plan-Todos-LearningGround.md",
             ".github/**/*.md"
         ],
         "exclude": [
             "04_LegacyContent/**",
+            "06_AuditFiles/**",
             "**/node_modules/**",
             "**/.venv/**",
             "**/.vscode/**",
@@ -31,24 +32,28 @@
     },
     "commands": {
         "docs:lint": {
-            "run": "npx --yes markdownlint-cli2 \"README.md\" \"01_LeadArchitectKnowledgeBase/**/*.md\" \"02_LearningJourney/**/*.md\" \"03_ReferenceLibrary/**/*.md\" \"05_Todos/**/*.md\" \"06_AuditFiles/**/*.md\" \"07_LearningGround/**/*.md\" \".github/**/*.md\"",
-            "description": "Run Markdown lint for all docs"
-        },
-        "links:dump": {
-            "run": "docker run --rm -w /input -v \"${PWD}:/input\" lycheeverse/lychee:latest --config lychee.toml --no-progress --dump README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 05_Todos/**/*.md 06_AuditFiles/**/*.md 07_LearningGround/**/*.md .github/**/*.md",
-            "description": "Extract links (no validation) using Lychee"
+            "run": "npx --yes markdownlint-cli2 \"README.md\" \"01_ReferenceLibrary/**/*.md\" \"02_Planning-and-Development/**/*.md\" \"05_Todos/**/*.md\" \"07_LearningGround/**/*.md\" \"Daily-Migration-Tracker.md\" \"Migration-Plan-Todos-LearningGround.md\" \".github/**/*.md\"",
+            "description": "Run Markdown lint for all active docs"
         },
         "links:check": {
-            "run": "docker run --rm -w /input -v \"${PWD}:/input\" lycheeverse/lychee:latest --config lychee.toml --no-progress README.md 01_LeadArchitectKnowledgeBase/**/*.md 02_LearningJourney/**/*.md 03_ReferenceLibrary/**/*.md 05_Todos/**/*.md 06_AuditFiles/**/*.md 07_LearningGround/**/*.md .github/**/*.md",
-            "description": "Validate links using Lychee"
+            "run": "docker run --rm -v \"${PWD}:/workspace\" -w /workspace lycheeverse/lychee --config lychee.toml --no-progress README.md 01_ReferenceLibrary/**/*.md 02_Planning-and-Development/**/*.md 05_Todos/**/*.md 07_LearningGround/**/*.md Daily-Migration-Tracker.md Migration-Plan-Todos-LearningGround.md .github/**/*.md",
+            "description": "Validate links using Lychee via Docker"
         },
         "workspace:health": {
-            "run": "Get-ChildItem -Path . -Recurse -Name '*00_*' | Where-Object { $_ -notlike '*\\.git*' }",
-            "description": "Check for 00_ prefix violations"
+            "run": "Get-ChildItem -Path . -Recurse -Name '*00_*' | Where-Object { $_ -notlike '*\\.git*' -and $_ -notlike '*04_LegacyContent*' }",
+            "description": "Check for 00_ prefix violations (excluding legacy content)"
+        },
+        "workspace:structure": {
+            "run": "Get-ChildItem -Path . -Directory -Name | Where-Object { $_ -match '^\\d+_' } | Sort-Object",
+            "description": "Show current workspace folder structure"
         },
         "prompts:validate": {
             "run": "Get-ChildItem -Path .github/prompts/*.md | ForEach-Object { Write-Host \"Validating: $($_.Name)\"; npx --yes markdownlint-cli2 $_.FullName }",
             "description": "Validate all prompt files for markdown compliance"
+        },
+        "migration:status": {
+            "run": "if (Test-Path 'Daily-Migration-Tracker.md') { Write-Host 'Migration tracker found'; Get-Content 'Daily-Migration-Tracker.md' | Select-String -Pattern '\\[x\\]|\\[ \\]' | Select-Object -First 10 } else { Write-Host 'No migration tracker found' }",
+            "description": "Check migration progress status"
         }
     }
 }
