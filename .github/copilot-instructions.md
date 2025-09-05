@@ -366,6 +366,47 @@ Example code fence with required blank lines:
 - Provide ASCII-first diagrams using text code fences
 - Also include a Mermaid version where feasible; ensure an ASCII fallback is present
 
+#### Mermaid Diagram Styling Best Practices
+
+**Soft Color Palette Standards:**
+
+- Use soft, pastel backgrounds with darker, readable borders
+- Apply consistent color families across related diagram elements
+- Maintain sufficient contrast for accessibility (WCAG guidelines)
+
+**Recommended Color Schemes:**
+
+```text
+Primary Process Colors:
+- Blue Family: fill:#e3f2fd, stroke:#1976d2 (foundational/stable)
+- Green Family: fill:#e8f5e8, stroke:#388e3c (productive/positive)
+- Orange Family: fill:#fff3e0, stroke:#f57c00 (dynamic/creative)
+- Purple Family: fill:#f3e5f5, stroke:#9c27b0 (analytical/processing)
+- Red Family: fill:#ffebee, stroke:#d32f2f (critical/attention)
+
+Neutral/Support Colors:
+- Light Gray: fill:#fafafa, stroke:#90a4ae (neutral elements)
+- Warm Gray: fill:#f8f9fa, stroke:#6c757d (containers/backgrounds)
+```
+
+**Implementation Pattern:**
+
+```text
+1. Define classDef with soft fill colors and darker stroke colors
+2. Use stroke-width: 2-3px for emphasis, 1px for subtle elements
+3. Apply logical color mapping (blue=foundation, green=success, etc.)
+4. Group related elements with consistent color families
+5. Add emojis sparingly to enhance visual hierarchy
+```
+
+**Example Class Definition:**
+
+```text
+classDef primaryStyle fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#1565c0
+classDef successStyle fill:#e8f5e8,stroke:#4caf50,stroke-width:2px,color:#2e7d32
+classDef processStyle fill:#f3e5f5,stroke:#9c27b0,stroke-width:1px,color:#7b1fa2
+```
+
 ### Pre-publish lint checklist
 
 - No tabs; two-space nested list indentation
@@ -373,6 +414,7 @@ Example code fence with required blank lines:
 - Headings/lists/code fences separated by blank lines
 - Preview in VS Code Markdown preview to check rendering
 - For diagrams: verify both ASCII and Mermaid render correctly; ensure ASCII fallback is present
+- **Mermaid styling**: Confirm soft colors applied with proper contrast and logical color mapping
 - **Character encoding integrity**: No corrupt characters (�) or invalid Unicode sequences
 - **Post-update verification**: Run markdownlint and lychee checks after any documentation changes
 

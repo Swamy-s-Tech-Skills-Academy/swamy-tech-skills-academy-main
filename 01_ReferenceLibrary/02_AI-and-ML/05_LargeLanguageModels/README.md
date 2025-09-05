@@ -70,6 +70,7 @@ graph TD
 7. **[07_LLM-to-Agent-Bridge.md](07_LLM-to-Agent-Bridge.md)** - Connecting to Agentic AI
 8. **[08_Text-Generation-App-Ideas.md](08_Text-Generation-App-Ideas.md)** - Practical application concepts
 9. **[09_Neural-Learning-Mechanics.md](09_Neural-Learning-Mechanics.md)** - How LLMs learn from experience
+10. **[10_Advanced-Training-Techniques.md](10_Advanced-Training-Techniques.md)** - Efficient optimization and reasoning patterns
 
 ---
 
