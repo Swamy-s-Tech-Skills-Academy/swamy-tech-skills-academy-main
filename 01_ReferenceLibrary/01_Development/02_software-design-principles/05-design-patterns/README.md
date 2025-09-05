@@ -12,7 +12,20 @@ This folder contains **design patterns** - time-tested solutions to recurring de
 
 ## 📚 **Pattern Categories**
 
-### **🏭 Creational Patterns**
+### **� [01_Design-Patterns-Track.md](01_Design-Patterns-Track.md)** ⭐ **LEARNING TRACK**
+
+#### Design Patterns Learning Path (4-5 weeks)
+
+- **Progression**: Gang of Four patterns across Generic, C#, and Python
+- **Structure**: Daily sessions building from simple to complex patterns
+- **Coverage**: Creational → Structural → Behavioral patterns with practical examples
+- **Outcome**: Master 23 classic design patterns with real-world implementation skills
+
+**When to Use**: Structured pattern learning, building advanced OOP skills
+
+---
+
+### **�🏭 Creational Patterns**
 
 **Purpose**: Control object creation mechanisms
 

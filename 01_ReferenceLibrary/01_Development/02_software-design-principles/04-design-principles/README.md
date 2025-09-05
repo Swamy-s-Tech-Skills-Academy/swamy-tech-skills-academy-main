@@ -12,6 +12,19 @@ This folder contains **core design principles** that guide decision-making in so
 
 ## 📚 **Core Design Principles**
 
+### **🎯 [01_SOLID-Principles-Track.md](01_SOLID-Principles-Track.md)** ⭐ **LEARNING TRACK**
+
+#### SOLID Principles Learning Path (2-3 weeks)
+
+- **Progression**: Core principles → Language implementations → Advanced refactoring
+- **Structure**: Daily sessions with practical applications
+- **Coverage**: SRP → OCP → LSP → ISP → DIP with real-world examples
+- **Outcome**: Master SOLID principles across Generic, C#, and Python
+
+**When to Use**: Structured SOLID learning, building clean code skills
+
+---
+
 ### **🎯 KISS - Keep It Simple, Stupid**
 
 #### The Simplicity Principle

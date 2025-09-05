@@ -28,7 +28,7 @@ This library provides a **structured progression** through essential software de
 
 ### **�🎓 Foundation Learning Tracks (Following Your Proven Daily Pattern)**
 
-#### **[01_OOP-Foundation-Track.md](01_OOP-Foundation-Track.md)** - 3-4 Weeks
+#### **[01-oop-fundamentals/01_OOP-Foundation-Track.md](01-oop-fundamentals/01_OOP-Foundation-Track.md)** - 3-4 Weeks
 
 **Object-Oriented Programming Mastery (Generic, C#, Python)**
 
@@ -37,7 +37,7 @@ This library provides a **structured progression** through essential software de
 - Week 3: Python implementation (Dynamic flexibility)
 - Week 4: Cross-language comparison & mastery
 
-#### **[02_SOLID-Principles-Track.md](02_SOLID-Principles-Track.md)** - 2-3 Weeks
+#### **[04-design-principles/01_SOLID-Principles-Track.md](04-design-principles/01_SOLID-Principles-Track.md)** - 2-3 Weeks
 
 **Design Principles Mastery (Generic, C#, Python)**
 
@@ -45,7 +45,7 @@ This library provides a **structured progression** through essential software de
 - Week 2: Language-specific implementations
 - Week 3: Advanced application & refactoring
 
-#### **[03_Design-Patterns-Track.md](03_Design-Patterns-Track.md)** - 4-5 Weeks
+#### **[05-design-patterns/01_Design-Patterns-Track.md](05-design-patterns/01_Design-Patterns-Track.md)** - 4-5 Weeks
 
 **Gang of Four Patterns (Generic, C#, Python)**
 
