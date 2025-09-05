@@ -178,7 +178,7 @@ This track provides the essential programming and software engineering foundatio
 
 ## 🗺️ Navigation & References
 
-- **Reference Index**: `../01_INDEX.md`
+- **Reference Library**: `../README.md`
 - **Taxonomy Map**: `../04_TAXONOMY_MAP.md`
 - **Development Modules**: All subfolders in this track
 
