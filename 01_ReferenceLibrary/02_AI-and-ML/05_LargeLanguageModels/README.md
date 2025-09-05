@@ -71,6 +71,9 @@ graph TD
 8. **[08_Text-Generation-App-Ideas.md](08_Text-Generation-App-Ideas.md)** - Practical application concepts
 9. **[09_Neural-Learning-Mechanics.md](09_Neural-Learning-Mechanics.md)** - How LLMs learn from experience
 10. **[10_Advanced-Training-Techniques.md](10_Advanced-Training-Techniques.md)** - Efficient optimization and reasoning patterns
+11. **[11_Foundation-Models-and-LLM-Evolution.md](11_Foundation-Models-and-LLM-Evolution.md)** - From narrow AI to universal models
+12. **[12_Breakthrough-Innovations-in-GenAI.md](12_Breakthrough-Innovations-in-GenAI.md)** - Latest efficiency and reasoning advances
+13. **[13_The-Journey-to-AI-Agents.md](13_The-Journey-to-AI-Agents.md)** - Evolution from text generation to intelligent agents
 
 ---
 
