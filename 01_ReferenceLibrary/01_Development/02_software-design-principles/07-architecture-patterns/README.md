@@ -10,6 +10,76 @@ This folder contains **architectural patterns** - high-level structural solution
 
 ---
 
+## 📚 **Advanced Architecture Patterns** ⭐ **NEW**
+
+### **🔄 [CQRS - Command Query Responsibility Segregation](01_CQRS-Command-Query-Separation.md)**
+
+**Purpose**: Separate read and write operations for optimal performance and scalability
+
+#### Key Concepts — CQRS
+
+- **Commands**: State-changing operations with business logic
+- **Queries**: Read-only operations optimized for data retrieval
+- **MediatR Integration**: Implementing CQRS with mediator pattern
+- **Event-Driven Updates**: Asynchronous read model updates
+
+#### Benefits — CQRS
+
+- Independent scaling of reads and writes
+- Optimized query and command models
+- Enhanced performance for high-load systems
+- Clear separation of business intent
+
+**Learning Level**: Intermediate | **Time**: 45-60 minutes
+
+---
+
+### **🏗️ [Domain-Driven Design Fundamentals](02_Domain-Driven-Design-Fundamentals.md)**
+
+**Purpose**: Model software to match complex business domains with rich, expressive domain objects
+
+#### Key Concepts — DDD
+
+- **Entities**: Objects with unique identity and lifecycle
+- **Value Objects**: Immutable descriptive objects
+- **Aggregates**: Consistency boundaries for business rules
+- **Domain Services**: Complex business logic coordination
+- **Bounded Contexts**: Strategic domain boundaries
+
+#### Benefits — DDD
+
+- Business-aligned software structure
+- Shared language between technical and business teams
+- Manageable complexity in large systems
+- Maintainable domain logic
+
+**Learning Level**: Intermediate to Advanced | **Time**: 60-75 minutes
+
+---
+
+### **⚡ [High-Scale System Architecture](03_High-Scale-System-Architecture.md)**
+
+**Purpose**: Design systems capable of handling extreme traffic loads (millions of requests per minute)
+
+#### Key Concepts — High-Scale
+
+- **Database Replication**: Multi-region high availability strategies
+- **Horizontal Scaling**: Load distribution and auto-scaling patterns
+- **Multi-Layer Caching**: CDN, distributed, and local cache coordination
+- **Asynchronous Processing**: Queue-based background processing
+- **Performance Optimization**: Memory management and resource pooling
+
+#### Benefits — High-Scale
+
+- Handles massive traffic volumes reliably
+- Cost-effective scaling strategies
+- Resilient failure handling
+- Optimized resource utilization
+
+**Learning Level**: Advanced | **Time**: 75-90 minutes
+
+---
+
 ## 📚 **Core Architecture Patterns**
 
 ### **🎯 MVC - Model-View-Controller**
@@ -143,21 +213,27 @@ This folder contains **architectural patterns** - high-level structural solution
 
 ### **Decision Matrix**
 
-| **Pattern**            | **UI Complexity** | **Testing Priority** | **Data Binding** | **Team Size** |
-| ---------------------- | ----------------- | -------------------- | ---------------- | ------------- |
-| **MVC**                | Medium            | Medium               | No               | Medium-Large  |
-| **MVP**                | High              | High                 | No               | Large         |
-| **MVVM**               | High              | Medium               | Yes              | Medium        |
-| **Clean Architecture** | Any               | Very High            | No               | Large         |
-| **Hexagonal**          | Any               | Very High            | No               | Large         |
+| **Pattern**            | **UI Complexity** | **Testing Priority** | **Data Binding** | **Team Size** | **Scale Requirements** |
+| ---------------------- | ----------------- | -------------------- | ---------------- | ------------- | -------------------- |
+| **MVC**                | Medium            | Medium               | No               | Medium-Large  | Low-Medium           |
+| **MVP**                | High              | High                 | No               | Large         | Low-Medium           |
+| **MVVM**               | High              | Medium               | Yes              | Medium        | Low-Medium           |
+| **Clean Architecture** | Any               | Very High            | No               | Large         | Medium-High          |
+| **Hexagonal**          | Any               | Very High            | No               | Large         | Medium-High          |
+| **CQRS**               | Any               | High                 | No               | Large         | High                 |
+| **DDD**                | Any               | Very High            | No               | Large         | Medium-High          |
+| **High-Scale**         | Any               | Very High            | No               | Very Large    | Very High            |
 
 ### **Common Scenarios**
 
 - **Simple Web App**: MVC
 - **Complex Desktop App**: MVP or MVVM
-- **Enterprise System**: Clean Architecture or Hexagonal
+- **Enterprise System**: Clean Architecture or Hexagonal + DDD
 - **Mobile App with Data Binding**: MVVM
-- **Microservice**: Hexagonal Architecture
+- **Microservice**: Hexagonal Architecture + DDD
+- **High-Traffic System**: CQRS + High-Scale Patterns
+- **Complex Business Domain**: DDD + Clean Architecture
+- **E-commerce/Banking**: DDD + CQRS + High-Scale Patterns
 
 ---
 
@@ -281,8 +357,10 @@ This folder contains **architectural patterns** - high-level structural solution
 
 - **Micro-Frontend Architecture**: Frontend microservices
 - **Event-Driven Architecture**: Reactive systems with events
-- **CQRS**: Command Query Responsibility Segregation
 - **Event Sourcing**: Store state changes as events
+- **CQRS**: Command Query Responsibility Segregation ⭐ **NOW AVAILABLE**
+- **Domain-Driven Design**: Business-focused modeling ⭐ **NOW AVAILABLE**
+- **High-Scale Patterns**: Million+ request/minute systems ⭐ **NOW AVAILABLE**
 
 ### **Cloud-Native Patterns**
 
@@ -301,11 +379,15 @@ After mastering architecture patterns:
 ✅ **Separate concerns effectively in large systems**  
 ✅ **Create testable and maintainable architectures**  
 ✅ **Communicate architectural decisions clearly**  
-✅ **Evolve system architecture as requirements change**
+✅ **Evolve system architecture as requirements change**  
+✅ **Implement CQRS for high-performance systems** ⭐ **NEW**  
+✅ **Model complex business domains with DDD** ⭐ **NEW**  
+✅ **Design systems for extreme scale (millions of requests)** ⭐ **NEW**  
+✅ **Apply event-driven and asynchronous patterns** ⭐ **NEW**
 
 ---
 
 _Architecture patterns provide the blueprint for organizing complex systems. Choose patterns that fit your context, not the other way around._
 
-**Last Updated**: July 22, 2025  
-**Current Focus**: System-level design patterns for modern applications
+**Last Updated**: September 7, 2025  
+**Current Focus**: Advanced enterprise and high-scale architecture patterns
