@@ -24,12 +24,7 @@
 
 ### **🛠️ Learning Support System**
 
-4. **[01_Daily-Learning-Template.md](01_Daily-Learning-Template.md)**
-   - Copy-paste templates for your daily notes
-   - Weekly planning structure
-   - Integration with your existing learning system
-
-5. **[99_Quick-Start-Guide.md](99_Quick-Start-Guide.md)**
+1. **[99_Quick-Start-Guide.md](99_Quick-Start-Guide.md)**
    - Immediate action plan for today
    - Based on your successful NLP learning pattern
    - Step-by-step launch instructions
@@ -158,7 +153,6 @@ You'll master:
 
 - **Action Guide**: `99_Quick-Start-Guide.md`
 - **Track 1**: `01_OOP-Foundation-Track.md`
-- **Daily Template**: `00_Daily-Learning-Template.md`
 
 ### **Your Learning Infrastructure**
 

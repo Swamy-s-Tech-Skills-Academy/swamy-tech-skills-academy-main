@@ -168,7 +168,6 @@ When you create implementations, consider:
 Your daily notes should link to:
 
 - Main track: `01_OOP-Foundation-Track.md`
-- Daily template: `00_Daily-Learning-Template.md`  
 - Existing folders: `01-oop-fundamentals/` for deep reference
 
 ---

@@ -16,7 +16,7 @@ This library provides a **structured progression** through essential software de
 
 #### **[15_Complete-Design-Principles-Guide.md](15_Complete-Design-Principles-Guide.md)** ⭐ **Comprehensive Module**
 
-**Complete Journey: From Code Principles to System Architecture (3-4 hours)**
+##### Complete Journey: From Code Principles to System Architecture (3-4 hours)
 
 - **Foundation Layer**: OOP concepts → SOLID principles mastery
 - **Implementation Layer**: Language practices (C#, JavaScript) → Design patterns
@@ -30,7 +30,7 @@ This library provides a **structured progression** through essential software de
 
 #### **[01-oop-fundamentals/01_OOP-Foundation-Track.md](01-oop-fundamentals/01_OOP-Foundation-Track.md)** - 3-4 Weeks
 
-**Object-Oriented Programming Mastery (Generic, C#, Python)**
+##### Object-Oriented Programming Mastery (Generic, C#, Python)
 
 - Week 1: Generic concepts (Universal principles)
 - Week 2: C# implementation (Type-safe enterprise)
@@ -39,7 +39,7 @@ This library provides a **structured progression** through essential software de
 
 #### **[04-design-principles/01_SOLID-Principles-Track.md](04-design-principles/01_SOLID-Principles-Track.md)** - 2-3 Weeks
 
-**Design Principles Mastery (Generic, C#, Python)**
+##### Design Principles Mastery (Generic, C#, Python)
 
 - Week 1: Core SOLID principles understanding
 - Week 2: Language-specific implementations
@@ -47,7 +47,7 @@ This library provides a **structured progression** through essential software de
 
 #### **[05-design-patterns/01_Design-Patterns-Track.md](05-design-patterns/01_Design-Patterns-Track.md)** - 4-5 Weeks
 
-**Gang of Four Patterns (Generic, C#, Python)**
+##### Gang of Four Patterns (Generic, C#, Python)
 
 - Week 1: Creational patterns
 - Week 2: Structural patterns
@@ -55,9 +55,9 @@ This library provides a **structured progression** through essential software de
 - Week 4: Behavioral patterns (Advanced)
 - Week 5: Pattern integration & real-world application
 
-#### **[01_Daily-Learning-Template.md](01_Daily-Learning-Template.md)** - Learning Support
+#### **Core Learning Content**
 
-**Daily Learning Template Following Your Proven System**
+##### Daily Learning Template Following Your Proven System
 
 - 1-hour daily capture-only approach
 - Evidence-based learning with implementation
