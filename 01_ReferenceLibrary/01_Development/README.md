@@ -179,7 +179,7 @@ This track provides the essential programming and software engineering foundatio
 ## 🗺️ Navigation & References
 
 - **Reference Library**: `../README.md`
-- **Taxonomy Map**: `../04_TAXONOMY_MAP.md`
+- **Learning Progression**: See main README for cross-domain pathways
 - **Development Modules**: All subfolders in this track
 
 ---
