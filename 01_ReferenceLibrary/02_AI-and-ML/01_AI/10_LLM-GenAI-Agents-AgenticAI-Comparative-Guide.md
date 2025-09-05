@@ -1,14 +1,8 @@
 # 10_LLM-GenAI-Agents-AgenticAI-Comparative-Guide
 
 Learning Level: Intermediate  
-Prerequisites: Basics of transformers and LLMs, prompt enginee---
-
-## 🔤 Deep Dive: Tokenization and Embedding Foundations
-
-Before understanding how LLMs process language, we need to understand the fundamental building blocks: how text becomes numbers.fundamentals  
-Estimated Ti---
-
-## 🔌 Boundary contracts (inputs/outputs, errors) 60–90 minutes
+Prerequisites: Basics of transformers and LLMs, prompt engineering fundamentals  
+Estimated Time: 60–90 minutes
 
 ---
 
@@ -103,7 +97,7 @@ By the end of this guide, you can:
 Rendering note: If your viewer doesn't support Mermaid, the diagram below may appear as code. Use the plain-text diagram that follows.
 
 ```mermaid
-flowchart TB
+flowchart TD
   subgraph LLM [LLM Inference]
     A1[Prompt and context] --> A2[Token sampling] --> A3[Completion]
   end
@@ -153,7 +147,7 @@ Notes:
 
 ---
 
-## � Deep Dive: Tokenization and Embedding Foundations
+## 🔤 Deep Dive: Tokenization and Embedding Foundations
 
 Before understanding how LLMs process language, we need to understand the fundamental building blocks: how text becomes numbers.
 
@@ -371,7 +365,7 @@ GPT-3.5       | 4096          | 100K       | 175B
 
 ---
 
-## �🔌 Boundary contracts (inputs/outputs, errors)
+## 🔌 Boundary contracts (inputs/outputs, errors)
 
 - LLM
   - Input: {prompt, context} → Output: {text tokens}
