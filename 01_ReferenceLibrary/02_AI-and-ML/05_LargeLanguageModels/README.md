@@ -73,7 +73,7 @@ graph TD
 10. **[10_Advanced-Training-Techniques.md](10_Advanced-Training-Techniques.md)** - Efficient optimization and reasoning patterns
 11. **[11_Foundation-Models-and-LLM-Evolution.md](11_Foundation-Models-and-LLM-Evolution.md)** - From narrow AI to universal models
 12. **[12_Breakthrough-Innovations-in-GenAI.md](12_Breakthrough-Innovations-in-GenAI.md)** - Latest efficiency and reasoning advances
-13. **[13_The-Journey-to-AI-Agents.md](13_The-Journey-to-AI-Agents.md)** - Evolution from text generation to intelligent agents
+13. **[14_Model-Variants-and-Specializations.md](14_Model-Variants-and-Specializations.md)** - SLMs, LLMs, RLMs, and MLLMs unified guide
 
 ---
 
