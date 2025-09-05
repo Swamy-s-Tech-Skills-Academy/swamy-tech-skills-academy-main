@@ -119,6 +119,28 @@ When provided with reference materials from books, websites, articles, video cou
 - Prefer minimal, fresh code over large copied blocks; runnable code lives in external repos when appropriate.
 - Maintain a consistent voice and terminology across the knowledge base.
 
+### **⚠️ CRITICAL: Educational Organization Principles**
+
+**NEVER follow source material structure:**
+
+- ❌ **Don't replicate author's order**: Avoid copying sequence like "SML, LLM, RLM, MLLM" from sources
+- ❌ **Don't mirror source sections**: Create logical educational groupings instead
+- ✅ **Group logically**: Combine related concepts (e.g., "Model Variants and Specializations")
+- ✅ **Organize by learning progression**: Structure content for optimal educational flow
+- ✅ **Place content strategically**: Ensure modules are in the correct domain folders
+
+**Content Placement Validation:**
+
+- **AI Agents content** → `07_AI-Agents/` folder (not LLM track)
+- **Model variants** → Consolidated guides rather than scattered modules
+- **Cross-domain topics** → Primary domain with cross-references to others
+
+**Quality Gate Questions:**
+
+1. "Am I following the source author's structure instead of creating optimal learning progression?"
+2. "Is this content placed in the most logical domain folder?"
+3. "Would consolidating scattered concepts create better educational value?"
+
 ### **Content Separation Policy**
 
 **CRITICAL**: Maintain strict separation between learning content and planning materials:
@@ -298,13 +320,19 @@ docker run --rm -v "${PWD}:/workspace" -w /workspace lycheeverse/lychee --config
 
 ### **Continuous Improvement**
 
+**Recent Lessons Learned (September 5, 2025):**
+
+- **Issue 1: Following Author's Structure** - Never replicate source material organization (e.g., SML, LLM, RLM, MLLM sequence). Always create logical educational groupings and progression.
+- **Issue 2: Content Misplacement** - Ensure content is placed in the correct domain folder (AI Agents content belongs in `07_AI-Agents/`, not LLM track).
+- **Solution**: Consolidate related concepts into unified guides and place content based on educational logic, not source material structure.
+
 ## 📊 Success Metrics
 
 Content quality should be measured by:
 
 **🎯 Remember**: The goal is not to reproduce existing content, but to create superior educational experiences that help learners master complex technical concepts through structured, progressive learning paths.
 
-**Last Review**: August 29, 2025  
+**Last Review**: September 5, 2025  
 **Next Review**: Every 3 months or when significant changes are made  
 **Maintained By**: Swamy's Tech Skills Academy Learning System
 
