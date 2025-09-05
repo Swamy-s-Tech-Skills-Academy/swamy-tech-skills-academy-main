@@ -300,7 +300,7 @@ Create a plugin-based application framework:
 
 ### **External Repository**: [solid-principles-examples](https://github.com/Swamy-s-Tech-Skills-Academy-AI-ML-Data)
 
-*(Example repository for SOLID principles implementations - to be created)*
+#### Example repository for SOLID principles implementations - to be created
 
 - Working examples in C#, Python, and generic pseudocode
 - Before/after refactoring scenarios
