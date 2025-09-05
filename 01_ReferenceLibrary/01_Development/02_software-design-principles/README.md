@@ -235,7 +235,7 @@ This system adds:
 
 ### **🎓 Comprehensive Learning Guide**
 
-#### **[15_Complete-Design-Principles-Guide.md](15_Complete-Design-Principles-Guide.md)** ⭐ **Comprehensive Module**
+#### **[04-design-principles/02_Complete-Design-Principles-Guide.md](04-design-principles/02_Complete-Design-Principles-Guide.md)** ⭐ **Comprehensive Module**
 
 ##### Complete Journey: From Code Principles to System Architecture (3-4 hours)
 

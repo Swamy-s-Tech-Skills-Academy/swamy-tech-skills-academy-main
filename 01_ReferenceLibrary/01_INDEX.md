@@ -80,7 +80,7 @@ LLM --> MCP --> AGT
 
 ## 📂 Domain Indices
 
-See each domain README plus forthcoming PATHWAY.md files.
+See each domain README for learning sequences and pathway guidance.
 
 - Cloud‑Native overview (Development → Architectural Principles): [01_Development/02_software-design-principles/06-architectural-principles/01_Cloud-Native-Distributed-Apps-Key-Characteristics.md](01_Development/02_software-design-principles/06-architectural-principles/01_Cloud-Native-Distributed-Apps-Key-Characteristics.md)
 
