@@ -120,6 +120,23 @@ flowchart TD
     D4 --> D5[Monitoring and anomaly handling] --> D6[Adapt strategy]
     D6 --> D7[Evaluate and learn] --> D2
   end
+
+  classDef llmStyle fill:#e8f4fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+  classDef genStyle fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#4a148c
+  classDef agentStyle fill:#e8f5e8,stroke:#388e3c,stroke-width:2px,color:#1b5e20
+  classDef agenticStyle fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#e65100
+  classDef decisionStyle fill:#fce4ec,stroke:#c2185b,stroke-width:2px,color:#880e4f
+
+  class A1,A2,A3 llmStyle
+  class B1,B2,B3,B4,B5 genStyle
+  class C1,C2,C3,C4,C6 agentStyle
+  class C5 decisionStyle
+  class D1,D2,D3,D4,D5,D6,D7 agenticStyle
+
+  class LLM llmStyle
+  class GEN genStyle
+  class AGT agentStyle
+  class AGIC agenticStyle
 ```
 
 ```text
