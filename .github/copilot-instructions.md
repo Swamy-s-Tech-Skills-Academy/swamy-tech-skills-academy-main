@@ -1,12 +1,21 @@
 # GitHub Copilot Instructions for STSA Knowledge Base
 
 **Version**: 1.1  
-**Last Updated**: September 4, 2025  
+**Last Updated**: September 5, 2025  
 **Scope**: Swamy's Tech Skills Academy Learning System
 
 ## 🎯 Primary Directive
 
 When working with this repository, GitHub Copilot should function as an **educational content creator and learning system architect**, not a content copier. All generated content must be original, educational, and tailored to the specific learning progression structure of this knowledge base.
+
+## 🚨 CRITICAL REPOSITORY STATE UPDATE
+
+**MAJOR SIMPLIFICATION COMPLETED**: The repository has been dramatically simplified from a complex multi-folder structure to just **2 primary folders**:
+
+1. **`01_ReferenceLibrary/`** - Pure learning content (finalized structure)
+2. **`02_LegacyContent/`** - Legacy content undergoing systematic migration
+
+**Migration Status**: Currently executing comprehensive migration plan to transfer educational content from legacy structure to Reference Library while eliminating duplicates.
 
 ### Zero‑Copy Policy (Non‑Negotiable)
 
@@ -55,13 +64,15 @@ When provided with reference materials from books, websites, articles, video cou
 
 ## 🏗️ Repository Structure Understanding
 
-### **Organizational Hierarchy**
+### **CURRENT SIMPLIFIED STRUCTURE (September 5, 2025)**
 
 ```text
-01_ReferenceLibrary/                    ← 📚 PURE LEARNING CONTENT ONLY
+01_ReferenceLibrary/                    ← 📚 PURE LEARNING CONTENT ONLY (FINALIZED)
 ├── 01_Development/                     ← Programming & Engineering Foundation
 │   ├── 01_Python/                      ← Sequential learning progression
-│   └── 02_software-design-principles/
+│   ├── 02_software-design-principles/  ← SOLID, Design Patterns, Architecture
+│   ├── 03_CSharp/                      ← C# Development
+│   └── 04_Git-Version-Control/         ← Version Control Systems
 ├── 02_AI-and-ML/                       ← Artificial Intelligence Track
 │   ├── 01_AI/                          ← Strategic overview first
 │   ├── 02_MachineLearning/             ← Classical algorithms
@@ -74,13 +85,32 @@ When provided with reference materials from books, websites, articles, video cou
 │   ├── 01_DataScience/                 ← Scientific methodology
 │   ├── 02_DataAnalytics/               ← Business applications
 │   └── 03_BigData/                     ← Scale & infrastructure
-02_Planning-and-Development/            ← 📋 ALL PLANNING & WORKFLOW MATERIALS
-├── course-development/                 ← Course creation and planning
-├── conferences/                        ← Event planning and strategies
-├── content-intake/                     ← Source material processing workflow
-└── backlog/                           ← Task management and planning
-04_LegacyContent/                      ← Historical archives and backups
+└── 04_DevOps/                          ← DevOps & Infrastructure
+    ├── 01_CI-CD-Fundamentals/          ← Continuous Integration/Deployment
+    ├── 02_Infrastructure-as-Code/      ← IaC and Infrastructure
+    ├── 03_Observability-and-Monitoring/ ← Monitoring and Observability
+    └── 04_Release-Strategies/          ← Release Management
+
+02_LegacyContent/                       ← � CONTENT UNDERGOING MIGRATION
+├── COMPREHENSIVE_MIGRATION_PLAN.md     ← Master migration strategy
+├── MIGRATION_AUDIT_2025-09-05.md      ← Day 2 audit results
+└── _Backup/                            ← Legacy educational content to be migrated
+    ├── 01_Foundation/                  ← Career fundamentals and roadmaps
+    ├── 02_Architecture/                ← Design patterns and architecture
+    ├── 03_Development/                 ← Development practices and DSA
+    ├── 04_AI/                          ← AI/ML foundational content
+    ├── 05_Data/                        ← Data science and analytics
+    ├── 06_Cloud/                       ← Cloud architecture and patterns
+    ├── 07_DevOps/                      ← DevOps practices and tools
+    ├── 08_Projects/                    ← Project templates and examples
+    └── [Other legacy folders...]       ← Historical content for evaluation
 ```
+
+### **REPOSITORY EVOLUTION CONTEXT**
+
+**Previous State**: Complex multi-folder structure with 6+ top-level folders and mixed content types
+**Current State**: Simplified 2-folder approach with clear separation
+**Migration Approach**: Systematic evaluation and enhancement of educational content from legacy to Reference Library
 
 ### **CRITICAL: Reference Library Content Policy**
 
@@ -93,7 +123,7 @@ When provided with reference materials from books, websites, articles, video cou
 - ❌ **Workflow documents**: Intake systems, task management
 - ❌ **Meta content**: Repository organization, processes
 
-**Separation Principle**: Learning content (Reference Library) vs Planning content (Planning-and-Development) must remain strictly separated.
+**Separation Principle**: Learning content (Reference Library) vs Legacy content (02_LegacyContent/) must remain strictly separated during migration.
 
 ### **Numbering Convention**
 
@@ -146,9 +176,9 @@ When provided with reference materials from books, websites, articles, video cou
 **CRITICAL**: Maintain strict separation between learning content and planning materials:
 
 - **01_ReferenceLibrary/**: **EXCLUSIVELY** for educational content, tutorials, guides, concepts
-- **02_Planning-and-Development/**: **ALL** planning, workflow, course development, intake systems
+- **02_LegacyContent/**: Contains historical content undergoing systematic migration to Reference Library
 - **Never mix**: Learning content must never include planning materials or vice versa
-- **When in doubt**: If content has both learning and planning aspects, extract the pure learning essence for Reference Library and place planning aspects in Planning-and-Development
+- **When in doubt**: If content has both learning and planning aspects, extract the pure learning essence for Reference Library
 - **Quality gate**: Before adding content to Reference Library, ask: "Is this purely educational, or does it contain planning/process elements?"
 
 ## 📖 Content Creation Protocols
@@ -457,18 +487,24 @@ classDef processStyle fill:#f3e5f5,stroke:#9c27b0,stroke-width:1px,color:#7b1fa2
 
 ## 🚨 Critical Workspace Maintenance Tasks
 
-### **Immediate Actions Required**
+### **Migration Status Update (September 5, 2025)**
 
-1. **00\_ Prefix Violations**: The following files/folders violate numbering convention and must be renamed:
+The repository has undergone **major simplification** - most legacy folders have been consolidated into `02_LegacyContent/` for systematic migration. Current immediate actions focus on content migration rather than structural renaming.
 
-   - `02_LearningJourney/00_Templates` → `02_LearningJourney/01_Templates`
-   - `01_ReferenceLibrary/01_Development/02_software-design-principles/00_Daily-Learning-Template.md` → `01_Daily-Learning-Template.md`
-   - `01_ReferenceLibrary/01_Development/02_software-design-principles/00_LEARNING-SYSTEM-OVERVIEW.md` → `01_LEARNING-SYSTEM-OVERVIEW.md`
-   - `06_AuditFiles/00_Content-Audit-2025-08-11.md` → `01_Content-Audit-2025-08-11.md`
+### **Active Migration Tasks**
 
-2. **Link Updates Required**: After renaming, update all internal links to reflect new paths
+1. **Content Migration**: Execute comprehensive migration plan from `02_LegacyContent/_Backup/` to `01_ReferenceLibrary/`
+2. **Duplicate Elimination**: Ensure no content duplication between legacy and reference library
+3. **Quality Enhancement**: Apply STSA methodology to all migrated content
+4. **Link Validation**: Maintain referential integrity during migration
 
-3. **Workspace Integrity Check**: Run markdownlint and lychee validation after changes
+### **Continuous Improvement**
+
+**Recent Lessons Learned (September 5, 2025):**
+
+- **Issue 1: Following Author's Structure** - Never replicate source material organization (e.g., SML, LLM, RLM, MLLM sequence). Always create logical educational groupings and progression.
+- **Issue 2: Content Misplacement** - Ensure content is placed in the correct domain folder (AI Agents content belongs in `07_AI-Agents/`, not LLM track).
+- **Solution**: Consolidate related concepts into unified guides and place content based on educational logic, not source material structure.
 
 ### **Quality Assurance Protocol**
 
@@ -477,13 +513,58 @@ Before any major changes:
 1. **Backup Check**: Ensure git commits are up to date
 2. **Link Validation**: Run `lychee --config lychee.toml .` to check for broken links
 3. **Markdown Lint**: Run `npx markdownlint-cli2 "**/*.md"` for formatting consistency
-4. **Numbering Audit**: Verify no new 00\_ prefixes are introduced
+4. **Migration Plan**: Check current migration priorities in `02_LegacyContent/COMPREHENSIVE_MIGRATION_PLAN.md`
 
 ## 🎯 Repository Health Monitoring
 
 ### **Regular Maintenance Tasks**
 
-- **Weekly**: Check for new 00\_ prefix violations
+- **Weekly**: Execute migration plan phases as documented
 - **Monthly**: Full link validation with lychee
 - **Quarterly**: Comprehensive markdown lint review
-- **As needed**: Update prompts based on learning system evolution
+- **As needed**: Update prompts based on learning system evolution and migration progress
+
+### **Post-Update Verification Protocol**
+
+After creating or updating any documentation content, **always** run these verification tools:
+
+#### 1. Markdownlint Check
+
+```powershell
+# Run markdownlint on specific file
+npx markdownlint-cli2 "path/to/file.md"
+
+# Run on entire ReferenceLibrary
+npx markdownlint-cli2 "01_ReferenceLibrary/**/*.md"
+
+# Run on entire repository
+npx markdownlint-cli2 "**/*.md"
+```
+
+#### 2. Lychee Link Validation
+
+```powershell
+# Check specific file for broken links (via Docker)
+docker run --rm -v "${PWD}:/workspace" -w /workspace lycheeverse/lychee "path/to/file.md"
+
+# Check entire ReferenceLibrary (via Docker)
+docker run --rm -v "${PWD}:/workspace" -w /workspace lycheeverse/lychee "01_ReferenceLibrary/**/*.md"
+
+# Use repository config (recommended, via Docker)
+docker run --rm -v "${PWD}:/workspace" -w /workspace lycheeverse/lychee --config lychee.toml .
+```
+
+#### 3. Fix Common Issues
+
+- **MD010**: Remove hard tabs, use spaces only
+- **MD007**: Fix list indentation (2 spaces per level)
+- **MD040**: Add language to fenced code blocks
+- **MD022/MD031/MD032**: Add blank lines around headings, lists, code blocks
+- **Broken links**: Update URLs, fix internal references, check file paths
+
+#### 4. Required Actions
+
+- Fix all markdownlint errors before committing
+- Investigate and resolve any broken links found by lychee
+- Re-run checks after fixes to ensure clean results
+- Document any intentional exceptions (e.g., placeholder links)

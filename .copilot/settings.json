@@ -13,16 +13,15 @@
         "analyze": [
             "README.md",
             "01_ReferenceLibrary/**/*.md",
-            "02_Planning-and-Development/**/*.md",
-            "05_Todos/**/*.md",
-            "07_LearningGround/**/*.md",
-            "Daily-Migration-Tracker.md",
-            "Migration-Plan-Todos-LearningGround.md",
+            "02_LegacyContent/COMPREHENSIVE_MIGRATION_PLAN.md",
+            "02_LegacyContent/MIGRATION_AUDIT_2025-09-05.md",
+            "Workspace-Deep-Dive-Report.md",
             ".github/**/*.md"
         ],
         "exclude": [
-            "04_LegacyContent/**",
-            "06_AuditFiles/**",
+            "02_LegacyContent/_Backup/**",
+            "02_LegacyContent/02_Planning-and-Development/**",
+            "02_LegacyContent/05_Todos/**",
             "**/node_modules/**",
             "**/.venv/**",
             "**/.vscode/**",
@@ -32,15 +31,15 @@
     },
     "commands": {
         "docs:lint": {
-            "run": "npx --yes markdownlint-cli2 \"README.md\" \"01_ReferenceLibrary/**/*.md\" \"02_Planning-and-Development/**/*.md\" \"05_Todos/**/*.md\" \"07_LearningGround/**/*.md\" \"Daily-Migration-Tracker.md\" \"Migration-Plan-Todos-LearningGround.md\" \".github/**/*.md\"",
+            "run": "npx --yes markdownlint-cli2 \"README.md\" \"01_ReferenceLibrary/**/*.md\" \"02_LegacyContent/COMPREHENSIVE_MIGRATION_PLAN.md\" \"02_LegacyContent/MIGRATION_AUDIT_2025-09-05.md\" \"Workspace-Deep-Dive-Report.md\" \".github/**/*.md\"",
             "description": "Run Markdown lint for all active docs"
         },
         "links:check": {
-            "run": "docker run --rm -v \"${PWD}:/workspace\" -w /workspace lycheeverse/lychee --config lychee.toml --no-progress README.md 01_ReferenceLibrary/**/*.md 02_Planning-and-Development/**/*.md 05_Todos/**/*.md 07_LearningGround/**/*.md Daily-Migration-Tracker.md Migration-Plan-Todos-LearningGround.md .github/**/*.md",
+            "run": "docker run --rm -v \"${PWD}:/workspace\" -w /workspace lycheeverse/lychee --config lychee.toml --no-progress README.md 01_ReferenceLibrary/**/*.md 02_LegacyContent/COMPREHENSIVE_MIGRATION_PLAN.md 02_LegacyContent/MIGRATION_AUDIT_2025-09-05.md Workspace-Deep-Dive-Report.md .github/**/*.md",
             "description": "Validate links using Lychee via Docker"
         },
         "workspace:health": {
-            "run": "Get-ChildItem -Path . -Recurse -Name '*00_*' | Where-Object { $_ -notlike '*\\.git*' -and $_ -notlike '*04_LegacyContent*' }",
+            "run": "Get-ChildItem -Path . -Recurse -Name '*00_*' | Where-Object { $_ -notlike '*\\.git*' -and $_ -notlike '*02_LegacyContent*' }",
             "description": "Check for 00_ prefix violations (excluding legacy content)"
         },
         "workspace:structure": {
@@ -52,8 +51,8 @@
             "description": "Validate all prompt files for markdown compliance"
         },
         "migration:status": {
-            "run": "if (Test-Path 'Daily-Migration-Tracker.md') { Write-Host 'Migration tracker found'; Get-Content 'Daily-Migration-Tracker.md' | Select-String -Pattern '\\[x\\]|\\[ \\]' | Select-Object -First 10 } else { Write-Host 'No migration tracker found' }",
-            "description": "Check migration progress status"
+            "run": "if (Test-Path '02_LegacyContent/COMPREHENSIVE_MIGRATION_PLAN.md') { Write-Host 'Migration plan found'; Get-Content '02_LegacyContent/COMPREHENSIVE_MIGRATION_PLAN.md' | Select-String -Pattern '🚀|✅|⚡|🔄' | Select-Object -First 10 } else { Write-Host 'No migration plan found' }",
+            "description": "Check current migration plan status and progress"
         }
     }
 }
