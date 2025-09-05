@@ -147,6 +147,7 @@ When provided with reference materials from books, websites, articles, video cou
 - ASCII diagram provided; also include a Mermaid equivalent where feasible with an ASCII fallback.
 - Internal links checked; numbering starts at `01_`.
 - Code follows STSA single‑source‑of‑truth policy (external repo for runnable code when appropriate).
+- **Character encoding integrity**: No corrupt characters (�) or invalid Unicode sequences.
 - **Post-update verification**: Run markdownlint and lychee checks after any documentation changes.
 
 ## 🔗 Integration Requirements
@@ -246,6 +247,7 @@ Before finalizing any content, ask:
 - [ ] STSA metadata present and accurate
 - [ ] Related Topics wired and links valid
 - [ ] Numbering and casing consistent
+- [ ] Character encoding integrity verified (no � symbols)
 - [ ] Markdownlint passes without errors
 - [ ] Lychee link checker shows no broken links
 
@@ -312,6 +314,15 @@ Note: Prefer ASCII-first diagrams for universal preview. Where feasible, include
 
 Follow these rules to keep Markdown clean, consistent, and lint-safe across the repo.
 
+### Character Encoding Requirements
+
+- **Use UTF-8 encoding**: Ensure all markdown files are saved in UTF-8 format
+- **Avoid corrupt characters**: Never use the � (replacement character) - it indicates encoding issues
+- **Validate encoding**: If you see � characters, the source content has encoding problems
+- **Fix immediately**: Replace any � characters with proper Unicode equivalents or ASCII alternatives
+- **Common issues**: Copy-pasting from PDFs, Word docs, or web pages can introduce encoding problems
+- **Prevention**: When creating content, use standard ASCII characters for structure and proper Unicode for symbols
+
 ### Core rules
 
 - Use spaces only — no hard tabs anywhere (MD010)
@@ -362,6 +373,7 @@ Example code fence with required blank lines:
 - Headings/lists/code fences separated by blank lines
 - Preview in VS Code Markdown preview to check rendering
 - For diagrams: verify both ASCII and Mermaid render correctly; ensure ASCII fallback is present
+- **Character encoding integrity**: No corrupt characters (�) or invalid Unicode sequences
 - **Post-update verification**: Run markdownlint and lychee checks after any documentation changes
 
 ## 🧭 Code Single-Source-of-Truth Policy (STSA)
