@@ -571,14 +571,14 @@ public class StudentController {
 
 ### Prerequisites
 
-- [SOLID Principles](../04-design-principles/01_SOLID-Principles-Fundamentals.md) - Foundation for clean design
+- [SOLID Principles](../04_design-principles/01_SOLID-Principles-Fundamentals.md) - Foundation for clean design
 - [Design Patterns](../05-design-patterns/01_Core-Design-Patterns.md) - Building blocks for architecture
-- [OOP Fundamentals](../01-oop-fundamentals/01_Object-Oriented-Programming-Fundamentals.md) - Core programming concepts
+- [OOP Fundamentals](../01_oop-fundamentals/01_Object-Oriented-Programming-Fundamentals.md) - Core programming concepts
 
 ### Builds Upon
 
-- [Dependency Injection](../04-design-principles/03_Dependency-Injection-Patterns.md) - Decoupling dependencies
-- [Interface Segregation](../04-design-principles/01_SOLID-Principles-Fundamentals.md#interface-segregation-principle) - Clean contracts
+- [Dependency Injection](../04_design-principles/03_Dependency-Injection-Patterns.md) - Decoupling dependencies
+- [Interface Segregation](../04_design-principles/01_SOLID-Principles-Fundamentals.md#interface-segregation-principle) - Clean contracts
 
 ### Enables
 
