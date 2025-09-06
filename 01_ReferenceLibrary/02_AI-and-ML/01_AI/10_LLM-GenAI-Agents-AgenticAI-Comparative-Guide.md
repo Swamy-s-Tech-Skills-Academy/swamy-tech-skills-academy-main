@@ -97,7 +97,7 @@ By the end of this guide, you can:
 Rendering note: If your viewer doesn't support Mermaid, the diagram below may appear as code. Use the plain-text diagram that follows.
 
 ```mermaid
-flowchart TB
+flowchart TD
   subgraph LLM [LLM Inference]
     A1[Prompt and context] --> A2[Token sampling] --> A3[Completion]
   end
@@ -120,6 +120,23 @@ flowchart TB
     D4 --> D5[Monitoring and anomaly handling] --> D6[Adapt strategy]
     D6 --> D7[Evaluate and learn] --> D2
   end
+
+  classDef llmStyle fill:#e8f4fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+  classDef genStyle fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#4a148c
+  classDef agentStyle fill:#e8f5e8,stroke:#388e3c,stroke-width:2px,color:#1b5e20
+  classDef agenticStyle fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#e65100
+  classDef decisionStyle fill:#fce4ec,stroke:#c2185b,stroke-width:2px,color:#880e4f
+
+  class A1,A2,A3 llmStyle
+  class B1,B2,B3,B4,B5 genStyle
+  class C1,C2,C3,C4,C6 agentStyle
+  class C5 decisionStyle
+  class D1,D2,D3,D4,D5,D6,D7 agenticStyle
+
+  class LLM llmStyle
+  class GEN genStyle
+  class AGT agentStyle
+  class AGIC agenticStyle
 ```
 
 ```text
@@ -144,6 +161,224 @@ Notes:
 
 - MCP = Model Context Protocol (see 06_MCP-Servers/) for secure, standardized tool access.
 - Agentic loop adds strategy adaptation and long-horizon evaluation, not just repeated planning.
+
+---
+
+## 🔤 Deep Dive: Tokenization and Embedding Foundations
+
+Before understanding how LLMs process language, we need to understand the fundamental building blocks: how text becomes numbers.
+
+### **Tokenization: Breaking Language into Processing Units**
+
+**Core Concept**: Tokenization converts human language into discrete units that models can mathematically process.
+
+**Original Examples:**
+
+Consider the recipe instruction: "Sauté mushrooms until golden brown"
+
+**Word-Level Tokenization:**
+
+```text
+Input: "Sauté mushrooms until golden brown"
+Tokens: ["Sauté", "mushrooms", "until", "golden", "brown"]
+Count: 5 tokens
+```
+
+**Subword Tokenization (BPE-style):**
+
+```text
+Input: "Sauté mushrooms until golden brown"  
+Tokens: ["Sa", "uté", "mushroom", "s", "until", "golden", "brown"]
+Count: 7 tokens
+```
+
+**Character-Level Tokenization:**
+
+```text
+Input: "Sauté mushrooms until golden brown"
+Tokens: ["S", "a", "u", "t", "é", " ", "m", "u", "s", "h", ...]
+Count: 33 tokens
+```
+
+### **Why Different Tokenization Strategies Matter**
+
+**Vocabulary Size vs Granularity Trade-off:**
+
+```text
+Strategy      | Vocab Size | Handles New Words | Context Efficiency
+------------- |------------|-------------------|-------------------
+Word-level    | 50K-100K   | Poorly           | High
+Subword (BPE) | 30K-50K    | Well             | Medium  
+Character     | 100-1000   | Perfectly        | Low
+```
+
+**Real Impact Example:**
+
+- Programming term: "async/await"
+- Word tokenizer: ["async", "/", "await"] or ["UNKNOWN", "UNKNOWN"]
+- Subword tokenizer: ["async", "/", "aw", "ait"]
+- Character tokenizer: ["a", "s", "y", "n", "c", "/", "a", "w", "a", "i", "t"]
+
+### **Embedding: From Tokens to Meaning Vectors**
+
+**Core Concept**: Embedding transforms discrete tokens into high-dimensional vectors that capture semantic relationships.
+
+**Visualization with Kitchen Appliances:**
+
+```text
+Token: "blender"     → Vector: [0.2, -0.8, 0.1, 0.9, -0.3, ...]
+Token: "mixer"       → Vector: [0.3, -0.7, 0.2, 0.8, -0.4, ...]  
+Token: "toaster"     → Vector: [-0.1, 0.4, -0.6, 0.2, 0.9, ...]
+Token: "refrigerator"→ Vector: [0.1, 0.3, -0.2, -0.5, 0.7, ...]
+```
+
+**Semantic Relationships Emerge:**
+
+- "blender" and "mixer" vectors are close (both mixing appliances)
+- "toaster" is distant from "refrigerator" (heat vs cold)
+- Mathematical operations reveal relationships:
+  - blender + powerful ≈ food_processor
+  - toaster + larger ≈ oven
+
+### **Practical Tokenization Scenarios**
+
+#### Scenario 1: Scientific Writing
+
+```text
+Input: "The mitochondria produces ATP through oxidative phosphorylation"
+
+GPT-style Tokenizer:
+["The", "mit", "och", "ondria", "produces", "ATP", "through", "ox", "id", "ative", "phosph", "oryl", "ation"]
+
+Why this matters:
+- Scientific terms split unpredictably
+- Model needs to learn "mit+och+ondria" = organelle
+- "phosph+oryl+ation" = biochemical process
+```
+
+#### Scenario 2: Code Documentation
+
+```text
+Input: "Initialize the DatabaseManager class with connection_string parameter"
+
+Tokens might be:
+["Initialize", "the", "Database", "Manager", "class", "with", "connection", "_", "string", "parameter"]
+
+Challenges:
+- CamelCase splitting varies by tokenizer
+- Underscore handling inconsistent  
+- Technical terms may fragment unpredictably
+```
+
+#### Scenario 3: Multilingual Content
+
+```text
+Input: "Hello, こんにちは, Bonjour, Hola"
+
+Tokenization differences:
+- English: Clean word boundaries
+- Japanese: No spaces, complex character handling
+- French: Accented characters, elision
+- Spanish: Punctuation attachment varies
+```
+
+### **Embedding Quality: Measuring Semantic Understanding**
+
+**Distance Metrics in Vector Space:**
+
+```text
+Cosine Similarity Examples:
+- "doctor" ↔ "physician": 0.89 (very similar)
+- "doctor" ↔ "nurse": 0.71 (related profession)  
+- "doctor" ↔ "teacher": 0.52 (both help people)
+- "doctor" ↔ "pizza": 0.12 (unrelated)
+```
+
+**Clustering in Kitchen Context:**
+
+```text
+Cooking Methods: [sauté, braise, roast, bake, grill]
+Utensils: [spatula, whisk, ladle, tongs, strainer]  
+Ingredients: [flour, eggs, butter, sugar, salt]
+```
+
+Quality embeddings cluster these by function, not just appearance.
+
+### **Common Tokenization Pitfalls**
+
+#### Issue 1: Out-of-Vocabulary Handling
+
+```text
+Training: "The server crashed"
+New input: "The database_server crashed"
+- "database_server" → ["<UNK>"] (information lost)
+- Better: ["database", "_", "server"] (meaning preserved)
+```
+
+#### Issue 2: Inconsistent Formatting
+
+```text
+"Dr. Smith" vs "Dr.Smith" vs "Doctor Smith"
+- Different tokenizations for same meaning
+- Model sees these as distinct patterns
+- Solution: Preprocessing normalization
+```
+
+#### Issue 3: Context Window Efficiency
+
+```text
+Character-level: "extraordinary" = 13 tokens
+Subword-level: "extraordinary" = 3-4 tokens  
+Word-level: "extraordinary" = 1 token
+
+Choice affects how much context fits in model's attention window.
+```
+
+### **Embedding Dimensions and Model Capacity**
+
+**Typical Embedding Sizes:**
+
+```text
+Model Type    | Embedding Dims | Vocabulary | Parameters
+------------- |----------------|------------|------------
+Small GPT     | 768           | 50K        | 124M
+Medium GPT    | 1024          | 50K        | 355M  
+Large GPT     | 1536          | 50K        | 774M
+GPT-3.5       | 4096          | 100K       | 175B
+```
+
+**What Higher Dimensions Enable:**
+
+- More nuanced semantic relationships
+- Better context integration
+- Improved few-shot learning
+- Higher computational cost
+
+### **Practical Applications Across Our Stack**
+
+**LLM Level:**
+
+- Token prediction accuracy depends on quality embeddings
+- Vocabulary size vs context window trade-offs
+- Tokenization affects prompt engineering effectiveness
+
+**Generative AI Level:**  
+
+- Cross-modal embeddings (text→image, audio→text)
+- Style transfer through embedding space manipulation
+- Content filtering via embedding similarity thresholds
+
+**AI Agent Level:**
+
+- Tool/API parameter embedding for semantic matching
+- Task embedding for plan similarity and reuse
+- Memory retrieval via embedding-based search
+
+**Agentic AI Level:**
+
+- Goal embedding for objective alignment measurement
+- Experience embedding for transfer learning across episodes
+- Multi-agent coordination through shared embedding spaces
 
 ---
 
@@ -187,6 +422,149 @@ Notes:
 - Unlimited loops: missing stop criteria, budget caps, or watchdogs.
 - Hidden state: undocumented memory/state causing nondeterminism.
 - Evaluation gaps: no task-ground truth, no replay logs.
+
+---
+
+## 🏗️ Foundational Architecture: Transformers & Learning Mechanisms
+
+Understanding how these systems actually learn and process information is crucial for selecting the right approach. Let's explore the core mechanisms through practical analogies.
+
+### Transformer Architecture: The Attention Revolution
+
+Think of a transformer as a highly sophisticated **orchestra conductor** managing a complex musical piece:
+
+**The Attention Mechanism:**
+
+- **Self-Attention**: Like a conductor who listens to every instrument simultaneously and understands how each note relates to every other note being played
+- **Multi-Head Attention**: Multiple conductors, each focusing on different musical aspects (rhythm, harmony, melody) but working together
+- **Position Encoding**: Musical sheet positions that tell each musician exactly when to play their part
+
+**Practical Example - Customer Service Query Processing:**
+
+```text
+Input: "My order #12345 shipped yesterday but tracking shows it's still pending"
+
+Self-Attention Process:
+┌─────────────┐    ┌─────────────┐    ┌─────────────┐
+│    "My"     │◄──►│  "order"    │◄──►│  "#12345"   │
+└─────────────┘    └─────────────┘    └─────────────┘
+      ▲                    ▲                    ▲
+      │                    │                    │
+      ▼                    ▼                    ▼
+┌─────────────┐    ┌─────────────┐    ┌─────────────┐
+│ "shipped"   │◄──►│"yesterday"  │◄──►│  "tracking" │
+└─────────────┘    └─────────────┘    └─────────────┘
+
+Attention Weights (simplified):
+- "order" ↔ "#12345": 0.95 (strong connection)
+- "shipped" ↔ "tracking": 0.87 (related concepts)
+- "yesterday" ↔ "pending": 0.92 (temporal conflict detected)
+```
+
+**Multi-Head Attention Breakdown:**
+
+- **Head 1 (Entity Recognition)**: Focuses on "order #12345" as a trackable entity
+- **Head 2 (Temporal Reasoning)**: Processes "yesterday" vs "pending" contradiction
+- **Head 3 (Action Classification)**: Identifies this as a status inquiry requiring investigation
+
+### Backpropagation: The Learning Engine
+
+Imagine backpropagation as a **quality control team** in a smartphone manufacturing plant:
+
+**Forward Pass (Manufacturing Process):**
+
+1. **Raw Materials** (input data) → **Component Assembly** (hidden layers) → **Final Product** (output)
+2. Quality inspector checks final product against specifications
+3. Records the **quality gap** (loss/error)
+
+**Backward Pass (Improvement Process):**
+
+1. **Root Cause Analysis**: Work backwards through each assembly station
+2. **Responsibility Assignment**: Calculate how much each station contributed to quality issues
+3. **Process Adjustment**: Update each station's procedures proportionally to their impact
+
+**Concrete Example - Email Spam Detection Training:**
+
+```text
+Training Example: "Congratulations! You've won $1,000,000! Click here now!"
+Expected Output: SPAM (1.0)
+Initial Model Output: NOT_SPAM (0.2)
+Error: 0.8 (significant mistake)
+
+Backpropagation Journey:
+┌─────────────────────────────────────────────────────────┐
+│ OUTPUT LAYER: "Why did I output 0.2 instead of 1.0?"   │
+│ Adjustment: Increase spam indicators weight by 0.3      │
+└─────────────────────────────────────────────────────────┘
+                            ▲
+                            │
+┌─────────────────────────────────────────────────────────┐
+│ HIDDEN LAYER 2: "Which features did I underweight?"     │
+│ Discovery: "$1,000,000" pattern had low weight (0.1)    │
+│ Adjustment: Boost monetary amount detection to 0.7      │
+└─────────────────────────────────────────────────────────┘
+                            ▲
+                            │
+┌─────────────────────────────────────────────────────────┐
+│ HIDDEN LAYER 1: "What word patterns need emphasis?"     │
+│ Discovery: "Congratulations!" + "Click here" combo      │
+│ Adjustment: Strengthen urgency language detection       │
+└─────────────────────────────────────────────────────────┘
+```
+
+**Gradient Descent Process:**
+
+- **Step Size (Learning Rate)**: Like how big adjustments to make - too big and you overcorrect, too small and learning takes forever
+- **Momentum**: Like a quality improvement team that remembers previous successful changes and continues in that direction
+- **Adaptive Learning**: Smart adjustment - make bigger changes to weights that consistently need updating, smaller changes to stable ones
+
+### Integration Across the Four Layers
+
+**How These Mechanisms Scale Across Our Architecture:**
+
+**LLM Level:**
+
+- Single transformer processes prompt → response
+- Backpropagation during training created the language understanding
+- Attention mechanisms handle context within conversation
+
+**Generative AI Level:**
+
+- Multiple specialized transformers (text, image, audio)
+- Cross-modal attention bridges different data types
+- Fine-tuned through targeted backpropagation on specific domains
+
+**AI Agent Level:**
+
+- Transformer-based reasoning modules for tool selection
+- Backpropagation trains action-outcome relationships
+- Attention mechanisms prioritize relevant tools and memories
+
+**Agentic AI Level:**
+
+- Ensemble of transformers for different cognitive functions
+- Meta-learning through backpropagation across episodes
+- Hierarchical attention from immediate actions to long-term objectives
+
+### Practical Implementation Insights
+
+**When Transformer Attention Helps Most:**
+
+- Complex context dependencies (legal document analysis)
+- Multi-step reasoning chains (troubleshooting workflows)
+- Cross-domain knowledge synthesis (research summarization)
+
+**When Backpropagation Optimization Matters:**
+
+- High-stakes accuracy requirements (medical diagnosis)
+- Domain-specific performance needs (financial fraud detection)
+- Continuous learning scenarios (personalization systems)
+
+**Performance Trade-offs:**
+
+- More attention heads = better context understanding but slower processing
+- Deeper backpropagation = more precise learning but higher computational cost
+- Larger transformers = better capability but increased resource requirements
 
 ---
 

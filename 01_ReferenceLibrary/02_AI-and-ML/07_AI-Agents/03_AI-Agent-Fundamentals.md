@@ -146,17 +146,20 @@ Agent Planning Process:
 - **Semantic Memory**: Learned knowledge about domains and procedures
 - **Long-term Memory**: User preferences, successful strategies, relationship context
 
-**Memory in Action - Customer Service Agent**:
+**Memory in Action - Customer Service Agent Evolution**:
 
 ```text
-Session 1: Customer complains about product quality
-→ Agent stores: complaint type, product ID, customer satisfaction level
+Scenario 1: Initial Customer Interaction
+→ Customer reports product quality concerns
+→ Agent stores: complaint details, product ID, customer satisfaction level
 
-Session 2 (3 days later): Same customer calls about shipping
-→ Agent recalls: previous quality issue, offers expedited shipping as goodwill
+Scenario 2: Follow-up Service Call (3 days later)
+→ Same customer contacts about shipping concerns  
+→ Agent recalls: previous quality issue, proactively offers expedited shipping
 
-Session 3 (1 month later): Customer considering upgrade
-→ Agent remembers: quality sensitivity, values reliability over features
+Scenario 3: Customer Relationship Development (1 month later)
+→ Customer exploring product upgrade options
+→ Agent leverages history: recognizes quality sensitivity, recommends reliability-focused features
 ```
 
 #### **4. Tool Use - External Capability Extension**

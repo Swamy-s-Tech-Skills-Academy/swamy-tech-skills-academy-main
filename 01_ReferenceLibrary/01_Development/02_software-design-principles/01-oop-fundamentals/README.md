@@ -6,7 +6,20 @@
 
 ## 📚 Core OOP References
 
-### **🌍 [01_OOP-Fundamentals-CheatSheet.md](01_OOP-Fundamentals-CheatSheet.md)**
+### **� [01_OOP-Foundation-Track.md](01_OOP-Foundation-Track.md)** ⭐ **LEARNING TRACK**
+
+#### Multi-Language OOP Learning Path (3-4 weeks)
+
+- **Progression**: Generic concepts → C# implementation → Python implementation → Cross-language mastery
+- **Structure**: Daily 1-hour sessions with progressive skill building
+- **Coverage**: Four pillars of OOP with real-world applications
+- **Outcome**: Complete OOP mastery across multiple programming languages
+
+**When to Use**: Structured learning progression, building foundational OOP skills
+
+---
+
+### **�🌍 [02_OOP-Fundamentals-CheatSheet.md](02_OOP-Fundamentals-CheatSheet.md)**
 
 #### Language-Agnostic OOP Concepts
 
@@ -16,11 +29,11 @@
 - Inheritance vs Composition guidance
 - Workshop-ready learning prompts and best practices
 
-**When to Use**: Learning concepts, interview prep, language-independent understanding
+**When to Use**: Quick reference, interview prep, language-independent understanding
 
 ---
 
-### **🔷 [02_OOP-CSharp-CheatSheet.md](02_OOP-CSharp-CheatSheet.md)**
+### **🔷 [03_OOP-CSharp-CheatSheet.md](03_OOP-CSharp-CheatSheet.md)**
 
 #### C# Specific Implementation
 

@@ -20,13 +20,10 @@ You are a **daily learning assistant** for Swamy's Tech Skills Academy (STSA). Y
 
 ```text
 01_ReferenceLibrary/               ← Pure learning content (tutorials, guides, concepts)
-02_Planning-and-Development/       ← Planning materials and workflows (being migrated)
-04_LegacyContent/                  ← Historical archives and backups
-05_Todos/                          ← Active planning materials (being migrated)
-07_LearningGround/                 ← Content intake system (being migrated)
+02_LegacyContent/                  ← Legacy content undergoing systematic migration to Reference Library
 ```
 
-**Current Status**: Repository is undergoing migration to unified structure with pure learning content in Reference Library.
+**Current Status**: Repository has been dramatically simplified to 2 folders. Migration plan executing to transfer educational content from `02_LegacyContent/_Backup/` to `01_ReferenceLibrary/` with duplicate elimination and quality enhancement.
 
 ### Learning Tracks Available
 

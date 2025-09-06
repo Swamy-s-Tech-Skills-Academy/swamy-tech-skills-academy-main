@@ -68,6 +68,12 @@ graph TD
 5. **[05_Prompt-Engineering.md](05_Prompt-Engineering.md)** - Effective LLM interaction
 6. **[06_LLM-Limitations-and-Challenges.md](06_LLM-Limitations-and-Challenges.md)** - Understanding boundaries
 7. **[07_LLM-to-Agent-Bridge.md](07_LLM-to-Agent-Bridge.md)** - Connecting to Agentic AI
+8. **[08_Text-Generation-App-Ideas.md](08_Text-Generation-App-Ideas.md)** - Practical application concepts
+9. **[09_Neural-Learning-Mechanics.md](09_Neural-Learning-Mechanics.md)** - How LLMs learn from experience
+10. **[10_Advanced-Training-Techniques.md](10_Advanced-Training-Techniques.md)** - Efficient optimization and reasoning patterns
+11. **[11_Foundation-Models-and-LLM-Evolution.md](11_Foundation-Models-and-LLM-Evolution.md)** - From narrow AI to universal models
+12. **[12_Breakthrough-Innovations-in-GenAI.md](12_Breakthrough-Innovations-in-GenAI.md)** - Latest efficiency and reasoning advances
+13. **[14_Model-Variants-and-Specializations.md](14_Model-Variants-and-Specializations.md)** - SLMs, LLMs, RLMs, and MLLMs unified guide
 
 ---
 

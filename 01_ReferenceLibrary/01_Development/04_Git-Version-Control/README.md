@@ -10,7 +10,7 @@ Central hub for version control learning: Git fundamentals, workflows, and colla
 
 ## 🗺️ Pathway Guide
 
-For sequencing and cross-links, see the Development Pathway: `../PATHWAY.md`
+For sequencing and cross-links, see the Development Track README: `../README.md`
 
 ## 📋 Modules & Assets
 

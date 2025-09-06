@@ -148,7 +148,13 @@ Your comprehensive A-Z reference for all Agentic AI concepts! This glossary incl
 
 ## 📚 Learning Progression
 
-### **Preparation Phase** (30-45 minutes)
+### **Preparation Phase** (45-60 minutes)
+
+**01_The-Evolution-to-AI-Agents** *(35-45 minutes)* ⭐ **New Module**
+
+- **Purpose**: Understand how foundational AI capabilities converge to enable autonomous agents
+- **Key Concepts**: Multimodal processing, goal-oriented execution, capability convergence
+- **Practical Focus**: Evolution from text generation to autonomous action
 
 **01_Agentic-AI-Learning-Roadmap** *(30 minutes)*
 

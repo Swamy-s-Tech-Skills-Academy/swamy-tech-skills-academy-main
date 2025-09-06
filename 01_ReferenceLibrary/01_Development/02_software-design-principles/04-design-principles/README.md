@@ -12,6 +12,35 @@ This folder contains **core design principles** that guide decision-making in so
 
 ## 📚 **Core Design Principles**
 
+### **🎯 [02_Complete-Design-Principles-Guide.md](02_Complete-Design-Principles-Guide.md)** ⭐ **COMPREHENSIVE MODULE**
+
+#### Complete Journey: From Code Principles to System Architecture (3-4 hours)
+
+- **Foundation Layer**: OOP concepts → SOLID principles mastery
+- **Implementation Layer**: Language practices (C#, JavaScript) → Design patterns  
+- **Architecture Layer**: System principles → Architectural patterns
+- **Professional Application**: Portfolio development → Career advancement
+- **Structured Learning Path**: 7+ week progression with success metrics
+
+**When to Use**: Complete design principles education, architecture learning, portfolio development
+
+*This comprehensive guide consolidates all essential design knowledge into a single, progressive learning experience with practical examples and real-world applications.*
+
+---
+
+### **🎯 [01_SOLID-Principles-Track.md](01_SOLID-Principles-Track.md)** ⭐ **LEARNING TRACK**
+
+#### SOLID Principles Learning Path (2-3 weeks)
+
+- **Progression**: Core principles → Language implementations → Advanced refactoring
+- **Structure**: Daily sessions with practical applications
+- **Coverage**: SRP → OCP → LSP → ISP → DIP with real-world examples
+- **Outcome**: Master SOLID principles across Generic, C#, and Python
+
+**When to Use**: Structured SOLID learning, building clean code skills
+
+---
+
 ### **🎯 KISS - Keep It Simple, Stupid**
 
 #### The Simplicity Principle
@@ -188,7 +217,7 @@ After mastering these design principles:
 
 ---
 
-_These principles form the foundation for all other design decisions. Master them first, then apply them through specific patterns and architectures._
+*These principles form the foundation for all other design decisions. Master them first, then apply them through specific patterns and architectures.*
 
 **Last Updated**: July 22, 2025  
 **Current Focus**: Universal design principles for quality code
