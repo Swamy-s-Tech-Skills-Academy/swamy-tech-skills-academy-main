@@ -75,7 +75,7 @@ This track provides the essential programming and software engineering foundatio
 ### **🗃️ [04_Git-Version-Control/](04_Git-Version-Control/)** - Version Control & Collaboration
 
 - **Purpose**: Git fundamentals, workflows, and collaborative development practices
-- **Content**: Intro workshop agenda (Git & GitHub), core concepts, branching & merging (coming soon)
+- **Content**: Core concepts, branching & merging strategies, collaborative workflows
 - **Foundation For**: All team-based development, code review, CI/CD integration
 - **Key Skills**: Repository hygiene, branching strategies, safe undo, collaboration flow
 
