@@ -14,8 +14,6 @@ For sequencing and cross-links, see the Development Track README: `../README.md`
 
 ## 📋 Modules & Assets
 
-- `01_Git-GitHub-Workshop-Agenda.md` (Session 1 – 1-hour intro)
-- `02_GitHub-Collaboration-Session2-Agenda.md` (Session 2 – collaboration & PR workflow)
 - `03_Core-Git-Concepts.md` (Core data model, staging, branching, safe undo)
 - `04_Undo-Strategies.md` (Recovery techniques and safety matrix)
 - `05_Branching-Patterns.md` (Compare models and trade-offs)

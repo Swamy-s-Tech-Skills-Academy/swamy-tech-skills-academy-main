@@ -53,7 +53,7 @@ Based on successful NLP learning approach (Aug 11-13, 2025):
 
 ## Links/Sources
 
-- Reference: [01_OOP-Foundation-Track.md](01-oop-fundamentals/01_OOP-Foundation-Track.md)
+- Reference: [01_OOP-Foundation-Track.md](01_oop-fundamentals/01_OOP-Foundation-Track.md)
 - External code: [Link when you create repo]
 
 ```text
@@ -62,7 +62,7 @@ End of template
 
 ### Step 2: Start Learning
 
-1. Open: `01-oop-fundamentals/01_OOP-Foundation-Track.md`
+1. Open: `01_oop-fundamentals/01_OOP-Foundation-Track.md`
 2. Focus on: Week 1, Day 1 - Encapsulation
 3. Implement one simple example (BankAccount class)
 4. Update your daily note with insights
@@ -73,17 +73,17 @@ End of template
 
 ### **🚀 Complete Learning Tracks**
 
-#### **[01-oop-fundamentals/01_OOP-Foundation-Track.md](01-oop-fundamentals/01_OOP-Foundation-Track.md)** (3-4 weeks)
+#### **[01_oop-fundamentals/01_OOP-Foundation-Track.md](01_oop-fundamentals/01_OOP-Foundation-Track.md)** (3-4 weeks)
 
 - Generic concepts → C# implementation → Python implementation → Cross-language mastery
 - Daily progression: Encapsulation → Inheritance → Polymorphism → Abstraction
 
-#### **[04-design-principles/01_SOLID-Principles-Track.md](04-design-principles/01_SOLID-Principles-Track.md)** (2-3 weeks)
+#### **[04_design-principles/01_SOLID-Principles-Track.md](04_design-principles/01_SOLID-Principles-Track.md)** (2-3 weeks)
 
 - Core principles → Language implementations → Advanced refactoring
 - SRP → OCP → LSP → ISP → DIP with real-world examples
 
-#### **[05-design-patterns/01_Design-Patterns-Track.md](05-design-patterns/01_Design-Patterns-Track.md)** (4-5 weeks)
+#### **[05_design-patterns/01_Design-Patterns-Track.md](05_design-patterns/01_Design-Patterns-Track.md)** (4-5 weeks)
 
 - Creational → Structural → Behavioral (Core) → Behavioral (Advanced) → Integration
 - 23 GoF patterns with multi-language implementations
@@ -235,7 +235,7 @@ This system adds:
 
 ### **🎓 Comprehensive Learning Guide**
 
-#### **[04-design-principles/02_Complete-Design-Principles-Guide.md](04-design-principles/02_Complete-Design-Principles-Guide.md)** ⭐ **Comprehensive Module**
+#### **[04_design-principles/02_Complete-Design-Principles-Guide.md](04_design-principles/02_Complete-Design-Principles-Guide.md)** ⭐ **Comprehensive Module**
 
 ##### Complete Journey: From Code Principles to System Architecture (3-4 hours)
 
@@ -253,7 +253,7 @@ This system adds:
 
 ### **🔢 Foundation Phase**
 
-#### **01. [OOP Fundamentals](01-oop-fundamentals/)**
+#### **01. [OOP Fundamentals](01_oop-fundamentals/)**
 
 ##### Core Object-Oriented Programming Concepts
 
@@ -262,7 +262,7 @@ This system adds:
 - Basic UML for Object Modeling
 - Language-agnostic concepts and practical application
 
-#### **02. [Advanced OOP](02-advanced-oop/)**
+#### **02. [Advanced OOP](02_advanced_oop/)**
 
 ##### Enterprise-Level Object-Oriented Design
 
@@ -271,7 +271,7 @@ This system adds:
 - Async/OOP Integration
 - Domain-Driven Design Fundamentals
 
-#### **03. [UML and Modeling](03-uml-and-modeling/)**
+#### **03. [UML and Modeling](03_uml-and-modeling/)**
 
 ##### System Design and Visual Communication
 
@@ -284,7 +284,7 @@ This system adds:
 
 ### **🎯 Principles Phase**
 
-#### **04. [Design Principles](04-design-principles/)**
+#### **04. [Design Principles](04_design-principles/)**
 
 ##### Fundamental Rules for Quality Code
 
@@ -298,7 +298,7 @@ This system adds:
 
 ### **🛠️ Patterns Phase**
 
-#### **05. [Design Patterns](05-design-patterns/)**
+#### **05. [Design Patterns](05_design-patterns/)**
 
 ##### Proven Solutions to Common Problems
 
@@ -307,7 +307,7 @@ This system adds:
 - **Behavioral**: Observer, Strategy, Command
 - **Modern Patterns**: Repository, Unit of Work
 
-#### **06. [Architectural Principles](06-architectural-principles/)**
+#### **06. [Architectural Principles](06_architectural-principles/)**
 
 ##### System-Level Design Guidelines
 
@@ -316,9 +316,9 @@ This system adds:
 - **Loose Coupling / High Cohesion**
 - **Dependency Inversion (System Level)**
 - **Scalability and Reliability Principles**
-- Cloud‑Native overview: [01_Cloud‑Native Distributed Apps: Key Characteristics](06-architectural-principles/01_Cloud-Native-Distributed-Apps-Key-Characteristics.md)
+- Cloud‑Native overview: [01_Cloud‑Native Distributed Apps: Key Characteristics](06_architectural-principles/01_Cloud-Native-Distributed-Apps-Key-Characteristics.md)
 
-#### **07. [Architecture Patterns](07-architecture-patterns/)**
+#### **07. [Architecture Patterns](07_architecture-patterns/)**
 
 ##### System-Level Design Solutions
 
@@ -335,19 +335,19 @@ This system adds:
 ### **For Beginners**
 
 ```text
-01-OOP-Fundamentals → 04-Design-Principles → 03-UML-Modeling
+01_OOP-Fundamentals → 04_Design-Principles → 03_UML-Modeling
 ```
 
 ### **For Intermediate Developers**
 
 ```text
-02-Advanced-OOP → 05-Design-Patterns → 06-Architectural-Principles
+02_advanced_oop → 05_design-patterns → 06_architectural-principles
 ```
 
 ### **For Senior Developers**
 
 ```text
-All folders as reference + Focus on 06-Architectural-Principles → 07-Architecture-Patterns
+All folders as reference + Focus on 06_architectural-principles → 07_architecture-patterns
 ```
 
 ---

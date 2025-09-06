@@ -1,7 +1,7 @@
 # 03 Core Git Concepts
 
 **Learning Level:** Beginner → Practitioner  
-**Prerequisites:** Session 1 workshop (init/add/commit/log), basic branching familiarity  
+**Prerequisites:** Basic command line familiarity, understanding of file versioning concepts  
 **Estimated Time:** 45–60 minutes focused study + practice reps
 
 ---

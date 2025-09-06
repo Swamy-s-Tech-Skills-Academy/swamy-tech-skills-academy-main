@@ -597,7 +597,7 @@ public class ProductsController : ControllerBase
 
 ### **Prerequisites**
 
-- [OOP Fundamentals](../01-oop-fundamentals/README.md) - Understanding of objects, inheritance, and encapsulation
+- [OOP Fundamentals](../01_oop-fundamentals/README.md) - Understanding of objects, inheritance, and encapsulation
 - [SOLID Principles](../04-design-principles/README.md) - Especially Dependency Inversion Principle
 - [Interface Design](../02-advanced-oop/README.md) - Creating effective abstractions
 

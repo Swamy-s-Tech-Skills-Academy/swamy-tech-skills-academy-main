@@ -10,6 +10,31 @@ This folder contains **architectural patterns** - high-level structural solution
 
 ---
 
+## 📚 **Foundational Architecture Patterns** ⭐ **NEW**
+
+### **🏗️ [Clean Architecture Fundamentals](01_Clean-Architecture-Fundamentals.md)**
+
+**Purpose**: Master the foundational principles of Clean Architecture and choose the right architectural pattern for your needs
+
+#### Key Concepts — Clean Architecture
+
+- **Dependency Inversion**: Dependencies flow inward toward business logic
+- **Architecture Decision Matrix**: Choose patterns based on team size, complexity, and requirements
+- **Layered Systems**: Presentation, Application, Domain, and Infrastructure layers
+- **Evolution Strategy**: Start simple (monolith) and evolve to complex patterns as needed
+- **Implementation Guidelines**: Domain-first approach with proper testing strategy
+
+#### Benefits — Clean Architecture Fundamentals
+
+- Independent of frameworks, UI, database, and external services
+- Testable business logic without external dependencies
+- Clear separation of concerns at system level
+- Flexible architecture that can evolve with business needs
+
+**Learning Level**: Intermediate | **Time**: 90 minutes | **Foundation**: Required before other patterns
+
+---
+
 ## 📚 **Advanced Architecture Patterns** ⭐ **NEW**
 
 ### **🔄 [CQRS - Command Query Responsibility Segregation](01_CQRS-Command-Query-Separation.md)**
