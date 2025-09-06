@@ -86,7 +86,7 @@
 
 #### 1. **Clean Architecture Fundamentals** (NEW)
 
-- **File**: `00_Clean-Architecture-Fundamentals.md`
+- **File**: `01_Clean-Architecture-Fundamentals.md`
 - **Size**: 2,000+ words comprehensive guide
 - **Content**: 5 architecture patterns with decision matrix
 - **Features**:

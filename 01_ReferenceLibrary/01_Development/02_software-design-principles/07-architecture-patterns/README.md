@@ -12,7 +12,7 @@ This folder contains **architectural patterns** - high-level structural solution
 
 ## 📚 **Foundational Architecture Patterns** ⭐ **NEW**
 
-### **🏗️ [Clean Architecture Fundamentals](00_Clean-Architecture-Fundamentals.md)**
+### **🏗️ [Clean Architecture Fundamentals](01_Clean-Architecture-Fundamentals.md)**
 
 **Purpose**: Master the foundational principles of Clean Architecture and choose the right architectural pattern for your needs
 
