@@ -375,7 +375,7 @@ Develop a feature-rich command-line application with proper testing and document
 
 ### Enables
 
-- [09_Professional-to-Python-Expert](../09_Professional-to-Python-Expert/) - Advanced Features
+- [09_Professional-to-Curious-Learner](../09_Professional-to-Curious-Learner/) - Advanced Features
 
 ---
 
