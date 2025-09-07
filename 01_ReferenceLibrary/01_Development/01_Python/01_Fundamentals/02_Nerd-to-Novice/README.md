@@ -408,6 +408,7 @@ test_search_function()
 ### 1. Function Design Issues
 
 ❌ **Poor Function Design**:
+
 ```python
 def do_everything(data):
     # Function that does too many things
@@ -420,6 +421,7 @@ def do_everything(data):
 ```
 
 ✅ **Better Function Design**:
+
 ```python
 def sort_numbers(numbers):
     """Sort a list of numbers."""
@@ -445,11 +447,13 @@ def display_statistics(numbers):
 ### 2. Input Validation Problems
 
 ❌ **No Input Validation**:
+
 ```python
 age = int(input("Enter your age: "))  # Crashes on invalid input
 ```
 
 ✅ **Proper Input Validation**:
+
 ```python
 def get_age():
     while True:

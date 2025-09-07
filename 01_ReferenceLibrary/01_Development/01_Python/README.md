@@ -1,12 +1,32 @@
-# 01_Python - Complete Python Learning System
+# 01_Python - Pure Python Fundamentals Track
 
 ## Master Python from Absolute Beginner to Expert Level
+
+**🎯 Pure Python Focus**: This track covers ONLY core Python programming skills, language features, and fundamental libraries. Web frameworks, UI development, and domain-specific applications are covered in separate specialized tracks.
 
 ---
 
 ## 🎯 Learning System Overview
 
-This comprehensive Python learning system is designed to take you from complete beginner to Python expert through a structured, progressive approach. Each component builds upon the previous one, ensuring solid foundational knowledge while introducing increasingly sophisticated concepts and professional practices.
+This comprehensive Python learning system is designed to take you from complete beginner to Python expert through a structured, progressive approach focusing **exclusively on Python fundamentals**. Each component builds upon the previous one, ensuring solid foundational knowledge while introducing increasingly sophisticated Python concepts and professional practices.
+
+### ⚡ What's Included (Pure Python)
+
+- ✅ **Python syntax and language features**
+- ✅ **Object-oriented programming principles**
+- ✅ **Data structures and algorithms**
+- ✅ **Standard library mastery**
+- ✅ **Third-party ecosystem** (pandas, requests, click, pytest, etc.)
+- ✅ **Advanced features** (metaclasses, descriptors, performance)
+- ✅ **Testing, debugging, and best practices**
+- ✅ **Clean code and design patterns**
+
+### ❌ What's NOT Included (Separate Tracks)
+
+- ❌ **Web frameworks** (Flask, Django, FastAPI) → Covered in Web Development tracks
+- ❌ **UI development** (Tkinter, PyQt, web frontends) → Covered in UI/UX tracks
+- ❌ **Domain-specific workflows** (ML pipelines, data science workflows) → Covered in AI/ML and Data Science tracks
+- ❌ **Deployment and DevOps** → Covered in DevOps track
 
 ---
 
