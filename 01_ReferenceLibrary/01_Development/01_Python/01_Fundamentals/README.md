@@ -12,6 +12,48 @@ This L1 fundamentals track takes you through a carefully designed 9-level progre
 
 ## 📚 9-Level Learning Progression
 
+### **✅ Finalized Python Journey: Noob → Visionary**
+
+This progression uses inspiring, inclusive terminology that reflects natural learning stages:
+
+1. **Noob → Nerd**  
+   *From clueless to curious*  
+   *(first exposure, installing Python, printing output)*
+
+2. **Nerd → Novice**  
+   *Curiosity leads to basics*  
+   *(variables, conditionals, loops, simple functions)*
+
+3. **Novice → Learner**  
+   *Knows the pieces, starts connecting them*  
+   *(data structures, basic file I/O, small CLI tools)*
+
+4. **Learner → Beginner**  
+   *Can write working programs with help*  
+   *(modularization, error handling, intro to OOP)*
+
+5. **Beginner → Practitioner**  
+   *Starts solving real-world problems*  
+   *(working on projects, debugging, using libraries)*
+
+6. **Practitioner → Skilled Coder**  
+   *Writes clean, efficient, reusable code*  
+   *(OOP mastery, testing, simple design patterns)*
+
+7. **Skilled Coder → Professional**  
+   *Can build production-ready systems*  
+   *(web frameworks, automation, packaging, linting)*
+
+8. **Professional → Advanced**  
+   *Understands internals, performance, and architecture*  
+   *(async programming, decorators, memory management)*
+
+9. **Advanced → Visionary**  
+   *Leads, mentors, innovates*  
+   *(contributing to open source, creating libraries, AI/ML, designing platforms)*
+
+### **Detailed Level Breakdown**
+
 ### **[01_Noob-to-Nerd/](01_Noob-to-Nerd/)** - Python Basics
 
 - **Focus**: Python fundamentals, VS Code setup
@@ -83,6 +125,13 @@ This L1 fundamentals track takes you through a carefully designed 9-level progre
 - **Goal**: "I'm a Python expert!"
 - **Skills Developed**: Concurrency, performance optimization, advanced patterns
 - **Duration**: 10-12 weeks
+
+### **💡 Progression Design Philosophy**
+
+- ✅ **Logical flow** and natural growth curve
+- ✅ **Inclusive and inspiring** terminology
+- ✅ **Aligns with industry expectations** and personal development stages
+- ✅ **Confidence-building approach** with clear milestone achievements
 
 ---
 

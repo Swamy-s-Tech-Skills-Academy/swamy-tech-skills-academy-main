@@ -1,12 +1,32 @@
-# 01_Python - Complete Python Learning System
+# 01_Python - Pure Python Fundamentals Track
 
 ## Master Python from Absolute Beginner to Expert Level
+
+**🎯 Pure Python Focus**: This track covers ONLY core Python programming skills, language features, and fundamental libraries. Web frameworks, UI development, and domain-specific applications are covered in separate specialized tracks.
 
 ---
 
 ## 🎯 Learning System Overview
 
-This comprehensive Python learning system is designed to take you from complete beginner to Python expert through a structured, progressive approach. Each component builds upon the previous one, ensuring solid foundational knowledge while introducing increasingly sophisticated concepts and professional practices.
+This comprehensive Python learning system is designed to take you from complete beginner to Python expert through a structured, progressive approach focusing **exclusively on Python fundamentals**. Each component builds upon the previous one, ensuring solid foundational knowledge while introducing increasingly sophisticated Python concepts and professional practices.
+
+### ⚡ What's Included (Pure Python)
+
+- ✅ **Python syntax and language features**
+- ✅ **Object-oriented programming principles**
+- ✅ **Data structures and algorithms**
+- ✅ **Standard library mastery**
+- ✅ **Third-party ecosystem** (pandas, requests, click, pytest, etc.)
+- ✅ **Advanced features** (metaclasses, descriptors, performance)
+- ✅ **Testing, debugging, and best practices**
+- ✅ **Clean code and design patterns**
+
+### ❌ What's NOT Included (Separate Tracks)
+
+- ❌ **Web frameworks** (Flask, Django, FastAPI) → Covered in Web Development tracks
+- ❌ **UI development** (Tkinter, PyQt, web frontends) → Covered in UI/UX tracks
+- ❌ **Domain-specific workflows** (ML pipelines, data science workflows) → Covered in AI/ML and Data Science tracks
+- ❌ **Deployment and DevOps** → Covered in DevOps track
 
 ---
 
@@ -14,12 +34,12 @@ This comprehensive Python learning system is designed to take you from complete 
 
 ### **[01_Fundamentals/](01_Fundamentals/)** - Core Python Skills
 
-#### Complete 9-Level Progression: Noob to Python Expert
+#### Complete 9-Level Progression: Noob to Curious Learner
 
 - **Purpose**: Master fundamental Python concepts through progressive skill building
 - **Duration**: 12-18 months for complete mastery
 - **Structure**: 9 sequential levels with clear milestones
-- **Outcome**: Transform from complete beginner to confident Python expert
+- **Outcome**: Transform from complete beginner to confident Curious Learner
 
 **Learning Levels:**
 
@@ -31,7 +51,7 @@ This comprehensive Python learning system is designed to take you from complete 
 6. **06_Practitioner-to-Skilled-Coder** - Design Patterns ("I design systems!")
 7. **07_Skilled-Coder-to-Specialist** - Standard Library Mastery ("I master Python's core!")
 8. **08_Specialist-to-Professional** - Third-party Ecosystem ("I use professional tools!")
-9. **09_Professional-to-Python-Expert** - Advanced Features ("I'm a Python expert!")
+9. **09_Professional-to-Curious-Learner** - Advanced Features ("I am a Curious Learner!")
 
 ### **[02_Advanced-Patterns/](02_Advanced-Patterns/)** - Design Patterns & Architecture
 
@@ -133,12 +153,13 @@ Legend: ● = Skill level achieved, ○ = Additional development
 - Implement performance optimization techniques
 - Design and build complex Python applications
 
-### **Professional Level (Industry Practice)**
+### **Curious Learner Level (Continuous Growth)**
 
 - Master testing, deployment, and CI/CD practices
 - Collaborate effectively in team development environments
 - Maintain and scale large Python codebases
 - Lead Python projects and mentor other developers
+- Embrace lifelong learning and exploration mindset
 
 ---
 
@@ -151,12 +172,14 @@ Legend: ● = Skill level achieved, ○ = Additional development
 - ✅ Build portfolio of Python projects showcasing skills
 - ✅ Achieve confidence milestones at each level
 
-### **Professional Readiness Indicators**
+### **Curious Learner Readiness Indicators**
 
 - 🎯 Can design and implement complex Python applications
 - 🎯 Follows industry best practices for code quality and testing
 - 🎯 Effectively uses Python ecosystem tools and libraries
 - 🎯 Can mentor others and lead Python development projects
+- 🎯 Maintains curiosity and embraces continuous learning
+- 🎯 Contributes to Python community and open source projects
 
 ---
 
@@ -203,11 +226,11 @@ Legend: ● = Skill level achieved, ○ = Additional development
 
 ---
 
-**📅 Last Updated**: July 31, 2025  
+**📅 Last Updated**: September 7, 2025  
 **🎯 Focus**: Complete Python mastery through structured, progressive learning  
-**📍 Structure**: 4 main components supporting beginner to expert development  
-**🚀 Outcome**: Professional-level Python expertise with specialized domain knowledge
+**📍 Structure**: 4 main components supporting beginner to curious learner development  
+**🚀 Outcome**: Curious learner mindset with specialized domain knowledge
 
 ---
 
-**💡 Success Philosophy**: "Master the fundamentals, apply advanced patterns, specialize in your domain, and practice professionally. Python expertise is built through consistent, progressive skill development."
+**💡 Success Philosophy**: "Master the fundamentals, apply advanced patterns, specialize in your domain, and embrace curious learning. Python expertise is built through consistent, progressive skill development and a lifelong commitment to exploration and growth."

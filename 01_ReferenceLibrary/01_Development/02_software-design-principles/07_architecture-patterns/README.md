@@ -105,6 +105,29 @@ This folder contains **architectural patterns** - high-level structural solution
 
 ---
 
+### **🔧 [System Design Fundamentals](04_System-Design-Fundamentals.md)** ⭐ **NEW**
+
+**Purpose**: Apply systematic approaches to system design challenges with proven architectural patterns
+
+#### Key Concepts — System Design
+
+- **Data Storage Architecture**: Technology selection matrix and storage patterns
+- **Caching Strategies**: Cache-aside, write-through, and write-behind patterns
+- **Search and Analytics**: Full-text search, time series data, and analytics pipelines
+- **Database Scaling**: Read replicas, sharding, and RDBMS vs NoSQL decisions
+- **Performance Optimization**: Common pitfalls and scalability solutions
+
+#### Benefits — System Design
+
+- Systematic approach to architecture decisions
+- Proven patterns for common challenges
+- Technology selection guidance
+- Performance and scalability best practices
+
+**Learning Level**: Intermediate | **Time**: 60-75 minutes
+
+---
+
 ## 📚 **Core Architecture Patterns**
 
 ### **🎯 MVC - Model-View-Controller**
