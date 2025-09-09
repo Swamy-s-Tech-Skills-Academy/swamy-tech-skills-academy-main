@@ -428,9 +428,11 @@ docker run --rm -v "${PWD}:/workspace" -w /workspace lycheeverse/lychee --config
 - **Issue 1: Following Author's Structure** - Never replicate source material organization (e.g., SML, LLM, RLM, MLLM sequence). Always create logical educational groupings and progression.
 - **Issue 2: Content Misplacement** - Ensure content is placed in the correct domain folder (AI Agents content belongs in `07_AI-Agents/`, not LLM track).
 - **Issue 3: Response Length Overruns** - Recurring "response hit length limit" errors despite 30-minute module framework. Must enforce 500-800 line limits per module.
+- **Issue 4: Character Encoding Corruption** - The � (replacement character) breaks markdown preview functionality. Always validate UTF-8 encoding integrity and check for corrupted Unicode sequences.
 - **Day 10-11 Success**: Multi-track expansion with AI + ML Fundamentals (6,000+ lines) demonstrating architectural mastery.
 - **Solution 1**: Consolidate related concepts into unified guides and place content based on educational logic.
 - **Solution 2**: Implement mandatory length checks and multi-part strategy for complex topics.
+- **Solution 3**: Prioritize character encoding validation as first troubleshooting step for preview issues.
 
 ## 📊 Success Metrics
 
@@ -456,14 +458,26 @@ Note: Prefer ASCII-first diagrams for universal preview. Where feasible, include
 
 Follow these rules to keep Markdown clean, consistent, and lint-safe across the repo.
 
-### Character Encoding Requirements
+### Character Encoding Requirements (CRITICAL)
 
 - **Use UTF-8 encoding**: Ensure all markdown files are saved in UTF-8 format
-- **Avoid corrupt characters**: Never use the � (replacement character) - it indicates encoding issues
+- **NEVER use �**: The � (replacement character) breaks markdown preview and indicates encoding corruption
+- **Immediate troubleshooting**: If markdown preview fails, check for � characters first
 - **Validate encoding**: If you see � characters, the source content has encoding problems
 - **Fix immediately**: Replace any � characters with proper Unicode equivalents or ASCII alternatives
-- **Common issues**: Copy-pasting from PDFs, Word docs, or web pages can introduce encoding problems
-- **Prevention**: When creating content, use standard ASCII characters for structure and proper Unicode for symbols
+- **Common sources**: Copy-pasting from PDFs, Word docs, web pages, or malformed source materials
+- **Prevention strategies**:
+  - Use standard ASCII characters for structure (headings, lists, tables)
+  - Test Unicode characters in small batches before large content creation
+  - Verify emoji compatibility across different markdown renderers
+  - Always preview markdown after adding complex Unicode content
+
+**Troubleshooting Pattern**:
+
+1. Markdown preview broken? → Search for � characters
+2. Find � characters? → Identify source content causing corruption
+3. Replace corrupted content with clean alternatives
+4. Re-test preview functionality
 
 ### Core rules
 
@@ -554,10 +568,10 @@ classDef processStyle fill:#f3e5f5,stroke:#9c27b0,stroke-width:1px,color:#7b1fa2
 - No tabs; two-space nested list indentation
 - All fenced code blocks have a language
 - Headings/lists/code fences separated by blank lines
+- **Character encoding integrity**: No corrupt characters (�) or invalid Unicode sequences
 - Preview in VS Code Markdown preview to check rendering
 - For diagrams: verify both ASCII and Mermaid render correctly; ensure ASCII fallback is present
 - **Mermaid styling**: Confirm soft colors applied with proper contrast and logical color mapping
-- **Character encoding integrity**: No corrupt characters (�) or invalid Unicode sequences
 - **Post-update verification**: Run markdownlint and lychee checks after any documentation changes
 
 ## 🧭 Code Single-Source-of-Truth Policy (STSA)

@@ -11,6 +11,47 @@
 
 This track provides the essential programming and software engineering foundations needed to build robust AI, ML, and data systems. Focus on practical skills and engineering best practices.
 
+## 📊 Domain Icons & Status Reference
+
+| Status | Domain | Icon | Category | Description |
+|--------|--------|------|----------|-------------|
+| ✅ | 01_software-design-principles | 🎯 | Foundation | Universal design principles |
+| ✅ | 02_Python | 🐍 | Language | Dynamic programming |
+| 📅 | 03_CSharp | 🔷 | Language | Enterprise .NET |
+| 📅 | 04_Java | ☕ | Language | Enterprise Java |
+| 📅 | 06_JavaScript | 🟨 | Language | Web development |
+| 📅 | 07_TypeScript | 🔷 | Language | Type-safe web |
+| 📅 | 08_GoLang | 🐹 | Language | Cloud-native |
+| 📅 | 09_Node-js | 🟢 | Runtime | Server-side JS |
+| 📅 | 10_NET-Framework | ⚙️ | Platform | Enterprise .NET |
+| 📅 | 11_React-js | ⚛️ | Framework | Modern web UI |
+| 📅 | 12_Angular | 🅰️ | Framework | Enterprise web |
+| 📅 | 13_NET-Razor-Pages | 📄 | Framework | Server-rendered |
+| 📅 | 14_NET-MVC | 🏗️ | Framework | Web architecture |
+| 📅 | 15_NET-Blazor | 🚀 | Framework | C# for web |
+| 📅 | 16_NET-MAUI | 📱 | Framework | Cross-platform |
+| 📅 | 17_Git-Version-Control | 🛠️ | Tools | Version control |
+
+**Legend**: ✅ = Complete | 📅 = Planned | 🔄 = In Development
+
+### **Icon Categories Explained**
+
+**🎯 Foundation**: Universal design principles for all languages
+
+**Language Icons**:
+
+- 🐍 Python, 🔷 C#/TypeScript, ☕ Java, 🟨 JavaScript, 🐹 GoLang
+
+**Platform & Runtime**:
+
+- 🟢 Node.js, ⚙️ .NET Framework
+
+**Framework Icons**:
+
+- ⚛️ React, 🅰️ Angular, 📄 Razor Pages, 🏗️ MVC, 🚀 Blazor, 📱 MAUI
+
+**Tools**: 🛠️ Git (tools/workflow)
+
 ---
 
 ## 🗺️ Development Track Pathway
@@ -232,10 +273,32 @@ This track provides the essential programming and software engineering foundatio
 - LLMs: `../02_AI-and-ML/05_LargeLanguageModels/README.md`
 - Agents: `../02_AI-and-ML/07_AI-Agents/README.md`
 
+## 🎨 Complete Icon Reference
+
+### **Visual Domain Map**
+
+```text
+🎯 FOUNDATION    🐍🔷☕🟨🐹 LANGUAGES    🟢⚙️ PLATFORMS    ⚛️🅰️📄🏗️🚀📱 FRAMEWORKS    🛠️ TOOLS
+
+01_software-     02_Python        09_Node-js      11_React-js        17_Git-Version-
+design-          03_CSharp        10_NET-         12_Angular         Control
+principles       04_Java          Framework       13_NET-Razor-Pages
+                 06_JavaScript                    14_NET-MVC
+                 07_TypeScript                    15_NET-Blazor
+                 08_GoLang                        16_NET-MAUI
+```
+
+### **Icon Usage Guidelines**
+
+- **Status Indicators**: ✅ (Complete), 📅 (Planned), (In Development)
+- **Category Icons**: Use consistently across all documentation
+- **Visual Hierarchy**: Foundation → Languages → Platforms → Frameworks → Tools
+- **Cross-Reference**: Icons help identify domain relationships across tracks
+
 ## 🗺️ Navigation & References
 
 - **Reference Library**: `../README.md`
-- **Learning Progression**: See main README for cross-domain pathways
+- **Learning Progression**: See main README for cross-domain pathways  
 - **Development Modules**: All subfolders in this track
 
 ---
