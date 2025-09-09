@@ -1,4 +1,4 @@
-# 🎯 OOP Fundamentals - Universal Foundation
+# 🎯 OOP Fundamentals - Univers| **[Part 2: Interfaces & Composition](02_OOP-Fundamentals-Part2-Interfaces-Composition.md)** | Advanced relationships | 📚 Reference | Will be restructured |l Foundation
 
 **Learning Level**: Beginner → Intermediate  
 **Prerequisites**: Basic programming knowledge (any language)  
