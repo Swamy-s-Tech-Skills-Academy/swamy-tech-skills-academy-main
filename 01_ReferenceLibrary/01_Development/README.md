@@ -20,9 +20,10 @@ This track provides the essential programming and software engineering foundatio
 ### **Learning Flow Diagram**
 
 ```text
-[01_Python ✅] → [02_software-design-principles ✅] → [04_Git-Version-Control]
-                    ↘                                   ↘
-                      [03_CSharp]                         [04_DevOps (cross-track)]
+[01_software-design-principles ✅] → [02_Python ✅] → [03_CSharp] → [05_Git-Version-Control]
+            ↑                          ↘         ↘         ↘
+    Foundation First                    Language   Language   Tools
+    (Universal Principles)              Specific   Specific   & Workflow
 
 ✅ = 200-line format conversion complete
 ```
@@ -39,12 +40,12 @@ This track provides the essential programming and software engineering foundatio
 
 ### **Suggested Learning Sequences**
 
-#### Builder Path (Start-to-Finish Development)
+#### Foundation-First Path (Recommended)
 
-1. **Python** → 2. **Design Principles** → 3. **Git** → 4. **C#**
-   - Focus: Complete development foundation
+1. **Design Principles** → 2. **Python** → 3. **C#** → 4. **Git**
+   - Focus: Universal concepts before language specifics
    - Timeline: 3-6 months
-   - Outcome: Full-stack development capabilities
+   - Outcome: Language-agnostic development excellence
 
 #### Enterprise Path (Professional Excellence)
 
@@ -63,30 +64,30 @@ This track provides the essential programming and software engineering foundatio
 
 ## 📚 Domains in This Track
 
-### **🐍 [01_Python/](01_Python/)** - Programming Foundation
+### **⚙️ [01_software-design-principles/](01_software-design-principles/)** - Universal Foundation
 
-- **Purpose**: Python programming, libraries, and development practices
-- **Content**: Language internals, advanced concepts, best practices
-- **Foundation For**: All AI, ML, and data science implementations
-- **Key Skills**: Python mastery, library usage, code optimization
-
-### **⚙️ [02_software-design-principles/](02_software-design-principles/)** - Engineering Excellence
-
-- **Purpose**: Software architecture, design patterns, engineering practices
+- **Purpose**: Language-agnostic software architecture, design patterns, engineering practices
 - **Content**: OOP, SOLID principles, design patterns, architectural patterns
-- **Foundation For**: Building maintainable, scalable systems
-- **Key Skills**: System design, code quality, architectural thinking
+- **Foundation For**: ALL programming languages and software systems
+- **Key Skills**: System design, code quality, architectural thinking, universal principles
 
-### **🔷 [03_CSharp/](03_CSharp/)** - Enterprise Development
+### **🐍 [02_Python/](02_Python/)** - Implementation Excellence
 
-- **Purpose**: C# and .NET ecosystem mastery for enterprise applications
-- **Content**: Language features, generics/variance, async programming, performance optimization
+- **Purpose**: Apply design principles through Python programming and development practices
+- **Content**: Language internals, advanced concepts, practical application of design principles
+- **Foundation For**: AI, ML, data science, and web development implementations
+- **Key Skills**: Python mastery, library usage, code optimization, principle application
+
+### **🔷 [03_CSharp/](03_CSharp/)** - Enterprise Implementation
+
+- **Purpose**: Apply design principles through C# and .NET ecosystem for enterprise applications
+- **Content**: Language features, generics/variance, async programming, enterprise patterns
 - **Foundation For**: Enterprise software, cloud applications, high-performance systems
-- **Key Skills**: Type safety, enterprise patterns, .NET ecosystem
+- **Key Skills**: Type safety, enterprise patterns, .NET ecosystem, principle application
 
-### **🗃️ [04_Git-Version-Control/](04_Git-Version-Control/)** - Version Control & Collaboration
+### **🗃️ [05_Git-Version-Control/](05_Git-Version-Control/)** - Collaboration & Workflow
 
-- **Purpose**: Git fundamentals, workflows, and collaborative development practices
+- **Purpose**: Version control fundamentals, workflows, and collaborative development practices
 - **Content**: Core concepts, branching & merging strategies, collaborative workflows
 - **Foundation For**: All team-based development, code review, CI/CD integration
 - **Key Skills**: Repository hygiene, branching strategies, safe undo, collaboration flow
@@ -97,21 +98,21 @@ This track provides the essential programming and software engineering foundatio
 
 ### **🔰 Beginner Path**
 
-1. **Start**: `01_Python/` for programming fundamentals
-2. **Structure**: `02_software-design-principles/` for code organization
-3. **Apply**: Use both in AI/ML/Data projects
+1. **Foundation**: `01_software-design-principles/` for universal concepts
+2. **Implementation**: `02_Python/` for practical application
+3. **Apply**: Use principles across any programming language
 
 ### **🎯 Professional Development Path**
 
-- **Core Skills**: Master `01_Python/` for implementation excellence
-- **System Design**: Deep dive into `02_software-design-principles/`
-- **Integration**: Apply principles to data and AI system architecture
+- **Universal Skills**: Master `01_software-design-principles/` for system thinking
+- **Language Mastery**: Deep dive into `02_Python/` and `03_CSharp/`
+- **Integration**: Apply principles to enterprise and AI system architecture
 
 ### **🏗️ Architecture Path**
 
-- **Foundation**: `02_software-design-principles/` for system thinking
-- **Implementation**: `01_Python/` for proof-of-concepts and prototypes
-- **Leadership**: Guide teams in engineering best practices
+- **Foundation**: `01_software-design-principles/` for architectural thinking
+- **Multi-Language**: `02_Python/` + `03_CSharp/` for diverse implementations
+- **Leadership**: Guide teams in language-agnostic engineering excellence
 
 ---
 
