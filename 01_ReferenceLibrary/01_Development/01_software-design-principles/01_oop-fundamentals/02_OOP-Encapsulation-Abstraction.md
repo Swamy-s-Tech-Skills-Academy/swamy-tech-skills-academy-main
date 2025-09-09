@@ -1,4 +1,4 @@
-# 01B_OOP-Encapsulation-Abstraction
+# 02_OOP-Encapsulation-Abstraction
 
 **Learning Level**: Beginner to Intermediate  
 **Prerequisites**: Part 1A (Classes and Objects), basic programming concepts  
