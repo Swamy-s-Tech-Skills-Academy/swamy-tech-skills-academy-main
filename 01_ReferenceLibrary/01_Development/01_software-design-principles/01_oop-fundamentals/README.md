@@ -33,7 +33,6 @@ OOP principles are universal design patterns that transcend specific programming
 | Resource | Purpose | Lines | Status |
 |----------|---------|-------|--------|
 | **CheatSheet** | [Quick Reference](05_OOP-Fundamentals-CheatSheet.md) | 265 | 📝 Available |
-| **Foundation Track** | [Learning Path](06_OOP-Foundation-Track.md) | 138 | ✅ Complete |
 
 ## 🎓 27-Minute Learning Structure
 
