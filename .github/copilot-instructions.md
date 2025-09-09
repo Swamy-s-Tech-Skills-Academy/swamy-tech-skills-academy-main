@@ -293,6 +293,30 @@ Each domain folder must include a concise README with:
 
 ## 🔍 Content Review Process
 
+### **Response Length Management (CRITICAL)**
+
+**NEVER exceed token limits when creating content:**
+
+- **Target Length**: 150-200 lines of content maximum per response
+- **Multi-Part Strategy**: MANDATORY for all topics - use Part A, Part B, Part C structure
+- **Progressive delivery**: Create focused segments, then offer continuation
+- **Length Check**: Stop at 200 lines and offer next part
+- **Quality over Quantity**: Better to have complete, focused segments than truncated content
+
+**Optimized Response Pattern:**
+
+1. Create focused segment (150-200 lines)
+2. Update README with progress
+3. Offer specific next options
+4. Let user choose continuation path
+
+**Benefits of 200-line limit:**
+
+- ⚡ Faster generation and response times
+- 📖 More digestible learning chunks
+- 🎯 Better focus on single concepts
+- 🔄 Easier iteration and refinement
+
 ### **Self-Assessment Questions**
 
 Before finalizing any content, ask:
@@ -302,6 +326,7 @@ Before finalizing any content, ask:
 3. Would a learner understand this without the original source?
 4. Are the examples relevant and practical?
 5. Does this content add educational value beyond the reference?
+6. **NEW**: Is this content within reasonable length limits for effective delivery?
 
 ### ✅ Publication Gate (must pass all)
 
@@ -311,6 +336,8 @@ Before finalizing any content, ask:
 - [ ] Related Topics wired and links valid
 - [ ] Numbering and casing consistent
 - [ ] Character encoding integrity verified (no � symbols)
+- [ ] **Response length within limits (150-200 lines maximum)**
+- [ ] **Multi-part structure MANDATORY for all topics**
 - [ ] Markdownlint passes without errors
 - [ ] Lychee link checker shows no broken links
 
@@ -515,8 +542,10 @@ The repository has undergone **major simplification** - most legacy folders have
 
 - **Issue 1: Following Author's Structure** - Never replicate source material organization (e.g., SML, LLM, RLM, MLLM sequence). Always create logical educational groupings and progression.
 - **Issue 2: Content Misplacement** - Ensure content is placed in the correct domain folder (AI Agents content belongs in `07_AI-Agents/`, not LLM track).
-- **Day 10 Success**: Multi-track expansion with AI Fundamentals (3,000+ lines) demonstrating architectural mastery applied to AI systems.
-- **Solution**: Consolidate related concepts into unified guides and place content based on educational logic, not source material structure.
+- **Issue 3: Response Length Overruns** - Recurring "response hit length limit" errors despite 30-minute module framework. Must enforce 500-800 line limits per module.
+- **Day 10-11 Success**: Multi-track expansion with AI + ML Fundamentals (6,000+ lines) demonstrating architectural mastery.
+- **Solution 1**: Consolidate related concepts into unified guides and place content based on educational logic.
+- **Solution 2**: Implement mandatory length checks and multi-part strategy for complex topics.
 
 ### **Quality Assurance Protocol**
 
