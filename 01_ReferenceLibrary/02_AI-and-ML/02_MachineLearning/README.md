@@ -80,11 +80,20 @@ Machine Learning focuses on algorithms that enable systems to learn patterns fro
    - Dimensionality reduction with explained variance analysis
    - **Time**: 30 minutes | **Level**: Beginner to Intermediate
 
-3. **ML Fundamentals Part 3** 🔄 COMING NEXT
-   - Model evaluation, cross-validation, and hyperparameter optimization
-   - Ensemble methods and model selection strategies
-   - Production ML pipeline design and deployment patterns
-   - **Time**: 30 minutes | **Level**: Intermediate
+3. **[ML Fundamentals Part 3A](./03_ML-Fundamentals-Part3A.md)** ✅ COMPLETE
+   - Model evaluation frameworks and cross-validation techniques
+   - Classification and regression metrics with production implementations
+   - **Time**: 10 minutes | **Level**: Intermediate
+
+4. **[ML Fundamentals Part 3B](./03_ML-Fundamentals-Part3B.md)** ✅ COMPLETE
+   - Hyperparameter optimization (Grid Search, Random Search, Bayesian)
+   - Automated tuning pipelines with cross-validation integration
+   - **Time**: 10 minutes | **Level**: Intermediate
+
+5. **[ML Fundamentals Part 3C](./03_ML-Fundamentals-Part3C.md)** ✅ COMPLETE
+   - Production deployment, model serving, and MLOps frameworks
+   - Drift detection, monitoring, and automated retraining systems
+   - **Time**: 10 minutes | **Level**: Intermediate to Advanced
 
 ---
 
