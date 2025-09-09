@@ -66,28 +66,42 @@ Natural Language Processing combines computational linguistics with machine lear
 
 ---
 
+## 📚 Learning Modules
+
+### Core NLP Fundamentals
+
+1. **[01_NLP-Text-Processing-Part1](./01_NLP-Text-Processing-Part1.md)** - Text preprocessing, tokenization, normalization ✅
+2. **[01_NLP-Language-Models-Part2](./01_NLP-Language-Models-Part2.md)** - N-gram models and statistical language modeling ✅
+3. **[01_NLP-Word-Embeddings-Part3](./01_NLP-Word-Embeddings-Part3.md)** - Word2Vec, GloVe, and distributed representations ✅
+4. **[01_NLP-Sequence-Models-Part4](./01_NLP-Sequence-Models-Part4.md)** - LSTM, seq2seq, and attention mechanisms ✅
+5. **[01_NLP-Transformers-Part5](./01_NLP-Transformers-Part5.md)** - Transformer architecture, BERT, GPT, modern NLP ✅
+
+**🎉 NLP Track Status: 100% Complete** _(5/5 modules)_
+
+---
+
 ## 🎓 Learning Path
 
 ### **Beginner Track**
 
-1. Text processing and regular expressions
-2. Basic NLP tasks (tokenization, POS tagging)
-3. Word embeddings and similarity
-4. Simple classification tasks
+1. Text processing and regular expressions → **Part 1 ✅**
+2. Basic NLP tasks (tokenization, POS tagging) → **Part 1 ✅**
+3. Word embeddings and similarity → **Part 3 ✅**
+4. Simple classification tasks → **Part 4 ✅**
 
 ### **Intermediate Track**
 
-1. Advanced preprocessing techniques
-2. Named entity recognition and parsing
-3. Sentiment analysis and text classification
-4. Introduction to language models
+1. Advanced preprocessing techniques → **Part 1 ✅**
+2. Named entity recognition and parsing → **Part 1 ✅**
+3. Statistical language models → **Part 2 ✅**
+4. Sequence modeling with LSTM → **Part 4 ✅**
 
 ### **Advanced Track**
 
-1. Transformer models and fine-tuning
-2. Advanced language understanding tasks
-3. Multilingual and cross-lingual NLP
-4. Research frontiers and custom models
+1. Transformer models and architectures → **Part 5 ✅**
+2. BERT and GPT implementations → **Part 5 ✅**
+3. Modern NLP applications → **Part 5 ✅**
+4. Production deployment pipelines → **All Parts ✅**
 
 ---
 

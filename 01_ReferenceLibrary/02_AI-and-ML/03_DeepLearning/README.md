@@ -12,19 +12,19 @@ Deep Learning focuses on neural networks with multiple layers that can learn com
 
 ## 📚 Core Topics
 
-### **🔧 Foundational Architectures**
+### **✅ Completed Modules**
+
+- **[01_Deep-Learning-Fundamentals-Part1.md](01_Deep-Learning-Fundamentals-Part1.md)** - ✅ Neural Network Architecture & Forward Propagation
+- **[01_Deep-Learning-Fundamentals-Part2.md](01_Deep-Learning-Fundamentals-Part2.md)** - ✅ Backpropagation & Advanced Optimization
+- **[01_Deep-Learning-Fundamentals-Part3.md](01_Deep-Learning-Fundamentals-Part3.md)** - ✅ Advanced Architectures & Regularization
+- **[01_Deep-Learning-Fundamentals-Part4.md](01_Deep-Learning-Fundamentals-Part4.md)** - ✅ Production Deployment & Monitoring
+
+### **🔧 Advanced Architectures**
 
 - **[01_Transformer-Architecture.md](01_Transformer-Architecture.md)** - The revolutionary architecture behind modern AI
 - Convolutional Neural Networks (CNNs) for image processing
 - Recurrent Neural Networks (RNNs, LSTMs, GRUs) for sequences
 - Generative models (GANs, VAEs, Diffusion Models)
-
-### **Neural Network Fundamentals**
-
-- Perceptrons and multilayer networks
-- Backpropagation and gradient descent
-- Activation functions and optimization
-- Loss functions and regularization techniques
 
 ### **Advanced Architectures**
 
