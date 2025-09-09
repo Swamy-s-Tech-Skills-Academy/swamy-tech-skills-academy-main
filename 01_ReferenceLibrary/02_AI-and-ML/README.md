@@ -26,7 +26,8 @@ For a sequence map and cross-links across AI subdomains, see the AI & ML Pathway
 - **Purpose**: AI fundamentals, ethics, and cross-domain strategy
 - **Content**: Domain relationships, strategic overview, learning paths
 - **Start Here**: For conceptual understanding and navigation
-- **Key Files**: `01_AI/02_AI-Domain-Relationships.md`, `01_AI/04_Generative-AI-Overview.md`
+- **Day 10 ✅**: AI Fundamentals - Complete system architecture foundations
+- **Key Files**: `01_AI/01_AI-Fundamentals.md` (NEW), `01_AI/02_AI-Domain-Relationships.md`
 
 ### **🧠 [02_MachineLearning/](02_MachineLearning/)** - Classical ML Algorithms
 
