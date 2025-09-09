@@ -63,6 +63,9 @@ When provided with reference materials from books, websites, articles, video cou
 
 - Clear objectives and outcomes
 - Progressive scaffolding (Foundations → Practice → Pitfalls → Next Steps)
+- **30-Minute Learning Segments**: Modular content designed for focused 30-minute sessions
+- **Multi-Part Structure**: Complex topics split into Part 1, Part 2, ... Part N for digestible learning
+- **One-Shot Learning**: Each segment should be complete and actionable within the time limit
 - Original examples, datasets, and exercises
 - ASCII‑first visuals; also include Mermaid where feasible with an ASCII fallback
 - Cross‑references (Prereqs / Builds Upon / Enables)
@@ -193,9 +196,11 @@ When provided with reference materials from books, websites, articles, video cou
 
 1. **Analyze Source Intent**: Understand what the original author is trying to teach
 2. **Extract Core Concepts**: Identify the fundamental principles and ideas
-3. **Redesign Presentation**: Create new explanations using different examples and analogies
-4. **Add Educational Value**: Include exercises, questions, or practical applications
-5. **Fit Repository Context**: Ensure content aligns with existing learning progression
+3. **Design 30-Minute Segments**: Break complex topics into digestible 30-minute learning modules
+4. **Create Multi-Part Structure**: Use Part 1, Part 2, ... Part N format for comprehensive topics
+5. **Redesign Presentation**: Create new explanations using different examples and analogies
+6. **Add Educational Value**: Include exercises, questions, or practical applications
+7. **Fit Repository Context**: Ensure content aligns with existing learning progression
 
 ### **Quality Assurance Checklist**
 
@@ -232,21 +237,21 @@ Each significant content piece should include:
 
 **Learning Level**: [Beginner/Intermediate/Advanced]  
 **Prerequisites**: [List required knowledge]  
-**Estimated Time**: [X minutes/hours]
+**Estimated Time**: 30 minutes (or "Part 1 of N - 30 minutes")
 
 ## 🎯 Learning Objectives
 
-By the end of this content, you will:
+By the end of this 30-minute session, you will:
 
-## 📋 Content Sections
+## 📋 Content Sections (30-Minute Structure)
 
-### Conceptual Foundation
+### Quick Overview (5 minutes)
 
-### Practical Examples
+### Core Concepts (15 minutes)
 
-### Implementation Guide
+### Practical Implementation (8 minutes)
 
-### Common Pitfalls
+### Key Takeaways & Next Steps (2 minutes)
 
 ### Next Steps
 
