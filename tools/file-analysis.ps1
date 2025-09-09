@@ -13,7 +13,7 @@ param(
     [switch]$IncludeContent = $false,
     
     [Parameter(Mandatory = $false)]
-    [int]$LineLimit = 200
+    [int]$LineLimit = 175
 )
 
 # Get the repository root (assumes script is in tools folder)
@@ -89,7 +89,7 @@ Write-Host "Good Files: $goodFiles" -ForegroundColor Green
 Write-Host "Files with Issues: $issueFiles" -ForegroundColor $(if ($issueFiles -gt 0) { 'Red' }else { 'Green' })
 Write-Host "Total Lines: $totalLines" -ForegroundColor White
 Write-Host "Average Lines/File: $avgLines" -ForegroundColor White
-Write-Host "Line Limit Guideline: $LineLimit lines (30-minute segments)" -ForegroundColor Gray
+Write-Host "Line Limit Guideline: $LineLimit lines (27-minute focused sessions)" -ForegroundColor Gray
 
 # Show content preview if requested
 if ($IncludeContent) {

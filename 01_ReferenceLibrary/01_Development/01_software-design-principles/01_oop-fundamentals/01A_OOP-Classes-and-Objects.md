@@ -2,12 +2,12 @@
 
 **Learning Level**: Beginner  
 **Prerequisites**: Basic programming knowledge  
-**Estimated Time**: 30 minutes  
+**Estimated Time**: 27 minutes  
 **Next**: Part 1B - Encapsulation & Data Hiding
 
 ---
 
-## 🎯 Learning Objectives (30-Minute Session)
+## 🎯 Learning Objectives (27-Minute Session)
 
 By the end of this session, you will:
 

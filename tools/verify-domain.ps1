@@ -71,7 +71,7 @@ foreach ($file in $files) {
     $lineCount = ($content -split "`n").Count
     
     # Line count check
-    if ($lineCount -gt 200) {
+    if ($lineCount -gt 175) {
         $results.OversizedFiles += "$($file.Name) ($lineCount lines)"
     }
     
@@ -100,7 +100,7 @@ $hasIssues = $false
 if ($results.OversizedFiles.Count -gt 0) {
     $hasIssues = $true
     Write-Host ""
-    Write-Host "⚠️ OVERSIZED FILES (>200 lines):" -ForegroundColor Yellow
+    Write-Host "⚠️ OVERSIZED FILES (>175 lines):" -ForegroundColor Yellow
     $results.OversizedFiles | ForEach-Object { Write-Host "  • $_" -ForegroundColor Yellow }
 }
 
@@ -145,7 +145,7 @@ if ($results.PartFiles -eq 0 -and $results.OriginalFiles -gt 0) {
 }
 
 if ($results.OversizedFiles.Count -gt 0) {
-    Write-Host "• Split large files into smaller 150-200 line segments" -ForegroundColor Gray
+    Write-Host "• Split large files into smaller 150-175 line segments" -ForegroundColor Gray
 }
 
 if ($results.EncodingIssues.Count -gt 0) {

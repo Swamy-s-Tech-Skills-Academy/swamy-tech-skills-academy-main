@@ -111,7 +111,7 @@ if ($Domain -ne "" -and -not $AllDomains) {
         elseif ($file.Name -match '^\d+_.*\.md$') { "📚 Original" }
         else { "❓ Other" }
         
-        $compliance = if ($lineCount -le 200) { "✅" } elseif ($lineCount -le 300) { "⚠️" } else { "❌" }
+        $compliance = if ($lineCount -le 175) { "✅" } elseif ($lineCount -le 250) { "⚠️" } else { "❌" }
         
         $fileAnalysis += [PSCustomObject]@{
             File              = $file.Name
@@ -160,7 +160,7 @@ if ($Domain -ne "" -and -not $AllDomains) {
     
     $partFiles = $fileAnalysis | Where-Object { $_.Type -eq "✅ Part (New)" }
     $originalFiles = $fileAnalysis | Where-Object { $_.Type -eq "📚 Original" }
-    $oversizedFiles = $fileAnalysis | Where-Object { $_.Lines -gt 200 }
+    $oversizedFiles = $fileAnalysis | Where-Object { $_.Lines -gt 175 }
     
     if ($partFiles.Count -eq 0 -and $originalFiles.Count -gt 0) {
         Write-Host "🔄 Domain ready for restructuring into 30-minute parts" -ForegroundColor Yellow
@@ -174,7 +174,7 @@ if ($Domain -ne "" -and -not $AllDomains) {
     }
     
     if ($oversizedFiles.Count -gt 0) {
-        Write-Host "⚠️ Files exceeding 300-line guideline:" -ForegroundColor Yellow
+        Write-Host "⚠️ Files exceeding 175-line guideline:" -ForegroundColor Yellow
         $oversizedFiles | ForEach-Object { Write-Host "  • $($_.File) ($($_.Lines) lines)" -ForegroundColor Yellow }
     }
 }

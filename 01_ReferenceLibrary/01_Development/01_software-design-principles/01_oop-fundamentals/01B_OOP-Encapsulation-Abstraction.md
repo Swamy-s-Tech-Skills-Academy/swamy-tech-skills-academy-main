@@ -2,11 +2,11 @@
 
 **Learning Level**: Beginner to Intermediate  
 **Prerequisites**: Part 1A (Classes and Objects), basic programming concepts  
-**Estimated Time**: 30 minutes  
+**Estimated Time**: 27 minutes  
 
 ## 🎯 Learning Objectives
 
-By the end of this 30-minute session, you will:
+By the end of this 27-minute session, you will:
 
 - Master encapsulation: data hiding and controlled access
 - Understand abstraction: simplifying complex systems
@@ -15,9 +15,9 @@ By the end of this 30-minute session, you will:
 
 ---
 
-## 📋 Content Sections (30-Minute Structure)
+## 📋 Content Sections (27-Minute Structure)
 
-### Quick Review (3 minutes)
+### Quick Review (2 minutes)
 
 **Previous Learning**: Classes as blueprints, objects as instances
 **Today's Focus**: Making our classes secure (encapsulation) and simple to use (abstraction)
@@ -45,23 +45,6 @@ graph LR
     class D,E,F publicMethod
 ```
 
-**ASCII Representation**:
-
-```text
-┌─────────────────────────────────────┐
-│              BankAccount            │
-├─────────────────────────────────────┤
-│ 🔒 PRIVATE (Hidden from outside)    │
-│   - balance: 50000                  │
-│   - accountNumber: "ACC123"         │
-├─────────────────────────────────────┤
-│ 🌍 PUBLIC (Available to everyone)   │
-│   + deposit(amount)                 │
-│   + withdraw(amount)                │
-│   + getBalance()                    │
-└─────────────────────────────────────┘
-```
-
 **Pseudocode Example**:
 
 ```text
@@ -80,47 +63,22 @@ CLASS BankAccount
         IF amount > 0 THEN
             balance = balance + amount
             RETURN "Deposit successful"
-        ELSE
-            RETURN "Invalid amount"
-        END IF
-    END
-    
-    PUBLIC METHOD withdraw(amount)
-        IF amount > 0 AND amount <= balance THEN
-            balance = balance - amount
-            RETURN "Withdrawal successful"
-        ELSE
-            RETURN "Insufficient funds or invalid amount"
         END IF
     END
     
     PUBLIC METHOD getBalance()
         RETURN balance
     END
-    
-    // 🚫 No direct access to private data allowed
 END CLASS
 ```
 
-#### **2. Access Modifiers in Action**
+#### **2. Access Modifiers**
 
 ```text
-ACCESS LEVEL HIERARCHY:
-┌─────────────────────────────────────────────────────┐
-│                    🌍 PUBLIC                        │
-│  ┌─────────────────────────────────────────────┐    │
-│  │               🏠 PROTECTED                  │    │
-│  │  ┌─────────────────────────────────────┐    │    │
-│  │  │            🔒 PRIVATE               │    │    │
-│  │  │                                     │    │    │
-│  │  │  Only accessible within same class  │    │    │
-│  │  └─────────────────────────────────────┘    │    │
-│  │                                             │    │
-│  │  Accessible by class + subclasses           │    │
-│  └─────────────────────────────────────────────┘    │
-│                                                     │
-│  Accessible everywhere                              │
-└─────────────────────────────────────────────────────┘
+ACCESS LEVELS:
+🌍 PUBLIC     - Accessible everywhere
+🏠 PROTECTED  - Class + subclasses only  
+🔒 PRIVATE    - Same class only
 ```
 
 #### **3. Abstraction: Hiding Complexity**
@@ -129,66 +87,27 @@ ACCESS LEVEL HIERARCHY:
 
 **Real-World Analogy**: Car steering wheel (simple interface) hides complex steering mechanism.
 
-```mermaid
-graph TD
-    A["🚗 Car Interface"] --> B["turn()"]
-    A --> C["accelerate()"]
-    A --> D["brake()"]
-    
-    B --> E["Complex Steering System"]
-    C --> F["Engine Management"]
-    D --> G["Brake System"]
-    
-    E --> H["Power Steering Pump"]
-    E --> I["Gear Ratios"]
-    F --> J["Fuel Injection"]
-    F --> K["Ignition Timing"]
-    
-    classDef simpleInterface fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#1565c0
-    classDef hiddenComplexity fill:#fff3e0,stroke:#f57c00,stroke-width:1px,color:#ef6c00
-    
-    class A,B,C,D simpleInterface
-    class E,F,G,H,I,J,K hiddenComplexity
-```
-
-**Abstraction Example**:
-
 ```text
 CLASS EmailService
     // 🎯 SIMPLE PUBLIC INTERFACE
     PUBLIC METHOD sendEmail(recipient, subject, message)
-        CALL validateEmailAddress(recipient)
+        CALL validateEmail(recipient)
         CALL formatMessage(subject, message)
-        CALL establishConnection()
-        CALL authenticateUser()
         CALL transmitEmail()
-        CALL closeConnection()
         RETURN "Email sent successfully"
     END
     
-    // 🔧 HIDDEN IMPLEMENTATION DETAILS
-    PRIVATE METHOD validateEmailAddress(email)
-        // Complex regex validation logic
+    // 🔧 HIDDEN IMPLEMENTATION
+    PRIVATE METHOD validateEmail(email)
+        // Complex validation logic
     END
     
     PRIVATE METHOD formatMessage(subject, message)
-        // HTML formatting, encoding logic
-    END
-    
-    PRIVATE METHOD establishConnection()
-        // SMTP server connection logic
-    END
-    
-    PRIVATE METHOD authenticateUser()
-        // OAuth/credential validation
+        // HTML formatting logic
     END
     
     PRIVATE METHOD transmitEmail()
         // Network protocol handling
-    END
-    
-    PRIVATE METHOD closeConnection()
-        // Cleanup and connection termination
     END
 END CLASS
 
@@ -197,7 +116,7 @@ emailService = NEW EmailService()
 emailService.sendEmail("user@example.com", "Hello", "Welcome!")
 ```
 
-### Practical Implementation (5 minutes)
+### Practical Implementation (3 minutes)
 
 #### Exercise: Secure Student Grade System
 
@@ -205,34 +124,20 @@ emailService.sendEmail("user@example.com", "Hello", "Welcome!")
 CLASS Student
     // 🔒 ENCAPSULATED DATA
     PRIVATE studentId = ""
-    PRIVATE name = ""
     PRIVATE grades = []
     PRIVATE gpa = 0.0
     
     // 🌍 PUBLIC INTERFACE
-    PUBLIC CONSTRUCTOR(id, studentName)
-        studentId = id
-        name = studentName
-        grades = []
-    END
-    
     PUBLIC METHOD addGrade(subject, grade)
         IF grade >= 0 AND grade <= 100 THEN
             grades.append({subject: subject, grade: grade})
-            CALL calculateGPA()  // Private method
+            CALL calculateGPA()
             RETURN "Grade added successfully"
-        ELSE
-            RETURN "Invalid grade range"
         END IF
     END
     
     PUBLIC METHOD getGPA()
-        RETURN gpa  // Controlled access to calculated value
-    END
-    
-    PUBLIC METHOD getTranscript()
-        // Return formatted grade summary (abstracted complexity)
-        RETURN formatTranscript(grades)
+        RETURN gpa
     END
     
     // 🔧 HIDDEN COMPLEXITY
@@ -242,10 +147,6 @@ CLASS Student
             totalPoints = totalPoints + grade.grade
         END FOR
         gpa = totalPoints / grades.length
-    END
-    
-    PRIVATE METHOD formatTranscript(gradeList)
-        // Complex formatting logic hidden from user
     END
 END CLASS
 ```
