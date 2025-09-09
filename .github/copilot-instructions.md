@@ -1,6 +1,6 @@
 # GitHub Copilot Instructions for STSA Knowledge Base
 
-**Version**: 1.3  
+**Version**: 1.4  
 **Last Updated**: September 9, 2025  
 **Scope**: Swamy's Tech Skills Academy Learning System  
 **Career Target**: Lead Architect / Director Technology
@@ -75,7 +75,7 @@ When provided with reference materials from books, websites, articles, video cou
 
 - Clear objectives and outcomes
 - Progressive scaffolding (Foundations → Practice → Pitfalls → Next Steps)
-- **30-Minute Learning Segments**: Modular content designed for focused 30-minute sessions
+- **27-Minute Learning Segments**: Modular content designed for focused 27-minute sessions
 - **Multi-Part Structure**: Complex topics split into Part 1, Part 2, ... Part N for digestible learning
 - **One-Shot Learning**: Each segment should be complete and actionable within the time limit
 - Original examples, datasets, and exercises
@@ -221,7 +221,7 @@ When provided with reference materials from books, websites, articles, video cou
 
 1. **Analyze Source Intent**: Understand what the original author is trying to teach
 2. **Extract Core Concepts**: Identify the fundamental principles and ideas
-3. **Design 30-Minute Segments**: Break complex topics into digestible 30-minute learning modules
+3. **Design 27-Minute Segments**: Break complex topics into digestible 27-minute learning modules
 4. **Create Multi-Part Structure**: Use Part 1, Part 2, ... Part N format for comprehensive topics
 5. **Redesign Presentation**: Create new explanations using different examples and analogies
 6. **Add Educational Value**: Include exercises, questions, or practical applications
@@ -272,19 +272,19 @@ Each significant content piece should include:
 
 **Learning Level**: [Beginner/Intermediate/Advanced]  
 **Prerequisites**: [List required knowledge]  
-**Estimated Time**: 30 minutes (or "Part 1 of N - 30 minutes")
+**Estimated Time**: 27 minutes (or "Part 1 of N - 27 minutes")
 
 ## 🎯 Learning Objectives
 
 By the end of this 30-minute session, you will:
 
-## 📋 Content Sections (30-Minute Structure)
+## 📋 Content Sections (27-Minute Structure)
 
 ### Quick Overview (5 minutes)
 
 ### Core Concepts (15 minutes)
 
-### Practical Implementation (8 minutes)
+### Practical Implementation (5 minutes)
 
 ### Key Takeaways & Next Steps (2 minutes)
 
@@ -332,23 +332,23 @@ Each domain folder must include a concise README with:
 
 **NEVER exceed token limits when creating content:**
 
-- **Target Length**: 150-200 lines of content maximum per response
+- **Target Length**: 150-175 lines of content maximum per response
 - **Multi-Part Strategy**: MANDATORY for all topics - use Part A, Part B, Part C structure
 - **Progressive delivery**: Create focused segments, then offer continuation
-- **Length Check**: Stop at 200 lines and offer next part
+- **Length Check**: Stop at 175 lines and offer next part
 - **Quality over Quantity**: Better to have complete, focused segments than truncated content
 
 **Optimized Response Pattern:**
 
-1. Create focused segment (150-200 lines)
+1. Create focused segment (150-175 lines)
 2. Update README with progress
 3. Offer specific next options
 4. Let user choose continuation path
 
-**Benefits of 200-line limit:**
+**Benefits of 175-line limit:**
 
 - ⚡ Faster generation and response times
-- 📖 More digestible learning chunks
+- 📖 More digestible learning chunks (27-minute sessions)
 - 🎯 Better focus on single concepts
 - 🔄 Easier iteration and refinement
 
@@ -371,7 +371,7 @@ Before finalizing any content, ask:
 - [ ] Related Topics wired and links valid
 - [ ] Numbering and casing consistent
 - [ ] Character encoding integrity verified (no � symbols)
-- [ ] **Response length within limits (150-200 lines maximum)**
+- [ ] **Response length within limits (150-175 lines maximum)**
 - [ ] **Multi-part structure MANDATORY for all topics**
 - [ ] Markdownlint passes without errors
 - [ ] Lychee link checker shows no broken links
@@ -427,12 +427,14 @@ docker run --rm -v "${PWD}:/workspace" -w /workspace lycheeverse/lychee --config
 
 - **Issue 1: Following Author's Structure** - Never replicate source material organization (e.g., SML, LLM, RLM, MLLM sequence). Always create logical educational groupings and progression.
 - **Issue 2: Content Misplacement** - Ensure content is placed in the correct domain folder (AI Agents content belongs in `07_AI-Agents/`, not LLM track).
-- **Issue 3: Response Length Overruns** - Recurring "response hit length limit" errors despite 30-minute module framework. Must enforce 500-800 line limits per module.
+- **Issue 3: Response Length Overruns** - Recurring "response hit length limit" errors despite 30-minute module framework. Must enforce 175-line limits per module.
 - **Issue 4: Character Encoding Corruption** - The � (replacement character) breaks markdown preview functionality. Always validate UTF-8 encoding integrity and check for corrupted Unicode sequences.
+- **Issue 5: Learning Time Precision** - Refined from 30-minute to 27-minute focused learning sessions with 175-line maximum for optimal concentration.
 - **Day 10-11 Success**: Multi-track expansion with AI + ML Fundamentals (6,000+ lines) demonstrating architectural mastery.
 - **Solution 1**: Consolidate related concepts into unified guides and place content based on educational logic.
-- **Solution 2**: Implement mandatory length checks and multi-part strategy for complex topics.
+- **Solution 2**: Implement mandatory 175-line checks and multi-part strategy for complex topics.
 - **Solution 3**: Prioritize character encoding validation as first troubleshooting step for preview issues.
+- **Solution 4**: Standardize all learning content to 175-line/27-minute format for maximum focus.
 
 ## 📊 Success Metrics
 
