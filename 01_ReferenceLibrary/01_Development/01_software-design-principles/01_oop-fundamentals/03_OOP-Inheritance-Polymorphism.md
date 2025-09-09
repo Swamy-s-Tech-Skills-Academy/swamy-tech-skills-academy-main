@@ -1,4 +1,4 @@
-# 03_OOP-Inheritance-Polymorphism
+# 01C_OOP-Inheritance-Polymorphism
 
 **Learning Level**: Beginner to Intermediate  
 **Prerequisites**: Parts 1A-1B (Classes, Objects, Encapsulation, Abstraction)  

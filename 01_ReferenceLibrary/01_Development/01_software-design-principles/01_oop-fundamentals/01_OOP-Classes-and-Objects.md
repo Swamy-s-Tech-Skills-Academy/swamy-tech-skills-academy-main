@@ -1,9 +1,9 @@
-# 01_OOP-Classes-and-Objects
+# OOP Fundamentals Part 1A: Classes & Objects
 
 **Learning Level**: Beginner  
 **Prerequisites**: Basic programming knowledge  
 **Estimated Time**: 27 minutes  
-**Next**: 02_OOP-Encapsulation-Abstraction
+**Next**: Part 1B - Encapsulation & Data Hiding
 
 ---
 
