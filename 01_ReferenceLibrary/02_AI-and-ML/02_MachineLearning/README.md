@@ -64,6 +64,30 @@ Machine Learning focuses on algorithms that enable systems to learn patterns fro
 
 ---
 
+## 📚 Available Modules
+
+### **Foundation Level**
+
+1. **[ML Fundamentals Part 1](./01_ML-Fundamentals-Part1.md)** ✅ COMPLETE
+   - Supervised learning algorithms (Classification & Regression)
+   - Decision Trees, Random Forest, Linear/Polynomial Regression
+   - Email spam classification system with production architecture
+   - **Time**: 30 minutes | **Level**: Beginner to Intermediate
+
+2. **[ML Fundamentals Part 2](./02_ML-Fundamentals-Part2.md)** ✅ COMPLETE
+   - Unsupervised learning (K-Means, Hierarchical Clustering, PCA)
+   - Customer segmentation and anomaly detection systems
+   - Dimensionality reduction with explained variance analysis
+   - **Time**: 30 minutes | **Level**: Beginner to Intermediate
+
+3. **ML Fundamentals Part 3** 🔄 COMING NEXT
+   - Model evaluation, cross-validation, and hyperparameter optimization
+   - Ensemble methods and model selection strategies
+   - Production ML pipeline design and deployment patterns
+   - **Time**: 30 minutes | **Level**: Intermediate
+
+---
+
 ## 🎓 Learning Path
 
 ### **Beginner Track**
