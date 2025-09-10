@@ -18,7 +18,7 @@ Welcome to the comprehensive Multi-Language Curriculum for Algorithms, Data Stru
 
 ---
 
-## � Shared Templates & Analysis
+## 📚 Shared Templates & Analysis
 
 ### **Shared Template System**
 
@@ -54,7 +54,7 @@ Welcome to the comprehensive Multi-Language Curriculum for Algorithms, Data Stru
 
 ---
 
-## �📋 Templates & Frameworks
+## 📚📋 Templates & Frameworks
 
 ### **Lesson Planning**
 
@@ -524,3 +524,4 @@ Welcome to the comprehensive Multi-Language Curriculum for Algorithms, Data Stru
 ---
 
 _This comprehensive curriculum provides a structured path from algorithmic foundations to AI integration, preparing learners for modern software development challenges across multiple languages and domains._
+

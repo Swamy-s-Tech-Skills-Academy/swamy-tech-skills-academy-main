@@ -44,7 +44,7 @@ If you need the old plan for reference, use git history.
 **Session (1 hour):**
 
 - 📺 **[OOP vs Procedural Programming](https://www.youtube.com/watch?v=xR1qU-3h_ns)** (30 min)
-- � **Research**: Read about OOP principles and benefits (30 min)
+- 🎯 **Research**: Read about OOP principles and benefits (30 min)
 
 **Deliverable**:
 
@@ -56,7 +56,7 @@ If you need the old plan for reference, use git history.
 
 **Session (1 hour):**
 
-- �📺 **[Abstract Classes vs Interfaces](https://www.youtube.com/watch?v=HvPlEJ3LHgE)** (45 min)
+- 🎯📺 **[Abstract Classes vs Interfaces](https://www.youtube.com/watch?v=HvPlEJ3LHgE)** (45 min)
 - 📝 **Notes**: When to use each approach (15 min)
 
 **Deliverable**:
@@ -70,7 +70,7 @@ If you need the old plan for reference, use git history.
 **Session (1 hour):**
 
 - 📋 **Setup**: Install Java JDK, IDE (IntelliJ/Eclipse) (45 min)
-- � **Test**: Create "Hello World" program (15 min)
+- 🎯 **Test**: Create "Hello World" program (15 min)
 
 **Deliverable**:
 
@@ -164,8 +164,8 @@ If you need the old plan for reference, use git history.
 
 **Session (1 hour):**
 
-- � **Setup**: Install .NET SDK, Visual Studio/VS Code (30 min)
-- �📘 **[Object-Oriented Programming in C#](https://app.pluralsight.com/library/courses/c-sharp-10-object-oriented-programming/table-of-contents)** (30 min)
+- 🎯 **Setup**: Install .NET SDK, Visual Studio/VS Code (30 min)
+- 🎯📘 **[Object-Oriented Programming in C#](https://app.pluralsight.com/library/courses/c-sharp-10-object-oriented-programming/table-of-contents)** (30 min)
   - Focus on: C# OOP overview
 
 **Deliverable**:
@@ -280,7 +280,7 @@ If you need the old plan for reference, use git history.
 
 **Session (1 hour):**
 
-- � **Cross-Language Practice**:
+- 🎯 **Cross-Language Practice**:
   - Implement Vehicle Management System in Python (60 min)
 
 **Deliverable**:
@@ -429,3 +429,4 @@ Features to implement:
 **Purpose**: 21-day OOP foundation learning plan for mastery across C#, Java, Python  
 **Next**: Week 2 Design Patterns → Week 3 SOLID Principles → Week 4 Refactoring  
 **Status**: Ready to execute - 1 hour daily for 21 days! 🚀
+

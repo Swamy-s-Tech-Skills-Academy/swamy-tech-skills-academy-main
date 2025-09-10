@@ -1,4 +1,4 @@
-# � Week 1 Learning Journey (July 14-18, 2025)
+# 🎯 Week 1 Learning Journey (July 14-18, 2025)
 
 > **One File - Complete Journey**: Planning → Tracking → Retrospective
 
@@ -381,7 +381,7 @@
 
 ---
 
-## � WEEK 2 PLANNING
+## 🎯 WEEK 2 PLANNING
 
 ### **Next Week's Primary Focus**
 
@@ -422,3 +422,4 @@
 **Date**: _**  
 **Overall Satisfaction**: **_ / 10  
 **Readiness for Week 2**: _** / 10
+

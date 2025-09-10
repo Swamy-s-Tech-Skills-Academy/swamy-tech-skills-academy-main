@@ -172,7 +172,7 @@ Complete validation suite for pre-commit checks.
 The tools help ensure all content meets STSA quality standards:
 
 - ✅ **Files under 300 lines** - Optimal 30-minute learning segments
-- ✅ **No encoding issues** - Clean UTF-8, no � characters
+- ✅ **No encoding issues** - Clean UTF-8, no 🔧 characters
 - ✅ **Proper markdown formatting** - Professional documentation
 - ✅ **README.md in each domain** - Clear navigation and context
 - ✅ **Part file structure** - Structured learning progression (01A_, 01B_, etc.)
@@ -205,3 +205,4 @@ All tools follow STSA development principles:
 ---
 
 *Tools collection supporting the Lead Architect learning journey through systematic, quality-assured content mastery.*
+

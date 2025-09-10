@@ -10,7 +10,7 @@ This `LearningJourney` folder is your **action command center** where you:
 
 - 📅 Execute your current week's learning plan
 - 🎯 Track daily progress and retrospectives
-- � Maintain focus on immediate action items
+- 📋 Maintain focus on immediate action items
 - 🔄 Plan and reflect on weekly cycles
 
 **Note**: All historical data, projects, and reference materials have been moved to `_Archive/` to maintain laser focus on current actions.
@@ -227,3 +227,4 @@ This is your space to grow, experiment, and become the Lead Architect you're mea
 ---
 
 _Remember: Every expert was once a beginner. Every pro was once an amateur. Every icon was once an unknown. Focus on progress, not perfection._
+
