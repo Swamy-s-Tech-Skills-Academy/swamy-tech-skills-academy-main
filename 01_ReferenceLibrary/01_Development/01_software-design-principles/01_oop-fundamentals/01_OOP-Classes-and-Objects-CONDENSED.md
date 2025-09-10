@@ -57,15 +57,9 @@ graph TD
 
 ### **1. Classes: The Blueprint**
 
-**Definition**: A class is a blueprint or template that defines the structure and behavior of objects.
+**Definition**: A class is a blueprint that defines structure (data) and behavior (methods) for objects.
 
-**Real-World Analogy**: A house blueprint defines:
-
-- Structure (rooms, layout)
-- Features (windows, doors)
-- Capabilities (electrical, plumbing)
-
-**Pseudocode Template**:
+**Class Template**:
 
 ```pseudocode
 CLASS ClassName:
@@ -86,19 +80,7 @@ CLASS ClassName:
 
 **Definition**: An object is an instance of a class - the actual "thing" created from the blueprint.
 
-**Example Mapping**:
-
-```text
-CLASS: Vehicle Blueprint
-├── Attributes: color, engine, wheels
-├── Methods: start(), stop(), accelerate()
-└── Constructor: Vehicle(color, engine)
-
-OBJECTS: Actual Vehicles
-├── car1 = Vehicle("red", "V6")
-├── car2 = Vehicle("blue", "V8")
-└── truck1 = Vehicle("white", "diesel")
-```
+**Key Relationship**: One class → Multiple unique objects with individual data.
 
 ### **3. Class vs Object Relationship**
 
@@ -127,69 +109,31 @@ classDiagram
 
 ### **Real-World Example: Employee Management**
 
-#### Step 1: Identify the Class
+#### Step 1: Define the Class
 
 ```pseudocode
-// What do all employees have in common?
 CLASS Employee:
-    // Data that every employee has
-    PRIVATE employeeId: string
-    PRIVATE name: string
-    PRIVATE department: string
+    PRIVATE employeeId, name, department: string
     PRIVATE salary: decimal
     
-    // What can every employee do?
-    PUBLIC displayInfo(): void
-    PUBLIC calculateAnnualSalary(): decimal
-    PUBLIC updateDepartment(newDept: string): void
+    CONSTRUCTOR Employee(id, name, dept, sal)
+    PUBLIC displayInfo(), calculateAnnualSalary(), updateDepartment()
 ```
 
-#### Step 2: Create Objects
+#### Step 2: Create & Use Objects
 
 ```pseudocode
-// Constructor to create new employees
-CONSTRUCTOR Employee(id: string, name: string, dept: string, sal: decimal):
-    this.employeeId = id
-    this.name = name
-    this.department = dept
-    this.salary = sal
-
-// Creating specific employee objects
+// Create objects from class
 employee1 = NEW Employee("E001", "John Smith", "Engineering", 75000)
 employee2 = NEW Employee("E002", "Sarah Johnson", "Marketing", 65000)
-employee3 = NEW Employee("E003", "Mike Chen", "Sales", 70000)
-```
 
-#### Step 3: Using Objects
-
-```pseudocode
-// Each object has its own data
-PRINT employee1.displayInfo()  // Shows John's information
-PRINT employee2.displayInfo()  // Shows Sarah's information
-
-// Each object can perform actions
-john_annual = employee1.calculateAnnualSalary()  // 75000 * 12
-sarah_annual = employee2.calculateAnnualSalary() // 65000 * 12
-
-// Modify specific objects
+// Use objects independently  
+employee1.displayInfo()              // John's data
+employee2.calculateAnnualSalary()    // Sarah's calculation
 employee1.updateDepartment("Senior Engineering")
 ```
 
-### **Memory Visualization**
-
-```text
-MEMORY LAYOUT:
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   employee1     │    │   employee2     │    │   employee3     │
-├─────────────────┤    ├─────────────────┤    ├─────────────────┤
-│ id: "E001"      │    │ id: "E002"      │    │ id: "E003"      │
-│ name: "John"    │    │ name: "Sarah"   │    │ name: "Mike"    │
-│ dept: "Eng"     │    │ dept: "Mktg"    │    │ dept: "Sales"   │
-│ salary: 75000   │    │ salary: 65000   │    │ salary: 70000   │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-     ↓ methods           ↓ methods           ↓ methods
- [Same methods]      [Same methods]      [Same methods]
-```
+**Result**: Each object has **independent data** but **shared methods** from the class blueprint.
 
 ---
 
@@ -198,23 +142,21 @@ MEMORY LAYOUT:
 ### **Essential Understanding**
 
 1. **Class = Blueprint**: Defines structure and behavior template
-2. **Object = Instance**: Actual thing created from the class
+2. **Object = Instance**: Actual thing created from the class  
 3. **Multiple Objects**: One class can create many different objects
 4. **Independent Data**: Each object has its own copy of attributes
 5. **Shared Behavior**: All objects share the same methods
 
-### **Benefits Achieved**
+### **Key Benefits**
 
 - ✅ **Organization**: Related data and methods grouped together
-- ✅ **Reusability**: One class definition, multiple objects
+- ✅ **Reusability**: One class definition, multiple objects  
 - ✅ **Maintainability**: Changes in one place affect all objects
-- ✅ **Modeling**: Natural representation of real-world entities
 
 ### **Next Steps**
 
-- **Tomorrow**: Continue with [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
-- **Practice**: Think of 3 real-world entities as classes with attributes and methods
-- **Preparation**: Consider how to protect data within objects
+- **Continue**: [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
+- **Practice**: Design 3 real-world entities as classes
 
 ---
 
@@ -225,5 +167,5 @@ MEMORY LAYOUT:
 - **Then**: [03_OOP-Inheritance-Polymorphism.md](03_OOP-Inheritance-Polymorphism.md)
 - **Finally**: [04_OOP-Advanced-Patterns.md](04_OOP-Advanced-Patterns.md)
 
-**Last Updated**: September 9, 2025  
-**Format**: 30-minute focused learning segment
+**Last Updated**: September 10, 2025  
+**Format**: 27-minute focused learning segment
