@@ -44,7 +44,7 @@ When working with this repository, GitHub Copilot should function as an **educat
 - For code, write fresh, minimal originals. If an algorithm is standard, implement from first principles with our own naming, comments, and tests.
 - If quotation is unavoidable, keep it brief, use quotation marks, and cite the source link. Prefer synthesis over quotes.
 
-## � Content Creation Philosophy
+## 🎨 Content Creation Philosophy
 
 ### **Original Content Generation**
 
@@ -105,7 +105,7 @@ When provided with reference materials from books, websites, articles, video cou
     ├── 04_Release-Strategies/          ← Release Management
     └── 05_Scripting-and-Automation/    ← PowerShell, GitHub Actions
 
-02_LegacyContent/                       ← � CONTENT UNDERGOING MIGRATION
+02_LegacyContent/                       ← 📁 CONTENT UNDERGOING MIGRATION
 ├── COMPREHENSIVE_MIGRATION_PLAN.md     ← Master migration strategy
 ├── MIGRATION_AUDIT_2025-09-05.md      ← Day 2 audit results
 └── _Backup/                            ← Legacy educational content to be migrated

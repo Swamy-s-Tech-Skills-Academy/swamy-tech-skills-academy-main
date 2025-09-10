@@ -46,7 +46,7 @@ DDD Approach:
 
 ---
 
-## � Strategic DDD: Domain Architecture
+## 📋 Strategic DDD: Domain Architecture
 
 Strategic DDD focuses on high-level organizational decisions that align software architecture with business strategy. This involves understanding the business domain, identifying boundaries, and structuring the system for maximum business value.
 
@@ -310,7 +310,7 @@ namespace LearningPlatform.CourseDelivery.Handlers {
 
 ---
 
-## � Event Storming: Discovering Domain Knowledge
+## 📋 Event Storming: Discovering Domain Knowledge
 
 **Event Storming** is a workshop technique for rapidly exploring complex business domains and discovering the events, commands, and aggregates that form your domain model.
 
@@ -429,7 +429,7 @@ namespace ECommerce.Orders.Domain {
 
 ---
 
-## �🏗️ Tactical DDD: Implementation Patterns
+## 📋🏗️ Tactical DDD: Implementation Patterns
 
 ### Entities: Objects with Identity
 
@@ -1054,7 +1054,7 @@ public class Order
 
 ---
 
-## � Advanced DDD Patterns
+## 📋 Advanced DDD Patterns
 
 ### CQRS (Command Query Responsibility Segregation)
 
@@ -1209,7 +1209,7 @@ public class GoodOrder {
 
 ---
 
-## �🔗 Related Topics
+## 📋🔗 Related Topics
 
 ### Prerequisites
 
@@ -1249,3 +1249,4 @@ public class GoodOrder {
 **Last Updated**: September 7, 2025  
 **Next Review**: December 2025  
 **Learning Path**: Software Design Principles → Domain-Driven Design → Event-Driven Architecture
+
