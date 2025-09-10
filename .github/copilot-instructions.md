@@ -352,6 +352,8 @@ Each domain folder must include a concise README with:
 - 🎯 Better focus on single concepts
 - 🔄 Easier iteration and refinement
 
+**🎯 CRITICAL INSIGHT**: The multi-part approach is clearly superior - we get focused learning without content sacrifice! Multi-part structure (01A, 01B, etc.) preserves all educational value while maintaining perfect 27-minute timing and 175-line compliance. Always prefer splitting over condensing content.
+
 ### **Self-Assessment Questions**
 
 Before finalizing any content, ask:
