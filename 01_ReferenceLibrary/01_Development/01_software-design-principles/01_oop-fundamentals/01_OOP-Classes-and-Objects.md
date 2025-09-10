@@ -212,7 +212,7 @@ MEMORY LAYOUT:
 
 ### **Next Steps**
 
-- **Tomorrow**: Continue with Part 1B - Encapsulation & Data Hiding
+- **Tomorrow**: Continue with [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
 - **Practice**: Think of 3 real-world entities as classes with attributes and methods
 - **Preparation**: Consider how to protect data within objects
 
@@ -221,8 +221,8 @@ MEMORY LAYOUT:
 ## 🔗 Series Navigation
 
 - **Current**: 01 - Classes & Objects ✅
-- **Next**: [02_OOP-Encapsulation.md](02_OOP-Encapsulation.md)
-- **Then**: [03_OOP-Inheritance.md](03_OOP-Inheritance.md)
+- **Next**: [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
+- **Then**: [03_OOP-Inheritance-Polymorphism.md](03_OOP-Inheritance-Polymorphism.md)
 - **Finally**: [04_OOP-Advanced-Patterns.md](04_OOP-Advanced-Patterns.md)
 
 **Last Updated**: September 9, 2025  
