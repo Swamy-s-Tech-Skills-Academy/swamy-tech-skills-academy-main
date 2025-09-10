@@ -1,9 +1,9 @@
-# OOP Fundamentals Part 1A: Classes & Objects
+# 01_OOP-Classes-and-Objects
 
 **Learning Level**: Beginner  
 **Prerequisites**: Basic programming knowledge  
 **Estimated Time**: 27 minutes  
-**Next**: Part 1B - Encapsulation & Data Hiding
+**Next**: [02_OOP-Encapsulation.md](02_OOP-Encapsulation.md)
 
 ---
 
@@ -212,7 +212,7 @@ MEMORY LAYOUT:
 
 ### **Next Steps**
 
-- **Tomorrow**: Continue with Part 1B - Encapsulation & Data Hiding
+- **Tomorrow**: Continue with [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
 - **Practice**: Think of 3 real-world entities as classes with attributes and methods
 - **Preparation**: Consider how to protect data within objects
 
@@ -220,10 +220,10 @@ MEMORY LAYOUT:
 
 ## 🔗 Series Navigation
 
-- **Current**: Part 1A - Classes & Objects ✅
-- **Next**: [Part 1B - Encapsulation & Data Hiding](01_OOP-Fundamentals-Part1B-Encapsulation.md)
-- **Then**: [Part 1C - Inheritance & Polymorphism](01_OOP-Fundamentals-Part1C-Inheritance.md)
-- **Finally**: [Part 1D - Abstraction & Integration](01_OOP-Fundamentals-Part1D-Abstraction.md)
+- **Current**: 01 - Classes & Objects ✅
+- **Next**: [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
+- **Then**: [03_OOP-Inheritance-Polymorphism.md](03_OOP-Inheritance-Polymorphism.md)
+- **Finally**: [04_OOP-Advanced-Patterns.md](04_OOP-Advanced-Patterns.md)
 
 **Last Updated**: September 9, 2025  
 **Format**: 30-minute focused learning segment

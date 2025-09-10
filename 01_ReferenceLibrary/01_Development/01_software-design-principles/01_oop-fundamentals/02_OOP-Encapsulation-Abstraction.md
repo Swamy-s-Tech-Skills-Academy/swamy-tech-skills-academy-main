@@ -1,7 +1,7 @@
-# 01B_OOP-Encapsulation-Abstraction
+# 02_OOP-Encapsulation-Abstraction
 
 **Learning Level**: Beginner to Intermediate  
-**Prerequisites**: Part 1A (Classes and Objects), basic programming concepts  
+**Prerequisites**: [01_OOP-Classes-and-Objects.md](01_OOP-Classes-and-Objects.md), basic programming concepts  
 **Estimated Time**: 27 minutes  
 
 ## 🎯 Learning Objectives
