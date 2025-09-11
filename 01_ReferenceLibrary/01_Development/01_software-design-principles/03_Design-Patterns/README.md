@@ -12,7 +12,7 @@ This folder contains **design patterns** - time-tested solutions to recurring de
 
 ## 📚 **Pattern Categories**
 
-### **� [01_Design-Patterns-Track.md](01_Design-Patterns-Track.md)** ⭐ **LEARNING TRACK**
+### **📋 [01_Design-Patterns-Track.md](01_Design-Patterns-Track.md)** ⭐ **LEARNING TRACK**
 
 #### Design Patterns Learning Path (4-5 weeks)
 
@@ -25,7 +25,7 @@ This folder contains **design patterns** - time-tested solutions to recurring de
 
 ---
 
-### **�🏭 Creational Patterns**
+### **🏭🏭 Creational Patterns**
 
 **Purpose**: Control object creation mechanisms
 
@@ -250,3 +250,4 @@ _Design patterns are tools in your toolkit - powerful when used appropriately, b
 
 **Last Updated**: July 22, 2025  
 **Current Focus**: Practical pattern implementation and appropriate usage
+
