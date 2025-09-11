@@ -77,10 +77,46 @@ graph TD
 14. **[17_LLM-Explainability-Fundamentals.md](17_LLM-Explainability-Fundamentals.md)** - ✨ **NEW** Understanding AI Decision Transparency
 15. **[18_LLM-Explainability-Implementation.md](18_LLM-Explainability-Implementation.md)** - ✨ **NEW** Prompt Tracing & Attention Visualization  
 16. **[19_LLM-Explainability-Advanced-Patterns.md](19_LLM-Explainability-Advanced-Patterns.md)** - ✨ **NEW** Behavior Tracing & Production Monitoring
+17. **[20_Advanced-Prompt-Design-Patterns.md](20_Advanced-Prompt-Design-Patterns.md)** - ✨ **NEW** Part A: Structural Foundations & Role-Based Engineering
+18. **[21_Advanced-Prompt-Design-Patterns-Performance.md](21_Advanced-Prompt-Design-Patterns-Performance.md)** - ✨ **NEW** Part B: Performance Optimization & Token Efficiency
+19. **[22_Advanced-Prompt-Design-Patterns-Reasoning.md](22_Advanced-Prompt-Design-Patterns-Reasoning.md)** - ✨ **NEW** Part C: Few-Shot Learning & Complex Reasoning
 
 ---
 
-## 🔍 **NEW: LLM Explainability & Transparency**
+## 🎯 **NEW: Advanced Prompt Design Patterns**
+
+### **Enterprise-Grade Prompt Engineering**
+
+The newly added 3-part Advanced Prompt Design Patterns series provides production-ready techniques for sophisticated AI systems:
+
+- **🏗️ Structural Foundations**: Role-based prompting, S.M.A.R.T. framework, output format control
+- **⚡ Performance Optimization**: Token efficiency, intelligent caching, A/B testing for prompts  
+- **🧠 Complex Reasoning**: Few-shot learning mastery, chain-of-thought patterns, dynamic adaptation
+
+### **Production Impact**
+
+```text
+Basic Prompting:
+❌ Inconsistent outputs that vary unpredictably
+❌ High token costs with verbose, inefficient prompts
+❌ Limited reasoning capability for complex problems
+
+Advanced Patterns:
+✅ Structured, repeatable outputs with precision control
+✅ 74% token reduction while maintaining quality
+✅ Sophisticated reasoning chains for complex analysis
+✅ Dynamic adaptation based on context and performance
+```
+
+**New Series Structure**:
+
+- **Part A**: S.M.A.R.T. prompting framework, role specialization, architectural prompt design
+- **Part B**: Token optimization, semantic caching, performance monitoring and A/B testing
+- **Part C**: Few-shot learning patterns, chain-of-thought reasoning, enterprise prompt management
+
+---
+
+## 🔍 **LLM Explainability & Transparency**
 
 ### **Critical for Production AI Systems**
 
