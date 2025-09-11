@@ -74,6 +74,43 @@ graph TD
 11. **[11_Foundation-Models-and-LLM-Evolution.md](11_Foundation-Models-and-LLM-Evolution.md)** - From narrow AI to universal models
 12. **[12_Breakthrough-Innovations-in-GenAI.md](12_Breakthrough-Innovations-in-GenAI.md)** - Latest efficiency and reasoning advances
 13. **[14_Model-Variants-and-Specializations.md](14_Model-Variants-and-Specializations.md)** - SLMs, LLMs, RLMs, and MLLMs unified guide
+14. **[17_LLM-Explainability-Fundamentals.md](17_LLM-Explainability-Fundamentals.md)** - ✨ **NEW** Understanding AI Decision Transparency
+15. **[18_LLM-Explainability-Implementation.md](18_LLM-Explainability-Implementation.md)** - ✨ **NEW** Prompt Tracing & Attention Visualization  
+16. **[19_LLM-Explainability-Advanced-Patterns.md](19_LLM-Explainability-Advanced-Patterns.md)** - ✨ **NEW** Behavior Tracing & Production Monitoring
+
+---
+
+## 🔍 **NEW: LLM Explainability & Transparency**
+
+### **Critical for Production AI Systems**
+
+The newly added explainability modules address a crucial gap in production AI deployment:
+
+- **🔎 Decision Transparency**: Understand why AI systems make specific choices
+- **🛡️ Risk Management**: Detect and prevent costly AI failures before they happen
+- **📊 Audit Requirements**: Meet regulatory compliance for AI systems in enterprise
+- **🔧 Debug Complex Systems**: Systematic approaches to troubleshooting agentic AI
+
+### **Real-World Impact**
+
+```text
+Without Explainability:
+❌ "The AI ordered $4.2M excess inventory, but we don't know why"
+❌ "The investment bot is profitable, but we can't explain how"
+❌ "The system failed, but we can't reproduce the issue"
+
+With Explainability:
+✅ Complete audit trail of AI decision-making process
+✅ Early detection of problematic patterns before they cause issues  
+✅ Confidence in AI system behavior for stakeholders
+✅ Systematic debugging and continuous improvement
+```
+
+**New Modules Added**:
+
+- **Part A**: Explainability fundamentals and case studies  
+- **Part B**: Implementation techniques (prompt tracing, attention visualization)
+- **Part C**: Advanced behavior tracing and production monitoring systems
 
 ---
 
