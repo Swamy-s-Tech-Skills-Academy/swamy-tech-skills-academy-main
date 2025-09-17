@@ -1,3 +1,0 @@
-<!-- Archived: moved from 01_ReferenceLibrary root after consolidation -->
-
-...existing content preserved in the repository history...
