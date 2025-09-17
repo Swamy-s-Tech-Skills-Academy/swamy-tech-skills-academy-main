@@ -6,6 +6,8 @@
 
 ---
 
+> Consolidated: This migration plan and its current status are summarized in `01_Consolidated-ReferenceLibrary-Overview.md`.
+
 ## 🎯 **Migration Strategy**
 
 ### **Phase 1: Educational Content Migration (HIGH VALUE)**

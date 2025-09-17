@@ -6,6 +6,8 @@
 
 ---
 
+> Consolidated: This success summary is included in `01_Consolidated-ReferenceLibrary-Overview.md`.
+
 ## 🏆 **ELIMINATION SUCCESS SUMMARY**
 
 ### ✅ **Legacy Folder ELIMINATED**

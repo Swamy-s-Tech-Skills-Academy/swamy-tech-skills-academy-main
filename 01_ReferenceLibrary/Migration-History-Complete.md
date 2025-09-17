@@ -6,6 +6,7 @@
 **Migration Approach**: Systematic domain optimization with 175-line/27-minute standard
 
 ---
+> Consolidated: A current consolidated overview that summarizes migration status and next steps is available in `01_Consolidated-ReferenceLibrary-Overview.md`.
 
 ## 🎯 **Migration Overview**
 

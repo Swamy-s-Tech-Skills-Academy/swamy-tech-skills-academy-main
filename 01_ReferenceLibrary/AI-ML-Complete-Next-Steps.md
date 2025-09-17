@@ -2,6 +2,8 @@
 
 ## ✅ ACHIEVEMENT SUMMARY
 
+> Consolidated: A higher-level summary that includes these AI/ML next steps is located in `01_Consolidated-ReferenceLibrary-Overview.md`.
+
 **AI & ML Track**: **100% COMPLETE**
 
 - ✅ Machine Learning: 5 modules (evaluation, optimization, production)

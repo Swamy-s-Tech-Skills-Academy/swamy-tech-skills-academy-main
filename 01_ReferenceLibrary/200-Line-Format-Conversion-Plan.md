@@ -6,6 +6,8 @@
 
 ---
 
+> Consolidated: Summary and next steps for this plan are included in `01_Consolidated-ReferenceLibrary-Overview.md`.
+
 ## ✅ Proven Success Foundation
 
 ### **AI & ML Track Achievement**
