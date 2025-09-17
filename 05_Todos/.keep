@@ -1,1 +1,0 @@
-This file prevents empty-folder issues and keeps CI globs stable. Place actual planning files in this folder as needed.
