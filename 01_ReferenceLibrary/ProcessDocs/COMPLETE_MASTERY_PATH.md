@@ -1,6 +1,6 @@
 # 🎯 Complete Mastery Learning Path - All Knowledge Areas
 
-## 🌟 Your Goal: Master Everything!
+## 🌟 Your Goal: Master Everything
 
 Welcome to the comprehensive Lead Architect journey covering **ALL 8 knowledge areas**. This path is designed for ambitious learners who want to become well-rounded Lead Architects with expertise across all domains.
 
@@ -124,7 +124,7 @@ Welcome to the comprehensive Lead Architect journey covering **ALL 8 knowledge a
 - **Integrate knowledge** across areas
 - **Apply learning** through real-world projects
 
-## 🏁 Your Learning Journey Starts Now!
+## 🏁 Your Learning Journey Starts Now
 
 ### **This Week: Get Started**
 

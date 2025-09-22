@@ -5,6 +5,7 @@ This folder contains key takeaways from meetups, conferences, community events, 
 ## 📂 Organization
 
 Organize notes by date and topic:
+
 - `YYYY-MM-DD_EventName.md` (e.g., `2025-05-15_AzureCommunityDay.md`)
 - Folder structure by topic when appropriate (e.g., `Cloud/`, `AI/`)
 

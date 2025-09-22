@@ -22,6 +22,7 @@ This folder contains hands-on projects and Proof-of-Concept (PoC) implementation
 ## 📂 Structure
 
 Each project should have its own folder with:
+
 - `README.md` - Project overview, architecture, and setup instructions
 - `docs/` - Detailed documentation including ADRs
 - `src/` - Source code

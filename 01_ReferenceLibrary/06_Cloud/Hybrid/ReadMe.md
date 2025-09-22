@@ -14,11 +14,13 @@ This folder contains resources, patterns, and best practices for hybrid cloud an
 ## 🏢 Reference Architectures
 
 ### Hybrid Connectivity
+
 - On-premises to cloud connectivity options
 - Cross-cloud networking solutions
 - Service mesh across environments
 
 ### Multi-Cloud Deployments
+
 - Application architectures that span multiple clouds
 - Disaster recovery across cloud providers
 - Data synchronization between clouds
@@ -26,24 +28,28 @@ This folder contains resources, patterns, and best practices for hybrid cloud an
 ## 📝 Best Practices
 
 ### Strategy & Governance
+
 - Define clear multi-cloud strategy with specific use cases
 - Implement unified governance and policy management
 - Standardize tagging and resource organization
 - Create cloud-agnostic architecture where possible
 
 ### Identity & Security
+
 - Implement federated identity across clouds
 - Establish consistent security controls
 - Use cloud-agnostic secrets management
 - Create unified security monitoring
 
 ### DevOps & Deployment
+
 - Use infrastructure as code tools that support multiple clouds
 - Implement consistent CI/CD pipelines
 - Consider containerization for workload portability
 - Standardize monitoring and logging practices
 
 ### Cost Management
+
 - Implement unified cost management
 - Optimize reserved capacity across clouds
 - Use cost allocation tags consistently

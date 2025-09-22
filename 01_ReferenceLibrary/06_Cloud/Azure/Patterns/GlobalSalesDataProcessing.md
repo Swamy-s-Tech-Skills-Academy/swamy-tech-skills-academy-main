@@ -11,6 +11,7 @@ This reference architecture demonstrates how to design a scalable, high-throughp
 ## Azure Components
 
 ### Data Ingestion
+
 - **Azure Event Hubs**
   - Handles high-throughput real-time data ingestion from thousands of stores
   - Provides temporal retention of raw events
@@ -18,6 +19,7 @@ This reference architecture demonstrates how to design a scalable, high-throughp
   - Enables partition-based scaling for high volume data
 
 ### Stream Processing
+
 - **Azure Stream Analytics**
   - Processes real-time data streams from Event Hubs
   - Performs data validation, enrichment, and transformation
@@ -29,6 +31,7 @@ This reference architecture demonstrates how to design a scalable, high-throughp
   - Implements exactly-once processing semantics
 
 ### Data Storage
+
 - **Azure Blob Storage (Data Lake)**
   - Stores raw sales data in cost-effective storage
   - Organizes data using year/month/day/hour partitioning
@@ -41,6 +44,7 @@ This reference architecture demonstrates how to design a scalable, high-throughp
   - Uses column store indexes for analytical queries
 
 ### Data Processing Pipeline
+
 - **Azure Data Factory**
   - Orchestrates the entire data processing workflow
   - Manages incremental data loading
@@ -53,6 +57,7 @@ This reference architecture demonstrates how to design a scalable, high-throughp
   - Enables ad-hoc analysis for data scientists
 
 ### Analytics & Reporting
+
 - **Azure Synapse Analytics**
   - Provides SQL-based analytics on the processed data
   - Enables integrated querying of both relational and lake data
@@ -65,6 +70,7 @@ This reference architecture demonstrates how to design a scalable, high-throughp
   - Supports real-time data visualization
 
 ### Monitoring & Management
+
 - **Azure Monitor**
   - Provides comprehensive monitoring of all components
   - Tracks performance metrics and resource utilization

@@ -28,7 +28,7 @@ Imagine training a chef. Each parameter is like a tiny piece of cooking instinct
 
 Parameters are the **learnable weights and biases** in a neural network that get adjusted during training to minimize prediction errors. They represent the model's "knowledge" gained from training data.
 
-### Key Characteristics:
+### Key Characteristics
 
 - **Learned Values:** Automatically adjusted during training, not manually set
 - **Pattern Recognition:** Enable the model to identify relationships in data
@@ -39,7 +39,7 @@ Parameters are the **learnable weights and biases** in a neural network that get
 
 Imagine training an AI to differentiate between cats and dogs based on images. The AI is structured as a neural network with **layers of nodes (neurons)** connected by **weights** (parameters).
 
-### Training Process:
+### Training Process
 
 1. **Initialization:** Weights start as random values
 2. **Learning:** As the AI sees more images (training data), it **refines** these weights to recognize features like:
@@ -53,7 +53,7 @@ Imagine training an AI to differentiate between cats and dogs based on images. T
 
 When an LLM generates text, it uses billions (or trillions) of parameters to predict the next word in a sentence.
 
-### Prediction Process:
+### Prediction Process
 
 Given the phrase: _"The sky is \_\_\_"_
 
@@ -118,7 +118,7 @@ The LLM uses its parameters to:
 
 ## Parameter Training and Optimization
 
-### Training Process:
+### Training Process
 
 1. **Forward Pass:** Input data flows through the network using current parameters
 2. **Loss Calculation:** Compare predictions with actual targets
@@ -126,7 +126,7 @@ The LLM uses its parameters to:
 4. **Parameter Update:** Modify parameters to reduce prediction errors
 5. **Iteration:** Repeat process with new data until convergence
 
-### Optimization Techniques:
+### Optimization Techniques
 
 - **Gradient Descent:** Basic optimization algorithm
 - **Adam, AdamW:** Advanced optimizers with adaptive learning rates

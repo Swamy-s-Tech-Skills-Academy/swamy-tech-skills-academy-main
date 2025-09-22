@@ -15,6 +15,7 @@
 ## Application Structure
 
 ### App Host Project
+
 ```csharp
 var builder = DistributedApplication.CreateBuilder(args);
 
@@ -38,6 +39,7 @@ builder.Build().Run();
 One common requirement is customizing Azure resource names instead of using auto-generated ones.
 
 ### Per Resource Customization
+
 ```csharp
 var cosmos = builder.AddAzureCosmosDB("ecoDriverCosmosDb")
     .ConfigureInfrastructure(infrastructure =>
@@ -50,6 +52,7 @@ var cosmos = builder.AddAzureCosmosDB("ecoDriverCosmosDb")
 ```
 
 ### Global Naming Convention
+
 ```csharp
 builder.Services.Configure<AzureProvisioningOptions>(options =>
 {
@@ -73,6 +76,7 @@ internal sealed class CompanyNamingResolver : InfrastructureResolver
 ## Development Best Practices
 
 ### 1. **Service Configuration**
+
 ```csharp
 // Use structured configuration
 builder.AddProject<Projects.WebApi>("api")
@@ -81,6 +85,7 @@ builder.AddProject<Projects.WebApi>("api")
 ```
 
 ### 2. **Health Checks**
+
 ```csharp
 // In service projects
 builder.Services.AddHealthChecks()
@@ -89,6 +94,7 @@ builder.Services.AddHealthChecks()
 ```
 
 ### 3. **Observability**
+
 ```csharp
 // Built-in telemetry
 builder.Services.AddOpenTelemetry()
@@ -99,6 +105,7 @@ builder.Services.AddOpenTelemetry()
 ## Project Templates
 
 ### API Service Template
+
 ```csharp
 var builder = WebApplication.CreateBuilder(args);
 
@@ -116,6 +123,7 @@ app.Run();
 ```
 
 ### Worker Service Template
+
 ```csharp
 var builder = Host.CreateApplicationBuilder(args);
 
@@ -129,6 +137,7 @@ host.Run();
 ## Testing Strategies
 
 ### Integration Testing
+
 ```csharp
 public class AspireIntegrationTests : IClassFixture<DistributedApplicationTestingBuilder>
 {

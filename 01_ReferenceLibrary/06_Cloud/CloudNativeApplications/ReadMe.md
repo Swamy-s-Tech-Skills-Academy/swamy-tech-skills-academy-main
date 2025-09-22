@@ -280,10 +280,10 @@ For documenting both **12-Factor** and **Cloud Native** principles, the structur
 - Use a single `README.md` if you want a **concise overview** of both methodologies in one place, particularly if the two are closely integrated within the project.
 - This approach is beneficial when the 12-Factor methodology is a foundational subset of the Cloud Native principles, as it avoids duplication and emphasizes their relationship.
 - Suggested structure:
-  1.  **Introduction**
-  2.  **Overview of Cloud Native and 12-Factor Principles**
-  3.  **Detailed Sections** for each methodology (e.g., a “12-Factor Principles” section followed by a “Cloud Native Principles” section).
-  4.  **Implementation Notes**: Show how both apply to your project, such as how microservices or CI/CD workflows leverage these principles.
+  1. **Introduction**
+  2. **Overview of Cloud Native and 12-Factor Principles**
+  3. **Detailed Sections** for each methodology (e.g., a “12-Factor Principles” section followed by a “Cloud Native Principles” section).
+  4. **Implementation Notes**: Show how both apply to your project, such as how microservices or CI/CD workflows leverage these principles.
 
 ### Option 2: **Separate Files (`README.md` + Detailed Docs)**
 

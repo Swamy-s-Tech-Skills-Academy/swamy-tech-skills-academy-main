@@ -65,7 +65,9 @@ This roadmap provides a focused, step-by-step preparation plan to help aspiring 
 
 > 1. [System Design Primer on GitHub](https://github.com/donnemartin/system-design-primer) – Comprehensive guide for system design patterns and principles. Start with the basics of approaching system design questions in interviews.
 > 1. [Gaurav Sen’s YouTube channel](https://www.youtube.com/@gkcs/playlists) – Great examples of distributed systems design and microservices architectures.
+>
  1. Video Overview (legacy video removed – link deprecated)
+
 ---
 
 ### 2. Week 2: Mastering Architectural Patterns
@@ -118,7 +120,7 @@ This roadmap provides a focused, step-by-step preparation plan to help aspiring 
 
 ---
 
-This roadmap provides a focused progression that builds on foundational skills, deepens architectural knowledge, and culminates in advanced, strategic system design insights. Let me know if you'd like further tweaks or have specific goals for each topic!
+This roadmap provides a focused progression that builds on foundational skills, deepens architectural knowledge, and culminates in advanced, strategic system design insights. Let me know if you'd like further tweaks or have specific goals for each topic
 ---
 
 <!--
@@ -127,7 +129,6 @@ This roadmap provides a focused progression that builds on foundational skills, 
 
    - **Goals**: Master core architecture patterns, system design fundamentals, and scalability.
    - **Resources**: - **System Design**: - [System Design Primer on GitHub](https://github.com/donnemartin/system-design-primer) – Comprehensive guide for system design patterns and principles. - **YouTube**: Gaurav Sen’s channel covers great examples of distributed systems design and microservices architectures. - **Architecture Patterns**: - **Book**: _Designing Data-Intensive Applications_ by Martin Kleppmann – Highly recommended for understanding database design, consistency, and fault tolerance. - **Course**: [Microservices with Node JS and React on Udemy](https://www.udemy.com/course/microservices-with-node-js-and-react/) – Excellent course for microservices design principles. - **Scalability**: - **Article**: [Scalability best practices on Azure](https://learn.microsoft.com/en-us/azure/architecture/framework/scalability) – Essential for Azure-native scaling practices.
-
 
 2. **Week 2: Cloud Architecture, DevOps, and CI/CD**
 

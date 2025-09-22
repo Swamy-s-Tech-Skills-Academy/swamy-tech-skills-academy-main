@@ -1,6 +1,6 @@
 # 🎯 Your Personal Complete Mastery Action Plan
 
-## 🌟 Welcome to Your Complete Lead Architect Journey!
+## 🌟 Welcome to Your Complete Lead Architect Journey
 
 Since you want to learn **everything**, I've created a personalized roadmap that ensures you master all 8 knowledge areas systematically. This is your starting point for becoming a complete Lead Architect.
 
@@ -145,7 +145,7 @@ Complete this self-assessment:
 - **Innovation Capability**: Combine knowledge from multiple domains
 - **Future-Proofing**: Prepared for technology evolution
 
-## 🏁 Start Your Journey Right Now!
+## 🏁 Start Your Journey Right Now
 
 ### **Your First Task (Next 60 minutes):**
 

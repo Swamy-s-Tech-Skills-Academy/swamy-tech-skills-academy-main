@@ -4,13 +4,13 @@ Choosing the right database for your application depends on the specific use cas
 
 ## **1. SQL Databases**
 
-### Characteristics:
+### Characteristics
 
 - Relational model with structured data stored in tables.
 - Schema-based, with strong consistency and ACID properties.
 - Supports complex queries using SQL.
 
-### When to Use:
+### When to Use
 
 - **Transactional Applications**: Banking, e-commerce, and financial systems.
 - **Data Integrity**: When strong relationships and constraints (e.g., foreign keys) are required.
@@ -23,9 +23,9 @@ Choosing the right database for your application depends on the specific use cas
 
 NoSQL databases are schema-less and designed for horizontal scalability and distributed architecture.
 
-### Types of NoSQL Databases:
+### Types of NoSQL Databases
 
-#### **Key-Value Stores**:
+#### **Key-Value Stores**
 
 - **Characteristics**: Simple and efficient for storing and retrieving key-value pairs.
 - **Examples**: Redis, DynamoDB.
@@ -33,7 +33,7 @@ NoSQL databases are schema-less and designed for horizontal scalability and dist
   - Caching layers.
   - Session storage.
 
-#### **Document Databases**:
+#### **Document Databases**
 
 - **Characteristics**: Store semi-structured data (JSON-like documents).
 - **Examples**: MongoDB, Cosmos DB (Document API).
@@ -41,7 +41,7 @@ NoSQL databases are schema-less and designed for horizontal scalability and dist
   - Flexible schemas (e.g., content management systems).
   - Data with hierarchical structures (e.g., product catalogs).
 
-#### **Columnar Databases**:
+#### **Columnar Databases**
 
 - **Characteristics**: Data stored in columns instead of rows; optimized for write-heavy workloads.
 - **Examples**: Cassandra, HBase.
@@ -49,7 +49,7 @@ NoSQL databases are schema-less and designed for horizontal scalability and dist
   - Time-series data (e.g., logs, metrics).
   - IoT applications with high write throughput.
 
-#### **Graph Databases**:
+#### **Graph Databases**
 
 - **Characteristics**: Data modeled as nodes and edges, suitable for highly connected data.
 - **Examples**: Neo4j, Amazon Neptune.
@@ -63,13 +63,13 @@ NoSQL databases are schema-less and designed for horizontal scalability and dist
 
 ### **Cassandra**
 
-#### Characteristics:
+#### Characteristics
 
 - Distributed, highly scalable, column-family database.
 - Optimized for write-heavy applications.
 - Eventual consistency model.
 
-#### Use Cases:
+#### Use Cases
 
 - High write throughput (e.g., logs, telemetry, IoT).
 - Large-scale systems with ever-increasing data (e.g., time-series databases).
@@ -78,13 +78,13 @@ NoSQL databases are schema-less and designed for horizontal scalability and dist
 
 ### **MongoDB**
 
-#### Characteristics:
+#### Characteristics
 
 - Document-oriented NoSQL database with flexible schema.
 - Supports ACID transactions starting from v4.0.
 - JSON-like document storage.
 
-#### Use Cases:
+#### Use Cases
 
 - Semi-structured or hierarchical data (e.g., product catalogs, user profiles).
 - Quick prototyping and iterative development.
@@ -94,13 +94,13 @@ NoSQL databases are schema-less and designed for horizontal scalability and dist
 
 ### **Cosmos DB**
 
-#### Characteristics:
+#### Characteristics
 
 - Globally distributed, multi-model database by Microsoft.
 - Supports multiple APIs (Document, Graph, Table, MongoDB, Cassandra).
 - Five consistency levels (Strong, Bounded Staleness, Session, Consistent Prefix, Eventual).
 
-#### Use Cases:
+#### Use Cases
 
 - Multi-region distributed applications.
 - Applications requiring low-latency reads and writes.
@@ -112,7 +112,7 @@ NoSQL databases are schema-less and designed for horizontal scalability and dist
 
 #### Examples: MySQL, PostgreSQL, SQL Server
 
-#### Use Cases:
+#### Use Cases
 
 - Applications with structured, relational data.
 - Strong consistency and transaction requirements.
@@ -498,7 +498,7 @@ AL -> ES: Integration Event (e.g., CustomerCreated)
 @enduml
 ```
 
-### Notes:
+### Notes
 
 - **Bounded Contexts**: Integration events often cross bounded contexts, while domain events usually stay within their context.
 - **Event-Driven Architecture**: Events are a cornerstone of reactive systems in DDD and help achieve eventual consistency.

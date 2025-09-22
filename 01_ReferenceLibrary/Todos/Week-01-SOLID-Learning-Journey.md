@@ -422,4 +422,3 @@
 **Date**: _**  
 **Overall Satisfaction**: **_ / 10  
 **Readiness for Week 2**: _** / 10
-

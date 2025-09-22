@@ -3,6 +3,7 @@
 Planned worksheet for tracking daily / weekly progression through the Lead Architect pathway.
 
 Sections to include (future):
+
 - Weekly Objectives
 - Daily Actions & Outcomes
 - Blockers / Risks

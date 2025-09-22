@@ -136,6 +136,7 @@ A comprehensive 12-week curriculum for mastering Algorithms, Data Structures, an
    ```
 
 3. **Start with Week 1**
+
    ```bash
    cd weeks/week-01-big-o
    code .
@@ -237,6 +238,7 @@ Thank you for your interest in contributing! This guide will help you get starte
    ```
 
 3. **Create a branch for your changes**
+
    ```bash
    git checkout -b feature/your-feature-name
    ```

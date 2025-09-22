@@ -2,7 +2,7 @@
 
 ## **1. Phase 1: Core System Design and Architecture Patterns**
 
-### **Goal**: Establish a strong understanding of architecture patterns, system design, and scalability.
+### **Goal**: Establish a strong understanding of architecture patterns, system design, and scalability
 
 - **Core Topics**:
   - **System Design Basics**: Distributed systems, load balancing, caching, and redundancy.
@@ -19,7 +19,7 @@
 
 ### **2. Phase 2: Object-Oriented Design (OOD) and SOLID Principles**
 
-### **Goal**: Gain a solid foundation in OOD to design systems with flexibility, reusability, and maintainability.
+### **Goal**: Gain a solid foundation in OOD to design systems with flexibility, reusability, and maintainability
 
 - **Core Topics**:
   - **Object-Oriented Design Principles**: Encapsulation, abstraction, inheritance, and polymorphism.
@@ -37,7 +37,7 @@
 
 ### **3. Phase 3: Cloud and Distributed Systems**
 
-### **Goal**: Build knowledge of cloud platforms and distributed system principles for architecting large-scale solutions.
+### **Goal**: Build knowledge of cloud platforms and distributed system principles for architecting large-scale solutions
 
 - **Core Topics**:
   - **Cloud Computing Essentials**: Cloud services (IaaS, PaaS, SaaS), cloud providers, and cloud architecture patterns.
@@ -54,7 +54,7 @@
 
 ### **4. Phase 4: Enterprise-Level Architecture and Integration Patterns**
 
-### **Goal**: Understand complex architecture for enterprise-level systems and integration techniques.
+### **Goal**: Understand complex architecture for enterprise-level systems and integration techniques
 
 - **Core Topics**:
   - **Enterprise Integration Patterns**: Topics such as message queues, event streams, API gateways, and data synchronization.
@@ -71,7 +71,7 @@
 
 ### **5. Phase 5: Technical Leadership and Stakeholder Communication**
 
-### **Goal**: Develop leadership skills for working with cross-functional teams, communicating technical decisions, and aligning technical goals with business objectives.
+### **Goal**: Develop leadership skills for working with cross-functional teams, communicating technical decisions, and aligning technical goals with business objectives
 
 - **Core Topics**:
   - **Soft Skills for Architects**: Communication, negotiation, and managing cross-functional teams.
@@ -88,7 +88,7 @@
 
 ### **6. Phase 6: Real-World Case Studies and Capstone Project**
 
-### **Goal**: Apply all skills and knowledge in a real-world or simulated project, preparing for end-to-end architectural design.
+### **Goal**: Apply all skills and knowledge in a real-world or simulated project, preparing for end-to-end architectural design
 
 - **Core Topics**:
   - **Architectural Trade-Off Analysis**: Balancing scalability, security, cost, and development time.

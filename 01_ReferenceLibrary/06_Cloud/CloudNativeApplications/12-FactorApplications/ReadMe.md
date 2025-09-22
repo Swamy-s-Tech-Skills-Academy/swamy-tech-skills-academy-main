@@ -65,9 +65,9 @@ Here's a detailed explanation of each of the twelve factors:
   - Store releases in a versioned artifact repository (e.g., Docker Registry, Maven Central, npm registry).
   - Use a deployment tool to deploy releases to different environments (e.g., `docker run`, Kubernetes deployments, cloud platform deployment services).
 - **Example:** A CI/CD pipeline:
-  1.  **Build:** The pipeline checks out the code, runs `docker build -t my-app:1.0.0 .` to create a Docker image, and then runs `docker push my-registry/my-app:1.0.0` to push the image to a container registry.
-  2.  **Release:** The pipeline creates a Kubernetes deployment manifest that references the `my-registry/my-app:1.0.0` image and sets environment variables for the specific environment (e.g., `DATABASE_URL` for production).
-  3.  **Run:** The pipeline applies the Kubernetes deployment manifest to deploy the application to the Kubernetes cluster.
+  1. **Build:** The pipeline checks out the code, runs `docker build -t my-app:1.0.0 .` to create a Docker image, and then runs `docker push my-registry/my-app:1.0.0` to push the image to a container registry.
+  2. **Release:** The pipeline creates a Kubernetes deployment manifest that references the `my-registry/my-app:1.0.0` image and sets environment variables for the specific environment (e.g., `DATABASE_URL` for production).
+  3. **Run:** The pipeline applies the Kubernetes deployment manifest to deploy the application to the Kubernetes cluster.
 
 ## VI. Processes
 

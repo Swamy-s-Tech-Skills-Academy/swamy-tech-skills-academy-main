@@ -58,12 +58,15 @@ Container security involves safeguarding containers, their runtimes, and underly
 #### **Limit Container Privileges**
 
 - Avoid running containers as root:
+
   ```dockerfile
   FROM python:3.9-slim
   RUN useradd -ms /bin/bash appuser
   USER appuser
   ```
+
 - Enforce security options like `no-new-privileges`:
+
   ```bash
   docker run --security-opt no-new-privileges ...
   ```
@@ -82,6 +85,7 @@ Container security involves safeguarding containers, their runtimes, and underly
 
 - Isolate containers using network segmentation.
 - Use Kubernetes Network Policies:
+
   ```yaml
   apiVersion: networking.k8s.io/v1
   kind: NetworkPolicy
@@ -121,6 +125,7 @@ Container security involves safeguarding containers, their runtimes, and underly
 #### **Build Phase**
 
 - Automate security scans in pipelines:
+
   ```yaml
   name: Build and Scan
   on: [push]
@@ -135,12 +140,14 @@ Container security involves safeguarding containers, their runtimes, and underly
         - name: Scan Docker Image with Trivy
           run: trivy image my-app:latest
   ```
+
 - **Shift-Left Security:** Integrate security checks early (e.g., SAST, DAST).
 
 #### **Deploy Phase**
 
 - Use signed, verified images.
 - Apply Pod Security Admission or Policies:
+
   ```yaml
   apiVersion: pod-security.kubernetes.io/v1beta1
   kind: PodSecurityPolicy

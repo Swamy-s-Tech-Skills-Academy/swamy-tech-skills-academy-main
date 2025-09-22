@@ -7,6 +7,7 @@ When deploying .NET Aspire applications to Azure, you often need to customize th
 ## Default Behavior
 
 By default, .NET Aspire appends unique strings to resource names to avoid conflicts:
+
 - `myapp-cosmos-abc123` (auto-generated)
 - `myapp-redis-def456` (auto-generated)
 
@@ -28,6 +29,7 @@ var cosmos = builder.AddAzureCosmosDB("ecoDriverCosmosDb")
 ```
 
 **Use Cases:**
+
 - When you need specific names for compliance
 - Integration with existing Azure resources
 - Consistent naming across environments
@@ -133,16 +135,19 @@ internal sealed class CompanyNamingResolver : InfrastructureResolver
 ## Best Practices
 
 ### 1. **Consistent Naming Conventions**
+
 - Use organization-wide naming standards
 - Include environment indicators (dev, test, prod)
 - Add project/application identifiers
 
 ### 2. **Resource Name Limitations**
+
 - Azure resource names have specific character limits
 - Some resources require globally unique names
 - Consider DNS compatibility for public endpoints
 
 ### 3. **Configuration Management**
+
 ```csharp
 // Use configuration for dynamic naming
 builder.Services.Configure<AzureProvisioningOptions>(options =>
@@ -156,6 +161,7 @@ builder.Services.Configure<AzureProvisioningOptions>(options =>
 ```
 
 ### 4. **Multi-Environment Support**
+
 ```csharp
 internal sealed class MultiEnvironmentResolver : InfrastructureResolver
 {
@@ -183,12 +189,14 @@ variables:
 
 ## Troubleshooting
 
-### Common Issues:
+### Common Issues
+
 1. **Name conflicts** - Ensure uniqueness across subscriptions
 2. **Character limits** - Validate against Azure naming rules
 3. **Reserved names** - Avoid Azure reserved keywords
 
-### Validation:
+### Validation
+
 ```csharp
 private bool IsValidAzureName(string name, string resourceType)
 {

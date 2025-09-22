@@ -5,6 +5,7 @@ This folder contains resources on AI/ML architecture, implementation patterns, a
 ## 📂 Key Areas
 
 ### Foundation Models & LLMs
+
 - Azure OpenAI Service
 - Prompt Engineering
 - Fine-tuning Strategies
@@ -12,6 +13,7 @@ This folder contains resources on AI/ML architecture, implementation patterns, a
 - Vector Databases
 
 ### Machine Learning
+
 - Model Training Workflows
 - MLOps Practices
 - Model Deployment & Serving
@@ -19,12 +21,14 @@ This folder contains resources on AI/ML architecture, implementation patterns, a
 - Feature Engineering
 
 ### Responsible AI
+
 - Ethical Considerations
 - Bias Detection & Mitigation
 - Explainable AI
 - Governance & Compliance
 
 ### AI Integration Patterns
+
 - Embedding AI into Applications
 - Hybrid Intelligence Systems
 - AI-driven Microservices
@@ -41,6 +45,7 @@ This folder contains resources on AI/ML architecture, implementation patterns, a
 ## 🔗 Key Technologies
 
 ### Microsoft Azure
+
 - Azure OpenAI Service
 - Azure AI Studio
 - Azure ML
@@ -48,6 +53,7 @@ This folder contains resources on AI/ML architecture, implementation patterns, a
 - Vector Search in Azure Cognitive Search
 
 ### Open Source
+
 - Hugging Face Transformers
 - LangChain
 - ONNX

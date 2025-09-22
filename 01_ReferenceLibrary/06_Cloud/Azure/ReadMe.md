@@ -93,6 +93,7 @@ This Azure knowledge base is organized into the following key areas:
 ## Key Azure Resources
 
 ### Development & Deployment
+
 - **[.NET Aspire Resource Naming](./AspireResourceNaming.md)** - Customize Azure resource names in .NET Aspire applications
 - **Azure Resource Manager (ARM)** - Infrastructure as Code templates
 - **Azure DevOps** - CI/CD pipelines and project management

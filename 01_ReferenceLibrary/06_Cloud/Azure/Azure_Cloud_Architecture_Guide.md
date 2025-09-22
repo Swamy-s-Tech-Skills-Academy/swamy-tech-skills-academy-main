@@ -212,9 +212,9 @@ Common architectural patterns for Azure applications:
 ## Reference Architectures
 
  Azure offers several reference architectures for common scenarios:
- 
- - [Azure Architecture Center](https://learn.microsoft.com/azure/architecture/)
- - [Reference architectures overview](https://learn.microsoft.com/azure/architecture/browse/)
+
+- [Azure Architecture Center](https://learn.microsoft.com/azure/architecture/)
+- [Reference architectures overview](https://learn.microsoft.com/azure/architecture/browse/)
 
 ## Resources
 

@@ -5,24 +5,28 @@ This folder contains resources on data architecture, databases, and analytics so
 ## 📂 Core Topics
 
 ### Data Storage
+
 - Relational Databases (SQL Server, PostgreSQL, MySQL)
 - NoSQL Databases (Cosmos DB, MongoDB, DynamoDB)
 - Data Lakes and Data Warehouses
 - Caching Solutions (Redis, In-Memory)
 
 ### Data Processing
+
 - ETL/ELT Patterns
 - Stream Processing
 - Batch Processing
 - Data Integration
 
 ### Analytics
+
 - Business Intelligence
 - Data Visualization
 - Reporting Solutions
 - Dashboarding
 
 ### Data Governance
+
 - Data Modeling
 - Master Data Management
 - Data Quality
@@ -39,6 +43,7 @@ This folder contains resources on data architecture, databases, and analytics so
 ## 🔗 Technologies to Focus On
 
 ### Microsoft Azure
+
 - Azure SQL Database
 - Azure Cosmos DB
 - Azure Synapse Analytics
@@ -47,6 +52,7 @@ This folder contains resources on data architecture, databases, and analytics so
 - Power BI
 
 ### Open Source
+
 - Apache Spark
 - Apache Kafka
 - Elasticsearch

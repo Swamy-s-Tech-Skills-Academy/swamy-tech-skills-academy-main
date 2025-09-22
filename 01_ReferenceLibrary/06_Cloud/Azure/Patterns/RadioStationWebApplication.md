@@ -11,18 +11,21 @@ This reference architecture demonstrates how to design a scalable, fault-toleran
 ## Azure Components
 
 ### Identity & Authentication
+
 - **Microsoft Entra ID B2C (formerly Azure AD B2C)**
   - Handles user authentication and authorization
   - Supports OAuth 2.0 and OpenID Connect
   - Manages separation between admin and user roles
 
 ### Web Application Hosting
+
 - **Azure App Service**
   - Hosts the user-facing and admin web applications
   - Provides scale-out capabilities through App Service Plans
   - Supports CI/CD integration with Azure DevOps or GitHub Actions
 
 ### API Management & Networking
+
 - **Azure API Management**
   - Centralized gateway for all API traffic
   - Implements rate limiting, authentication, and routing
@@ -33,6 +36,7 @@ This reference architecture demonstrates how to design a scalable, fault-toleran
   - Provides WAF (Web Application Firewall) protection
 
 ### Data Storage
+
 - **Azure SQL Database**
   - Stores program schedules and transactional data
   - Configured with auto-failover groups for high availability
@@ -47,12 +51,14 @@ This reference architecture demonstrates how to design a scalable, fault-toleran
   - Configurable eviction policies for expired content
 
 ### Content Delivery
+
 - **Azure CDN**
   - Delivers static assets globally with low latency
   - Caches program images and web resources
   - Reduces load on origin servers
 
 ### Messaging & Integration
+
 - **Azure Event Hubs**
   - Processes streaming data from program status changes
   - Handles high-throughput event ingestion
@@ -63,6 +69,7 @@ This reference architecture demonstrates how to design a scalable, fault-toleran
   - Supports dead-letter queues for failed operations
 
 ### Analytics & Reporting
+
 - **Azure Synapse Analytics**
   - Processes large-scale analytics on historical program data
   - Generates insights on program popularity and user engagement
@@ -73,6 +80,7 @@ This reference architecture demonstrates how to design a scalable, fault-toleran
   - Enables self-service business intelligence for station managers
 
 ### Monitoring & Observability
+
 - **Azure Monitor**
   - Provides comprehensive monitoring of all components
   - Configures alerts for performance thresholds and errors

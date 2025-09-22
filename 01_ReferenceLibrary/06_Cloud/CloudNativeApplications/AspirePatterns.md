@@ -7,6 +7,7 @@
 ## Key Architectural Patterns
 
 ### 1. **Service Discovery Pattern**
+
 .NET Aspire implements automatic service discovery:
 
 ```csharp
@@ -17,6 +18,7 @@ var frontend = builder.AddProject<Projects.WebApp>("frontend")
 ```
 
 ### 2. **Configuration as Code Pattern**
+
 Centralized configuration management:
 
 ```csharp
@@ -32,6 +34,7 @@ var cosmos = builder.AddAzureCosmosDB("cosmos")
 ```
 
 ### 3. **Observable Services Pattern**
+
 Built-in observability across all services:
 
 ```csharp
@@ -44,6 +47,7 @@ builder.AddServiceDefaults(); // Includes logging, metrics, tracing
 A critical pattern for enterprise applications is consistent resource naming across environments.
 
 ### Strategy Pattern Implementation
+
 ```csharp
 public interface IResourceNamingStrategy
 {
@@ -69,6 +73,7 @@ public class EnvironmentBasedNamingStrategy : IResourceNamingStrategy
 ```
 
 ### Infrastructure Resolver Pattern
+
 ```csharp
 internal sealed class StrategyBasedNameResolver : InfrastructureResolver
 {
@@ -102,6 +107,7 @@ internal sealed class StrategyBasedNameResolver : InfrastructureResolver
 ## Enterprise Integration Patterns
 
 ### 1. **Environment Promotion Pattern**
+
 ```csharp
 // Different naming per environment
 var builder = DistributedApplication.CreateBuilder(args);
@@ -123,6 +129,7 @@ builder.Services.Configure<AzureProvisioningOptions>(options =>
 ```
 
 ### 2. **Configuration Override Pattern**
+
 ```csharp
 // Override resource names via configuration
 public class ConfigurableNamingStrategy : IResourceNamingStrategy
@@ -141,6 +148,7 @@ public class ConfigurableNamingStrategy : IResourceNamingStrategy
 ## Anti-Patterns to Avoid
 
 ### 1. **Hardcoded Resource Names**
+
 ```csharp
 // ❌ Bad - Hardcoded names
 account.Name = "MyCosmosDb"; // No environment distinction
@@ -150,6 +158,7 @@ account.Name = _namingStrategy.GenerateName("cosmos", "main");
 ```
 
 ### 2. **Inconsistent Naming Across Resources**
+
 ```csharp
 // ❌ Bad - Inconsistent naming
 cosmosAccount.Name = "prod-cosmos-db";
@@ -163,16 +172,19 @@ redisCache.Name = _namingStrategy.GenerateName("redis", "cache");
 ## Lead Architect Considerations
 
 ### 1. **Governance**
+
 - Establish naming conventions across all teams
 - Implement validation rules for resource names
 - Create reusable naming strategy components
 
 ### 2. **Scalability**
+
 - Design for multi-environment deployments
 - Consider resource name global uniqueness requirements
 - Plan for disaster recovery naming scenarios
 
 ### 3. **Maintainability**
+
 - Use configuration-driven naming when possible
 - Document naming conventions clearly
 - Implement automated validation in CI/CD
@@ -189,11 +201,11 @@ redisCache.Name = _namingStrategy.GenerateName("redis", "cache");
 
 ## Related Patterns
 
-
 - Service Discovery (coming soon)
 - Resource Management (coming soon)
 - Configuration Management (coming soon)
 - IaC Patterns (see ../../07_DevOps/IaC/)
+
 ---
 
 *Proper resource naming in .NET Aspire applications ensures consistency, maintainability, and enterprise compliance across all environments and deployments.*

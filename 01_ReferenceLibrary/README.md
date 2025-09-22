@@ -200,6 +200,10 @@ Combine multiple tracks:
 
 ---
 
+<!-- NOTE: A legacy README copy was left in the legacy archive. A safe migration copy named `ReadMe_Legacy.md` will be placed in the repository root for review before any commit/push. -->
+
+---
+
 ## 🎉 Ready to Begin?
 
 **Choose your starting point**:

@@ -16,35 +16,41 @@ This folder contains resources, patterns, and best practices for Google Cloud Pl
 ## 🏢 Reference Architectures
 
 ### Web Applications
+
 - Scalable Web Applications on GCP
 - Serverless Architectures with Cloud Run
 - Microservices with GKE
 
 ### Data Solutions
+
 - Data Analytics with BigQuery
 - Real-time Data Processing with Dataflow
 
 ## 📝 Best Practices
 
 ### Security
+
 - Implement least privilege with IAM roles
 - Use VPC Service Controls for network isolation
 - Enable Cloud Audit Logs for compliance
 - Implement security perimeters with VPC
 
 ### Scalability
+
 - Design for horizontal scaling with managed instance groups
 - Implement global load balancing with Cloud Load Balancing
 - Use Cloud CDN for content delivery
 - Apply autoscaling for compute resources
 
 ### Cost Optimization
+
 - Use resource labels for cost allocation
 - Implement scheduled shutdown for non-production resources
 - Choose the right machine types
 - Consider committed use discounts
 
 ### Resilience
+
 - Design for regional and zonal failures
 - Implement exponential backoff for API calls
 - Use Cloud Monitoring for observability

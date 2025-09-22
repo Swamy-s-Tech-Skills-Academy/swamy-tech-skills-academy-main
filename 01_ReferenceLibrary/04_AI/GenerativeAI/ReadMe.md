@@ -5,9 +5,11 @@ Welcome to the Generative AI section of the Lead Architect Knowledge Base. This 
 ## Table of Contents
 
 ### 🎯 [Prompt Engineering](./PromptEngineering/)
+
 Master the art and science of crafting effective prompts for LLMs, including advanced techniques, design patterns, and best practices for production systems.
 
 ### 🔄 Coming Soon
+
 - **Fine-tuning and Model Adaptation** - Customizing pre-trained models for specific use cases
 - **AI Agents and Multi-Agent Systems** - Building autonomous AI systems
 - **Retrieval-Augmented Generation (RAG)** - Enhancing LLMs with external knowledge
@@ -30,6 +32,7 @@ Master the art and science of crafting effective prompts for LLMs, including adv
 ## Key Learning Outcomes
 
 By completing this section, you will:
+
 - Master prompt engineering techniques for various use cases
 - Understand how to build production-ready generative AI applications
 - Learn to evaluate and optimize AI system performance

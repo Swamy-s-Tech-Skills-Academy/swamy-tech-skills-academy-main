@@ -152,7 +152,7 @@ Certainly, Swamy! This is a very effective roadmap to build toward a Principal S
 
 ---
 
-### Phase 2: Object-Oriented Design (OOD) and SOLID Principles in C#
+### Phase 2: Object-Oriented Design (OOD) and SOLID Principles in C #
 
 #### **Objective:**
 

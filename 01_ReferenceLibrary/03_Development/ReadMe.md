@@ -18,7 +18,7 @@ This section focuses on development methodologies, best practices, and quality a
 
 **Best practices for quality software development**
 
-#### Core Practices Include:
+#### Core Practices Include
 
 - **[CodeReviews](./DevelopmentPractices/CodeReviews/)**: Peer review processes and techniques
 - **[Testing](./DevelopmentPractices/Testing/)**: Comprehensive testing strategies
