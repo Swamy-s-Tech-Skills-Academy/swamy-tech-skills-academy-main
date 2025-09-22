@@ -19,6 +19,11 @@ All Copilot agents and automated scripts MUST follow this branching policy:
 
 This policy prevents accidental branch proliferation and keeps changes predictable and reviewable.
 
+## 🔐 Commit & Push Confirmation (New)
+
+- Before making any commit or invoking any push to a remote repository, Copilot agents MUST ask for explicit human confirmation. The agent must present the intended set of file changes (diff summary), the exact git commands it will run (e.g., `git add`, `git commit -m "..."`, `git push`), and wait for an explicit approval message from a repository maintainer before executing them.
+- If the user approves only committing but not pushing, the agent must only perform the local commit and stop before any push.
+
 ## 🏗️ CAREER-FOCUSED LEARNING STRATEGY
 
 **Primary Goal**: Lead Architect / Director Technology mastery across all technology domains
