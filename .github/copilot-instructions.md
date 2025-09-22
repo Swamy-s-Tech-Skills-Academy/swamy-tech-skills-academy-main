@@ -45,6 +45,19 @@ This policy prevents accidental branch proliferation and keeps changes predictab
 
 **Migration Status**: Transitioning from migration to multi-domain content creation while maintaining clean slate approach for successfully migrated legacy content.
 
+### Migration Placement Guidance (New)
+
+- When migrating content from legacy locations (for example `DevelopmentPractices`), content MAY be placed into any one of the following canonical domain folders depending on the topic's primary focus and audience:
+
+  - `01_ReferenceLibrary/01_Development`
+  - `01_ReferenceLibrary/02_AI-and-ML`
+  - `01_ReferenceLibrary/03_Data-Science`
+  - `01_ReferenceLibrary/04_DevOps`
+
+- Use your best judgement to choose the most appropriate target domain. Consider the primary technical audience (developers, data scientists, ML engineers, or ops), the content's dependencies, and where it will be most discoverable by learners.
+- If content clearly spans multiple domains, place it in the primary domain and add cross-reference links to the other relevant domains. When in doubt, prefer `01_Development` for general software-engineering practices and add explicit cross-links.
+- Always follow the numbering and naming conventions (zero-padded `01_` prefixes) when creating new folders or files during migration.
+
 ### Zero‑Copy Policy (Non‑Negotiable)
 
 - Do not copy text verbatim from books, articles, websites, videos, or any third‑party materials.
