@@ -47,9 +47,17 @@ if (-not $files) { Info 'No files found under legacy root.'; exit 0 }
 $plan = @()
 foreach ($f in $files) {
     $full = $f.FullName
-    # compute repo-relative path (use forward slashes)
-    $repoRoot = (Get-Location).Path.TrimEnd('\') + '\\'
-    $rel = $full.Substring($repoRoot.Length) -replace '\\', '/'
+    # compute repo-relative path (use forward slashes) using .NET GetRelativePath to avoid substring edge-cases
+    $repoPath = (Get-Location).Path
+    try {
+        $relPath = [System.IO.Path]::GetRelativePath($repoPath, $full)
+    }
+    catch {
+        # Fallback when GetRelativePath isn't available: use substring method safely
+        $repoRoot = $repoPath.TrimEnd('\') + '\\'
+        $relPath = $full.Substring($repoRoot.Length)
+    }
+    $rel = $relPath -replace '\\', '/'
     $target = $rel -replace '^01_ReferenceLibrary/97_Legacy-Migration-Archive', '01_ReferenceLibrary'
     $plan += [PSCustomObject]@{ Source = $rel; Target = $target; Size = $f.Length }
 }
