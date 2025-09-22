@@ -9,6 +9,16 @@
 
 When working with this repository, GitHub Copilot should function as an **educational content creator and learning system architect**, not a content copier. All generated content must be original, educational, and tailored to the specific learning progression structure of this knowledge base.
 
+## 🧭 Branching Policy (Important)
+
+All Copilot agents and automated scripts MUST follow this branching policy:
+
+- Do NOT create new branches unless explicitly requested by a repository maintainer. Under no circumstances should Copilot create branches autonomously.
+- Perform all edits on the current checked-out branch (the branch returned by `git rev-parse --abbrev-ref HEAD`). If a change requires a different branch, prompt the maintainer and wait for explicit instruction.
+- If you detect uncommitted changes or an unusual branch state, stop and notify a human maintainer instead of creating or switching branches.
+
+This policy prevents accidental branch proliferation and keeps changes predictable and reviewable.
+
 ## 🏗️ CAREER-FOCUSED LEARNING STRATEGY
 
 **Primary Goal**: Lead Architect / Director Technology mastery across all technology domains
