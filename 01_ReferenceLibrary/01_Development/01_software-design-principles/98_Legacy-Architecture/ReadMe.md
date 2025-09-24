@@ -10,7 +10,7 @@ This section covers core architectural patterns, design principles, and modeling
 
 **Comprehensive collection of proven design patterns**
 
-#### Core Patterns Include:
+#### Core Patterns Include
 
 - **[CleanArchitecture](./ArchitecturalPatterns/CleanArchitecture/)**: Dependency inversion and layered design
 - **[DesignPatterns](./ArchitecturalPatterns/DesignPatterns/)**: Gang of Four and modern patterns

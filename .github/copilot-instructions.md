@@ -9,6 +9,21 @@
 
 When working with this repository, GitHub Copilot should function as an **educational content creator and learning system architect**, not a content copier. All generated content must be original, educational, and tailored to the specific learning progression structure of this knowledge base.
 
+## 🧭 Branching Policy (Important)
+
+All Copilot agents and automated scripts MUST follow this branching policy:
+
+- Do NOT create new branches unless explicitly requested by a repository maintainer. Under no circumstances should Copilot create branches autonomously.
+- Perform all edits on the current checked-out branch (the branch returned by `git rev-parse --abbrev-ref HEAD`). If a change requires a different branch, prompt the maintainer and wait for explicit instruction.
+- If you detect uncommitted changes or an unusual branch state, stop and notify a human maintainer instead of creating or switching branches.
+
+This policy prevents accidental branch proliferation and keeps changes predictable and reviewable.
+
+## 🔐 Commit & Push Confirmation (New)
+
+- Before making any commit or invoking any push to a remote repository, Copilot agents MUST ask for explicit human confirmation. The agent must present the intended set of file changes (diff summary), the exact git commands it will run (e.g., `git add`, `git commit -m "..."`, `git push`), and wait for an explicit approval message from a repository maintainer before executing them.
+- If the user approves only committing but not pushing, the agent must only perform the local commit and stop before any push.
+
 ## 🏗️ CAREER-FOCUSED LEARNING STRATEGY
 
 **Primary Goal**: Lead Architect / Director Technology mastery across all technology domains
@@ -34,6 +49,19 @@ When working with this repository, GitHub Copilot should function as an **educat
 2. **`02_LegacyContent/`** - Legacy content with ongoing clean slate removal
 
 **Migration Status**: Transitioning from migration to multi-domain content creation while maintaining clean slate approach for successfully migrated legacy content.
+
+### Migration Placement Guidance (New)
+
+- When migrating content from legacy locations (for example `DevelopmentPractices`), content MAY be placed into any one of the following canonical domain folders depending on the topic's primary focus and audience:
+
+  - `01_ReferenceLibrary/01_Development`
+  - `01_ReferenceLibrary/02_AI-and-ML`
+  - `01_ReferenceLibrary/03_Data-Science`
+  - `01_ReferenceLibrary/04_DevOps`
+
+- Use your best judgement to choose the most appropriate target domain. Consider the primary technical audience (developers, data scientists, ML engineers, or ops), the content's dependencies, and where it will be most discoverable by learners.
+- If content clearly spans multiple domains, place it in the primary domain and add cross-reference links to the other relevant domains. When in doubt, prefer `01_Development` for general software-engineering practices and add explicit cross-links.
+- Always follow the numbering and naming conventions (zero-padded `01_` prefixes) when creating new folders or files during migration.
 
 ### Zero‑Copy Policy (Non‑Negotiable)
 

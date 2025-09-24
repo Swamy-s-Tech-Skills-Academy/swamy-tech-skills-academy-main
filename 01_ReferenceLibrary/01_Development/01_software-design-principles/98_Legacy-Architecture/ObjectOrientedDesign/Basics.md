@@ -55,6 +55,7 @@ Object-Oriented Design (OOD) in C# revolves around designing systems by represen
 
 - **Definition**: Extending a general class to add specific attributes or behaviors.
 - **C# Example**:
+
   ```csharp
   public class ElectricCar : Car
   {
@@ -62,6 +63,7 @@ Object-Oriented Design (OOD) in C# revolves around designing systems by represen
       public void ChargeBattery() => Console.WriteLine("Charging the battery...");
   }
   ```
+
 - **Class Diagram**: [Class Diagram for Specialization](https://www.plantuml.com/plantuml/uml/SoWkIImgAStDuU9BoIhEIImk5D0e5L9Bo2vEpK_oiy9Ep4DiIW_8p4L9Q0dCJ4HMLpLKXL93qD__cCIFPMEx9bUsKc1FpjIFpmIQZJYIMZ3LtA4ZDA3n0000)
 
 ---
@@ -386,7 +388,7 @@ IVehicle <|.. Car
 
 ---
 
-### Steps to View:
+### Steps to View
 
 1. Copy one of the PlantUML scripts.
 2. Paste it into the online editor ([PlantText](https://www.planttext.com/)).

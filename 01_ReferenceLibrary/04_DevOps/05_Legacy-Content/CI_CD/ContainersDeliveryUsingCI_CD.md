@@ -57,7 +57,7 @@ Containers are lightweight, portable, and self-sufficient units that include eve
   - Install dependencies.
   - Package the application into a Docker image.
 
-#### Example `Dockerfile`:
+#### Example `Dockerfile`
 
 ```dockerfile
 FROM node:18
@@ -78,6 +78,7 @@ CMD ["npm", "start"]
 
 - If tests pass, the container image is tagged and pushed to a container registry.
 - Example command:
+
   ```bash
   docker build -t my-app:latest .
   docker tag my-app:latest myregistry/my-app:latest
@@ -142,7 +143,7 @@ CMD ["npm", "start"]
 
 ## **5. Example CI/CD Pipeline YAML for Dockerized App**
 
-#### GitHub Actions CI/CD Example:
+#### GitHub Actions CI/CD Example
 
 ```yaml
 name: CI/CD for Dockerized App
@@ -302,6 +303,7 @@ Container security refers to the practices and tools used to protect containers,
   ```
 
 - Use security options like `no-new-privileges`:
+
   ```bash
   docker run --security-opt=no-new-privileges ...
   ```
@@ -367,9 +369,11 @@ Container security refers to the practices and tools used to protect containers,
 - **Trivy**:
   - Scans images for vulnerabilities.
   - Example:
+
     ```bash
     trivy image my-app:latest
     ```
+
 - **Clair**:
   - Integrates with container registries to scan images.
 - **Snyk**:

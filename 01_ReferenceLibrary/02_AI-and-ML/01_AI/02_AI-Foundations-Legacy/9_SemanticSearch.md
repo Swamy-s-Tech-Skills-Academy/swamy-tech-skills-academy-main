@@ -33,15 +33,15 @@
 
 > 1. The system breaks down the query into its components (keywords, intent, and context).
 
-### 2.2. `Knowledge Representation`:
+### 2.2. `Knowledge Representation`
 
 > 1. It might use a `knowledge graph` to map relationships between entities (e.g., Google’s Knowledge Graph).
 
-### 2.3. `Similarity Matching`:
+### 2.3. `Similarity Matching`
 
 > 1. Utilizes vector embeddings (via machine learning models) to find content semantically similar to the query, even if it doesn’t match exact words.
 
-### 2.4. `Relevance Ranking`:
+### 2.4. `Relevance Ranking`
 
 > 1. Results are ranked based on how well they match the query intent and context.
 

@@ -15,12 +15,14 @@ This folder contains resources, best practices, and implementation guides for De
 - Azure DevOps
 
 ### Containerization
+
 - Docker
 - Kubernetes
 - Azure Container Apps
 - AWS ECS/EKS
 
 ### Monitoring
+
 - Prometheus
 - Grafana
 - Azure Monitor

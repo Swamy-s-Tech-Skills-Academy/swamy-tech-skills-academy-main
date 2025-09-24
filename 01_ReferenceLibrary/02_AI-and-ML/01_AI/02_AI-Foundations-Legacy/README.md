@@ -9,6 +9,7 @@ Planned future consolidation:
 - Introduce a linear "Foundations → Applied → Advanced" progression.
 
 Proposed sections:
+
 1. Core Concepts & Definitions
 2. Historical Evolution of AI
 3. Knowledge Representation & Search (brief)

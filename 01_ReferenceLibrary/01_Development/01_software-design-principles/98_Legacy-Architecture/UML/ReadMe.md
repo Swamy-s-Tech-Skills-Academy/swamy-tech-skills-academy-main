@@ -23,7 +23,7 @@ UML, or Unified Modeling Language, is a standardized way to visualize the design
 
 UML diagrams are divided into **structural** and **behavioral** diagrams, each serving a different purpose. Let’s look at the main ones in each category.
 
-### **Structural Diagrams**: Focus on the static aspects of the system (e.g., components, objects).
+### **Structural Diagrams**: Focus on the static aspects of the system (e.g., components, objects)
 
 1. **Class Diagram**: Shows the classes in a system, their attributes, methods, and relationships (inheritance, association, etc.). This is crucial for designing object-oriented systems.
 
@@ -33,7 +33,7 @@ UML diagrams are divided into **structural** and **behavioral** diagrams, each s
 
 4. **Deployment Diagram**: Depicts the physical deployment of artifacts (e.g., software components on hardware) and helps map out infrastructure and networking.
 
-### **Behavioral Diagrams**: Describe the dynamic, time-dependent aspects of the system.
+### **Behavioral Diagrams**: Describe the dynamic, time-dependent aspects of the system
 
 1. **Use Case Diagram**: Illustrates the system's functionality from the end-user’s perspective. Useful for identifying requirements by focusing on user interactions with the system.
 
@@ -246,7 +246,7 @@ Certainly! In UML, **empty** and **filled diamonds** represent different types o
 - **Example**: Think of a `Library` and `Books`. A `Library` aggregates (contains) `Books`, but the `Books` can exist without the `Library`.
 - **Interpretation**: This implies a loose relationship, where the whole can use the parts, but the parts can also exist independently.
 
-#### Notation Example:
+#### Notation Example
 
 ```
 Library ◇— Book
@@ -263,7 +263,7 @@ Library ◇— Book
 - **Example**: Think of a `House` and `Rooms`. If the `House` is destroyed, the `Rooms` cease to exist as well.
 - **Interpretation**: Composition implies ownership, with a strong lifecycle dependency between the whole and its parts.
 
-#### Notation Example:
+#### Notation Example
 
 ```
 House ◆— Room
@@ -490,7 +490,7 @@ In UML, an **empty triangle** (often called an **open arrow** or **white triangl
   - Let’s say we have a `Vehicle` class with subclasses `Car` and `Bike`.
   - The empty triangle would point from `Car` and `Bike` to `Vehicle`, indicating that both `Car` and `Bike` inherit from `Vehicle`.
 
-#### Notation Example:
+#### Notation Example
 
 ```plaintext
     Vehicle

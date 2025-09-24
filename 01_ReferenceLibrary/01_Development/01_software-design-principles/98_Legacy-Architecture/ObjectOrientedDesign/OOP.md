@@ -4,12 +4,12 @@
 
 ## **Abstraction**
 
-### Definition:
+### Definition
 
 - **Hiding implementation details** and exposing only the essential features of an object.
 - Focuses on **what an object does**, not **how it does it**.
 
-### Key Points:
+### Key Points
 
 1. **Purpose**: Simplify complex systems by showing only relevant data to the user.
 2. **Implementation**: Achieved using **abstract classes** or **interfaces** in languages like C# and Java.
@@ -48,12 +48,12 @@ class Program {
 
 ## **Encapsulation**
 
-### Definition:
+### Definition
 
 - **Restricting access** to certain components of an object and bundling data with methods that operate on it.
 - Focuses on **how data is protected** and controlled.
 
-### Key Points:
+### Key Points
 
 1. **Purpose**: Safeguard object data and prevent unauthorized access or modification.
 2. **Implementation**: Achieved using **access modifiers** like `private`, `protected`, and `public`.
@@ -108,7 +108,7 @@ class Program {
 
 ---
 
-### **In a Nutshell**:
+### **In a Nutshell**
 
 - **Abstraction** is about **hiding the complexity** of implementation.
 - **Encapsulation** is about **hiding the object's data** and controlling access.
@@ -132,7 +132,7 @@ OOP is a programming paradigm based on the concept of objects, which encapsulate
   - Contains fields, properties, methods, constructors, etc.
   - Supports access modifiers like `public`, `private`, and `protected`.
 
-#### **Example**:
+#### **Example**
 
 ```csharp
 class Car {
@@ -160,7 +160,7 @@ class Program {
 - **Definition**: The process of extracting shared characteristics from two or more classes to create a generalized parent class.
 - **Purpose**: Helps in code reuse and abstraction.
 
-#### **Example**:
+#### **Example**
 
 ```csharp
 class Vehicle {
@@ -188,7 +188,7 @@ class Motorcycle : Vehicle {
 - **Definition**: Adding more specific features to a subclass that are not present in the parent class.
 - **Purpose**: Represents the unique properties of a derived class.
 
-#### **Example**:
+#### **Example**
 
 ```csharp
 class Vehicle {
@@ -211,7 +211,7 @@ class Car : Vehicle {
   - One-to-Many
   - Many-to-Many
 
-#### **Example**:
+#### **Example**
 
 ```csharp
 class Driver {
@@ -233,7 +233,7 @@ class Car {
 
 - **Definition**: A special form of association where one class contains another as part of its attributes, but the contained object can exist independently.
 
-#### **Example**:
+#### **Example**
 
 ```csharp
 class Engine {
@@ -252,7 +252,7 @@ class Car {
 - **Definition**: A form of association where the contained object’s lifecycle is tied to the lifecycle of the container object.
 - **Key Difference from Aggregation**: In composition, if the container object is destroyed, the contained object is also destroyed.
 
-#### **Example**:
+#### **Example**
 
 ```csharp
 class Engine {
@@ -271,7 +271,7 @@ class Car {
 - **Definition**: A mechanism by which one class can acquire properties and methods of another class.
 - **Purpose**: Enables code reuse and supports polymorphism.
 
-#### **Example**:
+#### **Example**
 
 ```csharp
 class Animal {
@@ -303,7 +303,7 @@ class Program {
 - **Key Points**:
   - Promotes loose coupling with dependency injection.
 
-#### **Example**:
+#### **Example**
 
 ```csharp
 class Service {
@@ -332,7 +332,7 @@ class Client {
 - **Definition**: A class implements the behavior defined by an interface.
 - **Purpose**: Provides a contract that a class must adhere to.
 
-#### **Example**:
+#### **Example**
 
 ```csharp
 interface IShape {
@@ -365,14 +365,14 @@ class Circle : IShape {
 
 ---
 
-### UML Class Diagram for OOP in C#
+### UML Class Diagram for OOP in C #
 
-#### **Description**:
+#### **Description**
 
 - A simple UML class diagram can represent relationships such as aggregation, composition, inheritance, and realization in the context of OOP in C#.
 - Example: A `Vehicle` class (generalization) has subclasses like `Car` and `Motorcycle`, and an `Engine` class (composition) is part of the `Car`.
 
-#### **Link to Learn UML**:
+#### **Link to Learn UML**
 
 - [Lucidchart UML Basics](https://www.lucidchart.com/pages/uml-class-diagram)
 - [PlantUML Online Tool](https://plantuml.com/class-diagram)

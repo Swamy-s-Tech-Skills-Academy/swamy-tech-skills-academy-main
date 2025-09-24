@@ -75,4 +75,3 @@ These development approaches are most valuable when:
 ---
 
 *Understanding development approaches empowers you to build better software systems and make strategic technology decisions.*
-
