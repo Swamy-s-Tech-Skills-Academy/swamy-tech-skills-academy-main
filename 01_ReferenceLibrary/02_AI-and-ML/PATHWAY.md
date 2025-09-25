@@ -9,7 +9,7 @@
 ```text
 [01_AI] → [02_MachineLearning] → [03_DeepLearning]
                             ↘
-                       [04_NLP] → [05_LLMs] → [06_MCP-Servers] → [07_AI-Agents]
+                       [04_NLP] → [05_LLMs] → [08_Generative-AI] → [06_MCP-Servers] → [07_AI-Agents]
 ```
 
 ## Focus Modules to Add Soon (stubs)
