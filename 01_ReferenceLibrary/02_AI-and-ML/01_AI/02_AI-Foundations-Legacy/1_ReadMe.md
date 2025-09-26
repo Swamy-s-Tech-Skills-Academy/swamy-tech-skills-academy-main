@@ -49,7 +49,7 @@ Follow the sequential chapters below for complete AI foundations coverage.
 - [Glossary of Key AI Terms](2_ToLearn.md#glossary)
 - [ML Foundations](../MLFoundations/ReadMe.md)
 - [Generative AI](../GenerativeAI/ReadMe.md)
-- [System Design for AI](../SystemDesign/1_ReadMe.md)
+- [System Design for AI](../../../01_Development/19_System-Design/)
 - [Tools and Frameworks](11_ToolsAndFrameworks.md)
 
 For more advanced topics, see the [Lead Architect Knowledge Base](../../ReadMe.md).

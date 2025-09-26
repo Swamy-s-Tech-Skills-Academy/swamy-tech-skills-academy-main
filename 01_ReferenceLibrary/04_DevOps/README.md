@@ -34,6 +34,13 @@ For a sequence map and cross-links across DevOps domains, see the DevOps Pathway
 - **Prerequisites**: CI/CD fundamentals, cloud platform basics
 - **Enables**: Scalable, consistent infrastructure deployment and management
 
+### **☁️ [06_Cloud-Architecture/](06_Cloud-Architecture/)** - Cloud Platform Fundamentals
+
+- **Purpose**: Multi-cloud architecture patterns and provider-specific implementations
+- **Content**: Azure, AWS, GCP services, cloud-native applications, security, hybrid strategies
+- **Prerequisites**: Infrastructure as Code basics, networking fundamentals
+- **Enables**: Cloud-native development, multi-cloud deployments, enterprise cloud migrations
+
 ### **📊 [03_Observability-and-Monitoring/](03_Observability-and-Monitoring/)** - System Insights
 
 - **Purpose**: Comprehensive system visibility and performance optimization

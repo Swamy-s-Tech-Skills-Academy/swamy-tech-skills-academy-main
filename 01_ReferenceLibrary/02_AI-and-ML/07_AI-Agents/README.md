@@ -3,7 +3,7 @@
 **Learning Domain**: AI Agents and Autonomous Systems  
 **Track Level**: Intermediate to Advanced  
 **Prerequisites**: Understanding of AI fundamentals, LLMs, and basic programming concepts  
-**Total Estimated Time**: 15-20 hours across 8 modules  
+**Total Estimated Time**: 16-21 hours across 9 modules  
 
 ---
 
@@ -155,6 +155,12 @@ Your comprehensive A-Z reference for all Agentic AI concepts! This glossary incl
 - **Purpose**: Understand how foundational AI capabilities converge to enable autonomous agents
 - **Key Concepts**: Multimodal processing, goal-oriented execution, capability convergence
 - **Practical Focus**: Evolution from text generation to autonomous action
+
+**09_Agent-Evolution** *(40 minutes)*
+
+- **Purpose**: Master the evolutionary path from text generation to autonomous agents
+- **Key Concepts**: Communication foundation, knowledge connection, reasoning emergence
+- **Practical Focus**: Understanding agent readiness indicators and paradigm shifts
 
 **01_Agentic-AI-Learning-Roadmap** *(30 minutes)*
 

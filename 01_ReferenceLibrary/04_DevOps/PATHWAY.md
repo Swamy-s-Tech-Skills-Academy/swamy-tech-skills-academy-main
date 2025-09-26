@@ -19,7 +19,7 @@ graph TD
     end
     
     subgraph "🏗️ Infrastructure Basics"
-        D --> E[Cloud Fundamentals]
+        D --> E[Cloud Fundamentals<br/>(06_Cloud-Architecture)]
         E --> F[Container Basics]
         F --> G[IaC Introduction]
     end
@@ -172,6 +172,16 @@ Week 13-16: Platform Analytics + Cost Optimization
 | IaC Tools | Terraform/Ansible guides | Infrastructure automation |
 | Security Integration | IaC security scanning | Secure infrastructure |
 
+### **06_Cloud-Architecture**
+
+| Topic | Learning Resource | Hands-On Project |
+|-------|------------------|------------------|
+| Azure Services | Azure compute, storage, AI | Azure resource deployment |
+| AWS Platform | EC2, S3, Lambda services | AWS infrastructure setup |
+| GCP Solutions | Compute Engine, Cloud Storage | GCP application deployment |
+| Cloud Security | Identity, encryption, compliance | Multi-cloud security config |
+| Hybrid Strategies | On-premises integration | Hybrid cloud architecture |
+
 ### **03_Observability-and-Monitoring**
 
 | Topic | Learning Resource | Hands-On Project |
@@ -263,7 +273,7 @@ Week 13-16: Platform Analytics + Cost Optimization
 ## 🔗 **Quick Navigation**
 
 - **Track Home**: [README.md](README.md)
-- **Domain Guides**: [01_CI-CD-Fundamentals/](01_CI-CD-Fundamentals/) | [02_Infrastructure-as-Code/](02_Infrastructure-as-Code/) | [03_Observability-and-Monitoring/](03_Observability-and-Monitoring/) | [04_Release-Strategies/](04_Release-Strategies/)
+- **Domain Guides**: [01_CI-CD-Fundamentals/](01_CI-CD-Fundamentals/) | [02_Infrastructure-as-Code/](02_Infrastructure-as-Code/) | [03_Observability-and-Monitoring/](03_Observability-and-Monitoring/) | [04_Release-Strategies/](04_Release-Strategies/) | [06_Cloud-Architecture/](06_Cloud-Architecture/)
 - **Legacy Resources**: `../04_LegacyContent/_Backup/07_DevOps/`
 - **Cross-References**: [Development Track](../01_Development/README.md) | [AI & ML Track](../02_AI-and-ML/README.md) | [Data Science Track](../03_Data-Science/README.md)
 
