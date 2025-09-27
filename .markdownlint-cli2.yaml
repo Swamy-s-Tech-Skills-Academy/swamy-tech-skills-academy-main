@@ -4,7 +4,7 @@
 # Globs to include by default (can still pass explicit paths on the CLI)
 # Using forward slashes works on Windows too.
 
-includes:
+globs:
   - "**/*.md"
 
 ignores:
