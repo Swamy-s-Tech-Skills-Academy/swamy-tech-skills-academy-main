@@ -2,10 +2,6 @@ param(
     [switch]$Fix
 )
 
-# Run markdownlint-cli2 across repo docs. Use --fix if -Fix is supplied.
-# Note: Patterns are now handled by .markdownlint-cli2.yaml config file
-# This script no longer passes patterns to avoid overriding config
-
 $fixArg = if ($Fix) { '--fix' } else { '' }
 
 Write-Host 'Running markdownlint-cli2...' -ForegroundColor Cyan
@@ -24,8 +20,9 @@ Write-Host "PowerShell version: $($PSVersionTable.PSVersion)" -ForegroundColor Y
 Write-Host "Current directory right before npx: $(Get-Location)" -ForegroundColor Yellow
 Write-Host "Running command: npx --yes markdownlint-cli2 --no-globs --config `"$configPath`" $fixArg" -ForegroundColor Yellow
 
-# Use Invoke-Expression instead of & call operator for better command line handling
+# Try using Invoke-Expression instead of & call operator
 $command = "npx --yes markdownlint-cli2 --no-globs --config `"$configPath`" $fixArg"
+Write-Host "Command string: $command" -ForegroundColor Magenta
 Invoke-Expression $command
 
 Pop-Location
