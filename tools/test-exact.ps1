@@ -2,13 +2,11 @@ param(
     [switch]$Fix
 )
 
-# Run markdownlint-cli2 across repo docs. Use --fix if -Fix is supplied.
-# Note: Patterns are now handled by .markdownlint-cli2.yaml config file
-# This script no longer passes patterns to avoid overriding config
+# Test script that exactly replicates docs-lint.ps1 logic
 
 $fixArg = if ($Fix) { '--fix' } else { '' }
 
-Write-Host 'Running markdownlint-cli2...' -ForegroundColor Cyan
+Write-Host 'Running test markdownlint-cli2...' -ForegroundColor Cyan
 
 # Change to repository root directory (parent of tools folder)
 $repoRoot = Split-Path $PSScriptRoot -Parent
