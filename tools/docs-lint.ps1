@@ -14,7 +14,10 @@ $patterns = @(
     '.github/**/*.md'
 )
 
+# Filter out image files from the patterns
+$filteredPatterns = $patterns | Where-Object { $_ -notmatch '\*\*/\*\.(png|jpg|jpeg|gif|svg|bmp|ico)$' }
+
 $fixArg = if ($Fix) { '--fix' } else { '' }
 
 Write-Host 'Running markdownlint-cli2...' -ForegroundColor Cyan
-npx --yes markdownlint-cli2 $fixArg @patterns
+npx --yes markdownlint-cli2 $fixArg @filteredPatterns
