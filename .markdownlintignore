@@ -7,3 +7,13 @@
 **/node_modules/**
 **/.venv/**
 **/.vscode/**
+
+## Ignore image files
+
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.svg
+**/*.bmp
+**/*.ico
