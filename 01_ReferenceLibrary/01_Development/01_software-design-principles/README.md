@@ -1,5 +1,10 @@
 # 🧠 Software Design Principles - Architect's Knowledge Base
 
+**Learning Level**: Beginner → Lead Architect  
+**Prerequisites**: Basic programming knowledge in any language  
+**Estimated Time**: 15-20 hours comprehensive mastery  
+**Next Steps**: Apply principles across all development domains
+
 **Purpose**: Personal mastery map for architectural leadership  
 **Target Role**: Lead Architect → Director of Engineering  
 **Scope**: Universal design principles across all programming paradigms  
@@ -17,74 +22,77 @@ This curated library consolidates foundational principles, advanced patterns, en
 
 ## 📁 Comprehensive Architecture Map
 
-| Domain | Focus Area | Lead Architect Impact |
-|--------|------------|----------------------|
-| **[01_OOP-Fundamentals/](01_OOP-Fundamentals/)** | Core object-oriented thinking for modular, reusable design | ✅ Foundation for all architectural thinking |
-| **[02_SOLID-Principles/](02_SOLID-Principles/)** | Maintainability and extensibility in object-oriented systems | Code quality leadership and team standards |
-| **[03_Design-Patterns/](03_Design-Patterns/)** | Tactical solutions to recurring design challenges | Pattern recognition across enterprise systems |
-| **[04_Architectural-Patterns/](04_Architectural-Patterns/)** | Macro-level system structures and trade-offs | Enterprise architecture decision frameworks |
-| **[05_Advanced-Principles/](05_Advanced-Principles/)** | DDD, CQRS, hexagonal architecture, clean architecture | Advanced system design methodologies |
-| **[06_Clean-Code-Principles/](06_Clean-Code-Principles/)** | Readable, intentional, and maintainable code practices | Engineering culture and mentorship standards |
-| **[07_Testability-and-TDD/](07_Testability-and-TDD/)** | Designing for testability and continuous validation | Quality engineering leadership |
-| **[08_Functional-Programming-Principles/](08_Functional-Programming-Principles/)** | Declarative, immutable, and side-effect-free design | Multi-paradigm architectural thinking |
-| **[09_Distributed-Systems-Principles/](09_Distributed-Systems-Principles/)** | Fault tolerance, consistency, and service discovery | Enterprise-scale system architecture |
-| **[10_Scalability-and-Performance-Principles/](10_Scalability-and-Performance-Principles/)** | Load, latency, throughput, and bottleneck analysis | Performance engineering leadership |
-| **[11_Security-by-Design/](11_Security-by-Design/)** | Threat modeling, secure defaults, and data protection | Enterprise security architecture |
-| **[12_Microservices-Principles/](12_Microservices-Principles/)** | Autonomy, bounded contexts, API-first, resilience | Modern distributed architecture |
-| **[13_Event-Driven-Design/](13_Event-Driven-Design/)** | Choreography, orchestration, CQRS, event sourcing | Reactive system architecture |
-| **[14_Domain-Driven-Design/](14_Domain-Driven-Design/)** | Strategic modeling, aggregates, ubiquitous language | Business-aligned architecture strategy |
-| **[15_Cloud-Native-Principles/](15_Cloud-Native-Principles/)** | 12-factor apps, containers, observability, service mesh | Modern platform architecture |
-| **[16_DevOps-and-CI-CD-Principles/](16_DevOps-and-CI-CD-Principles/)** | Infrastructure as code, shift-left testing, release strategies | Engineering velocity and reliability |
-| **[17_Data-Management-Principles/](17_Data-Management-Principles/)** | Sharding, caching, governance, lineage | Data architecture and governance |
-| **[18_AI-and-Responsible-Design/](18_AI-and-Responsible-Design/)** | Fairness, transparency, explainability, bias mitigation | AI/ML system architecture ethics |
-| **[19_Contextual-Principles/](19_Contextual-Principles/)** | Modularity, cohesion, coupling, separation of concerns | System decomposition strategies |
-| **[20_Human-Centered-Principles/](20_Human-Centered-Principles/)** | Cognitive clarity, evolvability, error tolerance | User-focused engineering leadership |
-| **[21_Systemic-Heuristics/](21_Systemic-Heuristics/)** | Scalable, pragmatic design rules for platform consistency | Organizational architecture alignment |
-| **[22_Evaluation-Principles/](22_Evaluation-Principles/)** | Design reviews, traceability, testability, RCA alignment | Architecture governance frameworks |
-| **[23_UML/](23_UML/)** | Visual modeling for architecture, onboarding, and storytelling | Communication and documentation leadership |
+| Status | Domain | Focus Area | Lead Architect Impact |
+|--------|--------|------------|----------------------|
+| ✅ | **[01_OOP-Fundamentals/](01_OOP-Fundamentals/)** | Core object-oriented thinking for modular, reusable design | ✅ Foundation for all architectural thinking |
+| 📅 | **[02_SOLID-Principles/](02_SOLID-Principles/)** | Maintainability and extensibility in object-oriented systems | Code quality leadership and team standards |
+| 📅 | **[03_Design-Patterns/](03_Design-Patterns/)** | Tactical solutions to recurring design challenges | Pattern recognition across enterprise systems |
+| 📅 | **[04_Architectural-Patterns/](04_Architectural-Patterns/)** | Macro-level system structures and trade-offs | Enterprise architecture decision frameworks |
+| 📅 | **[05_Advanced-Principles/](05_Advanced-Principles/)** | DDD, CQRS, hexagonal architecture, clean architecture | Advanced system design methodologies |
+| 📅 | **[06_Clean-Code-Principles/](06_Clean-Code-Principles/)** | Readable, intentional, and maintainable code practices | Engineering culture and mentorship standards |
+| 📅 | **[07_Testability-and-TDD/](07_Testability-and-TDD/)** | Designing for testability and continuous validation | Quality engineering leadership |
+| 📅 | **[08_Functional-Programming-Principles/](08_Functional-Programming-Principles/)** | Declarative, immutable, and side-effect-free design | Multi-paradigm architectural thinking |
+| 📅 | **[09_Distributed-Systems-Principles/](09_Distributed-Systems-Principles/)** | Fault tolerance, consistency, and service discovery | Enterprise-scale system architecture |
+| 📅 | **[10_Scalability-and-Performance-Principles/](10_Scalability-and-Performance-Principles/)** | Load, latency, throughput, and bottleneck analysis | Performance engineering leadership |
+| 📅 | **[11_Security-by-Design/](11_Security-by-Design/)** | Threat modeling, secure defaults, and data protection | Enterprise security architecture |
+| 📅 | **[12_Microservices-Principles/](12_Microservices-Principles/)** | Autonomy, bounded contexts, API-first, resilience | Modern distributed architecture |
+| 📅 | **[13_Event-Driven-Design/](13_Event-Driven-Design/)** | Choreography, orchestration, CQRS, event sourcing | Reactive system architecture |
+| 📅 | **[14_Domain-Driven-Design/](14_Domain-Driven-Design/)** | Strategic modeling, aggregates, ubiquitous language | Business-aligned architecture strategy |
+| 📅 | **[15_Cloud-Native-Principles/](15_Cloud-Native-Principles/)** | 12-factor apps, containers, observability, service mesh | Modern platform architecture |
+| 📅 | **[16_DevOps-and-CI-CD-Principles/](16_DevOps-and-CI-CD-Principles/)** | Infrastructure as code, shift-left testing, release strategies | Engineering velocity and reliability |
+| 📅 | **[17_Data-Management-Principles/](17_Data-Management-Principles/)** | Sharding, caching, governance, lineage | Data architecture and governance |
+| 📅 | **[18_AI-and-Responsible-Design/](18_AI-and-Responsible-Design/)** | Fairness, transparency, explainability, bias mitigation | AI/ML system architecture ethics |
+| 📅 | **[19_Contextual-Principles/](19_Contextual-Principles/)** | Modularity, cohesion, coupling, separation of concerns | System decomposition strategies |
+| 📅 | **[20_Human-Centered-Principles/](20_Human-Centered-Principles/)** | Cognitive clarity, evolvability, error tolerance | User-focused engineering leadership |
+| 📅 | **[21_Systemic-Heuristics/](21_Systemic-Heuristics/)** | Scalable, pragmatic design rules for platform consistency | Organizational architecture alignment |
+| 📅 | **[22_Evaluation-Principles/](22_Evaluation-Principles/)** | Design reviews, traceability, testability, RCA alignment | Architecture governance frameworks |
+| 📅 | **[23_UML/](23_UML/)** | Visual modeling for architecture, onboarding, and storytelling | Communication and documentation leadership |
 
 ---
 
 ## 🚀 Strategic Learning Pathways
 
-### **🎯 Foundation Mastery (Domains 1-5)**
+### **Foundation Layer (Domains 1-2)**
 
-**Timeline**: 2-3 weeks intensive  
-**Outcome**: Universal design fluency across all programming languages
+**Essential Knowledge**: Object-oriented thinking and SOLID principles
 
-- **Core OOP & SOLID**: Essential for all architectural thinking
-- **Design & Architectural Patterns**: Recognition and application capability
-- **Advanced Principles**: DDD, Clean Architecture, CQRS mastery
+- Master universal design concepts applicable to all languages
+- Develop code quality assessment capabilities
+- Build foundation for advanced architectural thinking
 
-### **🏗️ Enterprise Architecture (Domains 6-11)**
+### **Pattern Layer (Domains 3-4)**  
 
-**Timeline**: 4-6 weeks comprehensive  
-**Outcome**: Enterprise-scale system design capability
+**Architectural Patterns**: Proven solutions and system design
 
-- **Quality Engineering**: Clean code, testability, performance
-- **Paradigm Fluency**: Functional programming integration
-- **Distributed Systems**: Fault tolerance and scalability
-- **Security Architecture**: Enterprise security leadership
+- Recognize and apply common design patterns
+- Understand enterprise architectural patterns
+- Design scalable and maintainable systems
 
-### **🌐 Modern Platform Leadership (Domains 12-18)**
+### **Advanced Layer (Domains 5-11)**
 
-**Timeline**: 6-8 weeks specialized  
-**Outcome**: Director-level technology strategy capability
+**Principles & Quality**: Advanced concepts and engineering excellence
 
-- **Microservices & Events**: Modern distributed architecture
-- **Domain-Driven Design**: Business alignment strategies  
-- **Cloud-Native & DevOps**: Platform engineering excellence
-- **Data & AI Architecture**: Modern data strategy leadership
+- Apply sophisticated design principles (DRY, YAGNI, Law of Demeter)
+- Master clean code, testability, and performance principles
+- Understand functional programming and distributed systems
+- Lead security architecture and enterprise-scale design
 
-### **🧠 Systemic Leadership (Domains 19-23)**
+### **Modern Layer (Domains 12-18)**
 
-**Timeline**: 2-4 weeks synthesis  
-**Outcome**: Organizational architecture and communication mastery
+**Distributed & Cloud-Native**: Contemporary architecture paradigms
 
-- **Human-Centered Design**: Engineering culture leadership
-- **Systemic Thinking**: Conway's Law and organizational design
-- **Architecture Governance**: Quality and evaluation frameworks
-- **Visual Communication**: UML and stakeholder alignment
+- Design microservices, event-driven, and domain-driven systems
+- Master cloud-native principles and DevOps integration
+- Lead data management and AI/ML architecture strategies
+
+### **Strategic Layer (Domains 19-23)**
+
+**Leadership & Communication**: Human and systemic perspectives
+
+- Design for human experience and accessibility
+- Understand organizational impact on architecture (Conway's Law)
+- Establish architecture evaluation and governance frameworks
+- Master visual communication through UML and documentation
 
 ---
 
@@ -160,11 +168,10 @@ Prepare for director-level conversations with clarity, confidence, and strategic
 
 ## 📊 Mastery Metrics
 
-**Knowledge Depth**: Can explain and apply each principle with real-world examples
-**Pattern Recognition**: Identifies architectural smells and recommends solutions
-**Strategic Thinking**: Links technical decisions to business outcomes and team velocity
-**Communication**: Articulates complex architecture to diverse stakeholder audiences
-**Leadership Impact**: Mentors teams using principled architectural guidance
+**Beginner → Practitioner**: Can identify and apply basic OOP and SOLID principles  
+**Practitioner → Professional**: Recognizes patterns and designs maintainable systems  
+**Professional → Leader**: Makes architecture decisions considering business context  
+**Leader → Architect**: Establishes governance frameworks and guides multiple teams
 
 ---
 
