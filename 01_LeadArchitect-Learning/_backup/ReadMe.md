@@ -3,7 +3,7 @@
 **Learning Level**: Senior Engineer → Lead / Chief Architect  
 **Prerequisites**: STSA development foundations, baseline cloud & DevOps capability  
 **Estimated Time**: 9 phases × 36 hours each (see detailed plan)  
-**Primary Companion**: [`ReadMeV2.md`](./ReadMeV2.md)
+**Primary Companion**: README.md (clean-slate plan)
 
 ## Orientation
 
@@ -43,17 +43,17 @@ flowchart LR
 
 ## How to Use This Folder
 
-1. Open [`ReadMeV2.md`](./ReadMeV2.md) for the 9 phases × 9 cluster blueprint (≈324 hours).  
-2. Use [`ReadMeV1.md`](./ReadMeV1.md) when you want focused 27-minute sprint sessions.  
-3. Capture each phase artifact in your architecture journal or `../09_Documentation/Assessments/` to track mastery.  
+1. Open README.md for the 9 phases × 9 cluster blueprint (≈324 hours).  
+2. Use ReadMeV1.md when you want focused 27-minute sprint sessions.  
+3. Capture each phase artifact in your architecture journal or the assessments folder to track mastery.  
 4. Revisit phases quarterly to refresh, reprioritize clusters, and log capability shifts.
 
 ## Supporting Assets
 
-- **Detailed V2 Plan**: [`ReadMeV2.md`](./ReadMeV2.md) – clean-slate cluster structure and outputs.
-- **Focused Session Plan**: [`ReadMeV1.md`](./ReadMeV1.md) – quick sessions and progress checklist.
-- **Reference Library**: [`../01_ReferenceLibrary`](../01_ReferenceLibrary) – source material for every linked topic.
-- **Cross-Track Tie-ins**: Pair phases 05–08 with [`../01_ReferenceLibrary/04_DevOps`](../01_ReferenceLibrary/04_DevOps) and [`../01_ReferenceLibrary/02_AI-and-ML`](../01_ReferenceLibrary/02_AI-and-ML) for specialization depth.
+- **Detailed V2 Plan**: README.md – clean-slate cluster structure and outputs.
+- **Focused Session Plan**: ReadMeV1.md – quick sessions and progress checklist.
+- **Reference Library**: 01_ReferenceLibrary folder – source material for every linked topic.
+- **Cross-Track Tie-ins**: Pair phases 05–08 with DevOps and AI learning tracks for specialization depth.
 
 ## Next Steps
 
@@ -64,7 +64,7 @@ flowchart LR
 
 ## Related Topics
 
-- [`../01_ReferenceLibrary/COMPLETE_LEARNING_PLAN.md`](../01_ReferenceLibrary/COMPLETE_LEARNING_PLAN.md) – enterprise-wide STSA learning strategy.  
-- [`../01_ReferenceLibrary/01_Development/Development-Track-Restructuring-Summary.md`](../01_ReferenceLibrary/01_Development/Development-Track-Restructuring-Summary.md) – foundational curriculum context.  
-- [`../01_ReferenceLibrary/02_AI-and-ML/PATHWAY.md`](../01_ReferenceLibrary/02_AI-and-ML/PATHWAY.md) – AI specialization roadmap.  
-- [`../01_ReferenceLibrary/04_DevOps/PATHWAY.md`](../01_ReferenceLibrary/04_DevOps/PATHWAY.md) – operational excellence companion.
+- COMPLETE_LEARNING_PLAN.md – enterprise-wide STSA learning strategy.  
+- Development track restructuring summary – foundational curriculum context.  
+- AI and ML pathway notes – AI specialization roadmap.  
+- DevOps pathway notes – operational excellence companion.
