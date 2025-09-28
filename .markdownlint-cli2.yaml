@@ -4,8 +4,18 @@
 # Globs to include by default (can still pass explicit paths on the CLI)
 # Using forward slashes works on Windows too.
 
+globs:
+  - "**/*.md"
+
 ignores:
   - "04_LegacyContent/_Backup/**"
   - "**/node_modules/**"
   - "**/.venv/**"
   - "**/.vscode/**"
+  - "**/*.png"
+  - "**/*.jpg"
+  - "**/*.jpeg"
+  - "**/*.gif"
+  - "**/*.svg"
+  - "**/*.bmp"
+  - "**/*.ico"
