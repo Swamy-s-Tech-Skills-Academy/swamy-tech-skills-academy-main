@@ -30,9 +30,9 @@ flowchart TB
     classDef phase fill:#eef7ff,stroke:#0d47a1,stroke-width:2px,color:#0d47a1
     classDef support fill:#fff0e6,stroke:#e65100,stroke-width:2px,color:#bf360c
 
-    S((Reset)):::support --> P1[01 Reboot  \nMindset Architect]:::phase --> P2[02 Frameworks  \nDesign Cartographer]:::phase --> P3[03 Pattern Studio  \nOption Strategist]:::phase
-    P3 --> P4[04 Scale Systems  \nReliability Architect]:::phase --> P5[05 Delivery Engine  \nPlatform Builder]:::phase --> P6[06 Data & Trust  \nIntegrity Steward]:::phase
-    P6 --> P7[07 Polyglot Delivery  \nImplementation Maestro]:::phase --> P8[08 Intelligent Futures  \nAI Custodian]:::phase --> P9[09 Leadership Impact  \nEnterprise Navigator]:::phase --> C((Renew, Coach, Amplify)):::support
+    S((Reset)):::support --> P1[01 Reboot Mindset Architect]:::phase --> P2[02 Frameworks  Design Cartographer]:::phase --> P3[03 Pattern Studio  Option Strategist]:::phase
+    P3 --> P4[04 Scale Systems  Reliability Architect]:::phase --> P5[05 Delivery Engine  Platform Builder]:::phase --> P6[06 Data & Trust  Integrity Steward]:::phase
+    P6 --> P7[07 Polyglot Delivery  Implementation Maestro]:::phase --> P8[08 Intelligent Futures  AI Custodian]:::phase --> P9[09 Leadership Impact  Enterprise Navigator]:::phase --> C((Renew, Coach, Amplify)):::support
 ```
 
 ## Cluster Lattice
@@ -51,17 +51,17 @@ flowchart TB
 
 ---
 
-## Phase Navigation
+### Phase Shortcuts
 
-- [Phase 01 – Reboot](./phases/Phase01_Reboot/README.md)
-- [Phase 02 – Frameworks](./phases/Phase02_Frameworks/README.md)
-- [Phase 03 – Pattern Studio](./phases/Phase03_Pattern_Studio/README.md)
-- [Phase 04 – Scale Systems](./phases/Phase04_Scale_Systems/README.md)
-- [Phase 05 – Delivery Engine](./phases/Phase05_Delivery_Engine/README.md)
-- [Phase 06 – Data & Trust](./phases/Phase06_Data_Trust/README.md)
-- [Phase 07 – Polyglot Delivery](./phases/Phase07_Polyglot_Delivery/README.md)
-- [Phase 08 – Intelligent Futures](./phases/Phase08_Intelligent_Futures/README.md)
-- [Phase 09 – Leadership Impact](./phases/Phase09_Leadership_Impact/README.md)
+- [Phase 01 – Reboot](./Phase01_Reboot/README.md)
+- [Phase 02 – Frameworks](./Phase02_Frameworks/README.md)
+- [Phase 03 – Pattern Studio](./Phase03_Pattern_Studio/README.md)
+- [Phase 04 – Scale Systems](./Phase04_Scale_Systems/README.md)
+- [Phase 05 – Delivery Engine](./Phase05_Delivery_Engine/README.md)
+- [Phase 06 – Data & Trust](./Phase06_Data_Trust/README.md)
+- [Phase 07 – Polyglot Delivery](./Phase07_Polyglot_Delivery/README.md)
+- [Phase 08 – Intelligent Futures](./Phase08_Intelligent_Futures/README.md)
+- [Phase 09 – Leadership Impact](./Phase09_Leadership_Impact/README.md)
 
 ## Progress Tracker
 
