@@ -5,7 +5,7 @@
 | **Learning Level** | Senior engineer or staff-level architect-in-training |
 | **Prerequisites** | Ability to guide cross-functional delivery teams and appetite for first-principles research |
 | **Estimated Time** | 9 phases × 36 hours ≈ 324 hours (each cluster ≈ 4.5 hours) |
-| **Cadence** | Weekly 36-hour design sprint dedicated to one phase; revisit artifacts monthly |
+| **Cadence** | Weekly 36-hour design sprint dedicated to one phase (nine clusters × 4.5 hours); revisit artifacts monthly |
 | **North Star** | Build a self-authored operating system for architecture leadership |
 
 The pathway replaces legacy playbooks with intentionally original research, experiments, and assets. Every cluster ends with something you can show a stakeholder, teach a team, or use to steer an initiative.
@@ -72,7 +72,7 @@ flowchart TB
 ### Operating Rhythm at a Glance
 
 1. **Prime** – Reserve a 36-hour sprint, define three guiding questions, and set success metrics for the phase.  
-2. **Cycle** – Execute nine cluster loops. Each loop contains four 27-minute micro-sessions: framing, experimentation, synthesis, packaging.  
+2. **Cycle** – Execute nine cluster loops. Each loop contains four 27-minute micro-sessions (≈4.5 hours per cluster): framing, experimentation, synthesis, packaging.  
 3. **Review** – Close with a phase retrospective, refresh the progress tracker, and queue cross-team coaching sessions using the new artifacts.  
 4. **Renew** – After a month, revisit the phase, score artifacts against outcomes, and either archive or iterate. Document the change log.
 
