@@ -46,7 +46,7 @@ This policy prevents accidental branch proliferation and keeps changes predictab
 **Current Structure**:
 
 1. **`01_ReferenceLibrary/`** - Active learning content (multi-track expansion)
-2. **`02_LegacyContent/`** - Legacy content with ongoing clean slate removal
+2. **`_backup/`** - Legacy content with ongoing clean slate removal
 
 **Migration Status**: Transitioning from migration to multi-domain content creation while maintaining clean slate approach for successfully migrated legacy content.
 
@@ -133,7 +133,7 @@ When provided with reference materials from books, websites, articles, video cou
     ├── 04_Release-Strategies/          ← Release Management
     └── 05_Scripting-and-Automation/    ← PowerShell, GitHub Actions
 
-02_LegacyContent/                       ← 📁 CONTENT UNDERGOING MIGRATION
+_backup/                           ← 📁 CONTENT UNDERGOING MIGRATION
 ├── COMPREHENSIVE_MIGRATION_PLAN.md     ← Master migration strategy
 ├── MIGRATION_AUDIT_2025-09-05.md      ← Day 2 audit results
 └── _Backup/                            ← Legacy educational content to be migrated
@@ -165,7 +165,7 @@ When provided with reference materials from books, websites, articles, video cou
 - ❌ **Workflow documents**: Intake systems, task management
 - ❌ **Meta content**: Repository organization, processes
 
-**Separation Principle**: Learning content (Reference Library) vs Legacy content (02_LegacyContent/) must remain strictly separated during migration.
+**Separation Principle**: Learning content (Reference Library) vs Legacy content (`_backup/`) must remain strictly separated during migration.
 
 ### **Numbering Convention**
 
@@ -238,7 +238,7 @@ When provided with reference materials from books, websites, articles, video cou
 **CRITICAL**: Maintain strict separation between learning content and planning materials:
 
 - **01_ReferenceLibrary/**: **EXCLUSIVELY** for educational content, tutorials, guides, concepts
-- **02_LegacyContent/**: Contains historical content undergoing systematic migration to Reference Library
+- **\_backup/**: Contains historical content undergoing systematic migration to Reference Library
 - **Never mix**: Learning content must never include planning materials or vice versa
 - **When in doubt**: If content has both learning and planning aspects, extract the pure learning essence for Reference Library
 - **Quality gate**: Before adding content to Reference Library, ask: "Is this purely educational, or does it contain planning/process elements?"
@@ -624,7 +624,7 @@ The repository has undergone **major simplification** - most legacy folders have
 
 ### **Active Migration Tasks**
 
-1. **Content Migration**: Execute comprehensive migration plan from `02_LegacyContent/_Backup/` to `01_ReferenceLibrary/`
+1. **Content Migration**: Execute comprehensive migration plan from `_backup/` to `01_ReferenceLibrary/`
 2. **Duplicate Elimination**: Ensure no content duplication between legacy and reference library
 3. **Quality Enhancement**: Apply STSA methodology to all migrated content
 4. **Link Validation**: Maintain referential integrity during migration
@@ -647,7 +647,7 @@ Before any major changes:
 1. **Backup Check**: Ensure git commits are up to date
 2. **Link Validation**: Run `lychee --config lychee.toml .` to check for broken links
 3. **Markdown Lint**: Run `npx markdownlint-cli2 "**/*.md"` for formatting consistency
-4. **Migration Plan**: Check current migration priorities in `02_LegacyContent/COMPREHENSIVE_MIGRATION_PLAN.md`
+4. **Migration Plan**: Check current migration priorities in `_backup/COMPREHENSIVE_MIGRATION_PLAN.md`
 
 ## 🎯 Repository Health Monitoring
 

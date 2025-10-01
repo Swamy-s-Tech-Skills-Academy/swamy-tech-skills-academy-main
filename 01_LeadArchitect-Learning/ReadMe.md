@@ -106,4 +106,5 @@ flowchart TB
 
 1. Pick the phase that matches your present strategic gap and schedule a dedicated sprint.  
 2. Duplicate the cluster lattice into your workspace, pre-fill deliverable placeholders, and align stakeholders on outputs.  
-3. Establish a monthly “architecture guild” review to socialize artifacts, gather feedback, and plan the next evolution.
+3. Establish a monthly “architecture guild” review to socialize artifacts, gather feedback, and plan the next evolution.  
+4. Explore the [Starter Templates](templates/charter-template.md) folder to jump-start your cluster and phase deliverables.
