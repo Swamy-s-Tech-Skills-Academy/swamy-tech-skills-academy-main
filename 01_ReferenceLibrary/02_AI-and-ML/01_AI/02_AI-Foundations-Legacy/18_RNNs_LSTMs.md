@@ -8,7 +8,7 @@ Recurrent Neural Networks (RNNs) are a class of neural networks designed to proc
 
 RNNs process sequences by maintaining a hidden state that gets updated at each time step:
 
-```
+```text
 h_t = f(W_hh * h_{t-1} + W_xh * x_t + b_h)
 y_t = W_hy * h_t + b_y
 ```
@@ -107,7 +107,7 @@ o_t = σ(W_o · [h_{t-1}, x_t] + b_o)
 
 The cell state is updated through gated operations:
 
-```
+```text
 C_t = f_t * C_{t-1} + i_t * C̃_t
 h_t = o_t * tanh(C_t)
 ```

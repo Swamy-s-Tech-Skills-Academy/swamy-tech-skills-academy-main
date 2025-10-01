@@ -248,7 +248,7 @@ Certainly! In UML, **empty** and **filled diamonds** represent different types o
 
 #### Notation Example
 
-```
+```text
 Library ◇— Book
 ```
 
@@ -265,7 +265,7 @@ Library ◇— Book
 
 #### Notation Example
 
-```
+```text
 House ◆— Room
 ```
 
