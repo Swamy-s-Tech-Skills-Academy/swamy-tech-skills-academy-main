@@ -1,7 +1,14 @@
-# SOLID Principles Quick Reference 🎯
+# SOLID Principles Quick## SRP Definition
 
-> **Quick Access**: Essential principles for clean, maintainable code  
-> **Context**: Code reviews, mentoring, .NET development, interview prep  
+A class should have only ONE reason to change.Reference 🎯
+
+> **Quick Access**: Essen## OCP Definition
+
+Open for extension, closed for modification.ial principles for clean, maintainable code  
+
+>## LSP Definition
+
+Subclasses must be substitutable for their base classes.**Context**: Code reviews, mentoring, .NET development, interview prep  
 > **Last Updated**: Week 2 Implementation
 
 ---

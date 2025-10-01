@@ -525,4 +525,4 @@ As a **Curious Learner**, you understand that mastery is not a destination but a
 
 **Last Updated**: September 7, 2025  
 **Maintained By**: STSA Learning System  
-**Achievement Level**: � **CURIOUS LEARNER** �
+**Achievement Level**: 🌟 **CURIOUS LEARNER** 🌟

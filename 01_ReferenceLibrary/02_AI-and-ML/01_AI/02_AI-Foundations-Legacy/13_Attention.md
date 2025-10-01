@@ -6,7 +6,7 @@ Attention mechanisms allow models to dynamically focus on different parts of an 
 
 Given query (q), key (k), and value (v) matrices, attention is computed as:
 
-```
+```text
 Attention(Q, K, V) = softmax( (Q K^T) / sqrt(d_k) ) V
 ```
 
