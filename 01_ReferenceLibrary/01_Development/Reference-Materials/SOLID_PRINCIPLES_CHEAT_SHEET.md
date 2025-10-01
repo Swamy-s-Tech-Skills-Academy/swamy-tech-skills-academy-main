@@ -318,9 +318,11 @@ Writing new code? Ask yourself:
 
 ## 📚 **Related Quick References**
 
+- [Enterprise SOLID Principles](../../07_Enterprise-Architecture/01_Architecture-Principles/01_Enterprise-SOLID-Principles.md) - Architectural governance application
 - [Design Patterns Decision Matrix](DESIGN_PATTERNS_QUICK_REF.md)
 - [Architecture Patterns Overview](ARCHITECTURE_PATTERNS_MATRIX.md)
 - [System Design Checklist](SYSTEM_DESIGN_CHECKLIST.md)
+- [Product Delivery Excellence](../../08_Product-Delivery/01_Product-Delivery-Excellence.md) - Business value delivery
 
 ---
 

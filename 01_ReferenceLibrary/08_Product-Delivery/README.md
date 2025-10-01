@@ -25,7 +25,22 @@ Product delivery transforms technology capability into customer value. This trac
 
 ## 📚 Learning Domains
 
-### **01_Agile-Fundamentals/** *(Foundation)*
+### **01_Delivery-Excellence/** *(Foundation)*
+
+Enterprise product delivery and value stream optimization
+
+- [Product Delivery Excellence](01_Product-Delivery-Excellence.md) - End-to-end delivery frameworks
+- Value-driven pipeline architecture and quality orchestration
+- Release management and market feedback integration
+- Delivery metrics and continuous improvement
+- Business outcome alignment and customer value realization
+
+**Estimated Time**: 3-4 weeks  
+**Prerequisites**: [Enterprise Architecture](../07_Enterprise-Architecture/), [DevOps fundamentals](../04_DevOps/)  
+**Builds Upon**: [Cloud Platforms](../05_Cloud-Platforms/), Development practices  
+**Enables**: Advanced delivery leadership and strategic product management
+
+### **02_Agile-Fundamentals/** *(Foundation)*
 
 Core agile principles and Scrum framework
 
@@ -35,7 +50,7 @@ Core agile principles and Scrum framework
 - Agile metrics (velocity, cycle time, throughput)
 
 **Estimated Time**: 2-3 weeks  
-**Prerequisites**: None
+**Prerequisites**: Delivery excellence foundations
 
 ### **02_Lean-Product-Development/** *(Strategic)*
 

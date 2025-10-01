@@ -165,8 +165,11 @@ Data Sources → Data Factory → Data Lake → Synapse Analytics → Power BI
 
 **Enables:**
 
-- [Azure Security & Compliance](02_Azure-Security-Patterns.md) (planned)
-- [Azure Cost Optimization](03_Azure-Cost-Management.md) (planned)
+- [Azure Security Patterns](02_Azure-Security-Patterns.md) - Enterprise security architecture
+- [Azure Cost Management](03_Azure-Cost-Management.md) - Financial governance and optimization
+- Advanced Azure service implementations
+- [Enterprise Architecture](../../07_Enterprise-Architecture/) patterns
+- [Product Delivery](../../08_Product-Delivery/) with Azure platforms
 
 **Cross-References:**
 
@@ -183,4 +186,3 @@ Data Sources → Data Factory → Data Lake → Synapse Analytics → Power BI
 ---
 
 Part of the Swamy's Tech Skills Academy Lead Architect Learning System
-

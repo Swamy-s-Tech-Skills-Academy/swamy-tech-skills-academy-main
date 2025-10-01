@@ -76,12 +76,14 @@ Modern DevOps practices and infrastructure management
 Multi-cloud strategy, platform engineering, and FinOps
 
 - **Cloud Fundamentals** - IaaS, PaaS, SaaS, and service models
-- **AWS, Azure, GCP Platforms** - Provider-specific expertise
+- **[Azure Platform](05_Cloud-Platforms/02_Azure-Platform/)** - Azure Essentials, Security Patterns, Cost Management
+- **AWS, GCP Platforms** - Provider-specific expertise
 - **Hybrid & Multi-Cloud** - Cross-cloud architectures
 - **Cloud FinOps** - Cost optimization and governance
 - **Platform Engineering** - Self-service infrastructure
 
-**Perfect for**: Cloud architects, platform engineers, technical directors
+**Perfect for**: Cloud architects, platform engineers, technical directors  
+**Integrates with**: [Enterprise Architecture](07_Enterprise-Architecture/), [Product Delivery](08_Product-Delivery/)
 
 ### **🔐 [06_Security-Governance/](06_Security-Governance/)** - Security & Compliance Track
 
@@ -100,27 +102,31 @@ Zero-trust architecture, compliance, and risk management
 
 Enterprise-scale architecture and strategic technology decisions
 
-- **Architecture Fundamentals** - TOGAF, Zachman, modern EA frameworks
+- **[Architecture Principles](07_Enterprise-Architecture/01_Architecture-Principles/)** - Enterprise SOLID Principles, governance frameworks
 - **Capability-Based Planning** - Business-technology alignment
 - **Domain-Driven Design** - Strategic DDD at portfolio scale
 - **Integration Patterns** - API management, event-driven architecture
 - **Reference Architectures** - Proven patterns and blueprints
 - **Architecture Governance** - ADRs, review boards, standards
 
-**Perfect for**: Enterprise architects, solution architects, technical directors
+**Perfect for**: Enterprise architects, solution architects, technical directors  
+**Builds Upon**: [Development](01_Development/), [Cloud Platforms](05_Cloud-Platforms/)  
+**Enables**: [Product Delivery](08_Product-Delivery/), [Leadership Strategy](09_Leadership-Strategy/)
 
 ### **🚀 [08_Product-Delivery/](08_Product-Delivery/)** - Agile & Product Track
 
 Modern product delivery and value stream optimization
 
+- **[Delivery Excellence](08_Product-Delivery/01_Product-Delivery-Excellence.md)** - End-to-end delivery frameworks
 - **Agile & Lean Fundamentals** - Scrum, Kanban, Lean Startup
 - **Dual-Track Agile** - Parallel discovery and delivery
 - **Value Stream Mapping** - Flow optimization and bottleneck removal
 - **Experimentation Frameworks** - A/B testing, feature flags
 - **Team Topologies** - Organizational design for fast flow
-- **Product Operating Models** - Scaling product delivery
 
-**Perfect for**: Product managers, engineering managers, delivery leads, agile coaches
+**Perfect for**: Product managers, engineering managers, delivery leads, agile coaches  
+**Builds Upon**: [Enterprise Architecture](07_Enterprise-Architecture/), [DevOps](04_DevOps/)  
+**Integrates with**: [Cloud Platforms](05_Cloud-Platforms/), [Development](01_Development/)
 
 ### **🎯 [09_Leadership-Strategy/](09_Leadership-Strategy/)** - Leadership Excellence Track
 

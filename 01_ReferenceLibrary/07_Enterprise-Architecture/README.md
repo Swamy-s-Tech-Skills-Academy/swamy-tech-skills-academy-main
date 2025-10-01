@@ -25,17 +25,20 @@ Enterprise architecture bridges business strategy and technology execution. This
 
 ## 📚 Learning Domains
 
-### **01_Architecture-Fundamentals/** *(Foundation)*
+### **01_Architecture-Principles/** *(Foundation)*
 
-Core enterprise architecture concepts and frameworks
+Core enterprise architecture governance and principles
 
+- [Enterprise SOLID Principles](01_Architecture-Principles/01_Enterprise-SOLID-Principles.md) - Architectural governance frameworks
 - Enterprise architecture definition and value proposition
 - TOGAF, Zachman, and modern EA frameworks
 - Architecture layers (business, data, application, technology)
 - Stakeholder management and architecture communication
 
-**Estimated Time**: 2-3 weeks  
-**Prerequisites**: System design basics
+**Estimated Time**: 3-4 weeks  
+**Prerequisites**: [Development fundamentals](../01_Development/), System design basics  
+**Builds Upon**: [Cloud Platforms](../05_Cloud-Platforms/), [DevOps practices](../04_DevOps/)  
+**Enables**: [Product Delivery](../08_Product-Delivery/), [Leadership Strategy](../09_Leadership-Strategy/)
 
 ### **02_Capability-Based-Planning/** *(Strategic)*
 

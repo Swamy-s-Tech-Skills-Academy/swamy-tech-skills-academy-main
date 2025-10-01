@@ -25,7 +25,9 @@ Position automation as an accelerator for quality and velocity across branching 
 
 ## Forward Links
 
-- TBD (DevOps track integration)
+- [Product Delivery Excellence](../../08_Product-Delivery/01_Product-Delivery-Excellence.md) - Comprehensive delivery frameworks
+- [DevOps CI/CD Fundamentals](../../04_DevOps/01_CI-CD-Fundamentals/) - Technical pipeline implementation
+- [Enterprise Architecture](../../07_Enterprise-Architecture/) - Governance and architectural patterns
 
 ## Backward Links
 

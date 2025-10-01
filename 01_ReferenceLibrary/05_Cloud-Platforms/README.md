@@ -48,17 +48,19 @@ Amazon Web Services ecosystem and architecture
 **Estimated Time**: 4-6 weeks  
 **Prerequisites**: Cloud fundamentals
 
-### **03_Azure-Platform/** *(Provider-Specific)*
+### **02_Azure-Platform/** *(Provider-Specific)*
 
 Microsoft Azure ecosystem and enterprise integration
 
-- Core services (VMs, Storage, SQL, Functions, AKS)
+- [Azure Essentials](02_Azure-Platform/01_Azure-Essentials.md) - Core services and platform foundations
+- [Azure Security Patterns](02_Azure-Platform/02_Azure-Security-Patterns.md) - Enterprise security architecture
+- [Azure Cost Management](02_Azure-Platform/03_Azure-Cost-Management.md) - Financial governance and optimization
 - Cloud Adoption Framework and landing zones
-- Azure governance (Policy, Blueprints, Cost Management)
 - Enterprise integration patterns (AD, hybrid identity)
 
 **Estimated Time**: 4-6 weeks  
-**Prerequisites**: Cloud fundamentals
+**Prerequisites**: Cloud fundamentals  
+**Enables**: [Enterprise Architecture](../07_Enterprise-Architecture/), [Product Delivery](../08_Product-Delivery/)
 
 ### **04_GCP-Platform/** *(Provider-Specific)*
 
