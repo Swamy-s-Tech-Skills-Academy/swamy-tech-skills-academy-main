@@ -26,7 +26,7 @@ GANs consist of two competing neural networks:
 
 The training objective is formulated as a minimax game:
 
-```
+```text
 min_G max_D V(D,G) = E_x~p_data(x)[log D(x)] + E_z~p_z(z)[log(1 - D(G(z)))]
 ```
 

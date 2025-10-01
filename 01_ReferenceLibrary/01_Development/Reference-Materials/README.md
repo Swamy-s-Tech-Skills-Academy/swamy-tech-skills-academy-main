@@ -103,7 +103,7 @@
 
 ## 📊 **Reference Hierarchy**
 
-```
+```text
 🎨 SOLID Principles (Code Level)
     ↓ Applied through
 🧱 Design Patterns (Solution Level)

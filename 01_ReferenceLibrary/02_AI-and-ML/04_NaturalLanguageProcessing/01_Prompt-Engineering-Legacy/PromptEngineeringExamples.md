@@ -100,7 +100,7 @@ Provide feedback in this format:
 [Improved code]
 ```
 
-````
+````text
 
 #### **API Documentation Generator**
 ```text
@@ -143,7 +143,7 @@ paths:
           description: [Error description]
 ````
 
-````
+````text
 
 ---
 
@@ -305,7 +305,7 @@ LIMIT [if applicable];
 - Assumptions: [Any assumptions made]
 - Alternatives: [Other approaches considered]
 
-````
+````text
 
 ---
 

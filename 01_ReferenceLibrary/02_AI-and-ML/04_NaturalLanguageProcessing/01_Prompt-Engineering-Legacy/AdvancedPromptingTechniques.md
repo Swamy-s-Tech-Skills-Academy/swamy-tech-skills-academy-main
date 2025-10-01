@@ -144,7 +144,7 @@ Please review using this format:
 [Improved code here]
 ````
 
-````
+````text
 
 ---
 
@@ -232,7 +232,7 @@ Focus on:
 - Data exposure risks
 - Injection vulnerabilities
 
-```
+```text
 
 ---
 
