@@ -86,7 +86,7 @@ Let’s go through a small example to give you hands-on understanding. Suppose w
 
 Each UML diagram type provides unique insights into different parts of a system. You could start by trying to create a **Use Case Diagram** for an application idea or go in-depth with the **Class Diagram** for a system you know well. Let me know if you'd like guidance with any specific diagram or a deeper dive into a particular example!
 
-## Q
+## Q: UML Symbols Overview
 
 > Could you please speak about the UML symbols?
 
@@ -231,7 +231,7 @@ These diagrams combine elements from sequence and activity diagrams.
 
 These symbols will help you create, read, and understand various UML diagrams. Let me know if you’d like more detail on a specific diagram or if you’re ready to start creating one!
 
-## Q
+## Q: Diamond Symbols
 
 > Empty Dimond, Filled Dimond etc?
 
@@ -246,7 +246,7 @@ Certainly! In UML, **empty** and **filled diamonds** represent different types o
 - **Example**: Think of a `Library` and `Books`. A `Library` aggregates (contains) `Books`, but the `Books` can exist without the `Library`.
 - **Interpretation**: This implies a loose relationship, where the whole can use the parts, but the parts can also exist independently.
 
-#### Notation Example
+#### Aggregation Notation Example
 
 ```text
 Library ◇— Book
@@ -263,7 +263,7 @@ Library ◇— Book
 - **Example**: Think of a `House` and `Rooms`. If the `House` is destroyed, the `Rooms` cease to exist as well.
 - **Interpretation**: Composition implies ownership, with a strong lifecycle dependency between the whole and its parts.
 
-#### Notation Example
+#### Composition Notation Example
 
 ```text
 House ◆— Room
@@ -286,7 +286,7 @@ House ◆— Room
 
 These diamond notations make it easy to distinguish between relationships where objects can exist independently (aggregation) and where they have a dependent lifecycle (composition).
 
-## Q
+## Q: Complete UML Symbols List
 
 > Could you please give me the complete list of symbols and its usage?
 
@@ -472,7 +472,7 @@ Certainly! Here’s a comprehensive list of the most common UML symbols along wi
 
 This overview covers the primary symbols across UML diagrams, providing a solid foundation for understanding and creating UML diagrams! Let me know if you’d like details on any specific symbol.
 
-## Q
+## Q: Empty Triangle Symbol
 
 > What is Empty Triangle? This is in Class diagram
 
@@ -490,7 +490,7 @@ In UML, an **empty triangle** (often called an **open arrow** or **white triangl
   - Let’s say we have a `Vehicle` class with subclasses `Car` and `Bike`.
   - The empty triangle would point from `Car` and `Bike` to `Vehicle`, indicating that both `Car` and `Bike` inherit from `Vehicle`.
 
-#### Notation Example
+#### Inheritance Notation Example
 
 ```plaintext
     Vehicle
@@ -515,7 +515,7 @@ In UML, an **empty triangle** (often called an **open arrow** or **white triangl
 
 This is a fundamental part of UML, as it allows you to see how inheritance structures work and which classes are meant to be generalized or specialized.
 
-## Q
+## Q: Complete UML Symbols Reference
 
 > Could you please give me a complete list of Symbols used in UML. That will be of great help
 
@@ -772,7 +772,7 @@ These symbols represent dynamic behavior in the system.
 
 This list provides a solid foundation for UML diagrams across different perspectives. Let me know if you'd like to focus on any symbol for more depth or examples! Good luck with your interview preparation!
 
-## Q
+## Q: Detailed UML Diagram Examples
 
 > Could you please give one detailed sample for each. This should have all the items and symbols. Example: Parent Class its properties and method, child class using parent etc
 
@@ -786,7 +786,7 @@ Certainly! Here’s a comprehensive example for each diagram type, using a simpl
 
 In this example, let’s model a library with **classes** such as `Library`, `Book`, `Member`, and `Librarian`. The diagram will show **inheritance**, **aggregation**, **composition**, **associations**, and **dependencies**.
 
-### Symbols and Explanation
+### Class Diagram Symbols and Explanation
 
 - **Class**: Each class will have properties (attributes) and methods (operations).
 - **Inheritance**: `Librarian` and `Member` will inherit from `Person`.
@@ -794,7 +794,7 @@ In this example, let’s model a library with **classes** such as `Library`, `Bo
 - **Aggregation**: `Library` has a collection of `Books`, which can exist outside the `Library`.
 - **Dependency**: `Librarian` depends on `Library`.
 
-### Diagram
+### Class Diagram
 
 ```plaintext
                 +---------------+
@@ -859,17 +859,17 @@ In this example, let’s model a library with **classes** such as `Library`, `Bo
 
 ## **2. Component Diagram**
 
-### Context
+### Component Diagram Context
 
 In a library system, we have various components: `Library Management`, `User Management`, and `Book Inventory`.
 
-### Symbols and Explanation
+### Component Diagram Symbols and Explanation
 
 - **Component**: Each system part is a component.
 - **Interface (Lollipop)**: Each component has interfaces it provides to other components.
 - **Required Interface (Socket)**: Components may also require interfaces from other components.
 
-### Diagram
+### Component Diagram
 
 ```plaintext
          +-------------------+
@@ -892,7 +892,7 @@ In a library system, we have various components: `Library Management`, `User Man
  +------------------+      +----------------------+
 ```
 
-### Explanation
+### Component Diagram Explanation
 
 - The `Library Management` component provides an interface for managing books and inventory.
 - `User Management` provides user-related functionalities.
@@ -902,17 +902,17 @@ In a library system, we have various components: `Library Management`, `User Man
 
 ## **3. Deployment Diagram**
 
-### Context
+### Deployment Diagram Context
 
 A library management system deployed on different servers and devices, with components running on different nodes.
 
-### Symbols and Explanation
+### Deployment Diagram Symbols and Explanation
 
 - **Node**: Represents servers or devices.
 - **Artifact**: Represents software components like `Library Management System` and `Database`.
 - **Communication Path**: Shows the connection between nodes.
 
-### Diagram
+### Deployment Diagram
 
 ```plaintext
          +-----------------------------+
@@ -932,7 +932,7 @@ A library management system deployed on different servers and devices, with comp
         +-----------------------------+
 ```
 
-### Explanation
+### Deployment Diagram Explanation
 
 - The `Web Server` node hosts `LibraryMgmtApp.jar` and `UserMgmtApp.jar`.
 - The `Database Server` node contains `LibraryDB`, which the applications on the Web Server communicate with.
@@ -941,17 +941,17 @@ A library management system deployed on different servers and devices, with comp
 
 ## **4. Use Case Diagram**
 
-### Context
+### Use Case Diagram Context
 
 We model the use cases of a library system for actors such as `Member` and `Librarian`.
 
-### Symbols and Explanation
+### Use Case Diagram Symbols and Explanation
 
 - **Actor**: Represents the roles (`Member` and `Librarian`).
 - **Use Case**: Represents system functionality like `Borrow Book` and `Return Book`.
 - **Include** and **Extend**: Shows optional and dependent use cases.
 
-### Diagram
+### Use Case Diagram
 
 ```plaintext
                 +-------------+
@@ -974,7 +974,7 @@ We model the use cases of a library system for actors such as `Member` and `Libr
                 +-------------+
 ```
 
-### Explanation
+### Use Case Diagram Explanation
 
 - `Librarian` can manage books, and `Member` can borrow or return books.
 - The `Borrow Book` use case may include validation for availability, shown with an include relationship.
@@ -983,7 +983,7 @@ We model the use cases of a library system for actors such as `Member` and `Libr
 
 ## **5. Sequence Diagram**
 
-### Context
+### Sequence Diagram Context
 
 A sequence of a `Member` borrowing a book.
 
@@ -993,7 +993,7 @@ A sequence of a `Member` borrowing a book.
 - **Activation Bar**: Shows when each object is active.
 - **Message**: Communication between objects.
 
-### Diagram
+### Sequence Diagram
 
 ```plaintext
 Member           Library           Book
@@ -1006,7 +1006,7 @@ Member           Library           Book
   |                |                |
 ```
 
-### Explanation
+### Sequence Diagram Explanation
 
 - `Member` initiates a `borrowBook()` request to the `Library`.
 - `Library` checks the `Book` and confirms availability.
@@ -1015,17 +1015,17 @@ Member           Library           Book
 
 ## **6. Activity Diagram**
 
-### Context
+### Activity Diagram Context
 
 Shows the flow for a `Member` borrowing a book.
 
-### Symbols and Explanation
+### Activity Diagram Symbols and Explanation
 
 - **Activity**: Each action like `Check Availability`.
 - **Decision Node**: Branches for available vs. not available.
 - **Fork/Join**: Parallel actions.
 
-### Diagram
+### Activity Diagram
 
 ```plaintext
    ● → Check Availability
@@ -1040,7 +1040,7 @@ Shows the flow for a `Member` borrowing a book.
       ● (end)
 ```
 
-### Explanation
+### Activity Diagram Explanation
 
 - Checks if the book is available, borrows it if yes, and updates the inventory.
 
@@ -1048,16 +1048,16 @@ Shows the flow for a `Member` borrowing a book.
 
 ## **7. State Machine Diagram**
 
-### Context
+### State Machine Diagram Context
 
 State transitions of a `Book`.
 
-### Symbols and Explanation
+### State Machine Diagram Symbols and Explanation
 
 - **State**: Each state like `Available` and `Borrowed`.
 - **Transition**: Arrows showing state changes.
 
-### Diagram
+### State Machine Diagram
 
 ```plaintext
       +----------+
@@ -1075,7 +1075,7 @@ State transitions of a `Book`.
       +----------+
 ```
 
-### Explanation
+### State Machine Diagram Explanation
 
 - A `Book` can be `Available`, then transition to `Borrowed`, then to `Reserved`.
 
@@ -1083,17 +1083,17 @@ State transitions of a `Book`.
 
 ## **8. Collaboration Diagram**
 
-### Context
+### Collaboration Diagram Context
 
 Interactions between objects when a book is borrowed.
 
-### Symbols and Explanation
+### Collaboration Diagram Symbols and Explanation
 
 - **Objects**: `Member`, `Library`, `Book`.
 - **Link**: Connects objects.
 - **Message**: Sequence of interactions.
 
-### Diagram
+### Collaboration Diagram
 
 ```plaintext
      Member               Library              Book
@@ -1101,7 +1101,13 @@ Interactions between objects when a book is borrowed.
         |--1:borrowBook()-->|                   |
         |                   |--2:checkStatus--->|
         |                   |<--3:available-----|
-        |<--4:confirmBorrow--|
+                |<--4:confirmBorrow--|
+```
+
+### Collaboration Diagram Explanation
+
+- `Member` borrows a book through `Library`, which checks the book's status.
+
 ```
 
 ### Explanation
