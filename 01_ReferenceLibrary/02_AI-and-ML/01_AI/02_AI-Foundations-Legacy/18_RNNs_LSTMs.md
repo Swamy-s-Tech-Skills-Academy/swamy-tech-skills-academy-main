@@ -82,7 +82,7 @@ LSTMs address RNN limitations through a sophisticated gating mechanism:
 
 Determines what information to discard from cell state:
 
-```
+```text
 f_t = σ(W_f · [h_{t-1}, x_t] + b_f)
 ```
 
@@ -90,7 +90,7 @@ f_t = σ(W_f · [h_{t-1}, x_t] + b_f)
 
 Controls what new information to store:
 
-```
+```text
 i_t = σ(W_i · [h_{t-1}, x_t] + b_i)
 C̃_t = tanh(W_C · [h_{t-1}, x_t] + b_C)
 ```
@@ -99,7 +99,7 @@ C̃_t = tanh(W_C · [h_{t-1}, x_t] + b_C)
 
 Determines what parts of cell state to output:
 
-```
+```text
 o_t = σ(W_o · [h_{t-1}, x_t] + b_o)
 ```
 
@@ -145,25 +145,25 @@ GRUs combine forget and input gates into a single update gate:
 
 #### Reset Gate
 
-```
+```text
 r_t = σ(W_r · [h_{t-1}, x_t])
 ```
 
 #### Update Gate
 
-```
+```text
 z_t = σ(W_z · [h_{t-1}, x_t])
 ```
 
 #### Candidate Hidden State
 
-```
+```text
 h̃_t = tanh(W · [r_t * h_{t-1}, x_t])
 ```
 
 #### Final Hidden State
 
-```
+```text
 h_t = (1 - z_t) * h_{t-1} + z_t * h̃_t
 ```
 

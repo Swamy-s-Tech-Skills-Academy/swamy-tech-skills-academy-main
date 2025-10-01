@@ -283,7 +283,7 @@ public interface INotificationService {
 
 ## 🚀 **Quick Decision Tree**
 
-```
+```text
 Writing new code? Ask yourself:
 
 1. "What's this class responsible for?"

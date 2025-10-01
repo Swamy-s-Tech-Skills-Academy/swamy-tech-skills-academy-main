@@ -1,6 +1,10 @@
 # 🤖 Transformers: The Architecture That Ch```text
 
-Attention(Q, K, V) = softmax(QK^T / √d_k)V
+**The Attention Formula:**
+
+```text
+Attention(Q, K, V) = softmax(Q *K^T / √d_k)* V
+```
 
 ```ed AI
 
@@ -45,7 +49,7 @@ Self-attention allows each word to "look at" every other word in the sequence an
 
 **The Attention Formula:**
 
-```
+```text
 
 Attention(Q, K, V) = softmax(Q *K^T / √d_k)* V
 
@@ -91,7 +95,7 @@ Instead of one attention operation, Transformers use multiple "attention heads" 
 
 After attention, each position is processed through a simple neural network:
 
-```
+```text
 
 FFN(x) = ReLU(x *W1 + b1)* W2 + b2
 
@@ -123,7 +127,7 @@ Since attention is permutation-invariant, we need to inject positional informati
 
 **Residual Connections:**
 
-```
+```text
 
 output = LayerNorm(x + Attention(x))
 output = LayerNorm(output + FFN(output))
