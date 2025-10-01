@@ -101,6 +101,7 @@ gantt
 
 ## 🧵 Cross-links and next steps
 
+- Review the [Phase 01 Templates Toolkit](./01_Templates/README.md) before starting each cluster so you can instantiate the matching artifact scaffolds during the 10-loop cadence.
 - Start with the detailed `[Week 1 – Mindset Reorientation](./Cluster01_Reorient_Mindset/00_Week01_Mindset_Reorientation.md)` plan and execute Loop 01 today.
 - Use `[Day 1 – Perspective Reset](./Cluster01_Reorient_Mindset/01_Day01_Perspective_Reset.md)` as your template for daily execution.
 - Review the enterprise-wide `[Lead Architect Learning Path](../README.md)` for progression context and downstream prerequisites.
