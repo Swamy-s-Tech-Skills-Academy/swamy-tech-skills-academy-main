@@ -36,7 +36,7 @@ Core cloud concepts and service models
 **Estimated Time**: 2-3 weeks  
 **Prerequisites**: Infrastructure fundamentals
 
-### **02_AWS-Platform/** *(Provider-Specific)*
+### **03_AWS-Platform/** *(Provider-Specific)*
 
 Amazon Web Services ecosystem and architecture
 
@@ -74,9 +74,33 @@ Google Cloud Platform and data-centric services
 **Estimated Time**: 3-4 weeks  
 **Prerequisites**: Cloud fundamentals
 
-### **05_Hybrid-Multi-Cloud/** *(Advanced Integration)*
+### **05_Multi-Cloud-Hybrid/** *(Advanced Integration)*
 
 Cross-cloud architecture and orchestration
+
+- Multi-cloud deployment strategies
+- Hybrid connectivity patterns
+- Cross-cloud data synchronization
+- Vendor-agnostic architecture design
+
+**Estimated Time**: 3-4 weeks  
+**Prerequisites**: Knowledge of at least two cloud platforms
+
+### **06_Cloud-Native-Applications/** *(Application Patterns)*
+
+Cloud-native development and deployment patterns
+
+- 12-factor application principles
+- Container orchestration with Kubernetes
+- Microservices architecture patterns
+- Cloud-native observability and monitoring
+
+**Estimated Time**: 3-4 weeks  
+**Prerequisites**: Container fundamentals, microservices concepts
+
+### **07_Cloud-Security-Governance/** *(Security & Compliance)*
+
+Enterprise cloud security and governance frameworks
 
 - Multi-cloud design patterns and trade-offs
 - Hybrid connectivity (VPN, ExpressRoute, Direct Connect)

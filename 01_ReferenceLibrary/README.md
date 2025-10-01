@@ -68,19 +68,21 @@ Modern DevOps practices and infrastructure management
 - **[02_Infrastructure-as-Code/](04_DevOps/02_Infrastructure-as-Code/)** - IaC and infrastructure management
 - **[03_Observability-and-Monitoring/](04_DevOps/03_Observability-and-Monitoring/)** - System monitoring and observability
 - **[04_Release-Strategies/](04_DevOps/04_Release-Strategies/)** - Deployment strategies and release management
+- **[05_Scripting-and-Automation/](04_DevOps/05_Scripting-and-Automation/)** - PowerShell, Bash, and automation frameworks
 
 **Perfect for**: DevOps engineers, SREs, and infrastructure architects
 
 ### **☁️ [05_Cloud-Platforms/](05_Cloud-Platforms/)** - Cloud Architecture Track
 
-Multi-cloud strategy, platform engineering, and FinOps
+Complete multi-cloud platform mastery from fundamentals to advanced strategies
 
-- **Cloud Fundamentals** - IaaS, PaaS, SaaS, and service models
-- **[Azure Platform](05_Cloud-Platforms/02_Azure-Platform/)** - Azure Essentials, Security Patterns, Cost Management
-- **AWS, GCP Platforms** - Provider-specific expertise
-- **Hybrid & Multi-Cloud** - Cross-cloud architectures
-- **Cloud FinOps** - Cost optimization and governance
-- **Platform Engineering** - Self-service infrastructure
+- **[01_Azure-Platform/](05_Cloud-Platforms/01_Azure-Platform/)** - Azure essentials, security patterns, cost management
+- **[02_Platform-Comparison/](05_Cloud-Platforms/02_Platform-Comparison/)** - Multi-cloud decision frameworks
+- **[03_AWS-Platform/](05_Cloud-Platforms/03_AWS-Platform/)** - AWS services, best practices, and architecture patterns
+- **[04_GCP-Platform/](05_Cloud-Platforms/04_GCP-Platform/)** - Google Cloud expertise and migration strategies
+- **[05_Multi-Cloud-Hybrid/](05_Cloud-Platforms/05_Multi-Cloud-Hybrid/)** - Cross-cloud architectures and hybrid strategies
+- **[06_Cloud-Native-Applications/](05_Cloud-Platforms/06_Cloud-Native-Applications/)** - Microservices, containers, and serverless
+- **[07_Cloud-Security-Governance/](05_Cloud-Platforms/07_Cloud-Security-Governance/)** - Security, compliance, and governance
 
 **Perfect for**: Cloud architects, platform engineers, technical directors  
 **Integrates with**: [Enterprise Architecture](07_Enterprise-Architecture/), [Product Delivery](08_Product-Delivery/)
