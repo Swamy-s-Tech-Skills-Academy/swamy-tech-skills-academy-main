@@ -104,6 +104,7 @@ gantt
 - Start with the detailed `[Week 1 – Mindset Reorientation](./Cluster01_Reorient_Mindset/00_Week01_Mindset_Reorientation.md)` plan and execute Loop 01 today.
 - Use `[Day 1 – Perspective Reset](./Cluster01_Reorient_Mindset/01_Day01_Perspective_Reset.md)` as your template for daily execution.
 - Review the enterprise-wide `[Lead Architect Learning Path](../README.md)` for progression context and downstream prerequisites.
+- When you enter Part C, progress through `[Week 7 – Guardrail Charter](./Cluster07_Guardrail_Charter/00_Week07_Guardrail_Charter.md)`, `[Week 8 – Exploration Engine](./Cluster08_Exploration_Engine/00_Week08_Exploration_Engine.md)`, and `[Week 9 – Reboot Declaration](./Cluster09_Reboot_Declaration/00_Week09_Reboot_Declaration.md)` to lock in standards and publish the doctrine.
 - Prepare a parking lot for insights that naturally feed Phase 02 (Execution Architect) so the baton pass stays clean.
 
 ## 🔗 Related topics
