@@ -30,16 +30,9 @@ For a sequence map and cross-links across DevOps domains, see the DevOps Pathway
 ### **🏗️ [02_Infrastructure-as-Code/](02_Infrastructure-as-Code/)** - Declarative Infrastructure
 
 - **Purpose**: Version-controlled, repeatable infrastructure management
-- **Content**: IaC principles, cloud platforms, containerization, orchestration
-- **Prerequisites**: CI/CD fundamentals, cloud platform basics
+- **Content**: IaC principles, containerization, orchestration, infrastructure automation
+- **Prerequisites**: CI/CD fundamentals, basic networking
 - **Enables**: Scalable, consistent infrastructure deployment and management
-
-### **☁️ [06_Cloud-Architecture/](06_Cloud-Architecture/)** - Cloud Platform Fundamentals
-
-- **Purpose**: Multi-cloud architecture patterns and provider-specific implementations
-- **Content**: Azure, AWS, GCP services, cloud-native applications, security, hybrid strategies
-- **Prerequisites**: Infrastructure as Code basics, networking fundamentals
-- **Enables**: Cloud-native development, multi-cloud deployments, enterprise cloud migrations
 
 ### **📊 [03_Observability-and-Monitoring/](03_Observability-and-Monitoring/)** - System Insights
 
@@ -54,6 +47,13 @@ For a sequence map and cross-links across DevOps domains, see the DevOps Pathway
 - **Content**: Blue-green deployments, canary releases, feature flags, rollback strategies
 - **Prerequisites**: CI/CD mastery, monitoring capabilities
 - **Enables**: Zero-downtime deployments, gradual feature rollouts, rapid issue recovery
+
+### **⚙️ [05_Scripting-and-Automation/](05_Scripting-and-Automation/)** - Operational Automation
+
+- **Purpose**: Automated operations and infrastructure management
+- **Content**: PowerShell, Bash scripting, automation frameworks, configuration management
+- **Prerequisites**: Basic scripting knowledge, infrastructure understanding
+- **Enables**: Efficient operations, reduced manual work, consistent environments
 
 ---
 

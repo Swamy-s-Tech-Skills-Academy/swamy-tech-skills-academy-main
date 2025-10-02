@@ -1,3 +1,17 @@
+# OOP Abstraction and Encapsulation
+
+**Learning Level**: Intermediate  
+**Prerequisites**: Basic OOP concepts, Classes and Objects  
+**Estimated Time**: 27 minutes
+
+## 🎯 Learning Objectives
+
+By the end of this 27-minute session, you will:
+
+- Understand the fundamental differences between abstraction and encapsulation
+- Apply both principles effectively in object-oriented design
+- Recognize when and how to use each principle for better code organization
+
 **Abstraction** and **Encapsulation** are two fundamental principles of Object-Oriented Programming (OOP), and while they are closely related, they serve different purposes. Here's a comparison:
 
 ---

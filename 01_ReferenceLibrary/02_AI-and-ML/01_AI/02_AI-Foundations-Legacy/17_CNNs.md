@@ -18,13 +18,13 @@ Convolutional layers are the fundamental building blocks of CNNs that apply lear
 
 The convolution operation can be expressed as:
 
-```
+```text
 (f * g)(t) = Σ f(τ) * g(t - τ)
 ```
 
 For 2D images:
 
-```
+```text
 (I * K)(i,j) = ΣΣ I(m,n) * K(i-m, j-n)
 ```
 
@@ -130,7 +130,7 @@ Normalization techniques improve training stability and convergence:
 
 #### ResNet Architecture
 
-```
+```text
 x → [Conv Block] → F(x) → [+] → ReLU → output
 │                              ↑
 └─────── identity skip ────────┘

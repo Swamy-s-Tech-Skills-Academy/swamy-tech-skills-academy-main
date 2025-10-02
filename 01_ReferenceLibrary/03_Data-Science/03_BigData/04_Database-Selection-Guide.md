@@ -6,7 +6,15 @@ Choosing the right database for your application depends on the specific use cas
 
 ### Characteristics
 
-- Relational model with structured data stored in tables.
+- RelationalHere's a Venn diagram to illustrate CAP Theorem:
+
+```text
+   Consistency (C)
+      _______
+     |       |
+     |       | Availability (A)
+     |_______|
+       Partitionth structured data stored in tables.
 - Schema-based, with strong consistency and ACID properties.
 - Supports complex queries using SQL.
 
@@ -357,6 +365,7 @@ The **CAP Theorem**, also known as **Brewer's Theorem**, is a fundamental princi
 Here’s a Venn diagram to illustrate CAP Theorem:
 
 ```
+
    Consistency (C)
       _______
      |       |
@@ -364,7 +373,8 @@ Here’s a Venn diagram to illustrate CAP Theorem:
      |_______|
        Partition
        Tolerance (P)
-```
+
+```text
 
 Each intersection represents a trade-off.
 

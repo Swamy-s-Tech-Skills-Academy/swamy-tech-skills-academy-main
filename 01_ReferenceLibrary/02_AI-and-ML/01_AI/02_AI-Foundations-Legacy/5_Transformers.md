@@ -1,4 +1,12 @@
-# 🤖 Transformers: The Architecture That Changed AI
+# 🤖 Transformers: The Architecture That Ch```text
+
+**The Attention Formula:**
+
+```text
+Attention(Q, K, V) = softmax(Q *K^T / √d_k)* V
+```
+
+```ed AI
 
 > **"Attention Is All You Need"** - _Vaswani et al., 2017_
 
@@ -41,8 +49,10 @@ Self-attention allows each word to "look at" every other word in the sequence an
 
 **The Attention Formula:**
 
-```
-Attention(Q, K, V) = softmax(Q * K^T / √d_k) * V
+```text
+
+Attention(Q, K, V) = softmax(Q *K^T / √d_k)* V
+
 ```
 
 **Key Concepts:**
@@ -85,8 +95,10 @@ Instead of one attention operation, Transformers use multiple "attention heads" 
 
 After attention, each position is processed through a simple neural network:
 
-```
-FFN(x) = ReLU(x * W1 + b1) * W2 + b2
+```text
+
+FFN(x) = ReLU(x *W1 + b1)* W2 + b2
+
 ```
 
 **Purpose:**
@@ -115,9 +127,11 @@ Since attention is permutation-invariant, we need to inject positional informati
 
 **Residual Connections:**
 
-```
+```text
+
 output = LayerNorm(x + Attention(x))
 output = LayerNorm(output + FFN(output))
+
 ```
 
 **Benefits:**

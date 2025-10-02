@@ -68,8 +68,94 @@ Modern DevOps practices and infrastructure management
 - **[02_Infrastructure-as-Code/](04_DevOps/02_Infrastructure-as-Code/)** - IaC and infrastructure management
 - **[03_Observability-and-Monitoring/](04_DevOps/03_Observability-and-Monitoring/)** - System monitoring and observability
 - **[04_Release-Strategies/](04_DevOps/04_Release-Strategies/)** - Deployment strategies and release management
+- **[05_Scripting-and-Automation/](04_DevOps/05_Scripting-and-Automation/)** - PowerShell, Bash, and automation frameworks
 
 **Perfect for**: DevOps engineers, SREs, and infrastructure architects
+
+### **☁️ [05_Cloud-Platforms/](05_Cloud-Platforms/)** - Cloud Architecture Track
+
+Complete multi-cloud platform mastery from fundamentals to advanced strategies
+
+- **[01_Azure-Platform/](05_Cloud-Platforms/01_Azure-Platform/)** - Azure essentials, security patterns, cost management
+- **[02_Platform-Comparison/](05_Cloud-Platforms/02_Platform-Comparison/)** - Multi-cloud decision frameworks
+- **[03_AWS-Platform/](05_Cloud-Platforms/03_AWS-Platform/)** - AWS services, best practices, and architecture patterns
+- **[04_GCP-Platform/](05_Cloud-Platforms/04_GCP-Platform/)** - Google Cloud expertise and migration strategies
+- **[05_Multi-Cloud-Hybrid/](05_Cloud-Platforms/05_Multi-Cloud-Hybrid/)** - Cross-cloud architectures and hybrid strategies
+- **[06_Cloud-Native-Applications/](05_Cloud-Platforms/06_Cloud-Native-Applications/)** - Microservices, containers, and serverless
+- **[07_Cloud-Security-Governance/](05_Cloud-Platforms/07_Cloud-Security-Governance/)** - Security, compliance, and governance
+
+**Perfect for**: Cloud architects, platform engineers, technical directors  
+**Integrates with**: [Enterprise Architecture](07_Enterprise-Architecture/), [Product Delivery](08_Product-Delivery/)
+
+### **🔐 [06_Security-Governance/](06_Security-Governance/)** - Security & Compliance Track
+
+Zero-trust architecture, compliance, and risk management
+
+- **Security Fundamentals** - CIA triad and defense in depth
+- **Identity & Access Management** - SSO, RBAC, PAM
+- **Zero-Trust Architecture** - Verify explicitly, least privilege
+- **Data Security & Privacy** - Encryption, DLP, GDPR
+- **Compliance Frameworks** - SOC 2, HIPAA, ISO 27001
+- **Application & Infrastructure Security** - DevSecOps practices
+
+**Perfect for**: Security architects, compliance officers, risk managers
+
+### **🏛️ [07_Enterprise-Architecture/](07_Enterprise-Architecture/)** - Strategic Architecture Track
+
+Enterprise-scale architecture and strategic technology decisions
+
+- **[Architecture Principles](07_Enterprise-Architecture/01_Architecture-Principles/)** - Enterprise SOLID Principles, governance frameworks
+- **Capability-Based Planning** - Business-technology alignment
+- **Domain-Driven Design** - Strategic DDD at portfolio scale
+- **Integration Patterns** - API management, event-driven architecture
+- **Reference Architectures** - Proven patterns and blueprints
+- **Architecture Governance** - ADRs, review boards, standards
+
+**Perfect for**: Enterprise architects, solution architects, technical directors  
+**Builds Upon**: [Development](01_Development/), [Cloud Platforms](05_Cloud-Platforms/)  
+**Enables**: [Product Delivery](08_Product-Delivery/), [Leadership Strategy](09_Leadership-Strategy/)
+
+### **🚀 [08_Product-Delivery/](08_Product-Delivery/)** - Agile & Product Track
+
+Modern product delivery and value stream optimization
+
+- **[Delivery Excellence](08_Product-Delivery/01_Product-Delivery-Excellence.md)** - End-to-end delivery frameworks
+- **Agile & Lean Fundamentals** - Scrum, Kanban, Lean Startup
+- **Dual-Track Agile** - Parallel discovery and delivery
+- **Value Stream Mapping** - Flow optimization and bottleneck removal
+- **Experimentation Frameworks** - A/B testing, feature flags
+- **Team Topologies** - Organizational design for fast flow
+
+**Perfect for**: Product managers, engineering managers, delivery leads, agile coaches  
+**Builds Upon**: [Enterprise Architecture](07_Enterprise-Architecture/), [DevOps](04_DevOps/)  
+**Integrates with**: [Cloud Platforms](05_Cloud-Platforms/), [Development](01_Development/)
+
+### **🎯 [09_Leadership-Strategy/](09_Leadership-Strategy/)** - Leadership Excellence Track
+
+Technical leadership and strategic executive skills
+
+- **Technical Leadership** - Leading teams and setting direction
+- **Stakeholder Management** - Influence and relationship building
+- **Communication Frameworks** - Executive briefings and storytelling
+- **Engineering Management** - People leadership and performance
+- **Organizational Design** - Structure and team models
+- **Strategy Development** - Technology roadmaps and OKRs
+- **Career Architecture** - IC to executive progression
+
+**Perfect for**: Tech leads, engineering managers, directors, VPs, aspiring CTOs
+
+### **🔮 [10_Emerging-Tech-Insights/](10_Emerging-Tech-Insights/)** - Future Tech Track
+
+Technology trends, evaluation, and innovation
+
+- **Technology Evaluation** - Assessment frameworks and POCs
+- **AI/ML Evolution** - Foundation models and agents
+- **Web3, Quantum, Edge** - Emerging technology domains
+- **Sustainable Tech** - Green software and carbon-aware computing
+- **Innovation Frameworks** - Structured experimentation
+- **Technology Radar** - Tracking and communicating trends
+
+**Perfect for**: CTOs, technology strategists, innovation leads, enterprise architects
 
 ---
 
@@ -107,6 +193,38 @@ Modern DevOps practices and infrastructure management
 [Production-Ready AI/ML Systems]
 ```
 
+### **Cloud & Platform Path**: Cloud Basics → Provider Mastery → FinOps
+
+```text
+[Cloud Fundamentals] → [AWS/Azure/GCP] → [Multi-Cloud + FinOps]
+              ↓
+[Platform Engineering] → [Self-Service Infrastructure]
+```
+
+### **Security Path**: Fundamentals → Zero-Trust → Governance
+
+```text
+[Security Basics] → [IAM + Zero-Trust] → [Data Security + Compliance]
+              ↓
+[DevSecOps] → [Security Governance]
+```
+
+### **Architecture Path**: System Design → EA → Strategic Leadership
+
+```text
+[System Design] → [Enterprise Architecture] → [Capability Mapping]
+              ↓
+[Integration Patterns] → [Architecture Governance]
+```
+
+### **Leadership Path**: Tech Lead → Manager → Director → Executive
+
+```text
+[Technical Leadership] → [Engineering Management] → [Strategy Development]
+              ↓
+[Organizational Design] → [Executive Communication]
+```
+
 ---
 
 ## 🔗 Cross-Track Dependencies
@@ -129,6 +247,36 @@ Modern DevOps practices and infrastructure management
 - **Infrastructure as Code** manages environments across domains
 - **Monitoring** ensures reliability of AI, data, and development systems
 
+### **Cloud Platforms → All Tracks**
+
+- **Cloud infrastructure** hosts applications, data, and AI workloads
+- **Platform services** accelerate development and deployment
+- **FinOps** optimizes costs across all technology investments
+
+### **Security → All Tracks**
+
+- **Security architecture** protects all systems and data
+- **Compliance** governs cloud, data, and application practices
+- **DevSecOps** embeds security in development and operations
+
+### **Enterprise Architecture → Strategic Tracks**
+
+- **Capability mapping** connects business strategy to technology
+- **Integration patterns** enable system composition
+- **Architecture governance** scales decision-making
+
+### **Product Delivery → Development & DevOps**
+
+- **Agile practices** guide development workflows
+- **Value streams** optimize end-to-end delivery
+- **Team topologies** shape organizational structure
+
+### **Leadership → All Tracks**
+
+- **Technical leadership** sets standards and direction
+- **Stakeholder management** aligns technology with business
+- **Communication** articulates vision and strategy
+
 ---
 
 ## 🎯 Skill Level Progression
@@ -150,6 +298,13 @@ Modern DevOps practices and infrastructure management
 - Lead complex system architectures spanning multiple domains
 - Design and implement production-scale solutions
 - Mentor others and contribute to domain advancement
+
+### **Expert (E)**
+
+- Define organizational standards and governance
+- Lead transformation initiatives and strategic programs
+- Influence technology strategy at executive level
+- Build and scale high-performing teams
 
 ---
 
@@ -213,9 +368,15 @@ Combine multiple tracks:
 - **AI/ML focused?** → Begin with [02_AI-and-ML/01_AI/](02_AI-and-ML/01_AI/)
 - **Data-oriented?** → Start with [03_Data-Science/01_DataScience/](03_Data-Science/01_DataScience/)
 - **Infrastructure focus?** → Begin with [04_DevOps/01_CI-CD-Fundamentals/](04_DevOps/01_CI-CD-Fundamentals/)
+- **Cloud architect?** → Explore [05_Cloud-Platforms/](05_Cloud-Platforms/)
+- **Security professional?** → Start with [06_Security-Governance/](06_Security-Governance/)
+- **Enterprise architect?** → Begin with [07_Enterprise-Architecture/](07_Enterprise-Architecture/)
+- **Product/delivery lead?** → Start with [08_Product-Delivery/](08_Product-Delivery/)
+- **Engineering manager?** → Begin with [09_Leadership-Strategy/](09_Leadership-Strategy/)
+- **Technology strategist?** → Explore [10_Emerging-Tech-Insights/](10_Emerging-Tech-Insights/)
 
 ---
 
-**Last Updated**: September 5, 2025  
-**Organization**: Ultra-simplified structure with 4 learning tracks  
-**Focus**: Practical, progressive learning with clear domain relationships
+**Last Updated**: October 1, 2025  
+**Organization**: Comprehensive 10-track learning system (expanded from 4 tracks)  
+**Focus**: Practical, progressive learning from foundations to executive leadership
