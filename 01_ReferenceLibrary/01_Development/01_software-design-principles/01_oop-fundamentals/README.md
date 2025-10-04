@@ -2,7 +2,7 @@
 
 **Learning Level**: Beginner → Intermediate  
 **Prerequisites**: Basic programming knowledge (any language)  
-**Estimated Time**: 4-6 hours comprehensive mastery  
+**Estimated Time**: 3-4 hours comprehensive mastery (27-minute focused sessions)  
 **Strategic Purpose**: Universal object-oriented thinking for Lead Architect excellence
 
 ---
@@ -17,20 +17,20 @@ This domain contains **language-agnostic object-oriented programming concepts** 
 
 ### **✅ Granular Learning Path (Optimized)**
 
-| Module | Focus | Lines | Time | Status |
-|--------|-------|-------|------|--------|
-| **[01A1: Core Concepts](01A1_OOP-Core-Concepts.md)** | OOP fundamentals & benefits | 76 | 15 min | ✅ Complete |
-| **[01A2: Classes Blueprint](01A2_OOP-Classes-Blueprint.md)** | Class structure & design | 100 | 12 min | ✅ Complete |
-| **[01B1: Objects Creation](01B1_OOP-Objects-Creation.md)** | Object instantiation & independence | 112 | 15 min | ✅ Complete |
-| **[01B2: Objects Practice](01B2_OOP-Objects-Practice.md)** | Advanced interactions & patterns | 154 | 27 min | ✅ Complete |
-| **[02: Encapsulation & Abstraction](02_OOP-Encapsulation-Abstraction.md)** | Data protection & interfaces | 199 | 27 min | 🔄 Next |
-| **[03: Inheritance & Polymorphism](03_OOP-Inheritance-Polymorphism.md)** | Code reuse & flexibility | 228 | 35 min | 📋 Pending |
-| **[04: Advanced Patterns](04_OOP-Advanced-Patterns.md)** | Enterprise design patterns | 231 | 35 min | 📋 Pending |
+| Module | Focus | Time | Part | Status |
+|--------|-------|------|------|--------|
+| **[01A1: Core Concepts](01A1_OOP-Core-Concepts.md)** | OOP fundamentals & benefits | 15 min | Foundation | ✅ Complete |
+| **[01A2: Classes Blueprint](01A2_OOP-Classes-Blueprint.md)** | Class structure & design | 12 min | Foundation | ✅ Complete |
+| **[01B1: Objects Creation](01B1_OOP-Objects-Creation.md)** | Object instantiation & independence | 15 min | Foundation | ✅ Complete |
+| **[01B2: Objects Practice](01B2_OOP-Objects-Practice.md)** | Advanced interactions & patterns | 27 min | Foundation | ✅ Complete |
+| **[02: Encapsulation & Abstraction](02_OOP-Encapsulation-Abstraction.md)** | Data protection & interfaces | 27 min | Core Pillars | 🔄 Next |
+| **[03: Inheritance & Polymorphism](03_OOP-Inheritance-Polymorphism.md)** | Code reuse & flexibility | 27 min | Core Pillars | 📋 Pending |
+| **[04: Advanced Patterns](04_OOP-Advanced-Patterns.md)** | Enterprise design patterns | 27 min | Advanced | 📋 Pending |
 
 ### **📋 Supporting Resources**
 
-- **[OOP CheatSheet](05_OOP-Fundamentals-CheatSheet.md)** - Quick reference for all concepts (194 lines)
-- **[Classes & Objects Condensed](01_OOP-Classes-and-Objects-CONDENSED.md)** - Single-file alternative (126 lines)
+- **[OOP CheatSheet](05_OOP-Fundamentals-CheatSheet.md)** - Quick reference for all concepts
+- **[Classes & Objects Condensed](01_OOP-Classes-and-Objects-CONDENSED.md)** - Single-file alternative (15-minute overview)
 
 ---
 

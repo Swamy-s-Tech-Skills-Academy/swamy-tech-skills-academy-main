@@ -8,9 +8,9 @@
 
 ---
 
-## 🎯 Learning Objectives (12-Minute Session)
+## 🎯 Learning Objectives
 
-By the end of this session, you will:
+By the end of this 12-minute session, you will:
 
 - Master the concept of classes as blueprints
 - Understand class structure and components
@@ -18,19 +18,19 @@ By the end of this session, you will:
 
 ---
 
-## 🏗️ Classes: The Blueprint (12 minutes)
+## 📋 Content Sections (12-Minute Structure)
 
-### **1. What is a Class?**
+### Quick Overview (2 minutes)
 
-**Definition**: A class is a blueprint or template that defines the structure and behavior of objects.
+**Class Definition**: A class is a blueprint or template that defines the structure and behavior of objects.
 
-**Real-World Analogy**: A house blueprint defines:
+**Real-World Analogy**: A house blueprint defines structure (rooms, layout), features (windows, doors), and capabilities (electrical, plumbing).
 
-- **Structure** (rooms, layout)
-- **Features** (windows, doors)
-- **Capabilities** (electrical, plumbing)
+### Core Concepts (8 minutes)
 
-### **2. Class Components**
+#### **1. Class Components**
+
+**Every class has two main parts**:
 
 **Every class has two main parts**:
 
@@ -99,16 +99,16 @@ CLASS Book:
 
 ---
 
-## ✅ Key Takeaways (2 minutes)
+### Key Takeaways (2 minutes)
 
-### **Essential Understanding**
+#### **Essential Understanding**
 
 1. **Classes are blueprints** that define structure and behavior
 2. **Attributes store data** that objects will have
 3. **Methods define actions** that objects can perform
 4. **Constructors create instances** from the blueprint
 
-### **What's Next**
+#### **What's Next**
 
 **Part B1** will cover:
 
@@ -125,5 +125,5 @@ CLASS Book:
 - **Next**: [01B1_OOP-Objects-Creation.md](01B1_OOP-Objects-Creation.md)
 - **Series**: Classes & Objects Foundation (Part A2 of 4)
 
-**Last Updated**: September 10, 2025  
+**Last Updated**: October 4, 2025  
 **Format**: 12-minute focused learning segment
