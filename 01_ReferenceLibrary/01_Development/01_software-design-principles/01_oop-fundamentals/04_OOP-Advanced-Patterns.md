@@ -1,7 +1,7 @@
 # 04_OOP-Advanced-Patterns
 
 **Learning Level**: Intermediate  
-**Prerequisites**: [01_OOP-Classes-and-Objects.md](01_OOP-Classes-and-Objects.md), [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md), [03_OOP-Inheritance-Polymorphism.md](03_OOP-Inheritance-Polymorphism.md)  
+**Prerequisites**: [01A1_OOP-Core-Concepts.md](01A1_OOP-Core-Concepts.md), [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md), [03_OOP-Inheritance-Polymorphism.md](03_OOP-Inheritance-Polymorphism.md)  
 **Estimated Time**: 27 minutes  
 
 ## 🎯 Learning Objectives (27-Minute Session)

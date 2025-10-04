@@ -29,7 +29,7 @@ This domain contains **language-agnostic object-oriented programming concepts** 
 
 ### **📋 Supporting Resources**
 
-- **[OOP CheatSheet](05_OOP-Fundamentals-CheatSheet.md)** - Quick reference for all concepts
+- **[OOP Comprehensive Guide](05_OOP-Fundamentals-Comprehensive-Guide.md)** - Complete reference guide
 - **[Classes & Objects Condensed](01_OOP-Classes-and-Objects-CONDENSED.md)** - Single-file alternative (15-minute overview)
 
 ---
@@ -40,7 +40,7 @@ This domain contains **language-agnostic object-oriented programming concepts** 
 
 ### **Available Implementations**
 
-- **Python**: [Python OOP Implementation](../../../02_Python/05_OOP-Implementation/)
+- **Python**: [Python OOP Implementation](../../02_Python/) (See OOP sections)
 - **C#**: [C# OOP Implementation](../../03_CSharp/02_Object-Oriented-Mastery/)
 - **Java**: [Java OOP Implementation](../../04_Java/02_OOP-Implementation/)
 
