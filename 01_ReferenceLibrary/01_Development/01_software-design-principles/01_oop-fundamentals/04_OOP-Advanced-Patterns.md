@@ -22,7 +22,7 @@ By the end of this session, you will:
 
 ### Core Concepts (15 minutes)
 
-#### **Composition vs Inheritance: Strategic Decision Making**
+#### Composition vs Inheritance: Strategic Decision Making
 
 **Golden Rule**: *"Favor composition over inheritance"*
 
