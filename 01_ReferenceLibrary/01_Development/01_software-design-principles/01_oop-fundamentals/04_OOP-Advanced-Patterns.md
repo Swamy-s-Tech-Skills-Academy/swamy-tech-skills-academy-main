@@ -62,7 +62,7 @@ class Car:
             return gps.navigate(destination)  // Delegate behavior
 ```
 
-#### **Abstract Classes vs Interfaces: Design Contracts**
+#### Abstract Classes vs Interfaces: Design Contracts
 
 ```pseudocode
 // Abstract Class: Shared implementation + contracts
@@ -92,7 +92,7 @@ class MySQLService extends DatabaseService implements Serializable:
     deserialize(data): return JSON.parse(data)
 ```
 
-#### **Dependency Injection: Loose Coupling Pattern**
+#### Dependency Injection: Loose Coupling Pattern
 
 ```pseudocode
 // Without DI: Tight coupling (bad)
@@ -121,7 +121,7 @@ emailService = new EmailService(new SMTPClient())      // Production
 emailService = new EmailService(new MockMailClient()) // Testing
 ```
 
-#### **Enterprise Design Patterns**
+#### Enterprise Design Patterns
 
 ```pseudocode
 // Factory Pattern: Object creation abstraction
@@ -164,7 +164,7 @@ class PaymentProcessor:
 
 ### Practical Implementation (5 minutes)
 
-#### **Real-World Enterprise Pattern**
+#### Real-World Enterprise Pattern
 
 ```pseudocode
 // Service Layer with DI
@@ -188,20 +188,20 @@ userService = container.resolve(UserService)  // Auto-inject dependencies
 
 ### Key Takeaways & Next Steps (2 minutes)
 
-#### **Essential Design Principles**
+#### Essential Design Principles
 
 ✅ **Composition over Inheritance**: Build flexible systems with HAS-A relationships  
 ✅ **Interface Segregation**: Small, focused contracts over large interfaces  
 ✅ **Dependency Injection**: Inject dependencies rather than creating them  
 ✅ **Single Responsibility**: Each class should have one reason to change  
 
-#### **Best Practices**
+#### Best Practices
 
 - Abstract classes: shared implementation + contracts
 - Interfaces: pure behavioral contracts  
 - DI: testable, maintainable code
 
-#### **Next Steps**
+#### Next Steps
 
 - **Immediate**: Practice implementing these patterns in your preferred language
 - **Advanced**: Study SOLID principles for robust OOP design
