@@ -3,7 +3,7 @@
 **Learning Level**: Beginner  
 **Prerequisites**: Basic programming knowledge  
 **Estimated Time**: 27 minutes  
-**Next**: [02_OOP-Encapsulation.md](02_OOP-Encapsulation.md)
+**Next**: [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
 
 ---
 

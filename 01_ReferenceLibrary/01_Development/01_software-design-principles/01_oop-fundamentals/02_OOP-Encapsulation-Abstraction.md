@@ -175,7 +175,7 @@ END CLASS
 
 **Prerequisites:**
 
-- [Part 1A: Classes and Objects](./01A_OOP-Classes-and-Objects.md)
+- [Part 1A: Classes and Objects](./01A1_OOP-Core-Concepts.md)
 
 **Builds Upon:**
 
@@ -184,16 +184,16 @@ END CLASS
 
 **Enables:**
 
-- [Part 1C: Inheritance & Polymorphism](./01C_OOP-Inheritance-Polymorphism.md)
+- [Part 1C: Inheritance & Polymorphism](./03_OOP-Inheritance-Polymorphism.md)
 - Advanced design patterns
 - Secure system architecture
 
 **Cross-References:**
 
 - [SOLID Principles](../02_SOLID-Principles/) - Design principle foundations
-- [Design Patterns](../08_Design-Patterns/) - Advanced object relationships
+- [Design Patterns](../03_Design-Patterns/) - Advanced object relationships
 
 ---
 
 *Part 1B of 4-part OOP Fundamentals series*  
-*Next: [01C_OOP-Inheritance-Polymorphism.md](./01C_OOP-Inheritance-Polymorphism.md)*
+*Next: [03_OOP-Inheritance-Polymorphism.md](./03_OOP-Inheritance-Polymorphism.md)*
