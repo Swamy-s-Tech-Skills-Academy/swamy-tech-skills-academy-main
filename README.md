@@ -53,15 +53,15 @@ flowchart TB
 
 ## Phase Navigation (Current Repositories)
 
-- [Phase 01 – Reboot](01_LeadArchitect-Learning/Phase01_Reboot/README.md)
-- [Phase 02 – Frameworks](01_LeadArchitect-Learning/Phase02_Frameworks/README.md)
-- [Phase 03 – Pattern Studio](01_LeadArchitect-Learning/Phase03_Pattern_Studio/README.md)
-- [Phase 04 – Scale Systems](01_LeadArchitect-Learning/Phase04_Scale_Systems/README.md)
-- [Phase 05 – Delivery Engine](01_LeadArchitect-Learning/Phase05_Delivery_Engine/README.md)
-- [Phase 06 – Data & Trust](01_LeadArchitect-Learning/Phase06_Data_Trust/README.md)
-- [Phase 07 – Polyglot Delivery](01_LeadArchitect-Learning/Phase07_Polyglot_Delivery/README.md)
-- [Phase 08 – Intelligent Futures](01_LeadArchitect-Learning/Phase08_Intelligent_Futures/README.md)
-- [Phase 09 – Leadership Impact](01_LeadArchitect-Learning/Phase09_Leadership_Impact/README.md)
+- [Phase 01 – Reboot](02_LeadArchitect-Learning/Phase01_Reboot/README.md)
+- [Phase 02 – Frameworks](02_LeadArchitect-Learning/Phase02_Frameworks/README.md)
+- [Phase 03 – Pattern Studio](02_LeadArchitect-Learning/Phase03_Pattern_Studio/README.md)
+- [Phase 04 – Scale Systems](02_LeadArchitect-Learning/Phase04_Scale_Systems/README.md)
+- [Phase 05 – Delivery Engine](02_LeadArchitect-Learning/Phase05_Delivery_Engine/README.md)
+- [Phase 06 – Data & Trust](02_LeadArchitect-Learning/Phase06_Data_Trust/README.md)
+- [Phase 07 – Polyglot Delivery](02_LeadArchitect-Learning/Phase07_Polyglot_Delivery/README.md)
+- [Phase 08 – Intelligent Futures](02_LeadArchitect-Learning/Phase08_Intelligent_Futures/README.md)
+- [Phase 09 – Leadership Impact](02_LeadArchitect-Learning/Phase09_Leadership_Impact/README.md)
 
 ## Progress Tracker
 
@@ -128,16 +128,15 @@ graph TD
 - Triggers that would force an earlier review
 ```
 
-Store the evidence lattice inside the relevant phase folder (for example `01_LeadArchitect-Learning/Phase04_Scale_Systems/Evidence/Cluster05.md`) so that every doctrine entry has traceable proof.
+Store the evidence lattice inside the relevant phase folder (for example `02_LeadArchitect-Learning/Phase04_Scale_Systems/Evidence/Cluster05.md`) so that every doctrine entry has traceable proof.
 
 ---
 
 ## Support Folders at a Glance
 
-- `01_LeadArchitect-Learning/` — Canonical pathway content, organized by phase.  
-- `02_LearningJourney/` — Personal execution log: weekly plans, daily notes, retrospectives.  
-- `03_ReferenceLibrary/` — Curated quick-reference assets you actively reuse inside clusters.  
-- `04_LegacyContent/` — Archived materials kept for historical context or future synthesis.
+- `01_ReferenceLibrary/` — Technical knowledge foundation across all domains.
+- `02_LeadArchitect-Learning/` — Strategic pathway content, organized by phase.  
+- `tools/` — PowerShell utilities for daily learning system management.
 
 Use the folders together:
 
@@ -150,10 +149,10 @@ Use the folders together:
 
 ## Quick Start for Today
 
-- **Begin documentation**: Open the current sprint note in `02_LearningJourney/Notes/`.  
-- **Review phase context**: Read the appropriate phase README within `01_LeadArchitect-Learning/`.  
-- **Curate references**: Pin only the assets that directly contribute to the active cluster inside `03_ReferenceLibrary/`.  
-- **Archive confidently**: Move any deprecated material into `04_LegacyContent/` with a short rationale so the evolution trail stays visible.
+- **Foundation first**: Review technical concepts in `01_ReferenceLibrary/` for your current focus area.
+- **Strategic application**: Read the appropriate phase README within `02_LeadArchitect-Learning/`.  
+- **Integration**: Connect technical knowledge to strategic architectural decisions.
+- **Quality assurance**: Use `tools/` utilities for validation and progress tracking.
 
 ---
 
