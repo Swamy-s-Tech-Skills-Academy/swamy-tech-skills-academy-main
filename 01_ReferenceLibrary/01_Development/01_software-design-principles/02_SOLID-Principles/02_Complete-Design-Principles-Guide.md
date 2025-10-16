@@ -1,4 +1,4 @@
-# 02_Complete-Design-Principles-Guide
+﻿# 02_Complete-Design-Principles-Guide
 
 **Learning Level**: Intermediate to Advanced  
 **Prerequisites**: OOP Fundamentals, SOLID Parts 1-5 (overview)  
@@ -108,3 +108,5 @@ duration: 27 minutes
 updated: 2025-10-05
 status: Active
 ```
+
+
