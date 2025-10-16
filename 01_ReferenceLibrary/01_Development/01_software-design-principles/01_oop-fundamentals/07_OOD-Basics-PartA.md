@@ -1,4 +1,4 @@
-# **OOD in C# with Class Diagrams**
+﻿# **OOD in C# with Class Diagrams** - Part A
 
 Object-Oriented Design (OOD) in C# revolves around designing systems by representing real-world entities as objects. Below is an explanation of key OOD concepts, each illustrated with C# examples and accompanied by class diagram links.
 
@@ -30,6 +30,13 @@ Object-Oriented Design (OOD) in C# revolves around designing systems by represen
 - **Class Diagram**: [Class Diagram for Car](https://www.plantuml.com/plantuml/uml/SoWkIImgAStDuU9BoIhEIImk5D0e5L9Bo2vEpK_oiy9Ep4DiIW_8p4L9Q0dCJ4HMLtLKXL93qD__cCIFPMEx9bUsKc1FpjIFpmIQZJYIMZ3LtA4ZDA3n0000)
 
 ---
+
+**Part A of 3**
+
+Next: [07_OOD-Basics-PartB.md](07_OOD-Basics-PartB.md)
+
+---
+
 
 ### **2. Generalization**
 
@@ -89,7 +96,7 @@ Object-Oriented Design (OOD) in C# revolves around designing systems by represen
 
 ---
 
-### **5. Aggregation (Has-a – Weak Ownership)**
+### **5. Aggregation (Has-a â€“ Weak Ownership)**
 
 - **Definition**: A "has-a" relationship where contained objects exist independently.
 - **C# Example**:
@@ -110,7 +117,7 @@ Object-Oriented Design (OOD) in C# revolves around designing systems by represen
 
 ---
 
-### **6. Composition (Has-a – Strong Ownership)**
+### **6. Composition (Has-a â€“ Strong Ownership)**
 
 - **Definition**: A "has-a" relationship where contained objects are destroyed with the container.
 - **C# Example**:
@@ -163,235 +170,3 @@ Object-Oriented Design (OOD) in C# revolves around designing systems by represen
       public void Start() => Console.WriteLine("Engine started.");
   }
 
-  public class Car
-  {
-      private Engine _engine;
-
-      public Car(Engine engine)
-      {
-          _engine = engine;
-      }
-
-      public void StartCar() => _engine.Start();
-  }
-  ```
-
-- **Class Diagram**: [Class Diagram for Dependency](https://www.plantuml.com/plantuml/uml/SoWkIImgAStDuKhEIImk5U9q54dCJYrBI40fN4vAp2DKJZDyLo50jPKVL0000)
-
----
-
-### **9. Realization**
-
-- **Definition**: When a class implements an interface, it "realizes" the behavior defined by the interface.
-- **C# Example**:
-
-  ```csharp
-  public interface IVehicle
-  {
-      void Drive();
-  }
-
-  public class Car : IVehicle
-  {
-      public void Drive() => Console.WriteLine("Driving the car...");
-  }
-  ```
-
-- **Class Diagram**: [Class Diagram for Realization](https://www.plantuml.com/plantuml/uml/SoWkIImgAStDuKhEIImk5U9q54dCJYrBI40jN4vAp2DKJZDyLo50jPKXL0000)
-
----
-
-### **Summary**
-
-These principles, combined with their corresponding diagrams, help design systems that are modular, reusable, and scalable. The class diagrams illustrate relationships, making it easier to visualize complex systems.
-
-The links I provided earlier use placeholders for online UML tools like PlantUML, which you can use to visualize class diagrams. Here's how you can generate and view them:
-
-1. **Copy the PlantUML Code**:
-   Copy the provided code snippets and paste them into a PlantUML-compatible viewer.
-
-2. **Online Editors**:
-
-   - Use [PlantText](https://www.planttext.com/) or [PlantUML Editor](https://plantuml.com/plantuml-editor).
-   - Paste the PlantUML code into the editor, and it will render the diagram.
-
-3. **Local Setup**:
-   If you prefer a local setup, install PlantUML:
-   - Install [Java Runtime Environment (JRE)](https://www.oracle.com/java/technologies/javase-jre8-downloads.html).
-   - Download the [PlantUML jar file](https://plantuml.com/download).
-   - Run it locally to generate UML diagrams.
-
-Here are updated PlantUML scripts you can use for each concept.
-
----
-
-### **1. Class**
-
-```plantuml
-@startuml
-class Car {
-    +Make : String
-    +Model : String
-    +Drive() : void
-}
-@enduml
-```
-
----
-
-### **2. Generalization**
-
-```plantuml
-@startuml
-class Animal {
-    +Name : String
-    +Eat() : void
-}
-
-class Dog
-class Cat
-
-Animal <|-- Dog
-Animal <|-- Cat
-@enduml
-```
-
----
-
-### **3. Specialization**
-
-```plantuml
-@startuml
-class Car {
-    +Make : String
-    +Model : String
-    +Drive() : void
-}
-
-class ElectricCar {
-    +BatteryCapacity : int
-    +ChargeBattery() : void
-}
-
-Car <|-- ElectricCar
-@enduml
-```
-
----
-
-### **4. Association**
-
-```plantuml
-@startuml
-class Driver {
-    +Name : String
-}
-
-class Car {
-    +Driver : Driver
-}
-
-Driver -- Car
-@enduml
-```
-
----
-
-### **5. Aggregation**
-
-```plantuml
-@startuml
-class Team {
-    +Players : List<Player>
-}
-
-class Player {
-    +Name : String
-}
-
-Team o-- Player
-@enduml
-```
-
----
-
-### **6. Composition**
-
-```plantuml
-@startuml
-class Library {
-    +Books : List<Book>
-    +AddBook(Book) : void
-}
-
-class Book {
-    +Title : String
-}
-
-Library *-- Book
-@enduml
-```
-
----
-
-### **7. Inheritance**
-
-```plantuml
-@startuml
-class Vehicle {
-    +Speed : int
-    +Move() : void
-}
-
-class Bicycle
-
-Vehicle <|-- Bicycle
-@enduml
-```
-
----
-
-### **8. Dependency**
-
-```plantuml
-@startuml
-class Engine {
-    +Start() : void
-}
-
-class Car {
-    +Car(Engine)
-    +StartCar() : void
-}
-
-Car ..> Engine
-@enduml
-```
-
----
-
-### **9. Realization**
-
-```plantuml
-@startuml
-interface IVehicle {
-    +Drive() : void
-}
-
-class Car {
-    +Drive() : void
-}
-
-IVehicle <|.. Car
-@enduml
-```
-
----
-
-### Steps to View
-
-1. Copy one of the PlantUML scripts.
-2. Paste it into the online editor ([PlantText](https://www.planttext.com/)).
-3. Generate the UML diagram.
-
-Let me know if you need help with setup or any specific part of this process!
