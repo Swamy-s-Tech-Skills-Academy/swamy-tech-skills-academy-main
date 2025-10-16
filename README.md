@@ -211,11 +211,13 @@ Expect markdownlint to surface pre-existing legacy violations; focus on keeping 
 ## Few Commands
 
 ```text
-Please verify that content inside <<FolderName>> is accordance with our rules.
-
-Please verify that content inside <<FolderName>> for content accuracy and completeness.
-```
-
+Please verify that content inside <<FolderName>> 
+A. is accordance with our rules.
+B. is accurate and complete.
+C. follows our style guidelines.
+D. has no broken links.
+E. is free of spelling and grammar errors.
+F. No redundant content.
 ---
 
 ## License
