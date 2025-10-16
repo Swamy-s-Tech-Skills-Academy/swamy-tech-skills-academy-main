@@ -43,7 +43,7 @@ By the end of this short orientation, you will:
 
 ## ✅ Quality Gate Reminder
 
-Run `npx markdownlint-cli2 "01_LeadArchitect-Learning/Phase01_Reboot/**/*.md"` and your preferred link-check routine after customizing templates to ensure compliance with STSA authoring standards.
+Run `npx markdownlint-cli2 "02_LeadArchitect-Learning/Phase01_Reboot/**/*.md"` and your preferred link-check routine after customizing templates to ensure compliance with STSA authoring standards.
 
 ## 🔗 Related Topics
 
