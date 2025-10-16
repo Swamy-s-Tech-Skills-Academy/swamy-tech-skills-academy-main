@@ -6,6 +6,15 @@
 **Cadence**: Each phase contains 9 clusters (~4.5 hours each) to fit within focused 36-hour design sprints  
 **North Star**: Build a self-authored body of knowledge, assets, and decision frameworks from scratch
 
+## 🏗️ Learning Architecture
+
+This workspace follows a **foundation-first hierarchy**:
+
+- **`01_ReferenceLibrary/`** - Technical knowledge foundation across all domains
+- **`02_LeadArchitect-Learning/`** - Strategic pathway applying foundational knowledge
+
+**Learning Flow**: Master technical concepts → Apply strategically → Create architectural leadership artifacts
+
 ## How to Use This Blueprint
 
 1. Start every phase by framing the questions you need answered; gather only primary sources you can evaluate yourself.  
