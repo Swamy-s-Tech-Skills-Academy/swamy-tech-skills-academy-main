@@ -19,6 +19,7 @@ For sequencing and cross-links, see the Development Track README: `../README.md`
 - `05_Branching-Patterns.md` (Compare models and trade-offs)
 - `06_Rewriting-History.md` (Interactive rebase, cleanup, and policies)
 - `07_Automation-and-CI-CD.md` (Hooks, CI gates, release automation)
+- `08_Orphan-Branches.md` (Clean history branches for docs and demos)
 
 ## 🧠 Core Concepts (Preview)
 
