@@ -326,6 +326,22 @@ Get-Content file2.md | Measure-Object -Line
 - `fix-folder-compliance.ps1` - Comprehensive folder remediation
 - `docs-lint.ps1` - Markdown linting automation
 
+### **🔧 Script Development Standards**
+
+**When creating new PowerShell scripts:**
+
+1. **Parameter Validation**: Always use `[Parameter(Mandatory=$true)]` for required inputs
+2. **Error Handling**: Set `$ErrorActionPreference = "Stop"` and use try-catch blocks
+3. **Clear Output**: Use `Write-Host` with colors for status updates and progress
+4. **Documentation**: Include `.SYNOPSIS`, `.DESCRIPTION`, and `.EXAMPLE` in comment blocks
+5. **Reusability**: Design for multiple scenarios with flexible parameters
+6. **Testing**: Verify script works on both single files and bulk operations
+
+**Script Naming Convention**: `action-target-modifier.ps1`
+- Examples: `fix-folder-compliance.ps1`, `split-file-simple.ps1`, `verify-content-structure.ps1`
+
+**Location**: Always place new scripts in `tools/` directory with execution instructions
+
 ### **File Creation Standards**
 
 ```markdown
