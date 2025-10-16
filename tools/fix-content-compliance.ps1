@@ -19,21 +19,21 @@ $BackupSuffix = "_backup_$(Get-Date -Format 'yyyyMMdd_HHmmss')"
 
 # Character mapping for common corrupted Unicode
 $CharacterMappings = @{
-    "ðŸŽ¯" = "🎯"          # Target emoji
-    "ðŸ"‹" = "📋"          # Clipboard emoji
-    "ðŸ"—" = "🔗"          # Link emoji
-    "âœ…" = "✅"          # Checkmark
-    "âŒ" = "❌"           # Cross mark
-    "ðŸš¨" = "🚨"          # Warning
-    "ðŸ'" = "💡"          # Lightbulb
-    "ðŸŽ¨" = "🎨"          # Art palette
-    "ðŸ"Š" = "📊"          # Chart
-    "ðŸ"š" = "📚"          # Books
-    "ðŸ"" = "📏"          # Ruler
-    "ðŸ›¡ï¸" = "🛡️"         # Shield
-    "ðŸ"„" = "🔄"          # Refresh
-    "â­" = "⭐"           # Star
-    "ðŸš€" = "🚀"          # Rocket
+    "target_emoji" = "🎯"         # Target emoji
+    "clipboard_emoji" = "📋"      # Clipboard emoji  
+    "link_emoji" = "🔗"          # Link emoji
+    "checkmark" = "✅"           # Checkmark
+    "cross_mark" = "❌"          # Cross mark
+    "warning" = "🚨"             # Warning
+    "lightbulb" = "💡"           # Lightbulb
+    "art_palette" = "🎨"         # Art palette
+    "chart" = "📊"               # Chart
+    "books" = "📚"               # Books
+    "ruler" = "📏"               # Ruler
+    "shield" = "🛡️"              # Shield
+    "refresh" = "🔄"             # Refresh
+    "star" = "⭐"                # Star
+    "rocket" = "🚀"              # Rocket
 }
 
 # Box drawing character mappings (corrupted Unicode to ASCII)
