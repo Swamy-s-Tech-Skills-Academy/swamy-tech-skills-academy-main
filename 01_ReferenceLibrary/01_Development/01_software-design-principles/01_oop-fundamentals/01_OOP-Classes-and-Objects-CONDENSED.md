@@ -165,7 +165,8 @@ employee1.updateDepartment("Senior Engineering")
 - **Current**: 01 - Classes & Objects ✅
 - **Next**: [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
 - **Then**: [03_OOP-Inheritance-Polymorphism.md](03_OOP-Inheritance-Polymorphism.md)
-- **Finally**: [04_OOP-Advanced-Patterns.md](04_OOP-Advanced-Patterns.md)
+- **Advanced**: [04A_OOP-Advanced-Patterns-PartA.md](04_OOP-Advanced-Patterns-PartA.md)
+- **Advanced**: [04B_OOP-Advanced-Patterns-PartB.md](04_OOP-Advanced-Patterns-PartB.md)
 
 **Last Updated**: September 10, 2025  
 **Format**: 27-minute focused learning segment

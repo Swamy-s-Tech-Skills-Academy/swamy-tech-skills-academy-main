@@ -1,7 +1,7 @@
 # GitHub Copilot Instructions for STSA Knowledge Base
 
-**Version**: 1.4  
-**Last Updated**: September 9, 2025  
+**Version**: 1.5  
+**Last Updated**: October 16, 2025  
 **Scope**: Swamy's Tech Skills Academy Learning System  
 **Career Target**: Lead Architect / Director Technology
 
@@ -293,6 +293,55 @@ Each significant content piece should include:
 
 ## 🚀 Implementation Guidelines
 
+### **🤖 Automation-First Approach (CRITICAL)**
+
+**ALWAYS prefer PowerShell scripts over individual commands:**
+
+✅ **DO**: Create reusable `.ps1` scripts for repetitive tasks  
+✅ **DO**: Use existing scripts in `tools/` directory when available  
+✅ **DO**: Enhance existing scripts rather than writing individual commands  
+❌ **DON'T**: Execute individual PowerShell commands for tasks that could be scripted  
+❌ **DON'T**: Repeat the same command pattern multiple times without scripting it
+
+**Script-First Decision Tree**:
+1. **Check existing tools**: Look in `tools/` directory first
+2. **Enhance existing**: Modify existing scripts if they're close to what you need
+3. **Create new script**: Write new `.ps1` for any task you'll repeat 2+ times
+4. **Document usage**: Add clear examples and parameter descriptions
+
+**Example - Content Compliance Automation**:
+```powershell
+# ❌ BAD: Individual commands
+Get-Content file1.md | Measure-Object -Line
+Get-Content file2.md | Measure-Object -Line
+# ... repeat for each file
+
+# ✅ GOOD: Reusable script
+.\tools\fix-folder-compliance.ps1 -FolderPath "path/to/content"
+```
+
+**Available Automation Tools**:
+- `fix-stsa-compliance-simple.ps1` - Content compliance verification
+- `split-file-simple.ps1` - Automated file splitting for oversized content
+- `fix-folder-compliance.ps1` - Comprehensive folder remediation
+- `docs-lint.ps1` - Markdown linting automation
+
+### **🔧 Script Development Standards**
+
+**When creating new PowerShell scripts:**
+
+1. **Parameter Validation**: Always use `[Parameter(Mandatory=$true)]` for required inputs
+2. **Error Handling**: Set `$ErrorActionPreference = "Stop"` and use try-catch blocks
+3. **Clear Output**: Use `Write-Host` with colors for status updates and progress
+4. **Documentation**: Include `.SYNOPSIS`, `.DESCRIPTION`, and `.EXAMPLE` in comment blocks
+5. **Reusability**: Design for multiple scenarios with flexible parameters
+6. **Testing**: Verify script works on both single files and bulk operations
+
+**Script Naming Convention**: `action-target-modifier.ps1`
+- Examples: `fix-folder-compliance.ps1`, `split-file-simple.ps1`, `verify-content-structure.ps1`
+
+**Location**: Always place new scripts in `tools/` directory with execution instructions
+
 ### **File Creation Standards**
 
 ```markdown
@@ -461,11 +510,13 @@ docker run --rm -v "${PWD}:/workspace" -w /workspace lycheeverse/lychee --config
 - **Issue 3: Response Length Overruns** - Recurring "response hit length limit" errors despite 30-minute module framework. Must enforce 175-line limits per module.
 - **Issue 4: Character Encoding Corruption** - The � (replacement character) breaks markdown preview functionality. Always validate UTF-8 encoding integrity and check for corrupted Unicode sequences.
 - **Issue 5: Learning Time Precision** - Refined from 30-minute to 27-minute focused learning sessions with 175-line maximum for optimal concentration.
+- **Issue 6: Manual Command Execution Anti-Pattern** - Executing individual PowerShell commands instead of using/creating reusable scripts leads to inefficiency, errors, and lack of repeatability.
 - **Day 10-11 Success**: Multi-track expansion with AI + ML Fundamentals (6,000+ lines) demonstrating architectural mastery.
 - **Solution 1**: Consolidate related concepts into unified guides and place content based on educational logic.
 - **Solution 2**: Implement mandatory 175-line checks and multi-part strategy for complex topics.
 - **Solution 3**: Prioritize character encoding validation as first troubleshooting step for preview issues.
 - **Solution 4**: Standardize all learning content to 175-line/27-minute format for maximum focus.
+- **Solution 5**: Always use PowerShell scripts for repetitive tasks - check `tools/` directory first, enhance existing scripts, or create new ones for 2+ repeated operations.
 
 ## 📊 Success Metrics
 

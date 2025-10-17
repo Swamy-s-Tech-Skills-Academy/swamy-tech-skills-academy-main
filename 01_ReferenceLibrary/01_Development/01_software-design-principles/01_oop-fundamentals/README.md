@@ -25,11 +25,13 @@ This domain contains **language-agnostic object-oriented programming concepts** 
 | **[01B2: Objects Practice](01B2_OOP-Objects-Practice.md)** | Advanced interactions & patterns | 27 min | Foundation | ✅ Complete |
 | **[02: Encapsulation & Abstraction](02_OOP-Encapsulation-Abstraction.md)** | Data protection & interfaces | 27 min | Core Pillars | 🔄 Next |
 | **[03: Inheritance & Polymorphism](03_OOP-Inheritance-Polymorphism.md)** | Code reuse & flexibility | 27 min | Core Pillars | 📋 Pending |
-| **[04: Advanced Patterns](04_OOP-Advanced-Patterns.md)** | Enterprise design patterns | 27 min | Advanced | 📋 Pending |
+| **[04A: Advanced Patterns Part A](04_OOP-Advanced-Patterns-PartA.md)** | Enterprise design patterns | 27 min | Advanced | ✅ Complete |
+| **[04B: Advanced Patterns Part B](04_OOP-Advanced-Patterns-PartB.md)** | Advanced enterprise patterns | 27 min | Advanced | ✅ Complete |
 
 ### **📋 Supporting Resources**
 
-- **[OOP Comprehensive Guide](05_OOP-Fundamentals-Comprehensive-Guide.md)** - Complete reference guide
+- **[OOP Comprehensive Guide Part A](05_OOP-Fundamentals-Comprehensive-Guide-PartA.md)** - Complete reference guide (Part 1)
+- **[OOP Comprehensive Guide Part B](05_OOP-Fundamentals-Comprehensive-Guide-PartB.md)** - Complete reference guide (Part 2)
 - **[Classes & Objects Condensed](01_OOP-Classes-and-Objects-CONDENSED.md)** - Single-file alternative (15-minute overview)
 
 ---

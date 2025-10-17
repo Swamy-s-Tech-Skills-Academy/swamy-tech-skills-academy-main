@@ -225,4 +225,4 @@ for shape in shapes:
 
 **Module Status**: ✅ **Optimized** (175 lines, 27-minute focused learning)  
 **Part of**: OOP Fundamentals Domain - Lead Architect Learning Track  
-**Next Module**: [04_OOP-Advanced-Patterns.md](04_OOP-Advanced-Patterns.md)
+**Next Module**: [04_OOP-Advanced-Patterns-PartA.md](04_OOP-Advanced-Patterns-PartA.md)

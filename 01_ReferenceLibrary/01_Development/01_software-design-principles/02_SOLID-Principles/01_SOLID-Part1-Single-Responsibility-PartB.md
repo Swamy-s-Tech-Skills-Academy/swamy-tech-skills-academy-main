@@ -1,0 +1,174 @@
+# 01_SOLID-Part1-Single-Responsibility - Part B
+
+**Learning Level**: Intermediate  
+**Prerequisites**: Basic OOP concepts, understanding of classes and methods  
+**Estimated Time**: 30 minutes  
+
+## 🎯 Learning Objectives
+
+By the end of this 30-minute session, you will:
+
+- Understand the Single Responsibility Principle (SRP) and why it matters
+
+**Part B of 3**
+
+Previous: [01_SOLID-Part1-Single-Responsibility-PartA.md](01_SOLID-Part1-Single-Responsibility-PartA.md)
+Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Responsibility-PartC.md)
+
+---
+
+    private readonly OrderCalculator _calculator;
+    private readonly OrderRepository _repository;
+    private readonly EmailNotificationService _emailService;
+    private readonly ILogger<OrderService> _logger;
+    
+    public OrderService(
+        OrderValidator validator,
+        OrderCalculator calculator,
+        OrderRepository repository,
+        EmailNotificationService emailService,
+        ILogger<OrderService> logger)
+    {
+        _validator = validator;
+        _calculator = calculator;
+        _repository = repository;
+        _emailService = emailService;
+        _logger = logger;
+    }
+    
+    public async Task<ProcessResult> ProcessOrderAsync(Order order)
+    {
+        try
+        {
+            // Validate
+            var validationResult = _validator.Validate(order);
+            if (!validationResult.IsValid)
+                return ProcessResult.Failed(validationResult.Errors);
+            
+            // Calculate
+            order.Total = _calculator.CalculateTotal(order);
+            
+            // Save
+            await _repository.SaveAsync(order);
+            
+            // Notify
+            await _emailService.SendOrderConfirmationAsync(order);
+            
+            // Log
+            _logger.LogInformation("Order {OrderId} processed successfully", order.Id);
+            
+            return ProcessResult.Success();
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to process order {OrderId}", order.Id);
+            return ProcessResult.Failed($"Processing failed: {ex.Message}");
+        }
+    }
+}
+```
+
+### Practical Implementation (8 minutes)
+
+#### SRP Refactoring Checklist
+
+##### Step 1: Identify Responsibilities
+
+```csharp
+// Analysis technique: Method grouping
+public class CustomerManager
+{
+    // Data validation group
+    public bool IsValidEmail(string email) { }
+    public bool IsValidPhone(string phone) { }
+    
+    // Data persistence group  
+    public void SaveCustomer(Customer customer) { }
+    public Customer GetCustomer(int id) { }
+    
+    // Business logic group
+    public decimal CalculateDiscount(Customer customer) { }
+    public bool IsEligibleForPremium(Customer customer) { }
+    
+    // Communication group
+    public void SendWelcomeEmail(Customer customer) { }
+    public void SendPromotionalSms(Customer customer) { }
+}
+```
+
+##### Step 2: Extract Classes
+
+```csharp
+public class CustomerValidator
+{
+    public ValidationResult Validate(Customer customer)
+    {
+        var result = new ValidationResult();
+        
+        if (!IsValidEmail(customer.Email))
+            result.AddError("Invalid email format");
+            
+        if (!IsValidPhone(customer.Phone))
+            result.AddError("Invalid phone format");
+            
+        return result;
+    }
+    
+    private bool IsValidEmail(string email) => 
+        !string.IsNullOrEmpty(email) && email.Contains("@");
+        
+    private bool IsValidPhone(string phone) => 
+        !string.IsNullOrEmpty(phone) && phone.All(char.IsDigit);
+}
+
+public class CustomerRepository
+{
+    private readonly IDbContext _context;
+    
+    public CustomerRepository(IDbContext context)
+    {
+        _context = context;
+    }
+    
+    public async Task<Customer> GetByIdAsync(int id)
+    {
+        return await _context.Customers.FindAsync(id);
+    }
+    
+    public async Task SaveAsync(Customer customer)
+    {
+        _context.Customers.Add(customer);
+        await _context.SaveChangesAsync();
+    }
+}
+
+public class CustomerBusinessLogic
+{
+    public decimal CalculateDiscount(Customer customer)
+    {
+        if (customer.YearsAsCustomer >= 5)
+            return 0.15m; // 15% discount
+        if (customer.YearsAsCustomer >= 2)
+            return 0.10m; // 10% discount
+        return 0.05m; // 5% discount
+    }
+    
+    public bool IsEligibleForPremium(Customer customer)
+    {
+        return customer.YearsAsCustomer >= 1 && 
+               customer.TotalPurchases >= 1000m;
+    }
+}
+
+public class CustomerNotificationService
+{
+    private readonly IEmailService _emailService;
+    private readonly ISmsService _smsService;
+    
+    public CustomerNotificationService(IEmailService emailService, ISmsService smsService)
+    {
+        _emailService = emailService;
+        _smsService = smsService;
+    }
+    
+
