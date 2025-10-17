@@ -1,8 +1,8 @@
-﻿# 02_Complete-Design-Principles-Guide
+# 02_Complete-Design-Principles-Guide
 
 **Learning Level**: Intermediate to Advanced  
 **Prerequisites**: OOP Fundamentals, SOLID Parts 1-5 (overview)  
-**Estimated Time**: Part 1 of N — 27 minutes
+**Estimated Time**: Part 1 of N -- 27 minutes
 
 ## 🎯 Learning Objectives
 
@@ -33,7 +33,7 @@ Design Principles Map
 
 ## 🔍 Core Concepts (15 minutes)
 
-### 1) Cohesion and Coupling — The Macro Lens
+### 1) Cohesion and Coupling -- The Macro Lens
 
 - Cohesion: how strongly the responsibilities of a module relate to each other
 - Coupling: how dependent a module is on others (aim for low, but not zero)
@@ -53,7 +53,7 @@ Design Principles Map
 
 ### 4) Review Checklists (Leader-Friendly)
 
-- Responsibility: can we state it in one sentence without “and/or”?
+- Responsibility: can we state it in one sentence without "and/or"?
 - Extension path: how would we add a new variant without modifying core?
 - Substitutability: what behavioral contract must never change?
 - Interfaces: which clients depend on each method?
@@ -61,14 +61,14 @@ Design Principles Map
 
 ## 🛠️ Practical Implementation (5 minutes)
 
-- Introduce “Principle Cards” in PR templates (SRP/OCP/LSP/ISP/DIP prompts)
+- Introduce "Principle Cards" in PR templates (SRP/OCP/LSP/ISP/DIP prompts)
 - Adopt policy-based composition (strategies/features as policies)
 - Define contracts with tests (contract/invariant suites)
 - Use dependency boundaries (ports/adapters) for infrastructure
 
 ## ✅ Key Takeaways & Next Steps (2 minutes)
 
-- Principles are tools, not laws — optimize for clarity and change cost
+- Principles are tools, not laws -- optimize for clarity and change cost
 - Favor composition, explicit contracts, and abstraction boundaries
 - Next: Deep dives on patterns that implement these principles
 

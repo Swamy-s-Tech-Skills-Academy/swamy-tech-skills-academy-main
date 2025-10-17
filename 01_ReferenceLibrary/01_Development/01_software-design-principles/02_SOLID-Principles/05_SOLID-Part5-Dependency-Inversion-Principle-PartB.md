@@ -1,4 +1,4 @@
-﻿# 05_SOLID-Part5-Dependency-Inversion-Principle - Part B
+# 05_SOLID-Part5-Dependency-Inversion-Principle - Part B
 
 **Learning Level**: Advanced  
 **Prerequisites**: Interface Segregation Principle (Part 4), Dependency injection concepts  

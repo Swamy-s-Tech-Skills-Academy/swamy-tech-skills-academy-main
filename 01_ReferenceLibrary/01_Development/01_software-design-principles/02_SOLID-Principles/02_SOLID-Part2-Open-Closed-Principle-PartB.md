@@ -1,4 +1,4 @@
-﻿# 02_SOLID-Part2-Open-Closed-Principle - Part B
+# 02_SOLID-Part2-Open-Closed-Principle - Part B
 
 **Learning Level**: Intermediate to Advanced  
 **Prerequisites**: Single Responsibility Principle (Part 1), Basic inheritance and interfaces  

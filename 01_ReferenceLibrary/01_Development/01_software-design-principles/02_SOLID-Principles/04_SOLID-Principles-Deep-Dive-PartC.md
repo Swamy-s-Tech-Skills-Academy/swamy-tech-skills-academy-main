@@ -1,4 +1,4 @@
-﻿# 🏗️ SOLID Principles Deep Dive - Part C
+# 🏗️ SOLID Principles Deep Dive - Part C
 
 Advanced OOP Design Principles with C# Implementation
 

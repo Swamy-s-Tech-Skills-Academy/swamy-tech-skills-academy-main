@@ -1,4 +1,4 @@
-﻿# 01_SOLID-Part1-Single-Responsibility - Part C
+# 01_SOLID-Part1-Single-Responsibility - Part C
 
 **Learning Level**: Intermediate  
 **Prerequisites**: Basic OOP concepts, understanding of classes and methods  

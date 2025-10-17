@@ -1,4 +1,4 @@
-﻿# 🏛️ SOLID Principles - Enterprise Design Foundation
+# 🏛️ SOLID Principles - Enterprise Design Foundation
 
 **Learning Level**: Intermediate  
 **Prerequisites**: [01_OOP-fundamentals](../01_OOP-fundamentals/) - Classes, objects, inheritance, polymorphism  

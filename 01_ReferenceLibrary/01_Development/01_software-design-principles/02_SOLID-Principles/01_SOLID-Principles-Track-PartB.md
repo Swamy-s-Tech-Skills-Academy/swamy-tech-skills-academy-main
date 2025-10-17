@@ -1,4 +1,4 @@
-﻿# 🏛️ SOLID Principles Track - Multi-Language Mastery - Part B
+# 🏛️ SOLID Principles Track - Multi-Language Mastery - Part B
 
 **Learning Level**: Intermediate  
 **Prerequisites**: OOP fundamentals, basic design experience  

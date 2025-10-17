@@ -1,4 +1,4 @@
-﻿# 04_SOLID-Part4-Interface-Segregation-Principle - Part D
+# 04_SOLID-Part4-Interface-Segregation-Principle - Part D
 
 **Learning Level**: Intermediate to Advanced  
 **Prerequisites**: Liskov Substitution Principle (Part 3), Interface design patterns  

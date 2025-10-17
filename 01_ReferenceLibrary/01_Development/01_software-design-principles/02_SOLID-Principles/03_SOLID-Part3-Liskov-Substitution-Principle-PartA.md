@@ -1,4 +1,4 @@
-﻿# 03_SOLID-Part3-Liskov-Substitution-Principle - Part A
+# 03_SOLID-Part3-Liskov-Substitution-Principle - Part A
 
 **Learning Level**: Advanced  
 **Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2)  
