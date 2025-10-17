@@ -150,14 +150,39 @@ function Get-EncodingValidation {
         try {
             $content = [System.IO.File]::ReadAllText($file.FullName, [System.Text.Encoding]::UTF8)
             
-            # Check for common corruption patterns
-            if ($content -match '[\uFFFD]' -or $content -match '[ðŸ]' -or $content -match '[Â]') {
-                $corruptedFiles += $file.FullName
+            # Check for common corruption patterns (emoji corruption, replacement char, stray marks)
+            # These patterns indicate UTF-8 decode errors from source materials
+            $corruptionPatterns = @(
+                '\uFFFD',           # Unicode replacement character
+                '[ðŸ]',             # Emoji corruption pattern 1
+                '[Â]',              # Emoji corruption pattern 2
+                '[\uD800-\uDBFF]',  # Invalid UTF-16 surrogates
+                '[\p{Cc}]'          # Control characters
+            )
+            
+            $isCorrupted = $false
+            foreach ($pattern in $corruptionPatterns) {
+                if ($content -match $pattern) {
+                    $isCorrupted = $true
+                    break
+                }
+            }
+            
+            if ($isCorrupted) {
+                $corruptedFiles += @{
+                    FullPath = $file.FullName
+                    Name = $file.Name
+                    Size = $file.Length
+                }
             } else {
                 $cleanFiles++
             }
         } catch {
-            $corruptedFiles += $file.FullName
+            $corruptedFiles += @{
+                FullPath = $file.FullName
+                Name = $file.Name
+                Size = $file.Length
+            }
         }
     }
     
@@ -170,15 +195,19 @@ function Get-EncodingValidation {
     Write-Host "  Corrupted Files: $corruptedCount $(if ($corruptedCount -eq 0) { '✅' } else { '⚠️' })" -ForegroundColor $(if ($corruptedCount -eq 0) { "Green" } else { "Red" })
     Write-Host "  Health Score: $healthPercentage%" -ForegroundColor $(if ($healthPercentage -ge 95) { "Green" } elseif ($healthPercentage -ge 80) { "Yellow" } else { "Red" })
     
-    if ($corruptedCount -gt 0 -and $AnalysisType -eq 'comprehensive') {
-        Write-Host "  Corrupted files:" -ForegroundColor Yellow
-        $corruptedFiles | ForEach-Object { Write-Host "    - $(Split-Path $_ -Leaf)" -ForegroundColor Red }
+    if ($corruptedCount -gt 0) {
+        Write-Host "  Corrupted files detected:" -ForegroundColor Yellow
+        $corruptedFiles | ForEach-Object { 
+            Write-Host "    - $($_.Name) ($('{0:N0}' -f $_.Size) bytes)" -ForegroundColor Red 
+        }
+        Write-Host "  Run: .\tools\fix-unicode-encoding.ps1 -FolderPath 'path-to-folder' to fix" -ForegroundColor Cyan
     }
     
     return @{
         Total = $totalFiles
         Clean = $cleanFiles
         Corrupted = $corruptedCount
+        CorruptedList = $corruptedFiles
         HealthPercentage = $healthPercentage
     }
 }
@@ -336,10 +365,12 @@ function Write-ExecutionSummary {
 # MAIN EXECUTION
 # ============================================================================
 
+$startTime = Get-Date
+
 Write-Host "`n" -ForegroundColor Cyan
 Write-Host "╔════════════════════════════════════════════════════════╗" -ForegroundColor Cyan
 Write-Host "║   STSA WORKSPACE DEEP DIVE ANALYSIS" -ForegroundColor Cyan
-Write-Host "║   $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')" -ForegroundColor Cyan
+Write-Host "║   $($startTime.ToString('yyyy-MM-dd HH:mm:ss'))" -ForegroundColor Cyan
 Write-Host "╚════════════════════════════════════════════════════════╝" -ForegroundColor Cyan
 
 try {
