@@ -263,7 +263,7 @@ _backup/                           ← 📁 CONTENT UNDERGOING MIGRATION
 - ASCII diagram provided; also include a Mermaid equivalent where feasible with an ASCII fallback.
 - Internal links checked; numbering starts at `01_`.
 - Code follows STSA single‑source‑of‑truth policy (external repo for runnable code when appropriate).
-- **Character encoding integrity**: No corrupt characters (�) or invalid Unicode sequences.
+- **Character encoding integrity**: No corrupt characters () or invalid Unicode sequences.
 - **Post-update verification**: Run markdownlint and lychee checks after any documentation changes.
 
 ## 🔗 Integration Requirements
@@ -450,7 +450,7 @@ Before finalizing any content, ask:
 - [ ] STSA metadata present and accurate
 - [ ] Related Topics wired and links valid
 - [ ] Numbering and casing consistent
-- [ ] Character encoding integrity verified (no � symbols)
+- [ ] Character encoding integrity verified (no  symbols)
 - [ ] **Response length within limits (150-175 lines maximum)**
 - [ ] **Multi-part structure MANDATORY for all topics**
 - [ ] Markdownlint passes without errors
@@ -508,7 +508,7 @@ docker run --rm -v "${PWD}:/workspace" -w /workspace lycheeverse/lychee --config
 - **Issue 1: Following Author's Structure** - Never replicate source material organization (e.g., SML, LLM, RLM, MLLM sequence). Always create logical educational groupings and progression.
 - **Issue 2: Content Misplacement** - Ensure content is placed in the correct domain folder (AI Agents content belongs in `07_AI-Agents/`, not LLM track).
 - **Issue 3: Response Length Overruns** - Recurring "response hit length limit" errors despite 30-minute module framework. Must enforce 175-line limits per module.
-- **Issue 4: Character Encoding Corruption** - The � (replacement character) breaks markdown preview functionality. Always validate UTF-8 encoding integrity and check for corrupted Unicode sequences.
+- **Issue 4: Character Encoding Corruption** - The  (replacement character) breaks markdown preview functionality. Always validate UTF-8 encoding integrity and check for corrupted Unicode sequences.
 - **Issue 5: Learning Time Precision** - Refined from 30-minute to 27-minute focused learning sessions with 175-line maximum for optimal concentration.
 - **Issue 6: Manual Command Execution Anti-Pattern** - Executing individual PowerShell commands instead of using/creating reusable scripts leads to inefficiency, errors, and lack of repeatability.
 - **Day 10-11 Success**: Multi-track expansion with AI + ML Fundamentals (6,000+ lines) demonstrating architectural mastery.
@@ -545,10 +545,10 @@ Follow these rules to keep Markdown clean, consistent, and lint-safe across the 
 ### Character Encoding Requirements (CRITICAL)
 
 - **Use UTF-8 encoding**: Ensure all markdown files are saved in UTF-8 format
-- **NEVER use �**: The � (replacement character) breaks markdown preview and indicates encoding corruption
-- **Immediate troubleshooting**: If markdown preview fails, check for � characters first
-- **Validate encoding**: If you see � characters, the source content has encoding problems
-- **Fix immediately**: Replace any � characters with proper Unicode equivalents or ASCII alternatives
+- **NEVER use **: The  (replacement character) breaks markdown preview and indicates encoding corruption
+- **Immediate troubleshooting**: If markdown preview fails, check for  characters first
+- **Validate encoding**: If you see  characters, the source content has encoding problems
+- **Fix immediately**: Replace any  characters with proper Unicode equivalents or ASCII alternatives
 - **Common sources**: Copy-pasting from PDFs, Word docs, web pages, or malformed source materials
 - **Prevention strategies**:
   - Use standard ASCII characters for structure (headings, lists, tables)
@@ -558,8 +558,8 @@ Follow these rules to keep Markdown clean, consistent, and lint-safe across the 
 
 **Troubleshooting Pattern**:
 
-1. Markdown preview broken? → Search for � characters
-2. Find � characters? → Identify source content causing corruption
+1. Markdown preview broken? → Search for  characters
+2. Find  characters? → Identify source content causing corruption
 3. Replace corrupted content with clean alternatives
 4. Re-test preview functionality
 
@@ -652,7 +652,7 @@ classDef processStyle fill:#f3e5f5,stroke:#9c27b0,stroke-width:1px,color:#7b1fa2
 - No tabs; two-space nested list indentation
 - All fenced code blocks have a language
 - Headings/lists/code fences separated by blank lines
-- **Character encoding integrity**: No corrupt characters (�) or invalid Unicode sequences
+- **Character encoding integrity**: No corrupt characters () or invalid Unicode sequences
 - Preview in VS Code Markdown preview to check rendering
 - For diagrams: verify both ASCII and Mermaid render correctly; ensure ASCII fallback is present
 - **Mermaid styling**: Confirm soft colors applied with proper contrast and logical color mapping
