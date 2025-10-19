@@ -24,6 +24,28 @@ This policy prevents accidental branch proliferation and keeps changes predictab
 - Before making any commit or invoking any push to a remote repository, Copilot agents MUST ask for explicit human confirmation. The agent must present the intended set of file changes (diff summary), the exact git commands it will run (e.g., `git add`, `git commit -m "..."`, `git push`), and wait for an explicit approval message from a repository maintainer before executing them.
 - If the user approves only committing but not pushing, the agent must only perform the local commit and stop before any push.
 
+## 📁 Repository Organization (CRITICAL)
+
+**Root Folder Policy**: Keep root folder CLEAN and focused
+
+- ✅ **Allowed in root**: README.md, LICENSE, config files (.gitignore, lychee.toml, .markdownlint.json, etc.), and essential folders (01_ReferenceLibrary, 02_LeadArchitect-Learning, tools, docs)
+- ❌ **NOT allowed in root**: Analysis documents, review files, temporary reports, research notes
+- ✅ **Documentation location**: Place all reference documentation, guides, and reports in `docs/` folder
+- ✅ **Analysis/Review files**: Place in `docs/` with clear naming (e.g., docs/ANALYSIS-2025-10-19.md, docs/REVIEW-COMPLETE.md)
+
+**Cleanup Standards**:
+- Delete temporary analysis/review files after their purpose is served
+- Move important documentation to `docs/` folder
+- Use `tools/cleanup-root-folder.ps1` script to maintain root folder hygiene
+- Run quarterly root folder audits to ensure cleanliness
+
+**docs/ Folder Contents**:
+- Project analysis and strategy documents
+- Architecture reviews and recommendations
+- Performance reports and metrics
+- Planning documents and research notes
+- Historical documentation and archives
+
 ## 🏗️ CAREER-FOCUSED LEARNING STRATEGY
 
 **Primary Goal**: Lead Architect / Director Technology mastery across all technology domains
