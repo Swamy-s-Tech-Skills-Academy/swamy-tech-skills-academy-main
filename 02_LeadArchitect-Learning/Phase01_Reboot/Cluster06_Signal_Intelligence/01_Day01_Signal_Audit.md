@@ -1,4 +1,4 @@
-# 06B_Day01_Signal_Audit
+﻿# 06B_Day01_Signal_Audit
 
 **Learning Level**: Advanced  
 **Prerequisites**: Week 06 overview, access to observability, analytics, and business intelligence tools  
@@ -39,8 +39,7 @@ Discover: NPS trend, feature discovery rate
 Build: Lead time, code review throughput
 Operate: Error budget burn, MTTR
 Learn: Experiment win rate, customer health index
-```
-
+```text
 ## 🌟 Loop 02 – Exemplar Analysis
 
 **Target Output**: Exemplar dossier summarizing 3–4 high-performing systems and their signal practices.
@@ -64,8 +63,7 @@ graph TD
     A(Exemplar System) --> B(Signals Used)
     B --> C(Ritual Cadence)
     C --> D(Observed Outcomes)
-```
-
+```text
 ## ✅ Exit Criteria for Day 1
 
 - Signal inventory catalog complete with ownership and quality notes.

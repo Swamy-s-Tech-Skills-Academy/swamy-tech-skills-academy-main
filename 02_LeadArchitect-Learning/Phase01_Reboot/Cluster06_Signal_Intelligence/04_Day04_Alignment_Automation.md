@@ -1,4 +1,4 @@
-# 06E_Day04_Alignment_Automation
+﻿# 06E_Day04_Alignment_Automation
 
 **Learning Level**: Advanced  
 **Prerequisites**: Analytics cadence map, dashboard storyboard, automation backlog  
@@ -36,8 +36,7 @@
 
 ```text
 [Review Session] -> [Agreement] -> [Action Items] -> [Follow-up Schedule]
-```
-
+```text
 ## ⚙️ Loop 08 – Automation Trigger Plan
 
 **Target Output**: Alerting matrix defining thresholds, channels, and runbooks.
@@ -61,8 +60,7 @@ flowchart TD
     T(Threshold Breach) --> N(Notification)
     N --> R(Runbook Execution)
     R --> L(Lessons Learned)
-```
-
+```text
 ## ✅ Exit Criteria for Day 4
 
 - Alignment log populated with stakeholder commitments and action items.

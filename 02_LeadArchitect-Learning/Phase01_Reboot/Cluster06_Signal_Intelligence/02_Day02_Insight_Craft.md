@@ -1,4 +1,4 @@
-# 06C_Day02_Insight_Craft
+﻿# 06C_Day02_Insight_Craft
 
 **Learning Level**: Advanced  
 **Prerequisites**: Signal inventory, exemplar dossier, data lineage documentation  
@@ -36,8 +36,7 @@
 
 ```text
 [Signal] -> [Lineage Trace] -> [Scorecard] -> [Remediation Ticket]
-```
-
+```text
 ## 🔍 Loop 04 – Insight Extraction
 
 **Target Output**: Signal insight cards translating metrics into stories and actions.
@@ -59,8 +58,7 @@ Decision Trigger:
 Recommended Action:
 Owner:
 Related Ritual:
-```
-
+```text
 ### Mermaid Flow
 
 ```mermaid
@@ -68,8 +66,7 @@ flowchart TD
     S(Signal Data) --> C(Context)
     C --> N(Narrative)
     N --> A(Action)
-```
-
+```text
 ## ✅ Exit Criteria for Day 2
 
 - Metric integrity ledger filled for all priority signals.

@@ -1,4 +1,4 @@
-# 06D_Day03_Ritual_Design
+﻿# 06D_Day03_Ritual_Design
 
 **Learning Level**: Advanced  
 **Prerequisites**: Insight cards, metric integrity ledger, existing reporting cadence  
@@ -38,8 +38,7 @@
 Daily Stand-up -> Flow Signals (Lead time, MTTR)
 Weekly Ops Review -> Reliability & Craft Signals
 Monthly Strategy Sync -> Adoption & Customer Signals
-```
-
+```text
 ## 📊 Loop 06 – Visualization Storyboard
 
 **Target Output**: Dashboard storyboard showing layout, narrative flow, and interaction patterns.
@@ -64,8 +63,7 @@ flowchart TD
     H --> C(Craft Mastery)
     C --> U(Customer Impact)
     U --> F(Feedback Loop)
-```
-
+```text
 ## ✅ Exit Criteria for Day 3
 
 - Analytics cadence map complete with owners and decision triggers.

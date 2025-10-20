@@ -1,4 +1,4 @@
-# 05B_Day01_Craft_Diagnostic
+﻿# 05B_Day01_Craft_Diagnostic
 
 **Learning Level**: Advanced  
 **Prerequisites**: Week 05 overview, engineering scorecards, incident reports, peer feedback surveys  
@@ -41,8 +41,7 @@ Target: 4/5
 Impact: High (defect leakage)
 Urgency: High
 Root Cause: Insufficient lab practice + flaky tests
-```
-
+```text
 ## 🔥 Loop 02 – Prioritization
 
 **Target Output**: Priority heatmap focusing Week 05 labs on the highest leverage skills.

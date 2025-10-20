@@ -1,4 +1,4 @@
-# 02B_Day01_Routine_Audit
+﻿# 02B_Day01_Routine_Audit
 
 **Learning Level**: Advanced  
 **Prerequisites**: Week 02 overview, personal calendar for past 2 weeks, performance dashboard access  
@@ -47,8 +47,7 @@ Energy Peaks:
 Friction Sources:
 Safeguards Already in Place:
 Opportunities to Reinforce:
-```
-
+```text
 ## 🔍 Loop 02 – External Benchmark Scan
 
 **Target Output**: Benchmark dossier summarizing 3 high-performing leaders/teams and their discipline patterns.
@@ -69,8 +68,7 @@ Opportunities to Reinforce:
 
 ```text
 [Exemplar Observation] -> [Key Habit] -> [Underlying Tool/Rule] -> [Outcome] -> [Adoption Candidate]
-```
-
+```text
 ## ✅ Exit Criteria for Day 1
 
 - Routine inventory canvas completed with honest appraisal of leverage points and drains.

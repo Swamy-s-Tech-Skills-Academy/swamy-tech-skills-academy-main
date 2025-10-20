@@ -1,4 +1,4 @@
-# 07A_Day04_Guardrail_Alignment
+﻿# 07A_Day04_Guardrail_Alignment
 
 **Learning Level**: Advanced  
 **Prerequisites**: Enforcement blueprint, stakeholder roster  
@@ -43,8 +43,7 @@
 
 ```text
 [Stakeholder Map] -> [Alignment Agreements] -> [Escalation Matrix] -> [Culture Rituals]
-```
-
+```text
 ## ✅ Success Criteria
 
 - Guardrail alignment statements reviewed and endorsed by key stakeholders.

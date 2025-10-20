@@ -1,4 +1,4 @@
-# 07A_Day03_Guardrail_Enforcement
+﻿# 07A_Day03_Guardrail_Enforcement
 
 **Learning Level**: Advanced  
 **Prerequisites**: Guardrail definition worksheet, automation tool access  
@@ -43,8 +43,7 @@
 
 ```text
 [Guardrail Definition] => [Control Selection] => [Automation Enablement] => [Telemetry Feedback]
-```
-
+```text
 ## ✅ Success Criteria
 
 - 100% of priority guardrails mapped to explicit enforcement controls.

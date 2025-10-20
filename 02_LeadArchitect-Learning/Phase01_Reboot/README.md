@@ -1,4 +1,4 @@
-# Phase 01 – Reboot (Mindset Architect)
+﻿# Phase 01 – Reboot (Mindset Architect)
 
 **Learning Level**: Advanced (Lead Architect Track)  
 **Prerequisites**: Executive summary of the Lead Architect journey, baseline system design fluency, willingness to unlearn outdated heuristics  
@@ -68,8 +68,7 @@ Each cluster unfolds over one focused week broken into ten 27-minute loops (see 
 │ Rewire       │ Clusters 04-06 (Weeks 4-6)    │ Systems heuristics & labs      │
 │ Reinforce    │ Clusters 07-09 (Weeks 7-9)    │ Guardrails & reboot doctrine   │
 └──────────────┴───────────────────────────────┴───────────────────────────────┘
-```
-
+```text
 ## 🧩 Mermaid view
 
 ```mermaid
@@ -90,8 +89,7 @@ gantt
     Cluster_09 :c3, after c2, 7d
     section Integration
     Reboot_Doctrine_Publication :milestone, after c3, 2d
-```
-
+```text
 ## ✅ Quality gates
 
 - Maintain a living “belief ledger” that captures before/after mindsets for every cluster.

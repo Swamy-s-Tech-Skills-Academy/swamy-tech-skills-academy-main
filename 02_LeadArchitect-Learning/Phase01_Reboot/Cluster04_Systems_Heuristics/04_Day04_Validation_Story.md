@@ -1,4 +1,4 @@
-# 04E_Day04_Validation_Story
+﻿# 04E_Day04_Validation_Story
 
 **Learning Level**: Advanced  
 **Prerequisites**: Scenario playbook, bias checklist, stakeholder list  
@@ -39,8 +39,7 @@
                     |-> Clarify wording
                     |-> Add data signal
                     |-> Accept as-is
-```
-
+```text
 ## 🎙️ Loop 08 – Storytelling
 
 **Target Output**: Storyboard wireframe for communicating the atlas to executives and teams.
@@ -65,8 +64,7 @@ flowchart TD
     I --> H(Heuristic Highlights)
     H --> M(Measurable Impact)
     M --> C(Call to Action)
-```
-
+```text
 ## ✅ Exit Criteria for Day 4
 
 - Peer review notes collected with clear actions and endorsements.

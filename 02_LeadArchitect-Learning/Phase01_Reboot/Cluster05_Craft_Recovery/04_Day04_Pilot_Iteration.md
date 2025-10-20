@@ -1,4 +1,4 @@
-# 05E_Day04_Pilot_Iteration
+﻿# 05E_Day04_Pilot_Iteration
 
 **Learning Level**: Advanced  
 **Prerequisites**: Rubrics, telemetry checklist, pilot participant list  
@@ -36,8 +36,7 @@
 
 ```text
 [Kickoff] -> [Lab Execution] -> [Telemetry Capture] -> [Debrief] -> [Feedback Log]
-```
-
+```text
 ## 🔧 Loop 08 – Iteration Sprint
 
 **Target Output**: Lab pack v0.9 incorporating pilot adjustments.
@@ -61,8 +60,7 @@ flowchart TD
     F(Feedback) --> P(Prioritize)
     P --> U(Update Labs)
     U --> C(Communicate Changes)
-```
-
+```text
 ## ✅ Exit Criteria for Day 4
 
 - Pilot feedback log populated with scores and qualitative insights.

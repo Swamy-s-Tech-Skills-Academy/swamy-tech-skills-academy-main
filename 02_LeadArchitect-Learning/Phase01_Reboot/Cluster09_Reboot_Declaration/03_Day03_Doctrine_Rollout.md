@@ -1,4 +1,4 @@
-# 09A_Day03_Doctrine_Rollout
+﻿# 09A_Day03_Doctrine_Rollout
 
 **Learning Level**: Advanced  
 **Prerequisites**: Doctrine narrative draft, visual storyboard plan, stakeholder map  
@@ -42,8 +42,7 @@
 
 ```text
 [Persona Mapping] => [Messaging Pack] => [Launch Plan] => [Feedback Loops]
-```
-
+```text
 ## ✅ Success Criteria
 
 - Persona messaging pack drafted for all critical stakeholders.

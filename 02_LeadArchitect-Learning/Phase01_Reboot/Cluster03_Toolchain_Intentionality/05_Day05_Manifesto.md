@@ -1,4 +1,4 @@
-# 03F_Day05_Manifesto
+﻿# 03F_Day05_Manifesto
 
 **Learning Level**: Advanced  
 **Prerequisites**: Guardrail ledger, adoption insights, automation backlog, principles v0  
@@ -39,8 +39,7 @@
 6. Guardrails and Compliance Commitments
 7. Adoption & Enablement Expectations
 8. Metrics & Feedback Cadence
-```
-
+```text
 ## 🚀 Loop 10 – Rollout & Enablement Plan
 
 **Target Output**: Investment & enablement roadmap plus retrospective brief.
@@ -65,8 +64,7 @@ Week 03 Retrospective:
 - What integrations still need attention?
 - Which personas need deeper enablement?
 - What systems modeling assets are required next week?
-```
-
+```text
 ## ✅ Exit Criteria for Day 5
 
 - Toolchain Manifesto v1.0 drafted and ready for executive review.

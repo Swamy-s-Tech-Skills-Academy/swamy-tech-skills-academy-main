@@ -1,4 +1,4 @@
-# Lead Architect Learning Path (Overview)
+﻿# Lead Architect Learning Path (Overview)
 
 **Learning Level**: Senior Engineer → Lead / Chief Architect  
 **Prerequisites**: STSA development foundations, baseline cloud & DevOps capability  
@@ -31,16 +31,14 @@ Phase01_Foundations → Phase02_Intermediate-Design → Phase03_Architectural-Pa
 Phase05_Cloud-Native-DevOps → Phase06_Data-Security → Phase07_Tech-Implementation → Phase08_AI-Responsible → Phase09_Leadership
   ↓
 Continuous Improvement Loop
-```
-
+```text
 ```mermaid
 flowchart LR
     classDef phase fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#0d47a1
     classDef focus fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#e65100
     S((Start)):::focus --> P1[Phase 01  \nFoundations]:::phase --> P2[Phase 02  \nIntermediate Design]:::phase --> P3[Phase 03  \nArchitectural Patterns]:::phase --> P4[Phase 04  \nSystem Design]:::phase
     P4 --> P5[Phase 05  \nCloud-Native & DevOps]:::phase --> P6[Phase 06  \nData & Security]:::phase --> P7[Phase 07  \nTech Implementation]:::phase --> P8[Phase 08  \nAI & Responsible Design]:::phase --> P9[Phase 09  \nLeadership]:::phase --> C((Continuous  \nImprovement)):::focus
-```
-
+```text
 ## How to Use This Folder
 
 1. Open README.md for the 9 phases × 9 cluster blueprint (≈324 hours).  

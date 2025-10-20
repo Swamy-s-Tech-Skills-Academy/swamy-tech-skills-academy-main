@@ -1,4 +1,4 @@
-# 07A_Day02_Guardrail_Definition
+﻿# 07A_Day02_Guardrail_Definition
 
 **Learning Level**: Advanced  
 **Prerequisites**: Guardrail inventory snapshot, risk register  
@@ -43,8 +43,7 @@
 
 ```text
 [Risk Gaps] -> [Guardrail Draft] -> [Signal Linkage] -> [Instrumentation Backlog]
-```
-
+```text
 ## ✅ Success Criteria
 
 - Minimum of 12 guardrail drafts covering all critical risk categories.

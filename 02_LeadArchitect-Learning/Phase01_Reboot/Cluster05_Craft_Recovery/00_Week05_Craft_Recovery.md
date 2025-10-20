@@ -1,4 +1,4 @@
-# 05A_Week05_Craft_Recovery
+﻿# 05A_Week05_Craft_Recovery
 
 **Learning Level**: Advanced  
 **Prerequisites**: Systems Heuristics Atlas, engineering skill assessments, retrospective notes  
@@ -51,8 +51,7 @@
 
 ```text
 [Diagnostics] -> [Priorities] -> [Lab Design] -> [Rubrics] -> [Pilot] -> [Journal]
-```
-
+```text
 ## 🧩 Mermaid View
 
 ```mermaid
@@ -62,8 +61,7 @@ flowchart TD
     C --> D(Pilot & Feedback)
     D --> E(Journal Assembly)
     E --> F(Adoption Cadence)
-```
-
+```text
 ## ✅ Success Criteria & Metrics
 
 | Metric | Target | Capture Method |

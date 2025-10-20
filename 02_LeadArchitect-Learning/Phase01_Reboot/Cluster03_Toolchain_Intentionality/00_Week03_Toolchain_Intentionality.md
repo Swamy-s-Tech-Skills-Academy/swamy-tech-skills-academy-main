@@ -1,4 +1,4 @@
-# 03A_Week03_Toolchain_Intentionality
+﻿# 03A_Week03_Toolchain_Intentionality
 
 **Learning Level**: Advanced  
 **Prerequisites**: Week 02 discipline artifacts, tooling inventory, access to procurement/process policies  
@@ -51,8 +51,7 @@
 
 ```text
 [Inventory] -> [Flow Map] -> [Principles] -> [Capability Match] -> [Integration Health] -> [Manifesto]
-```
-
+```text
 ## 🧩 Mermaid View
 
 ```mermaid
@@ -63,8 +62,7 @@ flowchart TD
     D --> E(Integration Scoring)
     E --> F(Manifesto Draft)
     F --> G(Rollout Plan)
-```
-
+```text
 ## ✅ Success Criteria & Metrics
 
 | Metric | Target | Capture Method |

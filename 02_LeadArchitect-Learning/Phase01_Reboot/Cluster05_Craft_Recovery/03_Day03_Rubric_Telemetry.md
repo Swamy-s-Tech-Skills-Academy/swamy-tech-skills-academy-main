@@ -1,4 +1,4 @@
-# 05D_Day03_Rubric_Telemetry
+﻿# 05D_Day03_Rubric_Telemetry
 
 **Learning Level**: Advanced  
 **Prerequisites**: Micro-lab scripts, automation tooling, metric definitions  
@@ -36,8 +36,7 @@
 
 ```text
 [Dimension] -> [Observable Behavior] -> [Weighted Score]
-```
-
+```text
 ## 📡 Loop 06 – Telemetry Plan
 
 **Target Output**: Telemetry checklist documenting signals, tools, and automation for each lab.
@@ -62,8 +61,7 @@ flowchart LR
     C --> M(Metrics Capture)
     M --> N(Notification)
     N --> F(Feedback Loop)
-```
-
+```text
 ## ✅ Exit Criteria for Day 3
 
 - Rubrics created and aligned with business priorities.

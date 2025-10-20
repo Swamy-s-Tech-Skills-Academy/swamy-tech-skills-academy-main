@@ -1,4 +1,4 @@
-# 09A_Day02_Doctrine_Narrative
+﻿# 09A_Day02_Doctrine_Narrative
 
 **Learning Level**: Advanced  
 **Prerequisites**: Doctrine outline, cross-cluster insight matrix  
@@ -42,8 +42,7 @@
 
 ```text
 [Doctrine Outline] -> [Narrative Draft] -> [Visual Storyboard] -> [Executive Preview]
-```
-
+```text
 ## ✅ Success Criteria
 
 - Narrative draft covers all doctrine sections with coherent flow.

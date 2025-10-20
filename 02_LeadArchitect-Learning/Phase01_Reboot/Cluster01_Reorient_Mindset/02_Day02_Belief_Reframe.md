@@ -1,4 +1,4 @@
-# Day 2 – Belief Reframe (Loops 03-04)
+﻿# Day 2 – Belief Reframe (Loops 03-04)
 
 **Learning Level**: Advanced  
 **Prerequisites**: Day 1 outputs (belief ledger, evidence packets), Week 01 plan  
@@ -45,8 +45,7 @@ Use a current initiative (transformation program, product relaunch, platform mod
 - Who needs persuasion or retraining?
 - Which dependencies become fragile?
 - What leading indicator signals drift?
-```
-
+```text
 Record contradictions or gaps in an *Impact Ledger*:
 
 | Belief | Decision Impact | Stakeholder Impact | Risk & Mitigation |

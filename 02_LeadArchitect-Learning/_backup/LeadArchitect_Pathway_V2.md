@@ -1,4 +1,4 @@
-# Lead Architect Reimagination Pathway (V2 Clean Slate)
+﻿# Lead Architect Reimagination Pathway (V2 Clean Slate)
 
 **Learning Level**: Senior Engineer preparing for enterprise-wide architecture ownership  
 **Starting Point**: Willingness to reconstruct personal playbooks without relying on prior documentation  
@@ -23,8 +23,7 @@
 [Phase02_Frameworks] → … → [Phase09_Leadership Impact]
         ↓
 Repeat cycles with new evidence, updated heuristics, and refreshed assets
-```
-
+```text
 ```mermaid
 flowchart TB
     classDef phase fill:#eef7ff,stroke:#0d47a1,stroke-width:2px,color:#0d47a1
@@ -33,8 +32,7 @@ flowchart TB
     S((Reset)):::support --> P1[01 Reboot  \nMindset Architect]:::phase --> P2[02 Frameworks  \nDesign Cartographer]:::phase --> P3[03 Pattern Studio  \nOption Strategist]:::phase
     P3 --> P4[04 Scale Systems  \nReliability Architect]:::phase --> P5[05 Delivery Engine  \nPlatform Builder]:::phase --> P6[06 Data & Trust  \nIntegrity Steward]:::phase
     P6 --> P7[07 Polyglot Delivery  \nImplementation Maestro]:::phase --> P8[08 Intelligent Futures  \nAI Custodian]:::phase --> P9[09 Leadership Impact  \nEnterprise Navigator]:::phase --> C((Renew, Coach, Amplify)):::support
-```
-
+```text
 ## Cluster Lattice
 
 | Cluster | Intent | Focus Questions | Evidence to Produce |

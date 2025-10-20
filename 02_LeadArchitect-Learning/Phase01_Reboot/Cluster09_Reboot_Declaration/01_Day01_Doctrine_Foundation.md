@@ -1,4 +1,4 @@
-# 09A_Day01_Doctrine_Foundation
+﻿# 09A_Day01_Doctrine_Foundation
 
 **Learning Level**: Advanced  
 **Prerequisites**: Cluster retrospectives, signature artifacts, insight logs  
@@ -42,8 +42,7 @@
 
 ```text
 [Cluster Insights] => [Pillar Mapping] => [Doctrine Outline] => [Narrative Draft]
-```
-
+```text
 ## ✅ Success Criteria
 
 - Insight matrix completed with contributions from all clusters.

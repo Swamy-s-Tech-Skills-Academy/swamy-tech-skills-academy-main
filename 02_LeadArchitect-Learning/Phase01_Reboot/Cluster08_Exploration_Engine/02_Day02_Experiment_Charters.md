@@ -1,4 +1,4 @@
-# 08A_Day02_Experiment_Charters
+﻿# 08A_Day02_Experiment_Charters
 
 **Learning Level**: Advanced  
 **Prerequisites**: Experiment idea log, guardrail charter, signal library  
@@ -42,8 +42,7 @@
 
 ```text
 [Experiment Hypotheses] -> [Charter Draft] -> [Evidence Grid] -> [Approval Queue]
-```
-
+```text
 ## ✅ Success Criteria
 
 - At least three experiment charters drafted and ready for review.

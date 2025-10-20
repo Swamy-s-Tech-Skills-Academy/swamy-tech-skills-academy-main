@@ -1,4 +1,4 @@
-# Day 3 – Commitment Fabric (Loops 05-06)
+﻿# Day 3 – Commitment Fabric (Loops 05-06)
 
 **Learning Level**: Advanced  
 **Prerequisites**: Day 2 replacement beliefs, stakeholder summary draft  
@@ -41,8 +41,7 @@ Structure the letter using the **ARC** narrative pattern:
 Act 1 – Acknowledge the past (legacy belief, results, gratitude)
 Act 2 – Reveal catalyst (evidence gathered, strategic urgency)
 Act 3 – Commit forward (new beliefs, rituals, metrics, invitation)
-```
-
+```text
 Checklist for the draft:
 
 - ✅ Open with a specific moment that illustrates the old belief in action.

@@ -1,4 +1,4 @@
-# 09A_Week09_Reboot_Declaration
+﻿# 09A_Week09_Reboot_Declaration
 
 **Learning Level**: Advanced  
 **Prerequisites**: Baseline Guardrail Charter, Exploration Storyboard, Phase retrospectives  
@@ -51,8 +51,7 @@
 
 ```text
 [Cluster Insights] -> [Doctrine Outline] -> [Narrative Draft] -> [Launch Plan] -> [Reboot Doctrine]
-```
-
+```text
 ## 🧩 Mermaid View
 
 ```mermaid
@@ -63,8 +62,7 @@ flowchart TD
     D --> E(Rollout Plan)
     E --> F(Measurement Design)
     F --> G(Reboot Doctrine)
-```
-
+```text
 ## ✅ Success Criteria & Metrics
 
 | Metric | Target | Capture Method |

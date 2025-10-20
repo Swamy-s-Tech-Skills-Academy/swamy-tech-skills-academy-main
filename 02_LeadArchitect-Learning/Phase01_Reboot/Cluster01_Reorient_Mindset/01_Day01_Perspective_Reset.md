@@ -1,4 +1,4 @@
-# Day 1 – Perspective Reset (Loops 01-02)
+﻿# Day 1 – Perspective Reset (Loops 01-02)
 
 **Learning Level**: Advanced  
 **Prerequisites**: Week 01 plan, leadership retrospectives, current mission statement  
@@ -44,8 +44,7 @@ Evidence Against:
   - Ops toil hours +18% YoY running microservice mesh
   - Customer complaints about latency in cross-service flows
 Urgency: High
-```
-
+```text
 ## ⚠️ Watch-outs
 
 - Avoid turning the session into blame—focus on systems, not individuals.

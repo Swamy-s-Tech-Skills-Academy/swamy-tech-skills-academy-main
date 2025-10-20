@@ -1,4 +1,4 @@
-# 01A_Week01_Mindset_Reorientation
+﻿# 01A_Week01_Mindset_Reorientation
 
 **Learning Level**: Advanced (Lead Architect Reset)  
 **Prerequisites**: Phase 01 overview, leadership retrospectives, baseline system design fluency  
@@ -56,8 +56,7 @@ By the end of this 27-minute loop series, you will:
        |                 |               |                |                    |
        v                 v               v                v                    v
   Legacy ledger   Insight board   Replacement stack   Reset letter     Adoption rituals
-```
-
+```text
 ## 🧩 Mermaid Timeline
 
 ```mermaid
@@ -71,8 +70,7 @@ sequenceDiagram
     You->>Mentor: Loop 08 feedback & iteration
     You->>Stakeholders: Loop 09 deliver letter
     You->>You: Loop 10 log lessons & next steps
-```
-
+```text
 ## ✅ Success Criteria & Metrics
 
 | Metric | Target | How to Capture |

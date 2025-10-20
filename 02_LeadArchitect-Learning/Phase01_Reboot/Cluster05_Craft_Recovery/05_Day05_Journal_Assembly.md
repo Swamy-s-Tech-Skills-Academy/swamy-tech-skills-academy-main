@@ -1,4 +1,4 @@
-# 05F_Day05_Journal_Assembly
+﻿# 05F_Day05_Journal_Assembly
 
 **Learning Level**: Advanced  
 **Prerequisites**: Lab pack v0.9, pilot feedback log, telemetry checklist, rubric set  
@@ -35,8 +35,7 @@
 3. Detailed Lab Guides (per skill)
 4. Rubrics & Telemetry Guides
 5. Reflection Template & Follow-up Actions
-```
-
+```text
 ## 🔁 Loop 10 – Adoption Cadence
 
 **Target Output**: Practice cadence schedule and Week 05 retrospective brief.
@@ -61,8 +60,7 @@ Week 05 Retrospective:
 - Where did telemetry underperform or overload participants?
 - Which skills still show lagging proficiency?
 - What signals should Cluster 06 track to prove craft improvements?
-```
-
+```text
 ## ✅ Exit Criteria for Day 5
 
 - Foundations Lab Journal v1.0 compiled with consistent formatting and links.

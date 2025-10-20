@@ -1,4 +1,4 @@
-# 03B_Day01_Portfolio_Scan
+﻿# 03B_Day01_Portfolio_Scan
 
 **Learning Level**: Advanced  
 **Prerequisites**: Tool inventory exports, finance/license reports, Week 03 overview  
@@ -40,8 +40,7 @@ Adoption ↓   Low            Medium         High
 High         [Tool]         [Tool]         [Tool]
 Medium       [Tool]         [Tool]         [Tool]
 Low          [Tool]         [Tool]         [Tool]
-```
-
+```text
 ## 🔍 Loop 02 – Workflow Mapping
 
 **Target Output**: Flow impediment map showing where tools support or obstruct critical workflows.
@@ -58,8 +57,7 @@ Low          [Tool]         [Tool]         [Tool]
 ```text
 [Trigger] -> [Tool A] -> [Hand-off] -> [Tool B] -> [Decision] -> [Tool C] -> [Outcome]
                  ^            Issues? (Y/N)          ^            Friction?
-```
-
+```text
 ### Checklist
 
 - [ ] At least one workflow per persona (architect, engineer, SRE).

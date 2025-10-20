@@ -1,4 +1,4 @@
-# 02_LeadArchitect-Learning Folder Review - Final Summary
+﻿# 02_LeadArchitect-Learning Folder Review - Final Summary
 
 **Date**: October 18, 2025  
 **Status**: ✅ Complete  
@@ -49,7 +49,7 @@ Comprehensive analysis and expansion planning completed for the **02_LeadArchite
 
 **File Structure Per Cluster** (6-file pattern):
 
-```
+```text
 Cluster## (6 files):
 ├── 01_cluster-guide.md           (Overview & objectives)
 ├── 02_core-concepts.md           (Theory - 27 min session)
@@ -57,8 +57,7 @@ Cluster## (6 files):
 ├── 04_hands-on-exercise.md       (Practical work)
 ├── 05_resources.md               (References & tools)
 └── 06_evidence-template.md       (Portfolio artifacts)
-```
-
+```text
 ---
 
 ### Phases02-09: **STRUCTURAL STUBS** 🔴

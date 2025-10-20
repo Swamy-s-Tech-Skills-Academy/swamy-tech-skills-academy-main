@@ -1,4 +1,4 @@
-# 06F_Day05_Signal_Brief
+﻿# 06F_Day05_Signal_Brief
 
 **Learning Level**: Advanced  
 **Prerequisites**: Alignment log, alerting matrix, insight cards, dashboard storyboard  
@@ -36,8 +36,7 @@
 4. Alerting & Automation Blueprint
 5. Integrity Gaps & Remediation Plan
 6. Metrics & Governance
-```
-
+```text
 ## 🚀 Loop 10 – Adoption Roadmap
 
 **Target Output**: Intelligence rollout plan plus Week 06 retrospective brief.
@@ -62,8 +61,7 @@ Week 06 Retrospective:
 - Where do integrity gaps still hinder trust?
 - How will alerts change operational behavior?
 - What guardrails should Cluster 07 enforce using these signals?
-```
-
+```text
 ## ✅ Exit Criteria for Day 5
 
 - Signal Synthesis Brief v1.0 assembled with narrative, data, and actions.
