@@ -14,7 +14,6 @@ Next: [01_SOLID-Principles-Track-PartC.md](01_SOLID-Principles-Track-PartC.md)
 
 ---
 
-
 ### **🔻 D - Dependency Inversion Principle**
 
 **Definition**: High-level modules shouldn't depend on low-level modules. Both should depend on abstractions.
@@ -171,4 +170,3 @@ Create a plugin-based application framework:
 
 - [ ] Can explain each SOLID principle with examples
 - [ ] Identifies SOLID violations in existing code
-

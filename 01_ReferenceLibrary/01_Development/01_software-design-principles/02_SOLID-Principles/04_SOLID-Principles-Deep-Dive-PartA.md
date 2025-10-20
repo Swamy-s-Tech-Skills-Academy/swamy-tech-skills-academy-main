@@ -51,7 +51,6 @@ Next: [04_SOLID-Principles-Deep-Dive-PartB.md](04_SOLID-Principles-Deep-Dive-Par
 
 ---
 
-
 ## 🎯 S - Single Responsibility Principle
 
 ### Definition and Goal (SRP)

@@ -46,13 +46,14 @@ By the end of this week, you will:
 ## 💡 Practical Implementation (5 minutes)
 
 Apply this week's learning:
+
 - Document one architectural decision using this framework
 - Evaluate current systems against framework principles
 - Plan one implementation initiative
 
 ## 📊 ASCII Architecture
 
-\\\	ext
+\\\ ext
             Week $weekNum: $(System.Collections.Hashtable.Theme)
                     ↓
         ┌─────────────────────┐

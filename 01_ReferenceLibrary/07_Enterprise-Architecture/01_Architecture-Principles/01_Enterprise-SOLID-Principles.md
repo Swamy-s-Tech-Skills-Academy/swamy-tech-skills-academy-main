@@ -319,5 +319,3 @@ AbstractionLayers:
 - **Industry Relevance**: Enterprise Architecture, System Design, Strategic Technology Leadership
 
 Part of the Swamy's Tech Skills Academy Lead Architect Learning System
-
-

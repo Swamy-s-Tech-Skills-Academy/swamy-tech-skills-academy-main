@@ -86,11 +86,13 @@ d:\STSA\swamy-tech-skills-academy-main\
 3. `cleanup-root-folder.ps1` - Root folder hygiene maintenance
 
 **❌ Individual Commands Avoided**:
+
 - No `Get-ChildItem` commands executed individually
 - No `Measure-Object` commands executed individually
 - No manual file counting or analysis
 
 **✅ Automation-First Benefits**:
+
 - Consistent analysis across all phases
 - Reusable scripts for future maintenance
 - Documented parameters and error handling
@@ -99,18 +101,21 @@ d:\STSA\swamy-tech-skills-academy-main\
 ### **Available Automation Tools** (30+ scripts in `tools/`)
 
 **Phase Management**:
+
 - `analyze-leadarchitect-structure.ps1` - Phase structure analysis
 - `create-phase02-structure.ps1` - Phase02 generation
 - `create-phase03-09-structures.ps1` - Phase03-09 generation
 - `phase01-deepdive-analysis.ps1` - Phase01 deep analysis
 
 **Content Management**:
+
 - `fix-stsa-compliance-simple.ps1` - Content compliance verification
 - `split-file-simple.ps1` - Oversized file splitting
 - `fix-folder-compliance.ps1` - Folder remediation
 - `docs-lint.ps1` - Markdown linting automation
 
 **Repository Maintenance**:
+
 - `cleanup-root-folder.ps1` - Root folder hygiene
 - `workspace-deep-dive-analysis.ps1` - Comprehensive workspace analysis
 - `generate-workspace-health-report.ps1` - Health reporting
@@ -120,28 +125,33 @@ d:\STSA\swamy-tech-skills-academy-main\
 ## 📖 copilot-instructions.md Key Guidelines
 
 ### **Primary Directive**
+
 **Educational content creator and learning system architect** - not content copier  
 **Target**: Lead Architect / Director Technology mastery across all domains
 
 ### **Critical Policies**
 
 **🧭 Branching Policy**:
+
 - No autonomous branch creation
 - Work on current branch (`swamy/20oct-work`)
 - Require explicit permission for branch changes
 
 **🔐 Commit & Push Confirmation**:
+
 - MUST ask explicit human confirmation before commits
 - Present diff summary and exact git commands
 - Wait for approval before executing
 
 **📁 Repository Organization (CRITICAL)**:
+
 - Root folder CLEAN and focused
 - Documentation → `docs/` folder
 - Analysis/Review files → `docs/` with clear naming
 - Use `tools/cleanup-root-folder.ps1` for maintenance
 
 **🤖 Automation-First Approach (CRITICAL)**:
+
 - ALWAYS prefer PowerShell scripts over individual commands
 - Check `tools/` directory first
 - Create new scripts for 2+ repeated operations
@@ -150,18 +160,21 @@ d:\STSA\swamy-tech-skills-academy-main\
 ### **Content Creation Standards**
 
 **Zero-Copy Policy**:
+
 - No verbatim copying from sources
 - Transform presentation entirely
 - Original examples and analogies
 - ASCII-first diagrams with Mermaid fallbacks
 
 **27-Minute Learning Segments**:
+
 - 150-175 lines maximum per response
 - Multi-part structure mandatory
 - Progressive delivery approach
 - Focus on single concepts
 
 **Quality Gates**:
+
 - Markdownlint compliance (0 errors)
 - Lychee link validation
 - Character encoding integrity
@@ -176,6 +189,7 @@ d:\STSA\swamy-tech-skills-academy-main\
 **Career Focus**: Lead Architect / Director Technology
 
 **Learning Philosophy**:
+
 - **Breadth AND Depth**: Across Development, AI/ML, Data Science, DevOps
 - **Strategic Focus**: Architecture decisions, technology leadership
 - **Enterprise Scale**: Director/executive level solutions
@@ -184,11 +198,13 @@ d:\STSA\swamy-tech-skills-academy-main\
 ### **Phase Structure Pattern**
 
 **Each Phase** (9 total):
+
 - 9 clusters × 6 files = 54 content files
 - 10 portfolio templates
 - 1 README = 65 total files per phase
 
 **Learning Model**:
+
 - 27-minute focused sessions
 - 5-day weekly sprint structure
 - 4.5 hours per cluster
@@ -199,6 +215,7 @@ d:\STSA\swamy-tech-skills-academy-main\
 **File Compliance**: 593/598 files ≤175 lines (99.2% compliant)
 
 **Oversized Files** (need splitting):
+
 1. `DraftPlan.md` - 2,037 lines
 2. `Phase01_DEEPDIVE_ANALYSIS.md` - 368 lines
 3. `REVIEW_SUMMARY_2025-10-18.md` - 307 lines
@@ -252,6 +269,7 @@ d:\STSA\swamy-tech-skills-academy-main\
 ### **Repository Maturity**
 
 **Enterprise-Grade Organization**:
+
 - Clear separation of concerns (learning vs documentation)
 - Automated maintenance and generation processes
 - Comprehensive analysis and reporting capabilities
@@ -259,6 +277,7 @@ d:\STSA\swamy-tech-skills-academy-main\
 - Version control hygiene (branch policies, commit controls)
 
 **Lead Architect Alignment**:
+
 - Multi-domain mastery approach (10 tracks in ReferenceLibrary)
 - Strategic depth across all phases
 - Enterprise-scale solutions focus
@@ -277,7 +296,7 @@ d:\STSA\swamy-tech-skills-academy-main\
 
 ### **Ongoing Maintenance**
 
-1. **Quarterly Root Audits**: Use `cleanup-root-folder.ps1` 
+1. **Quarterly Root Audits**: Use `cleanup-root-folder.ps1`
 2. **Monthly Content Compliance**: Check file size limits
 3. **Weekly Progress Tracking**: Use `analyze-leadarchitect-structure.ps1`
 4. **Daily Development**: Follow 27-minute learning segment standard
@@ -287,6 +306,7 @@ d:\STSA\swamy-tech-skills-academy-main\
 ## 📌 Quick Reference
 
 **Key Scripts**:
+
 - Analysis: `.\tools\analyze-leadarchitect-structure.ps1 -FolderPath "02_LeadArchitect-Learning"`
 - Generation: `.\tools\create-phase03-09-structures.ps1 -PhaseNumbers "X-Y"`
 - Cleanup: `.\tools\cleanup-root-folder.ps1`

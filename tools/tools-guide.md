@@ -216,9 +216,9 @@ Date: 2025-09-17
 
 - Total matches found (grep snapshot): 84 (representative sample)
 - High-priority areas:
- 	- `01_ReferenceLibrary/97_Legacy-Migration-Archive/Data-Structures-Algorithms-Legacy/` — many `TODO` items in templates and lesson plans
- 	- `01_ReferenceLibrary/01_Development/17_Git-Version-Control/` — four files with `## TODO` headings
- 	- Migration planning files with 'Migration TODO:' markers
+  - `01_ReferenceLibrary/97_Legacy-Migration-Archive/Data-Structures-Algorithms-Legacy/` — many `TODO` items in templates and lesson plans
+  - `01_ReferenceLibrary/01_Development/17_Git-Version-Control/` — four files with `## TODO` headings
+  - Migration planning files with 'Migration TODO:' markers
 
 ### Suggested next steps
 

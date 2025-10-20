@@ -84,6 +84,7 @@ public void TestRectangle(Rectangle rectangle)
     // Expected: 50, but with Square: 100 (unexpected behavior!)
     Assert.AreEqual(50, rectangle.CalculateArea());
 }
+
 ```
 
 ### **✅ LSP Compliant Solution**

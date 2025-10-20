@@ -108,5 +108,3 @@ duration: 27 minutes
 updated: 2025-10-05
 status: Active
 ```
-
-

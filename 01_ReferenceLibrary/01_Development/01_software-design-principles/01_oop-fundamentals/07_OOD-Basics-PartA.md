@@ -37,7 +37,6 @@ Next: [07_OOD-Basics-PartB.md](07_OOD-Basics-PartB.md)
 
 ---
 
-
 ### **2. Generalization**
 
 - **Definition**: Extracting shared characteristics into a generalized superclass.

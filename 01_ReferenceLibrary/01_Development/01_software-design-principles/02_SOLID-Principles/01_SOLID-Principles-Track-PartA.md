@@ -13,7 +13,6 @@ Next: [01_SOLID-Principles-Track-PartB.md](01_SOLID-Principles-Track-PartB.md)
 
 ---
 
-
 ## 🎯 Learning Objectives
 
 By completion, you will:
@@ -170,4 +169,3 @@ IRestable - Sleep()
 - Protocol classes for implicit interfaces
 - Mix-in classes for shared behavior
 - Composition over large interfaces
-

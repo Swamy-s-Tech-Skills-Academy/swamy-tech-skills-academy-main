@@ -169,4 +169,3 @@ IShape <|.. Circle : Realization
 4. **Class Members**:
    - Fields and methods are specified within classes.
    - `+` denotes public, `-` denotes private.
-

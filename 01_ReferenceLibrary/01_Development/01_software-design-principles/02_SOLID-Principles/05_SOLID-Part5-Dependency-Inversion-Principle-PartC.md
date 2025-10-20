@@ -25,6 +25,7 @@ Next: [05_SOLID-Part5-Dependency-Inversion-Principle-PartD.md](05_SOLID-Part5-De
         Console.WriteLine($"[WARNING] {DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}");
     }
 }
+
 ```
 
 #### Dependency Injection Container Configuration

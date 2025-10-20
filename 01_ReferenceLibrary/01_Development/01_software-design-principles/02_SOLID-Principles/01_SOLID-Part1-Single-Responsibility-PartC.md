@@ -27,6 +27,7 @@ Previous: [01_SOLID-Part1-Single-Responsibility-PartB.md](01_SOLID-Part1-Single-
         await _smsService.SendAsync(customer.Phone, message);
     }
 }
+
 ```
 
 ### Key Takeaways & Next Steps (2 minutes)

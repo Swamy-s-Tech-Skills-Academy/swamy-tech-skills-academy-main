@@ -45,4 +45,3 @@ By completing this module, you will:
 - [AWS Platform](../03_AWS-Platform/) - Compare implementations
 - [Azure Platform](../02_Azure-Platform/) - Alternative approaches
 - [Data Science Track](../../03_Data-Science/) - Analytics implementation
-

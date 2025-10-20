@@ -45,4 +45,3 @@ By completing this module, you will:
 
 - [Enterprise Architecture](../../07_Enterprise-Architecture/) - Governance alignment
 - [DevOps Security Integration](../../04_DevOps/01_CI-CD-Fundamentals/04_Security-Integration.md)
-

@@ -140,5 +140,3 @@ By completing this series, you will:
 
 *Last Updated: September 11, 2025*  
 *Part of STSA Lead Architect Knowledge Base*
-
-

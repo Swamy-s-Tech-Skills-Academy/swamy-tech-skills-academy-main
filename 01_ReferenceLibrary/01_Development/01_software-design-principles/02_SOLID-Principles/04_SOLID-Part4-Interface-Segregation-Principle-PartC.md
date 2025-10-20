@@ -34,7 +34,7 @@ Next: [04_SOLID-Part4-Interface-Segregation-Principle-PartD.md](04_SOLID-Part4-I
 public class UserManagementService
 {
     private readonly IUserRepository _userRepository; // Full access when needed
-    
+
     public UserManagementService(IUserRepository userRepository)
     {
         _userRepository = userRepository;
@@ -56,6 +56,7 @@ public class UserManagementService
         return await _userRepository.CreateAsync(user);
     }
 }
+
 ```
 
 ##### Query vs Command Segregation

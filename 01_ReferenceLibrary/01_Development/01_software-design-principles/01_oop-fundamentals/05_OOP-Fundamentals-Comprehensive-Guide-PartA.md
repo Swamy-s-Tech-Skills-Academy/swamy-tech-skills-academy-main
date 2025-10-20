@@ -23,7 +23,6 @@ Next: [05_OOP-Fundamentals-Comprehensive-Guide-PartB.md](05_OOP-Fundamentals-Com
 
 ---
 
-
 ## ðŸ“‹ Session Structure (27-Minute Format)
 
 ### Quick Overview (5 minutes)

@@ -12,7 +12,6 @@ Next: [06_OOD-Learning-Plan-PartB.md](06_OOD-Learning-Plan-PartB.md)
 
 ---
 
-
 ## OOD in `C#`
 
 > 1. Class

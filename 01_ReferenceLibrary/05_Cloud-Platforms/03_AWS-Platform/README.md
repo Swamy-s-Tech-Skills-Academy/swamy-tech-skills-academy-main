@@ -45,4 +45,3 @@ By completing this module, you will:
 - [Azure Platform](../02_Azure-Platform/) - Compare implementations
 - [GCP Platform](../04_GCP-Platform/) - Alternative cloud provider
 - [DevOps Infrastructure as Code](../../04_DevOps/02_Infrastructure-as-Code/) - Implementation tools
-

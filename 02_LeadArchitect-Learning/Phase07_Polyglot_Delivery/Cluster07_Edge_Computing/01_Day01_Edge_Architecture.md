@@ -11,16 +11,19 @@ Single learning objective for this 27-minute session focused on edge architectur
 ## ⏱️ 27-Minute Breakdown
 
 ### Concept Explanation (10 minutes)
+
 - Key principle or pattern
 - Why it matters in enterprise architecture
 - Real-world context
 
 ### Practical Application (10 minutes)
+
 - Exercise or scenario
 - Step-by-step implementation
 - Validation approach
 
 ### Reflection & Integration (7 minutes)
+
 - Journal reflection prompt
 - Connection to previous learning
 - Application in your context
@@ -28,6 +31,7 @@ Single learning objective for this 27-minute session focused on edge architectur
 ## 🔍 Deep Dive
 
 Detailed exploration of today's topic with:
+
 - Core principles
 - Implementation patterns
 - Common pitfalls

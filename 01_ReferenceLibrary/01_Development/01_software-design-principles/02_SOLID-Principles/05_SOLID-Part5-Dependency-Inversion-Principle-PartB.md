@@ -64,6 +64,7 @@ Next: [05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md](05_SOLID-Part5-De
         return result;
     }
 }
+
 ```
 
 #### Low-Level Module Implementations

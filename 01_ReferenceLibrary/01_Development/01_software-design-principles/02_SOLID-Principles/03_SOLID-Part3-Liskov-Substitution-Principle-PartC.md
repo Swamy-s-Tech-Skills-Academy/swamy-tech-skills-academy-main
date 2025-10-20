@@ -44,7 +44,7 @@ public class ReadOnlyFileStorage : IReadableStorage
     {
         return await File.ReadAllBytesAsync(path);
     }
-    
+
     public Task<bool> ExistsAsync(string path)
     {
         return Task.FromResult(File.Exists(path));
@@ -55,7 +55,7 @@ public class ReadOnlyFileStorage : IReadableStorage
 public class DocumentProcessor
 {
     private readonly IReadableStorage _storage;
-    
+
     public DocumentProcessor(IReadableStorage storage)
     {
         _storage = storage; // Works with both LocalFileStorage and ReadOnlyFileStorage
@@ -72,6 +72,7 @@ public class DocumentProcessor
     
     private string ProcessBytes(byte[] data) => Convert.ToBase64String(data);
 }
+
 ```
 
 ### Practical Implementation (8 minutes)

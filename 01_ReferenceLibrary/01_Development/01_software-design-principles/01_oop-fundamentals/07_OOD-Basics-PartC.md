@@ -37,7 +37,6 @@ Previous: [07_OOD-Basics-PartB.md](07_OOD-Basics-PartB.md)
 
 ---
 
-
 ### **5. Aggregation**
 
 ```plantuml

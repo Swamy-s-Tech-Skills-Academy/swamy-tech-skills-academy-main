@@ -54,7 +54,7 @@ Previous: [05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md](05_SOLID-Part
 public class CreditCardProcessor : IPaymentProcessor
 {
     private readonly ICreditCardGateway _gateway;
-    
+
     public CreditCardProcessor(ICreditCardGateway gateway)
     {
         _gateway = gateway;
@@ -79,7 +79,7 @@ public class CreditCardProcessor : IPaymentProcessor
 public class PayPalProcessor : IPaymentProcessor
 {
     private readonly IPayPalApi _payPalApi;
-    
+
     public PayPalProcessor(IPayPalApi payPalApi)
     {
         _payPalApi = payPalApi;
@@ -100,6 +100,7 @@ public class PayPalProcessor : IPaymentProcessor
         };
     }
 }
+
 ```
 
 #### Testing with DIP

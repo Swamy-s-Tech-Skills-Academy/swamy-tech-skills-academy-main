@@ -22,7 +22,6 @@ Next: [08_OOP-Abstraction-Encapsulation-PartB.md](08_OOP-Abstraction-Encapsulati
 
 ---
 
-
 ## **Abstraction**
 
 ### Definition

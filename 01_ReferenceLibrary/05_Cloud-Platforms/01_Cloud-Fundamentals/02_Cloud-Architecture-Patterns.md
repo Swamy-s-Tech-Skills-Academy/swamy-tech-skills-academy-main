@@ -71,4 +71,3 @@ By the end of this module, you will understand:
 - Security governance patterns
 - DevOps infrastructure automation
 - Enterprise architecture principles
-

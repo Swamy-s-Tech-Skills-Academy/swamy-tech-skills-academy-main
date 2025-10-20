@@ -29,11 +29,13 @@ Previous: [05_OOP-Fundamentals-Comprehensive-Guide-PartA.md](05_OOP-Fundamentals
         return f"PayPal payment of ${amount} processed"
 
 # Polymorphic usage
+
 processors = [CreditCardProcessor(), PayPalProcessor()]
 
 for processor in processors:
     result = processor.process_payment(100)  # Same method, different behavior
     print(result)
+
 ```
 
 ### Understanding Class vs Object

@@ -66,6 +66,7 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
         }
     }
 }
+
 ```
 
 ### Practical Implementation (8 minutes)

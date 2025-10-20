@@ -50,7 +50,7 @@ public class BasicPrinter : IPrinter
     {
         Console.WriteLine($"Printing: {document.Title}");
     }
-    
+
     public void SetPrintQuality(PrintQuality quality)
     {
         Console.WriteLine($"Print quality set to: {quality}");
@@ -63,7 +63,7 @@ public class MultiFunctionDevice : IPrinter, IScanner, ICopier, IFaxMachine
     {
         Console.WriteLine($"MFD Printing: {document.Title}");
     }
-    
+
     public void SetPrintQuality(PrintQuality quality)
     {
         Console.WriteLine($"MFD Print quality: {quality}");
@@ -105,7 +105,7 @@ public class MultiFunctionDevice : IPrinter, IScanner, ICopier, IFaxMachine
 public class PrintService
 {
     private readonly IPrinter _printer;
-    
+
     public PrintService(IPrinter printer) // Only depends on what it needs
     {
         _printer = printer;
@@ -125,7 +125,7 @@ public class PrintService
 public class ScanService
 {
     private readonly IScanner _scanner;
-    
+
     public ScanService(IScanner scanner) // Only depends on scanning capability
     {
         _scanner = scanner;
@@ -136,6 +136,7 @@ public class ScanService
         return _scanner.Scan(settings);
     }
 }
+
 ```
 
 #### Advanced ISP Patterns

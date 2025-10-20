@@ -34,12 +34,14 @@ This policy prevents accidental branch proliferation and keeps changes predictab
 - ✅ **Analysis/Review files**: Place in `docs/` with clear naming (e.g., docs/ANALYSIS-2025-10-19.md, docs/REVIEW-COMPLETE.md)
 
 **Cleanup Standards**:
+
 - Delete temporary analysis/review files after their purpose is served
 - Move important documentation to `docs/` folder
 - Use `tools/cleanup-root-folder.ps1` script to maintain root folder hygiene
 - Run quarterly root folder audits to ensure cleanliness
 
 **docs/ Folder Contents**:
+
 - Project analysis and strategy documents
 - Architecture reviews and recommendations
 - Performance reports and metrics
@@ -326,12 +328,14 @@ Each significant content piece should include:
 ❌ **DON'T**: Repeat the same command pattern multiple times without scripting it
 
 **Script-First Decision Tree**:
+
 1. **Check existing tools**: Look in `tools/` directory first
 2. **Enhance existing**: Modify existing scripts if they're close to what you need
 3. **Create new script**: Write new `.ps1` for any task you'll repeat 2+ times
 4. **Document usage**: Add clear examples and parameter descriptions
 
 **Example - Content Compliance Automation**:
+
 ```powershell
 # ❌ BAD: Individual commands
 Get-Content file1.md | Measure-Object -Line
@@ -343,6 +347,7 @@ Get-Content file2.md | Measure-Object -Line
 ```
 
 **Available Automation Tools**:
+
 - `fix-stsa-compliance-simple.ps1` - Content compliance verification
 - `split-file-simple.ps1` - Automated file splitting for oversized content
 - `fix-folder-compliance.ps1` - Comprehensive folder remediation
@@ -360,6 +365,7 @@ Get-Content file2.md | Measure-Object -Line
 6. **Testing**: Verify script works on both single files and bulk operations
 
 **Script Naming Convention**: `action-target-modifier.ps1`
+
 - Examples: `fix-folder-compliance.ps1`, `split-file-simple.ps1`, `verify-content-structure.ps1`
 
 **Location**: Always place new scripts in `tools/` directory with execution instructions
@@ -567,7 +573,7 @@ Follow these rules to keep Markdown clean, consistent, and lint-safe across the 
 ### Character Encoding Requirements (CRITICAL)
 
 - **Use UTF-8 encoding**: Ensure all markdown files are saved in UTF-8 format
-- **NEVER use **: The  (replacement character) breaks markdown preview and indicates encoding corruption
+- **NEVER use**: The  (replacement character) breaks markdown preview and indicates encoding corruption
 - **Immediate troubleshooting**: If markdown preview fails, check for  characters first
 - **Validate encoding**: If you see  characters, the source content has encoding problems
 - **Fix immediately**: Replace any  characters with proper Unicode equivalents or ASCII alternatives
