@@ -23,7 +23,7 @@ Next: [03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md](03_SOLID-Part3-Lis
 public class Square : IFixedRatioShape
 {
     public double Side { get; private set; }
-    
+
     public Square(double side)
     {
         Side = side;
@@ -37,6 +37,7 @@ public class Square : IFixedRatioShape
         Side *= factor;
     }
 }
+
 ```
 
 ##### Solution 2: Immutable Design

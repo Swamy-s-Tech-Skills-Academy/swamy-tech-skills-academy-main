@@ -1,4 +1,4 @@
-# 09_Exploration-Storyboard_Template
+﻿# 09_Exploration-Storyboard_Template
 
 **Cluster**: 08 – Exploration Engine  
 **Loop**: 09 – Storyboard Assembly  
@@ -17,8 +17,7 @@
 ```text
 Quarter 1: | Experiment A (Prototype) ----> Gate | Experiment B (Pilot) ----> Gate |
 Quarter 2: | ... |
-```
-
+```text
 ## 🎯 Narrative Cards
 
 | Experiment | Hypothesis | Key Evidence | Decision (Go/No-Go/Pivot) | Guardrail Notes |

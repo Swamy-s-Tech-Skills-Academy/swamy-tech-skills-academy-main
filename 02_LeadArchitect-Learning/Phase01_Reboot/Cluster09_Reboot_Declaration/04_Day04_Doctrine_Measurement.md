@@ -1,4 +1,4 @@
-# 09A_Day04_Doctrine_Measurement
+﻿# 09A_Day04_Doctrine_Measurement
 
 **Learning Level**: Advanced  
 **Prerequisites**: Launch plan, guardrail charter metrics, exploration storyboard  
@@ -42,8 +42,7 @@
 
 ```text
 [Metrics Inventory] -> [Adoption Scorecard] -> [Objection Playbook] -> [Sustained Alignment]
-```
-
+```text
 ## ✅ Success Criteria
 
 - Adoption scorecard drafted with clear owners and cadence.

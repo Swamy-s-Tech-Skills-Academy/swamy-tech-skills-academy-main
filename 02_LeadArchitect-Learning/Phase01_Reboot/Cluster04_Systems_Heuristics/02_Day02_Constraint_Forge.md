@@ -1,4 +1,4 @@
-# 04C_Day02_Constraint_Forge
+﻿# 04C_Day02_Constraint_Forge
 
 **Learning Level**: Advanced  
 **Prerequisites**: System landscape canvas, feedback loop inventory, resource/utilization data  
@@ -40,8 +40,7 @@ Category: Resource
 Impact: Release Frequency ↓
 Mitigation: Nightly batches (fragile)
 Leverage: Parallel pipelines + additional runners
-```
-
+```text
 ## 🧠 Loop 04 – Heuristic Drafting
 
 **Target Output**: Heuristic set v0 comprising 8–10 crisp decision shortcuts.
@@ -62,14 +61,12 @@ Then: (action)
 Because: (system rationale)
 Signal to Watch:
 Bias Warning:
-```
-
+```text
 ### ASCII Flow
 
 ```text
 [Constraint] -> [Leverage Insight] -> [Heuristic Draft] -> [Signal/Bias Pairing]
-```
-
+```text
 ## ✅ Exit Criteria for Day 2
 
 - Constraint ledger populated with high-impact bottlenecks and leverage ideas.

@@ -46,4 +46,3 @@ By completing this module, you will:
 
 - [Enterprise Architecture](../../07_Enterprise-Architecture/) - Strategic alignment
 - [Security Governance](../../06_Security-Governance/) - Cross-cloud security
-

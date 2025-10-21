@@ -1,4 +1,4 @@
-# 03D_Day03_Integration_Audit
+﻿# 03D_Day03_Integration_Audit
 
 **Learning Level**: Advanced  
 **Prerequisites**: Capability-to-tool matrix, integration architecture diagrams, API access notes  
@@ -42,8 +42,7 @@
             \  /
              \/
         Data Completeness
-```
-
+```text
 ## 🤖 Loop 06 – Automation Opportunity Scan
 
 **Target Output**: Automation backlog sequencing high-impact opportunities.
@@ -67,8 +66,7 @@ flowchart TD
     I(Manual Rituals) --> F(Friction Hotspots)
     F --> C(Candidate Automations)
     C --> P(Prioritized Backlog)
-```
-
+```text
 ## ✅ Exit Criteria for Day 3
 
 - Integration scorecard scored and ready to share with platform/DevOps teams.

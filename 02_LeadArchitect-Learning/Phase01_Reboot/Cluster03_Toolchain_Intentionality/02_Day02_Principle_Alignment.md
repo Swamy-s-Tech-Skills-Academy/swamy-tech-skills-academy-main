@@ -1,4 +1,4 @@
-# 03C_Day02_Principle_Alignment
+﻿# 03C_Day02_Principle_Alignment
 
 **Learning Level**: Advanced  
 **Prerequisites**: Portfolio snapshot, flow impediment map, Week 02 discipline artifacts  
@@ -59,8 +59,7 @@
           |           |-> [Sustain]
           |           |-> [Sunset]
           |           |-> [Watchlist]
-```
-
+```text
 ## ✅ Exit Criteria for Day 2
 
 - Toolchain principles v0 articulate non-negotiable behaviors and boundaries.

@@ -38,7 +38,7 @@ Next: [02_SOLID-Part2-Open-Closed-Principle-PartC.md](02_SOLID-Part2-Open-Closed
 public class DiscountCalculator
 {
     private readonly List<IDiscountStrategy> _strategies;
-    
+
     public DiscountCalculator(IEnumerable<IDiscountStrategy> strategies)
     {
         _strategies = strategies.ToList();
@@ -60,6 +60,7 @@ public class DiscountCalculator
                new DiscountResult { Strategy = "None", Amount = 0 };
     }
 }
+
 ```
 
 #### Adding New Features Without Modification

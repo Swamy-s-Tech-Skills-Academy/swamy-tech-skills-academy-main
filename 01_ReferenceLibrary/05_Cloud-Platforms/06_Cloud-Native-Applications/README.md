@@ -45,4 +45,3 @@ By completing this module, you will:
 
 - [Development Approaches](../../01_Development/18_Development-Approaches/) - Application patterns
 - [DevOps CI/CD](../../04_DevOps/01_CI-CD-Fundamentals/) - Deployment automation
-

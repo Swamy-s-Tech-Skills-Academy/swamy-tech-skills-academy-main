@@ -1,4 +1,4 @@
-# 05C_Day02_Lab_Design
+﻿# 05C_Day02_Lab_Design
 
 **Learning Level**: Advanced  
 **Prerequisites**: Craft gap matrix, priority heatmap, sample repositories/data sets  
@@ -40,8 +40,7 @@
 
 ```text
 [Skill Gap] -> [Design Goal] -> [Lab Attribute] -> [Facilitation Rule]
-```
-
+```text
 ## 🧪 Loop 04 – Exercise Drafting
 
 **Target Output**: Micro-lab scripts (one per priority skill).
@@ -65,8 +64,7 @@ Core Tasks:
 Success Criteria:
 Stretch Work:
 Debrief Prompts:
-```
-
+```text
 ### Mermaid Lab Flow
 
 ```mermaid
@@ -75,8 +73,7 @@ flowchart TD
     T --> A(Automation Checks)
     A --> D(Debrief)
     D --> L(Learnings Captured)
-```
-
+```text
 ## ✅ Exit Criteria for Day 2
 
 - Lab guideline charter approved with facilitation standards.

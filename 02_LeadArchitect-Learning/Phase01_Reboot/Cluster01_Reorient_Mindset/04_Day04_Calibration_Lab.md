@@ -1,4 +1,4 @@
-# Day 4 – Calibration Lab (Loops 07-08)
+﻿# Day 4 – Calibration Lab (Loops 07-08)
 
 **Learning Level**: Advanced  
 **Prerequisites**: Perspective Reset Letter draft, Commitment Web, stakeholder meeting invites  
@@ -39,8 +39,7 @@ Use the *Adoption Flywheel* to ensure every ritual leads to data and accountabil
 ```text
 [Ritual] -> [Observable Behavior] -> [Metric Capture] -> [Review Cadence] -> [Adjustment Trigger]
        ↳ ensure owner, channel, and artifact are explicit
-```
-
+```text
 Checklist:
 
 - ✅ Each ritual has a named owner, audience, and cadence.

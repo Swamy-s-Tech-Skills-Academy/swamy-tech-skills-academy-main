@@ -1,4 +1,4 @@
-# 02A_Week02_Craftsmanship_Principles
+﻿# 02A_Week02_Craftsmanship_Principles
 
 **Learning Level**: Advanced  
 **Prerequisites**: Week 01 outputs, team operating cadences, retrospectives from the past quarter  
@@ -54,8 +54,7 @@
        |                  |                    |                   |                |
        v                  v                    v                   v                v
   Lessons learned   Daily schedule slots   Scorecard design   Canvas artifact   Accountability plan
-```
-
+```text
 ## 🧩 Mermaid View
 
 ```mermaid
@@ -65,8 +64,7 @@ flowchart LR
     C --> D(Canvas Assembly)
     D --> E(Stress Test)
     E --> F(Launch & Review)
-```
-
+```text
 ## ✅ Success Criteria & Metrics
 
 | Metric | Target | How to Capture |

@@ -1,4 +1,4 @@
-# 07A_Week07_Guardrail_Charter
+﻿# 07A_Week07_Guardrail_Charter
 
 **Learning Level**: Advanced  
 **Prerequisites**: Signal Synthesis Brief, security/compliance policies, QA and release checklists  
@@ -51,8 +51,7 @@
 
 ```text
 [Policy Inventory] -> [Risk Register] -> [Guardrail Drafts] -> [Signal Links] -> [Enforcement] -> [Charter]
-```
-
+```text
 ## 🧩 Mermaid View
 
 ```mermaid
@@ -63,8 +62,7 @@ flowchart TD
     D --> E(Enforcement Design)
     E --> F(Stakeholder Alignment)
     F --> G(Charter Assembly)
-```
-
+```text
 ## ✅ Success Criteria & Metrics
 
 | Metric | Target | Capture Method |

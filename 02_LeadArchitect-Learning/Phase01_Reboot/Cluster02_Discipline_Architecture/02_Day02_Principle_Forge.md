@@ -1,4 +1,4 @@
-# 02C_Day02_Principle_Forge
+﻿# 02C_Day02_Principle_Forge
 
 **Learning Level**: Advanced  
 **Prerequisites**: Day 1 routine inventory, benchmark dossier, leadership charter  
@@ -43,8 +43,7 @@ Why It Matters:
 When It’s Hard:
 Proof (Signals/Metrics):
 Safeguards:
-```
-
+```text
 ## 🔁 Loop 04 – Ritual Translation
 
 **Target Output**: Ritual mapping matrix linking each principle to daily and weekly moves.
@@ -68,8 +67,7 @@ Safeguards:
       |
       v
 [Candidate Rituals] -> [Calendar Slot] -> [Enablement Assets] -> [Failure Alert]
-```
-
+```text
 ## ✅ Exit Criteria for Day 2
 
 - Five draft principles described in positive, observable language.

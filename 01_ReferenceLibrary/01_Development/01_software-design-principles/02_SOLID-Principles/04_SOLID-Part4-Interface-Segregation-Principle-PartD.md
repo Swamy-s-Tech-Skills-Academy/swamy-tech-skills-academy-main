@@ -20,7 +20,7 @@ Previous: [04_SOLID-Part4-Interface-Segregation-Principle-PartC.md](04_SOLID-Par
 public class ProductCatalogService
 {
     private readonly IReadOnlyRepository<Product> _productRepository;
-    
+
     public ProductCatalogService(IReadOnlyRepository<Product> productRepository)
     {
         _productRepository = productRepository; // Only needs read operations
@@ -32,6 +32,7 @@ public class ProductCatalogService
         return new ProductCatalog { Products = products.ToList() };
     }
 }
+
 ```
 
 ##### Strategy 2: Capability-Based Interfaces

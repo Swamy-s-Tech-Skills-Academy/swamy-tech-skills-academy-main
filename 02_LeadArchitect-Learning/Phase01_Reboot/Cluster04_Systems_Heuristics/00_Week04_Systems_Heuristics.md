@@ -1,4 +1,4 @@
-# 04A_Week04_Systems_Heuristics
+﻿# 04A_Week04_Systems_Heuristics
 
 **Learning Level**: Advanced  
 **Prerequisites**: Toolchain Manifesto, systems maps of key products, executive priorities  
@@ -51,8 +51,7 @@
 
 ```text
 [System Map] -> [Feedback Loops] -> [Constraints] -> [Heuristic Drafts] -> [Scenarios] -> [Atlas]
-```
-
+```text
 ## 🧩 Mermaid View
 
 ```mermaid
@@ -63,8 +62,7 @@ flowchart TD
     D --> E(Scenario Simulation)
     E --> F(Peer Validation)
     F --> G(Atlas Assembly)
-```
-
+```text
 ## ✅ Success Criteria & Metrics
 
 | Metric | Target | Capture Method |

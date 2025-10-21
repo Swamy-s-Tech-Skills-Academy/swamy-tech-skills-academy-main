@@ -1,4 +1,4 @@
-# Phase 2-9 Curriculum Expansion Plan
+﻿# Phase 2-9 Curriculum Expansion Plan
 
 **Created**: October 18, 2025  
 **Status**: Planning & Recommendation  
@@ -242,8 +242,7 @@ Each cluster should contain:
 
 # Validate markdown
 .\tools\docs-lint.ps1
-```
-
+```text
 ---
 
 ## 📅 Delivery Timeline

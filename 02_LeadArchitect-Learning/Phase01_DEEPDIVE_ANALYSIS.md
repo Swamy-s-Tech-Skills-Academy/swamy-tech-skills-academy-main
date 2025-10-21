@@ -1,4 +1,4 @@
-# Phase01_Reboot: Comprehensive Deep Dive Analysis
+﻿# Phase01_Reboot: Comprehensive Deep Dive Analysis
 
 **Date**: October 18, 2025  
 **Folder**: `02_LeadArchitect-Learning/Phase01_Reboot`  
@@ -66,8 +66,7 @@ Cluster0X_ClusterName/
 ├── 03_Day03_[Theme].md           ← Day 3 focus
 ├── 04_Day04_[Theme].md           ← Day 4 focus
 └── 05_Day05_[Theme].md           ← Day 5 focus
-```
-
+```text
 **Total per cluster**: ~90 lines/day × 5 days + 80-line overview = ~530 lines/week
 
 ---
@@ -311,8 +310,7 @@ Heuristics           Quality             Intelligence           Risk/Gov
            Week 8                    Week 9                CAPSTONE
         Exploration Engine      →    Reboot Declaration
            Innovation                 Leadership Commitment
-```
-
+```text
 ### Progressive Learning Architecture
 
 **Phase01_Reboot Learning Path** (9 weeks, 45 hours):
@@ -430,8 +428,7 @@ Phase01_Reboot/
 └── README.md                               (111 lines: Master pathway guide)
 
 TOTAL: 74 files | 4,334 lines | 186.4 KB
-```
-
+```text
 ---
 
 ## 🚀 Implications for Phase 2-9 Expansion

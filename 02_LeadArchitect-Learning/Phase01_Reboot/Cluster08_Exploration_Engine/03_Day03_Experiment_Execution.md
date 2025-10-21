@@ -1,4 +1,4 @@
-# 08A_Day03_Experiment_Execution
+﻿# 08A_Day03_Experiment_Execution
 
 **Learning Level**: Advanced  
 **Prerequisites**: Experiment charters, guardrail charter, automation roster  
@@ -42,8 +42,7 @@
 
 ```text
 [Experiment Charter] => [Risk Canvas] => [Pilot Runbook] => [Launch Readiness]
-```
-
+```text
 ## ✅ Success Criteria
 
 - Risk canvases completed and approved for each active charter.

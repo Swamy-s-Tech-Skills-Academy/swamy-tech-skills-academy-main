@@ -1,4 +1,4 @@
-# 08A_Day04_Evidence_Assessment
+﻿# 08A_Day04_Evidence_Assessment
 
 **Learning Level**: Advanced  
 **Prerequisites**: Pilot runbook, instrumentation dashboards, decision rubric template  
@@ -42,8 +42,7 @@
 
 ```text
 [Evidence Capture] -> [Decision Rubric] -> [Recommendation] -> [Stakeholder Brief]
-```
-
+```text
 ## ✅ Success Criteria
 
 - Evidence captured for every active charter, linked to metrics defined on Day 2.

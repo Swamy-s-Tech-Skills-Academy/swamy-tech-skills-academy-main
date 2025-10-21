@@ -1,4 +1,4 @@
-# 09A_Day05_Doctrine_Launch
+﻿# 09A_Day05_Doctrine_Launch
 
 **Learning Level**: Advanced  
 **Prerequisites**: Doctrine narrative draft, launch plan, adoption scorecard  
@@ -42,8 +42,7 @@
 
 ```text
 [Doctrine Components] => [Assembly Board] => [Rehearsal Feedback] => [Launch Readiness]
-```
-
+```text
 ## ✅ Success Criteria
 
 - Reboot Doctrine v1.0 ready for launch with complete support materials.

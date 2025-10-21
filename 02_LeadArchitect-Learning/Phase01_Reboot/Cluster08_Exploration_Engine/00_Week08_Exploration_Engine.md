@@ -1,4 +1,4 @@
-# 08A_Week08_Exploration_Engine
+﻿# 08A_Week08_Exploration_Engine
 
 **Learning Level**: Advanced  
 **Prerequisites**: Guardrail Charter v1.0, signal library, innovation backlog  
@@ -51,8 +51,7 @@
 
 ```text
 [Trend Radar] -> [Experiment Charter] -> [Pilot Execution] -> [Evidence Ledger] -> [Exploration Storyboard]
-```
-
+```text
 ## 🧩 Mermaid View
 
 ```mermaid
@@ -64,8 +63,7 @@ flowchart TD
     E --> F(Evidence Capture)
     F --> G(Decision Rubric)
     G --> H(Exploration Storyboard)
-```
-
+```text
 ## ✅ Success Criteria & Metrics
 
 | Metric | Target | Capture Method |

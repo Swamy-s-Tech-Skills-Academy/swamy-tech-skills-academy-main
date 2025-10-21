@@ -1,4 +1,4 @@
-# 06A_Week06_Signal_Intelligence
+﻿# 06A_Week06_Signal_Intelligence
 
 **Learning Level**: Advanced  
 **Prerequisites**: Foundations Lab Journal, observability stack access, executive dashboards  
@@ -51,8 +51,7 @@
 
 ```text
 [Source Audit] -> [Exemplar Insights] -> [Metric Quality] -> [Ritual Design] -> [Automation] -> [Signal Brief]
-```
-
+```text
 ## 🧩 Mermaid View
 
 ```mermaid
@@ -63,8 +62,7 @@ flowchart TD
     D --> E(Ritual & Visualization Design)
     E --> F(Stakeholder Alignment)
     F --> G(Signal Synthesis Brief)
-```
-
+```text
 ## ✅ Success Criteria & Metrics
 
 | Metric | Target | Capture Method |

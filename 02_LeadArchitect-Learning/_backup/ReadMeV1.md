@@ -1,4 +1,4 @@
-# Lead Architect Progressive Pathway (V1)
+﻿# Lead Architect Progressive Pathway (V1)
 
 **Learning Level**: Senior Engineer → Lead / Chief Architect  
 **Prerequisites**: Solid programming background, baseline DevOps literacy, curiosity about system design  
@@ -16,8 +16,7 @@
 [01_Fundamentals] → [02_Intermediate-Design] → [03_Architectural-Patterns] → [04_System-Design]
         ↓                                ↓                                  ↓
 [05_Cloud-Native/DevOps] → [06_Data & Security] → [07_Tech Implementation] → [08_AI] → [09_Leadership]
-```
-
+```text
 ## Phase Matrix (Progressive Identity Shifts)
 
 | Phase | Identity Shift | Strategic Outcomes | Capstone Artifact |

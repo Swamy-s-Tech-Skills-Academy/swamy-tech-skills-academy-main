@@ -75,6 +75,7 @@ public class Human : IWorker
     public void Eat() => Console.WriteLine("Human eating");
     public void Sleep() => Console.WriteLine("Human sleeping");
 }
+
 ```
 
 ### **✅ ISP Compliant Solution**

@@ -1,4 +1,4 @@
-# 07A_Day01_Guardrail_Inventory
+﻿# 07A_Day01_Guardrail_Inventory
 
 **Learning Level**: Advanced  
 **Prerequisites**: Signal library, policy repository access  
@@ -43,8 +43,7 @@
 
 ```text
 [Existing Policies] => [Guardrail Inventory] => [Risk & Gap Register]
-```
-
+```text
 ## ✅ Success Criteria
 
 - Comprehensive guardrail inventory captured and validated.

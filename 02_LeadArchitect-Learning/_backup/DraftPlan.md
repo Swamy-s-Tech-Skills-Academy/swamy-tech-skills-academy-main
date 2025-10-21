@@ -1,4 +1,4 @@
-# Lead Architect Learning Path
+﻿# Lead Architect Learning Path
 
 Got it ✅ — you have a **massive and very comprehensive educational plan** aimed at becoming a **Lead Architect**.
 Right now, the folder structure is **topic-based** (OOP, SOLID, Python, AI, DevOps, etc.), which is great for reference, but it’s **not progressive** in terms of building mastery step-by-step toward your goal.  
@@ -11,7 +11,7 @@ For a **Lead Architect Learning Path**, we want to restructure it into **phases*
 
 We’ll restructure into **5 Major Phases**, each with subfolders pointing to relevant content from your existing library.  
   
-```  
+```text
 LeadArchitect-LearningPath  
 │  
 ├── Phase01_Fundamentals  
@@ -80,8 +80,7 @@ LeadArchitect-LearningPath
 │   ├── All-Original-Topic-Folders (unchanged for lookup)  
 │  
 └── PATHWAY.md  
-```  
-  
+```text
 ---  
   
 ## **Why This Structure Works for a Lead Architect Path**  
@@ -368,15 +367,14 @@ Here’s how your current files will be reorganized logically into **Phases**.
 
 This will be your **original folder structure untouched**, accessible for deep dives:  
 
-```  
+```text
 Reference-Library/  
   01_Development/  
   02_AI-and-ML/  
   03_Data-Science/  
   04_DevOps/  
   ...  
-```  
-  
+```text
 ---  
   
 ## **Next Steps**  
@@ -402,7 +400,7 @@ That way, when viewed in your file explorer or GitHub, they’ll **sort in exact
 
 We’ll use **two-digit prefixes** to lock the order, and group your journey into **nine major stages**.  
   
-```  
+```text
 LeadArchitect-LearningPath  
 │  
 ├── 01_Fundamentals  
@@ -463,8 +461,7 @@ LeadArchitect-LearningPath
 │   ├── 07_Communication-and-Decision-Making  
 │  
 └── Reference-Library  
-```  
-  
+```text
 ---  
   
 ## **Why This Works**  
@@ -478,7 +475,7 @@ LeadArchitect-LearningPath
   
 ## **Example README for Stage 01_Fundamentals**  
 
-```  
+```text
 # 01_Fundamentals  
   
 ## 01_Programming-Basics  
@@ -502,8 +499,7 @@ LeadArchitect-LearningPath
   
 ## 05_Algorithms-and-DataStructures  
 - [Big O Lesson Plan](../../Reference-Library/21_Algorithms-Data-Structures/WeeklyLessons/Week01-BigO-LessonPlan.md)  
-```  
-  
+```text
 ---  
   
 ## **Next Step**  
@@ -539,7 +535,7 @@ Here’s the **final proposed structure** with detailed mapping:
 
 This will be the **starting point** for your journey, explaining the progression:  
   
-```  
+```text
 # Lead Architect Learning Path  
   
 Welcome! This path takes you from fundamentals to becoming a Lead Architect.  
@@ -556,13 +552,12 @@ Welcome! This path takes you from fundamentals to becoming a Lead Architect.
 09_Architect-Leadership → Lead / Chief Architect  
   
 **Tip:** Each phase README contains links to original resources in `Reference-Library`.  
-```  
-  
+```text
 ---  
   
 ## **01_Fundamentals/README.md**  
 
-```  
+```text
 # Phase 01 – Fundamentals  
   
 Goal: Build strong programming foundations, OOP mastery, clean code skills, and algorithmic thinking.  
@@ -594,13 +589,12 @@ Goal: Build strong programming foundations, OOP mastery, clean code skills, and 
   
 ## 05_Algorithms-and-DataStructures  
 - [Big O Lesson Plan](../../Reference-Library/21_Algorithms-Data-Structures/WeeklyLessons/Week01-BigO-LessonPlan.md)  
-```  
-  
+```text
 ---  
   
 ## **02_Intermediate-Design/README.md**  
 
-```  
+```text
 # Phase 02 – Intermediate Design  
   
 Goal: Master SOLID principles, design patterns, and UML diagrams.  
@@ -630,8 +624,7 @@ Goal: Master SOLID principles, design patterns, and UML diagrams.
 - [Activity Diagrams](../../Reference-Library/01_Development/23_UML/03_Activity-Diagrams)  
 - [State Machine Diagrams](../../Reference-Library/01_Development/23_UML/04_State-Machine-Diagrams)  
 - [Component Diagrams](../../Reference-Library/01_Development/23_UML/05_Component-Diagrams)  
-```  
-  
+```text
 ---  
   
 I will **continue this exact style for Phase 03 → Phase 09**, ensuring:  
@@ -663,7 +656,7 @@ This will give you a **complete ready-to-use Lead Architect learning path** with
   
 ## **03_Architectural-Patterns/README.md**  
 
-```  
+```text
 # Phase 03 – Architectural Patterns  
   
 Goal: Understand major architecture styles and when to apply them.  
@@ -689,13 +682,12 @@ Goal: Understand major architecture styles and when to apply them.
   
 ## 05_Domain-Driven-Design  
 - [Domain-Driven Design Fundamentals](../../Reference-Library/01_Development/04_Architectural-Patterns/02_Domain-Driven-Design-Fundamentals.md)  
-```  
-  
+```text
 ---  
   
 ## **04_System-Design-and-Scalability/README.md**  
 
-```  
+```text
 # Phase 04 – System Design & Scalability  
   
 Goal: Design large-scale systems that are resilient, performant, and maintainable.  
@@ -711,13 +703,12 @@ Goal: Design large-scale systems that are resilient, performant, and maintainabl
   
 ## 04_Scalability-and-Performance  
 - [Scalability & Performance Principles](../../Reference-Library/01_Development/10_Scalability-and-Performance-Principles/README.md)  
-```  
-  
+```text
 ---  
   
 ## **05_Cloud-Native-and-DevOps/README.md**  
 
-```  
+```text
 # Phase 05 – Cloud Native & DevOps  
   
 Goal: Build, deploy, and operate cloud-native systems with DevOps practices.  
@@ -744,13 +735,12 @@ Goal: Build, deploy, and operate cloud-native systems with DevOps practices.
   
 ## 05_Observability-and-Monitoring  
 - [Observability Overview](../../Reference-Library/04_DevOps/03_Observability-and-Monitoring/Observability/ReadMe.md)  
-```  
-  
+```text
 ---  
   
 ## **06_Data-Management-and-Security/README.md**  
 
-```  
+```text
 # Phase 06 – Data Management & Security  
   
 Goal: Architect data systems and ensure security across platforms.  
@@ -765,13 +755,12 @@ Goal: Architect data systems and ensure security across platforms.
 ## 03_Security-by-Design  
 - [Security Architecture](../../Reference-Library/01_Development/04_Architectural-Patterns/11_Security-Architecture.md)  
 - [Security by Design](../../Reference-Library/01_Development/11_Security-by-Design/README.md)  
-```  
-  
+```text
 ---  
   
 ## **07_Technology-Implementation/README.md**  
 
-```  
+```text
 # Phase 07 – Technology Implementation  
   
 Goal: Apply architecture patterns in language-specific and framework-specific contexts.  
@@ -799,13 +788,12 @@ Goal: Apply architecture patterns in language-specific and framework-specific co
 - [Node.js Architecture](../../Reference-Library/09_Node-js/README.md)  
 - [React.js Architecture](../../Reference-Library/11_React-js/README.md)  
 - [Angular Architecture](../../Reference-Library/12_Angular/README.md)  
-```  
-  
+```text
 ---  
   
 ## **08_AI-and-Responsible-Design/README.md**  
 
-```  
+```text
 # Phase 08 – AI & Responsible Design  
   
 Goal: Integrate AI capabilities into enterprise architecture responsibly.  
@@ -824,13 +812,12 @@ Goal: Integrate AI capabilities into enterprise architecture responsibly.
   
 ## 04_Responsible-AI  
 - [AI Ethics & Governance](../../Reference-Library/02_AI-and-ML/01_AI/09_AI-Ethics-and-Governance.md)  
-```  
-  
+```text
 ---  
   
 ## **09_Architect-Leadership/README.md**  
 
-```  
+```text
 # Phase 09 – Architect Leadership  
   
 Goal: Transition from solution architect to lead architect.  
@@ -857,8 +844,7 @@ Goal: Transition from solution architect to lead architect.
 ## 07_Communication-and-Decision-Making  
 - [Architect's Journey](../../Reference-Library/Legacy-Foundations/ArchitectsJourney/README.md)  
 - [Start Here](../../Reference-Library/Legacy-Foundations/ArchitectsJourney/START_HERE.md)  
-```  
-  
+```text
 ---  
   
 ✅ **This completes the full 09-phase progressive mapping**.
@@ -884,7 +870,7 @@ Each README contains **relative links** to your original files, so you can navig
   
 ## 📂 **LeadArchitect-LearningPath (Full Tree & README Contents)**  
   
-```  
+```text
 LeadArchitect-LearningPath/  
 │  
 ├── 00_Master-README.md  
@@ -907,8 +893,7 @@ LeadArchitect-LearningPath/
 ├── 09_Architect-Leadership/  
 │   └── README.md  
 └── Reference-Library/   <-- mirror of your existing repo folders  
-```  
-  
+```text
 ---  
   
 ### **00_Master-README.md**  
@@ -931,8 +916,7 @@ Welcome! This progressive path takes you from fundamentals to becoming a Lead Ar
 9. **09_Architect-Leadership** → Lead / Chief Architect  
   
 **Tip:** Each phase README contains links to original resources in `Reference-Library`.  
-```  
-  
+```text
 ---  
   
 ### **01_Fundamentals/README.md**  
@@ -970,8 +954,7 @@ Goal: Build strong programming foundations, OOP mastery, clean code skills, and 
   
 ## 05_Algorithms-and-DataStructures  
 - [Big O Lesson Plan](../../Reference-Library/21_Algorithms-Data-Structures/WeeklyLessons/Week01-BigO-LessonPlan.md)  
-```  
-  
+```text
 ---  
   
 ### **02_Intermediate-Design/README.md**  
@@ -1006,8 +989,7 @@ Goal: Master SOLID principles, design patterns, and UML diagrams.
 - [Activity Diagrams](../../Reference-Library/01_Development/23_UML/03_Activity-Diagrams)  
 - [State Machine Diagrams](../../Reference-Library/01_Development/23_UML/04_State-Machine-Diagrams)  
 - [Component Diagrams](../../Reference-Library/01_Development/23_UML/05_Component-Diagrams)  
-```  
-  
+```text
 ---  
   
 ### **03_Architectural-Patterns/README.md**  
@@ -1038,8 +1020,7 @@ Goal: Understand major architecture styles and when to apply them.
   
 ## 05_Domain-Driven-Design  
 - [Domain-Driven Design Fundamentals](../../Reference-Library/01_Development/04_Architectural-Patterns/02_Domain-Driven-Design-Fundamentals.md)  
-```  
-  
+```text
 ---  
   
 Because of space, I’ll need to send **Phases 04 → 09 in the next message** so you get the **full content without truncation**.
@@ -1068,8 +1049,7 @@ Goal: Design large-scale systems that are resilient, performant, and maintainabl
   
 ## 04_Scalability-and-Performance  
 - [Scalability & Performance Principles](../../Reference-Library/01_Development/10_Scalability-and-Performance-Principles/README.md)  
-```  
-  
+```text
 ---  
   
 ### **05_Cloud-Native-and-DevOps/README.md**  
@@ -1101,8 +1081,7 @@ Goal: Build, deploy, and operate cloud-native systems with DevOps practices.
   
 ## 05_Observability-and-Monitoring  
 - [Observability Overview](../../Reference-Library/04_DevOps/03_Observability-and-Monitoring/Observability/ReadMe.md)  
-```  
-  
+```text
 ---  
   
 ### **06_Data-Management-and-Security/README.md**  
@@ -1122,8 +1101,7 @@ Goal: Architect data systems and ensure security across platforms.
 ## 03_Security-by-Design  
 - [Security Architecture](../../Reference-Library/01_Development/04_Architectural-Patterns/11_Security-Architecture.md)  
 - [Security by Design](../../Reference-Library/01_Development/11_Security-by-Design/README.md)  
-```  
-  
+```text
 ---  
   
 ### **07_Technology-Implementation/README.md**  
@@ -1156,8 +1134,7 @@ Goal: Apply architecture patterns in language-specific and framework-specific co
 - [Node.js Architecture](../../Reference-Library/09_Node-js/README.md)  
 - [React.js Architecture](../../Reference-Library/11_React-js/README.md)  
 - [Angular Architecture](../../Reference-Library/12_Angular/README.md)  
-```  
-  
+```text
 ---  
   
 ### **08_AI-and-Responsible-Design/README.md**  
@@ -1181,8 +1158,7 @@ Goal: Integrate AI capabilities into enterprise architecture responsibly.
   
 ## 04_Responsible-AI  
 - [AI Ethics & Governance](../../Reference-Library/02_AI-and-ML/01_AI/09_AI-Ethics-and-Governance.md)  
-```  
-  
+```text
 ---  
   
 ### **09_Architect-Leadership/README.md**  
@@ -1214,8 +1190,7 @@ Goal: Transition from solution architect to lead architect.
 ## 07_Communication-and-Decision-Making  
 - [Architect's Journey](../../Reference-Library/Legacy-Foundations/ArchitectsJourney/README.md)  
 - [Start Here](../../Reference-Library/Legacy-Foundations/ArchitectsJourney/START_HERE.md)  
-```  
-  
+```text
 ---  
   
 ✅ **Now you have the complete 09-phase progressive path with ready README files**
@@ -1333,8 +1308,7 @@ Goal: Understand major architecture styles and when to apply them.
 - [Domain-Driven Design Fundamentals](Reference-Library/01_Development/04_Architectural-Patterns/02_Domain-Driven-Design-Fundamentals.md)  
   
 ---  
-```  
-  
+```text
 ---  
   
 I have the rest of **Phases 04 → 09** to add to `PATHWAY.md`.
@@ -1486,8 +1460,7 @@ Goal: Transition from solution architect to lead architect.
 - [Start Here](Reference-Library/Legacy-Foundations/ArchitectsJourney/START_HERE.md)  
   
 ---  
-```  
-  
+```text
 ---  
   
 ✅ Now you have:  
@@ -1681,7 +1654,7 @@ The key is:
 
 ## 🗂 Folder Structure (Progressive + Reference)
 
-```
+```text
 LeadArchitect-LearningPath  
 │  
 ├── Phase01_Fundamentals  
@@ -1696,8 +1669,7 @@ LeadArchitect-LearningPath
 │   ├── etc...  
 │  
 └── PATHWAY.md   # Master roadmap with links into both Phases & Reference  
-```
-
+```text
 ---
 
 ## 📑 PATHWAY.md (Master Roadmap Guide)
@@ -1819,7 +1791,7 @@ Perfect ✅ Swamy — we’ll stretch it into **9 phases**, each aligned with a 
 
 ## 🗂 Folder Structure (with 9 Phases)
 
-```
+```text
 LeadArchitect-LearningPath  
 │  
 ├── Phase01_Programming-Foundations  
@@ -1838,8 +1810,7 @@ LeadArchitect-LearningPath
 │   ├── etc.  
 │  
 └── PATHWAY.md   # master roadmap linking phases ↔ reference  
-```
-
+```text
 ---
 
 ## ✅ Why 9 Phases Work Better
@@ -1882,8 +1853,7 @@ graph TD
   F --> G[Phase 07: Technology Implementation]
   G --> H[Phase 08: AI, Data & MLOps]
   H --> I[Phase 09: Architect Leadership]
-```
-
+```text
 ---
 
 ## ✅ Phase Checklist
@@ -1999,7 +1969,7 @@ Here’s the approach:
 
 ### **Structure**
 
-```
+```text
 D:\STSA\
 ├── 01_ReferenceLibrary\      <-- original detailed topic folders
 └── LeadArchitect-LearningPath\   <-- new progressive path
@@ -2014,8 +1984,7 @@ D:\STSA\
     ├── 08_AI-and-Responsible-Design\
     ├── 09_Architect-Leadership\
     └── Reference-Library\   <-- symbolic/physical mirror of original library (optional)
-```
-
+```text
 - **Phase folders** each get a `README.md` with:
 
   - Goals
@@ -2038,7 +2007,7 @@ Here’s the complete updated structure and README contents:
 
 ## **LeadArchitect-LearningPath (Updated 01 → 10)**
 
-```
+```text
 LeadArchitect-LearningPath/
 │
 ├── 01_Master-README.md
@@ -2061,8 +2030,7 @@ LeadArchitect-LearningPath/
 ├── 10_Architect-Leadership/
 │   └── README.md
 └── Reference-Library/   <-- mirror of your original repo folders
-```
-
+```text
 ---
 
 ### **01_Master-README.md**
@@ -2085,8 +2053,7 @@ Welcome! This progressive path takes you from fundamentals to becoming a Lead Ar
 9. **10_Architect-Leadership** → Lead / Chief Architect
 
 **Tip:** Each phase README contains links to original resources in `Reference-Library`.
-```
-
+```text
 ---
 
 ### **02_Fundamentals/README.md**
@@ -2118,8 +2085,7 @@ Goal: Build strong programming foundations, OOP mastery, clean code skills, and 
 
 ## 05_Algorithms-and-DataStructures
 - [Big O Lesson Plan](../../Reference-Library/21_Algorithms-Data-Structures/WeeklyLessons/Week01-BigO-LessonPlan.md)
-```
-
+```text
 ---
 
 I can continue **03 → 10** in the same updated numbering style so the **entire path is ready** with all internal links fixed.
@@ -2162,8 +2128,7 @@ Goal: Master SOLID principles, design patterns, and UML diagrams.
 - [Activity Diagrams](../../Reference-Library/01_Development/23_UML/03_Activity-Diagrams)
 - [State Machine Diagrams](../../Reference-Library/01_Development/23_UML/04_State-Machine-Diagrams)
 - [Component Diagrams](../../Reference-Library/01_Development/23_UML/05_Component-Diagrams)
-```
-
+```text
 ---
 
 ### **04_Architectural-Patterns/README.md**
@@ -2194,8 +2159,7 @@ Goal: Understand major architecture styles and when to apply them.
 
 ## 05_Domain-Driven-Design
 - [Domain-Driven Design Fundamentals](../../Reference-Library/01_Development/04_Architectural-Patterns/02_Domain-Driven-Design-Fundamentals.md)
-```
-
+```text
 ---
 
 ### **05_System-Design-and-Scalability/README.md**
@@ -2216,8 +2180,7 @@ Goal: Design large-scale systems that are resilient, performant, and maintainabl
 
 ## 04_Scalability-and-Performance
 - [Scalability & Performance Principles](../../Reference-Library/01_Development/10_Scalability-and-Performance-Principles/README.md)
-```
-
+```text
 ---
 
 ### **06_Cloud-Native-and-DevOps/README.md**
@@ -2249,8 +2212,7 @@ Goal: Build, deploy, and operate cloud-native systems with DevOps practices.
 
 ## 05_Observability-and-Monitoring
 - [Observability Overview](../../Reference-Library/04_DevOps/03_Observability-and-Monitoring/Observability/ReadMe.md)
-```
-
+```text
 ---
 
 If you want, I can now produce **07 → 10** in the same ready-to-use format so your **entire 01 → 10 path** is complete.
@@ -2278,8 +2240,7 @@ Goal: Architect data systems and ensure security across platforms.
 ## 03_Security-by-Design
 - [Security Architecture](../../Reference-Library/01_Development/04_Architectural-Patterns/11_Security-Architecture.md)
 - [Security by Design](../../Reference-Library/01_Development/11_Security-by-Design/README.md)
-```
-
+```text
 ---
 
 ### **08_Technology-Implementation/README.md**
@@ -2312,8 +2273,7 @@ Goal: Apply architecture patterns in language-specific and framework-specific co
 - [Node.js Architecture](../../Reference-Library/09_Node-js/README.md)
 - [React.js Architecture](../../Reference-Library/11_React-js/README.md)
 - [Angular Architecture](../../Reference-Library/12_Angular/README.md)
-```
-
+```text
 ---
 
 ### **09_AI-and-Responsible-Design/README.md**
@@ -2337,8 +2297,7 @@ Goal: Integrate AI capabilities into enterprise architecture responsibly.
 
 ## 04_Responsible-AI
 - [AI Ethics & Governance](../../Reference-Library/02_AI-and-ML/01_AI/09_AI-Ethics-and-Governance.md)
-```
-
+```text
 ---
 
 ### **10_Architect-Leadership/README.md**
@@ -2370,8 +2329,7 @@ Goal: Transition from solution architect to lead/chief architect.
 ## 07_Communication-and-Decision-Making
 - [Architect's Journey](../../Reference-Library/Legacy-Foundations/ArchitectsJourney/README.md)
 - [Start Here](../../Reference-Library/Legacy-Foundations/ArchitectsJourney/START_HERE.md)
-```
-
+```text
 ---
 
 ✅ **Now you have a complete 01 → 10 phased Lead Architect Learning Path** with all README files ready to drop into your repo.

@@ -1,4 +1,4 @@
-# 04B_Day01_System_Map
+﻿# 04B_Day01_System_Map
 
 **Learning Level**: Advanced  
 **Prerequisites**: Week 04 overview, portfolio list of products/platforms, observability dashboards  
@@ -48,8 +48,7 @@
         |
 [Infrastructure]
    |-- Kubernetes -> Observability Stack -> Identity Provider
-```
-
+```text
 ## 🔁 Loop 02 – Feedback Loop Discovery
 
 **Target Output**: Feedback loop inventory highlighting reinforcing (R) and balancing (B) loops.
@@ -71,8 +70,7 @@
 ```text
 R1: Feature Velocity -> Customer Adoption -> Feedback Volume -> Prioritized Roadmap -> Feature Velocity
 B1: Error Rate -> Incident Response -> Mitigation -> Error Rate
-```
-
+```text
 ## ✅ Exit Criteria for Day 1
 
 - System landscape canvas completed with major systems and dependencies.

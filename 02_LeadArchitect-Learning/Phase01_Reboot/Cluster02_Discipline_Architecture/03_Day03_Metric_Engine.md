@@ -1,4 +1,4 @@
-# 02D_Day03_Metric_Engine
+﻿# 02D_Day03_Metric_Engine
 
 **Learning Level**: Advanced  
 **Prerequisites**: Principle stack v0, ritual mapping matrix, analytics access  
@@ -68,8 +68,7 @@
 +---------------------------+---------------------------+
 | Daily Reflection Prompt & Accountability Tracker      |
 +-------------------------------------------------------+
-```
-
+```text
 ### Mermaid Flow (Optional Render)
 
 ```mermaid
@@ -78,8 +77,7 @@ flowchart TD
     B --> C(Ritual Placement)
     C --> D(Metric Snapshot Tiles)
     D --> E(Reflection Prompt)
-```
-
+```text
 ## ✅ Exit Criteria for Day 3
 
 - Micro-metric catalog complete with data source assignments.

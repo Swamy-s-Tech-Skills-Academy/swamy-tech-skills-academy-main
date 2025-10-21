@@ -68,6 +68,7 @@ Next: [04_SOLID-Principles-Deep-Dive-PartC.md](04_SOLID-Principles-Deep-Dive-Par
         throw new ArgumentException("Unknown shape type");
     }
 }
+
 ```
 
 ### **✅ OCP Compliant Solution**

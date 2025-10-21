@@ -1,4 +1,4 @@
-# 04_Systems-Heuristic-Entry_Template
+﻿# 04_Systems-Heuristic-Entry_Template
 
 **Cluster**: 04 – Systems Heuristics  
 **Loop**: 09 – Atlas Assembly  
@@ -18,8 +18,7 @@
 
 ```text
 Trigger → Signal Check → Heuristic Application → Expected Action → Verification Step
-```
-
+```text
 ## 🧪 Scenario References
 
 | Scenario | Expected Response | Observed Notes | Adjustment Needed |

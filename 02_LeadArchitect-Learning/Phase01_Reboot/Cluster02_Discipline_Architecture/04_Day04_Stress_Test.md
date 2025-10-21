@@ -1,4 +1,4 @@
-# 02E_Day04_Stress_Test
+﻿# 02E_Day04_Stress_Test
 
 **Learning Level**: Advanced  
 **Prerequisites**: Canvas wireframe, metric catalog, principle stack v0  
@@ -37,8 +37,7 @@
 
 ```text
 [Scenario] -> [Principle Stress] -> [Ritual Impact] -> [Recovery Move] -> [Metric Update]
-```
-
+```text
 ## 🔧 Loop 08 – Refinement Sprint
 
 **Target Output**: Canvas v0.9 incorporating stress-test feedback and peer/AI suggestions.
@@ -63,8 +62,7 @@ flowchart LR
     S(Stress Notes) --> P(Priority Sorting)
     P --> U(Updates Applied)
     U --> V(Canvas v0.9)
-```
-
+```text
 ## ✅ Exit Criteria for Day 4
 
 - Stress-test notes captured for at least two challenging scenarios.

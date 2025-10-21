@@ -1,4 +1,4 @@
-# 04D_Day03_Scenario_Lab
+﻿# 04D_Day03_Scenario_Lab
 
 **Learning Level**: Advanced  
 **Prerequisites**: Heuristic set v0, constraint ledger, incident and scaling scenarios  
@@ -36,8 +36,7 @@
 
 ```text
 [Scenario Trigger] -> [Heuristic Invocation] -> [Decision Node] -> [Outcome] -> [Lessons]
-```
-
+```text
 ## 🧭 Loop 06 – Bias Audit
 
 **Target Output**: Cognitive bias checklist detailing risks and countermeasures per heuristic.
@@ -62,8 +61,7 @@ flowchart LR
     B --> I(Indicator)
     I --> C(Countermeasure)
     C --> R(Reinforced Heuristic)
-```
-
+```text
 ## ✅ Exit Criteria for Day 3
 
 - Scenario playbook entries for at least three scenarios completed.

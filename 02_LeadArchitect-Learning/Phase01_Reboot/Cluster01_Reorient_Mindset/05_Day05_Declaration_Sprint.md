@@ -1,4 +1,4 @@
-# Day 5 – Declaration Sprint (Loops 09-10)
+﻿# Day 5 – Declaration Sprint (Loops 09-10)
 
 **Learning Level**: Advanced  
 **Prerequisites**: Updated Perspective Reset Letter v0.9, adoption flywheel, Day 4 feedback decisions  
@@ -52,8 +52,7 @@ Act C – Sustain & Measure
   - Audience: Broader organization
   - Channel: Weekly ritual updates + dashboard broadcast
   - Success Metric: Ritual adherence ≥75% after four weeks
-```
-
+```text
 ### Risk Rehearsal Matrix
 
 | Risk | Trigger | Countermeasure | Owner |

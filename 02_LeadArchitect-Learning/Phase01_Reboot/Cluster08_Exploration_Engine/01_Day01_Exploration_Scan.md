@@ -1,4 +1,4 @@
-# 08A_Day01_Exploration_Scan
+﻿# 08A_Day01_Exploration_Scan
 
 **Learning Level**: Advanced  
 **Prerequisites**: Strategy themes, industry reports, innovation backlog  
@@ -42,8 +42,7 @@
 
 ```text
 [External Signals] + [Internal Signals] => [Themes] => [Experiment Hypotheses]
-```
-
+```text
 ## ✅ Success Criteria
 
 - Minimum of eight high-quality hypotheses logged across diverse themes.

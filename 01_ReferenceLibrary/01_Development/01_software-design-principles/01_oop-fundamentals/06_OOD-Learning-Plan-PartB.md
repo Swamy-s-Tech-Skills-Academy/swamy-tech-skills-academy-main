@@ -12,10 +12,9 @@ Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
 
 ---
 
-
-   - Review and solidify core OOD principles: **Encapsulation**, **Abstraction**, **Inheritance**, and **Polymorphism**.
-   - **Encapsulation:** Practice defining access modifiers (`public`, `private`, `protected`, and `internal`) and using properties to encapsulate data.
-   - **Abstraction:** Work on creating base classes and interfaces, abstracting behaviors and properties.
+- Review and solidify core OOD principles: **Encapsulation**, **Abstraction**, **Inheritance**, and **Polymorphism**.
+- **Encapsulation:** Practice defining access modifiers (`public`, `private`, `protected`, and `internal`) and using properties to encapsulate data.
+- **Abstraction:** Work on creating base classes and interfaces, abstracting behaviors and properties.
 
 2. **Exercises in C#:**
 

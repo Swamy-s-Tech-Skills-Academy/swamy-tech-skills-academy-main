@@ -1,4 +1,4 @@
-# 03_Toolchain-Manifesto_Template
+﻿# 03_Toolchain-Manifesto_Template
 
 **Cluster**: 03 – Toolchain Intentionality  
 **Loops**: 01-10 (manifesto evolves throughout)  
@@ -57,8 +57,7 @@ Quarter 1: ...
 Quarter 2: ...
 Quarter 3: ...
 Quarter 4: ...
-```
-
+```text
 ## 🧵 Appendices
 
 - Interview insights (summary bullets).

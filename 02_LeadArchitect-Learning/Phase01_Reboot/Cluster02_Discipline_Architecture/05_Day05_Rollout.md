@@ -1,4 +1,4 @@
-# 02F_Day05_Rollout
+﻿# 02F_Day05_Rollout
 
 **Learning Level**: Advanced  
 **Prerequisites**: Canvas v0.9, stress-test notes, principle stack, ritual matrix  
@@ -60,8 +60,7 @@ Week 02 Retrospective Cue:
 - Where did rituals slip and why?
 - Which metrics felt insightful vs. noisy?
 - What tooling gaps should Cluster 03 address?
-```
-
+```text
 ## ✅ Exit Criteria for Day 5
 
 - Canvas v1.0 finalized and shared with accountability partners.

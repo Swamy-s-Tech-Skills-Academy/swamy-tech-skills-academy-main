@@ -35,6 +35,7 @@ public class SavingsAccount : BankAccount
     // Inherits base behavior - maintains same invariant
     // LSP compliant: doesn't strengthen preconditions or weaken postconditions
 }
+
 ```
 
 #### Design Patterns Supporting LSP
@@ -166,5 +167,3 @@ public class CustomerDataProcessor : DataProcessor<Customer>
 **Builds Upon**: Interface design, Contract testing, Design patterns  
 **Enables**: Interface Segregation Principle (Part 4), Robust inheritance hierarchies  
 **Related**: Template Method Pattern, Strategy Pattern, Behavioral Design Patterns
-
-

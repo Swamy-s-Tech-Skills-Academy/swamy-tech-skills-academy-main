@@ -1,4 +1,4 @@
-# 03E_Day04_Guardrail_Check
+﻿# 03E_Day04_Guardrail_Check
 
 **Learning Level**: Advanced  
 **Prerequisites**: Integration scorecard, automation backlog, security/compliance policies  
@@ -38,8 +38,7 @@
 [Tool] -> [Control Check] -> [Status]
              | Pass -> [Log]
              | Gap  -> [Risk Ticket]
-```
-
+```text
 ## 🗣️ Loop 08 – Stakeholder Interviews
 
 **Target Output**: Adoption insight brief summarizing expectations, pain points, and enablers.
@@ -64,8 +63,7 @@ graph TD
     B(Product Lead) -->|Needs| Y(Visibility dashboards)
     C(Eng Manager) -->|Needs| Z(Workflow automation)
     D(SRE) -->|Needs| W(Reliable on-call tooling)
-```
-
+```text
 ## ✅ Exit Criteria for Day 4
 
 - Guardrail ledger populated with risks and remediation owners.

@@ -1,4 +1,4 @@
-# 07A_Day05_Guardrail_Publication
+﻿# 07A_Day05_Guardrail_Publication
 
 **Learning Level**: Advanced  
 **Prerequisites**: Alignment agreements, escalation matrix, enforcement blueprint  
@@ -43,8 +43,7 @@
 
 ```text
 [Compiled Artifacts] => [Charter Draft] => [Audit Plan] => [Org Rollout]
-```
-
+```text
 ## ✅ Success Criteria
 
 - Guardrail Charter v1.0 ready for stakeholder approval.

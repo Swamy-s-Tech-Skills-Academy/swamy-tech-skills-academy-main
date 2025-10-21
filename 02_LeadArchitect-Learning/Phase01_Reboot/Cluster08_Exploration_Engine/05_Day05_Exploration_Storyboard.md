@@ -1,4 +1,4 @@
-# 08A_Day05_Exploration_Storyboard
+﻿# 08A_Day05_Exploration_Storyboard
 
 **Learning Level**: Advanced  
 **Prerequisites**: Evidence log, decision rubric results, experiment risk canvases  
@@ -42,8 +42,7 @@
 
 ```text
 [Charter Summaries] => [Storyboard Draft] => [Review Cadence] => [Portfolio Integration]
-```
-
+```text
 ## ✅ Success Criteria
 
 - Exploration Storyboard v1.0 ready for executive review.

@@ -1,4 +1,4 @@
-# 04F_Day05_Atlas_Build
+﻿# 04F_Day05_Atlas_Build
 
 **Learning Level**: Advanced  
 **Prerequisites**: Peer review notes, storyboard wireframe, heuristic set with bias mitigations  
@@ -36,8 +36,7 @@
 4. Scenario Playbooks
 5. Bias Countermeasures & Guardrails
 6. Implementation Guidance & Metrics
-```
-
+```text
 ## 📣 Loop 10 – Enablement & Retrospective
 
 **Target Output**: Heuristic enablement plan plus Week 04 retrospective brief.
@@ -62,8 +61,7 @@ Week 04 Retrospective:
 - Where do teams need more practice applying the heuristics?
 - What monitoring or tooling gaps remain?
 - Which craft skills should we reinforce in Cluster 05 labs?
-```
-
+```text
 ## ✅ Exit Criteria for Day 5
 
 - Systems Heuristics Atlas v1.0 packaged with consistent structure and visuals.
