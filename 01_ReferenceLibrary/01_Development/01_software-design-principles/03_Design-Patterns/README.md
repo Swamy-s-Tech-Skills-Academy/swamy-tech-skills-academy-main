@@ -48,11 +48,17 @@ This folder contains **design patterns** - time-tested solutions to recurring de
 - **[07C_Builder-Pattern-Generic](07C_Design-Patterns-Part2C-Builder-Pattern-Generic.md)** - Generic builder systems and email implementation  
 - **[07D_Builder-Pattern-Enterprise](07D_Design-Patterns-Part2D-Builder-Pattern-Enterprise.md)** - Enterprise applications and test data builders
 
-#### **Singleton Pattern**
+#### **Singleton Pattern** ✅ **COMPLETE (3-Part Series)**
 
 - **Problem**: Ensure only one instance of a class exists
 - **Solution**: Private constructor with static instance access
 - **When to Use**: Configuration objects, logging, caching (use carefully!)
+
+**Available Learning Modules**:
+
+- **[08A_Singleton-Pattern-Fundamentals](08A_Design-Patterns-Part3A-Singleton-Pattern-Fundamentals.md)** - Thread-safe implementations and core patterns
+- **[08B_Singleton-Pattern-Modern](08B_Design-Patterns-Part3B-Singleton-Pattern-Modern.md)** - Dependency injection and testable alternatives
+- **[08C_Singleton-Pattern-Registry](08C_Design-Patterns-Part3C-Singleton-Pattern-Registry.md)** - Advanced registry patterns and enterprise guidelines
 
 ---
 
