@@ -210,14 +210,20 @@ Expect markdownlint to surface pre-existing legacy violations; focus on keeping 
 
 ## Few Commands
 
+> 1. <D:\STSA\swamy-tech-skills-academy-main\01_ReferenceLibrary>
+> 1. <D:\STSA\swamy-tech-skills-academy-main\02_LeadArchitect-Learning>
+
 ```text
 Please verify that content inside <<FolderName>> 
-A. is accordance with our rules.
-B. is accurate and complete.
-C. follows our style guidelines.
-D. has no broken links.
-E. is free of spelling and grammar errors.
-F. No redundant content.
+A. Ensure that the content is according to our rules
+B. Ensure that the content is accurate and complete.
+C. Ensure that the content follows our style guidelines.
+D. Ensure that the content has no broken links.
+E. Ensure that the content is free of spelling and grammar errors.
+F. Ensure that there is no redundant content.
+G. List any files which are not relevant and can be removed
+
+Do deep dive. Do ReAct, and Reasoning before answering.
 ---
 
 ## License
