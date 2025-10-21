@@ -32,11 +32,11 @@ By the end of this session, you will:
 
 Inheritance (IS-A):        Composition (HAS-A):
 â”œâ”€â”€ Dog IS-A Animal       â”œâ”€â”€ Car HAS-A Engine  
-â”œâ”€â”€ Manager IS-A Employee â”œâ”€â”€ House HAS-A Kitchen
-â””â”€â”€ Circle IS-A Shape     â””â”€â”€ Team HAS-A Members
+â"œâ"€â"€ Manager IS-A Employee â"œâ"€â"€ House HAS-A Kitchen
+â""â"€â"€ Circle IS-A Shape     â""â"€â"€ Team HAS-A Members
 ```
 
-**Composition Implementation Pattern**
+## Composition Implementation Pattern
 
 ```pseudocode
 // Composition: Building complex objects from simpler ones
@@ -223,7 +223,7 @@ userService = container.resolve(UserService)  // Auto-inject dependencies
 
 ---
 
-**Part A of 2**
+## Part A of 2
 
 Next: [04_OOP-Advanced-Patterns-PartB.md](04_OOP-Advanced-Patterns-PartB.md)
 

@@ -17,7 +17,7 @@ By the end of this 27-minute session, you will:
 
 ---
 
-**Part A of 2**
+## Part A of 2
 
 Next: [05_OOP-Fundamentals-Comprehensive-Guide-PartB.md](05_OOP-Fundamentals-Comprehensive-Guide-PartB.md)
 
