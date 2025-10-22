@@ -1,10 +1,10 @@
-﻿# 04_OOP-Advanced-Patterns - Part A
+# 04_OOP-Advanced-Patterns - Part A
 
 **Learning Level**: Intermediate  
 **Prerequisites**: [01A1_OOP-Core-Concepts.md](01A1_OOP-Core-Concepts.md), [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md), [03_OOP-Inheritance-Polymorphism.md](03_OOP-Inheritance-Polymorphism.md)  
 **Estimated Time**: 27 minutes  
 
-## ðŸŽ¯ Learning Objectives (27-Minute Session)
+## 🎯 Learning Objectives (27-Minute Session)
 
 By the end of this session, you will:
 
@@ -13,7 +13,7 @@ By the end of this session, you will:
 - Implement dependency injection for flexible systems
 - Apply OOP best practices for enterprise-grade code
 
-## ðŸ“‹ Content Sections (27-Minute Structure)
+## 📋 Content Sections (27-Minute Structure)
 
 ### Quick Review (5 minutes)
 
@@ -27,15 +27,14 @@ By the end of this session, you will:
 **Golden Rule**: *"Favor composition over inheritance"*
 
 ```text
-ðŸŽ¯ Decision Framework
+Decision Framework
 ====================
 
 Inheritance (IS-A):        Composition (HAS-A):
-â”œâ”€â”€ Dog IS-A Animal       â”œâ”€â”€ Car HAS-A Engine  
-â"œâ"€â"€ Manager IS-A Employee â"œâ"€â"€ House HAS-A Kitchen
-â""â"€â"€ Circle IS-A Shape     â""â"€â"€ Team HAS-A Members
-```
-
+├── Dog IS-A Animal       ├── Car HAS-A Engine  
+├── Manager IS-A Employee ├── House HAS-A Kitchen
+└── Circle IS-A Shape     └── Team HAS-A Members
+```csharp
 ## Composition Implementation Pattern
 
 ```pseudocode
@@ -60,8 +59,7 @@ class Car:
         
         navigateTo(destination):
             return gps.navigate(destination)  // Delegate behavior
-```
-
+```csharp
 #### Abstract Classes vs Interfaces: Design Contracts
 
 ```pseudocode
@@ -90,8 +88,7 @@ class MySQLService extends DatabaseService implements Serializable:
     executeQuery(sql): return mysql_query(sql)
     serialize(): return JSON.stringify(this.connectionInfo)
     deserialize(data): return JSON.parse(data)
-```
-
+```csharp
 #### Dependency Injection: Loose Coupling Pattern
 
 ```pseudocode
@@ -119,8 +116,7 @@ class SendGridClient implements IMailClient:
 // Usage with DI
 emailService = new EmailService(new SMTPClient())      // Production
 emailService = new EmailService(new MockMailClient()) // Testing
-```
-
+```csharp
 #### Enterprise Design Patterns
 
 ```pseudocode
@@ -160,8 +156,7 @@ class PaymentProcessor:
     
     processPayment(amount):
         return strategy.processPayment(amount)
-```
-
+```csharp
 ### Practical Implementation (5 minutes)
 
 #### Real-World Enterprise Pattern
@@ -179,16 +174,15 @@ class UserService:
 // DI Container (Framework concept)
 container.register(UserRepository, DatabaseUserRepository)
 userService = container.resolve(UserService)  // Auto-inject dependencies
-```
-
+```csharp
 ### Key Takeaways & Next Steps (2 minutes)
 
 #### Essential Design Principles
 
-âœ… **Composition over Inheritance**: Build flexible systems with HAS-A relationships  
-âœ… **Interface Segregation**: Small, focused contracts over large interfaces  
-âœ… **Dependency Injection**: Inject dependencies rather than creating them  
-âœ… **Single Responsibility**: Each class should have one reason to change  
+✅ **Composition over Inheritance**: Build flexible systems with HAS-A relationships  
+✅ **Interface Segregation**: Small, focused contracts over large interfaces  
+✅ **Dependency Injection**: Inject dependencies rather than creating them  
+✅ **Single Responsibility**: Each class should have one reason to change  
 
 #### Best Practices
 
@@ -204,18 +198,18 @@ userService = container.resolve(UserService)  // Auto-inject dependencies
 
 ## ðŸ”— Related Topics
 
-### Prerequisites Met âœ…
+### Prerequisites Met ✅
 
 - **Parts 1A-1C**: Complete OOP fundamentals mastery
 - **Design Thinking**: Problem decomposition and abstraction
 
-### Builds Upon ðŸ—ï¸
+### Builds Upon 🏗️
 
 - Inheritance and polymorphism concepts
 - Interface and abstract class understanding
 - Enterprise software architecture principles
 
-### Enables ðŸŽ¯
+### Enables 🎯
 
 - **SOLID Principles**: Advanced OOP design principles
 - **Design Patterns**: Gang of Four patterns implementation
@@ -229,6 +223,5 @@ Next: [04_OOP-Advanced-Patterns-PartB.md](04_OOP-Advanced-Patterns-PartB.md)
 
 ---
 
-**Module Status**: âœ… **Optimized** (176 lines, 27-minute focused learning)  
-**Completion**: âœ… **OOP Fundamentals Domain 100% Complete**
-**Module Status**: âœ… **Optimized** (176 lines, 27-minute focused learning)  
+**Module Status**: ✅ **Optimized** (176 lines, 27-minute focused learning)  
+**Completion**: ✅ **OOP Fundamentals Domain 100% Complete**  

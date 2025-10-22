@@ -848,4 +848,3 @@ public class EnterpriseBuilderDemo
 
 - [Singleton Pattern](08A_Design-Patterns-Part3A-Singleton-Pattern-Fundamentals.md) - Instance management
 - [Prototype Pattern](../../creational-patterns/prototype/) - Object cloning strategies
-

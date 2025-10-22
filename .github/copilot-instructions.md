@@ -13,7 +13,6 @@ When working with this repository, GitHub Copilot should function as an **educat
 
 All Copilot agents and automated scripts MUST follow this branching policy:
 
-
 This policy prevents accidental branch proliferation and keeps changes predictable and reviewable.
 
 ## 🔎 Reasoning Style Requirement
@@ -21,6 +20,7 @@ This policy prevents accidental branch proliferation and keeps changes predictab
 When generating content or performing edits, Copilot agents MUST follow a ReAct-style approach to reasoning: provide concise high-level reasoning and action summaries (what you did and why), but do NOT expose chain-of-thought or internal deliberations. Use short, actionable rationales only — never include detailed step-by-step internal reasoning or hidden thought traces.
 
 Guidance:
+
 - Use brief summaries of intent and outcome (1-3 sentences).
 - List actions taken as explicit steps or commands (if applicable).
 - Avoid chain-of-thought, step-by-step internal deliberation, or other internal reasoning artifacts in any files or commit messages.
