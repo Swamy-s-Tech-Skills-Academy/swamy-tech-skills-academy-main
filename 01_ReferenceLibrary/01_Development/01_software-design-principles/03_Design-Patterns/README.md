@@ -35,17 +35,30 @@ This folder contains **design patterns** - time-tested solutions to recurring de
 - **Solution**: Delegate object creation to factory methods or classes
 - **When to Use**: Multiple object types, complex creation logic, dependency injection
 
-#### **Builder Pattern**
+#### **Builder Pattern** ✅ **COMPLETE (4-Part Series)**
 
 - **Problem**: Constructing complex objects step by step
 - **Solution**: Separate construction process from final representation
 - **When to Use**: Objects with many optional parameters, complex initialization
 
-#### **Singleton Pattern**
+**Available Learning Modules**:
+
+- **[07A_Builder-Pattern-Fundamentals](07A_Design-Patterns-Part2A-Builder-Pattern-Fundamentals.md)** - Database query builder foundations
+- **[07B_Builder-Pattern-Director](07B_Design-Patterns-Part2B-Builder-Pattern-Director.md)** - Director pattern and configuration management
+- **[07C_Builder-Pattern-Generic](07C_Design-Patterns-Part2C-Builder-Pattern-Generic.md)** - Generic builder systems and email implementation  
+- **[07D_Builder-Pattern-Enterprise](07D_Design-Patterns-Part2D-Builder-Pattern-Enterprise.md)** - Enterprise applications and test data builders
+
+#### **Singleton Pattern** ✅ **COMPLETE (3-Part Series)**
 
 - **Problem**: Ensure only one instance of a class exists
 - **Solution**: Private constructor with static instance access
 - **When to Use**: Configuration objects, logging, caching (use carefully!)
+
+**Available Learning Modules**:
+
+- **[08A_Singleton-Pattern-Fundamentals](08A_Design-Patterns-Part3A-Singleton-Pattern-Fundamentals.md)** - Thread-safe implementations and core patterns
+- **[08B_Singleton-Pattern-Modern](08B_Design-Patterns-Part3B-Singleton-Pattern-Modern.md)** - Dependency injection and testable alternatives
+- **[08C_Singleton-Pattern-Registry](08C_Design-Patterns-Part3C-Singleton-Pattern-Registry.md)** - Advanced registry patterns and enterprise guidelines
 
 ---
 

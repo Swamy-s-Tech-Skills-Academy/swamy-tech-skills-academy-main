@@ -17,7 +17,7 @@ By the end of this 27-minute session, you will:
 
 ---
 
-**Part B of 2**
+## Part B of 2
 
 Previous: [05_OOP-Fundamentals-Comprehensive-Guide-PartA.md](05_OOP-Fundamentals-Comprehensive-Guide-PartA.md)
 
@@ -28,7 +28,7 @@ Previous: [05_OOP-Fundamentals-Comprehensive-Guide-PartA.md](05_OOP-Fundamentals
         # PayPal specific logic
         return f"PayPal payment of ${amount} processed"
 
-# Polymorphic usage
+## Polymorphic Usage
 
 processors = [CreditCardProcessor(), PayPalProcessor()]
 
@@ -36,7 +36,7 @@ for processor in processors:
     result = processor.process_payment(100)  # Same method, different behavior
     print(result)
 
-```
+```python
 
 ### Understanding Class vs Object
 

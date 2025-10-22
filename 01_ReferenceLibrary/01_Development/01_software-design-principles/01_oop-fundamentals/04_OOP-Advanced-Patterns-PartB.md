@@ -36,7 +36,7 @@ Inheritance (IS-A):        Composition (HAS-A):
 â””â”€â”€ Circle IS-A Shape     â””â”€â”€ Team HAS-A Members
 ```
 
-**Composition Implementation Pattern**
+## Composition Implementation Pattern
 
 ```pseudocode
 // Composition: Building complex objects from simpler ones
@@ -226,7 +226,7 @@ userService = container.resolve(UserService)  // Auto-inject dependencies
 
 ---
 
-**Part B of 2**
+## Part B of 2
 
 Previous: [04_OOP-Advanced-Patterns-PartA.md](04_OOP-Advanced-Patterns-PartA.md)
 
