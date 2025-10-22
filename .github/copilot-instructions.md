@@ -13,11 +13,18 @@ When working with this repository, GitHub Copilot should function as an **educat
 
 All Copilot agents and automated scripts MUST follow this branching policy:
 
-- Do NOT create new branches unless explicitly requested by a repository maintainer. Under no circumstances should Copilot create branches autonomously.
-- Perform all edits on the current checked-out branch (the branch returned by `git rev-parse --abbrev-ref HEAD`). If a change requires a different branch, prompt the maintainer and wait for explicit instruction.
-- If you detect uncommitted changes or an unusual branch state, stop and notify a human maintainer instead of creating or switching branches.
 
 This policy prevents accidental branch proliferation and keeps changes predictable and reviewable.
+
+## 🔎 Reasoning Style Requirement
+
+When generating content or performing edits, Copilot agents MUST follow a ReAct-style approach to reasoning: provide concise high-level reasoning and action summaries (what you did and why), but do NOT expose chain-of-thought or internal deliberations. Use short, actionable rationales only — never include detailed step-by-step internal reasoning or hidden thought traces.
+
+Guidance:
+- Use brief summaries of intent and outcome (1-3 sentences).
+- List actions taken as explicit steps or commands (if applicable).
+- Avoid chain-of-thought, step-by-step internal deliberation, or other internal reasoning artifacts in any files or commit messages.
+- If deeper technical reasoning is required for reviewers, provide it in a separate private review note outside the repository.
 
 ## 🔐 Commit & Push Confirmation (New)
 
