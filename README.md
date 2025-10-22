@@ -214,9 +214,9 @@ Expect markdownlint to surface pre-existing legacy violations; focus on keeping 
 > 1. <D:\STSA\swamy-tech-skills-academy-main\02_LeadArchitect-Learning>
 
 ```text
-Please verify that content inside <<FolderName>> 
+Verify that content inside the folders mentioned above
 A. Ensure that the content is according to our rules
-B. Ensure that the content is accurate and complete. Go into each file and verify.
+B. Ensure that the content is accurate and complete. 
 C. Ensure that the content follows our style guidelines.
 D. Ensure that the content has no broken links.
 E. Ensure that the content is free of spelling and grammar errors.
@@ -226,8 +226,9 @@ H. Ensure that the content is well-structured and easy to navigate.
 I. Ensure that the content is up-to-date with the latest information.
 J. Provide suggestions for improvement if any.
 K. Ensure that there are no encoding issues.
+L. Ensure go into each file and verify.
 
-Do deep dive. Do ReAct, and Reasoning before answering.
+Do deep dive. Do ReAct, and Reasoning before performing your work. Take time do not rush.
 ---
 
 ## License
