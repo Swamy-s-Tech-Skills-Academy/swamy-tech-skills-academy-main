@@ -216,7 +216,7 @@ Expect markdownlint to surface pre-existing legacy violations; focus on keeping 
 ```text
 Please verify that content inside <<FolderName>> 
 A. Ensure that the content is according to our rules
-B. Ensure that the content is accurate and complete.
+B. Ensure that the content is accurate and complete. Go into each file and verify.
 C. Ensure that the content follows our style guidelines.
 D. Ensure that the content has no broken links.
 E. Ensure that the content is free of spelling and grammar errors.
