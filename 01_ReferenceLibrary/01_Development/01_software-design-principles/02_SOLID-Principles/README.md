@@ -21,17 +21,17 @@ This domain contains the **five fundamental SOLID principles** that form the bac
 
 | Module | Principle | Focus | Time | Status |
 |--------|-----------|-------|------|--------|
-| **[01: Single Responsibility](01_SOLID-Part1-Single-Responsibility.md)** | SRP | One reason to change | 30 min | ✅ Complete |
-| **[02: Open/Closed](02_SOLID-Part2-Open-Closed-Principle.md)** | OCP | Extension without modification | 30 min | ✅ Complete |
-| **[03: Liskov Substitution](03_SOLID-Part3-Liskov-Substitution-Principle.md)** | LSP | Behavioral substitutability | 35 min | ✅ Complete |
-| **[04: Interface Segregation](04_SOLID-Part4-Interface-Segregation-Principle.md)** | ISP | Client-specific interfaces | 30 min | ✅ Complete |
-| **[05: Dependency Inversion](05_SOLID-Part5-Dependency-Inversion-Principle.md)** | DIP | Depend on abstractions | 35 min | ✅ Complete |
+| **[01: Single Responsibility](01_SOLID-Part1-Single-Responsibility-PartA.md)** | SRP | One reason to change | 30 min | ✅ Complete |
+| **[02: Open/Closed](02_SOLID-Part2-Open-Closed-Principle-PartA.md)** | OCP | Extension without modification | 30 min | ✅ Complete |
+| **[03: Liskov Substitution](03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md)** | LSP | Behavioral substitutability | 35 min | ✅ Complete |
+| **[04: Interface Segregation](04_SOLID-Part4-Interface-Segregation-Principle-PartA.md)** | ISP | Client-specific interfaces | 30 min | ✅ Complete |
+| **[05: Dependency Inversion](05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md)** | DIP | Depend on abstractions | 35 min | ✅ Complete |
 
 ### **📋 Supporting Resources**
 
-- **[SOLID Principles Track](01_SOLID-Principles-Track.md)** - Complete learning progression guide
+- **[SOLID Principles Track](01_SOLID-Principles-Track-PartA.md)** - Complete learning progression guide
 - **[Complete Design Guide](02_Complete-Design-Principles-Guide.md)** - Comprehensive reference
-- **[Deep Dive Analysis](04_SOLID-Principles-Deep-Dive.md)** - Advanced enterprise patterns
+- **[Deep Dive Analysis](04_SOLID-Principles-Deep-Dive-PartA.md)** - Advanced enterprise patterns
 
 ---
 
@@ -58,7 +58,7 @@ This domain contains the **five fundamental SOLID principles** that form the bac
 
 ### **Available Implementations**
 
-- **C#**: [C# SOLID Implementation](../../03_CSharp/03_SOLID-Implementation/)
+- **C#**: [C# SOLID Implementation](../../03_CSharp/04_SOLID-Implementation/)
 - **Python**: [Python SOLID Implementation](../../02_Python/06_SOLID-Implementation/)
 - **Java**: [Java SOLID Implementation](../../04_Java/03_SOLID-Implementation/)
 
