@@ -10,7 +10,7 @@ By the end of this 30-minute session, you will:
 
 - Understand the Single Responsibility Principle (SRP) and why it matters
 
-**Part C of 3**
+## Part C of 3
 
 Previous: [01_SOLID-Part1-Single-Responsibility-PartB.md](01_SOLID-Part1-Single-Responsibility-PartB.md)
 
@@ -28,8 +28,7 @@ Previous: [01_SOLID-Part1-Single-Responsibility-PartB.md](01_SOLID-Part1-Single-
     }
 }
 
-```
-
+```csharp
 ### Key Takeaways & Next Steps (2 minutes)
 
 **SRP Benefits**:

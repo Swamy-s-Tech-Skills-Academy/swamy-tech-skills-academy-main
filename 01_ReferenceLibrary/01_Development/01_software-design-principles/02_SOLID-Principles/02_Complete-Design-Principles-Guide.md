@@ -76,15 +76,15 @@ Design Principles Map
 
 ### Prerequisites
 
-- [SOLID Principles Track](01_SOLID-Principles-Track.md)
+- [SOLID Principles Track](01_SOLID-Principles-Track-PartA.md)
 
 ### Builds Upon
 
-- [01: Single Responsibility](01_SOLID-Part1-Single-Responsibility.md)
-- [02: Open/Closed](02_SOLID-Part2-Open-Closed-Principle.md)
-- [03: Liskov Substitution](03_SOLID-Part3-Liskov-Substitution-Principle.md)
-- [04: Interface Segregation](04_SOLID-Part4-Interface-Segregation-Principle.md)
-- [05: Dependency Inversion](05_SOLID-Part5-Dependency-Inversion-Principle.md)
+- [01: Single Responsibility](01_SOLID-Part1-Single-Responsibility-PartA.md)
+- [02: Open/Closed](02_SOLID-Part2-Open-Closed-Principle-PartA.md)
+- [03: Liskov Substitution](03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md)
+- [04: Interface Segregation](04_SOLID-Part4-Interface-Segregation-Principle-PartA.md)
+- [05: Dependency Inversion](05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md)
 
 ### Enables
 
@@ -93,7 +93,7 @@ Design Principles Map
 
 ### Cross-References
 
-- [Deep Dive Analysis](04_SOLID-Principles-Deep-Dive.md)
+- [Deep Dive Analysis](04_SOLID-Principles-Deep-Dive-PartA.md)
 
 ---
 

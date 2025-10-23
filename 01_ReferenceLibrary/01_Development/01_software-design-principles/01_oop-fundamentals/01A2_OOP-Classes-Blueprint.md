@@ -32,8 +32,6 @@ By the end of this 12-minute session, you will:
 
 **Every class has two main parts**:
 
-**Every class has two main parts**:
-
 ```text
 CLASS STRUCTURE
 ┌─────────────────────┐

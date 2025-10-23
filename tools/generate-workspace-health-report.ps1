@@ -1,8 +1,30 @@
 <# STSA Workspace Health Report Generator #>
-param([string]$OutputPath = "./workspace-health-report.md")
+param([string]$OutputPath = "./docs/workspace-health-report.md")
 
 $ErrorActionPreference = "Stop"
 Write-Host "Generating workspace health report..." -ForegroundColor Cyan
+
+$directory = Split-Path -Parent $OutputPath
+if ([string]::IsNullOrWhiteSpace($directory)) {
+    $directory = "."
+}
+
+if (-not (Test-Path -LiteralPath $directory)) {
+    Write-Host "Creating output directory: $directory" -ForegroundColor DarkCyan
+    [void](New-Item -ItemType Directory -Path $directory -Force)
+}
+
+$resolvedOutput = Resolve-Path -Path $OutputPath -ErrorAction SilentlyContinue
+if ($resolvedOutput) {
+    if ($resolvedOutput -is [System.Array]) {
+        $resolvedOutput = $resolvedOutput[0]
+    }
+    if ($resolvedOutput -isnot [string]) {
+        $resolvedOutput = $resolvedOutput.ProviderPath
+    }
+} else {
+    $resolvedOutput = [System.IO.Path]::GetFullPath($OutputPath)
+}
 
 $report = @()
 $report += "# STSA Workspace Health Report"
@@ -11,7 +33,6 @@ $report += ""
 
 # Gather metrics
 $mdFiles = @(Get-ChildItem -Recurse -Filter "*.md" -ErrorAction SilentlyContinue)
-$cleanFiles = $mdFiles.Count
 $oversizedCount = 0
 
 foreach ($file in $mdFiles) {
@@ -21,7 +42,10 @@ foreach ($file in $mdFiles) {
     } catch { }
 }
 
-$sizeCompliance = [Math]::Round((($mdFiles.Count - $oversizedCount) / $mdFiles.Count) * 100, 1)
+$sizeCompliance = 100
+if ($mdFiles.Count -gt 0) {
+    $sizeCompliance = [Math]::Round((($mdFiles.Count - $oversizedCount) / $mdFiles.Count) * 100, 1)
+}
 
 $report += "## Repository Status"
 $report += ""
@@ -48,9 +72,9 @@ $report += "- docs-lint.ps1"
 $report += ""
 
 # Write report
-Set-Content -Path $OutputPath -Value ($report -join "`n") -Encoding UTF8
+Set-Content -Path $resolvedOutput -Value ($report -join "`n") -Encoding UTF8
 
-Write-Host "✅ Report generated: $OutputPath" -ForegroundColor Green
+Write-Host "✅ Report generated: $resolvedOutput" -ForegroundColor Green
 Write-Host ""
 Write-Host "Summary:" -ForegroundColor Yellow
 Write-Host "  Files: $($mdFiles.Count)"

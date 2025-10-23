@@ -10,7 +10,7 @@ By the end of this 30-minute session, you will:
 
 - Understand the Single Responsibility Principle (SRP) and why it matters
 
-**Part B of 3**
+## Part B of 3
 
 Previous: [01_SOLID-Part1-Single-Responsibility-PartA.md](01_SOLID-Part1-Single-Responsibility-PartA.md)
 Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Responsibility-PartC.md)
@@ -67,8 +67,7 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
     }
 }
 
-```
-
+```csharp
 ### Practical Implementation (8 minutes)
 
 #### SRP Refactoring Checklist
@@ -95,8 +94,7 @@ public class CustomerManager
     public void SendWelcomeEmail(Customer customer) { }
     public void SendPromotionalSms(Customer customer) { }
 }
-```
-
+```csharp
 ##### Step 2: Extract Classes
 
 ```csharp
@@ -172,4 +170,127 @@ public class CustomerNotificationService
         _smsService = smsService;
     }
     
+    public async Task SendWelcomeEmailAsync(Customer customer)
+    {
+        var subject = "Welcome to Our Platform!";
+        var body = $"Dear {customer.Name}, welcome to our platform. We're excited to have you!";
+        await _emailService.SendEmailAsync(customer.Email, subject, body);
+    }
+    
+    public async Task SendPromotionalSmsAsync(Customer customer, string promotion)
+    {
+        var message = $"Hi {customer.Name}! {promotion}. Reply STOP to opt out.";
+        await _smsService.SendSmsAsync(customer.Phone, message);
+    }
+}
+```csharp
+##### Step 3: Refactored Service Orchestration
 
+```csharp
+public class CustomerService
+{
+    private readonly CustomerValidator _validator;
+    private readonly CustomerRepository _repository;
+    private readonly CustomerBusinessLogic _businessLogic;
+    private readonly CustomerNotificationService _notificationService;
+    private readonly ILogger<CustomerService> _logger;
+    
+    public CustomerService(
+        CustomerValidator validator,
+        CustomerRepository repository,
+        CustomerBusinessLogic businessLogic,
+        CustomerNotificationService notificationService,
+        ILogger<CustomerService> logger)
+    {
+        _validator = validator;
+        _repository = repository;
+        _businessLogic = businessLogic;
+        _notificationService = notificationService;
+        _logger = logger;
+    }
+    
+    public async Task<ServiceResult<Customer>> CreateCustomerAsync(Customer customer)
+    {
+        try
+        {
+            // Validate using dedicated validator
+            var validationResult = _validator.Validate(customer);
+            if (!validationResult.IsValid)
+                return ServiceResult<Customer>.Failed(validationResult.Errors);
+            
+            // Save using dedicated repository
+            await _repository.SaveAsync(customer);
+            
+            // Send notifications using dedicated service
+            await _notificationService.SendWelcomeEmailAsync(customer);
+            
+            // Log using injected logger
+            _logger.LogInformation("Customer {CustomerId} created successfully", customer.Id);
+            
+            return ServiceResult<Customer>.Success(customer);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to create customer {CustomerId}", customer.Id);
+            return ServiceResult<Customer>.Failed($"Customer creation failed: {ex.Message}");
+        }
+    }
+    
+    public async Task<ServiceResult<decimal>> CalculateCustomerDiscountAsync(int customerId)
+    {
+        try
+        {
+            var customer = await _repository.GetByIdAsync(customerId);
+            if (customer == null)
+                return ServiceResult<decimal>.Failed("Customer not found");
+            
+            var discount = _businessLogic.CalculateDiscount(customer);
+            return ServiceResult<decimal>.Success(discount);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to calculate discount for customer {CustomerId}", customerId);
+            return ServiceResult<decimal>.Failed($"Discount calculation failed: {ex.Message}");
+        }
+    }
+}
+```csharp
+---
+
+## ✅ Key Takeaways (2 minutes)
+
+### **Single Responsibility Benefits Achieved**
+
+✅ **Maintainability**: Each class has one clear purpose and reason to change  
+✅ **Testability**: Individual responsibilities can be unit tested in isolation  
+✅ **Reusability**: Components can be reused across different contexts  
+✅ **Debugging**: Issues can be traced to specific, focused classes  
+✅ **Team Development**: Different developers can work on separate responsibilities  
+
+### **Refactoring Patterns Applied**
+
+- **Extract Class**: Moving related methods into dedicated classes
+- **Dependency Injection**: Loosely coupled dependencies for better testing
+- **Interface Segregation**: Focused contracts for each responsibility
+- **Service Layer**: Orchestration without business logic mixing
+
+### **What's Next**
+
+**Part C** will cover:
+
+- Advanced SRP scenarios with complex business domains
+- Testing strategies for single-responsibility classes
+- Performance considerations in highly decomposed systems
+- Common SRP violation patterns and how to avoid them
+
+---
+
+## 🔗 Series Navigation
+
+- **Previous**: [01_SOLID-Part1-Single-Responsibility-PartA.md](01_SOLID-Part1-Single-Responsibility-PartA.md)
+- **Current**: Part B - Practical Implementation ✅
+- **Next**: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Responsibility-PartC.md)
+- **Series**: SOLID Principles Mastery Track
+
+**Last Updated**: October 22, 2025  
+**Format**: 30-minute focused learning segment
