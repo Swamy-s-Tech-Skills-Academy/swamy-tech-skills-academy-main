@@ -495,8 +495,8 @@ public class SimpleFactoryDemo
 
 **Next Learning Steps**:
 
-- **[Part B: Factory Method Pattern](06B_Design-Patterns-Part1B-Factory-Method-Pattern.md)** - Subclass-controlled creation
-- **[Part C: Abstract Factory Pattern](06C_Design-Patterns-Part1C-Abstract-Factory-Pattern.md)** - Object family creation
+- **Part B: Factory Method Pattern** - Subclass-controlled creation (Coming Soon)
+- **Part C: Abstract Factory Pattern** - Object family creation (Coming Soon)
 
 ## 🔗 Related Topics
 
@@ -514,9 +514,9 @@ public class SimpleFactoryDemo
 
 **Enables**:
 
-- [Factory Method Pattern](06B_Design-Patterns-Part1B-Factory-Method-Pattern.md) - Advanced factory scenarios
-- [Abstract Factory Pattern](06C_Design-Patterns-Part1C-Abstract-Factory-Pattern.md) - Object family creation
-- [Dependency Injection Patterns](../../patterns/dependency-injection/) - Modern object creation
+- Factory Method Pattern (Coming Soon) - Advanced factory scenarios
+- Abstract Factory Pattern (Coming Soon) - Object family creation
+- Dependency Injection Patterns (Coming Soon) - Modern object creation
 
 **Next Patterns**:
 
