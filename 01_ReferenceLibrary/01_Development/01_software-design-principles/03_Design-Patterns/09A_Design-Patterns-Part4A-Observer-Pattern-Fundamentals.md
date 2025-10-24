@@ -381,11 +381,11 @@ public class StockMarketDemo
 
 **Enables**:
 
-- [Mediator Pattern](../behavioral-patterns/mediator/) for complex interactions
+- **Mediator Pattern** (Coming Soon) for complex interactions
 - [Command Pattern](12A_Design-Patterns-Part7A-Command-Pattern-Fundamentals.md) for event-driven commands
 - [Strategy Pattern](10A_Design-Patterns-Part5A-Strategy-Pattern-Fundamentals.md) for event handling strategies
 
 **Next Patterns**:
 
-- [Model-View-Controller](../../architectural-patterns/mvc/) for UI architecture
-- [Event Sourcing](../../architectural-patterns/event-sourcing/) for system state management
+- **Model-View-Controller** (Coming Soon) for UI architecture
+- **Event Sourcing** (Coming Soon) for system state management

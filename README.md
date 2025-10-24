@@ -227,6 +227,7 @@ I. Ensure that the content is well-structured and easy to navigate.
 J. Ensure that the content is up-to-date with the latest information.
 K. Provide suggestions for improvement if any.
 L. Ensure that there are no encoding issues.
+M. Ensure that we have consistent naming conventions across all files.
 
 Do deep dive. Do ReAct, and Reasoning before performing your work. Take time do not rush.
 ---
