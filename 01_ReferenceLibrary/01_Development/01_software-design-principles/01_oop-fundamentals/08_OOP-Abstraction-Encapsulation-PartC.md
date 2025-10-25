@@ -2,7 +2,9 @@
 
 **Prerequisites**: [08_OOP-Abstraction-Encapsulation-PartB.md](08_OOP-Abstraction-Encapsulation-PartB.md)
 **Estimated Time**: 27 minutes (focused learning session)
+
 ## **Series**: Part C of 3 - Abstraction & Encapsulation
+
 ## 🎯 Learning Objectives\n\nBy the end of this session, you will
 
 - [Add specific learning objectives]
@@ -19,6 +21,7 @@ By the end of this 27-minute session, you will:
 ### Part C of 3
 
 ## Previous: [08_OOP-Abstraction-Encapsulation-PartB.md](08_OOP-Abstraction-Encapsulation-PartB.md)
+
 ### **8. Dependency**
 
 \n\n\n\n- **Definition**: When one class relies on another to perform its operations

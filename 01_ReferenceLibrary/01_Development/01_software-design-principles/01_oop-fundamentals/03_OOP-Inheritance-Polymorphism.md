@@ -2,7 +2,9 @@
 
 **Prerequisites**: [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
 **Estimated Time**: 27 minutes (focused learning session)
+
 ## **Series**: Core Pillars - Inheritance & Polymorphism
+
 ## 🎯 Learning Objectives\n\nBy the end of this session, you will
 
 - [Add specific learning objectives]

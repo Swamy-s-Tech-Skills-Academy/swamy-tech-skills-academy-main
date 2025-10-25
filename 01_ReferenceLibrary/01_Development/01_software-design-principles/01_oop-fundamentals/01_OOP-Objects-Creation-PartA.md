@@ -2,7 +2,9 @@
 
 **Prerequisites**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)
 **Estimated Time**: 15 minutes (27-minute focused session)
+
 ## **Series**: Part A of 2 - Objects Creation
+
 ## 🎯 Learning Objectives (15-Minute Session)\n\nBy the end of this session, you will
 
 - Understand objects as instances of classes

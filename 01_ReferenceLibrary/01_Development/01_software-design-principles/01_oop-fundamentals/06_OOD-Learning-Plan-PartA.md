@@ -2,7 +2,9 @@
 
 **Prerequisites**: OOP fundamentals knowledge
 **Estimated Time**: 27 minutes (planning session)
+
 ## **Series**: Part A of 2 - OOD Learning Plan
+
 ## 🎯 Learning Objectives\n\nBy the end of this session, you will
 
 - [Add specific learning objectives]
@@ -12,6 +14,7 @@
 ### Part A of 2
 
 ## Next: [06_OOD-Learning-Plan-PartB.md](06_OOD-Learning-Plan-PartB.md)
+
 ## OOD in `C#`\n\n> 1. Class
 
 > 1. Generalization
@@ -142,6 +145,7 @@
 ---
 
 ## Following this plan, youâ€™ll develop a strong foundation in OOD and prepare to confidently tackle interview questions on interfaces, abstraction, and complex system designs in C
+
 ## Date: 15-Nov-2024\n\nCertainly, Swamy! This is a very effective roadmap to build toward a Principal Software Engineer role with a strong emphasis on OOD in C#. Hereâ€™s a detailed learning plan tailored to that goal
 
 ---
@@ -151,6 +155,7 @@
 ### **Objective:**
 
 ## \n\n\n\nDevelop a strong command of OOD principles and techniques in C# that enable you to create modular, maintainable, and extensible software
+
 ### **Week 1: Core Object-Oriented Design Principles**
 
 \n\n\n\n1. #### Focus on the Basics:

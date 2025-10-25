@@ -2,7 +2,9 @@
 
 **Prerequisites**: Basic programming knowledge
 **Estimated Time**: 15 minutes (condensed overview)
+
 ## **Series**: Condensed Overview
+
 ## 🎯 Learning Objectives\n\nBy the end of this session, you will
 
 - [Add specific learning objectives]

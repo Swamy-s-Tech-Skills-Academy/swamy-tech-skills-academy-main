@@ -3,7 +3,9 @@
 **Prerequisites**: Basic programming knowledge
 **Estimated Time**: 15 minutes (27-minute focused session)
 **Series**: Part A of 2 - Core OOP Concepts
+
 ## **Next**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)
+
 ## 🎯 Learning Objectives\n\nBy the end of this 15-minute session, you will
 
 - Understand what Object-Oriented Programming is

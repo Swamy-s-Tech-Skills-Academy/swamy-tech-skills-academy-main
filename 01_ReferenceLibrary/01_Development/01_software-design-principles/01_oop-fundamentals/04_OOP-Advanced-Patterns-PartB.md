@@ -2,7 +2,9 @@
 
 **Prerequisites**: [04_OOP-Advanced-Patterns-PartA.md](04_OOP-Advanced-Patterns-PartA.md)
 **Estimated Time**: 27 minutes (focused learning session)
+
 ## **Series**: Part B of 2 - Advanced Patterns
+
 ## 🎯 Learning Objectives\n\nBy the end of this session, you will
 
 - [Add specific learning objectives]

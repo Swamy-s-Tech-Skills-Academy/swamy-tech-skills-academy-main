@@ -2,7 +2,9 @@
 
 **Prerequisites**: [01_OOP-Objects-Creation-PartB.md](01_OOP-Objects-Creation-PartB.md)
 **Estimated Time**: 27 minutes (focused learning session)
+
 ## **Series**: Core Pillars - Encapsulation & Abstraction
+
 ## 🎯 Learning Objectives\n\nBy the end of this session, you will
 
 - [Add specific learning objectives]

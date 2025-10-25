@@ -2,7 +2,9 @@
 
 **Prerequisites**: Basic programming knowledge (variables, functions, loops)
 **Estimated Time**: 27 minutes (focused learning session)
+
 ## **Series**: Part A of 2 - Comprehensive Guide
+
 ## 🎯 Learning Objectives\n\nBy the end of this session, you will
 
 - [Add specific learning objectives]
@@ -45,6 +47,7 @@ By the end of this 27-minute session, you will:
 ### Why OOP Matters for Lead Architects
 
 ## \n\n\n\nAs a Lead Architect, understanding OOP isn't just about writing code—it's about designing systems that can evolve, scale, and maintain quality at enterprise levels. The four pillars of OOP provide the architectural foundation for building maintainable, extensible software systems
+
 ## 🏗️ Core Concepts (15 minutes)
 
 ### The Four Pillars of OOP

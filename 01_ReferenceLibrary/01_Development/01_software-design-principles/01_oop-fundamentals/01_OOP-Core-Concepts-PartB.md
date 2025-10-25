@@ -2,7 +2,9 @@
 
 **Prerequisites**: [01_OOP-Core-Concepts-PartA.md](01_OOP-Core-Concepts-PartA.md)
 **Estimated Time**: 12 minutes (27-minute focused session)
+
 ## **Series**: Part B of 2 - Core OOP Concepts
+
 ## 🎯 Learning Objectives\n\nBy the end of this 12-minute session, you will
 
 - Master the concept of classes as blueprints

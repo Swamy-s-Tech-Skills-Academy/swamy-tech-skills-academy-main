@@ -2,7 +2,9 @@
 
 **Prerequisites**: [01_OOP-Objects-Creation-PartA.md](01_OOP-Objects-Creation-PartA.md)
 **Estimated Time**: 27 minutes (focused learning session)
+
 ## **Series**: Part B of 2 - Objects Creation
+
 ## 🎯 Learning Objectives (27-Minute Session)\n\nBy the end of this session, you will
 
 - Implement complex object interactions

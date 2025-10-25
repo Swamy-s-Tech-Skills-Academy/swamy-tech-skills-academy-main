@@ -2,7 +2,9 @@
 
 **Prerequisites**: OOP fundamentals knowledge
 **Estimated Time**: 27 minutes (focused learning session)
+
 ## **Series**: Part A of 3 - Abstraction & Encapsulation
+
 ## 🎯 Learning Objectives\n\nBy the end of this session, you will
 
 - [Add specific learning objectives]
@@ -19,6 +21,7 @@ By the end of this 27-minute session, you will:
 ### Part A of 3
 
 ## Next: [08_OOP-Abstraction-Encapsulation-PartB.md](08_OOP-Abstraction-Encapsulation-PartB.md)
+
 ## **Abstraction**
 
 ### Definition
@@ -83,6 +86,7 @@ class Program {
 - **Encapsulation** is about **hiding the object's data** and controlling access.\n\nBoth principles are complementary and often work together in designing robust and secure applications.
 
 ## Hereâ€™s a detailed explanation of **OOP in C#**, covering its core principles with examples and comparisons
+
 ## **Object-Oriented Programming (OOP) in C#**\n\nOOP is a programming paradigm based on the concept of objects, which encapsulate data and behavior. C# is inherently an object-oriented language, and its design supports the following key principles
 
 ---

@@ -2,7 +2,9 @@
 
 **Prerequisites**: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
 **Estimated Time**: 27 minutes (planning session)
+
 ## **Series**: Part B of 2 - OOD Learning Plan
+
 ## 🎯 Learning Objectives\n\nBy the end of this session, you will
 
 - [Add specific learning objectives]
@@ -11,7 +13,8 @@
 
 ### Part B of 2
 
-## Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)\n\n- Review and solidify core OOD principles: **Encapsulation**, **Abstraction**, **Inheritance**, and **Polymorphism**.
+## Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)\n\n- Review and solidify core OOD principles: **Encapsulation**, **Abstraction**, **Inheritance**, and **Polymorphism**
+
 - **Encapsulation:** Practice defining access modifiers (`public`, `private`, `protected`, and `internal`) and using properties to encapsulate data.
 - **Abstraction:** Work on creating base classes and interfaces, abstracting behaviors and properties.\n\n1. **Exercises in C#:**
 - Implement a **Shape hierarchy** where you have base classes like `Shape`, with derived classes such as `Circle`, `Rectangle`, etc. Each class should implement a method like `Draw` or `Area`.
