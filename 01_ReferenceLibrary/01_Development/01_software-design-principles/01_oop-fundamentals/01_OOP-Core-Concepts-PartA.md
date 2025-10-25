@@ -2,8 +2,8 @@
 
 **Learning Level**: Beginner  
 **Prerequisites**: Basic programming knowledge  
-**Estimated Time**: 15 minutes  
-**Series**: Part A1 of 4 - Core OOP Concepts  
+**Estimated Time**: 15 minutes (27-minute focused session)  
+**Series**: Part A of 2 - Core OOP Concepts  
 **Next**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)
 
 ---
