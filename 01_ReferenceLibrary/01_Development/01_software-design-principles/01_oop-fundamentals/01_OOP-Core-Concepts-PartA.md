@@ -1,10 +1,10 @@
-# 01A1_OOP-Core-Concepts
+# 01_OOP-Core-Concepts-PartA
 
 **Learning Level**: Beginner  
 **Prerequisites**: Basic programming knowledge  
 **Estimated Time**: 15 minutes  
 **Series**: Part A1 of 4 - Core OOP Concepts  
-**Next**: [01A2_OOP-Classes-Blueprint.md](01A2_OOP-Classes-Blueprint.md)
+**Next**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)
 
 ---
 
@@ -111,9 +111,10 @@ calculatePay() validate() generateReport()
 ## 🔗 Related Topics
 
 - **Current**: Part A1 - Core Concepts ✅
-- **Next**: [01A2_OOP-Classes-Blueprint.md](01A2_OOP-Classes-Blueprint.md)
-- **Then**: [01B1_OOP-Objects-Creation.md](01B1_OOP-Objects-Creation.md)
+- **Next**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)
+- **Then**: [01_OOP-Objects-Creation-PartA.md](01_OOP-Objects-Creation-PartA.md)
 - **Series**: Classes & Objects Foundation (Part A1 of 4)
 
 **Last Updated**: October 4, 2025  
 **Format**: 15-minute focused learning segment
+

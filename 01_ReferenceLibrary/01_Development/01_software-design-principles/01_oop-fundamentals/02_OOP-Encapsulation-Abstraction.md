@@ -1,7 +1,7 @@
 # 02_OOP-Encapsulation-Abstraction
 
 **Learning Level**: Beginner to Intermediate  
-**Prerequisites**: [01B2_OOP-Objects-Practice.md](01B2_OOP-Objects-Practice.md), basic programming concepts  
+**Prerequisites**: [01_OOP-Objects-Creation-PartB.md](01_OOP-Objects-Creation-PartB.md), basic programming concepts  
 **Estimated Time**: 27 minutes  
 
 ## 🎯 Learning Objectives
@@ -175,7 +175,7 @@ END CLASS
 
 **Prerequisites:**
 
-- [Part 1A: Classes and Objects](./01A1_OOP-Core-Concepts.md)
+- [Part 1A: Classes and Objects](./01_OOP-Core-Concepts-PartA.md)
 
 **Builds Upon:**
 
@@ -197,3 +197,4 @@ END CLASS
 
 *Part 1B of 4-part OOP Fundamentals series*  
 *Next: [03_OOP-Inheritance-Polymorphism.md](./03_OOP-Inheritance-Polymorphism.md)*
+
