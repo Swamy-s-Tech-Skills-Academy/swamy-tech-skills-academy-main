@@ -1,11 +1,12 @@
-# OOP Abstraction and Encapsulation - Part A
+# OOP Abstraction and Encapsulation - Part A
 
-**Learning Level**: Intermediate  
-**Prerequisites**: OOP fundamentals knowledge  
-**Estimated Time**: 27 minutes (focused learning session)  
+**Learning Level**: Intermediate
+**Prerequisites**: OOP fundamentals knowledge
+**Estimated Time**: 27 minutes (focused learning session)
 **Series**: Part A of 3 - Abstraction & Encapsulation
 
 ---
+
 ## 🎯 Learning Objectives
 
 By the end of this session, you will:
@@ -13,7 +14,6 @@ By the end of this session, you will:
 - [Add specific learning objectives]
 
 ---
-
 By the end of this 27-minute session, you will:
 
 - Understand the fundamental differences between abstraction and encapsulation
@@ -41,6 +41,7 @@ Next: [08_OOP-Abstraction-Encapsulation-PartB.md](08_OOP-Abstraction-Encapsulati
 
 1. **Purpose**: Simplify complex systems by showing only relevant data to the user.
 2. **Implementation**: Achieved using **abstract classes** or **interfaces** in languages like C# and Java.
+
 3. **Use Case**: When you want to define behavior without worrying about how it is implemented.
 4. **Example**:
    - A `Vehicle` class exposes methods like `Start()` or `Stop()`, but the internal workings of the engine are hidden from the user.
@@ -177,4 +178,3 @@ class Program {
     static void Main() {
         Car car = new Car { Make = "Toyota", Model = "Camry", Year = 2022 };
         car.DisplayInfo(); // Output: 2022 Toyota Camry
-

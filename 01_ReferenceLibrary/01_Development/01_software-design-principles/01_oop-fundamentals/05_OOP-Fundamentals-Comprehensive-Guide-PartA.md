@@ -1,11 +1,12 @@
-# 05_OOP-Fundamentals-Comprehensive-Guide - Part A
+# 05_OOP-Fundamentals-Comprehensive-Guide - Part A
 
-**Learning Level**: Beginner → Intermediate  
-**Prerequisites**: Basic programming knowledge (variables, functions, loops)  
-**Estimated Time**: 27 minutes (focused learning session)  
+**Learning Level**: Beginner → Intermediate
+**Prerequisites**: Basic programming knowledge (variables, functions, loops)
+**Estimated Time**: 27 minutes (focused learning session)
 **Series**: Part A of 2 - Comprehensive Guide
 
 ---
+
 ## 🎯 Learning Objectives
 
 By the end of this session, you will:
@@ -13,7 +14,6 @@ By the end of this session, you will:
 - [Add specific learning objectives]
 
 ---
-
 By the end of this 27-minute session, you will:
 
 - Understand the four pillars of Object-Oriented Programming and their practical applications
@@ -87,9 +87,12 @@ class BankAccount:
         return self.__balance
 
 # Usage - external code can't directly modify balance
+
 account = BankAccount(1000)
 account.deposit(500)  # ✅ Controlled access
+
 # account.__balance = -1000  # ❌ Not allowed (would break encapsulation)
+
 ```
 
 #### 2. **Abstraction** - Hiding Complexity
@@ -117,7 +120,9 @@ class DatabaseConnection(ABC):
         pass
 
 # Users work with this clean interface
+
 # Implementation details (MySQL, PostgreSQL, MongoDB) are hidden
+
 ```
 
 #### 3. **Inheritance** - Code Reuse & Relationships
@@ -143,17 +148,22 @@ class Vehicle:
         print(f"{self.make} {self.model} stopped.")
 
 class Car(Vehicle):  # Car IS-A Vehicle
+
     def __init__(self, make, model, num_doors):
         super().__init__(make, model)  # Call parent constructor
+
         self.num_doors = num_doors
 
     def honk(self):
         print("Honk! Honk!")
 
 # Usage
+
 my_car = Car("Toyota", "Camry", 4)
 my_car.start()  # Inherited from Vehicle
+
 my_car.honk()   # Specific to Car
+
 ```
 
 #### 4. **Polymorphism** - Same Interface, Different Behaviors
@@ -173,7 +183,7 @@ class CreditCardProcessor(PaymentProcessor):
     def process_payment(self, amount):
         print(f"Processing ${amount} via credit card...")
         # Credit card specific logic
+
         return f"Credit card payment of ${amount} processed"
 
 class PayPalProcessor(PaymentProcessor):
-

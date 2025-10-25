@@ -1,12 +1,12 @@
 # Learning Object Oriented Design - Part B
 
-
-**Learning Level**: Intermediate  
-**Prerequisites**: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)  
-**Estimated Time**: 27 minutes (planning session)  
+**Learning Level**: Intermediate
+**Prerequisites**: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
+**Estimated Time**: 27 minutes (planning session)
 **Series**: Part B of 2 - OOD Learning Plan
 
 ---
+
 ## 🎯 Learning Objectives
 
 By the end of this session, you will:
@@ -139,8 +139,10 @@ Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
 
 - **Books:**
   - "Pro C# 9 with .NET Core" by Andrew Troelsen and Philip Japikse, which includes many practical examples.
+
 - **Courses:**
   - Pluralsight: **C# Design Patterns** and **SOLID Principles**.
+
   - LinkedIn Learning: **C# Object-Oriented Programming**.
 
 ---
@@ -151,6 +153,7 @@ Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
 | -------- | --------------------------------- | -------------------------------------------------------------- |
 | Week 1   | Core OOD Principles               | Encapsulation, Abstraction, Polymorphism, Inheritance          |
 | Week 2   | SOLID Principles in C#            | SRP, OCP, LSP, ISP, DIP                                        |
+
 | Week 3   | Design Patterns Essentials        | Factory, Singleton, Strategy, Observer                         |
 | Week 4   | Advanced Design Patterns          | DI, Decorator, Command, Chain of Responsibility                |
 | Week 5   | Applied OOD in Real-World Systems | Library Management System, To-Do List Application              |
@@ -159,4 +162,3 @@ Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
 ---
 
 This plan will build a comprehensive understanding of OOD, SOLID principles, and C# design patterns, setting you up for success in a Principal Software Engineer role. Let me know if you'd like more examples, specific guidance on any pattern, or help with coding exercises!
-

@@ -1,11 +1,12 @@
-# **OOD in C# with Class Diagrams** - Part B
+# **OOD in C# with Class Diagrams** - Part B
 
-**Learning Level**: Intermediate  
-**Prerequisites**: [07_OOD-Basics-PartA.md](07_OOD-Basics-PartA.md)  
-**Estimated Time**: 27 minutes (focused learning session)  
+**Learning Level**: Intermediate
+**Prerequisites**: [07_OOD-Basics-PartA.md](07_OOD-Basics-PartA.md)
+**Estimated Time**: 27 minutes (focused learning session)
 **Series**: Part B of 3 - OOD Basics
 
 ---
+
 ## 🎯 Learning Objectives
 
 By the end of this session, you will:
@@ -13,7 +14,6 @@ By the end of this session, you will:
 - [Add specific learning objectives]
 
 ---
-
 ### **1. Class**
 
 - **Definition**: A blueprint for creating objects. It encapsulates fields and methods.
@@ -177,4 +177,3 @@ Driver -- Car
 ```
 
 ---
-

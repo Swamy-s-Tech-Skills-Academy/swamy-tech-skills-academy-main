@@ -1,11 +1,12 @@
-# Learning Object Oriented Design - Part A
+# Learning Object Oriented Design - Part A
 
-**Learning Level**: Intermediate  
-**Prerequisites**: OOP fundamentals knowledge  
-**Estimated Time**: 27 minutes (planning session)  
+**Learning Level**: Intermediate
+**Prerequisites**: OOP fundamentals knowledge
+**Estimated Time**: 27 minutes (planning session)
 **Series**: Part A of 2 - OOD Learning Plan
 
 ---
+
 ## 🎯 Learning Objectives
 
 By the end of this session, you will:
@@ -13,7 +14,6 @@ By the end of this session, you will:
 - [Add specific learning objectives]
 
 ---
-
 **Part A of 2**
 
 Next: [06_OOD-Learning-Plan-PartB.md](06_OOD-Learning-Plan-PartB.md)
@@ -177,4 +177,3 @@ Develop a strong command of OOD principles and techniques in C# that enable you 
 ### **Week 1: Core Object-Oriented Design Principles**
 
 1. **Focus on the Basics:**
-

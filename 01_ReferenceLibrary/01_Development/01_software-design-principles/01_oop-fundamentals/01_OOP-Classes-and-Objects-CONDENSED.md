@@ -1,11 +1,12 @@
-# 01_OOP-Classes-and-Objects
+# 01_OOP-Classes-and-Objects
 
-**Learning Level**: Beginner  
-**Prerequisites**: Basic programming knowledge  
-**Estimated Time**: 15 minutes (condensed overview)  
+**Learning Level**: Beginner
+**Prerequisites**: Basic programming knowledge
+**Estimated Time**: 15 minutes (condensed overview)
 **Series**: Condensed Overview
 
 ---
+
 ## 🎯 Learning Objectives
 
 By the end of this session, you will:
@@ -13,7 +14,6 @@ By the end of this session, you will:
 - [Add specific learning objectives]
 
 ---
-
 By the end of this session, you will:
 
 - Understand the difference between classes and objects
@@ -50,7 +50,7 @@ graph TD
     B --> C["john: Employee"]
     B --> D["sarah: Employee"]
     B --> E["mike: Employee"]
-    
+
     C --> F["john.calculatePay()"]
     D --> G["sarah.validate()"]
     E --> H["mike.generateReport()"]
@@ -71,11 +71,11 @@ CLASS ClassName:
     // Attributes (data)
     PRIVATE attribute1: DataType
     PRIVATE attribute2: DataType
-    
+
     // Constructor
     CONSTRUCTOR(parameters):
         // Initialize attributes
-    
+
     // Methods (behavior)
     PUBLIC methodName():
         // Implementation
@@ -99,11 +99,11 @@ classDiagram
         +withdraw(amount): void
         +getBalance(): decimal
     }
-    
+
     BankAccount --> johnAccount : creates
     BankAccount --> sarahAccount : creates
     BankAccount --> mikeAccount : creates
-    
+
     note for BankAccount "CLASS: Blueprint defining structure and behavior"
     note for johnAccount "OBJECT: Specific instance with actual data"
 ```
@@ -120,7 +120,7 @@ classDiagram
 CLASS Employee:
     PRIVATE employeeId, name, department: string
     PRIVATE salary: decimal
-    
+
     CONSTRUCTOR Employee(id, name, dept, sal)
     PUBLIC displayInfo(), calculateAnnualSalary(), updateDepartment()
 ```
@@ -132,7 +132,7 @@ CLASS Employee:
 employee1 = NEW Employee("E001", "John Smith", "Engineering", 75000)
 employee2 = NEW Employee("E002", "Sarah Johnson", "Marketing", 65000)
 
-// Use objects independently  
+// Use objects independently
 employee1.displayInfo()              // John's data
 employee2.calculateAnnualSalary()    // Sarah's calculation
 employee1.updateDepartment("Senior Engineering")
@@ -147,7 +147,7 @@ employee1.updateDepartment("Senior Engineering")
 ### **Essential Understanding**
 
 1. **Class = Blueprint**: Defines structure and behavior template
-2. **Object = Instance**: Actual thing created from the class  
+2. **Object = Instance**: Actual thing created from the class
 3. **Multiple Objects**: One class can create many different objects
 4. **Independent Data**: Each object has its own copy of attributes
 5. **Shared Behavior**: All objects share the same methods
@@ -155,7 +155,7 @@ employee1.updateDepartment("Senior Engineering")
 ### **Key Benefits**
 
 - ✅ **Organization**: Related data and methods grouped together
-- ✅ **Reusability**: One class definition, multiple objects  
+- ✅ **Reusability**: One class definition, multiple objects
 - ✅ **Maintainability**: Changes in one place affect all objects
 
 ### **Next Steps**
@@ -173,6 +173,5 @@ employee1.updateDepartment("Senior Engineering")
 - **Advanced**: [04A_OOP-Advanced-Patterns-PartA.md](04_OOP-Advanced-Patterns-PartA.md)
 - **Advanced**: [04B_OOP-Advanced-Patterns-PartB.md](04_OOP-Advanced-Patterns-PartB.md)
 
-**Last Updated**: September 10, 2025  
+**Last Updated**: September 10, 2025
 **Format**: 27-minute focused learning segment
-

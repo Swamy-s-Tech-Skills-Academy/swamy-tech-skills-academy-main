@@ -1,12 +1,11 @@
-# 01_OOP-Core-Concepts-PartB
+# 01_OOP-Core-Concepts-PartB
 
-**Learning Level**: Beginner  
-**Prerequisites**: [01_OOP-Core-Concepts-PartA.md](01_OOP-Core-Concepts-PartA.md)  
-**Estimated Time**: 12 minutes (27-minute focused session)  
+**Learning Level**: Beginner
+**Prerequisites**: [01_OOP-Core-Concepts-PartA.md](01_OOP-Core-Concepts-PartA.md)
+**Estimated Time**: 12 minutes (27-minute focused session)
 **Series**: Part B of 2 - Core OOP Concepts
 
 ---
-
 ## 🎯 Learning Objectives
 
 By the end of this 12-minute session, you will:
@@ -53,13 +52,13 @@ CLASS ClassName:
     // Attributes (data every instance will have)
     PRIVATE attribute1: DataType
     PRIVATE attribute2: DataType
-    
+
     // Constructor (how to create instances)
     CONSTRUCTOR(parameters):
         // Initialize attributes
         this.attribute1 = parameter1
         this.attribute2 = parameter2
-    
+
     // Methods (behavior every instance can perform)
     PUBLIC methodName():
         // Implementation
@@ -75,21 +74,21 @@ CLASS Book:
     PRIVATE author: string
     PRIVATE pages: integer
     PRIVATE isAvailable: boolean
-    
+
     // Constructor to create a book
     CONSTRUCTOR Book(t: string, a: string, p: integer):
         this.title = t
         this.author = a
         this.pages = p
         this.isAvailable = true
-    
+
     // What every book can do
     PUBLIC getTitle(): string
         RETURN this.title
-    
+
     PUBLIC checkOut(): void
         this.isAvailable = false
-    
+
     PUBLIC checkIn(): void
         this.isAvailable = true
 ```
@@ -122,7 +121,5 @@ CLASS Book:
 - **Next**: [01_OOP-Objects-Creation-PartA.md](01_OOP-Objects-Creation-PartA.md)
 - **Series**: Classes & Objects Foundation (Part A2 of 4)
 
-**Last Updated**: October 4, 2025  
+**Last Updated**: October 4, 2025
 **Format**: 12-minute focused learning segment
-
-

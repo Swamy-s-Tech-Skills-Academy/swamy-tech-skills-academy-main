@@ -1,9 +1,9 @@
 # 01_OOP-Core-Concepts-PartA
 
-**Learning Level**: Beginner  
-**Prerequisites**: Basic programming knowledge  
-**Estimated Time**: 15 minutes (27-minute focused session)  
-**Series**: Part A of 2 - Core OOP Concepts  
+**Learning Level**: Beginner
+**Prerequisites**: Basic programming knowledge
+**Estimated Time**: 15 minutes (27-minute focused session)
+**Series**: Part A of 2 - Core OOP Concepts
 **Next**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)
 
 ---
@@ -56,11 +56,11 @@ graph TD
     B --&gt; C[&quot;john: Employee&quot;]
     B --&gt; D[&quot;sarah: Employee&quot;]
     B --&gt; E[&quot;mike: Employee&quot;]
-    
+
     C --&gt; F[&quot;john.calculatePay()&quot;]
     D --&gt; G[&quot;sarah.validate()&quot;]
     E --&gt; H[&quot;mike.generateReport()&quot;]
-    
+
     style A fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
     style C fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
     style D fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
@@ -115,6 +115,5 @@ calculatePay() validate() generateReport()
 - **Then**: [01_OOP-Objects-Creation-PartA.md](01_OOP-Objects-Creation-PartA.md)
 - **Series**: Classes & Objects Foundation (Part A1 of 4)
 
-**Last Updated**: October 4, 2025  
+**Last Updated**: October 4, 2025
 **Format**: 15-minute focused learning segment
-
