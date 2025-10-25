@@ -1,10 +1,10 @@
-# 01A2_OOP-Classes-Blueprint
+# 01_OOP-Core-Concepts-PartB
 
 **Learning Level**: Beginner  
-**Prerequisites**: [01A1_OOP-Core-Concepts.md](01A1_OOP-Core-Concepts.md)  
+**Prerequisites**: [01_OOP-Core-Concepts-PartA.md](01_OOP-Core-Concepts-PartA.md)  
 **Estimated Time**: 12 minutes  
 **Series**: Part A2 of 4 - Classes as Blueprints
-**Next**: [01B1_OOP-Objects-Creation.md](01B1_OOP-Objects-Creation.md)
+**Next**: [01_OOP-Objects-Creation-PartA.md](01_OOP-Objects-Creation-PartA.md)
 
 ---
 
@@ -118,10 +118,11 @@ CLASS Book:
 
 ## 🔗 Series Navigation
 
-- **Previous**: [01A1_OOP-Core-Concepts.md](01A1_OOP-Core-Concepts.md)
+- **Previous**: [01_OOP-Core-Concepts-PartA.md](01_OOP-Core-Concepts-PartA.md)
 - **Current**: Part A2 - Classes as Blueprints ✅
-- **Next**: [01B1_OOP-Objects-Creation.md](01B1_OOP-Objects-Creation.md)
+- **Next**: [01_OOP-Objects-Creation-PartA.md](01_OOP-Objects-Creation-PartA.md)
 - **Series**: Classes & Objects Foundation (Part A2 of 4)
 
 **Last Updated**: October 4, 2025  
 **Format**: 12-minute focused learning segment
+

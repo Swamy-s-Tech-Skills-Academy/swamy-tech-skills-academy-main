@@ -1,10 +1,10 @@
-# 01B1_OOP-Objects-Creation
+# 01_OOP-Objects-Creation-PartA
 
 **Learning Level**: Beginner  
-**Prerequisites**: [01A2_OOP-Classes-Blueprint.md](01A2_OOP-Classes-Blueprint.md)  
+**Prerequisites**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)  
 **Estimated Time**: 15 minutes  
 **Series**: Part B1 of 4 - Objects Creation & Instantiation
-**Next**: [01B2_OOP-Objects-Practice.md](01B2_OOP-Objects-Practice.md)
+**Next**: [01_OOP-Objects-Creation-PartB.md](01_OOP-Objects-Creation-PartB.md)
 
 ---
 
@@ -136,10 +136,11 @@ IF employee1.salary > employee2.salary:
 
 ## 🔗 Series Navigation
 
-- **Previous**: [01A2_OOP-Classes-Blueprint.md](01A2_OOP-Classes-Blueprint.md)
+- **Previous**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)
 - **Current**: Part B1 - Objects Creation ✅
-- **Next**: [01B2_OOP-Objects-Practice.md](01B2_OOP-Objects-Practice.md)
+- **Next**: [01_OOP-Objects-Creation-PartB.md](01_OOP-Objects-Creation-PartB.md)
 - **Series**: Classes & Objects Foundation (Part B1 of 4)
 
 **Last Updated**: September 10, 2025  
 **Format**: 15-minute focused learning segment
+

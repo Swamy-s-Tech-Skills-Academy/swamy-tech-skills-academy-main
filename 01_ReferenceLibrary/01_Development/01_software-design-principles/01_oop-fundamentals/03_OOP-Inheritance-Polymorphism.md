@@ -1,7 +1,7 @@
 # 03_OOP-Inheritance-Polymorphism
 
 **Learning Level**: Beginner to Intermediate  
-**Prerequisites**: [01A1_OOP-Core-Concepts.md](01A1_OOP-Core-Concepts.md), [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)  
+**Prerequisites**: [01_OOP-Core-Concepts-PartA.md](01_OOP-Core-Concepts-PartA.md), [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)  
 **Estimated Time**: 27 minutes  
 
 ## 🎯 Learning Objectives (27-Minute Session)
@@ -226,3 +226,4 @@ for shape in shapes:
 **Module Status**: ✅ **Optimized** (175 lines, 27-minute focused learning)  
 **Part of**: OOP Fundamentals Domain - Lead Architect Learning Track  
 **Next Module**: [04_OOP-Advanced-Patterns-PartA.md](04_OOP-Advanced-Patterns-PartA.md)
+
