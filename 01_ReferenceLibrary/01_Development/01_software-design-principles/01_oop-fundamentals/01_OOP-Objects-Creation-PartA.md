@@ -2,9 +2,7 @@
 
 **Prerequisites**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)
 **Estimated Time**: 15 minutes (27-minute focused session)
-**Series**: Part A of 2 - Objects Creation
----
-
+## **Series**: Part A of 2 - Objects Creation
 ## 🎯 Learning Objectives (15-Minute Session)\n\nBy the end of this session, you will
 
 - Understand objects as instances of classes
@@ -69,17 +67,14 @@ IF employee1.salary > employee2.salary:
 \n\n\n\n1. **Objects are instances** created from class blueprints
 
 1. **Each object has independent data** but shared methods
-2. **Multiple objects can exist** from one class
-3. **Objects maintain separate state** and operate independently\n\n### **What's Next**
+1. **Multiple objects can exist** from one class
+1. **Objects maintain separate state** and operate independently\n\n### **What's Next**
 
 \n\n\n\n**Part B2** will cover:
   - Advanced object interactions
   - Complex real-world scenarios
-  - Object lifecycle management
----
-
-## 🔗 Series Navigation\n\n- **Previous**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)
-  - **Current**: Part B1 - Objects Creation ✅
+##   - Object lifecycle management
+## 🔗 Series Navigation\n\n- **Previous**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)\n\n  - **Current**: Part B1 - Objects Creation ✅
   - **Next**: [01_OOP-Objects-Creation-PartB.md](01_OOP-Objects-Creation-PartB.md)
   - **Series**: Classes & Objects Foundation (Part B1 of 4)\n\n**Last Updated**: September 10, 2025
 

@@ -2,9 +2,7 @@
 
 **Prerequisites**: Basic programming knowledge
 **Estimated Time**: 15 minutes (condensed overview)
-**Series**: Condensed Overview
----
-
+## **Series**: Condensed Overview
 ## 🎯 Learning Objectives\n\nBy the end of this session, you will
 
 - [Add specific learning objectives]
@@ -83,29 +81,24 @@ employee2 = NEW Employee("E002", "Sarah Johnson", "Marketing", 65000)
 employee1.displayInfo()              // John's data
 employee2.calculateAnnualSalary()    // Sarah's calculation
 employee1.updateDepartment("Senior Engineering")
-```\n\n**Result**: Each object has **independent data** but **shared methods** from the class blueprint.
----
-
+## ```\n\n**Result**: Each object has **independent data** but **shared methods** from the class blueprint.
 ## ✅ Key Takeaways (2 minutes)
 ### **Essential Understanding**
 
 \n\n\n\n1. **Class = Blueprint**: Defines structure and behavior template
 
 1. **Object = Instance**: Actual thing created from the class
-2. **Multiple Objects**: One class can create many different objects
-3. **Independent Data**: Each object has its own copy of attributes
-4. **Shared Behavior**: All objects share the same methods\n\n### **Key Benefits**
+1. **Multiple Objects**: One class can create many different objects
+1. **Independent Data**: Each object has its own copy of attributes
+1. **Shared Behavior**: All objects share the same methods\n\n### **Key Benefits**
 
 \n\n\n\n- ✅ **Organization**: Related data and methods grouped together
   - ✅ **Reusability**: One class definition, multiple objects
   - ✅ **Maintainability**: Changes in one place affect all objects\n\n### **Next Steps**
 
 \n\n\n\n- **Continue**: [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
-  - **Practice**: Design 3 real-world entities as classes
----
-
-## 🔗 Series Navigation\n\n- **Current**: 01 - Classes & Objects ✅
-  - **Next**: [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
+##   - **Practice**: Design 3 real-world entities as classes
+## 🔗 Series Navigation\n\n- **Current**: 01 - Classes & Objects ✅\n\n  - **Next**: [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
   - **Then**: [03_OOP-Inheritance-Polymorphism.md](03_OOP-Inheritance-Polymorphism.md)
   - **Advanced**: [04A_OOP-Advanced-Patterns-PartA.md](04_OOP-Advanced-Patterns-PartA.md)
   - **Advanced**: [04B_OOP-Advanced-Patterns-PartB.md](04_OOP-Advanced-Patterns-PartB.md)\n\n**Last Updated**: September 10, 2025

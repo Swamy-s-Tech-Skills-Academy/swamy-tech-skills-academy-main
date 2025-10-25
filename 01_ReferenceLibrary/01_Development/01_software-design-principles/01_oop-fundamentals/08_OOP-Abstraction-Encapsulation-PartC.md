@@ -2,9 +2,7 @@
 
 **Prerequisites**: [08_OOP-Abstraction-Encapsulation-PartB.md](08_OOP-Abstraction-Encapsulation-PartB.md)
 **Estimated Time**: 27 minutes (focused learning session)
-**Series**: Part C of 3 - Abstraction & Encapsulation
----
-
+## **Series**: Part C of 3 - Abstraction & Encapsulation
 ## 🎯 Learning Objectives\n\nBy the end of this session, you will
 
 - [Add specific learning objectives]
@@ -20,9 +18,7 @@ By the end of this 27-minute session, you will:
 
 ### Part C of 3
 
-Previous: [08_OOP-Abstraction-Encapsulation-PartB.md](08_OOP-Abstraction-Encapsulation-PartB.md)
----
-
+## Previous: [08_OOP-Abstraction-Encapsulation-PartB.md](08_OOP-Abstraction-Encapsulation-PartB.md)
 ### **8. Dependency**
 
 \n\n\n\n- **Definition**: When one class relies on another to perform its operations
@@ -62,9 +58,7 @@ class Circle : IShape {
 | **Inheritance**   | Acquiring properties and behavior of another class.       | Derived Classes                    | `class Dog : Animal`               |
 | **Polymorphism**  | Using a single interface to represent different types.    | Method Overriding, Virtual Methods | `virtual`, `override`, `interface` |\n\n---
 
-### UML Class Diagram for OOP in C #
-
-\n\n
+### UML Class Diagram for OOP in C\n\n\n\n
 
 ### **Description**
 
@@ -112,8 +106,8 @@ IShape <|.. Circle : Realization
 1. **Composition**:\n\n   - `Car` contains an `Engine`, indicating a "has-a (strong)" relationship.
   - Represented by the `*--` notation.
 
-2. **Realization**:\n\n   - `Circle` implements the `IShape` interface.
+1. **Realization**:\n\n   - `Circle` implements the `IShape` interface.
   - Represented by the `<|..` notation.
 
-3. **Class Members**:\n\n   - Fields and methods are specified within classes.
+1. **Class Members**:\n\n   - Fields and methods are specified within classes.
   - `+` denotes public, `-` denotes private.

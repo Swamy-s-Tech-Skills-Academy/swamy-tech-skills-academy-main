@@ -3,9 +3,7 @@
 **Prerequisites**: Basic programming knowledge
 **Estimated Time**: 15 minutes (27-minute focused session)
 **Series**: Part A of 2 - Core OOP Concepts
-**Next**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)
----
-
+## **Next**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)
 ## 🎯 Learning Objectives\n\nBy the end of this 15-minute session, you will
 
 - Understand what Object-Oriented Programming is
@@ -66,17 +64,14 @@
 \n\n\n\n1. **OOP organizes code** around objects instead of functions
 
 1. **Solves major problems** of procedural programming
-2. **Bundles data and behavior** together logically
-3. **Enables better software design** through organization\n\n### **What's Next**
+1. **Bundles data and behavior** together logically
+1. **Enables better software design** through organization\n\n### **What's Next**
 
 \n\n\n\n**Part A2** will dive into:
   - What classes are (the blueprints)
   - How objects are created from classes
-  - The class-object relationship in detail
----
-
-## 🔗 Related Topics\n\n- **Current**: Part A1 - Core Concepts ✅
-  - **Next**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)
+##   - The class-object relationship in detail
+## 🔗 Related Topics\n\n- **Current**: Part A1 - Core Concepts ✅\n\n  - **Next**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)
   - **Then**: [01_OOP-Objects-Creation-PartA.md](01_OOP-Objects-Creation-PartA.md)
   - **Series**: Classes & Objects Foundation (Part A1 of 4)\n\n**Last Updated**: October 4, 2025
 

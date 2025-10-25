@@ -2,9 +2,7 @@
 
 **Prerequisites**: [03_OOP-Inheritance-Polymorphism.md](03_OOP-Inheritance-Polymorphism.md)
 **Estimated Time**: 27 minutes (focused learning session)
-**Series**: Part A of 2 - Advanced Patterns
----
-
+## **Series**: Part A of 2 - Advanced Patterns
 ## 🎯 Learning Objectives\n\nBy the end of this session, you will
 
 - [Add specific learning objectives]
@@ -29,9 +27,7 @@ By the end of this session, you will:
 \n\n\n\n**Golden Rule**: *"Favor composition over inheritance"*
 
 ```text
-Decision Framework
-====================
-Inheritance (IS-A):        Composition (HAS-A):
+# Decision Framework\n\nInheritance (IS-A):        Composition (HAS-A):
 ├── Dog IS-A Animal       ├── Car HAS-A Engine
 ├── Manager IS-A Employee ├── House HAS-A Kitchen
 └── Circle IS-A Shape     └── Team HAS-A Members
@@ -136,9 +132,7 @@ userService = container.resolve(UserService)  // Auto-inject dependencies
 
 \n\n\n\n- **SOLID Principles**: Advanced OOP design principles
   - **Design Patterns**: Gang of Four patterns implementation
-  - **Enterprise Frameworks**: Spring, .NET, Django patterns
----
-
+##   - **Enterprise Frameworks**: Spring, .NET, Django patterns
 ## Part A of 2\n\nNext: [04_OOP-Advanced-Patterns-PartB.md](04_OOP-Advanced-Patterns-PartB.md)
 
 ---

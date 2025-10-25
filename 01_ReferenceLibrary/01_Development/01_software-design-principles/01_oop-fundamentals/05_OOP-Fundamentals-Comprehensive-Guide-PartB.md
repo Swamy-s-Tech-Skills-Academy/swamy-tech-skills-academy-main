@@ -2,9 +2,7 @@
 
 **Prerequisites**: [05_OOP-Fundamentals-Comprehensive-Guide-PartA.md](05_OOP-Fundamentals-Comprehensive-Guide-PartA.md)
 **Estimated Time**: 27 minutes (focused learning session)
-**Series**: Part B of 2 - Comprehensive Guide
----
-
+## **Series**: Part B of 2 - Comprehensive Guide
 ## 🎯 Learning Objectives\n\nBy the end of this session, you will
 
 - [Add specific learning objectives]
@@ -52,9 +50,7 @@ for processor in processors:
 \n\n\n\n**Association**: "uses-a" relationship (temporary, no ownership)
   - Example: Driver uses Car, Customer uses ShoppingCart\n\n**Aggregation**: "has-a" relationship (loose ownership, parts can exist independently)
   - Example: Department has Employees (employees can work elsewhere)\n\n**Composition**: "part-of" relationship (tight ownership, parts cannot exist independently)
-  - Example: Car has Engine (engine is integral to the car)
----
-
+##   - Example: Car has Engine (engine is integral to the car)
 ## ðŸŽ¯ Practical Application (5 minutes)
 ### Design Decision Frameworks
 
@@ -82,16 +78,16 @@ for processor in processors:
 \n\n\n\n1. **God Class**: One class doing too many things â†’ Split responsibilities
 
 1. **Feature Envy**: Class excessively using another class's data â†’ Move behavior to data owner
-2. **Long Parameter List**: Too many method parameters â†’ Use parameter objects
-3. **Switch Statements**: Type checking instead of polymorphism â†’ Use polymorphic methods\n\n### Practical Exercise
+1. **Long Parameter List**: Too many method parameters â†’ Use parameter objects
+1. **Switch Statements**: Type checking instead of polymorphism â†’ Use polymorphic methods\n\n### Practical Exercise
 
 \n\n\n\n**Scenario**: Design a simple e-commerce system with products, shopping cart, and payment processing.
 **Questions to consider**:
 
-4. What classes would you create?
-5. Which relationships (inheritance/composition) make sense?
-6. How would you apply encapsulation and abstraction?
-7. Where would polymorphism be beneficial?\n\n---\n\n## ðŸŽ¯ Key Takeaways & Next Steps (2 minutes)
+1. What classes would you create?
+1. Which relationships (inheritance/composition) make sense?
+1. How would you apply encapsulation and abstraction?
+1. Where would polymorphism be beneficial?\n\n---\n\n## ðŸŽ¯ Key Takeaways & Next Steps (2 minutes)
 ### Key Takeaways
 
 \n\n\n\n- **Encapsulation** protects data integrity and enables modularity
@@ -103,13 +99,11 @@ for processor in processors:
 
 \n\n\n\n1. **Practice**: Implement the e-commerce system exercise above
 
-8. **Explore**: [06_SOLID-Principles](../02_SOLID-Principles/) for advanced design guidelines
-9. **Apply**: Refactor existing code to use OOP principles
-10. **Study**: Real-world examples in popular frameworks\n\n### Related Topics
+1. **Explore**: [06_SOLID-Principles](../02_SOLID-Principles/) for advanced design guidelines
+1. **Apply**: Refactor existing code to use OOP principles
+1. **Study**: Real-world examples in popular frameworks\n\n### Related Topics
 
 \n\n\n\n**Prereqs**: Basic programming concepts
 **Builds Upon**: Variables, functions, basic data structures
-**Enables**: Design patterns, SOLID principles, enterprise architecture
----
-**Session Complete**: 27-minute focused learning on OOP fundamentals
+## **Enables**: Design patterns, SOLID principles, enterprise architecture\n\n**Session Complete**: 27-minute focused learning on OOP fundamentals
 **Ready for**: Advanced design principles and architectural patterns

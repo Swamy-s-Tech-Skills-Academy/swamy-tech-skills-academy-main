@@ -2,9 +2,7 @@
 
 **Prerequisites**: [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
 **Estimated Time**: 27 minutes (focused learning session)
-**Series**: Core Pillars - Inheritance & Polymorphism
----
-
+## **Series**: Core Pillars - Inheritance & Polymorphism
 ## 🎯 Learning Objectives\n\nBy the end of this session, you will
 
 - [Add specific learning objectives]
@@ -29,9 +27,7 @@ By the end of this session, you will:
 \n\n\n\n**Definition**: Child classes inherit properties/methods from parent classes while adding specialization
 
 ```text
-📊 Inheritance Hierarchy
-========================
-```csharp\nVehicle (Parent)\n```csharp\n```csharp\n├── properties: brand, model, year\n```csharp\n```csharp\n├── methods: start(), stop(), getInfo()\n```csharp\n    │
+# 📊 Inheritance Hierarchy\n\n```csharp\nVehicle (Parent)\n```csharp\n```csharp\n├── properties: brand, model, year\n```csharp\n```csharp\n├── methods: start(), stop(), getInfo()\n```csharp\n    │
 ```csharp\n├── Car (Child)\n```csharp\n```csharp\n│   ├── properties: doors, fuelType\n```csharp\n```csharp\n│   └── methods: openTrunk(), lockDoors()\n```csharp\n    │
 ```csharp\n└── Motorcycle (Child)\n```csharp\n```csharp\n    ├── properties: engineSize, hasWindshield\n```csharp\n```csharp    └── methods: wheelie(), leanIntoTurn()
 ```csharp\n```csharp**Key Principle**: "IS-A" relationship (Car IS-A Vehicle)
@@ -48,9 +44,7 @@ class Car extends Vehicle:
 **Definition**: Same method call produces different behaviors based on object type.
 
 ```text
-🔄 Polymorphic Behavior
-======================
-vehicles = [Car, Motorcycle, Truck]
+# 🔄 Polymorphic Behavior\n\nvehicles = [Car, Motorcycle, Truck]
 for each vehicle in vehicles:
 ```csharp\nvehicle.start()  // Same call, different behavior:\n```csharp\n```csharp\nCar: "Car engine starting with key..."\n```csharp\n```csharp\nMotorcycle: "Motorcycle engine roaring to life..."\n```csharp\n```csharpTruck: "Diesel engine warming up..."
 ```csharp\n```csharp#### **Method Overriding vs Method Overloading**
@@ -118,8 +112,6 @@ for shape in shapes:
 
 \n\n\n\n- **Advanced OOP**: Composition and design patterns
   - **SOLID Principles**: Dependency inversion, open-closed principle
-  - **Framework Understanding**: Spring, .NET, Django inheritance patterns
----
-**Module Status**: ✅ **Optimized** (175 lines, 27-minute focused learning)
+##   - **Framework Understanding**: Spring, .NET, Django inheritance patterns\n\n**Module Status**: ✅ **Optimized** (175 lines, 27-minute focused learning)
 **Part of**: OOP Fundamentals Domain - Lead Architect Learning Track
 **Next Module**: [04_OOP-Advanced-Patterns-PartA.md](04_OOP-Advanced-Patterns-PartA.md)

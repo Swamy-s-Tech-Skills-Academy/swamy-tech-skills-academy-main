@@ -2,9 +2,7 @@
 
 **Prerequisites**: [01_OOP-Objects-Creation-PartA.md](01_OOP-Objects-Creation-PartA.md)
 **Estimated Time**: 27 minutes (focused learning session)
-**Series**: Part B of 2 - Objects Creation
----
-
+## **Series**: Part B of 2 - Objects Creation
 ## 🎯 Learning Objectives (27-Minute Session)\n\nBy the end of this session, you will
 
 - Implement complex object interactions
@@ -65,9 +63,9 @@ CLASS Company:
 \n\n\n\n1. **Objects can contain other objects** (composition)
 
 1. **Objects collaborate** to accomplish complex tasks
-2. **Object state changes** over time through method calls
-3. **Enterprise patterns** help manage object creation and lifecycle
-4. **Objects model real business processes** effectively\n\n### **Design Principles Achieved**
+1. **Object state changes** over time through method calls
+1. **Enterprise patterns** help manage object creation and lifecycle
+1. **Objects model real business processes** effectively\n\n### **Design Principles Achieved**
 
 \n\n\n\n- ✅ **Encapsulation**: Objects manage their own state
   - ✅ **Collaboration**: Objects work together naturally
@@ -78,11 +76,8 @@ CLASS Company:
   - Protecting object data with access modifiers
   - Creating clean public interfaces
   - Hiding implementation complexity
-  - Advanced data security patterns
----
-
-## 🔗 Series Navigation\n\n- **Previous**: [01_OOP-Objects-Creation-PartA.md](01_OOP-Objects-Creation-PartA.md)
-  - **Current**: Part B2 - Advanced Practice ✅
+##   - Advanced data security patterns
+## 🔗 Series Navigation\n\n- **Previous**: [01_OOP-Objects-Creation-PartA.md](01_OOP-Objects-Creation-PartA.md)\n\n  - **Current**: Part B2 - Advanced Practice ✅
   - **Next**: [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
   - **Series**: Classes & Objects Foundation (Part B2 of 4)\n\n**Last Updated**: September 10, 2025
 

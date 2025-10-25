@@ -2,9 +2,7 @@
 
 **Prerequisites**: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
 **Estimated Time**: 27 minutes (planning session)
-**Series**: Part B of 2 - OOD Learning Plan
----
-
+## **Series**: Part B of 2 - OOD Learning Plan
 ## 🎯 Learning Objectives\n\nBy the end of this session, you will
 
 - [Add specific learning objectives]
@@ -13,10 +11,7 @@
 
 ### Part B of 2
 
-Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
----
-
-- Review and solidify core OOD principles: **Encapsulation**, **Abstraction**, **Inheritance**, and **Polymorphism**.
+## Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)\n\n- Review and solidify core OOD principles: **Encapsulation**, **Abstraction**, **Inheritance**, and **Polymorphism**.
 - **Encapsulation:** Practice defining access modifiers (`public`, `private`, `protected`, and `internal`) and using properties to encapsulate data.
 - **Abstraction:** Work on creating base classes and interfaces, abstracting behaviors and properties.\n\n1. **Exercises in C#:**
 - Implement a **Shape hierarchy** where you have base classes like `Shape`, with derived classes such as `Circle`, `Rectangle`, etc. Each class should implement a method like `Draw` or `Area`.
@@ -38,11 +33,11 @@ Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
 - **Interface Segregation Principle (ISP):** Prefer many small interfaces over one large interface.
 - **Dependency Inversion Principle (DIP):** Depend on abstractions, not on concretions.
 
-2. **Exercises in C#:**\n\n   - Refactor an e-commerce class with SRP, OCP, and DIP principles.
+1. **Exercises in C#:**\n\n   - Refactor an e-commerce class with SRP, OCP, and DIP principles.
 
 - Design a **Notification System** where various notification types (e.g., SMS, Email, Push) follow the ISP and DIP.
 
-3. **Reading and Resources:**\n\n   - "Clean Code" by Robert C. Martin for SOLID-focused examples.
+1. **Reading and Resources:**\n\n   - "Clean Code" by Robert C. Martin for SOLID-focused examples.
 
 - Pluralsight or LinkedIn Learning courses on **SOLID Principles in C#**.
 
@@ -56,13 +51,13 @@ Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
 - **Structural Patterns**: Adapter, Composite.
 - **Behavioral Patterns**: Strategy, Observer.
 
-4. **Exercises in C#:**\n\n   - Implement a **Factory Pattern** to create instances of different shapes (e.g., circle, square).
+1. **Exercises in C#:**\n\n   - Implement a **Factory Pattern** to create instances of different shapes (e.g., circle, square).
 
 - Use the **Singleton Pattern** for a configuration manager or logger.
 - Create a **Strategy Pattern** for payment processing methods, allowing dynamic selection of payment type at runtime.
 - Use the **Observer Pattern** for a real-time notification system, where different modules are notified of changes (e.g., email, SMS, in-app).
 
-5. **Reading and Resources:**\n\n   - "Head First Design Patterns" - for a more engaging take on classic patterns.
+1. **Reading and Resources:**\n\n   - "Head First Design Patterns" - for a more engaging take on classic patterns.
 
 - Online videos/tutorials for C#-specific pattern implementations.
 
@@ -77,12 +72,12 @@ Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
 - **Command Pattern**: Especially useful in scenarios like implementing Undo functionality.
 - **Chain of Responsibility**: For request processing systems (e.g., filtering or logging).
 
-6. **Exercises in C#:**\n\n   - Implement a **DI container** using .NET's `IServiceCollection` for an MVC application.
+1. **Exercises in C#:**\n\n   - Implement a **DI container** using .NET's `IServiceCollection` for an MVC application.
 
 - Create a **Logger** using the **Decorator Pattern** that can add functionality like timestamping, file logging, and console logging dynamically.
 - Design a **Command Pattern** for a remote control system where each command (like `TurnOn`, `TurnOff`, `VolumeUp`, etc.) can be executed and undone.
 
-7. **Reading and Resources:**\n\n   - "Dependency Injection in .NET" by Mark Seemann.
+1. **Reading and Resources:**\n\n   - "Dependency Injection in .NET" by Mark Seemann.
 
 - Tutorials for implementing custom DI in .NET applications.
 
@@ -95,11 +90,11 @@ Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
 - Design a **Library Management System**: Focus on core classes like `Library`, `Book`, `Member`, `Loan`, etc., and use inheritance and composition effectively.
 - Implement multiple patterns and SOLID principles where applicable.
 
-8. **Exercises in C#:**\n\n   - Write unit tests for each component to verify SOLID principles and patterns.
+1. **Exercises in C#:**\n\n   - Write unit tests for each component to verify SOLID principles and patterns.
 
 - Add a layer of abstraction by separating data access from business logic using the Repository Pattern.
 
-9. **Reading and Resources:**\n\n   - Practicing by designing small systems like a **To-Do List application** or **Inventory Management System** to apply OOD principles.
+1. **Reading and Resources:**\n\n   - Practicing by designing small systems like a **To-Do List application** or **Inventory Management System** to apply OOD principles.
 
 - Explore Pluralsight's Object-Oriented Design Fundamentals course.
 
@@ -111,12 +106,12 @@ Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
 
 - **Example Project:** Develop an **Event Management System**. Incorporate multiple design patterns, layering, SOLID principles, and a focus on reusability and flexibility.
 
-10. **Project Deliverables:**\n\n   - **Domain Modeling:** Build a class model, defining relationships between entities like `Event`, `Attendee`, `Venue`, and `Ticket`.
+1. **Project Deliverables:**\n\n   - **Domain Modeling:** Build a class model, defining relationships between entities like `Event`, `Attendee`, `Venue`, and `Ticket`.
 
 - **Scalability & Extensibility:** Apply SOLID principles and design patterns to make the application extensible for new features (like online payments, notifications).
 - **Documentation:** Document your design decisions, how each design pattern supports extensibility, and provide a justification for each key architectural choice.
 
-11. **Review and Reflection:**\n\n   - Review your code for adherence to OOD and SOLID principles.
+1. **Review and Reflection:**\n\n   - Review your code for adherence to OOD and SOLID principles.
 
 - Reflect on design choices and areas for improvement.
 

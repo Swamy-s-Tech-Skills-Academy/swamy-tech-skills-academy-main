@@ -2,9 +2,7 @@
 
 **Prerequisites**: OOP fundamentals knowledge
 **Estimated Time**: 27 minutes (focused learning session)
-**Series**: Part A of 3 - Abstraction & Encapsulation
----
-
+## **Series**: Part A of 3 - Abstraction & Encapsulation
 ## 🎯 Learning Objectives\n\nBy the end of this session, you will
 
 - [Add specific learning objectives]
@@ -20,9 +18,7 @@ By the end of this 27-minute session, you will:
 
 ### Part A of 3
 
-Next: [08_OOP-Abstraction-Encapsulation-PartB.md](08_OOP-Abstraction-Encapsulation-PartB.md)
----
-
+## Next: [08_OOP-Abstraction-Encapsulation-PartB.md](08_OOP-Abstraction-Encapsulation-PartB.md)
 ## **Abstraction**
 
 ### Definition
@@ -34,8 +30,8 @@ Next: [08_OOP-Abstraction-Encapsulation-PartB.md](08_OOP-Abstraction-Encapsulati
 \n\n\n\n1. **Purpose**: Simplify complex systems by showing only relevant data to the user.
 
 1. **Implementation**: Achieved using **abstract classes** or **interfaces** in languages like C# and Java.
-2. **Use Case**: When you want to define behavior without worrying about how it is implemented.
-3. **Example**:\n\n   - A `Vehicle` class exposes methods like `Start()` or `Stop()`, but the internal workings of the engine are hidden from the user.\n\n### #### Code Example (C#):**
+1. **Use Case**: When you want to define behavior without worrying about how it is implemented.
+1. **Example**:\n\n   - A `Vehicle` class exposes methods like `Start()` or `Stop()`, but the internal workings of the engine are hidden from the user.\n\n### #### Code Example (C#):**
 
 \n\n\n\n```csharp
 abstract class Shape {
@@ -58,9 +54,9 @@ class Program {
 
 \n\n\n\n1. **Purpose**: Safeguard object data and prevent unauthorized access or modification.
 
-4. **Implementation**: Achieved using **access modifiers** like `private`, `protected`, and `public`.
-5. **Use Case**: When you want to control or validate how external entities interact with the internal state of an object.
-6. **Example**:\n\n   - A `BankAccount` class restricts direct access to its `balance` field but allows controlled access through methods like `Deposit()` or `Withdraw()`.\n\n### #### Code Example (C#):** 2
+1. **Implementation**: Achieved using **access modifiers** like `private`, `protected`, and `public`.
+1. **Use Case**: When you want to control or validate how external entities interact with the internal state of an object.
+1. **Example**:\n\n   - A `BankAccount` class restricts direct access to its `balance` field but allows controlled access through methods like `Deposit()` or `Withdraw()`.\n\n### #### Code Example (C#):** 2
 
 \n\n\n\n```csharp
 class BankAccount {
@@ -86,9 +82,7 @@ class Program {
 
 - **Encapsulation** is about **hiding the object's data** and controlling access.\n\nBoth principles are complementary and often work together in designing robust and secure applications.
 
-Hereâ€™s a detailed explanation of **OOP in C#**, covering its core principles with examples and comparisons
----
-
+## Hereâ€™s a detailed explanation of **OOP in C#**, covering its core principles with examples and comparisons
 ## **Object-Oriented Programming (OOP) in C#**\n\nOOP is a programming paradigm based on the concept of objects, which encapsulate data and behavior. C# is inherently an object-oriented language, and its design supports the following key principles
 
 ---

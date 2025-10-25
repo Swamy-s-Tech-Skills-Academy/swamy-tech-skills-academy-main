@@ -2,9 +2,7 @@
 
 **Prerequisites**: [01_OOP-Core-Concepts-PartA.md](01_OOP-Core-Concepts-PartA.md)
 **Estimated Time**: 12 minutes (27-minute focused session)
-**Series**: Part B of 2 - Core OOP Concepts
----
-
+## **Series**: Part B of 2 - Core OOP Concepts
 ## 🎯 Learning Objectives\n\nBy the end of this 12-minute session, you will
 
 - Master the concept of classes as blueprints
@@ -62,17 +60,14 @@ CLASS Book:
 \n\n\n\n1. **Classes are blueprints** that define structure and behavior
 
 1. **Attributes store data** that objects will have
-2. **Methods define actions** that objects can perform
-3. **Constructors create instances** from the blueprint\n\n### **What's Next**
+1. **Methods define actions** that objects can perform
+1. **Constructors create instances** from the blueprint\n\n### **What's Next**
 
 \n\n\n\n**Part B1** will cover:
   - Creating actual objects from classes
   - Object instantiation process
-  - Multiple objects from one class
----
-
-## 🔗 Series Navigation\n\n- **Previous**: [01_OOP-Core-Concepts-PartA.md](01_OOP-Core-Concepts-PartA.md)
-  - **Current**: Part A2 - Classes as Blueprints ✅
+##   - Multiple objects from one class
+## 🔗 Series Navigation\n\n- **Previous**: [01_OOP-Core-Concepts-PartA.md](01_OOP-Core-Concepts-PartA.md)\n\n  - **Current**: Part A2 - Classes as Blueprints ✅
   - **Next**: [01_OOP-Objects-Creation-PartA.md](01_OOP-Objects-Creation-PartA.md)
   - **Series**: Classes & Objects Foundation (Part A2 of 4)\n\n**Last Updated**: October 4, 2025
 
