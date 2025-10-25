@@ -1,10 +1,18 @@
-﻿# OOP Abstraction and Encapsulation - Part B
+# OOP Abstraction and Encapsulation - Part B
 
 **Learning Level**: Intermediate  
-**Prerequisites**: Basic OOP concepts, Classes and Objects  
-**Estimated Time**: 27 minutes
+**Prerequisites**: [08_OOP-Abstraction-Encapsulation-PartA.md](08_OOP-Abstraction-Encapsulation-PartA.md)  
+**Estimated Time**: 27 minutes (focused learning session)  
+**Series**: Part B of 3 - Abstraction & Encapsulation
 
-## ðŸŽ¯ Learning Objectives
+---
+## 🎯 Learning Objectives
+
+By the end of this session, you will:
+
+- [Add specific learning objectives]
+
+---
 
 By the end of this 27-minute session, you will:
 
@@ -171,3 +179,4 @@ class Program {
 ```
 
 ---
+

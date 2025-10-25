@@ -1,13 +1,18 @@
-# 01_OOP-Classes-and-Objects
+# 01_OOP-Classes-and-Objects
 
 **Learning Level**: Beginner  
 **Prerequisites**: Basic programming knowledge  
-**Estimated Time**: 27 minutes  
-**Next**: [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
+**Estimated Time**: 15 minutes (condensed overview)  
+**Series**: Condensed Overview
 
 ---
+## 🎯 Learning Objectives
 
-## 🎯 Learning Objectives (27-Minute Session)
+By the end of this session, you will:
+
+- [Add specific learning objectives]
+
+---
 
 By the end of this session, you will:
 
@@ -170,3 +175,4 @@ employee1.updateDepartment("Senior Engineering")
 
 **Last Updated**: September 10, 2025  
 **Format**: 27-minute focused learning segment
+

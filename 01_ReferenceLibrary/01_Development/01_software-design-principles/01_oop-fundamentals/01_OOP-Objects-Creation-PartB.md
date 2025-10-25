@@ -1,10 +1,9 @@
-# 01_OOP-Objects-Creation-PartB
+# 01_OOP-Objects-Creation-PartB
 
-**Learning Level**: Beginner to Intermediate  
+**Learning Level**: Beginner → Intermediate  
 **Prerequisites**: [01_OOP-Objects-Creation-PartA.md](01_OOP-Objects-Creation-PartA.md)  
-**Estimated Time**: 27 minutes  
-**Series**: Part B2 of 4 - Advanced Objects Practice
-**Next**: [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
+**Estimated Time**: 27 minutes (focused learning session)  
+**Series**: Part B of 2 - Objects Creation
 
 ---
 
@@ -186,4 +185,5 @@ Ready for **Module 2: Encapsulation & Abstraction**:
 
 **Last Updated**: September 10, 2025  
 **Format**: 27-minute focused learning segment
+
 

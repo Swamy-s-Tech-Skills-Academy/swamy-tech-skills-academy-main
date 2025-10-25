@@ -1,8 +1,17 @@
-﻿# Learning Object Oriented Design - Part B
+# Learning Object Oriented Design - Part B
 
-## Overview
 
-This four-week plan will help you master OOD principles, understand design patterns, and practice implementing OOD concepts in C#. Each week has specific goals, topics, and exercises to build and test your understanding progressively.
+**Learning Level**: Intermediate  
+**Prerequisites**: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)  
+**Estimated Time**: 27 minutes (planning session)  
+**Series**: Part B of 2 - OOD Learning Plan
+
+---
+## 🎯 Learning Objectives
+
+By the end of this session, you will:
+
+- [Add specific learning objectives]
 
 ---
 
@@ -23,7 +32,7 @@ Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
 
 3. **Reading and Resources:**
    - "Design Patterns: Elements of Reusable Object-Oriented Software" - the classic for learning the language of OOD.
-   - **C# Documentation on Polymorphism**: Microsoftâ€™s documentation to clarify polymorphic behavior in C#.
+   - **C# Documentation on Polymorphism**: Microsoft's documentation to clarify polymorphic behavior in C#.
 
 ---
 
@@ -150,3 +159,4 @@ Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
 ---
 
 This plan will build a comprehensive understanding of OOD, SOLID principles, and C# design patterns, setting you up for success in a Principal Software Engineer role. Let me know if you'd like more examples, specific guidance on any pattern, or help with coding exercises!
+

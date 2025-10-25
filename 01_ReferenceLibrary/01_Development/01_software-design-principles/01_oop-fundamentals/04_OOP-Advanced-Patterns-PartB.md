@@ -1,10 +1,18 @@
-# 04_OOP-Advanced-Patterns - Part B
+# 04_OOP-Advanced-Patterns - Part B
 
 **Learning Level**: Intermediate  
-**Prerequisites**: [01_OOP-Core-Concepts-PartA.md](01_OOP-Core-Concepts-PartA.md), [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md), [03_OOP-Inheritance-Polymorphism.md](03_OOP-Inheritance-Polymorphism.md)  
-**Estimated Time**: 27 minutes  
+**Prerequisites**: [04_OOP-Advanced-Patterns-PartA.md](04_OOP-Advanced-Patterns-PartA.md)  
+**Estimated Time**: 27 minutes (focused learning session)  
+**Series**: Part B of 2 - Advanced Patterns
 
-## 🎯 Learning Objectives (27-Minute Session)
+---
+## 🎯 Learning Objectives
+
+By the end of this session, you will:
+
+- [Add specific learning objectives]
+
+---
 
 By the end of this session, you will:
 
@@ -225,4 +233,5 @@ userService = container.resolve(UserService)  // Auto-inject dependencies
 Previous: [04_OOP-Advanced-Patterns-PartA.md](04_OOP-Advanced-Patterns-PartA.md)
 
 ---
+
 

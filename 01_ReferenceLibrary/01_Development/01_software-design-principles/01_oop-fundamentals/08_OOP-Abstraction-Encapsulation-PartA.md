@@ -1,10 +1,18 @@
-﻿# OOP Abstraction and Encapsulation - Part A
+# OOP Abstraction and Encapsulation - Part A
 
 **Learning Level**: Intermediate  
-**Prerequisites**: Basic OOP concepts, Classes and Objects  
-**Estimated Time**: 27 minutes
+**Prerequisites**: OOP fundamentals knowledge  
+**Estimated Time**: 27 minutes (focused learning session)  
+**Series**: Part A of 3 - Abstraction & Encapsulation
 
-## ðŸŽ¯ Learning Objectives
+---
+## 🎯 Learning Objectives
+
+By the end of this session, you will:
+
+- [Add specific learning objectives]
+
+---
 
 By the end of this 27-minute session, you will:
 
@@ -169,3 +177,4 @@ class Program {
     static void Main() {
         Car car = new Car { Make = "Toyota", Model = "Camry", Year = 2022 };
         car.DisplayInfo(); // Output: 2022 Toyota Camry
+

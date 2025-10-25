@@ -1,11 +1,18 @@
-﻿# 05_OOP-Fundamentals-Comprehensive-Guide - Part B
+# 05_OOP-Fundamentals-Comprehensive-Guide - Part B
 
-**Learning Level**: Beginner â†’ Intermediate
-**Prerequisites**: Basic programming knowledge (variables, functions, loops)
-**Estimated Time**: 27 minutes (focused learning session)
-**Next Steps**: [06_SOLID-Principles](../02_SOLID-Principles/) for advanced design patterns
+**Learning Level**: Beginner → Intermediate  
+**Prerequisites**: [05_OOP-Fundamentals-Comprehensive-Guide-PartA.md](05_OOP-Fundamentals-Comprehensive-Guide-PartA.md)  
+**Estimated Time**: 27 minutes (focused learning session)  
+**Series**: Part B of 2 - Comprehensive Guide
 
-## ðŸŽ¯ Learning Objectives
+---
+## 🎯 Learning Objectives
+
+By the end of this session, you will:
+
+- [Add specific learning objectives]
+
+---
 
 By the end of this 27-minute session, you will:
 
@@ -166,3 +173,4 @@ class Car:
 
 **Session Complete**: 27-minute focused learning on OOP fundamentals
 **Ready for**: Advanced design principles and architectural patterns
+

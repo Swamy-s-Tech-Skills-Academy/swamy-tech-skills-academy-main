@@ -1,10 +1,18 @@
-# 02_OOP-Encapsulation-Abstraction
+# 02_OOP-Encapsulation-Abstraction
 
-**Learning Level**: Beginner to Intermediate  
-**Prerequisites**: [01_OOP-Objects-Creation-PartB.md](01_OOP-Objects-Creation-PartB.md), basic programming concepts  
-**Estimated Time**: 27 minutes  
+**Learning Level**: Beginner → Intermediate  
+**Prerequisites**: [01_OOP-Objects-Creation-PartB.md](01_OOP-Objects-Creation-PartB.md)  
+**Estimated Time**: 27 minutes (focused learning session)  
+**Series**: Core Pillars - Encapsulation & Abstraction
 
+---
 ## 🎯 Learning Objectives
+
+By the end of this session, you will:
+
+- [Add specific learning objectives]
+
+---
 
 By the end of this 27-minute session, you will:
 
@@ -197,4 +205,5 @@ END CLASS
 
 *Part 1B of 4-part OOP Fundamentals series*  
 *Next: [03_OOP-Inheritance-Polymorphism.md](./03_OOP-Inheritance-Polymorphism.md)*
+
 

@@ -1,10 +1,9 @@
-# 01_OOP-Objects-Creation-PartA
+# 01_OOP-Objects-Creation-PartA
 
 **Learning Level**: Beginner  
 **Prerequisites**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)  
-**Estimated Time**: 15 minutes  
-**Series**: Part B1 of 4 - Objects Creation & Instantiation
-**Next**: [01_OOP-Objects-Creation-PartB.md](01_OOP-Objects-Creation-PartB.md)
+**Estimated Time**: 15 minutes (27-minute focused session)  
+**Series**: Part A of 2 - Objects Creation
 
 ---
 
@@ -143,4 +142,5 @@ IF employee1.salary > employee2.salary:
 
 **Last Updated**: September 10, 2025  
 **Format**: 15-minute focused learning segment
+
 

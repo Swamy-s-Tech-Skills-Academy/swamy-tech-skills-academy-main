@@ -1,13 +1,18 @@
-﻿# **OOD in C# with Class Diagrams** - Part A
+# **OOD in C# with Class Diagrams** - Part A
 
-Object-Oriented Design (OOD) in C# revolves around designing systems by representing real-world entities as objects. Below is an explanation of key OOD concepts, each illustrated with C# examples and accompanied by class diagram links.
+**Learning Level**: Intermediate  
+**Prerequisites**: OOP fundamentals knowledge  
+**Estimated Time**: 27 minutes (focused learning session)  
+**Series**: Part A of 3 - OOD Basics
 
 ---
+## 🎯 Learning Objectives
 
-## Reference
+By the end of this session, you will:
 
-> 1. <https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/>
-> 1. <https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700002>
+- [Add specific learning objectives]
+
+---
 
 ### **1. Class**
 
@@ -168,4 +173,5 @@ Next: [07_OOD-Basics-PartB.md](07_OOD-Basics-PartB.md)
   {
       public void Start() => Console.WriteLine("Engine started.");
   }
+
 

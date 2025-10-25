@@ -86,7 +86,7 @@ foreach ($file in $AllFiles) {
     }
     
     # Check for STSA metadata sections
-    if ($content -match "Prerequisites?:" -and $content -match "Learning Level:" -and $content -match "Estimated Time:") {
+    if ($content -match "\*\*Learning Level\*\*:" -and $content -match "\*\*Prerequisites\*\*:" -and $content -match "\*\*Estimated Time\*\*:") {
         Write-Host "  ✓ $($file.Name) - Has STSA metadata" -ForegroundColor Green
     } elseif ($file.Name -ne "README.md") {
         $VerificationResults.Issues += "B-ISSUE: $($file.Name) - Missing STSA metadata structure"

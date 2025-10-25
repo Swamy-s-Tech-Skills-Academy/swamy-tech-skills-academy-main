@@ -1,10 +1,9 @@
-# 01_OOP-Core-Concepts-PartB
+# 01_OOP-Core-Concepts-PartB
 
 **Learning Level**: Beginner  
 **Prerequisites**: [01_OOP-Core-Concepts-PartA.md](01_OOP-Core-Concepts-PartA.md)  
-**Estimated Time**: 12 minutes  
-**Series**: Part A2 of 4 - Classes as Blueprints
-**Next**: [01_OOP-Objects-Creation-PartA.md](01_OOP-Objects-Creation-PartA.md)
+**Estimated Time**: 12 minutes (27-minute focused session)  
+**Series**: Part B of 2 - Core OOP Concepts
 
 ---
 
@@ -125,4 +124,5 @@ CLASS Book:
 
 **Last Updated**: October 4, 2025  
 **Format**: 12-minute focused learning segment
+
 

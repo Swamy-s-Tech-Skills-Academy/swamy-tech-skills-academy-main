@@ -1,10 +1,18 @@
-﻿# OOP Abstraction and Encapsulation - Part C
+# OOP Abstraction and Encapsulation - Part C
 
 **Learning Level**: Intermediate  
-**Prerequisites**: Basic OOP concepts, Classes and Objects  
-**Estimated Time**: 27 minutes
+**Prerequisites**: [08_OOP-Abstraction-Encapsulation-PartB.md](08_OOP-Abstraction-Encapsulation-PartB.md)  
+**Estimated Time**: 27 minutes (focused learning session)  
+**Series**: Part C of 3 - Abstraction & Encapsulation
 
-## ðŸŽ¯ Learning Objectives
+---
+## 🎯 Learning Objectives
+
+By the end of this session, you will:
+
+- [Add specific learning objectives]
+
+---
 
 By the end of this 27-minute session, you will:
 
@@ -169,3 +177,4 @@ IShape <|.. Circle : Realization
 4. **Class Members**:
    - Fields and methods are specified within classes.
    - `+` denotes public, `-` denotes private.
+
