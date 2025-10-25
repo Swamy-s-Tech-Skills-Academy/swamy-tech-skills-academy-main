@@ -1,12 +1,19 @@
-﻿# 05_OOP-Fundamentals-Comprehensive-Guide - Part B
+# 05_OOP-Fundamentals-Comprehensive-Guide - Part B
 
-**Learning Level**: Beginner â†’ Intermediate
-**Prerequisites**: Basic programming knowledge (variables, functions, loops)
+**Learning Level**: Beginner → Intermediate
+**Prerequisites**: [05_OOP-Fundamentals-Comprehensive-Guide-PartA.md](05_OOP-Fundamentals-Comprehensive-Guide-PartA.md)
 **Estimated Time**: 27 minutes (focused learning session)
-**Next Steps**: [06_SOLID-Principles](../02_SOLID-Principles/) for advanced design patterns
+**Series**: Part B of 2 - Comprehensive Guide
 
-## ðŸŽ¯ Learning Objectives
+---
 
+## 🎯 Learning Objectives
+
+By the end of this session, you will:
+
+- [Add specific learning objectives]
+
+---
 By the end of this 27-minute session, you will:
 
 - Understand the four pillars of Object-Oriented Programming and their practical applications
@@ -26,6 +33,7 @@ Previous: [05_OOP-Fundamentals-Comprehensive-Guide-PartA.md](05_OOP-Fundamentals
     def process_payment(self, amount):
         print(f"Processing ${amount} via PayPal...")
         # PayPal specific logic
+
         return f"PayPal payment of ${amount} processed"
 
 ## Polymorphic Usage
@@ -34,6 +42,7 @@ processors = [CreditCardProcessor(), PayPalProcessor()]
 
 for processor in processors:
     result = processor.process_payment(100)  # Same method, different behavior
+
     print(result)
 
 ```python
@@ -102,15 +111,19 @@ for processor in processors:
 - The relationships are dynamic
 
 ```python
+
 # Inheritance (IS-A relationship)
+
 class Dog(Animal):
     def make_sound(self):
         return "Woof!"
 
 # Composition (HAS-A relationship)
+
 class Car:
     def __init__(self):
         self.engine = Engine()  # Car HAS-A Engine
+
 ```
 
 #### Abstract Class vs Interface

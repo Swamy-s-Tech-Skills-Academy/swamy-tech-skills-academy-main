@@ -1,12 +1,19 @@
-﻿# 05_OOP-Fundamentals-Comprehensive-Guide - Part A
+# 05_OOP-Fundamentals-Comprehensive-Guide - Part A
 
-**Learning Level**: Beginner â†’ Intermediate
+**Learning Level**: Beginner → Intermediate
 **Prerequisites**: Basic programming knowledge (variables, functions, loops)
 **Estimated Time**: 27 minutes (focused learning session)
-**Next Steps**: [06_SOLID-Principles](../02_SOLID-Principles/) for advanced design patterns
+**Series**: Part A of 2 - Comprehensive Guide
 
-## ðŸŽ¯ Learning Objectives
+---
 
+## 🎯 Learning Objectives
+
+By the end of this session, you will:
+
+- [Add specific learning objectives]
+
+---
 By the end of this 27-minute session, you will:
 
 - Understand the four pillars of Object-Oriented Programming and their practical applications
@@ -23,7 +30,7 @@ Next: [05_OOP-Fundamentals-Comprehensive-Guide-PartB.md](05_OOP-Fundamentals-Com
 
 ---
 
-## ðŸ“‹ Session Structure (27-Minute Format)
+## 📋 Session Structure (27-Minute Format)
 
 ### Quick Overview (5 minutes)
 
@@ -35,17 +42,17 @@ Next: [05_OOP-Fundamentals-Comprehensive-Guide-PartB.md](05_OOP-Fundamentals-Com
 
 ---
 
-## ðŸš€ Quick Overview (5 minutes)
+## 🚀 Quick Overview (5 minutes)
 
 Object-Oriented Programming (OOP) is a programming paradigm that organizes code around **objects** rather than actions and data rather than logic. Since its introduction in the 1960s with Simula, OOP has become the foundation of modern software development.
 
 ### Why OOP Matters for Lead Architects
 
-As a Lead Architect, understanding OOP isn't just about writing codeâ€”it's about designing systems that can evolve, scale, and maintain quality at enterprise levels. The four pillars of OOP provide the architectural foundation for building maintainable, extensible software systems.
+As a Lead Architect, understanding OOP isn't just about writing code—it's about designing systems that can evolve, scale, and maintain quality at enterprise levels. The four pillars of OOP provide the architectural foundation for building maintainable, extensible software systems.
 
 ---
 
-## ðŸ—ï¸ Core Concepts (15 minutes)
+## 🏗️ Core Concepts (15 minutes)
 
 ### The Four Pillars of OOP
 
@@ -80,9 +87,12 @@ class BankAccount:
         return self.__balance
 
 # Usage - external code can't directly modify balance
+
 account = BankAccount(1000)
-account.deposit(500)  # âœ… Controlled access
-# account.__balance = -1000  # âŒ Not allowed (would break encapsulation)
+account.deposit(500)  # ✅ Controlled access
+
+# account.__balance = -1000  # ❌ Not allowed (would break encapsulation)
+
 ```
 
 #### 2. **Abstraction** - Hiding Complexity
@@ -110,7 +120,9 @@ class DatabaseConnection(ABC):
         pass
 
 # Users work with this clean interface
+
 # Implementation details (MySQL, PostgreSQL, MongoDB) are hidden
+
 ```
 
 #### 3. **Inheritance** - Code Reuse & Relationships
@@ -136,17 +148,22 @@ class Vehicle:
         print(f"{self.make} {self.model} stopped.")
 
 class Car(Vehicle):  # Car IS-A Vehicle
+
     def __init__(self, make, model, num_doors):
         super().__init__(make, model)  # Call parent constructor
+
         self.num_doors = num_doors
 
     def honk(self):
         print("Honk! Honk!")
 
 # Usage
+
 my_car = Car("Toyota", "Camry", 4)
 my_car.start()  # Inherited from Vehicle
+
 my_car.honk()   # Specific to Car
+
 ```
 
 #### 4. **Polymorphism** - Same Interface, Different Behaviors
@@ -166,6 +183,7 @@ class CreditCardProcessor(PaymentProcessor):
     def process_payment(self, amount):
         print(f"Processing ${amount} via credit card...")
         # Credit card specific logic
+
         return f"Credit card payment of ${amount} processed"
 
 class PayPalProcessor(PaymentProcessor):

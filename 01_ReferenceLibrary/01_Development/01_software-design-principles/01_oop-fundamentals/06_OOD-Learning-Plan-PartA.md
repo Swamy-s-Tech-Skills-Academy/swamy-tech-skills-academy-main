@@ -1,11 +1,19 @@
-﻿# Learning Object Oriented Design - Part A
+# Learning Object Oriented Design - Part A
 
-## Overview
-
-This four-week plan will help you master OOD principles, understand design patterns, and practice implementing OOD concepts in C#. Each week has specific goals, topics, and exercises to build and test your understanding progressively.
+**Learning Level**: Intermediate
+**Prerequisites**: OOP fundamentals knowledge
+**Estimated Time**: 27 minutes (planning session)
+**Series**: Part A of 2 - OOD Learning Plan
 
 ---
 
+## 🎯 Learning Objectives
+
+By the end of this session, you will:
+
+- [Add specific learning objectives]
+
+---
 **Part A of 2**
 
 Next: [06_OOD-Learning-Plan-PartB.md](06_OOD-Learning-Plan-PartB.md)

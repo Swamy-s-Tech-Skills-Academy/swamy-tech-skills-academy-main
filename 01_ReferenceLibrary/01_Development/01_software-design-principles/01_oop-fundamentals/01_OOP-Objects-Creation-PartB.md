@@ -1,13 +1,11 @@
 # 01_OOP-Objects-Creation-PartB
 
-**Learning Level**: Beginner to Intermediate  
-**Prerequisites**: [01_OOP-Objects-Creation-PartA.md](01_OOP-Objects-Creation-PartA.md)  
-**Estimated Time**: 27 minutes  
-**Series**: Part B2 of 4 - Advanced Objects Practice
-**Next**: [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
+**Learning Level**: Beginner → Intermediate
+**Prerequisites**: [01_OOP-Objects-Creation-PartA.md](01_OOP-Objects-Creation-PartA.md)
+**Estimated Time**: 27 minutes (focused learning session)
+**Series**: Part B of 2 - Objects Creation
 
 ---
-
 ## 🎯 Learning Objectives (27-Minute Session)
 
 By the end of this session, you will:
@@ -28,25 +26,25 @@ CLASS ProjectTeam:
     PRIVATE members: List<Employee>
     PRIVATE projectName: string
     PRIVATE budget: decimal
-    
+
     CONSTRUCTOR ProjectTeam(name: string, initialBudget: decimal):
         this.projectName = name
         this.budget = initialBudget
         this.members = NEW List<Employee>()
-    
+
     PUBLIC addMember(emp: Employee): boolean
         IF this.budget >= emp.calculateAnnualSalary():
             this.members.add(emp)
             this.budget -= emp.calculateAnnualSalary()
             RETURN true
         RETURN false
-    
+
     PUBLIC calculateTeamBudget(): decimal
         totalCost = 0
         FOR EACH member IN this.members:
             totalCost += member.calculateAnnualSalary()
         RETURN totalCost
-    
+
     PUBLIC getTeamSize(): integer
         RETURN this.members.size()
 ```
@@ -64,7 +62,7 @@ mike = NEW Employee("E003", "Mike Chen", "QA", 60000)
 
 // Add team members
 devTeam.addMember(john)     // Success: budget allows
-devTeam.addMember(sarah)    // Success: budget allows  
+devTeam.addMember(sarah)    // Success: budget allows
 devTeam.addMember(mike)     // Success: budget allows
 
 // Team operations
@@ -83,17 +81,17 @@ CLASS Employee:
     PRIVATE salary: decimal
     PRIVATE isActive: boolean
     PRIVATE projects: List<string>
-    
+
     PUBLIC assignToProject(projectName: string): void
         IF this.isActive:
             this.projects.add(projectName)
-    
+
     PUBLIC removeFromProject(projectName: string): void
         this.projects.remove(projectName)
-    
+
     PUBLIC getWorkload(): integer
         RETURN this.projects.size()
-    
+
     PUBLIC isOverloaded(): boolean
         RETURN this.getWorkload() > 3
 ```
@@ -107,8 +105,8 @@ CLASS EmployeeFactory:
         emp = NEW Employee(generateId(), name, "Engineering", salary)
         emp.assignSkill("Programming")
         RETURN emp
-    
-    PUBLIC STATIC createDesigner(name: string, salary: decimal): Employee  
+
+    PUBLIC STATIC createDesigner(name: string, salary: decimal): Employee
         emp = NEW Employee(generateId(), name, "Design", salary)
         emp.assignSkill("UI/UX")
         RETURN emp
@@ -125,22 +123,22 @@ designer1 = EmployeeFactory.createDesigner("Bob Wilson", 70000)
 CLASS Company:
     PRIVATE employees: List<Employee>
     PRIVATE teams: List<ProjectTeam>
-    
+
     PUBLIC hireEmployee(name: string, dept: string, salary: decimal): Employee
         newEmployee = NEW Employee(generateId(), name, dept, salary)
         this.employees.add(newEmployee)
         PRINT "Hired: " + newEmployee.getName()
         RETURN newEmployee
-    
+
     PUBLIC createTeam(name: string, budget: decimal): ProjectTeam
         team = NEW ProjectTeam(name, budget)
         this.teams.add(team)
         RETURN team
-    
+
     PUBLIC assignEmployeeToTeam(empId: string, teamName: string): boolean
         employee = findEmployeeById(empId)
         team = findTeamByName(teamName)
-        
+
         IF employee != NULL AND team != NULL:
             IF NOT employee.isOverloaded():
                 RETURN team.addMember(employee)
@@ -184,6 +182,5 @@ Ready for **Module 2: Encapsulation & Abstraction**:
 - **Next**: [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
 - **Series**: Classes & Objects Foundation (Part B2 of 4)
 
-**Last Updated**: September 10, 2025  
+**Last Updated**: September 10, 2025
 **Format**: 27-minute focused learning segment
-

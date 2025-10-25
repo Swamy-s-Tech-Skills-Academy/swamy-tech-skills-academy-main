@@ -1,11 +1,19 @@
 # 02_OOP-Encapsulation-Abstraction
 
-**Learning Level**: Beginner to Intermediate  
-**Prerequisites**: [01_OOP-Objects-Creation-PartB.md](01_OOP-Objects-Creation-PartB.md), basic programming concepts  
-**Estimated Time**: 27 minutes  
+**Learning Level**: Beginner → Intermediate
+**Prerequisites**: [01_OOP-Objects-Creation-PartB.md](01_OOP-Objects-Creation-PartB.md)
+**Estimated Time**: 27 minutes (focused learning session)
+**Series**: Core Pillars - Encapsulation & Abstraction
+
+---
 
 ## 🎯 Learning Objectives
 
+By the end of this session, you will:
+
+- [Add specific learning objectives]
+
+---
 By the end of this 27-minute session, you will:
 
 - Master encapsulation: data hiding and controlled access
@@ -37,10 +45,10 @@ graph LR
     A --> D["Public: deposit()"]
     A --> E["Public: withdraw()"]
     A --> F["Public: getBalance()"]
-    
+
     classDef privateData fill:#ffebee,stroke:#d32f2f,stroke-width:2px,color:#c62828
     classDef publicMethod fill:#e8f5e8,stroke:#4caf50,stroke-width:2px,color:#2e7d32
-    
+
     class B,C privateData
     class D,E,F publicMethod
 ```
@@ -52,20 +60,20 @@ CLASS BankAccount
     // 🔒 ENCAPSULATED DATA (Private)
     PRIVATE balance = 0
     PRIVATE accountNumber = ""
-    
+
     // 🌍 PUBLIC INTERFACE
     PUBLIC CONSTRUCTOR(accountNum, initialBalance)
         accountNumber = accountNum
         balance = initialBalance
     END
-    
+
     PUBLIC METHOD deposit(amount)
         IF amount > 0 THEN
             balance = balance + amount
             RETURN "Deposit successful"
         END IF
     END
-    
+
     PUBLIC METHOD getBalance()
         RETURN balance
     END
@@ -77,7 +85,7 @@ END CLASS
 ```text
 ACCESS LEVELS:
 🌍 PUBLIC     - Accessible everywhere
-🏠 PROTECTED  - Class + subclasses only  
+🏠 PROTECTED  - Class + subclasses only
 🔒 PRIVATE    - Same class only
 ```
 
@@ -96,16 +104,16 @@ CLASS EmailService
         CALL transmitEmail()
         RETURN "Email sent successfully"
     END
-    
+
     // 🔧 HIDDEN IMPLEMENTATION
     PRIVATE METHOD validateEmail(email)
         // Complex validation logic
     END
-    
+
     PRIVATE METHOD formatMessage(subject, message)
         // HTML formatting logic
     END
-    
+
     PRIVATE METHOD transmitEmail()
         // Network protocol handling
     END
@@ -126,7 +134,7 @@ CLASS Student
     PRIVATE studentId = ""
     PRIVATE grades = []
     PRIVATE gpa = 0.0
-    
+
     // 🌍 PUBLIC INTERFACE
     PUBLIC METHOD addGrade(subject, grade)
         IF grade >= 0 AND grade <= 100 THEN
@@ -135,11 +143,11 @@ CLASS Student
             RETURN "Grade added successfully"
         END IF
     END
-    
+
     PUBLIC METHOD getGPA()
         RETURN gpa
     END
-    
+
     // 🔧 HIDDEN COMPLEXITY
     PRIVATE METHOD calculateGPA()
         totalPoints = 0
@@ -195,6 +203,5 @@ END CLASS
 
 ---
 
-*Part 1B of 4-part OOP Fundamentals series*  
+*Part 1B of 4-part OOP Fundamentals series*
 *Next: [03_OOP-Inheritance-Polymorphism.md](./03_OOP-Inheritance-Polymorphism.md)*
-

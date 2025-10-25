@@ -1,13 +1,11 @@
 # 01_OOP-Objects-Creation-PartA
 
-**Learning Level**: Beginner  
-**Prerequisites**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)  
-**Estimated Time**: 15 minutes  
-**Series**: Part B1 of 4 - Objects Creation & Instantiation
-**Next**: [01_OOP-Objects-Creation-PartB.md](01_OOP-Objects-Creation-PartB.md)
+**Learning Level**: Beginner
+**Prerequisites**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)
+**Estimated Time**: 15 minutes (27-minute focused session)
+**Series**: Part A of 2 - Objects Creation
 
 ---
-
 ## 🎯 Learning Objectives (15-Minute Session)
 
 By the end of this session, you will:
@@ -38,22 +36,22 @@ classDiagram
         +withdraw(amount): void
         +getBalance(): decimal
     }
-    
+
     BankAccount --> johnAccount : creates
     BankAccount --> sarahAccount : creates
     BankAccount --> mikeAccount : creates
-    
+
     note for BankAccount "CLASS: Blueprint defining structure and behavior"
     note for johnAccount "OBJECT: Specific instance with actual data"
-    
+
     class johnAccount {
         accountNumber: "12345"
         balance: 1500.00
         ownerName: "John Smith"
     }
-    
+
     class sarahAccount {
-        accountNumber: "67890" 
+        accountNumber: "67890"
         balance: 2300.50
         ownerName: "Sarah Johnson"
     }
@@ -68,7 +66,7 @@ CLASS Employee:
     PRIVATE name: string
     PRIVATE department: string
     PRIVATE salary: decimal
-    
+
     CONSTRUCTOR Employee(id, name, dept, sal):
         this.employeeId = id
         this.name = name
@@ -141,6 +139,5 @@ IF employee1.salary > employee2.salary:
 - **Next**: [01_OOP-Objects-Creation-PartB.md](01_OOP-Objects-Creation-PartB.md)
 - **Series**: Classes & Objects Foundation (Part B1 of 4)
 
-**Last Updated**: September 10, 2025  
+**Last Updated**: September 10, 2025
 **Format**: 15-minute focused learning segment
-

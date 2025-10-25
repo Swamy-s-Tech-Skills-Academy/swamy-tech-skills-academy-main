@@ -1,11 +1,19 @@
-﻿# OOP Abstraction and Encapsulation - Part C
+# OOP Abstraction and Encapsulation - Part C
 
-**Learning Level**: Intermediate  
-**Prerequisites**: Basic OOP concepts, Classes and Objects  
-**Estimated Time**: 27 minutes
+**Learning Level**: Intermediate
+**Prerequisites**: [08_OOP-Abstraction-Encapsulation-PartB.md](08_OOP-Abstraction-Encapsulation-PartB.md)
+**Estimated Time**: 27 minutes (focused learning session)
+**Series**: Part C of 3 - Abstraction & Encapsulation
 
-## ðŸŽ¯ Learning Objectives
+---
 
+## 🎯 Learning Objectives
+
+By the end of this session, you will:
+
+- [Add specific learning objectives]
+
+---
 By the end of this 27-minute session, you will:
 
 - Understand the fundamental differences between abstraction and encapsulation
@@ -82,6 +90,7 @@ class Circle : IShape {
 ### **OOP Principles:**
 
 | Principle         | Definition                                                | C# Implementation                  | Example                            |
+
 | ----------------- | --------------------------------------------------------- | ---------------------------------- | ---------------------------------- |
 | **Encapsulation** | Hiding internal state and exposing controlled access.     | Access Modifiers, Properties       | `private`, `public`, `protected`   |
 | **Abstraction**   | Hiding implementation details and exposing functionality. | Abstract Classes, Interfaces       | `abstract`, `interface`            |

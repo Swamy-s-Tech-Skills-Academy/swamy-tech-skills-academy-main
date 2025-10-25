@@ -1,8 +1,17 @@
-﻿# Learning Object Oriented Design - Part B
+# Learning Object Oriented Design - Part B
 
-## Overview
+**Learning Level**: Intermediate
+**Prerequisites**: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
+**Estimated Time**: 27 minutes (planning session)
+**Series**: Part B of 2 - OOD Learning Plan
 
-This four-week plan will help you master OOD principles, understand design patterns, and practice implementing OOD concepts in C#. Each week has specific goals, topics, and exercises to build and test your understanding progressively.
+---
+
+## 🎯 Learning Objectives
+
+By the end of this session, you will:
+
+- [Add specific learning objectives]
 
 ---
 
@@ -23,7 +32,7 @@ Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
 
 3. **Reading and Resources:**
    - "Design Patterns: Elements of Reusable Object-Oriented Software" - the classic for learning the language of OOD.
-   - **C# Documentation on Polymorphism**: Microsoftâ€™s documentation to clarify polymorphic behavior in C#.
+   - **C# Documentation on Polymorphism**: Microsoft's documentation to clarify polymorphic behavior in C#.
 
 ---
 
@@ -130,8 +139,10 @@ Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
 
 - **Books:**
   - "Pro C# 9 with .NET Core" by Andrew Troelsen and Philip Japikse, which includes many practical examples.
+
 - **Courses:**
   - Pluralsight: **C# Design Patterns** and **SOLID Principles**.
+
   - LinkedIn Learning: **C# Object-Oriented Programming**.
 
 ---
@@ -142,6 +153,7 @@ Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
 | -------- | --------------------------------- | -------------------------------------------------------------- |
 | Week 1   | Core OOD Principles               | Encapsulation, Abstraction, Polymorphism, Inheritance          |
 | Week 2   | SOLID Principles in C#            | SRP, OCP, LSP, ISP, DIP                                        |
+
 | Week 3   | Design Patterns Essentials        | Factory, Singleton, Strategy, Observer                         |
 | Week 4   | Advanced Design Patterns          | DI, Decorator, Command, Chain of Responsibility                |
 | Week 5   | Applied OOD in Real-World Systems | Library Management System, To-Do List Application              |
