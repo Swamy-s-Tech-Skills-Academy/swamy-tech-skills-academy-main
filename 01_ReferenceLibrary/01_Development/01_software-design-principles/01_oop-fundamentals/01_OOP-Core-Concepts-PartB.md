@@ -6,6 +6,7 @@
 **Series**: Part B of 2 - Core OOP Concepts
 
 ---
+
 ## 🎯 Learning Objectives
 
 By the end of this 12-minute session, you will:

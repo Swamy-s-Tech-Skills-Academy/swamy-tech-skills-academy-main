@@ -52,7 +52,7 @@ Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
    - Design a **Notification System** where various notification types (e.g., SMS, Email, Push) follow the ISP and DIP.
 
 3. **Reading and Resources:**
-   - â€œClean Codeâ€ by Robert C. Martin for SOLID-focused examples.
+   - "Clean Code" by Robert C. Martin for SOLID-focused examples.
    - Pluralsight or LinkedIn Learning courses on **SOLID Principles in C#**.
 
 ---
@@ -73,7 +73,7 @@ Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
    - Use the **Observer Pattern** for a real-time notification system, where different modules are notified of changes (e.g., email, SMS, in-app).
 
 3. **Reading and Resources:**
-   - â€œHead First Design Patternsâ€ â€“ for a more engaging take on classic patterns.
+   - "Head First Design Patterns" - for a more engaging take on classic patterns.
    - Online videos/tutorials for C#-specific pattern implementations.
 
 ---
@@ -89,12 +89,12 @@ Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
 
 2. **Exercises in C#:**
 
-   - Implement a **DI container** using .NETâ€™s `IServiceCollection` for an MVC application.
+   - Implement a **DI container** using .NET's `IServiceCollection` for an MVC application.
    - Create a **Logger** using the **Decorator Pattern** that can add functionality like timestamping, file logging, and console logging dynamically.
    - Design a **Command Pattern** for a remote control system where each command (like `TurnOn`, `TurnOff`, `VolumeUp`, etc.) can be executed and undone.
 
 3. **Reading and Resources:**
-   - â€œDependency Injection in .NETâ€ by Mark Seemann.
+   - "Dependency Injection in .NET" by Mark Seemann.
    - Tutorials for implementing custom DI in .NET applications.
 
 ---
@@ -113,7 +113,7 @@ Previous: [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
 
 3. **Reading and Resources:**
    - Practicing by designing small systems like a **To-Do List application** or **Inventory Management System** to apply OOD principles.
-   - Explore Pluralsightâ€™s Object-Oriented Design Fundamentals course.
+   - Explore Pluralsight's Object-Oriented Design Fundamentals course.
 
 ---
 

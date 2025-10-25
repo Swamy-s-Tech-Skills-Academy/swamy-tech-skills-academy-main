@@ -14,6 +14,7 @@ By the end of this session, you will:
 - [Add specific learning objectives]
 
 ---
+
 ### **1. Class**
 
 - **Definition**: A blueprint for creating objects. It encapsulates fields and methods.

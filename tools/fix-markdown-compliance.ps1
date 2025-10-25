@@ -69,12 +69,12 @@ foreach ($file in $markdownFiles) {
     # Fix 5: Code block consistency (MD046) - prefer fenced over indented
     # This is complex and might need manual review, but we'll standardize basic patterns
     
-    # Fix 4: Remove trailing whitespace
+    # Fix 6: Remove trailing whitespace
     $lines = $content -split "`r`n"
     $lines = $lines | ForEach-Object { $_.TrimEnd() }
     $content = $lines -join "`r`n"
     
-    # Fix 5: Ensure file ends with single newline
+    # Fix 7: Ensure file ends with single newline
     $content = $content.TrimEnd() + "`r`n"
     
     # Check if changes were made

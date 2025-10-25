@@ -6,6 +6,7 @@
 **Series**: Part A of 2 - Objects Creation
 
 ---
+
 ## 🎯 Learning Objectives (15-Minute Session)
 
 By the end of this session, you will:
