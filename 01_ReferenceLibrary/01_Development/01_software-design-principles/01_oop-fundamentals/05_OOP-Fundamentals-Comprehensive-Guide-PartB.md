@@ -5,15 +5,19 @@
 **Series**: Part B of 2 - Comprehensive Guide
 ---
 
-## 🎯 Learning Objectives\n\nBy the end of this session, you will:
-  - [Add specific learning objectives]
+## 🎯 Learning Objectives\n\nBy the end of this session, you will
+
+- [Add specific learning objectives]
+
 ---
 By the end of this 27-minute session, you will:
-  - Understand the four pillars of Object-Oriented Programming and their practical applications
-  - Master class design, inheritance relationships, and polymorphism patterns
-  - Apply encapsulation and abstraction principles in real-world scenarios
-  - Make informed decisions between inheritance vs composition and abstract classes vs interfaces
-  - Identify and avoid common OOP anti-patterns in your code
+
+- Understand the four pillars of Object-Oriented Programming and their practical applications
+- Master class design, inheritance relationships, and polymorphism patterns
+- Apply encapsulation and abstraction principles in real-world scenarios
+- Make informed decisions between inheritance vs composition and abstract classes vs interfaces
+- Identify and avoid common OOP anti-patterns in your code
+
 ---
 
 ## Part B of 2\n\nPrevious: [05_OOP-Fundamentals-Comprehensive-Guide-PartA.md](05_OOP-Fundamentals-Comprehensive-Guide-PartA.md)
@@ -22,6 +26,7 @@ By the end of this 27-minute session, you will:
 ```csharp\ndef process_payment(self, amount):\n```csharp\n```csharp\n    print(f"Processing ${amount} via PayPal...")\n```csharp\n```csharp\n    # PayPal specific logic\n```csharp\n```csharp\n    return f"PayPal payment of ${amount} processed"\n```csharp\n## Polymorphic Usage\n\nprocessors = [CreditCardProcessor(), PayPalProcessor()]
 for processor in processors:
 ```csharp\nresult = processor.process_payment(100)  # Same method, different behavior\n```csharp\n```csharpprint(result)
+
 ```csharp
 ```python
 

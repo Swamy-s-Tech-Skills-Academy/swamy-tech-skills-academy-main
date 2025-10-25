@@ -5,23 +5,31 @@
 **Series**: Part A of 3 - Abstraction & Encapsulation
 ---
 
-## 🎯 Learning Objectives\n\nBy the end of this session, you will:
-  - [Add specific learning objectives]
+## 🎯 Learning Objectives\n\nBy the end of this session, you will
+
+- [Add specific learning objectives]
+
 ---
 By the end of this 27-minute session, you will:
-  - Understand the fundamental differences between abstraction and encapsulation
-  - Apply both principles effectively in object-oriented design
-  - Recognize when and how to use each principle for better code organization\n\n**Abstraction** and **Encapsulation** are two fundamental principles of Object-Oriented Programming (OOP), and while they are closely related, they serve different purposes. Here's a comparison:
+
+- Understand the fundamental differences between abstraction and encapsulation
+- Apply both principles effectively in object-oriented design
+- Recognize when and how to use each principle for better code organization\n\n**Abstraction** and **Encapsulation** are two fundamental principles of Object-Oriented Programming (OOP), and while they are closely related, they serve different purposes. Here's a comparison:
+
 ---
+
 ### Part A of 3
+
 Next: [08_OOP-Abstraction-Encapsulation-PartB.md](08_OOP-Abstraction-Encapsulation-PartB.md)
 ---
 
 ## **Abstraction**
+
 ### Definition
 
 \n\n\n\n- **Hiding implementation details** and exposing only the essential features of an object
-  - Focuses on **what an object does**, not **how it does it**.\n\n### Key Points
+
+- Focuses on **what an object does**, not **how it does it**.\n\n### Key Points
 
 \n\n\n\n1. **Purpose**: Simplify complex systems by showing only relevant data to the user.
 
@@ -34,17 +42,19 @@ abstract class Shape {
 ```csharp\npublic abstract double GetArea(); // Abstract method: must be implemented in derived classes\n```csharp\n}
 class Circle : Shape {
 ```csharp\nprivate double radius;\n```csharp\n```csharp\npublic Circle(double radius) {\n```csharp\n```csharp\n    this.radius = radius;\n```csharp\n    }
-```csharp\npublic override double GetArea() {\n```csharp\n```csharp\n    return Math.PI * radius * radius; // Implementation specific to Circle\n```csharp\n    }
+```csharp\npublic override double GetArea() {\n```csharp\n```csharp\n    return Math.PI *radius* radius; // Implementation specific to Circle\n```csharp\n    }
 }
 class Program {
 ```csharp\nstatic void Main() {\n```csharp\n```csharp\n    Shape shape = new Circle(5);\n```csharp\n```csharp\n    Console.WriteLine($"Area: {shape.GetArea()}"); // Only GetArea() is exposed\n```csharp\n    }
 }\n\n```csharp\n---
 
 ## **Encapsulation**
+
 ### Definition 2
 
 \n\n\n\n- **Restricting access** to certain components of an object and bundling data with methods that operate on it
-  - Focuses on **how data is protected** and controlled.\n\n### Key Points
+
+- Focuses on **how data is protected** and controlled.\n\n### Key Points
 
 \n\n\n\n1. **Purpose**: Safeguard object data and prevent unauthorized access or modification.
 
@@ -73,20 +83,22 @@ class Program {
 ### **In a Nutshell**
 
 \n\n\n\n- **Abstraction** is about **hiding the complexity** of implementation
-  - **Encapsulation** is about **hiding the object's data** and controlling access.\n\nBoth principles are complementary and often work together in designing robust and secure applications.
 
-Hereâ€™s a detailed explanation of **OOP in C#**, covering its core principles with examples and comparisons:
+- **Encapsulation** is about **hiding the object's data** and controlling access.\n\nBoth principles are complementary and often work together in designing robust and secure applications.
+
+Hereâ€™s a detailed explanation of **OOP in C#**, covering its core principles with examples and comparisons
 ---
 
-## **Object-Oriented Programming (OOP) in C#**\n\nOOP is a programming paradigm based on the concept of objects, which encapsulate data and behavior. C# is inherently an object-oriented language, and its design supports the following key principles:
+## **Object-Oriented Programming (OOP) in C#**\n\nOOP is a programming paradigm based on the concept of objects, which encapsulate data and behavior. C# is inherently an object-oriented language, and its design supports the following key principles
 
 ---
 
 ### **1. Class**
 
 \n\n\n\n- **Definition**: A blueprint for creating objects. It defines the structure and behavior (data members and methods) that the objects of the class will have
-  - **Key Points**:\n\n  - Contains fields, properties, methods, constructors, etc.
-  - Supports access modifiers like `public`, `private`, and `protected`.
+
+- **Key Points**:\n\n  - Contains fields, properties, methods, constructors, etc.
+- Supports access modifiers like `public`, `private`, and `protected`.
 
 ### **Example**
 

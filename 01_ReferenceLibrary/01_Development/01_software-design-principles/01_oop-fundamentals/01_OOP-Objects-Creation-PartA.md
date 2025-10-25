@@ -5,13 +5,16 @@
 **Series**: Part A of 2 - Objects Creation
 ---
 
-## 🎯 Learning Objectives (15-Minute Session)\n\nBy the end of this session, you will:
-  - Understand objects as instances of classes
-  - Master the object creation process
-  - See how multiple objects can exist independently
+## 🎯 Learning Objectives (15-Minute Session)\n\nBy the end of this session, you will
+
+- Understand objects as instances of classes
+- Master the object creation process
+- See how multiple objects can exist independently
+
 ---
 
 ## 🏭 Creating Objects from Classes (15 minutes)
+
 ### **1. Objects: The Real Thing**
 
 \n\n\n\n**Definition**: An object is an **instance** of a class - the actual "thing" created from the blueprint

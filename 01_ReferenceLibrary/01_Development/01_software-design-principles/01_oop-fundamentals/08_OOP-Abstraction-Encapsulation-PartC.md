@@ -5,22 +5,29 @@
 **Series**: Part C of 3 - Abstraction & Encapsulation
 ---
 
-## 🎯 Learning Objectives\n\nBy the end of this session, you will:
-  - [Add specific learning objectives]
+## 🎯 Learning Objectives\n\nBy the end of this session, you will
+
+- [Add specific learning objectives]
+
 ---
 By the end of this 27-minute session, you will:
-  - Understand the fundamental differences between abstraction and encapsulation
-  - Apply both principles effectively in object-oriented design
-  - Recognize when and how to use each principle for better code organization\n\n**Abstraction** and **Encapsulation** are two fundamental principles of Object-Oriented Programming (OOP), and while they are closely related, they serve different purposes. Here's a comparison:
+
+- Understand the fundamental differences between abstraction and encapsulation
+- Apply both principles effectively in object-oriented design
+- Recognize when and how to use each principle for better code organization\n\n**Abstraction** and **Encapsulation** are two fundamental principles of Object-Oriented Programming (OOP), and while they are closely related, they serve different purposes. Here's a comparison:
+
 ---
+
 ### Part C of 3
+
 Previous: [08_OOP-Abstraction-Encapsulation-PartB.md](08_OOP-Abstraction-Encapsulation-PartB.md)
 ---
 
 ### **8. Dependency**
 
 \n\n\n\n- **Definition**: When one class relies on another to perform its operations
-  - **Key Points**:\n\n  - Promotes loose coupling with dependency injection.\n\n### **Example**
+
+- **Key Points**:\n\n  - Promotes loose coupling with dependency injection.\n\n### **Example**
 
 \n\n\n\n```csharp
 class Service {
@@ -34,9 +41,11 @@ class Client {
 ### **9. Realization**
 
 \n\n\n\n- **Definition**: A class implements the behavior defined by an interface
-  - **Purpose**: Provides a contract that a class must adhere to.\n\n### **Example**
+
+- **Purpose**: Provides a contract that a class must adhere to.\n\n### **Example**
 
 \n\n
+
 ```csharp\n\ninterface IShape {
 ```csharp\ndouble GetArea();\n```csharp\n}
 class Circle : IShape {

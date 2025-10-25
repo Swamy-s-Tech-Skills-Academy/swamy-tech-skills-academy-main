@@ -5,17 +5,22 @@
 **Series**: Core Pillars - Encapsulation & Abstraction
 ---
 
-## 🎯 Learning Objectives\n\nBy the end of this session, you will:
-  - [Add specific learning objectives]
+## 🎯 Learning Objectives\n\nBy the end of this session, you will
+
+- [Add specific learning objectives]
+
 ---
 By the end of this 27-minute session, you will:
-  - Master encapsulation: data hiding and controlled access
-  - Understand abstraction: simplifying complex systems
-  - Implement access modifiers (private, public, protected)
-  - Design classes with proper data security and interface clarity
+
+- Master encapsulation: data hiding and controlled access
+- Understand abstraction: simplifying complex systems
+- Implement access modifiers (private, public, protected)
+- Design classes with proper data security and interface clarity
+
 ---
 
 ## 📋 Content Sections (27-Minute Structure)
+
 ### Quick Review (2 minutes)
 
 \n\n\n\n**Previous Learning**: Classes as blueprints, objects as instances
@@ -29,6 +34,7 @@ By the end of this 27-minute session, you will:
 
 \n\n\n\n**Definition**: Bundling data and methods together while controlling access to internal details
 **Real-World Analogy**: A bank vault protects money (data) and only allows authorized access through specific procedures (methods).
+
 ```mermaid
 graph LR
 ```csharp\nA["🏦 Bank Account"] --> B["Private: balance"]\n```csharp\n```csharp\nA --> C["Private: accountNumber"]\n```csharp\n```csharp\nA --> D["Public: deposit()"]\n```csharp\n```csharp\nA --> E["Public: withdraw()"]\n```csharp\n```csharp\nA --> F["Public: getBalance()"]\n```csharp\n```csharp\nclassDef privateData fill:#ffebee,stroke:#d32f2f,stroke-width:2px,color:#c62828\n```csharp\n```csharp\nclassDef publicMethod fill:#e8f5e8,stroke:#4caf50,stroke-width:2px,color:#2e7d32\n```csharp\n```csharp\nclass B,C privateData\n```csharp\n```csharpclass D,E,F publicMethod

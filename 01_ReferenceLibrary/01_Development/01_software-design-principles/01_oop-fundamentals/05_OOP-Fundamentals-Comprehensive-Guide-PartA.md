@@ -5,15 +5,19 @@
 **Series**: Part A of 2 - Comprehensive Guide
 ---
 
-## 🎯 Learning Objectives\n\nBy the end of this session, you will:
-  - [Add specific learning objectives]
+## 🎯 Learning Objectives\n\nBy the end of this session, you will
+
+- [Add specific learning objectives]
+
 ---
 By the end of this 27-minute session, you will:
-  - Understand the four pillars of Object-Oriented Programming and their practical applications
-  - Master class design, inheritance relationships, and polymorphism patterns
-  - Apply encapsulation and abstraction principles in real-world scenarios
-  - Make informed decisions between inheritance vs composition and abstract classes vs interfaces
-  - Identify and avoid common OOP anti-patterns in your code
+
+- Understand the four pillars of Object-Oriented Programming and their practical applications
+- Master class design, inheritance relationships, and polymorphism patterns
+- Apply encapsulation and abstraction principles in real-world scenarios
+- Make informed decisions between inheritance vs composition and abstract classes vs interfaces
+- Identify and avoid common OOP anti-patterns in your code
+
 ---
 
 ## Part A of 2\n\nNext: [05_OOP-Fundamentals-Comprehensive-Guide-PartB.md](05_OOP-Fundamentals-Comprehensive-Guide-PartB.md)
@@ -21,6 +25,7 @@ By the end of this 27-minute session, you will:
 ---
 
 ## 📋 Session Structure (27-Minute Format)
+
 ### Quick Overview (5 minutes)
 
 \n\n
@@ -38,12 +43,14 @@ By the end of this 27-minute session, you will:
 \n\n\n\n---
 
 ## 🚀 Quick Overview (5 minutes)\n\nObject-Oriented Programming (OOP) is a programming paradigm that organizes code around **objects** rather than actions and data rather than logic. Since its introduction in the 1960s with Simula, OOP has become the foundation of modern software development
+
 ### Why OOP Matters for Lead Architects
 
 \n\n\n\nAs a Lead Architect, understanding OOP isn't just about writing code—it's about designing systems that can evolve, scale, and maintain quality at enterprise levels. The four pillars of OOP provide the architectural foundation for building maintainable, extensible software systems
 ---
 
 ## 🏗️ Core Concepts (15 minutes)
+
 ### The Four Pillars of OOP
 
 \n\n\n\nOOP is built on four fundamental principles that work together to create robust, maintainable code:
@@ -53,6 +60,7 @@ By the end of this 27-minute session, you will:
 \n\n\n\n**Definition**: Encapsulation bundles data and methods that operate on that data within a single unit (class), while controlling access to that data through well-defined interfaces
 **Why it matters**: Prevents external code from directly manipulating an object's internal state, reducing bugs and making code more maintainable.
 **Real-World Example**: A bank account class encapsulates the balance and provides controlled access through deposit() and withdraw() methods.
+
 ```python
 class BankAccount:
 ```csharp\ndef __init__(self, initial_balance=0):\n```csharp\n```csharp\n    self.__balance = initial_balance  # Private attribute\n```csharp\n```csharp\ndef deposit(self, amount):\n```csharp\n```csharp\n    if amount > 0:\n```csharp\n```csharp\n        self.__balance += amount\n```csharp\n```csharp\n        return True\n```csharp\n```csharp\n    return False\n```csharp\n```csharp\ndef withdraw(self, amount):\n```csharp\n```csharp\n    if 0 < amount <= self.__balance:\n```csharp\n```csharp\n        self.__balance -= amount\n```csharp\n```csharp\n        return True\n```csharp\n```csharp\n    return False\n```csharp\n```csharp\ndef get_balance(self):\n```csharp\n```csharp\n    return self.__balance\n```csharp\n## Usage - external code can't directly modify balance\n\naccount = BankAccount(1000)

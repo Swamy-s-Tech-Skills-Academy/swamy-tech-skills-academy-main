@@ -6,13 +6,16 @@
 **Next**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)
 ---
 
-## 🎯 Learning Objectives\n\nBy the end of this 15-minute session, you will:
-  - Understand what Object-Oriented Programming is
-  - Recognize the problems OOP solves
-  - See the fundamental OOP solution approach
+## 🎯 Learning Objectives\n\nBy the end of this 15-minute session, you will
+
+- Understand what Object-Oriented Programming is
+- Recognize the problems OOP solves
+- See the fundamental OOP solution approach
+
 ---
 
 ## 📋 Content Sections (15-Minute Structure)
+
 ### Quick Overview (3 minutes)
 
 \n\n\n\n**Object-Oriented Programming**: A programming paradigm that organizes code around objects and classes, enabling better code organization, reusability, and maintainability
@@ -32,6 +35,7 @@
 │ - Scattered     │    │ - Scattered     │    │ - Scattered     │
 │   logic         │    │   validation    │    │   formatting    │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
+
 ```csharp**Problems with Procedural Code**:
   - **Code duplication**: Same logic repeated everywhere
   - **Tight coupling**: Functions depend on global state

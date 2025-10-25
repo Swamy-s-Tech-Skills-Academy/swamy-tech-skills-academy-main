@@ -5,18 +5,22 @@
 **Series**: Part B of 3 - OOD Basics
 ---
 
-## 🎯 Learning Objectives\n\nBy the end of this session, you will:
-  - [Add specific learning objectives]
+## 🎯 Learning Objectives\n\nBy the end of this session, you will
+
+- [Add specific learning objectives]
+
 ---
 
 ### **1. Class**
 
 \n\n\n\n- **Definition**: A blueprint for creating objects. It encapsulates fields and methods
-  - **C# Example**:\n\n  ```csharp
+
+- **C# Example**:\n\n  ```csharp
 
   public class Car
   {
 ```csharp\n  public string Make { get; set; }\n```csharp\n```csharp\n  public string Model { get; set; }\n```csharp\n```csharp\n  public void Drive()\n```csharp\n```csharp\n  {\n```csharp\n```csharp\n      Console.WriteLine("Driving the car...");\n```csharp\n```csharp\n  }\n```csharp\n  }
+
   ```csharp\n- **Class Diagram**: [Class Diagram for Car](https://www.plantuml.com/plantuml/uml/SoWkIImgAStDuU9BoIhEIImk5D0e5L9Bo2vEpK_oiy9Ep4DiIW_8p4L9Q0dCJ4HMLtLKXL93qD__cCIFPMEx9bUsKc1FpjIFpmIQZJYIMZ3LtA4ZDA3n0000)
 ---
 ### Part B of 3

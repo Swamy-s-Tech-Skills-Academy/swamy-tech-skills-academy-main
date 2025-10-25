@@ -5,14 +5,17 @@
 **Series**: Part B of 2 - Objects Creation
 ---
 
-## 🎯 Learning Objectives (27-Minute Session)\n\nBy the end of this session, you will:
-  - Implement complex object interactions
-  - Understand object lifecycle management
-  - Master advanced real-world object scenarios
-  - Apply enterprise-level object design patterns
+## 🎯 Learning Objectives (27-Minute Session)\n\nBy the end of this session, you will
+
+- Implement complex object interactions
+- Understand object lifecycle management
+- Master advanced real-world object scenarios
+- Apply enterprise-level object design patterns
+
 ---
 
 ## 🏗️ Advanced Object Operations (25 minutes)
+
 ### **1. Complex Object Interactions**
 
 \n\n\n\n```pseudocode

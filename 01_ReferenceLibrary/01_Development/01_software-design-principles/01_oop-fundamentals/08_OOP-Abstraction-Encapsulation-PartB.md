@@ -5,27 +5,36 @@
 **Series**: Part B of 3 - Abstraction & Encapsulation
 ---
 
-## 🎯 Learning Objectives\n\nBy the end of this session, you will:
-  - [Add specific learning objectives]
+## 🎯 Learning Objectives\n\nBy the end of this session, you will
+
+- [Add specific learning objectives]
+
 ---
 By the end of this 27-minute session, you will:
-  - Understand the fundamental differences between abstraction and encapsulation
-  - Apply both principles effectively in object-oriented design
-  - Recognize when and how to use each principle for better code organization\n\n**Abstraction** and **Encapsulation** are two fundamental principles of Object-Oriented Programming (OOP), and while they are closely related, they serve different purposes. Here's a comparison:
+
+- Understand the fundamental differences between abstraction and encapsulation
+- Apply both principles effectively in object-oriented design
+- Recognize when and how to use each principle for better code organization\n\n**Abstraction** and **Encapsulation** are two fundamental principles of Object-Oriented Programming (OOP), and while they are closely related, they serve different purposes. Here's a comparison:
+
 ---
+
 ### Part B of 3
+
 Previous: [08_OOP-Abstraction-Encapsulation-PartA.md](08_OOP-Abstraction-Encapsulation-PartA.md)
 Next: [08_OOP-Abstraction-Encapsulation-PartC.md](08_OOP-Abstraction-Encapsulation-PartC.md)
 ---
+
     }
 }\n\n```csharp---
 
 ### **2. Generalization**
 
 \n\n\n\n- **Definition**: The process of extracting shared characteristics from two or more classes to create a generalized parent class
-  - **Purpose**: Helps in code reuse and abstraction.\n\n### **Example**
+
+- **Purpose**: Helps in code reuse and abstraction.\n\n### **Example**
 
 \n\n
+
 ```csharp\n\nclass Vehicle {
 ```csharp\npublic string Make { get; set; }\n```csharp\n```csharp\npublic string Model { get; set; }\n```csharp\n```csharp\npublic void Start() {\n```csharp\n```csharp\n    Console.WriteLine("Vehicle started.");\n```csharp\n    }
 }

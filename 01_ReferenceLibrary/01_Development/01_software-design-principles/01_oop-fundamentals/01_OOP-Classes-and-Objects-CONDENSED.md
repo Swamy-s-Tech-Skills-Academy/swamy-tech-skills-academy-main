@@ -5,17 +5,22 @@
 **Series**: Condensed Overview
 ---
 
-## 🎯 Learning Objectives\n\nBy the end of this session, you will:
-  - [Add specific learning objectives]
+## 🎯 Learning Objectives\n\nBy the end of this session, you will
+
+- [Add specific learning objectives]
+
 ---
 By the end of this session, you will:
-  - Understand the difference between classes and objects
-  - Master class definition and object instantiation concepts
-  - Apply real-world modeling with classes and objects
-  - Use pseudocode to design object-oriented solutions
+
+- Understand the difference between classes and objects
+- Master class definition and object instantiation concepts
+- Apply real-world modeling with classes and objects
+- Use pseudocode to design object-oriented solutions
+
 ---
 
 ## 📋 Quick Overview (5 minutes)\n\n**Object-Oriented Programming**: A programming paradigm that organizes code around objects and classes, enabling better code organization, reusability, and maintainability
+
 ### **The Core Problem**
 
 \n\n\n\n```text
@@ -27,6 +32,7 @@ By the end of this session, you will:
 │ - Scattered     │    │ - Scattered     │    │ - Scattered     │
 │   logic         │    │   validation    │    │   formatting    │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
+
 ```csharp**Problems**: Code duplication, tight coupling, difficult maintenance, testing challenges.
 
 ### **The OOP Solution**

@@ -5,14 +5,17 @@
 **Series**: Core Pillars - Inheritance & Polymorphism
 ---
 
-## 🎯 Learning Objectives\n\nBy the end of this session, you will:
-  - [Add specific learning objectives]
+## 🎯 Learning Objectives\n\nBy the end of this session, you will
+
+- [Add specific learning objectives]
+
 ---
 By the end of this session, you will:
-  - Master inheritance for code reuse through parent-child relationships
-  - Understand polymorphism for flexible behavior implementation
-  - Implement method overriding and interface contracts
-  - Design maintainable class hierarchies\n\n## 📋 Content Sections (27-Minute Structure)\n\n### Quick Review (5 minutes)
+
+- Master inheritance for code reuse through parent-child relationships
+- Understand polymorphism for flexible behavior implementation
+- Implement method overriding and interface contracts
+- Design maintainable class hierarchies\n\n## 📋 Content Sections (27-Minute Structure)\n\n### Quick Review (5 minutes)
 
 \n\n\n\n**Previous Concepts**: Classes, objects, encapsulation, abstraction
 **Today's Focus**: Code reuse (inheritance) and flexible behavior (polymorphism)
@@ -24,6 +27,7 @@ By the end of this session, you will:
 ### **Inheritance: Code Reuse Architecture**
 
 \n\n\n\n**Definition**: Child classes inherit properties/methods from parent classes while adding specialization
+
 ```text
 📊 Inheritance Hierarchy
 ========================

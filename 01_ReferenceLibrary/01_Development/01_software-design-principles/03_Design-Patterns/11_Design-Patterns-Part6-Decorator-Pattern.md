@@ -90,16 +90,19 @@ This pattern is covered in a comprehensive multi-part series that builds from ba
 ## 💡 Key Characteristics
 
 ### **Composition over Inheritance**
+
 - Uses composition to wrap objects
 - Maintains same interface as wrapped object
 - Allows runtime behavior modification
 
 ### **Stackable Functionality**
+
 - Multiple decorators can be chained
 - Each decorator adds its own behavior
 - Order of decoration matters
 
 ### **Transparency**
+
 - Clients use decorated objects like original objects
 - Decoration is invisible to client code
 - Enables seamless integration
@@ -147,11 +150,13 @@ After completing the Decorator pattern series, you will:
 ## 📅 Study Plan
 
 **Phase 1: Foundation (Week 1)**
+
 - Day 1-2: Part A (Fundamentals)
 - Day 3-4: Practice with simple decorators
 - Day 5: Compare with inheritance approach
 
 **Phase 2: Advanced Applications (Week 2)**
+
 - Day 1-2: HTTP Pipeline decorators
 - Day 3-4: UI component decoration
 - Day 5: Enterprise integration patterns

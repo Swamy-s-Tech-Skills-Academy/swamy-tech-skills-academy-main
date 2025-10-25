@@ -5,13 +5,16 @@
 **Series**: Part B of 2 - Core OOP Concepts
 ---
 
-## 🎯 Learning Objectives\n\nBy the end of this 12-minute session, you will:
-  - Master the concept of classes as blueprints
-  - Understand class structure and components
-  - Apply real-world analogies to class concepts
+## 🎯 Learning Objectives\n\nBy the end of this 12-minute session, you will
+
+- Master the concept of classes as blueprints
+- Understand class structure and components
+- Apply real-world analogies to class concepts
+
 ---
 
 ## 📋 Content Sections (12-Minute Structure)
+
 ### Quick Overview (2 minutes)
 
 \n\n\n\n**Class Definition**: A class is a blueprint or template that defines the structure and behavior of objects
@@ -24,6 +27,7 @@
 ### **1. Class Components**
 
 \n\n\n\n**Every class has two main parts**:
+
 ```text
 CLASS STRUCTURE
 ┌─────────────────────┐
