@@ -1,5 +1,18 @@
 # 🏗️ SOLID Principles Deep Dive - Part C
 
+**Learning Level**: Advanced
+**Prerequisites**: Deep-Dive Parts A-B, inheritance concepts
+**Estimated Time**: 27 minutes
+
+## 🎯 Learning Objectives
+
+By the end of this 27-minute session, you will:
+
+- Master Liskov Substitution Principle in complex inheritance hierarchies
+- Design robust behavioral contracts and invariants
+- Identify and resolve subtle LSP violations
+- Apply LSP in generic programming and interface design
+
 Advanced OOP Design Principles with C# Implementation
 
 > 📖 **12-minute deep dive** | 🎯 **Focus**: SOLID principles mastery | 🏗️ **Advanced**: Beyond basic OOP concepts

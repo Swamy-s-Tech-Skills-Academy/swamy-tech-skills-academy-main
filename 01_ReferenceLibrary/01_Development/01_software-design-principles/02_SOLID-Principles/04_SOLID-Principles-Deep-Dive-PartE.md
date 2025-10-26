@@ -1,5 +1,18 @@
 # 🏗️ SOLID Principles Deep Dive - Part E
 
+**Learning Level**: Advanced
+**Prerequisites**: Deep-Dive Parts A-D, dependency injection knowledge
+**Estimated Time**: 27 minutes
+
+## 🎯 Learning Objectives
+
+By the end of this 27-minute session, you will:
+
+- Master advanced Dependency Inversion and IoC patterns
+- Design flexible, testable architectures with proper abstractions
+- Implement sophisticated dependency injection scenarios
+- Apply DIP in enterprise and distributed system architectures
+
 Advanced OOP Design Principles with C# Implementation
 
 > 📖 **12-minute deep dive** | 🎯 **Focus**: SOLID principles mastery | 🏗️ **Advanced**: Beyond basic OOP concepts

@@ -1,5 +1,18 @@
 # 🏗️ SOLID Principles Deep Dive - Part B
 
+**Learning Level**: Advanced
+**Prerequisites**: Deep-Dive Part A, Strategy Pattern knowledge
+**Estimated Time**: 27 minutes
+
+## 🎯 Learning Objectives
+
+By the end of this 27-minute session, you will:
+
+- Implement advanced Open/Closed Principle patterns
+- Design extensible architectures using strategy and factory patterns
+- Handle complex extension scenarios without modifying existing code
+- Apply OCP in microservices and plugin architectures
+
 Advanced OOP Design Principles with C# Implementation
 
 > 📖 **12-minute deep dive** | 🎯 **Focus**: SOLID principles mastery | 🏗️ **Advanced**: Beyond basic OOP concepts

@@ -1,5 +1,18 @@
 # 🏗️ SOLID Principles Deep Dive - Part D
 
+**Learning Level**: Advanced
+**Prerequisites**: Deep-Dive Parts A-C, interface design experience
+**Estimated Time**: 27 minutes
+
+## 🎯 Learning Objectives
+
+By the end of this 27-minute session, you will:
+
+- Implement sophisticated Interface Segregation strategies
+- Design cohesive, focused interfaces for complex systems
+- Apply ISP in API design and microservices communication
+- Balance interface granularity with practical maintainability
+
 Advanced OOP Design Principles with C# Implementation
 
 > 📖 **12-minute deep dive** | 🎯 **Focus**: SOLID principles mastery | 🏗️ **Advanced**: Beyond basic OOP concepts

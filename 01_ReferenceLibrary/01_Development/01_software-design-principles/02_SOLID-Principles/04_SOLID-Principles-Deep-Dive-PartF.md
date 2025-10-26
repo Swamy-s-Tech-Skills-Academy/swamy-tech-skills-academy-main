@@ -1,5 +1,18 @@
 # 🏗️ SOLID Principles Deep Dive - Part F
 
+**Learning Level**: Advanced
+**Prerequisites**: Complete Deep-Dive series (Parts A-E)
+**Estimated Time**: 27 minutes
+
+## 🎯 Learning Objectives
+
+By the end of this 27-minute session, you will:
+
+- Synthesize all SOLID principles in comprehensive system design
+- Apply SOLID principles to legacy code modernization
+- Balance competing principles and make architectural trade-offs
+- Lead SOLID-based code reviews and team mentoring
+
 Advanced OOP Design Principles with C# Implementation
 
 > 📖 **12-minute deep dive** | 🎯 **Focus**: SOLID principles mastery | 🏗️ **Advanced**: Beyond basic OOP concepts
