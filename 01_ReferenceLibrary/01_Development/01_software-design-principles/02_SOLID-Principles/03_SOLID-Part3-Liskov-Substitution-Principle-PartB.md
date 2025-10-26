@@ -1,8 +1,8 @@
 # 03_SOLID-Part3-Liskov-Substitution-Principle - Part B
 
-**Learning Level**: Advanced  
-**Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2)  
-**Estimated Time**: 30 minutes  
+**Learning Level**: Advanced 
+**Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2) 
+**Estimated Time**: 30 minutes 
 
 ## 🎯 Learning Objectives
 
@@ -28,16 +28,15 @@ public class Square : IFixedRatioShape
     {
         Side = side;
     }
-    
+
     public double GetArea() => Side * Side;
     public double GetPerimeter() => 4 * Side;
-    
+
     public void Scale(double factor)
     {
         Side *= factor;
     }
 }
-
 
     ##### Solution 2: Immutable Design
 csharp
@@ -53,21 +52,21 @@ public class ImmutableRectangle : ImmutableShape
 {
     public double Width { get; }
     public double Height { get; }
-    
+
     public ImmutableRectangle(double width, double height)
     {
         Width = width;
         Height = height;
     }
-    
+
     public override double GetArea() => Width * Height;
     public override double GetPerimeter() => 2 * (Width + Height);
-    
+
     public override ImmutableShape WithScale(double factor)
     {
         return new ImmutableRectangle(Width * factor, Height * factor);
     }
-    
+
     public ImmutableRectangle WithDimensions(double width, double height)
     {
         return new ImmutableRectangle(width, height);
@@ -77,15 +76,15 @@ public class ImmutableRectangle : ImmutableShape
 public class ImmutableSquare : ImmutableShape
 {
     public double Side { get; }
-    
+
     public ImmutableSquare(double side)
     {
         Side = side;
     }
-    
+
     public override double GetArea() => Side * Side;
     public override double GetPerimeter() => 4 * Side;
-    
+
     public override ImmutableShape WithScale(double factor)
     {
         return new ImmutableSquare(Side * factor);
@@ -110,12 +109,12 @@ public class LocalFileStorage : FileStorage
     {
         await File.WriteAllBytesAsync(path, data);
     }
-    
+
     public override async Task`byte[]` ReadAsync(string path)
     {
         return await File.ReadAllBytesAsync(path);
     }
-    
+
     public override async Task DeleteAsync(string path)
     {
         File.Delete(path);
@@ -129,13 +128,13 @@ public class ReadOnlyFileStorage : FileStorage
         // LSP Violation: Strengthens precondition
         throw new NotSupportedException("Storage is read-only"); // ← Breaks contract!
     }
-    
+
     public override Task DeleteAsync(string path)
     {
-        // LSP Violation: Strengthens precondition  
+        // LSP Violation: Strengthens precondition 
         throw new NotSupportedException("Storage is read-only"); // ← Breaks contract!
     }
-    
+
     public override async Task`byte[]` ReadAsync(string path)
     {
         return await File.ReadAllBytesAsync(path);

@@ -1,8 +1,8 @@
 # 05_SOLID-Part5-Dependency-Inversion-Principle - Part A
 
-**Learning Level**: Advanced  
-**Prerequisites**: Interface Segregation Principle (Part 4), Dependency injection concepts  
-**Estimated Time**: 30 minutes  
+**Learning Level**: Advanced 
+**Prerequisites**: Interface Segregation Principle (Part 4), Dependency injection concepts 
+**Estimated Time**: 30 minutes 
 
 ## 🎯 Learning Objectives
 
@@ -34,7 +34,7 @@ Next: [05_SOLID-Part5-Dependency-Inversion-Principle-PartB.md](05_SOLID-Part5-De
 │     OrderService (High-Level)   │
 ├─────────────────────────────────┤
 │ - SqlOrderRepository            │ ← Concrete dependency
-│ - SmtpEmailService              │ ← Concrete dependency  
+│ - SmtpEmailService              │ ← Concrete dependency 
 │ - FileLogger                    │ ← Concrete dependency
 └─────────────────────────────────┘
           ↓ (depends on)
@@ -87,7 +87,7 @@ public class OrderService // High-level business logic
     private readonly SqlOrderRepository _orderRepository; // Low-level data access
     private readonly SmtpEmailService _emailService;     // Low-level infrastructure
     private readonly FileLogger _logger;                 // Low-level logging
-    
+
     public OrderService()
     {
         // Hard-coded dependencies - violates DIP
@@ -95,19 +95,19 @@ public class OrderService // High-level business logic
         _emailService = new SmtpEmailService("smtp.company.com");
         _logger = new FileLogger("orders.log");
     }
-    
+
     public async Task ProcessOrderAsync(Order order)
     {
         try
         {
             // Business logic mixed with infrastructure concerns
             _logger.Log($"Processing order {order.Id}");
-            
+
             await _orderRepository.SaveAsync(order);
-            
+
             var emailBody = $"Order {order.Id} confirmed";
             await _emailService.SendAsync(order.CustomerEmail, "Order Confirmation", emailBody);
-            
+
             _logger.Log($"Order {order.Id} processed successfully");
         }
         catch (Exception ex)
@@ -155,7 +155,7 @@ public class OrderService
     private readonly IOrderRepository _orderRepository;
     private readonly IEmailService _emailService;
     private readonly ILogger _logger;
-    
+
     // Dependencies injected from outside (Dependency Injection)
     public OrderService(
         IOrderRepository orderRepository,
@@ -166,7 +166,7 @@ public class OrderService
         _emailService = emailService ?? throw new ArgumentNullException(nameof(emailService));
         _logger = logger ?? throw new ArgumentNullException(nameof(logger));
     }
-    
+
     public async Task`ProcessResult` ProcessOrderAsync(Order order)
     {
         try

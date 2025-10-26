@@ -1,8 +1,8 @@
 # 05_SOLID-Part5-Dependency-Inversion-Principle - Part D
 
-**Learning Level**: Advanced  
-**Prerequisites**: Interface Segregation Principle (Part 4), Dependency injection concepts  
-**Estimated Time**: 30 minutes  
+**Learning Level**: Advanced 
+**Prerequisites**: Interface Segregation Principle (Part 4), Dependency injection concepts 
+**Estimated Time**: 30 minutes 
 
 ## 🎯 Learning Objectives
 
@@ -18,26 +18,26 @@ Previous: [05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md](05_SOLID-Part
 
     private readonly IEnumerable`IPaymentProcessor` _processors;
     private readonly ILogger _logger;
-    
+
     public PaymentService(IEnumerable`IPaymentProcessor` processors, ILogger logger)
     {
         _processors = processors;
         _logger = logger;
     }
-    
+
     public async Task`PaymentResult` ProcessPaymentAsync(PaymentRequest request)
     {
         var processor = _processors.FirstOrDefault(p => p.CanProcess(request.PaymentType));
-        
+
         if (processor == null)
         {
             var error = $"No processor found for payment type: {request.PaymentType}";
             _logger.LogError(error);
             return PaymentResult.Failed(error);
         }
-        
+
         _logger.Log($"Processing {request.PaymentType} payment for ${request.Amount}");
-        
+
         try
         {
             return await processor.ProcessAsync(request);
@@ -59,12 +59,12 @@ public class CreditCardProcessor : IPaymentProcessor
     {
         _gateway = gateway;
     }
-    
+
     public bool CanProcess(PaymentType paymentType)
     {
         return paymentType == PaymentType.CreditCard;
     }
-    
+
     public async Task`PaymentResult` ProcessAsync(PaymentRequest request)
     {
         var result = await _gateway.ChargeCardAsync(request.CardNumber, request.Amount);
@@ -84,12 +84,12 @@ public class PayPalProcessor : IPaymentProcessor
     {
         _payPalApi = payPalApi;
     }
-    
+
     public bool CanProcess(PaymentType paymentType)
     {
         return paymentType == PaymentType.PayPal;
     }
-    
+
     public async Task`PaymentResult` ProcessAsync(PaymentRequest request)
     {
         var result = await _payPalApi.ProcessPaymentAsync(request.PayPalToken, request.Amount);
@@ -100,7 +100,6 @@ public class PayPalProcessor : IPaymentProcessor
         };
     }
 }
-
 
     #### Testing with DIP
 csharp
@@ -114,7 +113,7 @@ public class OrderServiceTests
         var mockRepository = new Mock`IOrderRepository`();
         var mockEmailService = new Mock`IEmailService`();
         var mockLogger = new Mock`ILogger`();
-        
+
         var order = new Order
         {
             Id = 1,
@@ -122,15 +121,15 @@ public class OrderServiceTests
             Total = 100.00m,
             Items = new List`OrderItem` { new OrderItem { ProductId = 1, Quantity = 1, Price = 100.00m } }
         };
-        
+
         var orderService = new OrderService(mockRepository.Object, mockEmailService.Object, mockLogger.Object);
-        
+
         // Act
         var result = await orderService.ProcessOrderAsync(order);
-        
+
         // Assert
         Assert.True(result.IsSuccess);
-        
+
         // Verify interactions with dependencies
         mockRepository.Verify(r => r.SaveAsync(It.IsAny`Order`()), Times.Once);
         mockEmailService.Verify(e => e.SendTemplatedAsync(
@@ -139,7 +138,7 @@ public class OrderServiceTests
             It.IsAny`object`()), Times.Once);
         mockLogger.Verify(l => l.Log(It.IsAny`string`()), Times.AtLeastOnce);
     }
-    
+
     [Test]
     public async Task ProcessOrder_InvalidOrder_ShouldReturnFailure()
     {
@@ -147,7 +146,7 @@ public class OrderServiceTests
         var mockRepository = new Mock`IOrderRepository`();
         var mockEmailService = new Mock`IEmailService`();
         var mockLogger = new Mock`ILogger`();
-        
+
         var invalidOrder = new Order
         {
             Id = 1,
@@ -155,18 +154,18 @@ public class OrderServiceTests
             Total = 0,          // Invalid - zero total
             Items = new List`OrderItem`() // Invalid - no items
         };
-        
+
         var orderService = new OrderService(mockRepository.Object, mockEmailService.Object, mockLogger.Object);
-        
+
         // Act
         var result = await orderService.ProcessOrderAsync(invalidOrder);
-        
+
         // Assert
         Assert.False(result.IsSuccess);
         Assert.Contains("Customer email is required", result.Errors);
         Assert.Contains("Order total must be greater than zero", result.Errors);
         Assert.Contains("Order must contain at least one item", result.Errors);
-        
+
         // Verify no side effects occurred
         mockRepository.Verify(r => r.SaveAsync(It.IsAny`Order`()), Times.Never);
 

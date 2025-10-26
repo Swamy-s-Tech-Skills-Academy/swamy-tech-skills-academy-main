@@ -1,8 +1,8 @@
 # 🏛️ SOLID Principles Track - Multi-Language Mastery - Part B
 
-**Learning Level**: Intermediate  
-**Prerequisites**: OOP fundamentals, basic design experience  
-**Estimated Time**: 2-3 weeks (1 hour daily)  
+**Learning Level**: Intermediate 
+**Prerequisites**: OOP fundamentals, basic design experience 
+**Estimated Time**: 2-3 weeks (1 hour daily) 
 **Next Steps**: Design Patterns, Clean Architecture
 
 ---
@@ -60,7 +60,7 @@ OrderProcessor class:
 After (SOLID compliant):
 OrderValidator - validates orders (SRP)
 PricingCalculator - calculates pricing (SRP)
-PaymentProcessor - processes payments (SRP) 
+PaymentProcessor - processes payments (SRP)
 NotificationService - sends notifications (SRP)
 InventoryManager - updates inventory (SRP)
 

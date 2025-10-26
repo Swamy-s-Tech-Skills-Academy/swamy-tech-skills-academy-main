@@ -1,8 +1,8 @@
 # 02_SOLID-Part2-Open-Closed-Principle - Part C
 
-**Learning Level**: Intermediate to Advanced  
-**Prerequisites**: Single Responsibility Principle (Part 1), Basic inheritance and interfaces  
-**Estimated Time**: 30 minutes  
+**Learning Level**: Intermediate to Advanced 
+**Prerequisites**: Single Responsibility Principle (Part 1), Basic inheritance and interfaces 
+**Estimated Time**: 30 minutes 
 
 ## 🎯 Learning Objectives
 
@@ -31,11 +31,10 @@ public class ExcelReportGenerator : ReportGenerator
     {
         return GenerateExcelWorkbook(formattedData);
     }
-    
+
     private object ConvertToExcelFormat(object data) { /* Implementation */ return data; }
     private string GenerateExcelWorkbook(object data) { /* Implementation */ return "Excel"; }
 }
-
 
     ##### Pattern 2: Decorator Pattern
 csharp
@@ -49,12 +48,12 @@ public interface INotificationSender
 public class EmailNotificationSender : INotificationSender
 {
     private readonly IEmailService _emailService;
-    
+
     public EmailNotificationSender(IEmailService emailService)
     {
         _emailService = emailService;
     }
-    
+
     public async Task SendAsync(string recipient, string message)
     {
         await _emailService.SendAsync(recipient, "Notification", message);
@@ -66,14 +65,14 @@ public class EncryptedNotificationSender : INotificationSender
 {
     private readonly INotificationSender _inner;
     private readonly IEncryptionService _encryptionService;
-    
-    public EncryptedNotificationSender(INotificationSender inner, 
+
+    public EncryptedNotificationSender(INotificationSender inner,
                                      IEncryptionService encryptionService)
     {
         _inner = inner;
         _encryptionService = encryptionService;
     }
-    
+
     public async Task SendAsync(string recipient, string message)
     {
         var encryptedMessage = await _encryptionService.EncryptAsync(message);
@@ -85,14 +84,14 @@ public class LoggedNotificationSender : INotificationSender
 {
     private readonly INotificationSender _inner;
     private readonly ILogger`LoggedNotificationSender` _logger;
-    
-    public LoggedNotificationSender(INotificationSender inner, 
+
+    public LoggedNotificationSender(INotificationSender inner,
                                   ILogger`LoggedNotificationSender` logger)
     {
         _inner = inner;
         _logger = logger;
     }
-    
+
     public async Task SendAsync(string recipient, string message)
     {
         _logger.LogInformation("Sending notification to {Recipient}", recipient);
@@ -123,16 +122,15 @@ public void ConfigureServices(IServiceCollection services)
         new BuyOneGetOneStrategy("Electronics"));
     services.AddTransient`IDiscountStrategy, LoyaltyDiscountStrategy`(provider =>
         new LoyaltyDiscountStrategy(100, 0.01m));
-    
+
     // Register calculator with all strategies
     services.AddTransient`DiscountCalculator`();
-    
+
     // Decorator pattern setup
     services.AddTransient`EmailNotificationSender`();
     services.Decorate`INotificationSender, EncryptedNotificationSender`();
     services.Decorate`INotificationSender, LoggedNotificationSender`();
 }
-
 
 ### Key Takeaways & Next Steps (2 minutes)
 

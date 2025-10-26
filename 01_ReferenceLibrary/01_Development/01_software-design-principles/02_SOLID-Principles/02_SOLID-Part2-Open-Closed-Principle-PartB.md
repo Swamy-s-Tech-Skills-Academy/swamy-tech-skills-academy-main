@@ -1,8 +1,8 @@
 # 02_SOLID-Part2-Open-Closed-Principle - Part B
 
-**Learning Level**: Intermediate to Advanced  
-**Prerequisites**: Single Responsibility Principle (Part 1), Basic inheritance and interfaces  
-**Estimated Time**: 30 minutes  
+**Learning Level**: Intermediate to Advanced 
+**Prerequisites**: Single Responsibility Principle (Part 1), Basic inheritance and interfaces 
+**Estimated Time**: 30 minutes 
 
 ## 🎯 Learning Objectives
 
@@ -18,18 +18,18 @@ Next: [02_SOLID-Part2-Open-Closed-Principle-PartC.md](02_SOLID-Part2-Open-Closed
 ---
 
             .ToList();
-            
+
         if (categoryItems.Count >= 2)
         {
             return categoryItems.First().Price; // Free cheapest item
         }
-        
+
         return 0;
     }
-    
+
     public bool IsApplicable(Order order)
     {
-        return order.Items.Count(i => 
+        return order.Items.Count(i =>
             i.Category.Equals(_category, StringComparison.OrdinalIgnoreCase)) >= 2;
     }
 }
@@ -43,7 +43,7 @@ public class DiscountCalculator
     {
         _strategies = strategies.ToList();
     }
-    
+
     public DiscountResult CalculateBestDiscount(Order order)
     {
         var applicableDiscounts = _strategies
@@ -55,12 +55,11 @@ public class DiscountCalculator
             })
             .OrderByDescending(d => d.Amount)
             .ToList();
-            
-        return applicableDiscounts.FirstOrDefault() ?? 
+
+        return applicableDiscounts.FirstOrDefault() ??
                new DiscountResult { Strategy = "None", Amount = 0 };
     }
 }
-
 
     #### Adding New Features Without Modification
 csharp
@@ -69,26 +68,26 @@ public class LoyaltyDiscountStrategy : IDiscountStrategy
 {
     private readonly int _requiredPoints;
     private readonly decimal _discountPerPoint;
-    
+
     public LoyaltyDiscountStrategy(int requiredPoints, decimal discountPerPoint)
     {
         _requiredPoints = requiredPoints;
         _discountPerPoint = discountPerPoint;
     }
-    
+
     public string Name => "Loyalty Points Discount";
-    
+
     public decimal CalculateDiscount(Order order)
     {
         if (order.Customer.LoyaltyPoints >= _requiredPoints)
         {
-            var pointsToUse = Math.Min(order.Customer.LoyaltyPoints, 
+            var pointsToUse = Math.Min(order.Customer.LoyaltyPoints,
                                      (int)(order.Total / _discountPerPoint));
             return pointsToUse * _discountPerPoint;
         }
         return 0;
     }
-    
+
     public bool IsApplicable(Order order)
     {
         return order.Customer?.LoyaltyPoints >= _requiredPoints;
@@ -101,16 +100,16 @@ public class SeasonalDiscountStrategy : IDiscountStrategy
     private readonly DateTime _startDate;
     private readonly DateTime _endDate;
     private readonly decimal _percentage;
-    
+
     public SeasonalDiscountStrategy(DateTime startDate, DateTime endDate, decimal percentage)
     {
         _startDate = startDate;
         _endDate = endDate;
         _percentage = percentage;
     }
-    
+
     public string Name => $"Seasonal {_percentage * 100}% Off";
-    
+
     public decimal CalculateDiscount(Order order)
     {
         var now = DateTime.Now.Date;
@@ -120,7 +119,7 @@ public class SeasonalDiscountStrategy : IDiscountStrategy
         }
         return 0;
     }
-    
+
     public bool IsApplicable(Order order)
     {
         var now = DateTime.Now.Date;
@@ -143,12 +142,12 @@ public abstract class ReportGenerator
         var formattedData = FormatData(processedData);
         return GenerateOutput(formattedData);
     }
-    
+
     protected virtual object ProcessData(IEnumerable`Order` orders)
     {
         return orders.Where(o => o.Status == OrderStatus.Completed);
     }
-    
+
     protected abstract object FormatData(object data);
     protected abstract string GenerateOutput(object formattedData);
 }
@@ -161,11 +160,11 @@ public class PdfReportGenerator : ReportGenerator
         // PDF-specific formatting
         return ConvertToPdfFormat(data);
     }
-    
+
     protected override string GenerateOutput(object formattedData)
     {
         return GeneratePdfDocument(formattedData);
     }
-    
+
     private object ConvertToPdfFormat(object data) { /* Implementation */ return data; }
 

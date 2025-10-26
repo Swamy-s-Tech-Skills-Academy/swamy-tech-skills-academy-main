@@ -1,8 +1,8 @@
 # 03_SOLID-Part3-Liskov-Substitution-Principle - Part A
 
-**Learning Level**: Advanced  
-**Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2)  
-**Estimated Time**: 30 minutes  
+**Learning Level**: Advanced 
+**Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2) 
+**Estimated Time**: 30 minutes 
 
 ## 🎯 Learning Objectives
 
@@ -59,7 +59,7 @@ Rectangle    Square      Circle
 **LSP Core Rules**:
 
 - Preconditions cannot be strengthened in subclasses
-- Postconditions cannot be weakened in subclasses  
+- Postconditions cannot be weakened in subclasses 
 - Invariants must be maintained across inheritance
 - History constraint: subclass shouldn't allow state changes forbidden in parent
 
@@ -75,12 +75,12 @@ public class Rectangle
 {
     public virtual int Width { get; set; }
     public virtual int Height { get; set; }
-    
+
     public virtual int GetArea()
     {
         return Width * Height;
     }
-    
+
     public virtual void SetDimensions(int width, int height)
     {
         Width = width;
@@ -101,7 +101,7 @@ public class Square : Rectangle
             base.Height = value; // ← Unexpected side effect!
         }
     }
-    
+
     public override int Height
     {
         get => base.Height;
@@ -119,10 +119,10 @@ public class GeometryCalculator
     public void DemonstrateViolation()
     {
         Rectangle rect = new Square(); // Polymorphic assignment
-        
+
         rect.Width = 5;
         rect.Height = 4;
-        
+
         // Expected: 20 (5 * 4)
         // Actual: 16 (4 * 4) - Square changed both dimensions!
         Console.WriteLine($"Area: {rect.GetArea()}"); // Violates LSP!
@@ -156,16 +156,16 @@ public class Rectangle : IResizableShape
 {
     public double Width { get; private set; }
     public double Height { get; private set; }
-    
+
     public Rectangle(double width, double height)
     {
         Width = width;
         Height = height;
     }
-    
+
     public double GetArea() => Width * Height;
     public double GetPerimeter() => 2 * (Width + Height);
-    
+
     public void Resize(double widthFactor, double heightFactor)
     {
         Width *= widthFactor;

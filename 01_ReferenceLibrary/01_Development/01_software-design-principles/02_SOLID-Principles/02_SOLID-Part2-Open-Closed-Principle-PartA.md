@@ -1,8 +1,8 @@
 # 02_SOLID-Part2-Open-Closed-Principle - Part A
 
-**Learning Level**: Intermediate to Advanced  
-**Prerequisites**: Single Responsibility Principle (Part 1), Basic inheritance and interfaces  
-**Estimated Time**: 30 minutes  
+**Learning Level**: Intermediate to Advanced 
+**Prerequisites**: Single Responsibility Principle (Part 1), Basic inheritance and interfaces 
+**Estimated Time**: 30 minutes 
 
 ## 🎯 Learning Objectives
 
@@ -111,19 +111,19 @@ public interface IDiscountStrategy
 public class PercentageDiscountStrategy : IDiscountStrategy
 {
     private readonly decimal _percentage;
-    
+
     public PercentageDiscountStrategy(decimal percentage)
     {
         _percentage = percentage;
     }
-    
+
     public string Name => $"{_percentage * 100}% Discount";
-    
+
     public decimal CalculateDiscount(Order order)
     {
         return order.Total * _percentage;
     }
-    
+
     public bool IsApplicable(Order order)
     {
         return order.Total > 0;
@@ -133,19 +133,19 @@ public class PercentageDiscountStrategy : IDiscountStrategy
 public class FixedAmountDiscountStrategy : IDiscountStrategy
 {
     private readonly decimal _amount;
-    
+
     public FixedAmountDiscountStrategy(decimal amount)
     {
         _amount = amount;
     }
-    
+
     public string Name => $"${_amount} Off";
-    
+
     public decimal CalculateDiscount(Order order)
     {
         return Math.Min(_amount, order.Total);
     }
-    
+
     public bool IsApplicable(Order order)
     {
         return order.Total >= _amount;
@@ -155,30 +155,30 @@ public class FixedAmountDiscountStrategy : IDiscountStrategy
 public class BuyOneGetOneStrategy : IDiscountStrategy
 {
     private readonly string _category;
-    
+
     public BuyOneGetOneStrategy(string category)
     {
         _category = category;
     }
-    
+
     public string Name => $"BOGO {_category}";
-    
+
     public decimal CalculateDiscount(Order order)
     {
         var categoryItems = order.Items
             .Where(i => i.Category.Equals(_category, StringComparison.OrdinalIgnoreCase))
             .OrderBy(i => i.Price)
             .ToList();
-            
+
         if (categoryItems.Count >= 2)
         {
             // Return the price of the cheapest item (free item)
             return categoryItems.First().Price;
         }
-        
+
         return 0m;
     }
-    
+
     public bool IsApplicable(Order order)
     {
         return order.Items.Count(i => i.Category.Equals(_category, StringComparison.OrdinalIgnoreCase)) >= 2;
@@ -189,34 +189,34 @@ public class BuyOneGetOneStrategy : IDiscountStrategy
 public class DiscountEngine
 {
     private readonly List`IDiscountStrategy` _availableStrategies;
-    
+
     public DiscountEngine()
     {
         _availableStrategies = new List`IDiscountStrategy`();
     }
-    
+
     public void RegisterStrategy(IDiscountStrategy strategy)
     {
         if (strategy == null)
             throw new ArgumentNullException(nameof(strategy));
-            
+
         _availableStrategies.Add(strategy);
     }
-    
+
     public void RemoveStrategy(IDiscountStrategy strategy)
     {
         _availableStrategies.Remove(strategy);
     }
-    
+
     public DiscountResult CalculateBestDiscount(Order order)
     {
         if (order == null)
             throw new ArgumentNullException(nameof(order));
-            
+
         var applicableStrategies = _availableStrategies
             .Where(s => s.IsApplicable(order))
             .ToList();
-            
+
         if (!applicableStrategies.Any())
         {
             return new DiscountResult
@@ -226,13 +226,13 @@ public class DiscountEngine
                 FinalTotal = order.Total
             };
         }
-        
+
         var bestStrategy = applicableStrategies
             .OrderByDescending(s => s.CalculateDiscount(order))
             .First();
-            
+
         var discountAmount = bestStrategy.CalculateDiscount(order);
-        
+
         return new DiscountResult
         {
             DiscountAmount = discountAmount,
@@ -240,7 +240,7 @@ public class DiscountEngine
             FinalTotal = order.Total - discountAmount
         };
     }
-    
+
     public List`string` GetAvailableDiscounts(Order order)
     {
         return _availableStrategies
@@ -257,6 +257,7 @@ public class DiscountResult
     public decimal FinalTotal { get; set; }
 }
 ```csharp
+
 ### Practical Implementation (8 minutes)
 
 #### Adding New Discount Types Without Modification
@@ -269,7 +270,7 @@ public class SeasonalDiscountStrategy : IDiscountStrategy
     private readonly DateTime _startDate;
     private readonly DateTime _endDate;
     private readonly string _season;
-    
+
     public SeasonalDiscountStrategy(decimal percentage, DateTime startDate, DateTime endDate, string season)
     {
         _percentage = percentage;
@@ -277,14 +278,14 @@ public class SeasonalDiscountStrategy : IDiscountStrategy
         _endDate = endDate;
         _season = season;
     }
-    
+
     public string Name => $"{_season} Special - {_percentage * 100}% Off";
-    
+
     public decimal CalculateDiscount(Order order)
     {
         return order.Total * _percentage;
     }
-    
+
     public bool IsApplicable(Order order)
     {
         var now = DateTime.Now.Date;
@@ -297,15 +298,15 @@ public class LoyaltyDiscountStrategy : IDiscountStrategy
 {
     private readonly int _requiredPoints;
     private readonly decimal _discountPerPoint;
-    
+
     public LoyaltyDiscountStrategy(int requiredPoints, decimal discountPerPoint)
     {
         _requiredPoints = requiredPoints;
         _discountPerPoint = discountPerPoint;
     }
-    
+
     public string Name => $"Loyalty Discount ({_requiredPoints}+ points)";
-    
+
     public decimal CalculateDiscount(Order order)
     {
         if (order.Customer?.LoyaltyPoints >= _requiredPoints)
@@ -315,7 +316,7 @@ public class LoyaltyDiscountStrategy : IDiscountStrategy
         }
         return 0m;
     }
-    
+
     public bool IsApplicable(Order order)
     {
         return order.Customer?.LoyaltyPoints >= _requiredPoints;
@@ -328,28 +329,28 @@ public class DiscountConfiguration
     public static DiscountEngine CreateProductionEngine()
     {
         var engine = new DiscountEngine();
-        
+
         // Standard discounts
         engine.RegisterStrategy(new PercentageDiscountStrategy(0.10m)); // 10% off
         engine.RegisterStrategy(new FixedAmountDiscountStrategy(25m));   // $25 off
         engine.RegisterStrategy(new BuyOneGetOneStrategy("Electronics"));
-        
+
         // Seasonal promotions (can be added/removed without code changes)
         engine.RegisterStrategy(new SeasonalDiscountStrategy(
-            0.20m, 
-            new DateTime(2025, 11, 25), 
-            new DateTime(2025, 11, 30), 
+            0.20m,
+            new DateTime(2025, 11, 25),
+            new DateTime(2025, 11, 30),
             "Black Friday"));
-            
+
         engine.RegisterStrategy(new SeasonalDiscountStrategy(
             0.15m,
             new DateTime(2025, 12, 1),
             new DateTime(2025, 12, 31),
             "Holiday"));
-        
+
         // Loyalty program
         engine.RegisterStrategy(new LoyaltyDiscountStrategy(100, 0.50m));
-        
+
         return engine;
     }
 }
@@ -360,11 +361,11 @@ public class DiscountConfiguration
 
 ### **Open/Closed Principle Benefits Achieved**
 
-✅ **Extension Without Modification**: New discount types added without changing existing code  
-✅ **Reduced Risk**: No chance of breaking existing discount calculations  
-✅ **Parallel Development**: Teams can develop new strategies independently  
-✅ **Easy Testing**: Each strategy can be unit tested in isolation  
-✅ **Configuration Flexibility**: Discount combinations can be changed at runtime  
+✅ **Extension Without Modification**: New discount types added without changing existing code 
+✅ **Reduced Risk**: No chance of breaking existing discount calculations 
+✅ **Parallel Development**: Teams can develop new strategies independently 
+✅ **Easy Testing**: Each strategy can be unit tested in isolation 
+✅ **Configuration Flexibility**: Discount combinations can be changed at runtime 
 
 ### **Design Patterns Applied**
 
@@ -390,5 +391,5 @@ public class DiscountConfiguration
 - **Next**: [02_SOLID-Part2-Open-Closed-Principle-PartB.md](02_SOLID-Part2-Open-Closed-Principle-PartB.md)
 - **Series**: SOLID Principles Mastery Track
 
-**Last Updated**: October 22, 2025  
+**Last Updated**: October 22, 2025 
 **Format**: 30-minute focused learning segment

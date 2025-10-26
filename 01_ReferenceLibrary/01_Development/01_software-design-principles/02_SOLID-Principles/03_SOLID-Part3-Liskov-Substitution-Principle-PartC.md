@@ -1,8 +1,8 @@
 # 03_SOLID-Part3-Liskov-Substitution-Principle - Part C
 
-**Learning Level**: Advanced  
-**Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2)  
-**Estimated Time**: 30 minutes  
+**Learning Level**: Advanced 
+**Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2) 
+**Estimated Time**: 30 minutes 
 
 ## 🎯 Learning Objectives
 
@@ -19,17 +19,17 @@ Next: [03_SOLID-Part3-Liskov-Substitution-Principle-PartD.md](03_SOLID-Part3-Lis
 
         return await File.ReadAllBytesAsync(path);
     }
-    
+
     public async Task`bool` ExistsAsync(string path)
     {
         return File.Exists(path);
     }
-    
+
     public async Task WriteAsync(string path, byte[] data)
     {
         await File.WriteAllBytesAsync(path, data);
     }
-    
+
     public Task DeleteAsync(string path)
     {
         File.Delete(path);
@@ -60,19 +60,18 @@ public class DocumentProcessor
     {
         _storage = storage; // Works with both LocalFileStorage and ReadOnlyFileStorage
     }
-    
+
     public async Task`string` ProcessDocumentAsync(string path)
     {
         if (!await _storage.ExistsAsync(path))
             throw new FileNotFoundException($"Document not found: {path}");
-            
+
         var data = await _storage.ReadAsync(path);
         return ProcessBytes(data);
     }
-    
+
     private string ProcessBytes(byte[] data) => Convert.ToBase64String(data);
 }
-
 
     ### Practical Implementation (8 minutes)
 
@@ -84,7 +83,7 @@ csharp
 public abstract class FileStorageContractTests`T` where T : IFileStorage
 {
     protected abstract T CreateStorage();
-    
+
     [Test]
     public virtual async Task WriteAsync_ValidData_ShouldSucceed()
     {
@@ -92,22 +91,22 @@ public abstract class FileStorageContractTests`T` where T : IFileStorage
         var storage = CreateStorage();
         var testData = Encoding.UTF8.GetBytes("Test content");
         var path = "test-file.txt";
-        
+
         // Act & Assert
         await storage.WriteAsync(path, testData);
-        
+
         var retrievedData = await storage.ReadAsync(path);
         Assert.Equal(testData, retrievedData);
     }
-    
+
     [Test]
     public virtual async Task ReadAsync_NonExistentFile_ShouldThrowFileNotFoundException()
     {
         // Arrange
         var storage = CreateStorage();
-        
+
         // Act & Assert
-        await Assert.ThrowsAsync`FileNotFoundException`(() => 
+        await Assert.ThrowsAsync`FileNotFoundException`(() =>
             storage.ReadAsync("non-existent-file.txt"));
     }
 }
@@ -127,9 +126,9 @@ csharp
 public abstract class BankAccount
 {
     private decimal _balance;
-    
-    public decimal Balance 
-    { 
+
+    public decimal Balance
+    {
         get => _balance;
         protected set
         {
@@ -137,29 +136,29 @@ public abstract class BankAccount
             _balance = value;
         }
     }
-    
+
     protected virtual void CheckInvariant(decimal newBalance)
     {
         // Base invariant: balance should not be negative for regular accounts
         if (newBalance < 0)
             throw new InvalidOperationException("Balance cannot be negative");
     }
-    
+
     public virtual void Withdraw(decimal amount)
     {
         if (amount <= 0)
             throw new ArgumentException("Amount must be positive");
-            
+
         var newBalance = Balance - amount;
         CheckInvariant(newBalance); // Verify invariant before changing state
         Balance = newBalance;
     }
-    
+
     public virtual void Deposit(decimal amount)
     {
         if (amount <= 0)
             throw new ArgumentException("Amount must be positive");
-            
+
         Balance += amount;
     }
 }
@@ -167,5 +166,5 @@ public abstract class BankAccount
 public class CheckingAccount : BankAccount
 {
     private readonly decimal _overdraftLimit;
-    
+
 

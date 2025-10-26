@@ -1,8 +1,8 @@
 # 05_SOLID-Part5-Dependency-Inversion-Principle - Part C
 
-**Learning Level**: Advanced  
-**Prerequisites**: Interface Segregation Principle (Part 4), Dependency injection concepts  
-**Estimated Time**: 30 minutes  
+**Learning Level**: Advanced 
+**Prerequisites**: Interface Segregation Principle (Part 4), Dependency injection concepts 
+**Estimated Time**: 30 minutes 
 
 ## 🎯 Learning Objectives
 
@@ -19,13 +19,12 @@ Next: [05_SOLID-Part5-Dependency-Inversion-Principle-PartD.md](05_SOLID-Part5-De
 
             Console.WriteLine($"Exception: {exception}");
     }
-    
+
     public void LogWarning(string message)
     {
         Console.WriteLine($"[WARNING] {DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}");
     }
 }
-
 
     #### Dependency Injection Container Configuration
 csharp
@@ -35,15 +34,15 @@ public class ServiceConfiguration
     public static ServiceCollection ConfigureServices()
     {
         var services = new ServiceCollection();
-        
+
         // Register abstractions with concrete implementations
         services.AddScoped`IOrderRepository, SqlOrderRepository`();
         services.AddScoped`IEmailService, SmtpEmailService`();
         services.AddScoped`ILogger, FileLogger`();
-        
+
         // Register business services
         services.AddScoped`OrderService`();
-        
+
         // Configuration
         services.AddSingleton`IConfiguration`(provider =>
         {
@@ -51,7 +50,7 @@ public class ServiceConfiguration
                 .AddJsonFile("appsettings.json")
                 .Build();
         });
-        
+
         // Register repository with configuration
         services.AddScoped`IOrderRepository`(provider =>
         {
@@ -59,7 +58,7 @@ public class ServiceConfiguration
             var connectionString = config.GetConnectionString("DefaultConnection");
             return new SqlOrderRepository(connectionString);
         });
-        
+
         return services;
     }
 }
@@ -70,14 +69,14 @@ public class TestServiceConfiguration
     public static ServiceCollection ConfigureTestServices()
     {
         var services = new ServiceCollection();
-        
+
         // Use in-memory implementations for testing
         services.AddScoped`IOrderRepository, InMemoryOrderRepository`();
         services.AddScoped`IEmailService, MockEmailService`();
         services.AddScoped`ILogger, ConsoleLogger`();
-        
+
         services.AddScoped`OrderService`();
-        
+
         return services;
     }
 }
@@ -100,22 +99,22 @@ public interface IRepositoryFactory
 public class SqlRepositoryFactory : IRepositoryFactory
 {
     private readonly string _connectionString;
-    
+
     public SqlRepositoryFactory(string connectionString)
     {
         _connectionString = connectionString;
     }
-    
+
     public IOrderRepository CreateOrderRepository()
     {
         return new SqlOrderRepository(_connectionString);
     }
-    
+
     public ICustomerRepository CreateCustomerRepository()
     {
         return new SqlCustomerRepository(_connectionString);
     }
-    
+
     public IProductRepository CreateProductRepository()
     {
         return new SqlProductRepository(_connectionString);
@@ -126,21 +125,21 @@ public class SqlRepositoryFactory : IRepositoryFactory
 public class ECommerceService
 {
     private readonly IRepositoryFactory _repositoryFactory;
-    
+
     public ECommerceService(IRepositoryFactory repositoryFactory)
     {
         _repositoryFactory = repositoryFactory;
     }
-    
+
     public async Task ProcessPurchaseAsync(int customerId, int productId, int quantity)
     {
         var customerRepo = _repositoryFactory.CreateCustomerRepository();
         var productRepo = _repositoryFactory.CreateProductRepository();
         var orderRepo = _repositoryFactory.CreateOrderRepository();
-        
+
         var customer = await customerRepo.GetByIdAsync(customerId);
         var product = await productRepo.GetByIdAsync(productId);
-        
+
         // Business logic using abstractions
         var order = new Order
         {
@@ -150,7 +149,7 @@ public class ECommerceService
                 new OrderItem { ProductId = productId, Quantity = quantity, Price = product.Price }
             }
         };
-        
+
         await orderRepo.SaveAsync(order);
     }
 }

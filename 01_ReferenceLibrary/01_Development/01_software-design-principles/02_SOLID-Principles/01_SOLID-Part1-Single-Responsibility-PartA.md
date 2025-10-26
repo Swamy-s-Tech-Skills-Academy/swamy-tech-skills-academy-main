@@ -1,8 +1,8 @@
 # 01_SOLID-Part1-Single-Responsibility - Part A
 
-**Learning Level**: Intermediate  
-**Prerequisites**: Basic OOP concepts, understanding of classes and methods  
-**Estimated Time**: 30 minutes  
+**Learning Level**: Intermediate 
+**Prerequisites**: Basic OOP concepts, understanding of classes and methods 
+**Estimated Time**: 30 minutes 
 
 ## 🎯 Learning Objectives
 
@@ -74,7 +74,7 @@ public class Employee
     public string Name { get; set; }
     public decimal Salary { get; set; }
     public string Department { get; set; }
-    
+
     // Reason 1: Business logic changes
     public decimal CalculateBonus()
     {
@@ -85,7 +85,7 @@ public class Employee
         else
             return Salary * 0.10m;
     }
-    
+
     // Reason 2: Data persistence changes
     public void SaveToDatabase()
     {
@@ -94,7 +94,7 @@ public class Employee
         var sql = "INSERT INTO Employees (Name, Salary, Department) VALUES (@name, @salary, @dept)";
         // Database save logic...
     }
-    
+
     // Reason 3: Reporting format changes
     public string GenerateReport()
     {
@@ -104,7 +104,7 @@ public class Employee
                $"Department: {Department}\n" +
                $"Bonus: {CalculateBonus():C}";
     }
-    
+
     // Reason 4: Email template changes
     public void SendSalaryNotification()
     {
@@ -131,7 +131,7 @@ public class Employee
     public decimal Salary { get; set; }
     public string Department { get; set; }
     public DateTime HireDate { get; set; }
-    
+
     // Only data representation - single responsibility
     public int GetYearsOfService()
     {
@@ -152,7 +152,7 @@ public class BonusCalculator
             _ => employee.Salary * 0.10m
         };
     }
-    
+
     public decimal CalculateYearEndBonus(Employee employee)
     {
         var baseBonus = CalculateBonus(employee);
@@ -164,12 +164,12 @@ public class BonusCalculator
 public class EmployeeRepository
 {
     private readonly string _connectionString;
-    
+
     public EmployeeRepository(string connectionString)
     {
         _connectionString = connectionString;
     }
-    
+
     // Single responsibility: Employee data persistence
     public async Task`Employee` GetByIdAsync(int id)
     {
@@ -177,19 +177,19 @@ public class EmployeeRepository
         var sql = "SELECT * FROM Employees WHERE Id = @id";
         return await connection.QuerySingleOrDefaultAsync`Employee`(sql, new { id });
     }
-    
+
     public async Task SaveAsync(Employee employee)
     {
         using var connection = new SqlConnection(_connectionString);
-        var sql = @"INSERT INTO Employees (Name, Salary, Department, HireDate) 
+        var sql = @"INSERT INTO Employees (Name, Salary, Department, HireDate)
                     VALUES (@Name, @Salary, @Department, @HireDate)";
         await connection.ExecuteAsync(sql, employee);
     }
-    
+
     public async Task UpdateAsync(Employee employee)
     {
         using var connection = new SqlConnection(_connectionString);
-        var sql = @"UPDATE Employees SET Name = @Name, Salary = @Salary, 
+        var sql = @"UPDATE Employees SET Name = @Name, Salary = @Salary,
                     Department = @Department WHERE Id = @Id";
         await connection.ExecuteAsync(sql, employee);
     }
@@ -198,18 +198,18 @@ public class EmployeeRepository
 public class EmployeeReportGenerator
 {
     private readonly BonusCalculator _bonusCalculator;
-    
+
     public EmployeeReportGenerator(BonusCalculator bonusCalculator)
     {
         _bonusCalculator = bonusCalculator;
     }
-    
+
     // Single responsibility: Generate employee reports
     public string GenerateDetailedReport(Employee employee)
     {
         var bonus = _bonusCalculator.CalculateBonus(employee);
         var yearEndBonus = _bonusCalculator.CalculateYearEndBonus(employee);
-        
+
         return $"""
             Employee Detailed Report
             ========================
@@ -222,7 +222,7 @@ public class EmployeeReportGenerator
             Year-End Bonus: {yearEndBonus:C}
             """;
     }
-    
+
     public string GenerateSummaryReport(Employee employee)
     {
         return $"{employee.Name} ({employee.Department}) - {employee.Salary:C}";
@@ -232,46 +232,47 @@ public class EmployeeReportGenerator
 public class EmployeeNotificationService
 {
     private readonly IEmailService _emailService;
-    
+
     public EmployeeNotificationService(IEmailService emailService)
     {
         _emailService = emailService;
     }
-    
+
     // Single responsibility: Employee notifications
     public async Task SendSalaryUpdateNotificationAsync(Employee employee, decimal newSalary)
     {
         var subject = "Salary Update Notification";
         var body = $"""
             Dear {employee.Name},
-            
+
             We're pleased to inform you that your salary has been updated to {newSalary:C}.
             This change is effective immediately.
-            
+
             Best regards,
             HR Department
             """;
-            
+
         await _emailService.SendEmailAsync(employee.Name, subject, body);
     }
-    
+
     public async Task SendBonusNotificationAsync(Employee employee, decimal bonusAmount)
     {
         var subject = "Bonus Notification";
         var body = $"""
             Dear {employee.Name},
-            
+
             Congratulations! You have earned a bonus of {bonusAmount:C}.
             The bonus will be included in your next paycheck.
-            
+
             Thank you for your hard work!
             HR Department
             """;
-            
+
         await _emailService.SendEmailAsync(employee.Name, subject, body);
     }
 }
 ```csharp
+
 ### Practical Implementation (8 minutes)
 
 #### Orchestrating Single-Responsibility Classes
@@ -284,7 +285,7 @@ public class EmployeeService
     private readonly EmployeeReportGenerator _reportGenerator;
     private readonly EmployeeNotificationService _notificationService;
     private readonly ILogger`EmployeeService` _logger;
-    
+
     public EmployeeService(
         EmployeeRepository repository,
         BonusCalculator bonusCalculator,
@@ -298,7 +299,7 @@ public class EmployeeService
         _notificationService = notificationService;
         _logger = logger;
     }
-    
+
     public async Task`string` ProcessAnnualReviewAsync(int employeeId)
     {
         try
@@ -307,14 +308,14 @@ public class EmployeeService
             var employee = await _repository.GetByIdAsync(employeeId);
             if (employee == null)
                 return $"Employee {employeeId} not found";
-            
+
             var bonus = _bonusCalculator.CalculateYearEndBonus(employee);
             var report = _reportGenerator.GenerateDetailedReport(employee);
-            
+
             await _notificationService.SendBonusNotificationAsync(employee, bonus);
-            
+
             _logger.LogInformation("Annual review completed for employee {EmployeeId}", employeeId);
-            
+
             return report;
         }
         catch (Exception ex)
@@ -323,20 +324,20 @@ public class EmployeeService
             throw;
         }
     }
-    
+
     public async Task UpdateSalaryAsync(int employeeId, decimal newSalary)
     {
         var employee = await _repository.GetByIdAsync(employeeId);
         if (employee == null)
             throw new ArgumentException($"Employee {employeeId} not found");
-        
+
         var oldSalary = employee.Salary;
         employee.Salary = newSalary;
-        
+
         await _repository.UpdateAsync(employee);
         await _notificationService.SendSalaryUpdateNotificationAsync(employee, newSalary);
-        
-        _logger.LogInformation("Salary updated for employee {EmployeeId}: {OldSalary} -> {NewSalary}", 
+
+        _logger.LogInformation("Salary updated for employee {EmployeeId}: {OldSalary} -> {NewSalary}",
                              employeeId, oldSalary, newSalary);
     }
 }
@@ -347,11 +348,11 @@ public class EmployeeService
 
 ### **Single Responsibility Benefits Achieved**
 
-✅ **Clear Purpose**: Each class has one well-defined responsibility  
-✅ **Easy Testing**: Individual components can be tested in isolation  
-✅ **Better Maintainability**: Changes are localized to specific classes  
-✅ **Improved Reusability**: Single-purpose classes can be reused across contexts  
-✅ **Reduced Coupling**: Classes depend on abstractions rather than concrete implementations  
+✅ **Clear Purpose**: Each class has one well-defined responsibility 
+✅ **Easy Testing**: Individual components can be tested in isolation 
+✅ **Better Maintainability**: Changes are localized to specific classes 
+✅ **Improved Reusability**: Single-purpose classes can be reused across contexts 
+✅ **Reduced Coupling**: Classes depend on abstractions rather than concrete implementations 
 
 ### **Identification Techniques**
 
@@ -378,7 +379,7 @@ public class EmployeeService
 - **Then**: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Responsibility-PartC.md)
 - **Series**: SOLID Principles Mastery Track
 
-**Last Updated**: October 22, 2025  
+**Last Updated**: October 22, 2025 
 **Format**: 30-minute focused learning segment
 
 ---
@@ -412,7 +413,7 @@ graph TD
     E --> F[05: Dependency Inversion]
     F --> G[Language Implementation]
     F --> H[Design Patterns]
-    
+
     style A fill:#e1f5fe
     style B fill:#e8f5e8
     style C fill:#e8f5e8
@@ -422,6 +423,7 @@ graph TD
     style G fill:#fff3e0
     style H fill:#f3e5f5
 ```csharp
+
 ### **Alternative Learning Paths**
 
 - **Quick Review**: Use Track guide for rapid overview
@@ -468,5 +470,5 @@ By completing this series, you will:
 
 ---
 
-*Last Updated: September 11, 2025*  
+*Last Updated: September 11, 2025* 
 *Part of STSA Lead Architect Knowledge Base*

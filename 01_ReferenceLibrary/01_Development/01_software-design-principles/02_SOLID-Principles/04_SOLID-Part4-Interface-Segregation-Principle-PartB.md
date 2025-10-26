@@ -1,8 +1,8 @@
 # 04_SOLID-Part4-Interface-Segregation-Principle - Part B
 
-**Learning Level**: Intermediate to Advanced  
-**Prerequisites**: Liskov Substitution Principle (Part 3), Interface design patterns  
-**Estimated Time**: 30 minutes  
+**Learning Level**: Intermediate to Advanced 
+**Prerequisites**: Liskov Substitution Principle (Part 3), Interface design patterns 
+**Estimated Time**: 30 minutes 
 
 ## 🎯 Learning Objectives
 
@@ -68,33 +68,33 @@ public class MultiFunctionDevice : IPrinter, IScanner, ICopier, IFaxMachine
     {
         Console.WriteLine($"MFD Print quality: {quality}");
     }
-    
+
     public byte[] Scan(ScanSettings settings)
     {
         Console.WriteLine($"MFD Scanning with settings: {settings}");
         return new byte[0]; // Simulated scan data
     }
-    
+
     public void CalibrateScanner()
     {
         Console.WriteLine("MFD Scanner calibrated");
     }
-    
+
     public void Copy(int copies)
     {
         Console.WriteLine($"MFD Making {copies} copies");
     }
-    
+
     public void SetCopyOptions(CopyOptions options)
     {
         Console.WriteLine($"MFD Copy options set: {options}");
     }
-    
+
     public void SendFax(string number, Document document)
     {
         Console.WriteLine($"MFD Sending fax to {number}: {document.Title}");
     }
-    
+
     public void ReceiveFax()
     {
         Console.WriteLine("MFD Ready to receive fax");
@@ -110,12 +110,12 @@ public class PrintService
     {
         _printer = printer;
     }
-    
+
     public void PrintDocument(Document document)
     {
         _printer.Print(document); // No exception handling needed
     }
-    
+
     public void ConfigurePrinting(PrintQuality quality)
     {
         _printer.SetPrintQuality(quality);
@@ -130,13 +130,12 @@ public class ScanService
     {
         _scanner = scanner;
     }
-    
+
     public byte[] ScanDocument(ScanSettings settings)
     {
         return _scanner.Scan(settings);
     }
 }
-
 
     #### Advanced ISP Patterns
 
@@ -166,7 +165,7 @@ public interface IUserRepository : IReadOnlyUserRepository, IUserWriter
 public class UserProfileService
 {
     private readonly IReadOnlyUserRepository _userRepository; // Read-only dependency
-    
+
     public UserProfileService(IReadOnlyUserRepository userRepository)
     {
         _userRepository = userRepository;
