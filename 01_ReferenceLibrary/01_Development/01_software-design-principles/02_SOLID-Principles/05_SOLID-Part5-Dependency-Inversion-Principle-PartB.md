@@ -65,11 +65,9 @@ Next: [05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md](05_SOLID-Part5-De
     }
 }
 
-```text
 
-#### Low-Level Module Implementations
-
-```csharp
+    #### Low-Level Module Implementations
+csharp
 // Low-level modules implement the abstractions
 public class SqlOrderRepository : IOrderRepository
 {

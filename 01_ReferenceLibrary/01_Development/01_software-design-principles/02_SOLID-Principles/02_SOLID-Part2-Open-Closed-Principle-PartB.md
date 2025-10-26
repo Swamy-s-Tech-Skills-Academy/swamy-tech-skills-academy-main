@@ -61,11 +61,9 @@ public class DiscountCalculator
     }
 }
 
-```text
 
-#### Adding New Features Without Modification
-
-```csharp
+    #### Adding New Features Without Modification
+csharp
 // ✅ NEW: Adding loyalty discount without touching existing code
 public class LoyaltyDiscountStrategy : IDiscountStrategy
 {
@@ -129,15 +127,13 @@ public class SeasonalDiscountStrategy : IDiscountStrategy
         return now `= _startDate && now `= _endDate && order.Total ` 0;
     }
 }
-```text
 
-### Practical Implementation (8 minutes)
+    ### Practical Implementation (8 minutes)
 
-#### OCP Implementation Patterns
+    #### OCP Implementation Patterns
 
-##### Pattern 1: Template Method Pattern
-
-```csharp
+    ##### Pattern 1: Template Method Pattern
+csharp
 // Abstract base class defines algorithm structure
 public abstract class ReportGenerator
 {

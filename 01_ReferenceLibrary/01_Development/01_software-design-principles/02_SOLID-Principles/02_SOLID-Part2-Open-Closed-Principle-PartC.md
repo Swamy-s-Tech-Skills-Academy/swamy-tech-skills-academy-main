@@ -36,11 +36,9 @@ public class ExcelReportGenerator : ReportGenerator
     private string GenerateExcelWorkbook(object data) { /* Implementation */ return "Excel"; }
 }
 
-```text
 
-##### Pattern 2: Decorator Pattern
-
-```csharp
+    ##### Pattern 2: Decorator Pattern
+csharp
 // Base interface
 public interface INotificationSender
 {
@@ -110,11 +108,9 @@ public class LoggedNotificationSender : INotificationSender
         }
     }
 }
-```text
 
-##### Dependency Injection Configuration
-
-```csharp
+    ##### Dependency Injection Configuration
+csharp
 // Configure services for OCP compliance
 public void ConfigureServices(IServiceCollection services)
 {

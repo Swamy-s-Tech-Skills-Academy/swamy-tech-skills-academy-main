@@ -69,11 +69,9 @@ Next: [04_SOLID-Principles-Deep-Dive-PartC.md](04_SOLID-Principles-Deep-Dive-Par
     }
 }
 
-```text
 
-### **✅ OCP Compliant Solution**
-
-```csharp
+    ### **✅ OCP Compliant Solution**
+csharp
 // GOOD - Open for extension, closed for modification
 public abstract class Shape
 {
@@ -109,11 +107,9 @@ public class AreaCalculator
 {
     public double CalculateArea(Shape shape) => shape.CalculateArea();
 }
-```text
 
-### **Modern C# OCP with Strategy Pattern**
-
-```csharp
+    ### **Modern C# OCP with Strategy Pattern**
+csharp
 // Interface for extensible behavior
 public interface IDiscountStrategy
 {
@@ -147,21 +143,19 @@ public class PriceCalculator
         return basePrice - discount;
     }
 }
-```text
 
----
+    ---
 
-## 🔄 L - Liskov Substitution Principle
+    ## 🔄 L - Liskov Substitution Principle
 
-### Definition and Goal (LSP)
+    ### Definition and Goal (LSP)
 
-> **"Objects of a superclass should be replaceable with objects of a subclass without breaking the application."** - Barbara Liskov
+    > **"Objects of a superclass should be replaceable with objects of a subclass without breaking the application."** - Barbara Liskov
 
-**Core Concept**: Derived classes must be substitutable for their base classes.
+    **Core Concept**: Derived classes must be substitutable for their base classes.
 
-### **❌ LSP Violation Example**
-
-```csharp
+    ### **❌ LSP Violation Example**
+csharp
 // BAD - Rectangle-Square violation of LSP
 public class Rectangle
 {

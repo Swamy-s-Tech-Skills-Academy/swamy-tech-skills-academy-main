@@ -26,11 +26,9 @@ Next: [05_SOLID-Part5-Dependency-Inversion-Principle-PartD.md](05_SOLID-Part5-De
     }
 }
 
-```text
 
-#### Dependency Injection Container Configuration
-
-```csharp
+    #### Dependency Injection Container Configuration
+csharp
 // Composition root - where dependencies are wired up
 public class ServiceConfiguration
 {
@@ -83,15 +81,13 @@ public class TestServiceConfiguration
         return services;
     }
 }
-```text
 
-### Practical Implementation (8 minutes)
+    ### Practical Implementation (8 minutes)
 
-#### Advanced DIP Patterns
+    #### Advanced DIP Patterns
 
-##### Factory Pattern with DIP
-
-```csharp
+    ##### Factory Pattern with DIP
+csharp
 // Abstract factory follows DIP
 public interface IRepositoryFactory
 {
@@ -158,11 +154,9 @@ public class ECommerceService
         await orderRepo.SaveAsync(order);
     }
 }
-```text
 
-##### Strategy Pattern with DIP
-
-```csharp
+    ##### Strategy Pattern with DIP
+csharp
 // Payment processing with DIP
 public interface IPaymentProcessor
 {

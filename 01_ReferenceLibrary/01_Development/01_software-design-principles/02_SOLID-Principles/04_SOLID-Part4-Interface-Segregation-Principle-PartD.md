@@ -143,11 +143,9 @@ public class CacheService
         return _cache.Get`T`(key);
     }
 }
-```text
 
-#### Testing with ISP
-
-```csharp
+    #### Testing with ISP
+csharp
 // ISP makes testing much simpler
 public class OrderServiceTests
 {

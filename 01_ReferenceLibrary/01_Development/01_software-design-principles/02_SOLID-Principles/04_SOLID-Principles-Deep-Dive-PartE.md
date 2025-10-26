@@ -55,21 +55,19 @@ Next: [04_SOLID-Principles-Deep-Dive-PartF.md](04_SOLID-Principles-Deep-Dive-Par
     }
 }
 
-```text
 
----
+    ---
 
-## 🔗 D - Dependency Inversion Principle
+    ## 🔗 D - Dependency Inversion Principle
 
-### Definition and Goal (DIP)
+    ### Definition and Goal (DIP)
 
-> **"High-level modules should not depend on low-level modules. Both should depend on abstractions."** - Robert C. Martin
+    > **"High-level modules should not depend on low-level modules. Both should depend on abstractions."** - Robert C. Martin
 
-**Core Concept**: Depend on abstractions, not concretions.
+    **Core Concept**: Depend on abstractions, not concretions.
 
-### **❌ DIP Violation Example**
-
-```csharp
+    ### **❌ DIP Violation Example**
+csharp
 // BAD - High-level class depends on low-level implementation
 public class EmailService
 {
@@ -96,11 +94,9 @@ public class OrderService
         // Tightly coupled, hard to test
     }
 }
-```text
 
-### **✅ DIP Compliant Solution**
-
-```csharp
+    ### **✅ DIP Compliant Solution**
+csharp
 // GOOD - Depend on abstractions
 public interface IEmailService
 {

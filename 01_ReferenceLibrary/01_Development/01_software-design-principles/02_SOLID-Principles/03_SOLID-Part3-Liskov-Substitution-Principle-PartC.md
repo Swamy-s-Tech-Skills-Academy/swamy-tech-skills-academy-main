@@ -73,15 +73,13 @@ public class DocumentProcessor
     private string ProcessBytes(byte[] data) => Convert.ToBase64String(data);
 }
 
-```text
 
-### Practical Implementation (8 minutes)
+    ### Practical Implementation (8 minutes)
 
-#### LSP Validation Techniques
+    #### LSP Validation Techniques
 
-##### Contract Testing
-
-```csharp
+    ##### Contract Testing
+csharp
 // Base class contract tests
 public abstract class FileStorageContractTests`T` where T : IFileStorage
 {
@@ -122,11 +120,9 @@ public class LocalFileStorageTests : FileStorageContractTests`LocalFileStorage`
         return new LocalFileStorage();
     }
 }
-```text
 
-##### Behavioral Invariant Checking
-
-```csharp
+    ##### Behavioral Invariant Checking
+csharp
 // Base class with invariant checking
 public abstract class BankAccount
 {

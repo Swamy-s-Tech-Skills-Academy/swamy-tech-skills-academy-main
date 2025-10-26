@@ -57,11 +57,9 @@ public class UserManagementService
     }
 }
 
-```text
 
-##### Query vs Command Segregation
-
-```csharp
+    ##### Query vs Command Segregation
+csharp
 // Separate query and command interfaces
 public interface IOrderQueries
 {
@@ -126,15 +124,13 @@ public class OrderProcessingService
         await _orderCommands.UpdateOrderStatusAsync(orderId, OrderStatus.Processing);
     }
 }
-```text
 
-### Practical Implementation (8 minutes)
+    ### Practical Implementation (8 minutes)
 
-#### ISP Implementation Strategies
+    #### ISP Implementation Strategies
 
-##### Strategy 1: Interface Composition
-
-```csharp
+    ##### Strategy 1: Interface Composition
+csharp
 // Build complex interfaces from simple ones
 public interface IBasicCrud`T`
 {

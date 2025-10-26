@@ -101,11 +101,9 @@ public class PayPalProcessor : IPaymentProcessor
     }
 }
 
-```text
 
-#### Testing with DIP
-
-```csharp
+    #### Testing with DIP
+csharp
 // DIP makes unit testing straightforward
 public class OrderServiceTests
 {

@@ -38,11 +38,9 @@ public class Square : IFixedRatioShape
     }
 }
 
-```text
 
-##### Solution 2: Immutable Design
-
-```csharp
+    ##### Solution 2: Immutable Design
+csharp
 // ✅ GOOD: Immutable shapes eliminate mutation concerns
 public abstract class ImmutableShape
 {
@@ -93,13 +91,11 @@ public class ImmutableSquare : ImmutableShape
         return new ImmutableSquare(Side * factor);
     }
 }
-```text
 
-#### Real-World LSP Scenarios
+    #### Real-World LSP Scenarios
 
-##### File Storage Example
-
-```csharp
+    ##### File Storage Example
+csharp
 // ❌ BAD: ReadOnlyFileStorage violates LSP
 public abstract class FileStorage
 {
@@ -145,11 +141,9 @@ public class ReadOnlyFileStorage : FileStorage
         return await File.ReadAllBytesAsync(path);
     }
 }
-```text
 
-##### LSP-Compliant Solution
-
-```csharp
+    ##### LSP-Compliant Solution
+csharp
 // ✅ GOOD: Interface segregation preserves LSP
 public interface IReadableStorage
 {

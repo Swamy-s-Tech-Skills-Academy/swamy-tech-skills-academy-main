@@ -85,11 +85,9 @@ public void TestRectangle(Rectangle rectangle)
     Assert.AreEqual(50, rectangle.CalculateArea());
 }
 
-```text
 
-### **✅ LSP Compliant Solution**
-
-```csharp
+    ### **✅ LSP Compliant Solution**
+csharp
 // GOOD - Proper abstraction that supports substitution
 public abstract class Shape
 {
@@ -117,11 +115,9 @@ public void TestShape(Shape shape)
     var area = shape.CalculateArea();
     // No unexpected side effects, behavior is predictable
 }
-```text
 
-### **LSP with Preconditions and Postconditions**
-
-```csharp
+    ### **LSP with Preconditions and Postconditions**
+csharp
 // Base class contract
 public abstract class FileProcessor
 {

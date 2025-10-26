@@ -76,11 +76,9 @@ public class Human : IWorker
     public void Sleep() => Console.WriteLine("Human sleeping");
 }
 
-```text
 
-### **✅ ISP Compliant Solution**
-
-```csharp
+    ### **✅ ISP Compliant Solution**
+csharp
 // GOOD - Segregated interfaces based on client needs
 public interface IWorkable
 {
@@ -121,11 +119,9 @@ public class CafeteriaManager
 {
     public void ServeMeal(IFeedable creature) => creature.Eat();
 }
-```text
 
-### **Real-World ISP Example: Data Access**
-
-```csharp
+    ### **Real-World ISP Example: Data Access**
+csharp
 // Instead of fat interface
 public interface IRepository
 {

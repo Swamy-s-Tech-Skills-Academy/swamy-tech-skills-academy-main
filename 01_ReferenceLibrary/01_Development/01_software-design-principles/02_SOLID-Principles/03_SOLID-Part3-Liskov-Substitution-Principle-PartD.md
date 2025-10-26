@@ -36,13 +36,11 @@ public class SavingsAccount : BankAccount
     // LSP compliant: doesn't strengthen preconditions or weaken postconditions
 }
 
-```text
 
-#### Design Patterns Supporting LSP
+    #### Design Patterns Supporting LSP
 
-##### Template Method with LSP
-
-```csharp
+    ##### Template Method with LSP
+csharp
 public abstract class DataProcessor<T`
 {
     // Template method - defines algorithm structure
