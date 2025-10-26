@@ -1,15 +1,11 @@
-# 04_OOP-Advanced-Patterns - Part B
+# 04_OOP-Advanced-Patterns - Part B\n\n**Learning Level**: Intermediate
 
-**Learning Level**: Intermediate
 **Prerequisites**: [04_OOP-Advanced-Patterns-PartA.md](04_OOP-Advanced-Patterns-PartA.md)
 **Estimated Time**: 27 minutes (focused learning session)
-**Series**: Part B of 2 - Advanced Patterns
 
----
+## **Series**: Part B of 2 - Advanced Patterns
 
-## 🎯 Learning Objectives
-
-By the end of this session, you will:
+## 🎯 Learning Objectives\n\nBy the end of this session, you will
 
 - [Add specific learning objectives]
 
@@ -19,223 +15,126 @@ By the end of this session, you will:
 - Make informed composition vs inheritance decisions
 - Design with interfaces and abstract classes effectively
 - Implement dependency injection for flexible systems
-- Apply OOP best practices for enterprise-grade code
+- Apply OOP best practices for enterprise-grade code\n\n## 📋 Content Sections (27-Minute Structure)\n\n### Quick Review (5 minutes)
 
-## 📋 Content Sections (27-Minute Structure)
-
-### Quick Review (5 minutes)
-
-**Foundation**: Classes, encapsulation, abstraction, inheritance, polymorphism
+\n\n\n\n**Foundation**: Classes, encapsulation, abstraction, inheritance, polymorphism
 **Today's Focus**: Advanced architectural patterns for professional development
 
 ### Core Concepts (15 minutes)
 
-#### Composition vs Inheritance: Strategic Decision Making
+\n\n
 
-**Golden Rule**: *"Favor composition over inheritance"*
+### Composition vs Inheritance: Strategic Decision Making
+
+\n\n\n\n**Golden Rule**: *"Favor composition over inheritance"*
 
 ```text
-🎯 Decision Framework
-====================
-
-Inheritance (IS-A):        Composition (HAS-A):
+# 🎯 Decision Framework\n\nInheritance (IS-A):        Composition (HAS-A):
 ├── Dog IS-A Animal       ├── Car HAS-A Engine
 ├── Manager IS-A Employee ├── House HAS-A Kitchen
 └── Circle IS-A Shape     └── Team HAS-A Members
 ```csharp
 
-## Composition Implementation Pattern
+## Composition Implementation Pattern\n\n```pseudocode
 
-```pseudocode
 // Composition: Building complex objects from simpler ones
 class Engine:
-    start(): "Engine started"
-    stop(): "Engine stopped"
+```csharp\nstart(): "Engine started"\n```csharp\n```csharp\nstop(): "Engine stopped"\n```csharp\nclass GPS:
+```csharp\nnavigate(destination): "Route to " + destination\n```csharp\nclass Car:
+```csharp\nproperties:\n```csharp\n```csharp\n    engine: Engine          // HAS-A Engine\n```csharp\n```csharp\n    gps: GPS               // HAS-A GPS\n```csharp\n```csharp\n    brand: string\n```csharp\n```csharp\nmethods:\n```csharp\n```csharp\n    startCar():\n```csharp\n```csharp\n        engine.start()      // Delegate to composed object\n```csharp\n```csharp\n        return "Car ready to drive"\n```csharp\n```csharp\n    navigateTo(destination):\n```csharp\n```csharp        return gps.navigate(destination)  // Delegate behavior
+```csharp\n```csharp
 
-class GPS:
-    navigate(destination): "Route to " + destination
+### Abstract Classes vs Interfaces: Design Contracts
 
-class Car:
-    properties:
-        engine: Engine          // HAS-A Engine
-        gps: GPS               // HAS-A GPS
-        brand: string
-
-    methods:
-        startCar():
-            engine.start()      // Delegate to composed object
-            return "Car ready to drive"
-
-        navigateTo(destination):
-            return gps.navigate(destination)  // Delegate behavior
-```csharp
-
-#### Abstract Classes vs Interfaces: Design Contracts
-
-```pseudocode
+\n\n\n\n```pseudocode
 // Abstract Class: Shared implementation + contracts
 abstract class DatabaseService:
-    // Shared implementation
-    validateConnection(): boolean
-    logQuery(query): void
-
-    // Contract (must implement)
-    abstract connect(): Connection
-    abstract executeQuery(sql): Results
-
-// Interface: Pure contracts
+```csharp\n// Shared implementation\n```csharp\n```csharp\nvalidateConnection(): boolean\n```csharp\n```csharp\nlogQuery(query): void\n```csharp\n```csharp\n// Contract (must implement)\n```csharp\n```csharp\nabstract connect(): Connection\n```csharp\n```csharp\nabstract executeQuery(sql): Results\n```csharp\n// Interface: Pure contracts
 interface Serializable:
-    serialize(): string
-    deserialize(data): Object
-
-interface Cacheable:
-    getCacheKey(): string
-    getExpiration(): number
-
-// Implementation
+```csharp\nserialize(): string\n```csharp\n```csharp\ndeserialize(data): Object\n```csharp\ninterface Cacheable:
+```csharp\ngetCacheKey(): string\n```csharp\n```csharp\ngetExpiration(): number\n```csharp\n// Implementation
 class MySQLService extends DatabaseService implements Serializable:
-    connect(): return mysql_connect()
-    executeQuery(sql): return mysql_query(sql)
-    serialize(): return JSON.stringify(this.connectionInfo)
-    deserialize(data): return JSON.parse(data)
-```csharp
+```csharp\nconnect(): return mysql_connect()\n```csharp\n```csharp\nexecuteQuery(sql): return mysql_query(sql)\n```csharp\n```csharp\nserialize(): return JSON.stringify(this.connectionInfo)\n```csharp\n```csharpdeserialize(data): return JSON.parse(data)
+```csharp\n```csharp
 
-#### Dependency Injection: Loose Coupling Pattern
+### Dependency Injection: Loose Coupling Pattern
 
-```pseudocode
+\n\n\n\n```pseudocode
 // Without DI: Tight coupling (bad)
 class EmailService:
-    constructor():
-        this.smtpClient = new SMTPClient()  // Hard dependency
-
-// With DI: Loose coupling (good)
+```csharp\nconstructor():\n```csharp\n```csharp\n    this.smtpClient = new SMTPClient()  // Hard dependency\n```csharp\n// With DI: Loose coupling (good)
 class EmailService:
-    constructor(mailClient: IMailClient):   // Inject dependency
-        this.mailClient = mailClient
-
-// Interface contract
+```csharp\nconstructor(mailClient: IMailClient):   // Inject dependency\n```csharp\n```csharp\n    this.mailClient = mailClient\n```csharp\n// Interface contract
 interface IMailClient:
-    sendEmail(to, subject, body): boolean
-
-// Multiple implementations
+```csharp\nsendEmail(to, subject, body): boolean\n```csharp\n// Multiple implementations
 class SMTPClient implements IMailClient:
-    sendEmail(to, subject, body): // SMTP implementation
-
-class SendGridClient implements IMailClient:
-    sendEmail(to, subject, body): // SendGrid API implementation
-
-// Usage with DI
+```csharp\nsendEmail(to, subject, body): // SMTP implementation\n```csharp\nclass SendGridClient implements IMailClient:
+```csharp\nsendEmail(to, subject, body): // SendGrid API implementation\n```csharp\n// Usage with DI
 emailService = new EmailService(new SMTPClient())      // Production
 emailService = new EmailService(new MockMailClient()) // Testing
 ```csharp
 
-#### Enterprise Design Patterns
+### Enterprise Design Patterns
 
-```pseudocode
+\n\n\n\n```pseudocode
 // Factory Pattern: Object creation abstraction
 class DatabaseFactory:
-    static createConnection(type):
-        switch type:
-            case "mysql": return new MySQLConnection()
-            case "postgres": return new PostgreSQLConnection()
-            case "mongodb": return new MongoDBConnection()
-
-// Observer Pattern: Event-driven communication
+```csharp\nstatic createConnection(type):\n```csharp\n```csharp\n    switch type:\n```csharp\n```csharp\n        case "mysql": return new MySQLConnection()\n```csharp\n```csharp\n        case "postgres": return new PostgreSQLConnection()\n```csharp\n```csharp\n        case "mongodb": return new MongoDBConnection()\n```csharp\n// Observer Pattern: Event-driven communication
 interface Observer:
-    update(event): void
-
-class EventPublisher:
-    observers: Observer[]
-
-    subscribe(observer): observers.add(observer)
-    notify(event):
-        for observer in observers:
-            observer.update(event)
-
-// Strategy Pattern: Interchangeable algorithms
+```csharp\nupdate(event): void\n```csharp\nclass EventPublisher:
+```csharp\nobservers: Observer[]\n```csharp\n```csharp\nsubscribe(observer): observers.add(observer)\n```csharp\n```csharp\nnotify(event):\n```csharp\n```csharp\n    for observer in observers:\n```csharp\n```csharp\n        observer.update(event)\n```csharp\n// Strategy Pattern: Interchangeable algorithms
 interface PaymentStrategy:
-    processPayment(amount): boolean
-
-class CreditCardStrategy implements PaymentStrategy:
-    processPayment(amount): // Credit card processing
-
-class PayPalStrategy implements PaymentStrategy:
-    processPayment(amount): // PayPal processing
-
-class PaymentProcessor:
-    constructor(strategy: PaymentStrategy):
-        this.strategy = strategy
-
-    processPayment(amount):
-        return strategy.processPayment(amount)
-```csharp
+```csharp\nprocessPayment(amount): boolean\n```csharp\nclass CreditCardStrategy implements PaymentStrategy:
+```csharp\nprocessPayment(amount): // Credit card processing\n```csharp\nclass PayPalStrategy implements PaymentStrategy:
+```csharp\nprocessPayment(amount): // PayPal processing\n```csharp\nclass PaymentProcessor:
+```csharp\nconstructor(strategy: PaymentStrategy):\n```csharp\n```csharp\n    this.strategy = strategy\n```csharp\n```csharp\nprocessPayment(amount):\n```csharp\n```csharp    return strategy.processPayment(amount)
+```csharp\n```csharp
 
 ### Practical Implementation (5 minutes)
 
-#### Real-World Enterprise Pattern
+\n\n
 
-```pseudocode
+### Real-World Enterprise Pattern
+
+\n\n\n\n```pseudocode
 // Service Layer with DI
 class UserService:
-    constructor(userRepo, emailService, logger):
-        this.userRepo = userRepo
-        this.emailService = emailService
-        this.logger = logger
-        user = new User(userData)
-        savedUser = userRepo.save(user)
-        emailService.sendWelcomeEmail(savedUser)
-        logger.log("User registered: " + user.email)
-        return savedUser
-
-// DI Container (Framework concept)
+```csharp\nconstructor(userRepo, emailService, logger):\n```csharp\n```csharp\n    this.userRepo = userRepo\n```csharp\n```csharp\n    this.emailService = emailService\n```csharp\n```csharp\n    this.logger = logger\n```csharp\n```csharp\n    user = new User(userData)\n```csharp\n```csharp\n    savedUser = userRepo.save(user)\n```csharp\n```csharp\n    emailService.sendWelcomeEmail(savedUser)\n```csharp\n```csharp\n    logger.log("User registered: " + user.email)\n```csharp\n```csharp\n    return savedUser\n```csharp\n// DI Container (Framework concept)
 container.register(UserRepository, DatabaseUserRepository)
 userService = container.resolve(UserService)  // Auto-inject dependencies
 ```csharp
 
 ### Key Takeaways & Next Steps (2 minutes)
 
-#### Essential Design Principles
+\n\n
 
-✅ **Composition over Inheritance**: Build flexible systems with HAS-A relationships
+### Essential Design Principles
+
+\n\n\n\n✅ **Composition over Inheritance**: Build flexible systems with HAS-A relationships
 ✅ **Interface Segregation**: Small, focused contracts over large interfaces
 ✅ **Dependency Injection**: Inject dependencies rather than creating them
 ✅ **Single Responsibility**: Each class should have one reason to change
 
-#### Best Practices
+### Best Practices
 
-- Abstract classes: shared implementation + contracts
-- Interfaces: pure behavioral contracts
-- DI: testable, maintainable code
+\n\n\n\n- Abstract classes: shared implementation + contracts
+  - Interfaces: pure behavioral contracts
+  - DI: testable, maintainable code\n\n### Next Steps
 
-#### Next Steps
+\n\n\n\n- **Immediate**: Practice implementing these patterns in your preferred language
+  - **Advanced**: Study SOLID principles for robust OOP design
+  - **Enterprise**: Learn framework-specific DI containers (Spring, .NET Core, etc.)\n\n## ðŸ”— Related Topics\n\n### Prerequisites Met ✅
 
-- **Immediate**: Practice implementing these patterns in your preferred language
-- **Advanced**: Study SOLID principles for robust OOP design
-- **Enterprise**: Learn framework-specific DI containers (Spring, .NET Core, etc.)
+\n\n\n\n- **Parts 1A-1C**: Complete OOP fundamentals mastery
+  - **Design Thinking**: Problem decomposition and abstraction\n\n### Builds Upon 🏗️
 
-## ðŸ”— Related Topics
+\n\n\n\n- Inheritance and polymorphism concepts
+  - Interface and abstract class understanding
+  - Enterprise software architecture principles\n\n### Enables 🎯
 
-### Prerequisites Met ✅
-
-- **Parts 1A-1C**: Complete OOP fundamentals mastery
-- **Design Thinking**: Problem decomposition and abstraction
-
-### Builds Upon 🏗️
-
-- Inheritance and polymorphism concepts
-- Interface and abstract class understanding
-- Enterprise software architecture principles
-
-### Enables 🎯
-
-- **SOLID Principles**: Advanced OOP design principles
-- **Design Patterns**: Gang of Four patterns implementation
-- **Enterprise Frameworks**: Spring, .NET, Django patterns
-
----
-
-## Part B of 2
-
-Previous: [04_OOP-Advanced-Patterns-PartA.md](04_OOP-Advanced-Patterns-PartA.md)
+\n\n\n\n- **SOLID Principles**: Advanced OOP design principles
+  - **Design Patterns**: Gang of Four patterns implementation
+##   - **Enterprise Frameworks**: Spring, .NET, Django patterns
+## Part B of 2\n\nPrevious: [04_OOP-Advanced-Patterns-PartA.md](04_OOP-Advanced-Patterns-PartA.md)
 
 ---

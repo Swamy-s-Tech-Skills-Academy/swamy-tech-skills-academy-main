@@ -1,179 +1,113 @@
-# **OOD in C# with Class Diagrams** - Part B
+# **OOD in C# with Class Diagrams** - Part B\n\n**Learning Level**: Intermediate
 
-**Learning Level**: Intermediate
 **Prerequisites**: [07_OOD-Basics-PartA.md](07_OOD-Basics-PartA.md)
 **Estimated Time**: 27 minutes (focused learning session)
-**Series**: Part B of 3 - OOD Basics
 
----
+## **Series**: Part B of 3 - OOD Basics
 
-## 🎯 Learning Objectives
-
-By the end of this session, you will:
+## 🎯 Learning Objectives\n\nBy the end of this session, you will
 
 - [Add specific learning objectives]
 
 ---
+
 ### **1. Class**
 
-- **Definition**: A blueprint for creating objects. It encapsulates fields and methods.
-- **C# Example**:
+\n\n\n\n- **Definition**: A blueprint for creating objects. It encapsulates fields and methods
 
-  ```csharp
-  public class Car
-  {
-      public string Make { get; set; }
-      public string Model { get; set; }
-
-      public void Drive()
-      {
-          Console.WriteLine("Driving the car...");
-      }
-  }
-  ```
-
-- **Class Diagram**: [Class Diagram for Car](https://www.plantuml.com/plantuml/uml/SoWkIImgAStDuU9BoIhEIImk5D0e5L9Bo2vEpK_oiy9Ep4DiIW_8p4L9Q0dCJ4HMLtLKXL93qD__cCIFPMEx9bUsKc1FpjIFpmIQZJYIMZ3LtA4ZDA3n0000)
-
----
-
-**Part B of 3**
-
-Previous: [07_OOD-Basics-PartA.md](07_OOD-Basics-PartA.md)
-Next: [07_OOD-Basics-PartC.md](07_OOD-Basics-PartC.md)
-
----
+- **C# Example**:\n\n  ```csharp
 
   public class Car
   {
-      private Engine _engine;
+```csharp\n  public string Make { get; set; }\n```csharp\n```csharp\n  public string Model { get; set; }\n```csharp\n```csharp\n  public void Drive()\n```csharp\n```csharp\n  {\n```csharp\n```csharp\n      Console.WriteLine("Driving the car...");\n```csharp\n```csharp\n  }\n```csharp\n  }
 
-      public Car(Engine engine)
-      {
-          _engine = engine;
-      }
+## ```csharp\n- **Class Diagram**: [Class Diagram for Car](https://www.plantuml.com/plantuml/uml/SoWkIImgAStDuU9BoIhEIImk5D0e5L9Bo2vEpK_oiy9Ep4DiIW_8p4L9Q0dCJ4HMLtLKXL93qD__cCIFPMEx9bUsKc1FpjIFpmIQZJYIMZ3LtA4ZDA3n0000)
 
-      public void StartCar() => _engine.Start();
-  }
+### Part B of 3\n\nPrevious: [07_OOD-Basics-PartA.md](07_OOD-Basics-PartA.md)
 
-  ```
+## Next: [07_OOD-Basics-PartC.md](07_OOD-Basics-PartC.md)\n\n  public class Car
 
-- **Class Diagram**: [Class Diagram for Dependency](https://www.plantuml.com/plantuml/uml/SoWkIImgAStDuKhEIImk5U9q54dCJYrBI40fN4vAp2DKJZDyLo50jPKVL0000)
+  {
+```csharp\n  private Engine _engine;\n```csharp\n```csharp\n  public Car(Engine engine)\n```csharp\n```csharp\n  {\n```csharp\n```csharp\n      _engine = engine;\n```csharp\n```csharp\n  }\n```csharp\n```csharp\n  public void StartCar() => _engine.Start();\n```csharp\n  }
 
----
+## ```csharp\n- **Class Diagram**: [Class Diagram for Dependency](https://www.plantuml.com/plantuml/uml/SoWkIImgAStDuKhEIImk5U9q54dCJYrBI40fN4vAp2DKJZDyLo50jPKVL0000)
 
 ### **9. Realization**
 
-- **Definition**: When a class implements an interface, it "realizes" the behavior defined by the interface.
-- **C# Example**:
+\n\n\n\n- **Definition**: When a class implements an interface, it "realizes" the behavior defined by the interface
 
-  ```csharp
+- **C# Example**:\n\n  ```csharp
+
   public interface IVehicle
   {
-      void Drive();
-  }
-
+```csharp\n  void Drive();\n```csharp\n  }
   public class Car : IVehicle
   {
-      public void Drive() => Console.WriteLine("Driving the car...");
-  }
-  ```
+```csharp\n  public void Drive() => Console.WriteLine("Driving the car...");\n```csharp\n  }
 
-- **Class Diagram**: [Class Diagram for Realization](https://www.plantuml.com/plantuml/uml/SoWkIImgAStDuKhEIImk5U9q54dCJYrBI40jN4vAp2DKJZDyLo50jPKXL0000)
-
----
+## ```csharp- **Class Diagram**: [Class Diagram for Realization](https://www.plantuml.com/plantuml/uml/SoWkIImgAStDuKhEIImk5U9q54dCJYrBI40jN4vAp2DKJZDyLo50jPKXL0000)
 
 ### **Summary**
 
-These principles, combined with their corresponding diagrams, help design systems that are modular, reusable, and scalable. The class diagrams illustrate relationships, making it easier to visualize complex systems.
-
+\n\n\n\nThese principles, combined with their corresponding diagrams, help design systems that are modular, reusable, and scalable. The class diagrams illustrate relationships, making it easier to visualize complex systems
 The links I provided earlier use placeholders for online UML tools like PlantUML, which you can use to visualize class diagrams. Here's how you can generate and view them:
 
-1. **Copy the PlantUML Code**:
-   Copy the provided code snippets and paste them into a PlantUML-compatible viewer.
+1. **Copy the PlantUML Code**:\n\n   Copy the provided code snippets and paste them into a PlantUML-compatible viewer.
+1. **Online Editors**:\n\n   - Use [PlantText](https://www.planttext.com/) or [PlantUML Editor](https://plantuml.com/plantuml-editor).
 
-2. **Online Editors**:
+- Paste the PlantUML code into the editor, and it will render the diagram.
 
-   - Use [PlantText](https://www.planttext.com/) or [PlantUML Editor](https://plantuml.com/plantuml-editor).
-   - Paste the PlantUML code into the editor, and it will render the diagram.
+1. **Local Setup**:\n\n   If you prefer a local setup, install PlantUML:
 
-3. **Local Setup**:
-   If you prefer a local setup, install PlantUML:
-   - Install [Java Runtime Environment (JRE)](https://www.oracle.com/java/technologies/javase-jre8-downloads.html).
-   - Download the [PlantUML jar file](https://plantuml.com/download).
-   - Run it locally to generate UML diagrams.
+- Install [Java Runtime Environment (JRE)](https://www.oracle.com/java/technologies/javase-jre8-downloads.html).
+- Download the [PlantUML jar file](https://plantuml.com/download).
+- Run it locally to generate UML diagrams.
 
-Here are updated PlantUML scripts you can use for each concept.
+## Here are updated PlantUML scripts you can use for each concept
 
----
+### **1. Class** 2
 
-### **1. Class**
+\n\n
 
-```plantuml
-@startuml
+```plantuml\n\n@startuml
 class Car {
-    +Make : String
-    +Model : String
-    +Drive() : void
-}
+```csharp\n+Make : String\n```csharp\n```csharp\n+Model : String\n```csharp\n```csharp\n+Drive() : void\n```csharp\n}
 @enduml
-```
-
----
+```csharp---
 
 ### **2. Generalization**
 
-```plantuml
-@startuml
+\n\n
+```plantuml\n\n@startuml
 class Animal {
-    +Name : String
-    +Eat() : void
-}
-
+```csharp\n+Name : String\n```csharp\n```csharp\n+Eat() : void\n```csharp\n}
 class Dog
 class Cat
-
 Animal <|-- Dog
 Animal <|-- Cat
 @enduml
-```
-
----
+```csharp---
 
 ### **3. Specialization**
 
-```plantuml
-@startuml
+\n\n
+```plantuml\n\n@startuml
 class Car {
-    +Make : String
-    +Model : String
-    +Drive() : void
-}
-
+```csharp\n+Make : String\n```csharp\n```csharp\n+Model : String\n```csharp\n```csharp\n+Drive() : void\n```csharp\n}
 class ElectricCar {
-    +BatteryCapacity : int
-    +ChargeBattery() : void
-}
-
+```csharp\n+BatteryCapacity : int\n```csharp\n```csharp\n+ChargeBattery() : void\n```csharp\n}
 Car <|-- ElectricCar
 @enduml
-```
-
----
+```csharp---
 
 ### **4. Association**
 
-```plantuml
-@startuml
+\n\n
+```plantuml\n\n@startuml
 class Driver {
-    +Name : String
-}
-
+```csharp\n+Name : String\n```csharp\n}
 class Car {
-    +Driver : Driver
-}
-
+```csharp\n+Driver : Driver\n```csharp\n}
 Driver -- Car
 @enduml
-```
-
----
+```\n\n---
