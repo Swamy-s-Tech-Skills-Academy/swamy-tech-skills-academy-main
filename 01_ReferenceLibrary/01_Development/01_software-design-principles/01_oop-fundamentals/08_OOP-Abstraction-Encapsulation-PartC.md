@@ -71,7 +71,7 @@ class Circle : IShape {
 \n\n\n\n- [Lucidchart UML Basics](https://www.lucidchart.com/pages/uml-class-diagram)
   - [PlantUML Online Tool](https://plantuml.com/class-diagram)\n\nIf you need further UML diagrams or detailed code examples for each principle, let me know!
 
-Hereâ€™s the **PlantUML** text for a class diagram that illustrates the **OOP principles in C#**. It includes relationships like inheritance, composition, and realization:
+Here's the **PlantUML** text for a class diagram that illustrates the **OOP principles in C#**. It includes relationships like inheritance, composition, and realization:
 ```plantuml
 @startuml
 title OOP in C#

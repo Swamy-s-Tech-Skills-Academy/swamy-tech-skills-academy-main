@@ -68,7 +68,7 @@
 
 ## ```csharp\n- **Class Diagram**: [Class Diagram for Association](https://www.plantuml.com/plantuml/uml/SoWkIImgAStDuKhEIImk5U9q54dCJ4rFIK0fN4vAp2DKJZDyLo50fPKJof0000)
 
-### **5. Aggregation (Has-a â€“ Weak Ownership)**
+### **5. Aggregation (Has-a — Weak Ownership)**
 
 \n\n\n\n- **Definition**: A "has-a" relationship where contained objects exist independently
 
@@ -83,7 +83,7 @@
 
 ## ```csharp\n- **Class Diagram**: [Class Diagram for Aggregation](https://www.plantuml.com/plantuml/uml/SoWkIImgAStDuKhEIImk5U9q54dCJYrBIL0jN4vAp2DKJZDyLo50jPKL0000)
 
-### **6. Composition (Has-a â€“ Strong Ownership)**
+### **6. Composition (Has-a — Strong Ownership)**
 
 \n\n\n\n- **Definition**: A "has-a" relationship where contained objects are destroyed with the container
 

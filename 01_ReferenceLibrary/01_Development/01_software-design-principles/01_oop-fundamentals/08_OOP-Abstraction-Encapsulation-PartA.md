@@ -85,7 +85,7 @@ class Program {
 
 - **Encapsulation** is about **hiding the object's data** and controlling access.\n\nBoth principles are complementary and often work together in designing robust and secure applications.
 
-## Hereâ€™s a detailed explanation of **OOP in C#**, covering its core principles with examples and comparisons
+## Here's a detailed explanation of **OOP in C#**, covering its core principles with examples and comparisons
 
 ## **Object-Oriented Programming (OOP) in C#**\n\nOOP is a programming paradigm based on the concept of objects, which encapsulate data and behavior. C# is inherently an object-oriented language, and its design supports the following key principles
 

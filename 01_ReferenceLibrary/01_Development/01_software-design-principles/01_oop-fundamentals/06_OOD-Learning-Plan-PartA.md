@@ -73,7 +73,7 @@
 
 - **Decorator Pattern**: Create decorators to add additional responsibilities to a `Notification` class, e.g., `SMSNotification`, `EmailNotification`.
 
-1. **ISP Exercise**: Define a large interface, break it down into smaller, more specific interfaces, and refactor classes to implement only whatâ€™s necessary.\n\n---\n\n## **Week 3: Advanced OOD with Real-World Problem-Solving**
+1. **ISP Exercise**: Define a large interface, break it down into smaller, more specific interfaces, and refactor classes to implement only what's necessary.\n\n---\n\n## **Week 3: Advanced OOD with Real-World Problem-Solving**
 
 ### **Goals** 3
 
@@ -125,7 +125,7 @@
 - **Design a Movie Booking System**.
 - **Design a Hotel Reservation System**.
 
-1. **Peer Review and Feedback**:\n\n   - Work with peers or mentors to review each otherâ€™s code.
+1. **Peer Review and Feedback**:\n\n   - Work with peers or mentors to review each other's code.
 
 - Focus on code quality, adherence to SOLID, and use of patterns.
 
@@ -134,7 +134,7 @@
 - _Design Patterns: Elements of Reusable Object-Oriented Software_ by Gamma et al.
 - _Head First Design Patterns_ by Eric Freeman
 
-1. **Courses**:\n\n   - [Pluralsightâ€™s Object-Oriented Design Fundamentals](https://www.pluralsight.com)
+1. **Courses**:\n\n   - [Pluralsight's Object-Oriented Design Fundamentals](https://www.pluralsight.com)
 
 - [Udemy System Design and OOD Courses](https://www.udemy.com)
 
@@ -144,9 +144,9 @@
 
 ---
 
-## Following this plan, youâ€™ll develop a strong foundation in OOD and prepare to confidently tackle interview questions on interfaces, abstraction, and complex system designs in C
+## Following this plan, you'll develop a strong foundation in OOD and prepare to confidently tackle interview questions on interfaces, abstraction, and complex system designs in C
 
-## Date: 15-Nov-2024\n\nCertainly, Swamy! This is a very effective roadmap to build toward a Principal Software Engineer role with a strong emphasis on OOD in C#. Hereâ€™s a detailed learning plan tailored to that goal
+## Date: 15-Nov-2024\n\nCertainly, Swamy! This is a very effective roadmap to build toward a Principal Software Engineer role with a strong emphasis on OOD in C#. Here's a detailed learning plan tailored to that goal
 
 ---
 
