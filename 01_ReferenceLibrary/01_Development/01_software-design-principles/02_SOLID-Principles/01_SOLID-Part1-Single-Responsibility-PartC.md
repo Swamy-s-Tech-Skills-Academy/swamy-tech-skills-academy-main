@@ -28,7 +28,7 @@ Previous: [01_SOLID-Part1-Single-Responsibility-PartB.md](01_SOLID-Part1-Single-
     }
 }
 
-```csharp
+
 ### Key Takeaways & Next Steps (2 minutes)
 
 **SRP Benefits**:

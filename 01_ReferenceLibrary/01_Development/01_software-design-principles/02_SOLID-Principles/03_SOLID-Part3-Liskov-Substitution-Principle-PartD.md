@@ -119,7 +119,7 @@ public class CustomerDataProcessor : DataProcessor`Customer`
         Console.WriteLine($"Welcome email sent for customer: {customerId}");
     }
 }
-```text
+
 
 ### Key Takeaways & Next Steps (2 minutes)
 

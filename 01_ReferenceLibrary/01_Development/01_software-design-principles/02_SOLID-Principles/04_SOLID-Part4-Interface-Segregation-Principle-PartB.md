@@ -137,13 +137,11 @@ public class ScanService
     }
 }
 
-```csharp
 
-#### Advanced ISP Patterns
+    #### Advanced ISP Patterns
 
-##### Role-Based Interface Design
-
-```csharp
+    ##### Role-Based Interface Design
+csharp
 // Define interfaces based on roles/responsibilities
 public interface IReadOnlyUserRepository
 {

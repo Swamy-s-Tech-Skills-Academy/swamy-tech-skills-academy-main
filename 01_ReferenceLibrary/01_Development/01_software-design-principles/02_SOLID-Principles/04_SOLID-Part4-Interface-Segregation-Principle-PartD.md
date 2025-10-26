@@ -33,11 +33,9 @@ public class ProductCatalogService
     }
 }
 
-```csharp
 
-##### Strategy 2: Capability-Based Interfaces
-
-```csharp
+    ##### Strategy 2: Capability-Based Interfaces
+csharp
 // Define interfaces based on specific capabilities
 public interface IValidatable
 {

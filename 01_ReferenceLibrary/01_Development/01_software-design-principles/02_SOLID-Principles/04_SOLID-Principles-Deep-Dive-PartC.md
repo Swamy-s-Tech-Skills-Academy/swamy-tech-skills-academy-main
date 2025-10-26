@@ -152,20 +152,18 @@ public class BrokenFileProcessor : FileProcessor
         return null; // Violates postcondition!
     }
 }
-```csharp
 
----
+    ---
 
-## 🎭 I - Interface Segregation Principle
+    ## 🎭 I - Interface Segregation Principle
 
-### Definition and Goal (ISP)
+    ### Definition and Goal (ISP)
 
-> **"No client should be forced to depend on methods it does not use."** - Robert C. Martin
+    > **"No client should be forced to depend on methods it does not use."** - Robert C. Martin
 
-**Core Concept**: Many specific interfaces are better than one general-purpose interface.
+    **Core Concept**: Many specific interfaces are better than one general-purpose interface.
 
-### **❌ ISP Violation Example**
-
-```csharp
+    ### **❌ ISP Violation Example**
+csharp
 // BAD - Fat interface forcing unnecessary dependencies
 

@@ -132,7 +132,7 @@ public void ConfigureServices(IServiceCollection services)
     services.Decorate`INotificationSender, EncryptedNotificationSender`();
     services.Decorate`INotificationSender, LoggedNotificationSender`();
 }
-```text
+
 
 ### Key Takeaways & Next Steps (2 minutes)
 
