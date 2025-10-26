@@ -74,8 +74,7 @@ public class EmailService
     private readonly SmtpClient`_smtpClient = new SmtpClient();
 
     public void SendEmail(string to, string subject, string body)
-    {
-       `_smtpClient.Send(to, subject, body);
+    {`_smtpClient.Send(to, subject, body);
         // Hard to test, hard to change email provider
     }
 }
@@ -87,8 +86,7 @@ public class OrderService
     private readonly EmailService`_emailService = new();
 
     public void ProcessOrder(Order order)
-    {
-       `_orderRepository.Save(order);
+    {`_orderRepository.Save(order);
        `_emailService.SendEmail(order.CustomerEmail, "Order Confirmation", "...");
         // Tightly coupled, hard to test
     }
@@ -114,8 +112,7 @@ public class SmtpEmailService : IEmailService
     private readonly SmtpClient`_smtpClient;
 
     public SmtpEmailService(SmtpClient smtpClient)
-    {
-       `_smtpClient = smtpClient;
+    {`_smtpClient = smtpClient;
     }
 
     public async Task SendEmailAsync(string to, string subject, string body)
@@ -129,8 +126,7 @@ public class SqlOrderRepository : IOrderRepository
     private readonly string`_connectionString;
 
     public SqlOrderRepository(string connectionString)
-    {
-       `_connectionString = connectionString;
+    {`_connectionString = connectionString;
     }
 
     public async Task SaveAsync(Order order)
@@ -152,8 +148,7 @@ public class OrderService
     private readonly IEmailService`_emailService;
 
     public OrderService(IOrderRepository orderRepository, IEmailService emailService)
-    {
-       `_orderRepository = orderRepository;
+    {`_orderRepository = orderRepository;
        `_emailService = emailService;
     }
 
@@ -166,4 +161,3 @@ public class OrderService
             "Your order has been processed");
     }
 }
-

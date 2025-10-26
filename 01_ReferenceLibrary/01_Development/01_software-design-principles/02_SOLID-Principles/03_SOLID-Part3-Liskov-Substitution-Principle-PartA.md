@@ -53,8 +53,7 @@ Assert.Equal(20, rect.GetArea()); // FAILS! Returns 16
 ┌───────┴───────┬─────────────┐
 │               │             │
 Rectangle    Square      Circle
-(resizable)  (fixed)    (scalable)
-```
+(resizable)  (fixed)    (scalable)```
 
 **LSP Core Rules**:
 
@@ -67,9 +66,7 @@ Rectangle    Square      Circle
 
 #### Understanding Behavioral Contracts
 
-##### The Classic Rectangle-Square Problem
-
-```csharp
+##### The Classic Rectangle-Square Problem```csharp
 // ❌ BAD: Square violates LSP when inheriting from Rectangle
 public class Rectangle
 {
@@ -127,14 +124,11 @@ public class GeometryCalculator
         // Actual: 16 (4 * 4) - Square changed both dimensions!
         Console.WriteLine($"Area: {rect.GetArea()}"); // Violates LSP!
     }
-}
-```
+}```
 
 #### LSP-Compliant Design Solutions
 
-##### Solution 1: Interface Segregation
-
-```csharp
+##### Solution 1: Interface Segregation```csharp
 // ✅ GOOD: Separate interfaces for different capabilities
 public interface IShape
 {
@@ -170,4 +164,3 @@ public class Rectangle : IResizableShape
     {
         Width *= widthFactor;
         Height *= heightFactor;
-

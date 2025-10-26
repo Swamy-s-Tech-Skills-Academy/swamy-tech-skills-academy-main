@@ -146,7 +146,7 @@ csharp
 // ✅ GOOD: Interface segregation preserves LSP
 public interface IReadableStorage
 {
-    Task`byte[] ` ReadAsync(string path);
+    Task`byte[]` ReadAsync(string path);
     Task`bool` ExistsAsync(string path);
 }
 
@@ -165,4 +165,3 @@ public class LocalFileStorage : IFileStorage
 {
     public async Task`byte[]` ReadAsync(string path)
     {
-

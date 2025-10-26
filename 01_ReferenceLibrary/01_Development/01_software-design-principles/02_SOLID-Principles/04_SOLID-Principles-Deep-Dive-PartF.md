@@ -75,16 +75,13 @@ public class Program
         // Resolve high-level service
         var orderService = serviceProvider.GetService`OrderService`();
     }
-}
-```
+}```
 
 ---
 
 ## 🎯 SOLID in Practice: Complete Example
 
-### **E-commerce Order Processing System**
-
-```csharp
+### **E-commerce Order Processing System**```csharp
 // S - Single Responsibility: Each class has one job
 public class Order
 {
@@ -169,4 +166,3 @@ public class OrderService
     private readonly NotificationSender`_notificationSender;
 
     public OrderService(
-

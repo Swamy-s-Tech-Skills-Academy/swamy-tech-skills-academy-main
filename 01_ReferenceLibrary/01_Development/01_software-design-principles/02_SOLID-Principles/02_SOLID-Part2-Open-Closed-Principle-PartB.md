@@ -40,8 +40,7 @@ public class DiscountCalculator
     private readonly List`IDiscountStrategy``_strategies;
 
     public DiscountCalculator(IEnumerable`IDiscountStrategy` strategies)
-    {
-       `_strategies = strategies.ToList();
+    {`_strategies = strategies.ToList();
     }
 
     public DiscountResult CalculateBestDiscount(Order order)
@@ -70,8 +69,7 @@ public class LoyaltyDiscountStrategy : IDiscountStrategy
     private readonly decimal`_discountPerPoint;
 
     public LoyaltyDiscountStrategy(int requiredPoints, decimal discountPerPoint)
-    {
-       `_requiredPoints = requiredPoints;
+    {`_requiredPoints = requiredPoints;
        `_discountPerPoint = discountPerPoint;
     }
 
@@ -102,10 +100,8 @@ public class SeasonalDiscountStrategy : IDiscountStrategy
     private readonly decimal`_percentage;
 
     public SeasonalDiscountStrategy(DateTime startDate, DateTime endDate, decimal percentage)
-    {
-       `_startDate = startDate;
-       `_endDate = endDate;
-       `_percentage = percentage;
+    {`_startDate = startDate;
+       `_endDate = endDate;`_percentage = percentage;
     }
 
     public string Name => $"Seasonal {_percentage * 100}% Off";
@@ -113,7 +109,7 @@ public class SeasonalDiscountStrategy : IDiscountStrategy
     public decimal CalculateDiscount(Order order)
     {
         var now = DateTime.Now.Date;
-        if (now >=`_startDate && now `=_endDate)
+        if (now >=`_startDate && now`=_endDate)
         {
             return order.Total *`_percentage;
         }
@@ -123,7 +119,7 @@ public class SeasonalDiscountStrategy : IDiscountStrategy
     public bool IsApplicable(Order order)
     {
         var now = DateTime.Now.Date;
-        return now `=`_startDate && now `=_endDate && order.Total ` 0;
+        return now`=`_startDate && now`=_endDate && order.Total ` 0;
     }
 }
 
@@ -167,4 +163,3 @@ public class PdfReportGenerator : ReportGenerator
     }
 
     private object ConvertToPdfFormat(object data) { /* Implementation */ return data; }
-

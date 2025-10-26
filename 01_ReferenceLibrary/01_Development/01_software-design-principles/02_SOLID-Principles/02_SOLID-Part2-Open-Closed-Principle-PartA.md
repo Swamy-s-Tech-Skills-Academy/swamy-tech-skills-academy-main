@@ -52,8 +52,7 @@ Next: [02_SOLID-Part2-Open-Closed-Principle-PartB.md](02_SOLID-Part2-Open-Closed
 ┌───────┼───────┬─────────────┐
 │       │       │             │
 Credit  PayPal  Bitcoin   NewMethod
-Card   Method   Method      ← ADD
-```csharp
+Card   Method   Method      ← ADD```csharp
 **Core Benefits**:
 
 - **Risk Reduction**: No existing code modification = no regression bugs
@@ -65,9 +64,7 @@ Card   Method   Method      ← ADD
 
 #### The Extension vs Modification Dilemma
 
-**Scenario**: E-commerce discount system
-
-```csharp
+**Scenario**: E-commerce discount system```csharp
 // ❌ BAD: Violates OCP - requires modification for new discount types
 public class DiscountCalculator
 {
@@ -88,8 +85,7 @@ public class DiscountCalculator
                 throw new ArgumentException($"Unknown discount type: {discountType}");
         }
     }
-}
-```csharp
+}```csharp
 **Problems with this approach**:
 
 - Every new discount type requires changing existing code
@@ -97,9 +93,7 @@ public class DiscountCalculator
 - Difficult to unit test individual discount strategies
 - Violates Single Responsibility (handles multiple discount types)
 
-#### OCP Solution: Strategy Pattern
-
-```csharp
+#### OCP Solution: Strategy Pattern```csharp
 // ✅ GOOD: OCP compliant using Strategy Pattern
 public interface IDiscountStrategy
 {
@@ -113,8 +107,7 @@ public class PercentageDiscountStrategy : IDiscountStrategy
     private readonly decimal`_percentage;
 
     public PercentageDiscountStrategy(decimal percentage)
-    {
-       `_percentage = percentage;
+    {`_percentage = percentage;
     }
 
     public string Name => $"{_percentage * 100}% Discount";
@@ -135,8 +128,7 @@ public class FixedAmountDiscountStrategy : IDiscountStrategy
     private readonly decimal`_amount;
 
     public FixedAmountDiscountStrategy(decimal amount)
-    {
-       `_amount = amount;
+    {`_amount = amount;
     }
 
     public string Name => $"${_amount} Off";
@@ -157,8 +149,7 @@ public class BuyOneGetOneStrategy : IDiscountStrategy
     private readonly string`_category;
 
     public BuyOneGetOneStrategy(string category)
-    {
-       `_category = category;
+    {`_category = category;
     }
 
     public string Name => $"BOGO {_category}";
@@ -191,16 +182,13 @@ public class DiscountEngine
     private readonly List`IDiscountStrategy``_availableStrategies;
 
     public DiscountEngine()
-    {
-       `_availableStrategies = new List`IDiscountStrategy`();
+    {`_availableStrategies = new List`IDiscountStrategy`();
     }
 
     public void RegisterStrategy(IDiscountStrategy strategy)
     {
         if (strategy == null)
-            throw new ArgumentNullException(nameof(strategy));
-
-       `_availableStrategies.Add(strategy);
+            throw new ArgumentNullException(nameof(strategy));`_availableStrategies.Add(strategy);
     }
 
     public void RemoveStrategy(IDiscountStrategy strategy)
@@ -255,14 +243,11 @@ public class DiscountResult
     public decimal DiscountAmount { get; set; }
     public string StrategyUsed { get; set; }
     public decimal FinalTotal { get; set; }
-}
-```csharp
+}```csharp
 
 ### Practical Implementation (8 minutes)
 
-#### Adding New Discount Types Without Modification
-
-```csharp
+#### Adding New Discount Types Without Modification```csharp
 // ✅ NEW: Seasonal discount strategy - added without modifying existing code
 public class SeasonalDiscountStrategy : IDiscountStrategy
 {
@@ -272,10 +257,8 @@ public class SeasonalDiscountStrategy : IDiscountStrategy
     private readonly string`_season;
 
     public SeasonalDiscountStrategy(decimal percentage, DateTime startDate, DateTime endDate, string season)
-    {
-       `_percentage = percentage;
-       `_startDate = startDate;
-       `_endDate = endDate;
+    {`_percentage = percentage;
+       `_startDate = startDate;`_endDate = endDate;
        `_season = season;
     }
 
@@ -289,7 +272,7 @@ public class SeasonalDiscountStrategy : IDiscountStrategy
     public bool IsApplicable(Order order)
     {
         var now = DateTime.Now.Date;
-        return now >=`_startDate.Date && now `=_endDate.Date && order.Total ` 0;
+        return now >=`_startDate.Date && now`=_endDate.Date && order.Total ` 0;
     }
 }
 
@@ -300,8 +283,7 @@ public class LoyaltyDiscountStrategy : IDiscountStrategy
     private readonly decimal`_discountPerPoint;
 
     public LoyaltyDiscountStrategy(int requiredPoints, decimal discountPerPoint)
-    {
-       `_requiredPoints = requiredPoints;
+    {`_requiredPoints = requiredPoints;
        `_discountPerPoint = discountPerPoint;
     }
 
@@ -353,8 +335,7 @@ public class DiscountConfiguration
 
         return engine;
     }
-}
-```csharp
+}```csharp
 ---
 
 ## ✅ Key Takeaways (2 minutes)

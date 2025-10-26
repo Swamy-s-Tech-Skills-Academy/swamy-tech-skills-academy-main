@@ -107,8 +107,7 @@ public class PrintService
     private readonly IPrinter`_printer;
 
     public PrintService(IPrinter printer) // Only depends on what it needs
-    {
-       `_printer = printer;
+    {`_printer = printer;
     }
 
     public void PrintDocument(Document document)
@@ -117,8 +116,7 @@ public class PrintService
     }
 
     public void ConfigurePrinting(PrintQuality quality)
-    {
-       `_printer.SetPrintQuality(quality);
+    {`_printer.SetPrintQuality(quality);
     }
 }
 
@@ -127,8 +125,7 @@ public class ScanService
     private readonly IScanner`_scanner;
 
     public ScanService(IScanner scanner) // Only depends on scanning capability
-    {
-       `_scanner = scanner;
+    {`_scanner = scanner;
     }
 
     public byte[] ScanDocument(ScanSettings settings)
@@ -167,6 +164,4 @@ public class UserProfileService
     private readonly IReadOnlyUserRepository`_userRepository; // Read-only dependency
 
     public UserProfileService(IReadOnlyUserRepository userRepository)
-    {
-       `_userRepository = userRepository;
-
+    {`_userRepository = userRepository;

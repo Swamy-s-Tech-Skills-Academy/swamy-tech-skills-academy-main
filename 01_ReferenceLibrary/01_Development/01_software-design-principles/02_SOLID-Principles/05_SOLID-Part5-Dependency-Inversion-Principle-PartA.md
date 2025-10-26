@@ -66,8 +66,7 @@ Problems:
 ┌─────────────────────────────────┐
 │   Concrete Implementations     │
 │   (Low-Level Modules)          │
-└─────────────────────────────────┘
-```
+└─────────────────────────────────┘```
 
 **DIP vs Dependency Injection**:
 
@@ -78,9 +77,7 @@ Problems:
 
 #### Understanding Dependency Direction
 
-##### Traditional Layered Architecture Problem
-
-```csharp
+##### Traditional Layered Architecture Problem```csharp
 // ❌ BAD: Violates DIP - high-level depends on low-level
 public class OrderService // High-level business logic
 {
@@ -90,10 +87,8 @@ public class OrderService // High-level business logic
 
     public OrderService()
     {
-        // Hard-coded dependencies - violates DIP
-       `_orderRepository = new SqlOrderRepository("connectionString");
-       `_emailService = new SmtpEmailService("smtp.company.com");
-       `_logger = new FileLogger("orders.log");
+        // Hard-coded dependencies - violates DIP`_orderRepository = new SqlOrderRepository("connectionString");
+       `_emailService = new SmtpEmailService("smtp.company.com");`_logger = new FileLogger("orders.log");
     }
 
     public async Task ProcessOrderAsync(Order order)
@@ -106,9 +101,7 @@ public class OrderService // High-level business logic
             await`_orderRepository.SaveAsync(order);
 
             var emailBody = $"Order {order.Id} confirmed";
-            await`_emailService.SendAsync(order.CustomerEmail, "Order Confirmation", emailBody);
-
-           `_logger.Log($"Order {order.Id} processed successfully");
+            await`_emailService.SendAsync(order.CustomerEmail, "Order Confirmation", emailBody);`_logger.Log($"Order {order.Id} processed successfully");
         }
         catch (Exception ex)
         {
@@ -122,12 +115,9 @@ public class OrderService // High-level business logic
 // 1. OrderService breaks when SqlOrderRepository changes
 // 2. Cannot test OrderService without real database/email/file system
 // 3. Cannot substitute different implementations (e.g., MongoDB, SendGrid)
-// 4. Configuration is hard-coded and inflexible
-```
+// 4. Configuration is hard-coded and inflexible```
 
-#### DIP-Compliant Solution: Inversion of Control
-
-```csharp
+#### DIP-Compliant Solution: Inversion of Control```csharp
 // ✅ GOOD: DIP compliant - depends on abstractions
 public interface IOrderRepository
 {
@@ -161,13 +151,10 @@ public class OrderService
         IOrderRepository orderRepository,
         IEmailService emailService,
         ILogger logger)
-    {
-       `_orderRepository = orderRepository ?? throw new ArgumentNullException(nameof(orderRepository));
-       `_emailService = emailService ?? throw new ArgumentNullException(nameof(emailService));
-       `_logger = logger ?? throw new ArgumentNullException(nameof(logger));
+    {`_orderRepository = orderRepository ?? throw new ArgumentNullException(nameof(orderRepository));
+       `_emailService = emailService ?? throw new ArgumentNullException(nameof(emailService));`_logger = logger ?? throw new ArgumentNullException(nameof(logger));
     }
 
     public async Task`ProcessResult` ProcessOrderAsync(Order order)
     {
         try
-

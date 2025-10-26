@@ -23,8 +23,7 @@ Next: [05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md](05_SOLID-Part5-De
             // Validate business rules
             var validationResult = ValidateOrder(order);
             if (!validationResult.IsValid)
-            {
-               `_logger.LogWarning($"Order {order.Id} validation failed: {string.Join(", ", validationResult.Errors)}");
+            {`_logger.LogWarning($"Order {order.Id} validation failed: {string.Join(", ", validationResult.Errors)}");
                 return ProcessResult.Failed(validationResult.Errors);
             }
 
@@ -35,9 +34,7 @@ Next: [05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md](05_SOLID-Part5-De
             await`_emailService.SendTemplatedAsync(
                 order.CustomerEmail,
                 "OrderConfirmation",
-                new { OrderId = order.Id, Total = order.Total });
-
-           `_logger.Log($"Order {order.Id} processed successfully");
+                new { OrderId = order.Id, Total = order.Total });`_logger.Log($"Order {order.Id} processed successfully");
             return ProcessResult.Success();
         }
         catch (Exception ex)
@@ -55,7 +52,7 @@ Next: [05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md](05_SOLID-Part5-De
         if (order.Items == null || order.Items.Count == 0)
             result.AddError("Order must contain at least one item");
 
-        if (order.Total `= 0)
+        if (order.Total`= 0)
             result.AddError("Order total must be greater than zero");
 
         if (string.IsNullOrEmpty(order.CustomerEmail))
@@ -73,8 +70,7 @@ public class SqlOrderRepository : IOrderRepository
     private readonly string`_connectionString;
 
     public SqlOrderRepository(string connectionString)
-    {
-       `_connectionString = connectionString ?? throw new ArgumentNullException(nameof(connectionString));
+    {`_connectionString = connectionString ?? throw new ArgumentNullException(nameof(connectionString));
     }
 
     public async Task<Order` GetByIdAsync(int id)
@@ -135,15 +131,13 @@ public class InMemoryOrderRepository : IOrderRepository
     {
         if (order.Id == 0)
         {
-            order.Id =`_nextId++;
-           `_orders.Add(order);
+            order.Id =`_nextId++;`_orders.Add(order);
         }
         else
         {
             var existing =`_orders.FirstOrDefault(o => o.Id == order.Id);
             if (existing != null)
-            {
-               `_orders.Remove(existing);
+            {`_orders.Remove(existing);
                `_orders.Add(order);
             }
         }
@@ -169,4 +163,3 @@ public class ConsoleLogger : ILogger
     {
         Console.WriteLine($"[ERROR] {DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}");
         if (exception != null)
-

@@ -22,8 +22,7 @@ public class ProductCatalogService
     private readonly IReadOnlyRepository`Product``_productRepository;
 
     public ProductCatalogService(IReadOnlyRepository`Product` productRepository)
-    {
-       `_productRepository = productRepository; // Only needs read operations
+    {`_productRepository = productRepository; // Only needs read operations
     }
 
     public async Task`ProductCatalog` GetCatalogAsync(string category)
@@ -126,13 +125,11 @@ public class CacheService
     private readonly IMemoryCache`_cache;
 
     public CacheService(IMemoryCache cache)
-    {
-       `_cache = cache;
+    {`_cache = cache;
     }
 
     public void CacheEntity`T`(T entity) where T : ICacheable
-    {
-       `_cache.Set(entity.GetCacheKey(), entity, entity.GetCacheDuration());
+    {`_cache.Set(entity.GetCacheKey(), entity, entity.GetCacheDuration());
     }
 
     public T GetFromCache`T`(string key) where T : class
@@ -166,4 +163,3 @@ public class OrderServiceTests
         mockOrderCommands.Verify(c => c.UpdateOrderStatusAsync(1, OrderStatus.Processing), Times.Once);
     }
 }
-

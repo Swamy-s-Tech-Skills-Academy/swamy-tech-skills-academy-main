@@ -20,8 +20,7 @@ Previous: [05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md](05_SOLID-Part
     private readonly ILogger`_logger;
 
     public PaymentService(IEnumerable`IPaymentProcessor` processors, ILogger logger)
-    {
-       `_processors = processors;
+    {`_processors = processors;
        `_logger = logger;
     }
 
@@ -31,8 +30,7 @@ Previous: [05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md](05_SOLID-Part
 
         if (processor == null)
         {
-            var error = $"No processor found for payment type: {request.PaymentType}";
-           `_logger.LogError(error);
+            var error = $"No processor found for payment type: {request.PaymentType}";`_logger.LogError(error);
             return PaymentResult.Failed(error);
         }
 
@@ -43,8 +41,7 @@ Previous: [05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md](05_SOLID-Part
             return await processor.ProcessAsync(request);
         }
         catch (Exception ex)
-        {
-           `_logger.LogError("Payment processing failed", ex);
+        {`_logger.LogError("Payment processing failed", ex);
             return PaymentResult.Failed("Payment processing error");
         }
     }
@@ -56,8 +53,7 @@ public class CreditCardProcessor : IPaymentProcessor
     private readonly ICreditCardGateway`_gateway;
 
     public CreditCardProcessor(ICreditCardGateway gateway)
-    {
-       `_gateway = gateway;
+    {`_gateway = gateway;
     }
 
     public bool CanProcess(PaymentType paymentType)
@@ -81,8 +77,7 @@ public class PayPalProcessor : IPaymentProcessor
     private readonly IPayPalApi`_payPalApi;
 
     public PayPalProcessor(IPayPalApi payPalApi)
-    {
-       `_payPalApi = payPalApi;
+    {`_payPalApi = payPalApi;
     }
 
     public bool CanProcess(PaymentType paymentType)
@@ -168,4 +163,3 @@ public class OrderServiceTests
 
         // Verify no side effects occurred
         mockRepository.Verify(r => r.SaveAsync(It.IsAny`Order`()), Times.Never);
-

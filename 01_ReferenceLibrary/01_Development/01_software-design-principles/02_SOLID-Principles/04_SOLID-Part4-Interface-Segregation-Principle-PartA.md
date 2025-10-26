@@ -57,8 +57,7 @@ Next: [04_SOLID-Part4-Interface-Segregation-Principle-PartB.md](04_SOLID-Part4-I
     ┌──┴──┐        ┌───┴───┐      ┌─────┴─────┐
     │Human│        │Human  │      │   Robot   │
     │     │←──────→│Needs  │      │  Worker   │
-    └─────┘        └───────┘      └───────────┘
-```
+    └─────┘        └───────┘      └───────────┘```
 
 **ISP Key Benefits**:
 
@@ -71,9 +70,7 @@ Next: [04_SOLID-Part4-Interface-Segregation-Principle-PartB.md](04_SOLID-Part4-I
 
 #### Identifying Fat Interfaces
 
-##### Classic Violation Example: Multi-Function Device
-
-```csharp
+##### Classic Violation Example: Multi-Function Device```csharp
 // ❌ BAD: Fat interface violates ISP
 public interface IMultiFunctionDevice
 {
@@ -143,8 +140,7 @@ public class PrintService
     private readonly IMultiFunctionDevice`_device;
 
     public PrintService(IMultiFunctionDevice device)
-    {
-       `_device = device;
+    {`_device = device;
     }
 
     public void PrintDocument(Document document)
@@ -159,15 +155,11 @@ public class PrintService
             throw new InvalidOperationException("Device doesn't support printing", ex);
         }
     }
-}
-```
+}```
 
-#### ISP-Compliant Solution: Interface Segregation
-
-```csharp
+#### ISP-Compliant Solution: Interface Segregation```csharp
 // ✅ GOOD: Segregated interfaces based on client needs
 public interface IPrinter
 {
     void Print(Document document);
     void SetPrintQuality(PrintQuality quality);
-

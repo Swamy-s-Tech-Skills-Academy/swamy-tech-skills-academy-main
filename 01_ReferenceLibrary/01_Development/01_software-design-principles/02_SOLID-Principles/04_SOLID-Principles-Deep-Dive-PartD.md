@@ -165,6 +165,4 @@ public class ReportService
     private readonly IReadOnlyRepository`Order``_orderRepository;
 
     public ReportService(IReadOnlyRepository`Order` orderRepository)
-    {
-       `_orderRepository = orderRepository; // Only read operations
-
+    {`_orderRepository = orderRepository; // Only read operations

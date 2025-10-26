@@ -38,20 +38,20 @@ Previous: [01_SOLID-Principles-Track-PartB.md](01_SOLID-Principles-Track-PartB.m
 
 **Builds Upon**:
 
-- `../01_Python/02_Advanced-Patterns/` - Python advanced concepts
-- `../03_CSharp/02_Advanced-OOP/` - C# advanced object-oriented features
+-`../01_Python/02_Advanced-Patterns/` - Python advanced concepts
+-`../03_CSharp/02_Advanced-OOP/` - C# advanced object-oriented features
 
 **Enables**:
 
-- `03_Design-Patterns-Track.md` - Gang of Four design patterns
-- `04_Clean-Architecture-Track.md` - Architectural design principles
-- `../06-architectural-principles/` - System-level design principles
+-`03_Design-Patterns-Track.md` - Gang of Four design patterns
+-`04_Clean-Architecture-Track.md` - Architectural design principles
+-`../06-architectural-principles/` - System-level design principles
 
 **Cross-References**:
 
-- `04-design-principles/` - Additional code quality principles
-- `05-design-patterns/` - Pattern implementations using SOLID
-- `06-architectural-principles/` - Architecture-level SOLID application
+-`04-design-principles/` - Additional code quality principles
+-`05-design-patterns/` - Pattern implementations using SOLID
+-`06-architectural-principles/` - Architecture-level SOLID application
 
 ---
 

@@ -94,12 +94,9 @@ public class User
     {
         return email.Contains("@") && email.Contains(".");
     }
-}
-```
+}```
 
-### **✅ SRP Compliant Solution**
-
-```csharp
+### **✅ SRP Compliant Solution**```csharp
 // GOOD - Single responsibility: User data model
 public class User
 {
@@ -140,8 +137,7 @@ public class EmailValidator
     {
         return email.Contains("@") && email.Contains(".");
     }
-}
-```
+}```
 
 ### **SRP Benefits**
 
@@ -160,13 +156,10 @@ public class EmailValidator
 
 **Core Concept**: Add new functionality by extending existing code, not by changing it.
 
-### **❌ OCP Violation Example**
-
-```csharp
+### **❌ OCP Violation Example**```csharp
 // BAD - Adding new shapes requires modifying existing code
 public class AreaCalculator
 {
     public double CalculateArea(object shape)
     {
         if (shape is Rectangle rectangle)
-

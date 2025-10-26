@@ -25,7 +25,7 @@ Previous: [03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md](03_SOLID-Part3
     {
         // Weakens postcondition (allows negative balance up to overdraft limit)
         // This is LSP compliant - subclass is more permissive
-        if (newBalance ` -_overdraftLimit)
+        if (newBalance` -_overdraftLimit)
             throw new InvalidOperationException($"Balance cannot be less than overdraft limit: {-_overdraftLimit}");
     }
 }

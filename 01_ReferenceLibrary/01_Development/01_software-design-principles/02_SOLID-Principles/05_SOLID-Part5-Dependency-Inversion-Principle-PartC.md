@@ -101,8 +101,7 @@ public class SqlRepositoryFactory : IRepositoryFactory
     private readonly string`_connectionString;
 
     public SqlRepositoryFactory(string connectionString)
-    {
-       `_connectionString = connectionString;
+    {`_connectionString = connectionString;
     }
 
     public IOrderRepository CreateOrderRepository()
@@ -127,8 +126,7 @@ public class ECommerceService
     private readonly IRepositoryFactory`_repositoryFactory;
 
     public ECommerceService(IRepositoryFactory repositoryFactory)
-    {
-       `_repositoryFactory = repositoryFactory;
+    {`_repositoryFactory = repositoryFactory;
     }
 
     public async Task ProcessPurchaseAsync(int customerId, int productId, int quantity)
@@ -165,4 +163,3 @@ public interface IPaymentProcessor
 
 public class PaymentService
 {
-

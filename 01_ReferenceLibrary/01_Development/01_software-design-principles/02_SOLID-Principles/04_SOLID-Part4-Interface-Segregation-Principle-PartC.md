@@ -36,8 +36,7 @@ public class UserManagementService
     private readonly IUserRepository`_userRepository; // Full access when needed
 
     public UserManagementService(IUserRepository userRepository)
-    {
-       `_userRepository = userRepository;
+    {`_userRepository = userRepository;
     }
 
     public async Task`User` CreateUserAsync(CreateUserRequest request)
@@ -82,8 +81,7 @@ public class OrderReportingService
     private readonly IOrderQueries`_orderQueries;
 
     public OrderReportingService(IOrderQueries orderQueries)
-    {
-       `_orderQueries = orderQueries;
+    {`_orderQueries = orderQueries;
     }
 
     public async Task`MonthlyReport` GenerateMonthlyReportAsync(int year, int month)
@@ -105,8 +103,7 @@ public class OrderProcessingService
     private readonly IOrderCommands`_orderCommands;
 
     public OrderProcessingService(IOrderQueries orderQueries, IOrderCommands orderCommands)
-    {
-       `_orderQueries = orderQueries;
+    {`_orderQueries = orderQueries;
        `_orderCommands = orderCommands;
     }
 
@@ -166,4 +163,3 @@ public interface IFullRepository`T` : IReadOnlyRepository`T`, ICreatable`T`, IUp
 {
     // Full CRUD operations
 }
-

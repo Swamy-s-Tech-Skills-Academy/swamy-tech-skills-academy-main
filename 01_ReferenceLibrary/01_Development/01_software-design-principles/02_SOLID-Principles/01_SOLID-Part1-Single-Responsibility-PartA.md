@@ -52,8 +52,7 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartB.md](01_SOLID-Part1-Single-Resp
 ├─────────────────┤  ├─────────────────┤  ├─────────────────┤
 │ + Validate()    │  │ + Save()        │  │ + SendEmail()   │
 └─────────────────┘  └─────────────────┘  └─────────────────┘
-✅ Single purpose = loose coupling, high cohesion
-```csharp
+✅ Single purpose = loose coupling, high cohesion```csharp
 **Benefits of SRP**:
 
 - **Easier Testing** - Focused classes are simpler to test
@@ -65,9 +64,7 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartB.md](01_SOLID-Part1-Single-Resp
 
 #### Understanding "Reason to Change"
 
-**Key Question**: *"What would cause this class to be modified?"*
-
-```csharp
+**Key Question**: *"What would cause this class to be modified?"*```csharp
 // ❌ BAD: Multiple reasons to change
 public class Employee
 {
@@ -111,8 +108,7 @@ public class Employee
         var emailBody = $"Dear {Name}, your current salary is {Salary:C}";
         // Email sending logic...
     }
-}
-```csharp
+}```csharp
 **Problems with this design**:
 
 - **4 different reasons to change** the Employee class
@@ -120,9 +116,7 @@ public class Employee
 - **Email template changes** require modifying the core Employee class
 - **Testing complexity** - need database and email infrastructure to test bonus calculation
 
-#### SRP Refactoring Strategy
-
-```csharp
+#### SRP Refactoring Strategy```csharp
 // ✅ GOOD: Single Responsibility per class
 public class Employee
 {
@@ -148,8 +142,7 @@ public class BonusCalculator
         {
             "Sales" => employee.Salary * 0.15m,
             "Engineering" => employee.Salary * 0.12m,
-            "Marketing" => employee.Salary * 0.11m,
-           `_ => employee.Salary * 0.10m
+            "Marketing" => employee.Salary * 0.11m,`_ => employee.Salary * 0.10m
         };
     }
 
@@ -166,8 +159,7 @@ public class EmployeeRepository
     private readonly string`_connectionString;
 
     public EmployeeRepository(string connectionString)
-    {
-       `_connectionString = connectionString;
+    {`_connectionString = connectionString;
     }
 
     // Single responsibility: Employee data persistence
@@ -200,8 +192,7 @@ public class EmployeeReportGenerator
     private readonly BonusCalculator`_bonusCalculator;
 
     public EmployeeReportGenerator(BonusCalculator bonusCalculator)
-    {
-       `_bonusCalculator = bonusCalculator;
+    {`_bonusCalculator = bonusCalculator;
     }
 
     // Single responsibility: Generate employee reports
@@ -234,8 +225,7 @@ public class EmployeeNotificationService
     private readonly IEmailService`_emailService;
 
     public EmployeeNotificationService(IEmailService emailService)
-    {
-       `_emailService = emailService;
+    {`_emailService = emailService;
     }
 
     // Single responsibility: Employee notifications
@@ -270,14 +260,11 @@ public class EmployeeNotificationService
 
         await`_emailService.SendEmailAsync(employee.Name, subject, body);
     }
-}
-```csharp
+}```csharp
 
 ### Practical Implementation (8 minutes)
 
-#### Orchestrating Single-Responsibility Classes
-
-```csharp
+#### Orchestrating Single-Responsibility Classes```csharp
 public class EmployeeService
 {
     private readonly EmployeeRepository`_repository;
@@ -292,12 +279,9 @@ public class EmployeeService
         EmployeeReportGenerator reportGenerator,
         EmployeeNotificationService notificationService,
         ILogger`EmployeeService` logger)
-    {
-       `_repository = repository;
-       `_bonusCalculator = bonusCalculator;
-       `_reportGenerator = reportGenerator;
-       `_notificationService = notificationService;
-       `_logger = logger;
+    {`_repository = repository;
+       `_bonusCalculator = bonusCalculator;`_reportGenerator = reportGenerator;
+       `_notificationService = notificationService;`_logger = logger;
     }
 
     public async Task`string` ProcessAnnualReviewAsync(int employeeId)
@@ -312,9 +296,7 @@ public class EmployeeService
             var bonus =`_bonusCalculator.CalculateYearEndBonus(employee);
             var report =`_reportGenerator.GenerateDetailedReport(employee);
 
-            await`_notificationService.SendBonusNotificationAsync(employee, bonus);
-
-           `_logger.LogInformation("Annual review completed for employee {EmployeeId}", employeeId);
+            await`_notificationService.SendBonusNotificationAsync(employee, bonus);`_logger.LogInformation("Annual review completed for employee {EmployeeId}", employeeId);
 
             return report;
         }
@@ -335,9 +317,7 @@ public class EmployeeService
         employee.Salary = newSalary;
 
         await`_repository.UpdateAsync(employee);
-        await`_notificationService.SendSalaryUpdateNotificationAsync(employee, newSalary);
-
-       `_logger.LogInformation("Salary updated for employee {EmployeeId}: {OldSalary} -> {NewSalary}",
+        await`_notificationService.SendSalaryUpdateNotificationAsync(employee, newSalary);`_logger.LogInformation("Salary updated for employee {EmployeeId}: {OldSalary} -> {NewSalary}",
                              employeeId, oldSalary, newSalary);
     }
 }
@@ -402,9 +382,7 @@ public class EmployeeService
 
 ## 🗺️ Learning Progression
 
-### **Recommended Learning Path**
-
-```mermaid
+### **Recommended Learning Path**```mermaid
 graph TD
     A[Prerequisites: OOP Fundamentals] --> B[01: Single Responsibility]
     B --> C[02: Open/Closed]
@@ -421,8 +399,7 @@ graph TD
     style E fill:#e8f5e8
     style F fill:#e8f5e8
     style G fill:#fff3e0
-    style H fill:#f3e5f5
-```csharp
+    style H fill:#f3e5f5```csharp
 
 ### **Alternative Learning Paths**
 

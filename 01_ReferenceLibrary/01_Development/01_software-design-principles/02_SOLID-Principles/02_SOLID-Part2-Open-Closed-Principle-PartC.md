@@ -50,8 +50,7 @@ public class EmailNotificationSender : INotificationSender
     private readonly IEmailService`_emailService;
 
     public EmailNotificationSender(IEmailService emailService)
-    {
-       `_emailService = emailService;
+    {`_emailService = emailService;
     }
 
     public async Task SendAsync(string recipient, string message)
@@ -68,8 +67,7 @@ public class EncryptedNotificationSender : INotificationSender
 
     public EncryptedNotificationSender(INotificationSender inner,
                                      IEncryptionService encryptionService)
-    {
-       `_inner = inner;
+    {`_inner = inner;
        `_encryptionService = encryptionService;
     }
 
@@ -87,18 +85,15 @@ public class LoggedNotificationSender : INotificationSender
 
     public LoggedNotificationSender(INotificationSender inner,
                                   ILogger`LoggedNotificationSender` logger)
-    {
-       `_inner = inner;
+    {`_inner = inner;
        `_logger = logger;
     }
 
     public async Task SendAsync(string recipient, string message)
-    {
-       `_logger.LogInformation("Sending notification to {Recipient}", recipient);
+    {`_logger.LogInformation("Sending notification to {Recipient}", recipient);
         try
         {
-            await`_inner.SendAsync(recipient, message);
-           `_logger.LogInformation("Successfully sent notification to {Recipient}", recipient);
+            await`_inner.SendAsync(recipient, message);`_logger.LogInformation("Successfully sent notification to {Recipient}", recipient);
         }
         catch (Exception ex)
         {

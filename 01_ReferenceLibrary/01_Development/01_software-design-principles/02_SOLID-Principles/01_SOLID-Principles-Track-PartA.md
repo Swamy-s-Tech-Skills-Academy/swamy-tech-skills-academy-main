@@ -63,17 +63,13 @@ UserManager class that:
 - Validates user data
 - Saves to database
 - Sends email notifications
-- Generates reports
-```
+- Generates reports```
 
-**Good Example**:
-
-```text
+**Good Example**:```text
 UserValidator - validates user data
 UserRepository - saves to database
 EmailService - sends notifications
-ReportGenerator - generates reports
-```
+ReportGenerator - generates reports```
 
 **C# Implementation Focus**:
 
@@ -141,22 +137,16 @@ ReportGenerator - generates reports
 
 **Generic Concept**: Create small, focused interfaces rather than large, monolithic ones.
 
-**Bad Example**:
-
-```text
+**Bad Example**:```text
 IWorker interface with:
 - Work()
 - Eat()
-- Sleep()
-```
+- Sleep()```
 
-**Good Example**:
-
-```text
+**Good Example**:```text
 IWorkable - Work()
 IFeedable - Eat()
-IRestable - Sleep()
-```
+IRestable - Sleep()```
 
 **C# Implementation Focus**:
 

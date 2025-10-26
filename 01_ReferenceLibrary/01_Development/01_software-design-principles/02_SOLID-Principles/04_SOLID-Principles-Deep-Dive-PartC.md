@@ -165,4 +165,3 @@ public class BrokenFileProcessor : FileProcessor
     ### **❌ ISP Violation Example**
 csharp
 // BAD - Fat interface forcing unnecessary dependencies
-

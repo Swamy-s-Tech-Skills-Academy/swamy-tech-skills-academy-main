@@ -28,12 +28,9 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
         OrderRepository repository,
         EmailNotificationService emailService,
         ILogger`OrderService` logger)
-    {
-       `_validator = validator;
-       `_calculator = calculator;
-       `_repository = repository;
-       `_emailService = emailService;
-       `_logger = logger;
+    {`_validator = validator;
+       `_calculator = calculator;`_repository = repository;
+       `_emailService = emailService;`_logger = logger;
     }
 
     public async Task`ProcessResult` ProcessOrderAsync(Order order)
@@ -54,8 +51,7 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
             // Notify
             await`_emailService.SendOrderConfirmationAsync(order);
 
-            // Log
-           `_logger.LogInformation("Order {OrderId} processed successfully", order.Id);
+            // Log`_logger.LogInformation("Order {OrderId} processed successfully", order.Id);
 
             return ProcessResult.Success();
         }
@@ -77,10 +73,8 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
             IDocumentValidator validator,
             IDocumentConverter converter,
             IDocumentStorage storage)
-        {
-           `_validator = validator;
-           `_converter = converter;
-           `_storage = storage;
+        {`_validator = validator;
+           `_converter = converter;`_storage = storage;
         }
 
         public ProcessResult Process(Document document)
@@ -88,8 +82,7 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
             if (!_validator.Validate(document))
                 return ProcessResult.Failed("Invalid document");
 
-            var convertedDocument =`_converter.Convert(document);
-           `_storage.Save(convertedDocument);
+            var convertedDocument =`_converter.Convert(document);`_storage.Save(convertedDocument);
 
             return ProcessResult.Success();
         }
@@ -150,8 +143,7 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
         private readonly IDbContext`_context;
 
         public CustomerRepository(IDbContext context)
-        {
-           `_context = context;
+        {`_context = context;
         }
 
         public async Task`Customer` GetByIdAsync(int id)
@@ -160,8 +152,7 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
         }
 
         public async Task SaveAsync(Customer customer)
-        {
-           `_context.Customers.Add(customer);
+        {`_context.Customers.Add(customer);
             await`_context.SaveChangesAsync();
         }
     }
@@ -190,8 +181,7 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
         private readonly ISmsService`_smsService;
 
         public CustomerNotificationService(IEmailService emailService, ISmsService smsService)
-        {
-           `_emailService = emailService;
+        {`_emailService = emailService;
            `_smsService = smsService;
         }
 
@@ -225,12 +215,9 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
             CustomerBusinessLogic businessLogic,
             CustomerNotificationService notificationService,
             ILogger`CustomerService` logger)
-        {
-           `_validator = validator;
-           `_repository = repository;
-           `_businessLogic = businessLogic;
-           `_notificationService = notificationService;
-           `_logger = logger;
+        {`_validator = validator;
+           `_repository = repository;`_businessLogic = businessLogic;
+           `_notificationService = notificationService;`_logger = logger;
         }
 
         public async Task`ServiceResult<Customer`> CreateCustomerAsync(Customer customer)
@@ -248,14 +235,12 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
                 // Send notifications using dedicated service
                 await`_notificationService.SendWelcomeEmailAsync(customer);
 
-                // Log using injected logger
-               `_logger.LogInformation("Customer {CustomerId} created successfully", customer.Id);
+                // Log using injected logger`_logger.LogInformation("Customer {CustomerId} created successfully", customer.Id);
 
                 return ServiceResult`Customer`.Success(customer);
             }
             catch (Exception ex)
-            {
-               `_logger.LogError(ex, "Failed to create customer {CustomerId}", customer.Id);
+            {`_logger.LogError(ex, "Failed to create customer {CustomerId}", customer.Id);
                 return ServiceResult`Customer`.Failed($"Customer creation failed: {ex.Message}");
             }
         }
@@ -272,8 +257,7 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
                 return ServiceResult`decimal`.Success(discount);
             }
             catch (Exception ex)
-            {
-               `_logger.LogError(ex, "Failed to calculate discount for customer {CustomerId}", customerId);
+            {`_logger.LogError(ex, "Failed to calculate discount for customer {CustomerId}", customerId);
                 return ServiceResult`decimal`.Failed($"Discount calculation failed: {ex.Message}");
             }
         }

@@ -57,8 +57,7 @@ public class DocumentProcessor
     private readonly IReadableStorage`_storage;
 
     public DocumentProcessor(IReadableStorage storage)
-    {
-       `_storage = storage; // Works with both LocalFileStorage and ReadOnlyFileStorage
+    {`_storage = storage; // Works with both LocalFileStorage and ReadOnlyFileStorage
     }
 
     public async Task`string` ProcessDocumentAsync(string path)
@@ -132,8 +131,7 @@ public abstract class BankAccount
         get =>`_balance;
         protected set
         {
-            CheckInvariant(value);
-           `_balance = value;
+            CheckInvariant(value);`_balance = value;
         }
     }
 
@@ -166,4 +164,3 @@ public abstract class BankAccount
 public class CheckingAccount : BankAccount
 {
     private readonly decimal`_overdraftLimit;
-

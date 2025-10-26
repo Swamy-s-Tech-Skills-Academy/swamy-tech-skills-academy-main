@@ -132,8 +132,7 @@ public class PriceCalculator
     private readonly IDiscountStrategy`_discountStrategy;
 
     public PriceCalculator(IDiscountStrategy discountStrategy)
-    {
-       `_discountStrategy = discountStrategy;
+    {`_discountStrategy = discountStrategy;
     }
 
     public decimal CalculatePrice(decimal basePrice)
@@ -165,4 +164,3 @@ public class Rectangle
 }
 
 public class Square : Rectangle
-

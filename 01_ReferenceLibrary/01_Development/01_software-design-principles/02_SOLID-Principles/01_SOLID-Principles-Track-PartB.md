@@ -53,10 +53,7 @@ OrderProcessor class:
 - Calculates pricing
 - Processes payments
 - Sends notifications
-- Updates inventory
-```
-
-```text
+- Updates inventory``````text
 After (SOLID compliant):
 OrderValidator - validates orders (SRP)
 PricingCalculator - calculates pricing (SRP)
@@ -67,8 +64,7 @@ InventoryManager - updates inventory (SRP)
 All depend on abstractions (DIP)
 Each has focused interface (ISP)
 Extensible without modification (OCP)
-Proper substitution hierarchy (LSP)
-```
+Proper substitution hierarchy (LSP)```
 
 ### **Intermediate Project: Reporting System**
 
