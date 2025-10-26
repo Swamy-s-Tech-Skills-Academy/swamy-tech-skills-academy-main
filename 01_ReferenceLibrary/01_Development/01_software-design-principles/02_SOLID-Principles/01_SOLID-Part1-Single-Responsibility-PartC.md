@@ -1,8 +1,8 @@
 # 01_SOLID-Part1-Single-Responsibility - Part C
 
-**Learning Level**: Intermediate 
-**Prerequisites**: Basic OOP concepts, understanding of classes and methods 
-**Estimated Time**: 30 minutes 
+**Learning Level**: Intermediate
+**Prerequisites**: Basic OOP concepts, understanding of classes and methods
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -18,13 +18,13 @@ Previous: [01_SOLID-Part1-Single-Responsibility-PartB.md](01_SOLID-Part1-Single-
 
     public async Task SendWelcomeAsync(Customer customer)
     {
-        await _emailService.SendAsync(customer.Email,
+        await`_emailService.SendAsync(customer.Email,
             "Welcome!", "Thank you for joining us!");
     }
 
     public async Task SendPromotionalSmsAsync(Customer customer, string message)
     {
-        await _smsService.SendAsync(customer.Phone, message);
+        await`_smsService.SendAsync(customer.Phone, message);
     }
 }
 
@@ -66,8 +66,8 @@ Previous: [01_SOLID-Part1-Single-Responsibility-PartB.md](01_SOLID-Part1-Single-
 
 ## 🔗 Related Topics
 
-**Prerequisites**: Object-Oriented Programming fundamentals, Basic design patterns 
-**Builds Upon**: Clean Code principles, SOLID foundation concepts 
-**Enables**: Open/Closed Principle (Part 2), Dependency Injection patterns 
+**Prerequisites**: Object-Oriented Programming fundamentals, Basic design patterns
+**Builds Upon**: Clean Code principles, SOLID foundation concepts
+**Enables**: Open/Closed Principle (Part 2), Dependency Injection patterns
 **Related**: Clean Architecture, Domain-Driven Design, Unit Testing strategies
 

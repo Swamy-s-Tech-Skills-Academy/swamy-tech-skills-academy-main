@@ -1,8 +1,8 @@
 # 03_SOLID-Part3-Liskov-Substitution-Principle - Part A
 
-**Learning Level**: Advanced 
-**Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2) 
-**Estimated Time**: 30 minutes 
+**Learning Level**: Advanced
+**Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2)
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -59,7 +59,7 @@ Rectangle    Square      Circle
 **LSP Core Rules**:
 
 - Preconditions cannot be strengthened in subclasses
-- Postconditions cannot be weakened in subclasses 
+- Postconditions cannot be weakened in subclasses
 - Invariants must be maintained across inheritance
 - History constraint: subclass shouldn't allow state changes forbidden in parent
 

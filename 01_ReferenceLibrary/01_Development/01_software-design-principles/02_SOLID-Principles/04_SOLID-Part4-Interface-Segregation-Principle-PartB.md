@@ -1,8 +1,8 @@
 # 04_SOLID-Part4-Interface-Segregation-Principle - Part B
 
-**Learning Level**: Intermediate to Advanced 
-**Prerequisites**: Liskov Substitution Principle (Part 3), Interface design patterns 
-**Estimated Time**: 30 minutes 
+**Learning Level**: Intermediate to Advanced
+**Prerequisites**: Liskov Substitution Principle (Part 3), Interface design patterns
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -104,36 +104,36 @@ public class MultiFunctionDevice : IPrinter, IScanner, ICopier, IFaxMachine
 // Clean, focused client code
 public class PrintService
 {
-    private readonly IPrinter _printer;
+    private readonly IPrinter`_printer;
 
     public PrintService(IPrinter printer) // Only depends on what it needs
     {
-        _printer = printer;
+       `_printer = printer;
     }
 
     public void PrintDocument(Document document)
     {
-        _printer.Print(document); // No exception handling needed
+       `_printer.Print(document); // No exception handling needed
     }
 
     public void ConfigurePrinting(PrintQuality quality)
     {
-        _printer.SetPrintQuality(quality);
+       `_printer.SetPrintQuality(quality);
     }
 }
 
 public class ScanService
 {
-    private readonly IScanner _scanner;
+    private readonly IScanner`_scanner;
 
     public ScanService(IScanner scanner) // Only depends on scanning capability
     {
-        _scanner = scanner;
+       `_scanner = scanner;
     }
 
     public byte[] ScanDocument(ScanSettings settings)
     {
-        return _scanner.Scan(settings);
+        return`_scanner.Scan(settings);
     }
 }
 
@@ -164,9 +164,9 @@ public interface IUserRepository : IReadOnlyUserRepository, IUserWriter
 // Specialized services only depend on what they need
 public class UserProfileService
 {
-    private readonly IReadOnlyUserRepository _userRepository; // Read-only dependency
+    private readonly IReadOnlyUserRepository`_userRepository; // Read-only dependency
 
     public UserProfileService(IReadOnlyUserRepository userRepository)
     {
-        _userRepository = userRepository;
+       `_userRepository = userRepository;
 

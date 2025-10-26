@@ -1,8 +1,8 @@
 # 03_SOLID-Part3-Liskov-Substitution-Principle - Part B
 
-**Learning Level**: Advanced 
-**Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2) 
-**Estimated Time**: 30 minutes 
+**Learning Level**: Advanced
+**Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2)
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -131,7 +131,7 @@ public class ReadOnlyFileStorage : FileStorage
 
     public override Task DeleteAsync(string path)
     {
-        // LSP Violation: Strengthens precondition 
+        // LSP Violation: Strengthens precondition
         throw new NotSupportedException("Storage is read-only"); // ← Breaks contract!
     }
 

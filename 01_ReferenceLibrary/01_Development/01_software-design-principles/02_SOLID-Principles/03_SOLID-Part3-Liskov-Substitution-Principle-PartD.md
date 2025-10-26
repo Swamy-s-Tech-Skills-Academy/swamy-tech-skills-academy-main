@@ -1,8 +1,8 @@
 # 03_SOLID-Part3-Liskov-Substitution-Principle - Part D
 
-**Learning Level**: Advanced 
-**Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2) 
-**Estimated Time**: 30 minutes 
+**Learning Level**: Advanced
+**Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2)
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -18,7 +18,7 @@ Previous: [03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md](03_SOLID-Part3
 
     public CheckingAccount(decimal overdraftLimit = 0)
     {
-        _overdraftLimit = overdraftLimit;
+       `_overdraftLimit = overdraftLimit;
     }
 
     protected override void CheckInvariant(decimal newBalance)
@@ -159,7 +159,7 @@ public class CustomerDataProcessor : DataProcessor`Customer`
 
 ## 🔗 Related Topics
 
-**Prerequisites**: Open/Closed Principle, Inheritance, Polymorphism concepts 
-**Builds Upon**: Interface design, Contract testing, Design patterns 
-**Enables**: Interface Segregation Principle (Part 4), Robust inheritance hierarchies 
+**Prerequisites**: Open/Closed Principle, Inheritance, Polymorphism concepts
+**Builds Upon**: Interface design, Contract testing, Design patterns
+**Enables**: Interface Segregation Principle (Part 4), Robust inheritance hierarchies
 **Related**: Template Method Pattern, Strategy Pattern, Behavioral Design Patterns

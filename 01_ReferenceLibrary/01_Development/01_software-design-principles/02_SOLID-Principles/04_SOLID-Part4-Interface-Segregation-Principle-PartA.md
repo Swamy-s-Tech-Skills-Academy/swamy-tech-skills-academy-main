@@ -1,8 +1,8 @@
 # 04_SOLID-Part4-Interface-Segregation-Principle - Part A
 
-**Learning Level**: Intermediate to Advanced 
-**Prerequisites**: Liskov Substitution Principle (Part 3), Interface design patterns 
-**Estimated Time**: 30 minutes 
+**Learning Level**: Intermediate to Advanced
+**Prerequisites**: Liskov Substitution Principle (Part 3), Interface design patterns
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -32,7 +32,7 @@ Next: [04_SOLID-Part4-Interface-Segregation-Principle-PartB.md](04_SOLID-Part4-I
 │                    IWorker (Fat Interface)                 │
 ├─────────────────────────────────────────────────────────────┤
 │ + Work()                                                    │
-│ + Eat()              ← Human workers need this             │ 
+│ + Eat()              ← Human workers need this             │
 │ + Sleep()            ← Human workers need this             │
 │ + Recharge()         ← Robot workers need this             │
 │ + UpdateFirmware()   ← Robot workers need this             │
@@ -49,7 +49,7 @@ Next: [04_SOLID-Part4-Interface-Segregation-Principle-PartB.md](04_SOLID-Part4-I
 ✅ ISP COMPLIANT: Segregated, Role-Based Interfaces
 ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
 │  IWorker    │  │ IBiological │  │ IMechanical │
-├─────────────┤  ├─────────────┤  ├─────────────┤ 
+├─────────────┤  ├─────────────┤  ├─────────────┤
 │ + Work()    │  │ + Eat()     │  │ + Recharge()│
 └─────────────┘  │ + Sleep()   │  │ + Update()  │
                  └─────────────┘  └─────────────┘
@@ -140,18 +140,18 @@ public class BasicPrinter : IMultiFunctionDevice
 // Client forced to handle exceptions for features it doesn't use
 public class PrintService
 {
-    private readonly IMultiFunctionDevice _device;
+    private readonly IMultiFunctionDevice`_device;
 
     public PrintService(IMultiFunctionDevice device)
     {
-        _device = device;
+       `_device = device;
     }
 
     public void PrintDocument(Document document)
     {
         try
         {
-            _device.Print(document); // Only needs printing, but interface includes everything
+           `_device.Print(document); // Only needs printing, but interface includes everything
         }
         catch (NotSupportedException ex)
         {

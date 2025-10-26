@@ -1,8 +1,8 @@
 # 02_SOLID-Part2-Open-Closed-Principle - Part C
 
-**Learning Level**: Intermediate to Advanced 
-**Prerequisites**: Single Responsibility Principle (Part 1), Basic inheritance and interfaces 
-**Estimated Time**: 30 minutes 
+**Learning Level**: Intermediate to Advanced
+**Prerequisites**: Single Responsibility Principle (Part 1), Basic inheritance and interfaces
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -47,62 +47,62 @@ public interface INotificationSender
 // Basic implementation
 public class EmailNotificationSender : INotificationSender
 {
-    private readonly IEmailService _emailService;
+    private readonly IEmailService`_emailService;
 
     public EmailNotificationSender(IEmailService emailService)
     {
-        _emailService = emailService;
+       `_emailService = emailService;
     }
 
     public async Task SendAsync(string recipient, string message)
     {
-        await _emailService.SendAsync(recipient, "Notification", message);
+        await`_emailService.SendAsync(recipient, "Notification", message);
     }
 }
 
 // Extensions through decoration - no modification of existing classes
 public class EncryptedNotificationSender : INotificationSender
 {
-    private readonly INotificationSender _inner;
-    private readonly IEncryptionService _encryptionService;
+    private readonly INotificationSender`_inner;
+    private readonly IEncryptionService`_encryptionService;
 
     public EncryptedNotificationSender(INotificationSender inner,
                                      IEncryptionService encryptionService)
     {
-        _inner = inner;
-        _encryptionService = encryptionService;
+       `_inner = inner;
+       `_encryptionService = encryptionService;
     }
 
     public async Task SendAsync(string recipient, string message)
     {
-        var encryptedMessage = await _encryptionService.EncryptAsync(message);
-        await _inner.SendAsync(recipient, encryptedMessage);
+        var encryptedMessage = await`_encryptionService.EncryptAsync(message);
+        await`_inner.SendAsync(recipient, encryptedMessage);
     }
 }
 
 public class LoggedNotificationSender : INotificationSender
 {
-    private readonly INotificationSender _inner;
-    private readonly ILogger`LoggedNotificationSender` _logger;
+    private readonly INotificationSender`_inner;
+    private readonly ILogger`LoggedNotificationSender``_logger;
 
     public LoggedNotificationSender(INotificationSender inner,
                                   ILogger`LoggedNotificationSender` logger)
     {
-        _inner = inner;
-        _logger = logger;
+       `_inner = inner;
+       `_logger = logger;
     }
 
     public async Task SendAsync(string recipient, string message)
     {
-        _logger.LogInformation("Sending notification to {Recipient}", recipient);
+       `_logger.LogInformation("Sending notification to {Recipient}", recipient);
         try
         {
-            await _inner.SendAsync(recipient, message);
-            _logger.LogInformation("Successfully sent notification to {Recipient}", recipient);
+            await`_inner.SendAsync(recipient, message);
+           `_logger.LogInformation("Successfully sent notification to {Recipient}", recipient);
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Failed to send notification to {Recipient}", recipient);
+           `_logger.LogError(ex, "Failed to send notification to {Recipient}", recipient);
             throw;
         }
     }

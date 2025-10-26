@@ -1,8 +1,8 @@
 # 05_SOLID-Part5-Dependency-Inversion-Principle - Part B
 
-**Learning Level**: Advanced 
-**Prerequisites**: Interface Segregation Principle (Part 4), Dependency injection concepts 
-**Estimated Time**: 30 minutes 
+**Learning Level**: Advanced
+**Prerequisites**: Interface Segregation Principle (Part 4), Dependency injection concepts
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -18,31 +18,31 @@ Next: [05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md](05_SOLID-Part5-De
 ---
 
         {
-            _logger.Log($"Processing order {order.Id}");
+           `_logger.Log($"Processing order {order.Id}");
 
             // Validate business rules
             var validationResult = ValidateOrder(order);
             if (!validationResult.IsValid)
             {
-                _logger.LogWarning($"Order {order.Id} validation failed: {string.Join(", ", validationResult.Errors)}");
+               `_logger.LogWarning($"Order {order.Id} validation failed: {string.Join(", ", validationResult.Errors)}");
                 return ProcessResult.Failed(validationResult.Errors);
             }
 
             // Save order
-            await _orderRepository.SaveAsync(order);
+            await`_orderRepository.SaveAsync(order);
 
             // Send confirmation
-            await _emailService.SendTemplatedAsync(
+            await`_emailService.SendTemplatedAsync(
                 order.CustomerEmail,
                 "OrderConfirmation",
                 new { OrderId = order.Id, Total = order.Total });
 
-            _logger.Log($"Order {order.Id} processed successfully");
+           `_logger.Log($"Order {order.Id} processed successfully");
             return ProcessResult.Success();
         }
         catch (Exception ex)
         {
-            _logger.LogError($"Failed to process order {order.Id}", ex);
+           `_logger.LogError($"Failed to process order {order.Id}", ex);
             throw;
         }
     }
@@ -70,11 +70,11 @@ csharp
 // Low-level modules implement the abstractions
 public class SqlOrderRepository : IOrderRepository
 {
-    private readonly string _connectionString;
+    private readonly string`_connectionString;
 
     public SqlOrderRepository(string connectionString)
     {
-        _connectionString = connectionString ?? throw new ArgumentNullException(nameof(connectionString));
+       `_connectionString = connectionString ?? throw new ArgumentNullException(nameof(connectionString));
     }
 
     public async Task<Order` GetByIdAsync(int id)
@@ -122,12 +122,12 @@ public class SqlOrderRepository : IOrderRepository
 // Alternative implementation for testing or different environments
 public class InMemoryOrderRepository : IOrderRepository
 {
-    private readonly List`Order` _orders = new();
-    private int _nextId = 1;
+    private readonly List`Order``_orders = new();
+    private int`_nextId = 1;
 
     public Task`Order` GetByIdAsync(int id)
     {
-        var order = _orders.FirstOrDefault(o => o.Id == id);
+        var order =`_orders.FirstOrDefault(o => o.Id == id);
         return Task.FromResult(order);
     }
 
@@ -135,16 +135,16 @@ public class InMemoryOrderRepository : IOrderRepository
     {
         if (order.Id == 0)
         {
-            order.Id = _nextId++;
-            _orders.Add(order);
+            order.Id =`_nextId++;
+           `_orders.Add(order);
         }
         else
         {
-            var existing = _orders.FirstOrDefault(o => o.Id == order.Id);
+            var existing =`_orders.FirstOrDefault(o => o.Id == order.Id);
             if (existing != null)
             {
-                _orders.Remove(existing);
-                _orders.Add(order);
+               `_orders.Remove(existing);
+               `_orders.Add(order);
             }
         }
 
@@ -153,7 +153,7 @@ public class InMemoryOrderRepository : IOrderRepository
 
     public Task`IEnumerable<Order`> GetOrdersByCustomerAsync(int customerId)
     {
-        var orders = _orders.Where(o => o.CustomerId == customerId);
+        var orders =`_orders.Where(o => o.CustomerId == customerId);
         return Task.FromResult(orders);
     }
 }

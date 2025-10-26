@@ -10,37 +10,37 @@ This guide provides **comprehensive understanding and practical application** of
 
 ### 🎯 **Single Responsibility Principle (SRP)**
 
-✅ Class responsibility definition and boundaries 
-✅ Refactoring techniques for SRP violations 
-✅ Real-world examples and anti-patterns 
+✅ Class responsibility definition and boundaries
+✅ Refactoring techniques for SRP violations
+✅ Real-world examples and anti-patterns
 ✅ Testing implications of good SRP design
 
 ### 🔐 **Open/Closed Principle (OCP)**
 
-✅ Extension without modification strategies 
-✅ Strategy pattern and polymorphism application 
-✅ Plugin architecture examples 
+✅ Extension without modification strategies
+✅ Strategy pattern and polymorphism application
+✅ Plugin architecture examples
 ✅ Modern C# features supporting OCP
 
 ### 🔄 **Liskov Substitution Principle (LSP)**
 
-✅ Behavioral subtyping rules 
-✅ Contract preservation in inheritance 
-✅ Common LSP violations and fixes 
+✅ Behavioral subtyping rules
+✅ Contract preservation in inheritance
+✅ Common LSP violations and fixes
 ✅ Interface design for substitutability
 
 ### 🎭 **Interface Segregation Principle (ISP)**
 
-✅ Client-specific interface design 
-✅ Fat interface problems and solutions 
-✅ Role-based interface modeling 
+✅ Client-specific interface design
+✅ Fat interface problems and solutions
+✅ Role-based interface modeling
 ✅ Dependency injection implications
 
 ### 🔗 **Dependency Inversion Principle (DIP)**
 
-✅ Abstraction over concretion 
-✅ Dependency injection patterns 
-✅ IoC container integration 
+✅ Abstraction over concretion
+✅ Dependency injection patterns
+✅ IoC container integration
 ✅ Testability and maintainability benefits
 
 ---
@@ -71,11 +71,11 @@ csharp
 public class EmailService
 {
     // Direct dependency on concrete implementation
-    private readonly SmtpClient _smtpClient = new SmtpClient();
+    private readonly SmtpClient`_smtpClient = new SmtpClient();
 
     public void SendEmail(string to, string subject, string body)
     {
-        _smtpClient.Send(to, subject, body);
+       `_smtpClient.Send(to, subject, body);
         // Hard to test, hard to change email provider
     }
 }
@@ -83,13 +83,13 @@ public class EmailService
 public class OrderService
 {
     // Direct dependencies on concrete classes
-    private readonly SqlOrderRepository _orderRepository = new();
-    private readonly EmailService _emailService = new();
+    private readonly SqlOrderRepository`_orderRepository = new();
+    private readonly EmailService`_emailService = new();
 
     public void ProcessOrder(Order order)
     {
-        _orderRepository.Save(order);
-        _emailService.SendEmail(order.CustomerEmail, "Order Confirmation", "...");
+       `_orderRepository.Save(order);
+       `_emailService.SendEmail(order.CustomerEmail, "Order Confirmation", "...");
         // Tightly coupled, hard to test
     }
 }
@@ -111,26 +111,26 @@ public interface IOrderRepository
 // Low-level modules implement abstractions
 public class SmtpEmailService : IEmailService
 {
-    private readonly SmtpClient _smtpClient;
+    private readonly SmtpClient`_smtpClient;
 
     public SmtpEmailService(SmtpClient smtpClient)
     {
-        _smtpClient = smtpClient;
+       `_smtpClient = smtpClient;
     }
 
     public async Task SendEmailAsync(string to, string subject, string body)
     {
-        await _smtpClient.SendMailAsync(to, subject, body);
+        await`_smtpClient.SendMailAsync(to, subject, body);
     }
 }
 
 public class SqlOrderRepository : IOrderRepository
 {
-    private readonly string _connectionString;
+    private readonly string`_connectionString;
 
     public SqlOrderRepository(string connectionString)
     {
-        _connectionString = connectionString;
+       `_connectionString = connectionString;
     }
 
     public async Task SaveAsync(Order order)
@@ -148,19 +148,19 @@ public class SqlOrderRepository : IOrderRepository
 // High-level module depends only on abstractions
 public class OrderService
 {
-    private readonly IOrderRepository _orderRepository;
-    private readonly IEmailService _emailService;
+    private readonly IOrderRepository`_orderRepository;
+    private readonly IEmailService`_emailService;
 
     public OrderService(IOrderRepository orderRepository, IEmailService emailService)
     {
-        _orderRepository = orderRepository;
-        _emailService = emailService;
+       `_orderRepository = orderRepository;
+       `_emailService = emailService;
     }
 
     public async Task ProcessOrderAsync(Order order)
     {
-        await _orderRepository.SaveAsync(order);
-        await _emailService.SendEmailAsync(
+        await`_orderRepository.SaveAsync(order);
+        await`_emailService.SendEmailAsync(
             order.CustomerEmail,
             "Order Confirmation",
             "Your order has been processed");

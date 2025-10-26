@@ -1,8 +1,8 @@
 # 01_SOLID-Part1-Single-Responsibility - Part A
 
-**Learning Level**: Intermediate 
-**Prerequisites**: Basic OOP concepts, understanding of classes and methods 
-**Estimated Time**: 30 minutes 
+**Learning Level**: Intermediate
+**Prerequisites**: Basic OOP concepts, understanding of classes and methods
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -149,7 +149,7 @@ public class BonusCalculator
             "Sales" => employee.Salary * 0.15m,
             "Engineering" => employee.Salary * 0.12m,
             "Marketing" => employee.Salary * 0.11m,
-            _ => employee.Salary * 0.10m
+           `_ => employee.Salary * 0.10m
         };
     }
 
@@ -163,11 +163,11 @@ public class BonusCalculator
 
 public class EmployeeRepository
 {
-    private readonly string _connectionString;
+    private readonly string`_connectionString;
 
     public EmployeeRepository(string connectionString)
     {
-        _connectionString = connectionString;
+       `_connectionString = connectionString;
     }
 
     // Single responsibility: Employee data persistence
@@ -197,18 +197,18 @@ public class EmployeeRepository
 
 public class EmployeeReportGenerator
 {
-    private readonly BonusCalculator _bonusCalculator;
+    private readonly BonusCalculator`_bonusCalculator;
 
     public EmployeeReportGenerator(BonusCalculator bonusCalculator)
     {
-        _bonusCalculator = bonusCalculator;
+       `_bonusCalculator = bonusCalculator;
     }
 
     // Single responsibility: Generate employee reports
     public string GenerateDetailedReport(Employee employee)
     {
-        var bonus = _bonusCalculator.CalculateBonus(employee);
-        var yearEndBonus = _bonusCalculator.CalculateYearEndBonus(employee);
+        var bonus =`_bonusCalculator.CalculateBonus(employee);
+        var yearEndBonus =`_bonusCalculator.CalculateYearEndBonus(employee);
 
         return $"""
             Employee Detailed Report
@@ -231,11 +231,11 @@ public class EmployeeReportGenerator
 
 public class EmployeeNotificationService
 {
-    private readonly IEmailService _emailService;
+    private readonly IEmailService`_emailService;
 
     public EmployeeNotificationService(IEmailService emailService)
     {
-        _emailService = emailService;
+       `_emailService = emailService;
     }
 
     // Single responsibility: Employee notifications
@@ -252,7 +252,7 @@ public class EmployeeNotificationService
             HR Department
             """;
 
-        await _emailService.SendEmailAsync(employee.Name, subject, body);
+        await`_emailService.SendEmailAsync(employee.Name, subject, body);
     }
 
     public async Task SendBonusNotificationAsync(Employee employee, decimal bonusAmount)
@@ -268,7 +268,7 @@ public class EmployeeNotificationService
             HR Department
             """;
 
-        await _emailService.SendEmailAsync(employee.Name, subject, body);
+        await`_emailService.SendEmailAsync(employee.Name, subject, body);
     }
 }
 ```csharp
@@ -280,11 +280,11 @@ public class EmployeeNotificationService
 ```csharp
 public class EmployeeService
 {
-    private readonly EmployeeRepository _repository;
-    private readonly BonusCalculator _bonusCalculator;
-    private readonly EmployeeReportGenerator _reportGenerator;
-    private readonly EmployeeNotificationService _notificationService;
-    private readonly ILogger`EmployeeService` _logger;
+    private readonly EmployeeRepository`_repository;
+    private readonly BonusCalculator`_bonusCalculator;
+    private readonly EmployeeReportGenerator`_reportGenerator;
+    private readonly EmployeeNotificationService`_notificationService;
+    private readonly ILogger`EmployeeService``_logger;
 
     public EmployeeService(
         EmployeeRepository repository,
@@ -293,11 +293,11 @@ public class EmployeeService
         EmployeeNotificationService notificationService,
         ILogger`EmployeeService` logger)
     {
-        _repository = repository;
-        _bonusCalculator = bonusCalculator;
-        _reportGenerator = reportGenerator;
-        _notificationService = notificationService;
-        _logger = logger;
+       `_repository = repository;
+       `_bonusCalculator = bonusCalculator;
+       `_reportGenerator = reportGenerator;
+       `_notificationService = notificationService;
+       `_logger = logger;
     }
 
     public async Task`string` ProcessAnnualReviewAsync(int employeeId)
@@ -305,39 +305,39 @@ public class EmployeeService
         try
         {
             // Each operation delegates to single-responsibility classes
-            var employee = await _repository.GetByIdAsync(employeeId);
+            var employee = await`_repository.GetByIdAsync(employeeId);
             if (employee == null)
                 return $"Employee {employeeId} not found";
 
-            var bonus = _bonusCalculator.CalculateYearEndBonus(employee);
-            var report = _reportGenerator.GenerateDetailedReport(employee);
+            var bonus =`_bonusCalculator.CalculateYearEndBonus(employee);
+            var report =`_reportGenerator.GenerateDetailedReport(employee);
 
-            await _notificationService.SendBonusNotificationAsync(employee, bonus);
+            await`_notificationService.SendBonusNotificationAsync(employee, bonus);
 
-            _logger.LogInformation("Annual review completed for employee {EmployeeId}", employeeId);
+           `_logger.LogInformation("Annual review completed for employee {EmployeeId}", employeeId);
 
             return report;
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Failed to process annual review for employee {EmployeeId}", employeeId);
+           `_logger.LogError(ex, "Failed to process annual review for employee {EmployeeId}", employeeId);
             throw;
         }
     }
 
     public async Task UpdateSalaryAsync(int employeeId, decimal newSalary)
     {
-        var employee = await _repository.GetByIdAsync(employeeId);
+        var employee = await`_repository.GetByIdAsync(employeeId);
         if (employee == null)
             throw new ArgumentException($"Employee {employeeId} not found");
 
         var oldSalary = employee.Salary;
         employee.Salary = newSalary;
 
-        await _repository.UpdateAsync(employee);
-        await _notificationService.SendSalaryUpdateNotificationAsync(employee, newSalary);
+        await`_repository.UpdateAsync(employee);
+        await`_notificationService.SendSalaryUpdateNotificationAsync(employee, newSalary);
 
-        _logger.LogInformation("Salary updated for employee {EmployeeId}: {OldSalary} -> {NewSalary}",
+       `_logger.LogInformation("Salary updated for employee {EmployeeId}: {OldSalary} -> {NewSalary}",
                              employeeId, oldSalary, newSalary);
     }
 }
@@ -348,11 +348,11 @@ public class EmployeeService
 
 ### **Single Responsibility Benefits Achieved**
 
-✅ **Clear Purpose**: Each class has one well-defined responsibility 
-✅ **Easy Testing**: Individual components can be tested in isolation 
-✅ **Better Maintainability**: Changes are localized to specific classes 
-✅ **Improved Reusability**: Single-purpose classes can be reused across contexts 
-✅ **Reduced Coupling**: Classes depend on abstractions rather than concrete implementations 
+✅ **Clear Purpose**: Each class has one well-defined responsibility
+✅ **Easy Testing**: Individual components can be tested in isolation
+✅ **Better Maintainability**: Changes are localized to specific classes
+✅ **Improved Reusability**: Single-purpose classes can be reused across contexts
+✅ **Reduced Coupling**: Classes depend on abstractions rather than concrete implementations
 
 ### **Identification Techniques**
 
@@ -379,7 +379,7 @@ public class EmployeeService
 - **Then**: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Responsibility-PartC.md)
 - **Series**: SOLID Principles Mastery Track
 
-**Last Updated**: October 22, 2025 
+**Last Updated**: October 22, 2025
 **Format**: 30-minute focused learning segment
 
 ---
@@ -470,5 +470,5 @@ By completing this series, you will:
 
 ---
 
-*Last Updated: September 11, 2025* 
+*Last Updated: September 11, 2025*
 *Part of STSA Lead Architect Knowledge Base*

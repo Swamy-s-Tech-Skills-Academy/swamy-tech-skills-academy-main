@@ -1,8 +1,8 @@
 # 04_SOLID-Part4-Interface-Segregation-Principle - Part D
 
-**Learning Level**: Intermediate to Advanced 
-**Prerequisites**: Liskov Substitution Principle (Part 3), Interface design patterns 
-**Estimated Time**: 30 minutes 
+**Learning Level**: Intermediate to Advanced
+**Prerequisites**: Liskov Substitution Principle (Part 3), Interface design patterns
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -19,16 +19,16 @@ Previous: [04_SOLID-Part4-Interface-Segregation-Principle-PartC.md](04_SOLID-Par
 // Client chooses appropriate interface level
 public class ProductCatalogService
 {
-    private readonly IReadOnlyRepository`Product` _productRepository;
+    private readonly IReadOnlyRepository`Product``_productRepository;
 
     public ProductCatalogService(IReadOnlyRepository`Product` productRepository)
     {
-        _productRepository = productRepository; // Only needs read operations
+       `_productRepository = productRepository; // Only needs read operations
     }
 
     public async Task`ProductCatalog` GetCatalogAsync(string category)
     {
-        var products = await _productRepository.SearchAsync($"category:{category}");
+        var products = await`_productRepository.SearchAsync($"category:{category}");
         return new ProductCatalog { Products = products.ToList() };
     }
 }
@@ -123,21 +123,21 @@ public class ValidationService
 
 public class CacheService
 {
-    private readonly IMemoryCache _cache;
+    private readonly IMemoryCache`_cache;
 
     public CacheService(IMemoryCache cache)
     {
-        _cache = cache;
+       `_cache = cache;
     }
 
     public void CacheEntity`T`(T entity) where T : ICacheable
     {
-        _cache.Set(entity.GetCacheKey(), entity, entity.GetCacheDuration());
+       `_cache.Set(entity.GetCacheKey(), entity, entity.GetCacheDuration());
     }
 
     public T GetFromCache`T`(string key) where T : class
     {
-        return _cache.Get`T`(key);
+        return`_cache.Get`T`(key);
     }
 }
 

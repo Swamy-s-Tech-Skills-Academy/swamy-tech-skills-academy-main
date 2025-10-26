@@ -1,8 +1,8 @@
 # 02_SOLID-Part2-Open-Closed-Principle - Part B
 
-**Learning Level**: Intermediate to Advanced 
-**Prerequisites**: Single Responsibility Principle (Part 1), Basic inheritance and interfaces 
-**Estimated Time**: 30 minutes 
+**Learning Level**: Intermediate to Advanced
+**Prerequisites**: Single Responsibility Principle (Part 1), Basic inheritance and interfaces
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -37,16 +37,16 @@ Next: [02_SOLID-Part2-Open-Closed-Principle-PartC.md](02_SOLID-Part2-Open-Closed
 // Context class - closed for modification, open for extension
 public class DiscountCalculator
 {
-    private readonly List`IDiscountStrategy` _strategies;
+    private readonly List`IDiscountStrategy``_strategies;
 
     public DiscountCalculator(IEnumerable`IDiscountStrategy` strategies)
     {
-        _strategies = strategies.ToList();
+       `_strategies = strategies.ToList();
     }
 
     public DiscountResult CalculateBestDiscount(Order order)
     {
-        var applicableDiscounts = _strategies
+        var applicableDiscounts =`_strategies
             .Where(strategy => strategy.IsApplicable(order))
             .Select(strategy => new DiscountResult
             {
@@ -66,46 +66,46 @@ csharp
 // ✅ NEW: Adding loyalty discount without touching existing code
 public class LoyaltyDiscountStrategy : IDiscountStrategy
 {
-    private readonly int _requiredPoints;
-    private readonly decimal _discountPerPoint;
+    private readonly int`_requiredPoints;
+    private readonly decimal`_discountPerPoint;
 
     public LoyaltyDiscountStrategy(int requiredPoints, decimal discountPerPoint)
     {
-        _requiredPoints = requiredPoints;
-        _discountPerPoint = discountPerPoint;
+       `_requiredPoints = requiredPoints;
+       `_discountPerPoint = discountPerPoint;
     }
 
     public string Name => "Loyalty Points Discount";
 
     public decimal CalculateDiscount(Order order)
     {
-        if (order.Customer.LoyaltyPoints >= _requiredPoints)
+        if (order.Customer.LoyaltyPoints >=`_requiredPoints)
         {
             var pointsToUse = Math.Min(order.Customer.LoyaltyPoints,
-                                     (int)(order.Total / _discountPerPoint));
-            return pointsToUse * _discountPerPoint;
+                                     (int)(order.Total /`_discountPerPoint));
+            return pointsToUse *`_discountPerPoint;
         }
         return 0;
     }
 
     public bool IsApplicable(Order order)
     {
-        return order.Customer?.LoyaltyPoints >= _requiredPoints;
+        return order.Customer?.LoyaltyPoints >=`_requiredPoints;
     }
 }
 
 // ✅ NEW: Seasonal discount without modifying existing code
 public class SeasonalDiscountStrategy : IDiscountStrategy
 {
-    private readonly DateTime _startDate;
-    private readonly DateTime _endDate;
-    private readonly decimal _percentage;
+    private readonly DateTime`_startDate;
+    private readonly DateTime`_endDate;
+    private readonly decimal`_percentage;
 
     public SeasonalDiscountStrategy(DateTime startDate, DateTime endDate, decimal percentage)
     {
-        _startDate = startDate;
-        _endDate = endDate;
-        _percentage = percentage;
+       `_startDate = startDate;
+       `_endDate = endDate;
+       `_percentage = percentage;
     }
 
     public string Name => $"Seasonal {_percentage * 100}% Off";
@@ -113,9 +113,9 @@ public class SeasonalDiscountStrategy : IDiscountStrategy
     public decimal CalculateDiscount(Order order)
     {
         var now = DateTime.Now.Date;
-        if (now >= _startDate && now `= _endDate)
+        if (now >=`_startDate && now `=_endDate)
         {
-            return order.Total * _percentage;
+            return order.Total *`_percentage;
         }
         return 0;
     }
@@ -123,7 +123,7 @@ public class SeasonalDiscountStrategy : IDiscountStrategy
     public bool IsApplicable(Order order)
     {
         var now = DateTime.Now.Date;
-        return now `= _startDate && now `= _endDate && order.Total ` 0;
+        return now `=`_startDate && now `=_endDate && order.Total ` 0;
     }
 }
 

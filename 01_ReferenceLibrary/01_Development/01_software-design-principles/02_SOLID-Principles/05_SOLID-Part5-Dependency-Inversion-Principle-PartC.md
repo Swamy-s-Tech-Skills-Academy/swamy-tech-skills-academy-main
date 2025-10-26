@@ -1,8 +1,8 @@
 # 05_SOLID-Part5-Dependency-Inversion-Principle - Part C
 
-**Learning Level**: Advanced 
-**Prerequisites**: Interface Segregation Principle (Part 4), Dependency injection concepts 
-**Estimated Time**: 30 minutes 
+**Learning Level**: Advanced
+**Prerequisites**: Interface Segregation Principle (Part 4), Dependency injection concepts
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -98,11 +98,11 @@ public interface IRepositoryFactory
 // Concrete factory for SQL implementations
 public class SqlRepositoryFactory : IRepositoryFactory
 {
-    private readonly string _connectionString;
+    private readonly string`_connectionString;
 
     public SqlRepositoryFactory(string connectionString)
     {
-        _connectionString = connectionString;
+       `_connectionString = connectionString;
     }
 
     public IOrderRepository CreateOrderRepository()
@@ -124,18 +124,18 @@ public class SqlRepositoryFactory : IRepositoryFactory
 // Service using factory abstraction
 public class ECommerceService
 {
-    private readonly IRepositoryFactory _repositoryFactory;
+    private readonly IRepositoryFactory`_repositoryFactory;
 
     public ECommerceService(IRepositoryFactory repositoryFactory)
     {
-        _repositoryFactory = repositoryFactory;
+       `_repositoryFactory = repositoryFactory;
     }
 
     public async Task ProcessPurchaseAsync(int customerId, int productId, int quantity)
     {
-        var customerRepo = _repositoryFactory.CreateCustomerRepository();
-        var productRepo = _repositoryFactory.CreateProductRepository();
-        var orderRepo = _repositoryFactory.CreateOrderRepository();
+        var customerRepo =`_repositoryFactory.CreateCustomerRepository();
+        var productRepo =`_repositoryFactory.CreateProductRepository();
+        var orderRepo =`_repositoryFactory.CreateOrderRepository();
 
         var customer = await customerRepo.GetByIdAsync(customerId);
         var product = await productRepo.GetByIdAsync(productId);

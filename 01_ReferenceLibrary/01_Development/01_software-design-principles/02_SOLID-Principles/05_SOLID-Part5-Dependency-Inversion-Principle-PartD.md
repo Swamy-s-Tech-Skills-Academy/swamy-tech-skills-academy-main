@@ -1,8 +1,8 @@
 # 05_SOLID-Part5-Dependency-Inversion-Principle - Part D
 
-**Learning Level**: Advanced 
-**Prerequisites**: Interface Segregation Principle (Part 4), Dependency injection concepts 
-**Estimated Time**: 30 minutes 
+**Learning Level**: Advanced
+**Prerequisites**: Interface Segregation Principle (Part 4), Dependency injection concepts
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -16,27 +16,27 @@ Previous: [05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md](05_SOLID-Part
 
 ---
 
-    private readonly IEnumerable`IPaymentProcessor` _processors;
-    private readonly ILogger _logger;
+    private readonly IEnumerable`IPaymentProcessor``_processors;
+    private readonly ILogger`_logger;
 
     public PaymentService(IEnumerable`IPaymentProcessor` processors, ILogger logger)
     {
-        _processors = processors;
-        _logger = logger;
+       `_processors = processors;
+       `_logger = logger;
     }
 
     public async Task`PaymentResult` ProcessPaymentAsync(PaymentRequest request)
     {
-        var processor = _processors.FirstOrDefault(p => p.CanProcess(request.PaymentType));
+        var processor =`_processors.FirstOrDefault(p => p.CanProcess(request.PaymentType));
 
         if (processor == null)
         {
             var error = $"No processor found for payment type: {request.PaymentType}";
-            _logger.LogError(error);
+           `_logger.LogError(error);
             return PaymentResult.Failed(error);
         }
 
-        _logger.Log($"Processing {request.PaymentType} payment for ${request.Amount}");
+       `_logger.Log($"Processing {request.PaymentType} payment for ${request.Amount}");
 
         try
         {
@@ -44,7 +44,7 @@ Previous: [05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md](05_SOLID-Part
         }
         catch (Exception ex)
         {
-            _logger.LogError("Payment processing failed", ex);
+           `_logger.LogError("Payment processing failed", ex);
             return PaymentResult.Failed("Payment processing error");
         }
     }
@@ -53,11 +53,11 @@ Previous: [05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md](05_SOLID-Part
 // Concrete processors implement the abstraction
 public class CreditCardProcessor : IPaymentProcessor
 {
-    private readonly ICreditCardGateway _gateway;
+    private readonly ICreditCardGateway`_gateway;
 
     public CreditCardProcessor(ICreditCardGateway gateway)
     {
-        _gateway = gateway;
+       `_gateway = gateway;
     }
 
     public bool CanProcess(PaymentType paymentType)
@@ -67,7 +67,7 @@ public class CreditCardProcessor : IPaymentProcessor
 
     public async Task`PaymentResult` ProcessAsync(PaymentRequest request)
     {
-        var result = await _gateway.ChargeCardAsync(request.CardNumber, request.Amount);
+        var result = await`_gateway.ChargeCardAsync(request.CardNumber, request.Amount);
         return new PaymentResult
         {
             Success = result.IsSuccess,
@@ -78,11 +78,11 @@ public class CreditCardProcessor : IPaymentProcessor
 
 public class PayPalProcessor : IPaymentProcessor
 {
-    private readonly IPayPalApi _payPalApi;
+    private readonly IPayPalApi`_payPalApi;
 
     public PayPalProcessor(IPayPalApi payPalApi)
     {
-        _payPalApi = payPalApi;
+       `_payPalApi = payPalApi;
     }
 
     public bool CanProcess(PaymentType paymentType)
@@ -92,7 +92,7 @@ public class PayPalProcessor : IPaymentProcessor
 
     public async Task`PaymentResult` ProcessAsync(PaymentRequest request)
     {
-        var result = await _payPalApi.ProcessPaymentAsync(request.PayPalToken, request.Amount);
+        var result = await`_payPalApi.ProcessPaymentAsync(request.PayPalToken, request.Amount);
         return new PaymentResult
         {
             Success = result.Status == "SUCCESS",

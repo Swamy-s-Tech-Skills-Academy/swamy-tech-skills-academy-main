@@ -1,8 +1,8 @@
 # 01_SOLID-Part1-Single-Responsibility - Part B
 
-**Learning Level**: Intermediate 
-**Prerequisites**: Basic OOP concepts, understanding of classes and methods 
-**Estimated Time**: 30 minutes 
+**Learning Level**: Intermediate
+**Prerequisites**: Basic OOP concepts, understanding of classes and methods
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -17,10 +17,10 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
 
 ---
 
-    private readonly OrderCalculator _calculator;
-    private readonly OrderRepository _repository;
-    private readonly EmailNotificationService _emailService;
-    private readonly ILogger`OrderService` _logger;
+    private readonly OrderCalculator`_calculator;
+    private readonly OrderRepository`_repository;
+    private readonly EmailNotificationService`_emailService;
+    private readonly ILogger`OrderService``_logger;
 
     public OrderService(
         OrderValidator validator,
@@ -29,11 +29,11 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
         EmailNotificationService emailService,
         ILogger`OrderService` logger)
     {
-        _validator = validator;
-        _calculator = calculator;
-        _repository = repository;
-        _emailService = emailService;
-        _logger = logger;
+       `_validator = validator;
+       `_calculator = calculator;
+       `_repository = repository;
+       `_emailService = emailService;
+       `_logger = logger;
     }
 
     public async Task`ProcessResult` ProcessOrderAsync(Order order)
@@ -41,27 +41,27 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
         try
         {
             // Validate
-            var validationResult = _validator.Validate(order);
+            var validationResult =`_validator.Validate(order);
             if (!validationResult.IsValid)
                 return ProcessResult.Failed(validationResult.Errors);
 
             // Calculate
-            order.Total = _calculator.CalculateTotal(order);
+            order.Total =`_calculator.CalculateTotal(order);
 
             // Save
-            await _repository.SaveAsync(order);
+            await`_repository.SaveAsync(order);
 
             // Notify
-            await _emailService.SendOrderConfirmationAsync(order);
+            await`_emailService.SendOrderConfirmationAsync(order);
 
             // Log
-            _logger.LogInformation("Order {OrderId} processed successfully", order.Id);
+           `_logger.LogInformation("Order {OrderId} processed successfully", order.Id);
 
             return ProcessResult.Success();
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Failed to process order {OrderId}", order.Id);
+           `_logger.LogError(ex, "Failed to process order {OrderId}", order.Id);
             return ProcessResult.Failed($"Processing failed: {ex.Message}");
         }
     }
@@ -69,18 +69,18 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
 
     public class RefactoredDocumentProcessor : IDocumentProcessor
     {
-        private readonly IDocumentValidator _validator;
-        private readonly IDocumentConverter _converter;
-        private readonly IDocumentStorage _storage;
+        private readonly IDocumentValidator`_validator;
+        private readonly IDocumentConverter`_converter;
+        private readonly IDocumentStorage`_storage;
 
         public RefactoredDocumentProcessor(
             IDocumentValidator validator,
             IDocumentConverter converter,
             IDocumentStorage storage)
         {
-            _validator = validator;
-            _converter = converter;
-            _storage = storage;
+           `_validator = validator;
+           `_converter = converter;
+           `_storage = storage;
         }
 
         public ProcessResult Process(Document document)
@@ -88,8 +88,8 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
             if (!_validator.Validate(document))
                 return ProcessResult.Failed("Invalid document");
 
-            var convertedDocument = _converter.Convert(document);
-            _storage.Save(convertedDocument);
+            var convertedDocument =`_converter.Convert(document);
+           `_storage.Save(convertedDocument);
 
             return ProcessResult.Success();
         }
@@ -108,7 +108,7 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
         public bool IsValidEmail(string email) { }
         public bool IsValidPhone(string phone) { }
 
-        // Data persistence group 
+        // Data persistence group
         public void SaveCustomer(Customer customer) { }
         public Customer GetCustomer(int id) { }
 
@@ -147,22 +147,22 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
 
     public class CustomerRepository
     {
-        private readonly IDbContext _context;
+        private readonly IDbContext`_context;
 
         public CustomerRepository(IDbContext context)
         {
-            _context = context;
+           `_context = context;
         }
 
         public async Task`Customer` GetByIdAsync(int id)
         {
-            return await _context.Customers.FindAsync(id);
+            return await`_context.Customers.FindAsync(id);
         }
 
         public async Task SaveAsync(Customer customer)
         {
-            _context.Customers.Add(customer);
-            await _context.SaveChangesAsync();
+           `_context.Customers.Add(customer);
+            await`_context.SaveChangesAsync();
         }
     }
 
@@ -186,26 +186,26 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
 
     public class CustomerNotificationService
     {
-        private readonly IEmailService _emailService;
-        private readonly ISmsService _smsService;
+        private readonly IEmailService`_emailService;
+        private readonly ISmsService`_smsService;
 
         public CustomerNotificationService(IEmailService emailService, ISmsService smsService)
         {
-            _emailService = emailService;
-            _smsService = smsService;
+           `_emailService = emailService;
+           `_smsService = smsService;
         }
 
         public async Task SendWelcomeEmailAsync(Customer customer)
         {
             var subject = "Welcome to Our Platform!";
             var body = $"Dear {customer.Name}, welcome to our platform. We're excited to have you!";
-            await _emailService.SendEmailAsync(customer.Email, subject, body);
+            await`_emailService.SendEmailAsync(customer.Email, subject, body);
         }
 
         public async Task SendPromotionalSmsAsync(Customer customer, string promotion)
         {
             var message = $"Hi {customer.Name}! {promotion}. Reply STOP to opt out.";
-            await _smsService.SendSmsAsync(customer.Phone, message);
+            await`_smsService.SendSmsAsync(customer.Phone, message);
         }
     }csharp
 
@@ -213,11 +213,11 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
 
     public class CustomerService
     {
-        private readonly CustomerValidator _validator;
-        private readonly CustomerRepository _repository;
-        private readonly CustomerBusinessLogic _businessLogic;
-        private readonly CustomerNotificationService _notificationService;
-        private readonly ILogger`CustomerService` _logger;
+        private readonly CustomerValidator`_validator;
+        private readonly CustomerRepository`_repository;
+        private readonly CustomerBusinessLogic`_businessLogic;
+        private readonly CustomerNotificationService`_notificationService;
+        private readonly ILogger`CustomerService``_logger;
 
         public CustomerService(
             CustomerValidator validator,
@@ -226,11 +226,11 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
             CustomerNotificationService notificationService,
             ILogger`CustomerService` logger)
         {
-            _validator = validator;
-            _repository = repository;
-            _businessLogic = businessLogic;
-            _notificationService = notificationService;
-            _logger = logger;
+           `_validator = validator;
+           `_repository = repository;
+           `_businessLogic = businessLogic;
+           `_notificationService = notificationService;
+           `_logger = logger;
         }
 
         public async Task`ServiceResult<Customer`> CreateCustomerAsync(Customer customer)
@@ -238,24 +238,24 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
             try
             {
                 // Validate using dedicated validator
-                var validationResult = _validator.Validate(customer);
+                var validationResult =`_validator.Validate(customer);
                 if (!validationResult.IsValid)
                     return ServiceResult`Customer`.Failed(validationResult.Errors);
 
                 // Save using dedicated repository
-                await _repository.SaveAsync(customer);
+                await`_repository.SaveAsync(customer);
 
                 // Send notifications using dedicated service
-                await _notificationService.SendWelcomeEmailAsync(customer);
+                await`_notificationService.SendWelcomeEmailAsync(customer);
 
                 // Log using injected logger
-                _logger.LogInformation("Customer {CustomerId} created successfully", customer.Id);
+               `_logger.LogInformation("Customer {CustomerId} created successfully", customer.Id);
 
                 return ServiceResult`Customer`.Success(customer);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Failed to create customer {CustomerId}", customer.Id);
+               `_logger.LogError(ex, "Failed to create customer {CustomerId}", customer.Id);
                 return ServiceResult`Customer`.Failed($"Customer creation failed: {ex.Message}");
             }
         }
@@ -264,16 +264,16 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
         {
             try
             {
-                var customer = await _repository.GetByIdAsync(customerId);
+                var customer = await`_repository.GetByIdAsync(customerId);
                 if (customer == null)
                     return ServiceResult`decimal`.Failed("Customer not found");
 
-                var discount = _businessLogic.CalculateDiscount(customer);
+                var discount =`_businessLogic.CalculateDiscount(customer);
                 return ServiceResult`decimal`.Success(discount);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Failed to calculate discount for customer {CustomerId}", customerId);
+               `_logger.LogError(ex, "Failed to calculate discount for customer {CustomerId}", customerId);
                 return ServiceResult`decimal`.Failed($"Discount calculation failed: {ex.Message}");
             }
         }
@@ -284,11 +284,11 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
 
 ### **Single Responsibility Benefits Achieved**
 
-✅ **Maintainability**: Each class has one clear purpose and reason to change 
-✅ **Testability**: Individual responsibilities can be unit tested in isolation 
-✅ **Reusability**: Components can be reused across different contexts 
-✅ **Debugging**: Issues can be traced to specific, focused classes 
-✅ **Team Development**: Different developers can work on separate responsibilities 
+✅ **Maintainability**: Each class has one clear purpose and reason to change
+✅ **Testability**: Individual responsibilities can be unit tested in isolation
+✅ **Reusability**: Components can be reused across different contexts
+✅ **Debugging**: Issues can be traced to specific, focused classes
+✅ **Team Development**: Different developers can work on separate responsibilities
 
 ### **Refactoring Patterns Applied**
 
@@ -315,5 +315,5 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
 - **Next**: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Responsibility-PartC.md)
 - **Series**: SOLID Principles Mastery Track
 
-**Last Updated**: October 22, 2025 
+**Last Updated**: October 22, 2025
 **Format**: 30-minute focused learning segment

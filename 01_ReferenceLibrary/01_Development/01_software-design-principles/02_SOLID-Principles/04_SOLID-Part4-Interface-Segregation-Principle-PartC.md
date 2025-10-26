@@ -1,8 +1,8 @@
 # 04_SOLID-Part4-Interface-Segregation-Principle - Part C
 
-**Learning Level**: Intermediate to Advanced 
-**Prerequisites**: Liskov Substitution Principle (Part 3), Interface design patterns 
-**Estimated Time**: 30 minutes 
+**Learning Level**: Intermediate to Advanced
+**Prerequisites**: Liskov Substitution Principle (Part 3), Interface design patterns
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -21,7 +21,7 @@ Next: [04_SOLID-Part4-Interface-Segregation-Principle-PartD.md](04_SOLID-Part4-I
 
     public async Task`UserProfile` GetProfileAsync(int userId)
     {
-        var user = await _userRepository.GetByIdAsync(userId);
+        var user = await`_userRepository.GetByIdAsync(userId);
         return new UserProfile
         {
             Name = user.Name,
@@ -33,16 +33,16 @@ Next: [04_SOLID-Part4-Interface-Segregation-Principle-PartD.md](04_SOLID-Part4-I
 
 public class UserManagementService
 {
-    private readonly IUserRepository _userRepository; // Full access when needed
+    private readonly IUserRepository`_userRepository; // Full access when needed
 
     public UserManagementService(IUserRepository userRepository)
     {
-        _userRepository = userRepository;
+       `_userRepository = userRepository;
     }
 
     public async Task`User` CreateUserAsync(CreateUserRequest request)
     {
-        var existingUser = await _userRepository.GetByEmailAsync(request.Email);
+        var existingUser = await`_userRepository.GetByEmailAsync(request.Email);
         if (existingUser != null)
             throw new InvalidOperationException("User already exists");
 
@@ -53,7 +53,7 @@ public class UserManagementService
             CreatedAt = DateTime.UtcNow
         };
 
-        return await _userRepository.CreateAsync(user);
+        return await`_userRepository.CreateAsync(user);
     }
 }
 
@@ -79,16 +79,16 @@ public interface IOrderCommands
 // Reporting service only needs queries
 public class OrderReportingService
 {
-    private readonly IOrderQueries _orderQueries;
+    private readonly IOrderQueries`_orderQueries;
 
     public OrderReportingService(IOrderQueries orderQueries)
     {
-        _orderQueries = orderQueries;
+       `_orderQueries = orderQueries;
     }
 
     public async Task`MonthlyReport` GenerateMonthlyReportAsync(int year, int month)
     {
-        var orders = await _orderQueries.GetOrdersByMonthAsync(year, month);
+        var orders = await`_orderQueries.GetOrdersByMonthAsync(year, month);
         return new MonthlyReport
         {
             TotalOrders = orders.Count(),
@@ -101,18 +101,18 @@ public class OrderReportingService
 // Order processing needs both queries and commands
 public class OrderProcessingService
 {
-    private readonly IOrderQueries _orderQueries;
-    private readonly IOrderCommands _orderCommands;
+    private readonly IOrderQueries`_orderQueries;
+    private readonly IOrderCommands`_orderCommands;
 
     public OrderProcessingService(IOrderQueries orderQueries, IOrderCommands orderCommands)
     {
-        _orderQueries = orderQueries;
-        _orderCommands = orderCommands;
+       `_orderQueries = orderQueries;
+       `_orderCommands = orderCommands;
     }
 
     public async Task ProcessOrderAsync(int orderId)
     {
-        var order = await _orderQueries.GetByIdAsync(orderId);
+        var order = await`_orderQueries.GetByIdAsync(orderId);
         if (order == null)
             throw new InvalidOperationException("Order not found");
 
@@ -120,7 +120,7 @@ public class OrderProcessingService
             throw new InvalidOperationException("Order is not in pending status");
 
         // Process payment, inventory, etc.
-        await _orderCommands.UpdateOrderStatusAsync(orderId, OrderStatus.Processing);
+        await`_orderCommands.UpdateOrderStatusAsync(orderId, OrderStatus.Processing);
     }
 }
 

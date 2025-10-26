@@ -1,8 +1,8 @@
 # 03_SOLID-Part3-Liskov-Substitution-Principle - Part C
 
-**Learning Level**: Advanced 
-**Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2) 
-**Estimated Time**: 30 minutes 
+**Learning Level**: Advanced
+**Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2)
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -54,19 +54,19 @@ public class ReadOnlyFileStorage : IReadableStorage
 // Client can work with appropriate interface
 public class DocumentProcessor
 {
-    private readonly IReadableStorage _storage;
+    private readonly IReadableStorage`_storage;
 
     public DocumentProcessor(IReadableStorage storage)
     {
-        _storage = storage; // Works with both LocalFileStorage and ReadOnlyFileStorage
+       `_storage = storage; // Works with both LocalFileStorage and ReadOnlyFileStorage
     }
 
     public async Task`string` ProcessDocumentAsync(string path)
     {
-        if (!await _storage.ExistsAsync(path))
+        if (!await`_storage.ExistsAsync(path))
             throw new FileNotFoundException($"Document not found: {path}");
 
-        var data = await _storage.ReadAsync(path);
+        var data = await`_storage.ReadAsync(path);
         return ProcessBytes(data);
     }
 
@@ -125,15 +125,15 @@ csharp
 // Base class with invariant checking
 public abstract class BankAccount
 {
-    private decimal _balance;
+    private decimal`_balance;
 
     public decimal Balance
     {
-        get => _balance;
+        get =>`_balance;
         protected set
         {
             CheckInvariant(value);
-            _balance = value;
+           `_balance = value;
         }
     }
 
@@ -165,6 +165,5 @@ public abstract class BankAccount
 
 public class CheckingAccount : BankAccount
 {
-    private readonly decimal _overdraftLimit;
-
+    private readonly decimal`_overdraftLimit;
 

@@ -1,8 +1,8 @@
 # 05_SOLID-Part5-Dependency-Inversion-Principle - Part A
 
-**Learning Level**: Advanced 
-**Prerequisites**: Interface Segregation Principle (Part 4), Dependency injection concepts 
-**Estimated Time**: 30 minutes 
+**Learning Level**: Advanced
+**Prerequisites**: Interface Segregation Principle (Part 4), Dependency injection concepts
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -34,7 +34,7 @@ Next: [05_SOLID-Part5-Dependency-Inversion-Principle-PartB.md](05_SOLID-Part5-De
 │     OrderService (High-Level)   │
 ├─────────────────────────────────┤
 │ - SqlOrderRepository            │ ← Concrete dependency
-│ - SmtpEmailService              │ ← Concrete dependency 
+│ - SmtpEmailService              │ ← Concrete dependency
 │ - FileLogger                    │ ← Concrete dependency
 └─────────────────────────────────┘
           ↓ (depends on)
@@ -84,16 +84,16 @@ Problems:
 // ❌ BAD: Violates DIP - high-level depends on low-level
 public class OrderService // High-level business logic
 {
-    private readonly SqlOrderRepository _orderRepository; // Low-level data access
-    private readonly SmtpEmailService _emailService;     // Low-level infrastructure
-    private readonly FileLogger _logger;                 // Low-level logging
+    private readonly SqlOrderRepository`_orderRepository; // Low-level data access
+    private readonly SmtpEmailService`_emailService;     // Low-level infrastructure
+    private readonly FileLogger`_logger;                 // Low-level logging
 
     public OrderService()
     {
         // Hard-coded dependencies - violates DIP
-        _orderRepository = new SqlOrderRepository("connectionString");
-        _emailService = new SmtpEmailService("smtp.company.com");
-        _logger = new FileLogger("orders.log");
+       `_orderRepository = new SqlOrderRepository("connectionString");
+       `_emailService = new SmtpEmailService("smtp.company.com");
+       `_logger = new FileLogger("orders.log");
     }
 
     public async Task ProcessOrderAsync(Order order)
@@ -101,18 +101,18 @@ public class OrderService // High-level business logic
         try
         {
             // Business logic mixed with infrastructure concerns
-            _logger.Log($"Processing order {order.Id}");
+           `_logger.Log($"Processing order {order.Id}");
 
-            await _orderRepository.SaveAsync(order);
+            await`_orderRepository.SaveAsync(order);
 
             var emailBody = $"Order {order.Id} confirmed";
-            await _emailService.SendAsync(order.CustomerEmail, "Order Confirmation", emailBody);
+            await`_emailService.SendAsync(order.CustomerEmail, "Order Confirmation", emailBody);
 
-            _logger.Log($"Order {order.Id} processed successfully");
+           `_logger.Log($"Order {order.Id} processed successfully");
         }
         catch (Exception ex)
         {
-            _logger.Log($"Failed to process order {order.Id}: {ex.Message}");
+           `_logger.Log($"Failed to process order {order.Id}: {ex.Message}");
             throw;
         }
     }
@@ -152,9 +152,9 @@ public interface ILogger
 // High-level module depends only on abstractions
 public class OrderService
 {
-    private readonly IOrderRepository _orderRepository;
-    private readonly IEmailService _emailService;
-    private readonly ILogger _logger;
+    private readonly IOrderRepository`_orderRepository;
+    private readonly IEmailService`_emailService;
+    private readonly ILogger`_logger;
 
     // Dependencies injected from outside (Dependency Injection)
     public OrderService(
@@ -162,9 +162,9 @@ public class OrderService
         IEmailService emailService,
         ILogger logger)
     {
-        _orderRepository = orderRepository ?? throw new ArgumentNullException(nameof(orderRepository));
-        _emailService = emailService ?? throw new ArgumentNullException(nameof(emailService));
-        _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+       `_orderRepository = orderRepository ?? throw new ArgumentNullException(nameof(orderRepository));
+       `_emailService = emailService ?? throw new ArgumentNullException(nameof(emailService));
+       `_logger = logger ?? throw new ArgumentNullException(nameof(logger));
     }
 
     public async Task`ProcessResult` ProcessOrderAsync(Order order)
