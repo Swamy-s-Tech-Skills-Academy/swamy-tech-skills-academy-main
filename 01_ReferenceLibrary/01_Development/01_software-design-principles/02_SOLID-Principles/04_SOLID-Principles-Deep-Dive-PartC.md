@@ -45,7 +45,7 @@ This guide provides **comprehensive understanding and practical application** of
 
 ---
 
-**Part C of 6**
+## Part C of 6
 
 Previous: [04_SOLID-Principles-Deep-Dive-PartB.md](04_SOLID-Principles-Deep-Dive-PartB.md)
 Next: [04_SOLID-Principles-Deep-Dive-PartD.md](04_SOLID-Principles-Deep-Dive-PartD.md)

@@ -10,7 +10,7 @@ By the end of this 30-minute session, you will:
 
 - Understand the Liskov Substitution Principle (LSP) and its critical importance
 
-**Part A of 4**
+## Part A of 4
 
 Next: [03_SOLID-Part3-Liskov-Substitution-Principle-PartB.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartB.md)
 

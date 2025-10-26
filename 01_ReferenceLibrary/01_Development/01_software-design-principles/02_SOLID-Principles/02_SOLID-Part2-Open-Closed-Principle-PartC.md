@@ -10,7 +10,7 @@ By the end of this 30-minute session, you will:
 
 - Understand the Open/Closed Principle (OCP) and its strategic importance
 
-**Part C of 3**
+## Part C of 3
 
 Previous: [02_SOLID-Part2-Open-Closed-Principle-PartB.md](02_SOLID-Part2-Open-Closed-Principle-PartB.md)
 
@@ -86,10 +86,10 @@ public class EncryptedNotificationSender : INotificationSender
 public class LoggedNotificationSender : INotificationSender
 {
     private readonly INotificationSender _inner;
-    private readonly ILogger<LoggedNotificationSender> _logger;
+    private readonly ILogger`LoggedNotificationSender` _logger;
     
     public LoggedNotificationSender(INotificationSender inner, 
-                                  ILogger<LoggedNotificationSender> logger)
+                                  ILogger`LoggedNotificationSender` logger)
     {
         _inner = inner;
         _logger = logger;
@@ -119,22 +119,22 @@ public class LoggedNotificationSender : INotificationSender
 public void ConfigureServices(IServiceCollection services)
 {
     // Register discount strategies
-    services.AddTransient<IDiscountStrategy, PercentageDiscountStrategy>(provider =>
+    services.AddTransient`IDiscountStrategy, PercentageDiscountStrategy`(provider =>
         new PercentageDiscountStrategy(0.10m));
-    services.AddTransient<IDiscountStrategy, FixedAmountDiscountStrategy>(provider =>
+    services.AddTransient`IDiscountStrategy, FixedAmountDiscountStrategy`(provider =>
         new FixedAmountDiscountStrategy(50m));
-    services.AddTransient<IDiscountStrategy, BuyOneGetOneStrategy>(provider =>
+    services.AddTransient`IDiscountStrategy, BuyOneGetOneStrategy`(provider =>
         new BuyOneGetOneStrategy("Electronics"));
-    services.AddTransient<IDiscountStrategy, LoyaltyDiscountStrategy>(provider =>
+    services.AddTransient`IDiscountStrategy, LoyaltyDiscountStrategy`(provider =>
         new LoyaltyDiscountStrategy(100, 0.01m));
     
     // Register calculator with all strategies
-    services.AddTransient<DiscountCalculator>();
+    services.AddTransient`DiscountCalculator`();
     
     // Decorator pattern setup
-    services.AddTransient<EmailNotificationSender>();
-    services.Decorate<INotificationSender, EncryptedNotificationSender>();
-    services.Decorate<INotificationSender, LoggedNotificationSender>();
+    services.AddTransient`EmailNotificationSender`();
+    services.Decorate`INotificationSender, EncryptedNotificationSender`();
+    services.Decorate`INotificationSender, LoggedNotificationSender`();
 }
 ```
 

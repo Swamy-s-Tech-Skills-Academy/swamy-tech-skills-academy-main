@@ -45,7 +45,7 @@ This guide provides **comprehensive understanding and practical application** of
 
 ---
 
-**Part D of 6**
+## Part D of 6
 
 Previous: [04_SOLID-Principles-Deep-Dive-PartC.md](04_SOLID-Principles-Deep-Dive-PartC.md)
 Next: [04_SOLID-Principles-Deep-Dive-PartE.md](04_SOLID-Principles-Deep-Dive-PartE.md)
@@ -129,47 +129,47 @@ public class CafeteriaManager
 // Instead of fat interface
 public interface IRepository
 {
-    Task<T> GetByIdAsync<T>(int id);
-    Task<IEnumerable<T>> GetAllAsync<T>();
-    Task AddAsync<T>(T entity);
-    Task UpdateAsync<T>(T entity);
-    Task DeleteAsync<T>(int id);
-    Task<int> CountAsync<T>();
-    Task BulkInsertAsync<T>(IEnumerable<T> entities);
-    Task<IEnumerable<T>> SearchAsync<T>(string query);
+    Task`T` GetByIdAsync`T`(int id);
+    Task`IEnumerable<T`> GetAllAsync`T`();
+    Task AddAsync`T`(T entity);
+    Task UpdateAsync`T`(T entity);
+    Task DeleteAsync`T`(int id);
+    Task`int` CountAsync`T`();
+    Task BulkInsertAsync`T`(IEnumerable`T` entities);
+    Task`IEnumerable<T`> SearchAsync`T`(string query);
 }
 
 // Better: Segregated interfaces
-public interface IReadOnlyRepository<T>
+public interface IReadOnlyRepository`T`
 {
-    Task<T> GetByIdAsync(int id);
-    Task<IEnumerable<T>> GetAllAsync();
-    Task<int> CountAsync();
+    Task`T` GetByIdAsync(int id);
+    Task`IEnumerable<T`> GetAllAsync();
+    Task`int` CountAsync();
 }
 
-public interface IWriteRepository<T>
+public interface IWriteRepository`T`
 {
     Task AddAsync(T entity);
     Task UpdateAsync(T entity);
     Task DeleteAsync(int id);
 }
 
-public interface ISearchableRepository<T>
+public interface ISearchableRepository`T`
 {
-    Task<IEnumerable<T>> SearchAsync(string query);
+    Task`IEnumerable<T`> SearchAsync(string query);
 }
 
-public interface IBulkRepository<T>
+public interface IBulkRepository`T`
 {
-    Task BulkInsertAsync(IEnumerable<T> entities);
+    Task BulkInsertAsync(IEnumerable`T` entities);
 }
 
 // Clients use only what they need
 public class ReportService
 {
-    private readonly IReadOnlyRepository<Order> _orderRepository;
+    private readonly IReadOnlyRepository`Order` _orderRepository;
 
-    public ReportService(IReadOnlyRepository<Order> orderRepository)
+    public ReportService(IReadOnlyRepository`Order` orderRepository)
     {
         _orderRepository = orderRepository; // Only read operations
 

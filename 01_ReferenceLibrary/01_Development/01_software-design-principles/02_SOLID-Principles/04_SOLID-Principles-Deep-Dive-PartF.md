@@ -45,7 +45,7 @@ This guide provides **comprehensive understanding and practical application** of
 
 ---
 
-**Part F of 6**
+## Part F of 6
 
 Previous: [04_SOLID-Principles-Deep-Dive-PartE.md](04_SOLID-Principles-Deep-Dive-PartE.md)
 
@@ -62,18 +62,18 @@ public class Program
         var services = new ServiceCollection();
 
         // Register dependencies
-        services.AddScoped<IOrderRepository, SqlOrderRepository>();
-        services.AddScoped<IEmailService, SmtpEmailService>();
-        services.AddScoped<OrderService>();
+        services.AddScoped`IOrderRepository, SqlOrderRepository`();
+        services.AddScoped`IEmailService, SmtpEmailService`();
+        services.AddScoped`OrderService`();
 
         // Configuration
-        services.AddSingleton<SmtpClient>();
+        services.AddSingleton`SmtpClient`();
         services.AddSingleton("connectionString");
 
         var serviceProvider = services.BuildServiceProvider();
 
         // Resolve high-level service
-        var orderService = serviceProvider.GetService<OrderService>();
+        var orderService = serviceProvider.GetService`OrderService`();
     }
 }
 ```
@@ -91,7 +91,7 @@ public class Order
     public int Id { get; set; }
     public string CustomerEmail { get; set; }
     public decimal Total { get; set; }
-    public List<OrderItem> Items { get; set; } = new();
+    public List`OrderItem` Items { get; set; } = new();
 }
 
 public class OrderItem
@@ -145,18 +145,18 @@ public class SmsNotificationSender : NotificationSender
 public interface IOrderRepository
 {
     Task SaveAsync(Order order);
-    Task<Order> GetByIdAsync(int id);
+    Task`Order` GetByIdAsync(int id);
 }
 
 public interface IInventoryService
 {
-    Task<bool> IsAvailableAsync(string productName, int quantity);
+    Task`bool` IsAvailableAsync(string productName, int quantity);
     Task ReserveAsync(string productName, int quantity);
 }
 
 public interface IPaymentProcessor
 {
-    Task<bool> ProcessPaymentAsync(decimal amount, string paymentMethod);
+    Task`bool` ProcessPaymentAsync(decimal amount, string paymentMethod);
 }
 
 // D - Dependency Inversion: High-level depends on abstractions

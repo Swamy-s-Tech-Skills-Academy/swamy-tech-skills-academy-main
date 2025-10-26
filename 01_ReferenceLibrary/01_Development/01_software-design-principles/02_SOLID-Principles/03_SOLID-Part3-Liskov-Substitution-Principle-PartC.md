@@ -10,7 +10,7 @@ By the end of this 30-minute session, you will:
 
 - Understand the Liskov Substitution Principle (LSP) and its critical importance
 
-**Part C of 4**
+## Part C of 4
 
 Previous: [03_SOLID-Part3-Liskov-Substitution-Principle-PartB.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartB.md)
 Next: [03_SOLID-Part3-Liskov-Substitution-Principle-PartD.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartD.md)
@@ -20,7 +20,7 @@ Next: [03_SOLID-Part3-Liskov-Substitution-Principle-PartD.md](03_SOLID-Part3-Lis
         return await File.ReadAllBytesAsync(path);
     }
     
-    public async Task<bool> ExistsAsync(string path)
+    public async Task`bool` ExistsAsync(string path)
     {
         return File.Exists(path);
     }
@@ -40,12 +40,12 @@ Next: [03_SOLID-Part3-Liskov-Substitution-Principle-PartD.md](03_SOLID-Part3-Lis
 public class ReadOnlyFileStorage : IReadableStorage
 {
     // Only implements what it can actually do
-    public async Task<byte[]> ReadAsync(string path)
+    public async Task`byte[]` ReadAsync(string path)
     {
         return await File.ReadAllBytesAsync(path);
     }
 
-    public Task<bool> ExistsAsync(string path)
+    public Task`bool` ExistsAsync(string path)
     {
         return Task.FromResult(File.Exists(path));
     }
@@ -61,7 +61,7 @@ public class DocumentProcessor
         _storage = storage; // Works with both LocalFileStorage and ReadOnlyFileStorage
     }
     
-    public async Task<string> ProcessDocumentAsync(string path)
+    public async Task`string` ProcessDocumentAsync(string path)
     {
         if (!await _storage.ExistsAsync(path))
             throw new FileNotFoundException($"Document not found: {path}");
@@ -83,7 +83,7 @@ public class DocumentProcessor
 
 ```csharp
 // Base class contract tests
-public abstract class FileStorageContractTests<T> where T : IFileStorage
+public abstract class FileStorageContractTests`T` where T : IFileStorage
 {
     protected abstract T CreateStorage();
     
@@ -109,13 +109,13 @@ public abstract class FileStorageContractTests<T> where T : IFileStorage
         var storage = CreateStorage();
         
         // Act & Assert
-        await Assert.ThrowsAsync<FileNotFoundException>(() => 
+        await Assert.ThrowsAsync`FileNotFoundException`(() => 
             storage.ReadAsync("non-existent-file.txt"));
     }
 }
 
 // Concrete implementation tests inherit contract
-public class LocalFileStorageTests : FileStorageContractTests<LocalFileStorage>
+public class LocalFileStorageTests : FileStorageContractTests`LocalFileStorage`
 {
     protected override LocalFileStorage CreateStorage()
     {

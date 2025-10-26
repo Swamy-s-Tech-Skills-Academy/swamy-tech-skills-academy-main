@@ -45,7 +45,7 @@ This guide provides **comprehensive understanding and practical application** of
 
 ---
 
-**Part E of 6**
+## Part E of 6
 
 Previous: [04_SOLID-Principles-Deep-Dive-PartD.md](04_SOLID-Principles-Deep-Dive-PartD.md)
 Next: [04_SOLID-Principles-Deep-Dive-PartF.md](04_SOLID-Principles-Deep-Dive-PartF.md)
@@ -110,7 +110,7 @@ public interface IEmailService
 public interface IOrderRepository
 {
     Task SaveAsync(Order order);
-    Task<Order> GetByIdAsync(int id);
+    Task`Order` GetByIdAsync(int id);
 }
 
 // Low-level modules implement abstractions
@@ -143,7 +143,7 @@ public class SqlOrderRepository : IOrderRepository
         // SQL implementation
     }
 
-    public async Task<Order> GetByIdAsync(int id)
+    public async Task`Order` GetByIdAsync(int id)
     {
         // SQL implementation
         return new Order();

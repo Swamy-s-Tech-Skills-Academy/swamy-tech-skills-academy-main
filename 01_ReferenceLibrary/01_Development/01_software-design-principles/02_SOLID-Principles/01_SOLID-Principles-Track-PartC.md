@@ -7,7 +7,7 @@
 
 ---
 
-**Part C of 3**
+## Part C of 3
 
 Previous: [01_SOLID-Principles-Track-PartB.md](01_SOLID-Principles-Track-PartB.md)
 

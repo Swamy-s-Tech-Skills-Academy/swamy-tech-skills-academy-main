@@ -171,11 +171,11 @@ public class EmployeeRepository
     }
     
     // Single responsibility: Employee data persistence
-    public async Task<Employee> GetByIdAsync(int id)
+    public async Task`Employee` GetByIdAsync(int id)
     {
         using var connection = new SqlConnection(_connectionString);
         var sql = "SELECT * FROM Employees WHERE Id = @id";
-        return await connection.QuerySingleOrDefaultAsync<Employee>(sql, new { id });
+        return await connection.QuerySingleOrDefaultAsync`Employee`(sql, new { id });
     }
     
     public async Task SaveAsync(Employee employee)
@@ -283,14 +283,14 @@ public class EmployeeService
     private readonly BonusCalculator _bonusCalculator;
     private readonly EmployeeReportGenerator _reportGenerator;
     private readonly EmployeeNotificationService _notificationService;
-    private readonly ILogger<EmployeeService> _logger;
+    private readonly ILogger`EmployeeService` _logger;
     
     public EmployeeService(
         EmployeeRepository repository,
         BonusCalculator bonusCalculator,
         EmployeeReportGenerator reportGenerator,
         EmployeeNotificationService notificationService,
-        ILogger<EmployeeService> logger)
+        ILogger`EmployeeService` logger)
     {
         _repository = repository;
         _bonusCalculator = bonusCalculator;
@@ -299,7 +299,7 @@ public class EmployeeService
         _logger = logger;
     }
     
-    public async Task<string> ProcessAnnualReviewAsync(int employeeId)
+    public async Task`string` ProcessAnnualReviewAsync(int employeeId)
     {
         try
         {

@@ -10,7 +10,7 @@ By the end of this 30-minute session, you will:
 
 - Master the Interface Segregation Principle (ISP) and its client-focused design approach
 
-**Part D of 4**
+## Part D of 4
 
 Previous: [04_SOLID-Part4-Interface-Segregation-Principle-PartC.md](04_SOLID-Part4-Interface-Segregation-Principle-PartC.md)
 
@@ -19,14 +19,14 @@ Previous: [04_SOLID-Part4-Interface-Segregation-Principle-PartC.md](04_SOLID-Par
 // Client chooses appropriate interface level
 public class ProductCatalogService
 {
-    private readonly IReadOnlyRepository<Product> _productRepository;
+    private readonly IReadOnlyRepository`Product` _productRepository;
 
-    public ProductCatalogService(IReadOnlyRepository<Product> productRepository)
+    public ProductCatalogService(IReadOnlyRepository`Product` productRepository)
     {
         _productRepository = productRepository; // Only needs read operations
     }
     
-    public async Task<ProductCatalog> GetCatalogAsync(string category)
+    public async Task`ProductCatalog` GetCatalogAsync(string category)
     {
         var products = await _productRepository.SearchAsync($"category:{category}");
         return new ProductCatalog { Products = products.ToList() };
@@ -53,7 +53,7 @@ public interface ISerializable
 public interface IAuditable
 {
     void RecordAccess(string user, DateTime timestamp);
-    IEnumerable<AuditEntry> GetAuditTrail();
+    IEnumerable`AuditEntry` GetAuditTrail();
 }
 
 public interface ICacheable
@@ -67,7 +67,7 @@ public class Order : IValidatable, IAuditable
 {
     public int Id { get; set; }
     public DateTime OrderDate { get; set; }
-    public List<OrderItem> Items { get; set; }
+    public List`OrderItem` Items { get; set; }
     
     public ValidationResult Validate()
     {
@@ -84,10 +84,10 @@ public class Order : IValidatable, IAuditable
         // Record audit information
     }
     
-    public IEnumerable<AuditEntry> GetAuditTrail()
+    public IEnumerable`AuditEntry` GetAuditTrail()
     {
         // Return audit entries
-        return new List<AuditEntry>();
+        return new List`AuditEntry`();
     }
 }
 
@@ -104,7 +104,7 @@ public class User : ISerializable, ICacheable
     
     public void Deserialize(string data)
     {
-        var user = System.Text.Json.JsonSerializer.Deserialize<User>(data);
+        var user = System.Text.Json.JsonSerializer.Deserialize`User`(data);
         Id = user.Id;
         Name = user.Name;
         Email = user.Email;
@@ -118,7 +118,7 @@ public class User : ISerializable, ICacheable
 // Services work with specific capabilities
 public class ValidationService
 {
-    public bool IsValid<T>(T entity) where T : IValidatable
+    public bool IsValid`T`(T entity) where T : IValidatable
     {
         return entity.Validate().IsValid;
     }
@@ -133,14 +133,14 @@ public class CacheService
         _cache = cache;
     }
     
-    public void CacheEntity<T>(T entity) where T : ICacheable
+    public void CacheEntity`T`(T entity) where T : ICacheable
     {
         _cache.Set(entity.GetCacheKey(), entity, entity.GetCacheDuration());
     }
     
-    public T GetFromCache<T>(string key) where T : class
+    public T GetFromCache`T`(string key) where T : class
     {
-        return _cache.Get<T>(key);
+        return _cache.Get`T`(key);
     }
 }
 ```
@@ -155,8 +155,8 @@ public class OrderServiceTests
     public async Task ProcessOrder_ValidOrder_ShouldUpdateStatus()
     {
         // Arrange - only mock what the service actually uses
-        var mockOrderQueries = new Mock<IOrderQueries>();
-        var mockOrderCommands = new Mock<IOrderCommands>();
+        var mockOrderQueries = new Mock`IOrderQueries`();
+        var mockOrderCommands = new Mock`IOrderCommands`();
         
         var order = new Order { Id = 1, Status = OrderStatus.Pending };
         mockOrderQueries.Setup(q => q.GetByIdAsync(1))

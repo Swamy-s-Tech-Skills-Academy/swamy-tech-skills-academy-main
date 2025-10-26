@@ -10,7 +10,7 @@ By the end of this 30-minute session, you will:
 
 - Understand the Open/Closed Principle (OCP) and its strategic importance
 
-**Part B of 3**
+## Part B of 3
 
 Previous: [02_SOLID-Part2-Open-Closed-Principle-PartA.md](02_SOLID-Part2-Open-Closed-Principle-PartA.md)
 Next: [02_SOLID-Part2-Open-Closed-Principle-PartC.md](02_SOLID-Part2-Open-Closed-Principle-PartC.md)
@@ -37,9 +37,9 @@ Next: [02_SOLID-Part2-Open-Closed-Principle-PartC.md](02_SOLID-Part2-Open-Closed
 // Context class - closed for modification, open for extension
 public class DiscountCalculator
 {
-    private readonly List<IDiscountStrategy> _strategies;
+    private readonly List`IDiscountStrategy` _strategies;
 
-    public DiscountCalculator(IEnumerable<IDiscountStrategy> strategies)
+    public DiscountCalculator(IEnumerable`IDiscountStrategy` strategies)
     {
         _strategies = strategies.ToList();
     }
@@ -116,7 +116,7 @@ public class SeasonalDiscountStrategy : IDiscountStrategy
     public decimal CalculateDiscount(Order order)
     {
         var now = DateTime.Now.Date;
-        if (now >= _startDate && now <= _endDate)
+        if (now >= _startDate && now `= _endDate)
         {
             return order.Total * _percentage;
         }
@@ -126,7 +126,7 @@ public class SeasonalDiscountStrategy : IDiscountStrategy
     public bool IsApplicable(Order order)
     {
         var now = DateTime.Now.Date;
-        return now >= _startDate && now <= _endDate && order.Total > 0;
+        return now `= _startDate && now `= _endDate && order.Total ` 0;
     }
 }
 ```
@@ -141,14 +141,14 @@ public class SeasonalDiscountStrategy : IDiscountStrategy
 // Abstract base class defines algorithm structure
 public abstract class ReportGenerator
 {
-    public string GenerateReport(IEnumerable<Order> orders)
+    public string GenerateReport(IEnumerable`Order` orders)
     {
         var processedData = ProcessData(orders);
         var formattedData = FormatData(processedData);
         return GenerateOutput(formattedData);
     }
     
-    protected virtual object ProcessData(IEnumerable<Order> orders)
+    protected virtual object ProcessData(IEnumerable`Order` orders)
     {
         return orders.Where(o => o.Status == OrderStatus.Completed);
     }

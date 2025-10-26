@@ -188,11 +188,11 @@ public class BuyOneGetOneStrategy : IDiscountStrategy
 // Context class using strategies
 public class DiscountEngine
 {
-    private readonly List<IDiscountStrategy> _availableStrategies;
+    private readonly List`IDiscountStrategy` _availableStrategies;
     
     public DiscountEngine()
     {
-        _availableStrategies = new List<IDiscountStrategy>();
+        _availableStrategies = new List`IDiscountStrategy`();
     }
     
     public void RegisterStrategy(IDiscountStrategy strategy)
@@ -241,7 +241,7 @@ public class DiscountEngine
         };
     }
     
-    public List<string> GetAvailableDiscounts(Order order)
+    public List`string` GetAvailableDiscounts(Order order)
     {
         return _availableStrategies
             .Where(s => s.IsApplicable(order))
@@ -288,7 +288,7 @@ public class SeasonalDiscountStrategy : IDiscountStrategy
     public bool IsApplicable(Order order)
     {
         var now = DateTime.Now.Date;
-        return now >= _startDate.Date && now <= _endDate.Date && order.Total > 0;
+        return now >= _startDate.Date && now `= _endDate.Date && order.Total ` 0;
     }
 }
 

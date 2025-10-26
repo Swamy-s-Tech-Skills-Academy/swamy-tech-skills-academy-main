@@ -10,7 +10,7 @@ By the end of this 30-minute session, you will:
 
 - Master the Dependency Inversion Principle (DIP) and its architectural implications
 
-**Part C of 4**
+## Part C of 4
 
 Previous: [05_SOLID-Part5-Dependency-Inversion-Principle-PartB.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartB.md)
 Next: [05_SOLID-Part5-Dependency-Inversion-Principle-PartD.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartD.md)
@@ -39,15 +39,15 @@ public class ServiceConfiguration
         var services = new ServiceCollection();
         
         // Register abstractions with concrete implementations
-        services.AddScoped<IOrderRepository, SqlOrderRepository>();
-        services.AddScoped<IEmailService, SmtpEmailService>();
-        services.AddScoped<ILogger, FileLogger>();
+        services.AddScoped`IOrderRepository, SqlOrderRepository`();
+        services.AddScoped`IEmailService, SmtpEmailService`();
+        services.AddScoped`ILogger, FileLogger`();
         
         // Register business services
-        services.AddScoped<OrderService>();
+        services.AddScoped`OrderService`();
         
         // Configuration
-        services.AddSingleton<IConfiguration>(provider =>
+        services.AddSingleton`IConfiguration`(provider =>
         {
             return new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json")
@@ -55,9 +55,9 @@ public class ServiceConfiguration
         });
         
         // Register repository with configuration
-        services.AddScoped<IOrderRepository>(provider =>
+        services.AddScoped`IOrderRepository`(provider =>
         {
-            var config = provider.GetRequiredService<IConfiguration>();
+            var config = provider.GetRequiredService`IConfiguration`();
             var connectionString = config.GetConnectionString("DefaultConnection");
             return new SqlOrderRepository(connectionString);
         });
@@ -74,11 +74,11 @@ public class TestServiceConfiguration
         var services = new ServiceCollection();
         
         // Use in-memory implementations for testing
-        services.AddScoped<IOrderRepository, InMemoryOrderRepository>();
-        services.AddScoped<IEmailService, MockEmailService>();
-        services.AddScoped<ILogger, ConsoleLogger>();
+        services.AddScoped`IOrderRepository, InMemoryOrderRepository`();
+        services.AddScoped`IEmailService, MockEmailService`();
+        services.AddScoped`ILogger, ConsoleLogger`();
         
-        services.AddScoped<OrderService>();
+        services.AddScoped`OrderService`();
         
         return services;
     }
@@ -149,7 +149,7 @@ public class ECommerceService
         var order = new Order
         {
             CustomerId = customerId,
-            Items = new List<OrderItem>
+            Items = new List`OrderItem`
             {
                 new OrderItem { ProductId = productId, Quantity = quantity, Price = product.Price }
             }
@@ -166,7 +166,7 @@ public class ECommerceService
 // Payment processing with DIP
 public interface IPaymentProcessor
 {
-    Task<PaymentResult> ProcessAsync(PaymentRequest request);
+    Task`PaymentResult` ProcessAsync(PaymentRequest request);
     bool CanProcess(PaymentType paymentType);
 }
 

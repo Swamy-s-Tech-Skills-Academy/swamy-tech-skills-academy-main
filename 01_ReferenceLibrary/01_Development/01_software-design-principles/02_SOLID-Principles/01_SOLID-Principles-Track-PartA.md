@@ -7,7 +7,7 @@
 
 ---
 
-**Part A of 3**
+## Part A of 3
 
 Next: [01_SOLID-Principles-Track-PartB.md](01_SOLID-Principles-Track-PartB.md)
 

@@ -10,7 +10,7 @@ By the end of this 30-minute session, you will:
 
 - Master the Interface Segregation Principle (ISP) and its client-focused design approach
 
-**Part A of 4**
+## Part A of 4
 
 Next: [04_SOLID-Part4-Interface-Segregation-Principle-PartB.md](04_SOLID-Part4-Interface-Segregation-Principle-PartB.md)
 

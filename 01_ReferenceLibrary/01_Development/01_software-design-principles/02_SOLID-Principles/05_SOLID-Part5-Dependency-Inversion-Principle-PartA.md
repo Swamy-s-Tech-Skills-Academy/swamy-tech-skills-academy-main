@@ -10,7 +10,7 @@ By the end of this 30-minute session, you will:
 
 - Master the Dependency Inversion Principle (DIP) and its architectural implications
 
-**Part A of 4**
+## Part A of 4
 
 Next: [05_SOLID-Part5-Dependency-Inversion-Principle-PartB.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartB.md)
 
@@ -131,9 +131,9 @@ public class OrderService // High-level business logic
 // ✅ GOOD: DIP compliant - depends on abstractions
 public interface IOrderRepository
 {
-    Task<Order> GetByIdAsync(int id);
+    Task`Order` GetByIdAsync(int id);
     Task SaveAsync(Order order);
-    Task<IEnumerable<Order>> GetOrdersByCustomerAsync(int customerId);
+    Task`IEnumerable<Order`> GetOrdersByCustomerAsync(int customerId);
 }
 
 public interface IEmailService
@@ -167,7 +167,7 @@ public class OrderService
         _logger = logger ?? throw new ArgumentNullException(nameof(logger));
     }
     
-    public async Task<ProcessResult> ProcessOrderAsync(Order order)
+    public async Task`ProcessResult` ProcessOrderAsync(Order order)
     {
         try
 

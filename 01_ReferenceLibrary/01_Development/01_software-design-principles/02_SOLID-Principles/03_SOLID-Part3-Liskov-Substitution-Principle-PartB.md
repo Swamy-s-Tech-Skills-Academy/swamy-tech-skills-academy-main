@@ -10,7 +10,7 @@ By the end of this 30-minute session, you will:
 
 - Understand the Liskov Substitution Principle (LSP) and its critical importance
 
-**Part B of 4**
+## Part B of 4
 
 Previous: [03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md)
 Next: [03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md)
@@ -104,7 +104,7 @@ public class ImmutableSquare : ImmutableShape
 public abstract class FileStorage
 {
     public abstract Task WriteAsync(string path, byte[] data);
-    public abstract Task<byte[]> ReadAsync(string path);
+    public abstract Task`byte[]` ReadAsync(string path);
     public abstract Task DeleteAsync(string path);
 }
 
@@ -115,7 +115,7 @@ public class LocalFileStorage : FileStorage
         await File.WriteAllBytesAsync(path, data);
     }
     
-    public override async Task<byte[]> ReadAsync(string path)
+    public override async Task`byte[]` ReadAsync(string path)
     {
         return await File.ReadAllBytesAsync(path);
     }
@@ -140,7 +140,7 @@ public class ReadOnlyFileStorage : FileStorage
         throw new NotSupportedException("Storage is read-only"); // ← Breaks contract!
     }
     
-    public override async Task<byte[]> ReadAsync(string path)
+    public override async Task`byte[]` ReadAsync(string path)
     {
         return await File.ReadAllBytesAsync(path);
     }
@@ -153,8 +153,8 @@ public class ReadOnlyFileStorage : FileStorage
 // ✅ GOOD: Interface segregation preserves LSP
 public interface IReadableStorage
 {
-    Task<byte[] > ReadAsync(string path);
-    Task<bool> ExistsAsync(string path);
+    Task`byte[] ` ReadAsync(string path);
+    Task`bool` ExistsAsync(string path);
 }
 
 public interface IWritableStorage
@@ -170,6 +170,6 @@ public interface IFileStorage : IReadableStorage, IWritableStorage
 
 public class LocalFileStorage : IFileStorage
 {
-    public async Task<byte[]> ReadAsync(string path)
+    public async Task`byte[]` ReadAsync(string path)
     {
 

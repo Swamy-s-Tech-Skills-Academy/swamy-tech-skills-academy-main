@@ -20,14 +20,14 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
     private readonly OrderCalculator _calculator;
     private readonly OrderRepository _repository;
     private readonly EmailNotificationService _emailService;
-    private readonly ILogger<OrderService> _logger;
+    private readonly ILogger`OrderService` _logger;
     
     public OrderService(
         OrderValidator validator,
         OrderCalculator calculator,
         OrderRepository repository,
         EmailNotificationService emailService,
-        ILogger<OrderService> logger)
+        ILogger`OrderService` logger)
     {
         _validator = validator;
         _calculator = calculator;
@@ -36,7 +36,7 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
         _logger = logger;
     }
     
-    public async Task<ProcessResult> ProcessOrderAsync(Order order)
+    public async Task`ProcessResult` ProcessOrderAsync(Order order)
     {
         try
         {
@@ -129,7 +129,7 @@ public class CustomerRepository
         _context = context;
     }
     
-    public async Task<Customer> GetByIdAsync(int id)
+    public async Task`Customer` GetByIdAsync(int id)
     {
         return await _context.Customers.FindAsync(id);
     }
@@ -193,14 +193,14 @@ public class CustomerService
     private readonly CustomerRepository _repository;
     private readonly CustomerBusinessLogic _businessLogic;
     private readonly CustomerNotificationService _notificationService;
-    private readonly ILogger<CustomerService> _logger;
+    private readonly ILogger`CustomerService` _logger;
     
     public CustomerService(
         CustomerValidator validator,
         CustomerRepository repository,
         CustomerBusinessLogic businessLogic,
         CustomerNotificationService notificationService,
-        ILogger<CustomerService> logger)
+        ILogger`CustomerService` logger)
     {
         _validator = validator;
         _repository = repository;
@@ -209,14 +209,14 @@ public class CustomerService
         _logger = logger;
     }
     
-    public async Task<ServiceResult<Customer>> CreateCustomerAsync(Customer customer)
+    public async Task`ServiceResult<Customer`> CreateCustomerAsync(Customer customer)
     {
         try
         {
             // Validate using dedicated validator
             var validationResult = _validator.Validate(customer);
             if (!validationResult.IsValid)
-                return ServiceResult<Customer>.Failed(validationResult.Errors);
+                return ServiceResult`Customer`.Failed(validationResult.Errors);
             
             // Save using dedicated repository
             await _repository.SaveAsync(customer);
@@ -227,30 +227,30 @@ public class CustomerService
             // Log using injected logger
             _logger.LogInformation("Customer {CustomerId} created successfully", customer.Id);
             
-            return ServiceResult<Customer>.Success(customer);
+            return ServiceResult`Customer`.Success(customer);
         }
         catch (Exception ex)
         {
             _logger.LogError(ex, "Failed to create customer {CustomerId}", customer.Id);
-            return ServiceResult<Customer>.Failed($"Customer creation failed: {ex.Message}");
+            return ServiceResult`Customer`.Failed($"Customer creation failed: {ex.Message}");
         }
     }
     
-    public async Task<ServiceResult<decimal>> CalculateCustomerDiscountAsync(int customerId)
+    public async Task`ServiceResult<decimal`> CalculateCustomerDiscountAsync(int customerId)
     {
         try
         {
             var customer = await _repository.GetByIdAsync(customerId);
             if (customer == null)
-                return ServiceResult<decimal>.Failed("Customer not found");
+                return ServiceResult`decimal`.Failed("Customer not found");
             
             var discount = _businessLogic.CalculateDiscount(customer);
-            return ServiceResult<decimal>.Success(discount);
+            return ServiceResult`decimal`.Success(discount);
         }
         catch (Exception ex)
         {
             _logger.LogError(ex, "Failed to calculate discount for customer {CustomerId}", customerId);
-            return ServiceResult<decimal>.Failed($"Discount calculation failed: {ex.Message}");
+            return ServiceResult`decimal`.Failed($"Discount calculation failed: {ex.Message}");
         }
     }
 }

@@ -10,7 +10,7 @@ By the end of this 30-minute session, you will:
 
 - Master the Interface Segregation Principle (ISP) and its client-focused design approach
 
-**Part C of 4**
+## Part C of 4
 
 Previous: [04_SOLID-Part4-Interface-Segregation-Principle-PartB.md](04_SOLID-Part4-Interface-Segregation-Principle-PartB.md)
 Next: [04_SOLID-Part4-Interface-Segregation-Principle-PartD.md](04_SOLID-Part4-Interface-Segregation-Principle-PartD.md)
@@ -19,7 +19,7 @@ Next: [04_SOLID-Part4-Interface-Segregation-Principle-PartD.md](04_SOLID-Part4-I
 
     }
     
-    public async Task<UserProfile> GetProfileAsync(int userId)
+    public async Task`UserProfile` GetProfileAsync(int userId)
     {
         var user = await _userRepository.GetByIdAsync(userId);
         return new UserProfile
@@ -40,7 +40,7 @@ public class UserManagementService
         _userRepository = userRepository;
     }
     
-    public async Task<User> CreateUserAsync(CreateUserRequest request)
+    public async Task`User` CreateUserAsync(CreateUserRequest request)
     {
         var existingUser = await _userRepository.GetByEmailAsync(request.Email);
         if (existingUser != null)
@@ -65,15 +65,15 @@ public class UserManagementService
 // Separate query and command interfaces
 public interface IOrderQueries
 {
-    Task<Order> GetByIdAsync(int orderId);
-    Task<IEnumerable<Order>> GetByCustomerIdAsync(int customerId);
-    Task<OrderSummary> GetSummaryAsync(int orderId);
-    Task<IEnumerable<Order>> GetPendingOrdersAsync();
+    Task`Order` GetByIdAsync(int orderId);
+    Task`IEnumerable<Order`> GetByCustomerIdAsync(int customerId);
+    Task`OrderSummary` GetSummaryAsync(int orderId);
+    Task`IEnumerable<Order`> GetPendingOrdersAsync();
 }
 
 public interface IOrderCommands
 {
-    Task<int> CreateOrderAsync(CreateOrderCommand command);
+    Task`int` CreateOrderAsync(CreateOrderCommand command);
     Task UpdateOrderStatusAsync(int orderId, OrderStatus status);
     Task CancelOrderAsync(int orderId, string reason);
     Task AddItemAsync(int orderId, OrderItem item);
@@ -89,7 +89,7 @@ public class OrderReportingService
         _orderQueries = orderQueries;
     }
     
-    public async Task<MonthlyReport> GenerateMonthlyReportAsync(int year, int month)
+    public async Task`MonthlyReport` GenerateMonthlyReportAsync(int year, int month)
     {
         var orders = await _orderQueries.GetOrdersByMonthAsync(year, month);
         return new MonthlyReport
@@ -136,17 +136,17 @@ public class OrderProcessingService
 
 ```csharp
 // Build complex interfaces from simple ones
-public interface IBasicCrud<T>
+public interface IBasicCrud`T`
 {
-    Task<T> GetByIdAsync(int id);
+    Task`T` GetByIdAsync(int id);
 }
 
-public interface ICreatable<T>
+public interface ICreatable`T`
 {
-    Task<T> CreateAsync(T entity);
+    Task`T` CreateAsync(T entity);
 }
 
-public interface IUpdatable<T>
+public interface IUpdatable`T`
 {
     Task UpdateAsync(T entity);
 }
@@ -156,18 +156,18 @@ public interface IDeletable
     Task DeleteAsync(int id);
 }
 
-public interface ISearchable<T>
+public interface ISearchable`T`
 {
-    Task<IEnumerable<T>> SearchAsync(string criteria);
+    Task`IEnumerable<T`> SearchAsync(string criteria);
 }
 
 // Compose interfaces based on actual needs
-public interface IReadOnlyRepository<T> : IBasicCrud<T>, ISearchable<T>
+public interface IReadOnlyRepository`T` : IBasicCrud`T`, ISearchable`T`
 {
     // Read-only operations
 }
 
-public interface IFullRepository<T> : IReadOnlyRepository<T>, ICreatable<T>, IUpdatable<T>, IDeletable
+public interface IFullRepository`T` : IReadOnlyRepository`T`, ICreatable`T`, IUpdatable`T`, IDeletable
 {
     // Full CRUD operations
 }

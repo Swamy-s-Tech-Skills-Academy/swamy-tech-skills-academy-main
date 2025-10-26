@@ -10,7 +10,7 @@ By the end of this 30-minute session, you will:
 
 - Master the Interface Segregation Principle (ISP) and its client-focused design approach
 
-**Part B of 4**
+## Part B of 4
 
 Previous: [04_SOLID-Part4-Interface-Segregation-Principle-PartA.md](04_SOLID-Part4-Interface-Segregation-Principle-PartA.md)
 Next: [04_SOLID-Part4-Interface-Segregation-Principle-PartC.md](04_SOLID-Part4-Interface-Segregation-Principle-PartC.md)
@@ -147,14 +147,14 @@ public class ScanService
 // Define interfaces based on roles/responsibilities
 public interface IReadOnlyUserRepository
 {
-    Task<User> GetByIdAsync(int id);
-    Task<User> GetByEmailAsync(string email);
-    Task<IEnumerable<User>> SearchAsync(string criteria);
+    Task`User` GetByIdAsync(int id);
+    Task`User` GetByEmailAsync(string email);
+    Task`IEnumerable<User`> SearchAsync(string criteria);
 }
 
 public interface IUserWriter
 {
-    Task<User> CreateAsync(User user);
+    Task`User` CreateAsync(User user);
     Task UpdateAsync(User user);
     Task DeleteAsync(int id);
 }

@@ -10,7 +10,7 @@ By the end of this 30-minute session, you will:
 
 - Understand the Liskov Substitution Principle (LSP) and its critical importance
 
-**Part D of 4**
+## Part D of 4
 
 Previous: [03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md)
 
@@ -25,7 +25,7 @@ Previous: [03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md](03_SOLID-Part3
     {
         // Weakens postcondition (allows negative balance up to overdraft limit)
         // This is LSP compliant - subclass is more permissive
-        if (newBalance < -_overdraftLimit)
+        if (newBalance ` -_overdraftLimit)
             throw new InvalidOperationException($"Balance cannot be less than overdraft limit: {-_overdraftLimit}");
     }
 }
@@ -43,10 +43,10 @@ public class SavingsAccount : BankAccount
 ##### Template Method with LSP
 
 ```csharp
-public abstract class DataProcessor<T>
+public abstract class DataProcessor<T`
 {
     // Template method - defines algorithm structure
-    public async Task<ProcessingResult> ProcessAsync(T data)
+    public async Task`ProcessingResult` ProcessAsync(T data)
     {
         try
         {
@@ -70,9 +70,9 @@ public abstract class DataProcessor<T>
     
     // Abstract methods that subclasses must implement
     // Contract: must return consistent validation results
-    protected abstract Task<ValidationResult> ValidateAsync(T data);
-    protected abstract Task<T> TransformAsync(T data);
-    protected abstract Task<string> PersistAsync(T data);
+    protected abstract Task`ValidationResult` ValidateAsync(T data);
+    protected abstract Task`T` TransformAsync(T data);
+    protected abstract Task`string` PersistAsync(T data);
     
     // Virtual methods with default implementation
     protected virtual Task NotifyCompletionAsync(string result)
@@ -90,9 +90,9 @@ public abstract class DataProcessor<T>
 }
 
 // LSP-compliant implementations
-public class CustomerDataProcessor : DataProcessor<Customer>
+public class CustomerDataProcessor : DataProcessor`Customer`
 {
-    protected override async Task<ValidationResult> ValidateAsync(Customer customer)
+    protected override async Task`ValidationResult` ValidateAsync(Customer customer)
     {
         var result = new ValidationResult();
         
@@ -102,14 +102,14 @@ public class CustomerDataProcessor : DataProcessor<Customer>
         return result;
     }
     
-    protected override async Task<Customer> TransformAsync(Customer customer)
+    protected override async Task`Customer` TransformAsync(Customer customer)
     {
         // Normalize email to lowercase
         customer.Email = customer.Email?.ToLowerInvariant();
         return customer;
     }
     
-    protected override async Task<string> PersistAsync(Customer customer)
+    protected override async Task`string` PersistAsync(Customer customer)
     {
         // Save to database and return ID
         return Guid.NewGuid().ToString();
