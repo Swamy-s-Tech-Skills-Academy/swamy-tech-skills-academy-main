@@ -1,8 +1,8 @@
 # 04_SOLID-Part4-Interface-Segregation-Principle - Part A
 
-**Learning Level**: Intermediate to Advanced  
-**Prerequisites**: Liskov Substitution Principle (Part 3), Interface design patterns  
-**Estimated Time**: 30 minutes  
+**Learning Level**: Intermediate to Advanced
+**Prerequisites**: Liskov Substitution Principle (Part 3), Interface design patterns
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -10,7 +10,7 @@ By the end of this 30-minute session, you will:
 
 - Master the Interface Segregation Principle (ISP) and its client-focused design approach
 
-**Part A of 4**
+## Part A of 4
 
 Next: [04_SOLID-Part4-Interface-Segregation-Principle-PartB.md](04_SOLID-Part4-Interface-Segregation-Principle-PartB.md)
 
@@ -32,7 +32,7 @@ Next: [04_SOLID-Part4-Interface-Segregation-Principle-PartB.md](04_SOLID-Part4-I
 │                    IWorker (Fat Interface)                 │
 ├─────────────────────────────────────────────────────────────┤
 │ + Work()                                                    │
-│ + Eat()              ← Human workers need this             │  
+│ + Eat()              ← Human workers need this             │
 │ + Sleep()            ← Human workers need this             │
 │ + Recharge()         ← Robot workers need this             │
 │ + UpdateFirmware()   ← Robot workers need this             │
@@ -49,7 +49,7 @@ Next: [04_SOLID-Part4-Interface-Segregation-Principle-PartB.md](04_SOLID-Part4-I
 ✅ ISP COMPLIANT: Segregated, Role-Based Interfaces
 ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
 │  IWorker    │  │ IBiological │  │ IMechanical │
-├─────────────┤  ├─────────────┤  ├─────────────┤  
+├─────────────┤  ├─────────────┤  ├─────────────┤
 │ + Work()    │  │ + Eat()     │  │ + Recharge()│
 └─────────────┘  │ + Sleep()   │  │ + Update()  │
                  └─────────────┘  └─────────────┘
@@ -57,8 +57,7 @@ Next: [04_SOLID-Part4-Interface-Segregation-Principle-PartB.md](04_SOLID-Part4-I
     ┌──┴──┐        ┌───┴───┐      ┌─────┴─────┐
     │Human│        │Human  │      │   Robot   │
     │     │←──────→│Needs  │      │  Worker   │
-    └─────┘        └───────┘      └───────────┘
-```
+    └─────┘        └───────┘      └───────────┘```
 
 **ISP Key Benefits**:
 
@@ -71,28 +70,26 @@ Next: [04_SOLID-Part4-Interface-Segregation-Principle-PartB.md](04_SOLID-Part4-I
 
 #### Identifying Fat Interfaces
 
-##### Classic Violation Example: Multi-Function Device
-
-```csharp
+##### Classic Violation Example: Multi-Function Device```csharp
 // ❌ BAD: Fat interface violates ISP
 public interface IMultiFunctionDevice
 {
     // Printing functionality
     void Print(Document document);
     void SetPrintQuality(PrintQuality quality);
-    
+
     // Scanning functionality
     byte[] Scan(ScanSettings settings);
     void CalibrateScanner();
-    
+
     // Fax functionality
     void SendFax(string number, Document document);
     void ReceiveFax();
-    
+
     // Copy functionality
     void Copy(int copies);
     void SetCopyOptions(CopyOptions options);
-    
+
     // Internet functionality
     void SendEmail(EmailMessage message);
     void BrowseWeb(string url);
@@ -106,52 +103,51 @@ public class BasicPrinter : IMultiFunctionDevice
         // Actual implementation
         Console.WriteLine($"Printing: {document.Title}");
     }
-    
+
     public void SetPrintQuality(PrintQuality quality)
     {
         // Actual implementation
         Console.WriteLine($"Print quality set to: {quality}");
     }
-    
+
     // ❌ Forced to implement methods it doesn't support
     public byte[] Scan(ScanSettings settings)
     {
         throw new NotSupportedException("BasicPrinter doesn't support scanning");
     }
-    
+
     public void CalibrateScanner()
     {
         throw new NotSupportedException("BasicPrinter doesn't have a scanner");
     }
-    
+
     public void SendFax(string number, Document document)
     {
         throw new NotSupportedException("BasicPrinter doesn't support fax");
     }
-    
+
     public void ReceiveFax()
     {
         throw new NotSupportedException("BasicPrinter doesn't support fax");
     }
-    
+
     // ... More NotSupportedException methods
 }
 
 // Client forced to handle exceptions for features it doesn't use
 public class PrintService
 {
-    private readonly IMultiFunctionDevice _device;
-    
+    private readonly IMultiFunctionDevice`_device;
+
     public PrintService(IMultiFunctionDevice device)
-    {
-        _device = device;
+    {`_device = device;
     }
-    
+
     public void PrintDocument(Document document)
     {
         try
         {
-            _device.Print(document); // Only needs printing, but interface includes everything
+           `_device.Print(document); // Only needs printing, but interface includes everything
         }
         catch (NotSupportedException ex)
         {
@@ -159,15 +155,11 @@ public class PrintService
             throw new InvalidOperationException("Device doesn't support printing", ex);
         }
     }
-}
-```
+}```
 
-#### ISP-Compliant Solution: Interface Segregation
-
-```csharp
+#### ISP-Compliant Solution: Interface Segregation```csharp
 // ✅ GOOD: Segregated interfaces based on client needs
 public interface IPrinter
 {
     void Print(Document document);
     void SetPrintQuality(PrintQuality quality);
-

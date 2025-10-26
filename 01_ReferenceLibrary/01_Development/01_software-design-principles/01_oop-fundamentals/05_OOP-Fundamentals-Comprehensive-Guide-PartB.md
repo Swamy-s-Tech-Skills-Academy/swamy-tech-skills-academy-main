@@ -53,7 +53,7 @@ for processor in processors:
   - Example: Driver uses Car, Customer uses ShoppingCart\n\n**Aggregation**: "has-a" relationship (loose ownership, parts can exist independently)
   - Example: Department has Employees (employees can work elsewhere)\n\n**Composition**: "part-of" relationship (tight ownership, parts cannot exist independently)
 ##   - Example: Car has Engine (engine is integral to the car)
-## ðŸŽ¯ Practical Application (5 minutes)
+## 🎯 Practical Application (5 minutes)
 ### Design Decision Frameworks
 
 \n\n
@@ -77,11 +77,11 @@ for processor in processors:
 
 ### Common Anti-Patterns to Avoid
 
-\n\n\n\n1. **God Class**: One class doing too many things â†’ Split responsibilities
+\n\n\n\n1. **God Class**: One class doing too many things → Split responsibilities
 
-1. **Feature Envy**: Class excessively using another class's data â†’ Move behavior to data owner
-1. **Long Parameter List**: Too many method parameters â†’ Use parameter objects
-1. **Switch Statements**: Type checking instead of polymorphism â†’ Use polymorphic methods\n\n### Practical Exercise
+1. **Feature Envy**: Class excessively using another class's data → Move behavior to data owner
+1. **Long Parameter List**: Too many method parameters → Use parameter objects
+1. **Switch Statements**: Type checking instead of polymorphism → Use polymorphic methods\n\n### Practical Exercise
 
 \n\n\n\n**Scenario**: Design a simple e-commerce system with products, shopping cart, and payment processing.
 **Questions to consider**:
@@ -89,7 +89,7 @@ for processor in processors:
 1. What classes would you create?
 1. Which relationships (inheritance/composition) make sense?
 1. How would you apply encapsulation and abstraction?
-1. Where would polymorphism be beneficial?\n\n---\n\n## ðŸŽ¯ Key Takeaways & Next Steps (2 minutes)
+1. Where would polymorphism be beneficial?\n\n---\n\n## 🎯 Key Takeaways & Next Steps (2 minutes)
 ### Key Takeaways
 
 \n\n\n\n- **Encapsulation** protects data integrity and enables modularity

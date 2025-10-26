@@ -1,13 +1,13 @@
 # 🏛️ SOLID Principles Track - Multi-Language Mastery - Part A
 
-**Learning Level**: Intermediate  
-**Prerequisites**: OOP fundamentals, basic design experience  
-**Estimated Time**: 2-3 weeks (1 hour daily)  
+**Learning Level**: Intermediate
+**Prerequisites**: OOP fundamentals, basic design experience
+**Estimated Time**: 2-3 weeks (1 hour daily)
 **Next Steps**: Design Patterns, Clean Architecture
 
 ---
 
-**Part A of 3**
+## Part A of 3
 
 Next: [01_SOLID-Principles-Track-PartB.md](01_SOLID-Principles-Track-PartB.md)
 
@@ -61,19 +61,15 @@ By completion, you will:
 ```text
 UserManager class that:
 - Validates user data
-- Saves to database  
+- Saves to database
 - Sends email notifications
-- Generates reports
-```
+- Generates reports```
 
-**Good Example**:
-
-```text
+**Good Example**:```text
 UserValidator - validates user data
 UserRepository - saves to database
-EmailService - sends notifications  
-ReportGenerator - generates reports
-```
+EmailService - sends notifications
+ReportGenerator - generates reports```
 
 **C# Implementation Focus**:
 
@@ -141,22 +137,16 @@ ReportGenerator - generates reports
 
 **Generic Concept**: Create small, focused interfaces rather than large, monolithic ones.
 
-**Bad Example**:
-
-```text
+**Bad Example**:```text
 IWorker interface with:
 - Work()
 - Eat()
-- Sleep()
-```
+- Sleep()```
 
-**Good Example**:
-
-```text
+**Good Example**:```text
 IWorkable - Work()
-IFeedable - Eat()  
-IRestable - Sleep()
-```
+IFeedable - Eat()
+IRestable - Sleep()```
 
 **C# Implementation Focus**:
 

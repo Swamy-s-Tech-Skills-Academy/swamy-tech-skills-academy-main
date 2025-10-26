@@ -1,8 +1,8 @@
 # 03_SOLID-Part3-Liskov-Substitution-Principle - Part D
 
-**Learning Level**: Advanced  
-**Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2)  
-**Estimated Time**: 30 minutes  
+**Learning Level**: Advanced
+**Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2)
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -10,7 +10,7 @@ By the end of this 30-minute session, you will:
 
 - Understand the Liskov Substitution Principle (LSP) and its critical importance
 
-**Part D of 4**
+## Part D of 4
 
 Previous: [03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md)
 
@@ -18,14 +18,14 @@ Previous: [03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md](03_SOLID-Part3
 
     public CheckingAccount(decimal overdraftLimit = 0)
     {
-        _overdraftLimit = overdraftLimit;
+       `_overdraftLimit = overdraftLimit;
     }
-    
+
     protected override void CheckInvariant(decimal newBalance)
     {
         // Weakens postcondition (allows negative balance up to overdraft limit)
         // This is LSP compliant - subclass is more permissive
-        if (newBalance < -_overdraftLimit)
+        if (newBalance` -_overdraftLimit)
             throw new InvalidOperationException($"Balance cannot be less than overdraft limit: {-_overdraftLimit}");
     }
 }
@@ -36,29 +36,26 @@ public class SavingsAccount : BankAccount
     // LSP compliant: doesn't strengthen preconditions or weaken postconditions
 }
 
-```
+    #### Design Patterns Supporting LSP
 
-#### Design Patterns Supporting LSP
-
-##### Template Method with LSP
-
-```csharp
-public abstract class DataProcessor<T>
+    ##### Template Method with LSP
+csharp
+public abstract class DataProcessor<T`
 {
     // Template method - defines algorithm structure
-    public async Task<ProcessingResult> ProcessAsync(T data)
+    public async Task`ProcessingResult` ProcessAsync(T data)
     {
         try
         {
             var validationResult = await ValidateAsync(data);
             if (!validationResult.IsValid)
                 return ProcessingResult.Failed(validationResult.Errors);
-                
+
             var transformedData = await TransformAsync(data);
             var result = await PersistAsync(transformedData);
-            
+
             await NotifyCompletionAsync(result);
-            
+
             return ProcessingResult.Success(result);
         }
         catch (Exception ex)
@@ -67,20 +64,20 @@ public abstract class DataProcessor<T>
             throw;
         }
     }
-    
+
     // Abstract methods that subclasses must implement
     // Contract: must return consistent validation results
-    protected abstract Task<ValidationResult> ValidateAsync(T data);
-    protected abstract Task<T> TransformAsync(T data);
-    protected abstract Task<string> PersistAsync(T data);
-    
+    protected abstract Task`ValidationResult` ValidateAsync(T data);
+    protected abstract Task`T` TransformAsync(T data);
+    protected abstract Task`string` PersistAsync(T data);
+
     // Virtual methods with default implementation
     protected virtual Task NotifyCompletionAsync(string result)
     {
         // Default: no notification
         return Task.CompletedTask;
     }
-    
+
     protected virtual Task HandleErrorAsync(Exception ex)
     {
         // Default: log error
@@ -90,38 +87,37 @@ public abstract class DataProcessor<T>
 }
 
 // LSP-compliant implementations
-public class CustomerDataProcessor : DataProcessor<Customer>
+public class CustomerDataProcessor : DataProcessor`Customer`
 {
-    protected override async Task<ValidationResult> ValidateAsync(Customer customer)
+    protected override async Task`ValidationResult` ValidateAsync(Customer customer)
     {
         var result = new ValidationResult();
-        
+
         if (string.IsNullOrEmpty(customer.Email))
             result.AddError("Email is required");
-            
+
         return result;
     }
-    
-    protected override async Task<Customer> TransformAsync(Customer customer)
+
+    protected override async Task`Customer` TransformAsync(Customer customer)
     {
         // Normalize email to lowercase
         customer.Email = customer.Email?.ToLowerInvariant();
         return customer;
     }
-    
-    protected override async Task<string> PersistAsync(Customer customer)
+
+    protected override async Task`string` PersistAsync(Customer customer)
     {
         // Save to database and return ID
         return Guid.NewGuid().ToString();
     }
-    
+
     protected override async Task NotifyCompletionAsync(string customerId)
     {
         // Send welcome email
         Console.WriteLine($"Welcome email sent for customer: {customerId}");
     }
 }
-```
 
 ### Key Takeaways & Next Steps (2 minutes)
 
@@ -163,7 +159,7 @@ public class CustomerDataProcessor : DataProcessor<Customer>
 
 ## 🔗 Related Topics
 
-**Prerequisites**: Open/Closed Principle, Inheritance, Polymorphism concepts  
-**Builds Upon**: Interface design, Contract testing, Design patterns  
-**Enables**: Interface Segregation Principle (Part 4), Robust inheritance hierarchies  
+**Prerequisites**: Open/Closed Principle, Inheritance, Polymorphism concepts
+**Builds Upon**: Interface design, Contract testing, Design patterns
+**Enables**: Interface Segregation Principle (Part 4), Robust inheritance hierarchies
 **Related**: Template Method Pattern, Strategy Pattern, Behavioral Design Patterns

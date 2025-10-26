@@ -1,13 +1,13 @@
 # 🏛️ SOLID Principles Track - Multi-Language Mastery - Part B
 
-**Learning Level**: Intermediate  
-**Prerequisites**: OOP fundamentals, basic design experience  
-**Estimated Time**: 2-3 weeks (1 hour daily)  
+**Learning Level**: Intermediate
+**Prerequisites**: OOP fundamentals, basic design experience
+**Estimated Time**: 2-3 weeks (1 hour daily)
 **Next Steps**: Design Patterns, Clean Architecture
 
 ---
 
-**Part B of 3**
+## Part B of 3
 
 Previous: [01_SOLID-Principles-Track-PartA.md](01_SOLID-Principles-Track-PartA.md)
 Next: [01_SOLID-Principles-Track-PartC.md](01_SOLID-Principles-Track-PartC.md)
@@ -53,22 +53,18 @@ OrderProcessor class:
 - Calculates pricing
 - Processes payments
 - Sends notifications
-- Updates inventory
-```
-
-```text
+- Updates inventory``````text
 After (SOLID compliant):
 OrderValidator - validates orders (SRP)
 PricingCalculator - calculates pricing (SRP)
-PaymentProcessor - processes payments (SRP) 
+PaymentProcessor - processes payments (SRP)
 NotificationService - sends notifications (SRP)
 InventoryManager - updates inventory (SRP)
 
 All depend on abstractions (DIP)
 Each has focused interface (ISP)
 Extensible without modification (OCP)
-Proper substitution hierarchy (LSP)
-```
+Proper substitution hierarchy (LSP)```
 
 ### **Intermediate Project: Reporting System**
 

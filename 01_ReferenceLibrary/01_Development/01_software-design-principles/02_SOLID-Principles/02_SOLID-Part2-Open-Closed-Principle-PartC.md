@@ -1,8 +1,8 @@
 # 02_SOLID-Part2-Open-Closed-Principle - Part C
 
-**Learning Level**: Intermediate to Advanced  
-**Prerequisites**: Single Responsibility Principle (Part 1), Basic inheritance and interfaces  
-**Estimated Time**: 30 minutes  
+**Learning Level**: Intermediate to Advanced
+**Prerequisites**: Single Responsibility Principle (Part 1), Basic inheritance and interfaces
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -10,7 +10,7 @@ By the end of this 30-minute session, you will:
 
 - Understand the Open/Closed Principle (OCP) and its strategic importance
 
-**Part C of 3**
+## Part C of 3
 
 Previous: [02_SOLID-Part2-Open-Closed-Principle-PartB.md](02_SOLID-Part2-Open-Closed-Principle-PartB.md)
 
@@ -31,16 +31,13 @@ public class ExcelReportGenerator : ReportGenerator
     {
         return GenerateExcelWorkbook(formattedData);
     }
-    
+
     private object ConvertToExcelFormat(object data) { /* Implementation */ return data; }
     private string GenerateExcelWorkbook(object data) { /* Implementation */ return "Excel"; }
 }
 
-```
-
-##### Pattern 2: Decorator Pattern
-
-```csharp
+    ##### Pattern 2: Decorator Pattern
+csharp
 // Base interface
 public interface INotificationSender
 {
@@ -50,93 +47,85 @@ public interface INotificationSender
 // Basic implementation
 public class EmailNotificationSender : INotificationSender
 {
-    private readonly IEmailService _emailService;
-    
+    private readonly IEmailService`_emailService;
+
     public EmailNotificationSender(IEmailService emailService)
-    {
-        _emailService = emailService;
+    {`_emailService = emailService;
     }
-    
+
     public async Task SendAsync(string recipient, string message)
     {
-        await _emailService.SendAsync(recipient, "Notification", message);
+        await`_emailService.SendAsync(recipient, "Notification", message);
     }
 }
 
 // Extensions through decoration - no modification of existing classes
 public class EncryptedNotificationSender : INotificationSender
 {
-    private readonly INotificationSender _inner;
-    private readonly IEncryptionService _encryptionService;
-    
-    public EncryptedNotificationSender(INotificationSender inner, 
+    private readonly INotificationSender`_inner;
+    private readonly IEncryptionService`_encryptionService;
+
+    public EncryptedNotificationSender(INotificationSender inner,
                                      IEncryptionService encryptionService)
-    {
-        _inner = inner;
-        _encryptionService = encryptionService;
+    {`_inner = inner;
+       `_encryptionService = encryptionService;
     }
-    
+
     public async Task SendAsync(string recipient, string message)
     {
-        var encryptedMessage = await _encryptionService.EncryptAsync(message);
-        await _inner.SendAsync(recipient, encryptedMessage);
+        var encryptedMessage = await`_encryptionService.EncryptAsync(message);
+        await`_inner.SendAsync(recipient, encryptedMessage);
     }
 }
 
 public class LoggedNotificationSender : INotificationSender
 {
-    private readonly INotificationSender _inner;
-    private readonly ILogger<LoggedNotificationSender> _logger;
-    
-    public LoggedNotificationSender(INotificationSender inner, 
-                                  ILogger<LoggedNotificationSender> logger)
-    {
-        _inner = inner;
-        _logger = logger;
+    private readonly INotificationSender`_inner;
+    private readonly ILogger`LoggedNotificationSender``_logger;
+
+    public LoggedNotificationSender(INotificationSender inner,
+                                  ILogger`LoggedNotificationSender` logger)
+    {`_inner = inner;
+       `_logger = logger;
     }
-    
+
     public async Task SendAsync(string recipient, string message)
-    {
-        _logger.LogInformation("Sending notification to {Recipient}", recipient);
+    {`_logger.LogInformation("Sending notification to {Recipient}", recipient);
         try
         {
-            await _inner.SendAsync(recipient, message);
-            _logger.LogInformation("Successfully sent notification to {Recipient}", recipient);
+            await`_inner.SendAsync(recipient, message);`_logger.LogInformation("Successfully sent notification to {Recipient}", recipient);
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Failed to send notification to {Recipient}", recipient);
+           `_logger.LogError(ex, "Failed to send notification to {Recipient}", recipient);
             throw;
         }
     }
 }
-```
 
-##### Dependency Injection Configuration
-
-```csharp
+    ##### Dependency Injection Configuration
+csharp
 // Configure services for OCP compliance
 public void ConfigureServices(IServiceCollection services)
 {
     // Register discount strategies
-    services.AddTransient<IDiscountStrategy, PercentageDiscountStrategy>(provider =>
+    services.AddTransient`IDiscountStrategy, PercentageDiscountStrategy`(provider =>
         new PercentageDiscountStrategy(0.10m));
-    services.AddTransient<IDiscountStrategy, FixedAmountDiscountStrategy>(provider =>
+    services.AddTransient`IDiscountStrategy, FixedAmountDiscountStrategy`(provider =>
         new FixedAmountDiscountStrategy(50m));
-    services.AddTransient<IDiscountStrategy, BuyOneGetOneStrategy>(provider =>
+    services.AddTransient`IDiscountStrategy, BuyOneGetOneStrategy`(provider =>
         new BuyOneGetOneStrategy("Electronics"));
-    services.AddTransient<IDiscountStrategy, LoyaltyDiscountStrategy>(provider =>
+    services.AddTransient`IDiscountStrategy, LoyaltyDiscountStrategy`(provider =>
         new LoyaltyDiscountStrategy(100, 0.01m));
-    
+
     // Register calculator with all strategies
-    services.AddTransient<DiscountCalculator>();
-    
+    services.AddTransient`DiscountCalculator`();
+
     // Decorator pattern setup
-    services.AddTransient<EmailNotificationSender>();
-    services.Decorate<INotificationSender, EncryptedNotificationSender>();
-    services.Decorate<INotificationSender, LoggedNotificationSender>();
+    services.AddTransient`EmailNotificationSender`();
+    services.Decorate`INotificationSender, EncryptedNotificationSender`();
+    services.Decorate`INotificationSender, LoggedNotificationSender`();
 }
-```
 
 ### Key Takeaways & Next Steps (2 minutes)
 

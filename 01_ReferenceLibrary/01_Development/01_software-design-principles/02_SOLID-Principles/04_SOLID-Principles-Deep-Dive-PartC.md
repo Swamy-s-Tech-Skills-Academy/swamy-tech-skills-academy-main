@@ -1,5 +1,18 @@
 # 🏗️ SOLID Principles Deep Dive - Part C
 
+**Learning Level**: Advanced
+**Prerequisites**: Deep-Dive Parts A-B, inheritance concepts
+**Estimated Time**: 27 minutes
+
+## 🎯 Learning Objectives
+
+By the end of this 27-minute session, you will:
+
+- Master Liskov Substitution Principle in complex inheritance hierarchies
+- Design robust behavioral contracts and invariants
+- Identify and resolve subtle LSP violations
+- Apply LSP in generic programming and interface design
+
 Advanced OOP Design Principles with C# Implementation
 
 > 📖 **12-minute deep dive** | 🎯 **Focus**: SOLID principles mastery | 🏗️ **Advanced**: Beyond basic OOP concepts
@@ -10,42 +23,42 @@ This guide provides **comprehensive understanding and practical application** of
 
 ### 🎯 **Single Responsibility Principle (SRP)**
 
-✅ Class responsibility definition and boundaries  
-✅ Refactoring techniques for SRP violations  
-✅ Real-world examples and anti-patterns  
+✅ Class responsibility definition and boundaries
+✅ Refactoring techniques for SRP violations
+✅ Real-world examples and anti-patterns
 ✅ Testing implications of good SRP design
 
 ### 🔐 **Open/Closed Principle (OCP)**
 
-✅ Extension without modification strategies  
-✅ Strategy pattern and polymorphism application  
-✅ Plugin architecture examples  
+✅ Extension without modification strategies
+✅ Strategy pattern and polymorphism application
+✅ Plugin architecture examples
 ✅ Modern C# features supporting OCP
 
 ### 🔄 **Liskov Substitution Principle (LSP)**
 
-✅ Behavioral subtyping rules  
-✅ Contract preservation in inheritance  
-✅ Common LSP violations and fixes  
+✅ Behavioral subtyping rules
+✅ Contract preservation in inheritance
+✅ Common LSP violations and fixes
 ✅ Interface design for substitutability
 
 ### 🎭 **Interface Segregation Principle (ISP)**
 
-✅ Client-specific interface design  
-✅ Fat interface problems and solutions  
-✅ Role-based interface modeling  
+✅ Client-specific interface design
+✅ Fat interface problems and solutions
+✅ Role-based interface modeling
 ✅ Dependency injection implications
 
 ### 🔗 **Dependency Inversion Principle (DIP)**
 
-✅ Abstraction over concretion  
-✅ Dependency injection patterns  
-✅ IoC container integration  
+✅ Abstraction over concretion
+✅ Dependency injection patterns
+✅ IoC container integration
 ✅ Testability and maintainability benefits
 
 ---
 
-**Part C of 6**
+## Part C of 6
 
 Previous: [04_SOLID-Principles-Deep-Dive-PartB.md](04_SOLID-Principles-Deep-Dive-PartB.md)
 Next: [04_SOLID-Principles-Deep-Dive-PartD.md](04_SOLID-Principles-Deep-Dive-PartD.md)
@@ -85,11 +98,8 @@ public void TestRectangle(Rectangle rectangle)
     Assert.AreEqual(50, rectangle.CalculateArea());
 }
 
-```
-
-### **✅ LSP Compliant Solution**
-
-```csharp
+    ### **✅ LSP Compliant Solution**
+csharp
 // GOOD - Proper abstraction that supports substitution
 public abstract class Shape
 {
@@ -117,11 +127,9 @@ public void TestShape(Shape shape)
     var area = shape.CalculateArea();
     // No unexpected side effects, behavior is predictable
 }
-```
 
-### **LSP with Preconditions and Postconditions**
-
-```csharp
+    ### **LSP with Preconditions and Postconditions**
+csharp
 // Base class contract
 public abstract class FileProcessor
 {
@@ -156,20 +164,17 @@ public class BrokenFileProcessor : FileProcessor
         return null; // Violates postcondition!
     }
 }
-```
 
----
+    ---
 
-## 🎭 I - Interface Segregation Principle
+    ## 🎭 I - Interface Segregation Principle
 
-### Definition and Goal (ISP)
+    ### Definition and Goal (ISP)
 
-> **"No client should be forced to depend on methods it does not use."** - Robert C. Martin
+    > **"No client should be forced to depend on methods it does not use."** - Robert C. Martin
 
-**Core Concept**: Many specific interfaces are better than one general-purpose interface.
+    **Core Concept**: Many specific interfaces are better than one general-purpose interface.
 
-### **❌ ISP Violation Example**
-
-```csharp
+    ### **❌ ISP Violation Example**
+csharp
 // BAD - Fat interface forcing unnecessary dependencies
-

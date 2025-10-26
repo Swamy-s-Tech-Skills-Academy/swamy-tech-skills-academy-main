@@ -1,5 +1,18 @@
 # 🏗️ SOLID Principles Deep Dive - Part F
 
+**Learning Level**: Advanced
+**Prerequisites**: Complete Deep-Dive series (Parts A-E)
+**Estimated Time**: 27 minutes
+
+## 🎯 Learning Objectives
+
+By the end of this 27-minute session, you will:
+
+- Synthesize all SOLID principles in comprehensive system design
+- Apply SOLID principles to legacy code modernization
+- Balance competing principles and make architectural trade-offs
+- Lead SOLID-based code reviews and team mentoring
+
 Advanced OOP Design Principles with C# Implementation
 
 > 📖 **12-minute deep dive** | 🎯 **Focus**: SOLID principles mastery | 🏗️ **Advanced**: Beyond basic OOP concepts
@@ -10,42 +23,42 @@ This guide provides **comprehensive understanding and practical application** of
 
 ### 🎯 **Single Responsibility Principle (SRP)**
 
-✅ Class responsibility definition and boundaries  
-✅ Refactoring techniques for SRP violations  
-✅ Real-world examples and anti-patterns  
+✅ Class responsibility definition and boundaries
+✅ Refactoring techniques for SRP violations
+✅ Real-world examples and anti-patterns
 ✅ Testing implications of good SRP design
 
 ### 🔐 **Open/Closed Principle (OCP)**
 
-✅ Extension without modification strategies  
-✅ Strategy pattern and polymorphism application  
-✅ Plugin architecture examples  
+✅ Extension without modification strategies
+✅ Strategy pattern and polymorphism application
+✅ Plugin architecture examples
 ✅ Modern C# features supporting OCP
 
 ### 🔄 **Liskov Substitution Principle (LSP)**
 
-✅ Behavioral subtyping rules  
-✅ Contract preservation in inheritance  
-✅ Common LSP violations and fixes  
+✅ Behavioral subtyping rules
+✅ Contract preservation in inheritance
+✅ Common LSP violations and fixes
 ✅ Interface design for substitutability
 
 ### 🎭 **Interface Segregation Principle (ISP)**
 
-✅ Client-specific interface design  
-✅ Fat interface problems and solutions  
-✅ Role-based interface modeling  
+✅ Client-specific interface design
+✅ Fat interface problems and solutions
+✅ Role-based interface modeling
 ✅ Dependency injection implications
 
 ### 🔗 **Dependency Inversion Principle (DIP)**
 
-✅ Abstraction over concretion  
-✅ Dependency injection patterns  
-✅ IoC container integration  
+✅ Abstraction over concretion
+✅ Dependency injection patterns
+✅ IoC container integration
 ✅ Testability and maintainability benefits
 
 ---
 
-**Part F of 6**
+## Part F of 6
 
 Previous: [04_SOLID-Principles-Deep-Dive-PartE.md](04_SOLID-Principles-Deep-Dive-PartE.md)
 
@@ -62,36 +75,33 @@ public class Program
         var services = new ServiceCollection();
 
         // Register dependencies
-        services.AddScoped<IOrderRepository, SqlOrderRepository>();
-        services.AddScoped<IEmailService, SmtpEmailService>();
-        services.AddScoped<OrderService>();
+        services.AddScoped`IOrderRepository, SqlOrderRepository`();
+        services.AddScoped`IEmailService, SmtpEmailService`();
+        services.AddScoped`OrderService`();
 
         // Configuration
-        services.AddSingleton<SmtpClient>();
+        services.AddSingleton`SmtpClient`();
         services.AddSingleton("connectionString");
 
         var serviceProvider = services.BuildServiceProvider();
 
         // Resolve high-level service
-        var orderService = serviceProvider.GetService<OrderService>();
+        var orderService = serviceProvider.GetService`OrderService`();
     }
-}
-```
+}```
 
 ---
 
 ## 🎯 SOLID in Practice: Complete Example
 
-### **E-commerce Order Processing System**
-
-```csharp
+### **E-commerce Order Processing System**```csharp
 // S - Single Responsibility: Each class has one job
 public class Order
 {
     public int Id { get; set; }
     public string CustomerEmail { get; set; }
     public decimal Total { get; set; }
-    public List<OrderItem> Items { get; set; } = new();
+    public List`OrderItem` Items { get; set; } = new();
 }
 
 public class OrderItem
@@ -145,28 +155,27 @@ public class SmsNotificationSender : NotificationSender
 public interface IOrderRepository
 {
     Task SaveAsync(Order order);
-    Task<Order> GetByIdAsync(int id);
+    Task`Order` GetByIdAsync(int id);
 }
 
 public interface IInventoryService
 {
-    Task<bool> IsAvailableAsync(string productName, int quantity);
+    Task`bool` IsAvailableAsync(string productName, int quantity);
     Task ReserveAsync(string productName, int quantity);
 }
 
 public interface IPaymentProcessor
 {
-    Task<bool> ProcessPaymentAsync(decimal amount, string paymentMethod);
+    Task`bool` ProcessPaymentAsync(decimal amount, string paymentMethod);
 }
 
 // D - Dependency Inversion: High-level depends on abstractions
 public class OrderService
 {
-    private readonly IOrderRepository _orderRepository;
-    private readonly IInventoryService _inventoryService;
-    private readonly IPaymentProcessor _paymentProcessor;
-    private readonly IDiscountCalculator _discountCalculator;
-    private readonly NotificationSender _notificationSender;
+    private readonly IOrderRepository`_orderRepository;
+    private readonly IInventoryService`_inventoryService;
+    private readonly IPaymentProcessor`_paymentProcessor;
+    private readonly IDiscountCalculator`_discountCalculator;
+    private readonly NotificationSender`_notificationSender;
 
     public OrderService(
-

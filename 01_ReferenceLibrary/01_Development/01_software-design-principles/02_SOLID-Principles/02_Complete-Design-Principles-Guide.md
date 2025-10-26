@@ -1,7 +1,7 @@
 # 02_Complete-Design-Principles-Guide
 
-**Learning Level**: Intermediate to Advanced  
-**Prerequisites**: OOP Fundamentals, SOLID Parts 1-5 (overview)  
+**Learning Level**: Intermediate to Advanced
+**Prerequisites**: OOP Fundamentals, SOLID Parts 1-5 (overview)
 **Estimated Time**: Part 1 of N -- 27 minutes
 
 ## 🎯 Learning Objectives
@@ -28,8 +28,7 @@ Design Principles Map
 ├─ Cohesion & Coupling (module design)
 ├─ Composition over Inheritance
 ├─ DRY / KISS / YAGNI
-└─ Architectural Boundaries (layers, hexagonal)
-```
+└─ Architectural Boundaries (layers, hexagonal)```
 
 ## 🔍 Core Concepts (15 minutes)
 
@@ -97,14 +96,11 @@ Design Principles Map
 
 ---
 
-## 📚 STSA Metadata
-
-```yaml
+## 📚 STSA Metadata```yaml
 module: complete-design-principles-guide
 track: Development
 category: Software Design Principles
 level: Intermediate-Advanced
 duration: 27 minutes
 updated: 2025-10-05
-status: Active
-```
+status: Active```

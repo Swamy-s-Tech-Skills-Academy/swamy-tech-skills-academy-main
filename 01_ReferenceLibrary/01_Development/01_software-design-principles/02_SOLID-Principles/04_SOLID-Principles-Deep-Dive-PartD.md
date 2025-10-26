@@ -1,5 +1,18 @@
 # 🏗️ SOLID Principles Deep Dive - Part D
 
+**Learning Level**: Advanced
+**Prerequisites**: Deep-Dive Parts A-C, interface design experience
+**Estimated Time**: 27 minutes
+
+## 🎯 Learning Objectives
+
+By the end of this 27-minute session, you will:
+
+- Implement sophisticated Interface Segregation strategies
+- Design cohesive, focused interfaces for complex systems
+- Apply ISP in API design and microservices communication
+- Balance interface granularity with practical maintainability
+
 Advanced OOP Design Principles with C# Implementation
 
 > 📖 **12-minute deep dive** | 🎯 **Focus**: SOLID principles mastery | 🏗️ **Advanced**: Beyond basic OOP concepts
@@ -10,42 +23,42 @@ This guide provides **comprehensive understanding and practical application** of
 
 ### 🎯 **Single Responsibility Principle (SRP)**
 
-✅ Class responsibility definition and boundaries  
-✅ Refactoring techniques for SRP violations  
-✅ Real-world examples and anti-patterns  
+✅ Class responsibility definition and boundaries
+✅ Refactoring techniques for SRP violations
+✅ Real-world examples and anti-patterns
 ✅ Testing implications of good SRP design
 
 ### 🔐 **Open/Closed Principle (OCP)**
 
-✅ Extension without modification strategies  
-✅ Strategy pattern and polymorphism application  
-✅ Plugin architecture examples  
+✅ Extension without modification strategies
+✅ Strategy pattern and polymorphism application
+✅ Plugin architecture examples
 ✅ Modern C# features supporting OCP
 
 ### 🔄 **Liskov Substitution Principle (LSP)**
 
-✅ Behavioral subtyping rules  
-✅ Contract preservation in inheritance  
-✅ Common LSP violations and fixes  
+✅ Behavioral subtyping rules
+✅ Contract preservation in inheritance
+✅ Common LSP violations and fixes
 ✅ Interface design for substitutability
 
 ### 🎭 **Interface Segregation Principle (ISP)**
 
-✅ Client-specific interface design  
-✅ Fat interface problems and solutions  
-✅ Role-based interface modeling  
+✅ Client-specific interface design
+✅ Fat interface problems and solutions
+✅ Role-based interface modeling
 ✅ Dependency injection implications
 
 ### 🔗 **Dependency Inversion Principle (DIP)**
 
-✅ Abstraction over concretion  
-✅ Dependency injection patterns  
-✅ IoC container integration  
+✅ Abstraction over concretion
+✅ Dependency injection patterns
+✅ IoC container integration
 ✅ Testability and maintainability benefits
 
 ---
 
-**Part D of 6**
+## Part D of 6
 
 Previous: [04_SOLID-Principles-Deep-Dive-PartC.md](04_SOLID-Principles-Deep-Dive-PartC.md)
 Next: [04_SOLID-Principles-Deep-Dive-PartE.md](04_SOLID-Principles-Deep-Dive-PartE.md)
@@ -76,11 +89,8 @@ public class Human : IWorker
     public void Sleep() => Console.WriteLine("Human sleeping");
 }
 
-```
-
-### **✅ ISP Compliant Solution**
-
-```csharp
+    ### **✅ ISP Compliant Solution**
+csharp
 // GOOD - Segregated interfaces based on client needs
 public interface IWorkable
 {
@@ -121,55 +131,51 @@ public class CafeteriaManager
 {
     public void ServeMeal(IFeedable creature) => creature.Eat();
 }
-```
 
-### **Real-World ISP Example: Data Access**
-
-```csharp
+    ### **Real-World ISP Example: Data Access**
+csharp
 // Instead of fat interface
 public interface IRepository
 {
-    Task<T> GetByIdAsync<T>(int id);
-    Task<IEnumerable<T>> GetAllAsync<T>();
-    Task AddAsync<T>(T entity);
-    Task UpdateAsync<T>(T entity);
-    Task DeleteAsync<T>(int id);
-    Task<int> CountAsync<T>();
-    Task BulkInsertAsync<T>(IEnumerable<T> entities);
-    Task<IEnumerable<T>> SearchAsync<T>(string query);
+    Task`T` GetByIdAsync`T`(int id);
+    Task`IEnumerable<T`> GetAllAsync`T`();
+    Task AddAsync`T`(T entity);
+    Task UpdateAsync`T`(T entity);
+    Task DeleteAsync`T`(int id);
+    Task`int` CountAsync`T`();
+    Task BulkInsertAsync`T`(IEnumerable`T` entities);
+    Task`IEnumerable<T`> SearchAsync`T`(string query);
 }
 
 // Better: Segregated interfaces
-public interface IReadOnlyRepository<T>
+public interface IReadOnlyRepository`T`
 {
-    Task<T> GetByIdAsync(int id);
-    Task<IEnumerable<T>> GetAllAsync();
-    Task<int> CountAsync();
+    Task`T` GetByIdAsync(int id);
+    Task`IEnumerable<T`> GetAllAsync();
+    Task`int` CountAsync();
 }
 
-public interface IWriteRepository<T>
+public interface IWriteRepository`T`
 {
     Task AddAsync(T entity);
     Task UpdateAsync(T entity);
     Task DeleteAsync(int id);
 }
 
-public interface ISearchableRepository<T>
+public interface ISearchableRepository`T`
 {
-    Task<IEnumerable<T>> SearchAsync(string query);
+    Task`IEnumerable<T`> SearchAsync(string query);
 }
 
-public interface IBulkRepository<T>
+public interface IBulkRepository`T`
 {
-    Task BulkInsertAsync(IEnumerable<T> entities);
+    Task BulkInsertAsync(IEnumerable`T` entities);
 }
 
 // Clients use only what they need
 public class ReportService
 {
-    private readonly IReadOnlyRepository<Order> _orderRepository;
+    private readonly IReadOnlyRepository`Order``_orderRepository;
 
-    public ReportService(IReadOnlyRepository<Order> orderRepository)
-    {
-        _orderRepository = orderRepository; // Only read operations
-
+    public ReportService(IReadOnlyRepository`Order` orderRepository)
+    {`_orderRepository = orderRepository; // Only read operations

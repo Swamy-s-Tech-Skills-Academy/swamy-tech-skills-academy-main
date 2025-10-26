@@ -83,7 +83,7 @@ class Car {
 
 ### **6. Composition (Has-A Relationship - Strong)**
 
-\n\n\n\n- **Definition**: A form of association where the contained objectâ€™s lifecycle is tied to the lifecycle of the container object
+\n\n\n\n- **Definition**: A form of association where the contained object's lifecycle is tied to the lifecycle of the container object
   - **Key Difference from Aggregation**: In composition, if the container object is destroyed, the contained object is also destroyed.\n\n### **Example**
 
 \n\n

@@ -1,5 +1,18 @@
 # 🏗️ SOLID Principles Deep Dive - Part E
 
+**Learning Level**: Advanced
+**Prerequisites**: Deep-Dive Parts A-D, dependency injection knowledge
+**Estimated Time**: 27 minutes
+
+## 🎯 Learning Objectives
+
+By the end of this 27-minute session, you will:
+
+- Master advanced Dependency Inversion and IoC patterns
+- Design flexible, testable architectures with proper abstractions
+- Implement sophisticated dependency injection scenarios
+- Apply DIP in enterprise and distributed system architectures
+
 Advanced OOP Design Principles with C# Implementation
 
 > 📖 **12-minute deep dive** | 🎯 **Focus**: SOLID principles mastery | 🏗️ **Advanced**: Beyond basic OOP concepts
@@ -10,42 +23,42 @@ This guide provides **comprehensive understanding and practical application** of
 
 ### 🎯 **Single Responsibility Principle (SRP)**
 
-✅ Class responsibility definition and boundaries  
-✅ Refactoring techniques for SRP violations  
-✅ Real-world examples and anti-patterns  
+✅ Class responsibility definition and boundaries
+✅ Refactoring techniques for SRP violations
+✅ Real-world examples and anti-patterns
 ✅ Testing implications of good SRP design
 
 ### 🔐 **Open/Closed Principle (OCP)**
 
-✅ Extension without modification strategies  
-✅ Strategy pattern and polymorphism application  
-✅ Plugin architecture examples  
+✅ Extension without modification strategies
+✅ Strategy pattern and polymorphism application
+✅ Plugin architecture examples
 ✅ Modern C# features supporting OCP
 
 ### 🔄 **Liskov Substitution Principle (LSP)**
 
-✅ Behavioral subtyping rules  
-✅ Contract preservation in inheritance  
-✅ Common LSP violations and fixes  
+✅ Behavioral subtyping rules
+✅ Contract preservation in inheritance
+✅ Common LSP violations and fixes
 ✅ Interface design for substitutability
 
 ### 🎭 **Interface Segregation Principle (ISP)**
 
-✅ Client-specific interface design  
-✅ Fat interface problems and solutions  
-✅ Role-based interface modeling  
+✅ Client-specific interface design
+✅ Fat interface problems and solutions
+✅ Role-based interface modeling
 ✅ Dependency injection implications
 
 ### 🔗 **Dependency Inversion Principle (DIP)**
 
-✅ Abstraction over concretion  
-✅ Dependency injection patterns  
-✅ IoC container integration  
+✅ Abstraction over concretion
+✅ Dependency injection patterns
+✅ IoC container integration
 ✅ Testability and maintainability benefits
 
 ---
 
-**Part E of 6**
+## Part E of 6
 
 Previous: [04_SOLID-Principles-Deep-Dive-PartD.md](04_SOLID-Principles-Deep-Dive-PartD.md)
 Next: [04_SOLID-Principles-Deep-Dive-PartF.md](04_SOLID-Principles-Deep-Dive-PartF.md)
@@ -55,30 +68,26 @@ Next: [04_SOLID-Principles-Deep-Dive-PartF.md](04_SOLID-Principles-Deep-Dive-Par
     }
 }
 
-```
+    ---
 
----
+    ## 🔗 D - Dependency Inversion Principle
 
-## 🔗 D - Dependency Inversion Principle
+    ### Definition and Goal (DIP)
 
-### Definition and Goal (DIP)
+    > **"High-level modules should not depend on low-level modules. Both should depend on abstractions."** - Robert C. Martin
 
-> **"High-level modules should not depend on low-level modules. Both should depend on abstractions."** - Robert C. Martin
+    **Core Concept**: Depend on abstractions, not concretions.
 
-**Core Concept**: Depend on abstractions, not concretions.
-
-### **❌ DIP Violation Example**
-
-```csharp
+    ### **❌ DIP Violation Example**
+csharp
 // BAD - High-level class depends on low-level implementation
 public class EmailService
 {
     // Direct dependency on concrete implementation
-    private readonly SmtpClient _smtpClient = new SmtpClient();
+    private readonly SmtpClient`_smtpClient = new SmtpClient();
 
     public void SendEmail(string to, string subject, string body)
-    {
-        _smtpClient.Send(to, subject, body);
+    {`_smtpClient.Send(to, subject, body);
         // Hard to test, hard to change email provider
     }
 }
@@ -86,21 +95,18 @@ public class EmailService
 public class OrderService
 {
     // Direct dependencies on concrete classes
-    private readonly SqlOrderRepository _orderRepository = new();
-    private readonly EmailService _emailService = new();
+    private readonly SqlOrderRepository`_orderRepository = new();
+    private readonly EmailService`_emailService = new();
 
     public void ProcessOrder(Order order)
-    {
-        _orderRepository.Save(order);
-        _emailService.SendEmail(order.CustomerEmail, "Order Confirmation", "...");
+    {`_orderRepository.Save(order);
+       `_emailService.SendEmail(order.CustomerEmail, "Order Confirmation", "...");
         // Tightly coupled, hard to test
     }
 }
-```
 
-### **✅ DIP Compliant Solution**
-
-```csharp
+    ### **✅ DIP Compliant Solution**
+csharp
 // GOOD - Depend on abstractions
 public interface IEmailService
 {
@@ -110,32 +116,30 @@ public interface IEmailService
 public interface IOrderRepository
 {
     Task SaveAsync(Order order);
-    Task<Order> GetByIdAsync(int id);
+    Task`Order` GetByIdAsync(int id);
 }
 
 // Low-level modules implement abstractions
 public class SmtpEmailService : IEmailService
 {
-    private readonly SmtpClient _smtpClient;
+    private readonly SmtpClient`_smtpClient;
 
     public SmtpEmailService(SmtpClient smtpClient)
-    {
-        _smtpClient = smtpClient;
+    {`_smtpClient = smtpClient;
     }
 
     public async Task SendEmailAsync(string to, string subject, string body)
     {
-        await _smtpClient.SendMailAsync(to, subject, body);
+        await`_smtpClient.SendMailAsync(to, subject, body);
     }
 }
 
 public class SqlOrderRepository : IOrderRepository
 {
-    private readonly string _connectionString;
+    private readonly string`_connectionString;
 
     public SqlOrderRepository(string connectionString)
-    {
-        _connectionString = connectionString;
+    {`_connectionString = connectionString;
     }
 
     public async Task SaveAsync(Order order)
@@ -143,7 +147,7 @@ public class SqlOrderRepository : IOrderRepository
         // SQL implementation
     }
 
-    public async Task<Order> GetByIdAsync(int id)
+    public async Task`Order` GetByIdAsync(int id)
     {
         // SQL implementation
         return new Order();
@@ -153,22 +157,20 @@ public class SqlOrderRepository : IOrderRepository
 // High-level module depends only on abstractions
 public class OrderService
 {
-    private readonly IOrderRepository _orderRepository;
-    private readonly IEmailService _emailService;
+    private readonly IOrderRepository`_orderRepository;
+    private readonly IEmailService`_emailService;
 
     public OrderService(IOrderRepository orderRepository, IEmailService emailService)
-    {
-        _orderRepository = orderRepository;
-        _emailService = emailService;
+    {`_orderRepository = orderRepository;
+       `_emailService = emailService;
     }
 
     public async Task ProcessOrderAsync(Order order)
     {
-        await _orderRepository.SaveAsync(order);
-        await _emailService.SendEmailAsync(
+        await`_orderRepository.SaveAsync(order);
+        await`_emailService.SendEmailAsync(
             order.CustomerEmail,
             "Order Confirmation",
             "Your order has been processed");
     }
 }
-```

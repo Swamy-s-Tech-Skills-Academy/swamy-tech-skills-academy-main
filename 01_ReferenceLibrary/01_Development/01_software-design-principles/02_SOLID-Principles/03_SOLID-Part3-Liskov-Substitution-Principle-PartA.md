@@ -1,8 +1,8 @@
 # 03_SOLID-Part3-Liskov-Substitution-Principle - Part A
 
-**Learning Level**: Advanced  
-**Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2)  
-**Estimated Time**: 30 minutes  
+**Learning Level**: Advanced
+**Prerequisites**: Inheritance, polymorphism, Open/Closed Principle (Part 2)
+**Estimated Time**: 30 minutes
 
 ## 🎯 Learning Objectives
 
@@ -10,7 +10,7 @@ By the end of this 30-minute session, you will:
 
 - Understand the Liskov Substitution Principle (LSP) and its critical importance
 
-**Part A of 4**
+## Part A of 4
 
 Next: [03_SOLID-Part3-Liskov-Substitution-Principle-PartB.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartB.md)
 
@@ -53,13 +53,12 @@ Assert.Equal(20, rect.GetArea()); // FAILS! Returns 16
 ┌───────┴───────┬─────────────┐
 │               │             │
 Rectangle    Square      Circle
-(resizable)  (fixed)    (scalable)
-```
+(resizable)  (fixed)    (scalable)```
 
 **LSP Core Rules**:
 
 - Preconditions cannot be strengthened in subclasses
-- Postconditions cannot be weakened in subclasses  
+- Postconditions cannot be weakened in subclasses
 - Invariants must be maintained across inheritance
 - History constraint: subclass shouldn't allow state changes forbidden in parent
 
@@ -67,20 +66,18 @@ Rectangle    Square      Circle
 
 #### Understanding Behavioral Contracts
 
-##### The Classic Rectangle-Square Problem
-
-```csharp
+##### The Classic Rectangle-Square Problem```csharp
 // ❌ BAD: Square violates LSP when inheriting from Rectangle
 public class Rectangle
 {
     public virtual int Width { get; set; }
     public virtual int Height { get; set; }
-    
+
     public virtual int GetArea()
     {
         return Width * Height;
     }
-    
+
     public virtual void SetDimensions(int width, int height)
     {
         Width = width;
@@ -101,7 +98,7 @@ public class Square : Rectangle
             base.Height = value; // ← Unexpected side effect!
         }
     }
-    
+
     public override int Height
     {
         get => base.Height;
@@ -119,22 +116,19 @@ public class GeometryCalculator
     public void DemonstrateViolation()
     {
         Rectangle rect = new Square(); // Polymorphic assignment
-        
+
         rect.Width = 5;
         rect.Height = 4;
-        
+
         // Expected: 20 (5 * 4)
         // Actual: 16 (4 * 4) - Square changed both dimensions!
         Console.WriteLine($"Area: {rect.GetArea()}"); // Violates LSP!
     }
-}
-```
+}```
 
 #### LSP-Compliant Design Solutions
 
-##### Solution 1: Interface Segregation
-
-```csharp
+##### Solution 1: Interface Segregation```csharp
 // ✅ GOOD: Separate interfaces for different capabilities
 public interface IShape
 {
@@ -156,18 +150,17 @@ public class Rectangle : IResizableShape
 {
     public double Width { get; private set; }
     public double Height { get; private set; }
-    
+
     public Rectangle(double width, double height)
     {
         Width = width;
         Height = height;
     }
-    
+
     public double GetArea() => Width * Height;
     public double GetPerimeter() => 2 * (Width + Height);
-    
+
     public void Resize(double widthFactor, double heightFactor)
     {
         Width *= widthFactor;
         Height *= heightFactor;
-
