@@ -85,7 +85,7 @@ public void TestRectangle(Rectangle rectangle)
     Assert.AreEqual(50, rectangle.CalculateArea());
 }
 
-```
+```text
 
 ### **✅ LSP Compliant Solution**
 
@@ -117,7 +117,7 @@ public void TestShape(Shape shape)
     var area = shape.CalculateArea();
     // No unexpected side effects, behavior is predictable
 }
-```
+```text
 
 ### **LSP with Preconditions and Postconditions**
 
@@ -156,7 +156,7 @@ public class BrokenFileProcessor : FileProcessor
         return null; // Violates postcondition!
     }
 }
-```
+```csharp
 
 ---
 

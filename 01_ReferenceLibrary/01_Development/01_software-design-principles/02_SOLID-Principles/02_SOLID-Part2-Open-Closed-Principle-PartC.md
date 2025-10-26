@@ -36,7 +36,7 @@ public class ExcelReportGenerator : ReportGenerator
     private string GenerateExcelWorkbook(object data) { /* Implementation */ return "Excel"; }
 }
 
-```
+```text
 
 ##### Pattern 2: Decorator Pattern
 
@@ -110,7 +110,7 @@ public class LoggedNotificationSender : INotificationSender
         }
     }
 }
-```
+```text
 
 ##### Dependency Injection Configuration
 
@@ -136,7 +136,7 @@ public void ConfigureServices(IServiceCollection services)
     services.Decorate`INotificationSender, EncryptedNotificationSender`();
     services.Decorate`INotificationSender, LoggedNotificationSender`();
 }
-```
+```text
 
 ### Key Takeaways & Next Steps (2 minutes)
 

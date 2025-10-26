@@ -57,7 +57,7 @@ public class UserManagementService
     }
 }
 
-```
+```text
 
 ##### Query vs Command Segregation
 
@@ -126,7 +126,7 @@ public class OrderProcessingService
         await _orderCommands.UpdateOrderStatusAsync(orderId, OrderStatus.Processing);
     }
 }
-```
+```text
 
 ### Practical Implementation (8 minutes)
 

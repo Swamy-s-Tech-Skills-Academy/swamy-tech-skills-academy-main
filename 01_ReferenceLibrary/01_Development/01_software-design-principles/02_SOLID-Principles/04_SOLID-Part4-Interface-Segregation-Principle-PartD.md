@@ -33,7 +33,7 @@ public class ProductCatalogService
     }
 }
 
-```
+```csharp
 
 ##### Strategy 2: Capability-Based Interfaces
 
@@ -143,7 +143,7 @@ public class CacheService
         return _cache.Get`T`(key);
     }
 }
-```
+```text
 
 #### Testing with ISP
 

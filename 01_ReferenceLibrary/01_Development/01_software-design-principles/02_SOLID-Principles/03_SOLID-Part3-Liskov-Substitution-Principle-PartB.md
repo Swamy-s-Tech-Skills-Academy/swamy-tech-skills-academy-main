@@ -38,7 +38,7 @@ public class Square : IFixedRatioShape
     }
 }
 
-```
+```text
 
 ##### Solution 2: Immutable Design
 
@@ -93,7 +93,7 @@ public class ImmutableSquare : ImmutableShape
         return new ImmutableSquare(Side * factor);
     }
 }
-```
+```text
 
 #### Real-World LSP Scenarios
 
@@ -145,7 +145,7 @@ public class ReadOnlyFileStorage : FileStorage
         return await File.ReadAllBytesAsync(path);
     }
 }
-```
+```text
 
 ##### LSP-Compliant Solution
 

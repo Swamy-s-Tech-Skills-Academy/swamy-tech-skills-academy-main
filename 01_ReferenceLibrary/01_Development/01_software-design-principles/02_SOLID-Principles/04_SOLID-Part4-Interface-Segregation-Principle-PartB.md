@@ -137,7 +137,7 @@ public class ScanService
     }
 }
 
-```
+```csharp
 
 #### Advanced ISP Patterns
 

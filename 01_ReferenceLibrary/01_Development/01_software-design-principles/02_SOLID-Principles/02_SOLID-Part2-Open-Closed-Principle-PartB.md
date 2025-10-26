@@ -61,7 +61,7 @@ public class DiscountCalculator
     }
 }
 
-```
+```text
 
 #### Adding New Features Without Modification
 
@@ -129,7 +129,7 @@ public class SeasonalDiscountStrategy : IDiscountStrategy
         return now `= _startDate && now `= _endDate && order.Total ` 0;
     }
 }
-```
+```text
 
 ### Practical Implementation (8 minutes)
 

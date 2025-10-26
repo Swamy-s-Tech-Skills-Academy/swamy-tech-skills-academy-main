@@ -36,7 +36,7 @@ public class SavingsAccount : BankAccount
     // LSP compliant: doesn't strengthen preconditions or weaken postconditions
 }
 
-```
+```text
 
 #### Design Patterns Supporting LSP
 
@@ -121,7 +121,7 @@ public class CustomerDataProcessor : DataProcessor`Customer`
         Console.WriteLine($"Welcome email sent for customer: {customerId}");
     }
 }
-```
+```text
 
 ### Key Takeaways & Next Steps (2 minutes)
 

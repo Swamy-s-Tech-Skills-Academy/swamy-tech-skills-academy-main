@@ -55,7 +55,7 @@ Next: [04_SOLID-Principles-Deep-Dive-PartF.md](04_SOLID-Principles-Deep-Dive-Par
     }
 }
 
-```
+```text
 
 ---
 
@@ -96,7 +96,7 @@ public class OrderService
         // Tightly coupled, hard to test
     }
 }
-```
+```text
 
 ### **✅ DIP Compliant Solution**
 
@@ -171,4 +171,4 @@ public class OrderService
             "Your order has been processed");
     }
 }
-```
+```text

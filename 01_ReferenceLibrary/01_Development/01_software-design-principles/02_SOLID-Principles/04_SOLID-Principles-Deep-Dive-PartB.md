@@ -69,7 +69,7 @@ Next: [04_SOLID-Principles-Deep-Dive-PartC.md](04_SOLID-Principles-Deep-Dive-Par
     }
 }
 
-```
+```text
 
 ### **✅ OCP Compliant Solution**
 
@@ -109,7 +109,7 @@ public class AreaCalculator
 {
     public double CalculateArea(Shape shape) => shape.CalculateArea();
 }
-```
+```text
 
 ### **Modern C# OCP with Strategy Pattern**
 
@@ -147,7 +147,7 @@ public class PriceCalculator
         return basePrice - discount;
     }
 }
-```
+```text
 
 ---
 

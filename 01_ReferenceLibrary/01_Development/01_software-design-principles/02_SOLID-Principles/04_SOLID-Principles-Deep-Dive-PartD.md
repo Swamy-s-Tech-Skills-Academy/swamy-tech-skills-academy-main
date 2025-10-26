@@ -76,7 +76,7 @@ public class Human : IWorker
     public void Sleep() => Console.WriteLine("Human sleeping");
 }
 
-```
+```text
 
 ### **✅ ISP Compliant Solution**
 
@@ -121,7 +121,7 @@ public class CafeteriaManager
 {
     public void ServeMeal(IFeedable creature) => creature.Eat();
 }
-```
+```text
 
 ### **Real-World ISP Example: Data Access**
 

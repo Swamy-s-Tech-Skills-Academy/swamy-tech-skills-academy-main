@@ -73,7 +73,7 @@ public class DocumentProcessor
     private string ProcessBytes(byte[] data) => Convert.ToBase64String(data);
 }
 
-```
+```text
 
 ### Practical Implementation (8 minutes)
 
@@ -122,7 +122,7 @@ public class LocalFileStorageTests : FileStorageContractTests`LocalFileStorage`
         return new LocalFileStorage();
     }
 }
-```
+```text
 
 ##### Behavioral Invariant Checking
 

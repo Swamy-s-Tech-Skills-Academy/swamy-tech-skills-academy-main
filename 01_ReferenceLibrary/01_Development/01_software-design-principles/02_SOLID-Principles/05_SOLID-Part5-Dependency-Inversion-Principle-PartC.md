@@ -26,7 +26,7 @@ Next: [05_SOLID-Part5-Dependency-Inversion-Principle-PartD.md](05_SOLID-Part5-De
     }
 }
 
-```
+```text
 
 #### Dependency Injection Container Configuration
 
@@ -83,7 +83,7 @@ public class TestServiceConfiguration
         return services;
     }
 }
-```
+```text
 
 ### Practical Implementation (8 minutes)
 
@@ -158,7 +158,7 @@ public class ECommerceService
         await orderRepo.SaveAsync(order);
     }
 }
-```
+```text
 
 ##### Strategy Pattern with DIP
 
