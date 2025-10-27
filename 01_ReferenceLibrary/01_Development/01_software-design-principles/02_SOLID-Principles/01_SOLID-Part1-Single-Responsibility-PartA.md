@@ -1,4 +1,4 @@
-# 01_SOLID-Part1-Single-Responsibility - Part A
+﻿# 01_SOLID-Part1-Single-Responsibility - Part A
 
 **Learning Level**: Intermediate
 **Prerequisites**: Basic OOP concepts, understanding of classes and methods
@@ -95,10 +95,14 @@ public class Employee
     // Reason 3: Reporting format changes
     public string GenerateReport()
     {
-        return $"Employee Report\n" +
-               $"Name: {Name}\n" +
-               $"Salary: {Salary:C}\n" +
-               $"Department: {Department}\n" +
+        return $"Employee Report
+" +
+               $"Name: {Name}
+" +
+               $"Salary: {Salary:C}
+" +
+               $"Department: {Department}
+" +
                $"Bonus: {CalculateBonus():C}";
     }
 

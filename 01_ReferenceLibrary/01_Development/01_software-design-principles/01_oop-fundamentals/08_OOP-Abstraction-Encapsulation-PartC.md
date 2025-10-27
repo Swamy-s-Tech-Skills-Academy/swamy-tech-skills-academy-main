@@ -1,11 +1,15 @@
-# OOP Abstraction and Encapsulation - Part C\n\n**Learning Level**: Intermediate
+﻿# OOP Abstraction and Encapsulation - Part C
+
+**Learning Level**: Intermediate
 
 **Prerequisites**: [08_OOP-Abstraction-Encapsulation-PartB.md](08_OOP-Abstraction-Encapsulation-PartB.md)
 **Estimated Time**: 27 minutes (focused learning session)
 
 ## **Series**: Part C of 3 - Abstraction & Encapsulation
 
-## 🎯 Learning Objectives\n\nBy the end of this session, you will
+## 🎯 Learning Objectives
+
+By the end of this session, you will
 
 - [Add specific learning objectives]
 
@@ -14,7 +18,9 @@ By the end of this 27-minute session, you will:
 
 - Understand the fundamental differences between abstraction and encapsulation
 - Apply both principles effectively in object-oriented design
-- Recognize when and how to use each principle for better code organization\n\n**Abstraction** and **Encapsulation** are two fundamental principles of Object-Oriented Programming (OOP), and while they are closely related, they serve different purposes. Here's a comparison:
+- Recognize when and how to use each principle for better code organization
+
+**Abstraction** and **Encapsulation** are two fundamental principles of Object-Oriented Programming (OOP), and while they are closely related, they serve different purposes. Here's a comparison:
 
 ---
 
@@ -24,52 +30,132 @@ By the end of this 27-minute session, you will:
 
 ### **8. Dependency**
 
-\n\n\n\n- **Definition**: When one class relies on another to perform its operations
+- **Definition**: When one class relies on another to perform its operations
 
-- **Key Points**:\n\n  - Promotes loose coupling with dependency injection.\n\n### **Example**
+- **Key Points**:
 
-\n\n\n\n```csharp
+  - Promotes loose coupling with dependency injection.
+
+### **Example**
+
+```csharp
 class Service {
-```csharp\npublic void PerformOperation() {\n```csharp\n```csharp\n    Console.WriteLine("Operation performed.");\n```csharp\n    }
+```csharp
+public void PerformOperation() {
+```csharp
+```csharp
+    Console.WriteLine("Operation performed.");
+```csharp
+    }
 }
 class Client {
-```csharp\nprivate Service service;\n```csharp\n```csharp\npublic Client(Service service) {\n```csharp\n```csharp\n    this.service = service;\n```csharp\n    }
-```csharp\npublic void Start() {\n```csharp\n```csharp\n    service.PerformOperation();\n```csharp\n    }
-}\n\n```csharp---
+```csharp
+private Service service;
+```csharp
+```csharp
+public Client(Service service) {
+```csharp
+```csharp
+    this.service = service;
+```csharp
+    }
+```csharp
+public void Start() {
+```csharp
+```csharp
+    service.PerformOperation();
+```csharp
+    }
+}
+
+```csharp---
 
 ### **9. Realization**
 
-\n\n\n\n- **Definition**: A class implements the behavior defined by an interface
 
-- **Purpose**: Provides a contract that a class must adhere to.\n\n### **Example**
 
-\n\n
 
-```csharp\n\ninterface IShape {
-```csharp\ndouble GetArea();\n```csharp\n}
+
+- **Definition**: A class implements the behavior defined by an interface
+
+- **Purpose**: Provides a contract that a class must adhere to.
+
+### **Example**
+
+
+
+
+
+```csharp
+
+interface IShape {
+```csharp
+double GetArea();
+```csharp
+}
 class Circle : IShape {
-```csharp\nprivate double radius;\n```csharp\n```csharp\npublic Circle(double radius) {\n```csharp\n```csharp\n    this.radius = radius;\n```csharp\n    }
-```csharp\npublic double GetArea() {\n```csharp\n```csharp\n    return Math.PI * radius * radius;\n```csharp\n    }
-}\n\n```csharp\n---
+```csharp
+private double radius;
+```csharp
+```csharp
+public Circle(double radius) {
+```csharp
+```csharp
+    this.radius = radius;
+```csharp
+    }
+```csharp
+public double GetArea() {
+```csharp
+```csharp
+    return Math.PI * radius * radius;
+```csharp
+    }
+}
+
+```csharp
+---
 
 ### **OOP Principles:**
 
-\n\n\n\n| Principle         | Definition                                                | C# Implementation                  | Example                            |
+
+
+
+
+| Principle         | Definition                                                | C# Implementation                  | Example                            |
 | ----------------- | --------------------------------------------------------- | ---------------------------------- | ---------------------------------- |
 | **Encapsulation** | Hiding internal state and exposing controlled access.     | Access Modifiers, Properties       | `private`, `public`, `protected`   |
 | **Abstraction**   | Hiding implementation details and exposing functionality. | Abstract Classes, Interfaces       | `abstract`, `interface`            |
 | **Inheritance**   | Acquiring properties and behavior of another class.       | Derived Classes                    | `class Dog : Animal`               |
-| **Polymorphism**  | Using a single interface to represent different types.    | Method Overriding, Virtual Methods | `virtual`, `override`, `interface` |\n\n---
+| **Polymorphism**  | Using a single interface to represent different types.    | Method Overriding, Virtual Methods | `virtual`, `override`, `interface` |
 
-### UML Class Diagram for OOP in C\n\n\n\n
+---
+
+### UML Class Diagram for OOP in C
+
+
+
+
 
 ### **Description**
 
-\n\n\n\n- A simple UML class diagram can represent relationships such as aggregation, composition, inheritance, and realization in the context of OOP in C#
-  - Example: A `Vehicle` class (generalization) has subclasses like `Car` and `Motorcycle`, and an `Engine` class (composition) is part of the `Car`.\n\n### **Link to Learn UML**
 
-\n\n\n\n- [Lucidchart UML Basics](https://www.lucidchart.com/pages/uml-class-diagram)
-  - [PlantUML Online Tool](https://plantuml.com/class-diagram)\n\nIf you need further UML diagrams or detailed code examples for each principle, let me know!
+
+
+
+- A simple UML class diagram can represent relationships such as aggregation, composition, inheritance, and realization in the context of OOP in C#
+  - Example: A `Vehicle` class (generalization) has subclasses like `Car` and `Motorcycle`, and an `Engine` class (composition) is part of the `Car`.
+
+### **Link to Learn UML**
+
+
+
+
+
+- [Lucidchart UML Basics](https://www.lucidchart.com/pages/uml-class-diagram)
+  - [PlantUML Online Tool](https://plantuml.com/class-diagram)
+
+If you need further UML diagrams or detailed code examples for each principle, let me know!
 
 Here's the **PlantUML** text for a class diagram that illustrates the **OOP principles in C#**. It includes relationships like inheritance, composition, and realization:
 ```plantuml
@@ -78,7 +164,10 @@ title OOP in C#
 class Vehicle {
   - string Make
   - string Model
-```csharp\n+ void Start()\n```csharp\n}
+```csharp
++ void Start()
+```csharp
+}
 class Car {
   - int Doors
 }
@@ -92,25 +181,43 @@ class Engine {
 }
 Car *-- Engine : Composition
 interface IShape {
-```csharp\n+ double GetArea()\n```csharp\n}
+```csharp
++ double GetArea()
+```csharp
+}
 class Circle {
   - double Radius
-```csharp\n+ double GetArea()\n```csharp\n}
+```csharp
++ double GetArea()
+```csharp
+}
 IShape <|.. Circle : Realization
 @enduml
-```\n\n---
+```
+
+---
 
 ### **Explanation of the Diagram**
 
-\n\n\n\n1. **Inheritance**:
-  - `Vehicle` is the parent class, and `Car` and `Motorcycle` are child classes.
-  - Represented by the `<|--` notation.
+1. **Inheritance**:
 
-1. **Composition**:\n\n   - `Car` contains an `Engine`, indicating a "has-a (strong)" relationship.
-  - Represented by the `*--` notation.
+- `Vehicle` is the parent class, and `Car` and `Motorcycle` are child classes.
+- Represented by the `<|--` notation.
 
-1. **Realization**:\n\n   - `Circle` implements the `IShape` interface.
-  - Represented by the `<|..` notation.
+1. **Composition**:
 
-1. **Class Members**:\n\n   - Fields and methods are specified within classes.
-  - `+` denotes public, `-` denotes private.
+   - `Car` contains an `Engine`, indicating a "has-a (strong)" relationship.
+
+- Represented by the `*--` notation.
+
+1. **Realization**:
+
+   - `Circle` implements the `IShape` interface.
+
+- Represented by the `<|..` notation.
+
+1. **Class Members**:
+
+   - Fields and methods are specified within classes.
+
+- `+` denotes public, `-` denotes private.

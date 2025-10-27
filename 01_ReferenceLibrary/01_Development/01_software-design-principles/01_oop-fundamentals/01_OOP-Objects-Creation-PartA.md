@@ -1,11 +1,15 @@
-# 01_OOP-Objects-Creation-PartA\n\n**Learning Level**: Beginner
+﻿# 01_OOP-Objects-Creation-PartA
+
+**Learning Level**: Beginner
 
 **Prerequisites**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)
 **Estimated Time**: 15 minutes (27-minute focused session)
 
 ## **Series**: Part A of 2 - Objects Creation
 
-## 🎯 Learning Objectives (15-Minute Session)\n\nBy the end of this session, you will
+## 🎯 Learning Objectives (15-Minute Session)
+
+By the end of this session, you will
 
 - Understand objects as instances of classes
 - Master the object creation process
@@ -17,22 +21,110 @@
 
 ### **1. Objects: The Real Thing**
 
-\n\n\n\n**Definition**: An object is an **instance** of a class - the actual "thing" created from the blueprint
+**Definition**: An object is an **instance** of a class - the actual "thing" created from the blueprint
 **Key Relationship**: **One class** → **Multiple unique objects** with individual data
 
 ### **2. Class vs Object Visualization**
 
-\n\n\n\n```mermaid
+```mermaid
 classDiagram
-```csharp\nclass BankAccount {\n```csharp\n```csharp\n    -accountNumber: string\n```csharp\n```csharp\n    -balance: decimal\n```csharp\n```csharp\n    -ownerName: string\n```csharp\n```csharp\n    +deposit(amount): void\n```csharp\n```csharp\n    +withdraw(amount): void\n```csharp\n```csharp\n    +getBalance(): decimal\n```csharp\n    }
-```csharp\nBankAccount --> johnAccount : creates\n```csharp\n```csharp\nBankAccount --> sarahAccount : creates\n```csharp\n```csharp\nBankAccount --> mikeAccount : creates\n```csharp\n```csharp\nnote for BankAccount "CLASS: Blueprint defining structure and behavior"\n```csharp\n```csharp\nnote for johnAccount "OBJECT: Specific instance with actual data"\n```csharp\n```csharp\nclass johnAccount {\n```csharp\n```csharp\n    accountNumber: "12345"\n```csharp\n```csharp\n    balance: 1500.00\n```csharp\n```csharp\n    ownerName: "John Smith"\n```csharp\n    }
-```csharp\nclass sarahAccount {\n```csharp\n```csharp\n    accountNumber: "67890"\n```csharp\n```csharp\n    balance: 2300.50\n```csharp\n```csharp\n    ownerName: "Sarah Johnson"\n```csharp\n```csharp}
-```csharp\n```csharp### **3. Object Creation Process**
+```csharp
+class BankAccount {
+```csharp
+```csharp
+    -accountNumber: string
+```csharp
+```csharp
+    -balance: decimal
+```csharp
+```csharp
+    -ownerName: string
+```csharp
+```csharp
+    +deposit(amount): void
+```csharp
+```csharp
+    +withdraw(amount): void
+```csharp
+```csharp
+    +getBalance(): decimal
+```csharp
+    }
+```csharp
+BankAccount --> johnAccount : creates
+```csharp
+```csharp
+BankAccount --> sarahAccount : creates
+```csharp
+```csharp
+BankAccount --> mikeAccount : creates
+```csharp
+```csharp
+note for BankAccount "CLASS: Blueprint defining structure and behavior"
+```csharp
+```csharp
+note for johnAccount "OBJECT: Specific instance with actual data"
+```csharp
+```csharp
+class johnAccount {
+```csharp
+```csharp
+    accountNumber: "12345"
+```csharp
+```csharp
+    balance: 1500.00
+```csharp
+```csharp
+    ownerName: "John Smith"
+```csharp
+    }
+```csharp
+class sarahAccount {
+```csharp
+```csharp
+    accountNumber: "67890"
+```csharp
+```csharp
+    balance: 2300.50
+```csharp
+```csharp
+    ownerName: "Sarah Johnson"
+```csharp
+```csharp}
+```csharp
+```csharp### **3. Object Creation Process**
 
 ```pseudocode
 // Step 1: Define the class (blueprint)
 CLASS Employee:
-```csharp\nPRIVATE employeeId: string\n```csharp\n```csharp\nPRIVATE name: string\n```csharp\n```csharp\nPRIVATE department: string\n```csharp\n```csharp\nPRIVATE salary: decimal\n```csharp\n```csharp\nCONSTRUCTOR Employee(id, name, dept, sal):\n```csharp\n```csharp\n    this.employeeId = id\n```csharp\n```csharp\n    this.name = name\n```csharp\n```csharp\n    this.department = dept\n```csharp\n```csharp\n    this.salary = sal\n```csharp\n// Step 2: Create objects (instances)
+```csharp
+PRIVATE employeeId: string
+```csharp
+```csharp
+PRIVATE name: string
+```csharp
+```csharp
+PRIVATE department: string
+```csharp
+```csharp
+PRIVATE salary: decimal
+```csharp
+```csharp
+CONSTRUCTOR Employee(id, name, dept, sal):
+```csharp
+```csharp
+    this.employeeId = id
+```csharp
+```csharp
+    this.name = name
+```csharp
+```csharp
+    this.department = dept
+```csharp
+```csharp
+    this.salary = sal
+```csharp
+// Step 2: Create objects (instances)
 employee1 = NEW Employee("E001", "John Smith", "Engineering", 75000)
 employee2 = NEW Employee("E002", "Sarah Johnson", "Marketing", 65000)
 employee3 = NEW Employee("E003", "Mike Chen", "Sales", 70000)
@@ -61,23 +153,38 @@ employee2.updateDepartment("Sales")  // Only Sarah changes dept
 // Objects can be compared
 IF employee1.salary > employee2.salary:
 ```csharpPRINT "John earns more than Sarah"
-```csharp\n```\n\n---
+```csharp
+```
+
+---
 
 ## ✅ Key Takeaways (2 minutes)
+
 ### **Essential Understanding**
 
-\n\n\n\n1. **Objects are instances** created from class blueprints
+1. **Objects are instances** created from class blueprints
 
 1. **Each object has independent data** but shared methods
 1. **Multiple objects can exist** from one class
-1. **Objects maintain separate state** and operate independently\n\n### **What's Next**
+1. **Objects maintain separate state** and operate independently
 
-\n\n\n\n**Part B2** will cover:
-  - Advanced object interactions
-  - Complex real-world scenarios
-##   - Object lifecycle management
-## 🔗 Series Navigation\n\n- **Previous**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)\n\n  - **Current**: Part B1 - Objects Creation ✅
+### **What's Next**
+
+**Part B2** will cover:
+
+- Advanced object interactions
+- Complex real-world scenarios
+
+## - Object lifecycle management
+
+## 🔗 Series Navigation
+
+- **Previous**: [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)
+
+  - **Current**: Part B1 - Objects Creation ✅
   - **Next**: [01_OOP-Objects-Creation-PartB.md](01_OOP-Objects-Creation-PartB.md)
-  - **Series**: Classes & Objects Foundation (Part B1 of 4)\n\n**Last Updated**: September 10, 2025
+  - **Series**: Classes & Objects Foundation (Part B1 of 4)
+
+**Last Updated**: September 10, 2025
 
 **Format**: 15-minute focused learning segment
