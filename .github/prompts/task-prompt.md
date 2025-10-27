@@ -1,5 +1,4 @@
-TASK: 
-STSA Deep File-by-File Verification and Remediation (ReAct Style)
+# STSA Deep File-by-File Verification and Remediation (ReAct Style)
 
 Context:
 You are working with Swamy's Tech Skills Academy (STSA) Knowledge Base, a comprehensive educational learning system targeting Lead Architect / Director Technology mastery. The repository follows strict educational content standards and multi-domain expertise development across Development, AI/ML, Data Science, and DevOps.
@@ -140,18 +139,39 @@ Output requirements (MUST follow exactly)
    - data_science_track_files: int
    - devops_track_files: int
    - cross_references_present: int
-   - domain_placement_issues: []
+      - domain_placement_issues: []
 
 Formatting rules for output:
+
 - Output only JSON (no prose outside JSON) so it can be parsed by automation.
 - JSON must be UTF-8, compact but human-readable (use 2-space indentation).
 - If you include patches, ensure diffs use unified diff format and are properly escaped inside JSON strings.
 
 Strict privacy & reasoning constraint:
+
+- Use ReAct-style internal reasoning and actions to determine findings BUT DO NOT OUTPUT ANY CHAIN-OF-THOUGHT, internal logs, or private reasoning. Only provide the JSON structured output described above.
+- If you cannot confirm something (e.g., external API version), mark it "needs_verification" and state what command or URL the operator should run to confirm.
+
+Deliverables:
+
+- The complete JSON report as described above.
+- For each suggested_fix that is small (<= 30 lines), include a quick_fix_patch.
+- For larger fixes, include exact instructions and code snippets for maintainers to apply the change.
+- A final top-level "suggested_next_steps" with three clear actions (e.g., run linter, open PR with patches, run link-checker CI).
+
+Formatting rules for output:
+
+- Output only JSON (no prose outside JSON) so it can be parsed by automation.
+- JSON must be UTF-8, compact but human-readable (use 2-space indentation).
+- If you include patches, ensure diffs use unified diff format and are properly escaped inside JSON strings.
+
+Strict privacy & reasoning constraint:
+
 - Use ReAct-style internal reasoning and actions to determine findings BUT DO NOT OUTPUT ANY CHAIN-OF-THOUGHT, internal logs, or private reasoning. Only provide the JSON structured output described above.
 - If you cannot confirm something (e.g., external API version), mark it “needs_verification” and state what command or URL the operator should run to confirm.
 
 Deliverables:
+
 - The complete JSON report as described above.
 - For each suggested_fix that is small (<= 30 lines), include a quick_fix_patch.
 - For larger fixes, include exact instructions and code snippets for maintainers to apply the change.
