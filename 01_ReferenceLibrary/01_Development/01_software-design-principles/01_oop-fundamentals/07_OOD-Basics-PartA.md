@@ -1,4 +1,4 @@
-﻿# **OOD in C# with Class Diagrams** - Part A
+# **OOD in C# with Class Diagrams** - Part A
 
 **Learning Level**: Intermediate
 
@@ -236,3 +236,20 @@ By the end of this session, you will
   public void Start() => Console.WriteLine("Engine started.");
 ```csharp
   }
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [06_OOD-Learning-Plan-PartB.md](06_OOD-Learning-Plan-PartB.md)
+- Completed OOP fundamentals
+
+### **Builds Upon**
+- Object-oriented design principles
+- UML basics
+
+### **Enables Next Steps**
+- **Next**: [07_OOD-Basics-PartB.md](07_OOD-Basics-PartB.md)
+- **Future**: [SOLID Principles](../02_SOLID-Principles/)
+
+### **Cross-References**
+- **UML**: [UML Documentation](../23_UML/)

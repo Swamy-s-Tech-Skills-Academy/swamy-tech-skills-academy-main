@@ -159,3 +159,20 @@ IRestable - Sleep()```
 - Protocol classes for implicit interfaces
 - Mix-in classes for shared behavior
 - Composition over large interfaces
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [OOP Fundamentals](../01_OOP-fundamentals/)
+- Understanding of classes and inheritance
+
+### **Builds Upon**
+- Object-oriented programming concepts
+- Design thinking fundamentals
+
+### **Enables Next Steps**
+- **Next**: [01_SOLID-Principles-Track-PartB.md](01_SOLID-Principles-Track-PartB.md)
+- **Future**: [01_SOLID-Part1-Single-Responsibility-PartA.md](01_SOLID-Part1-Single-Responsibility-PartA.md)
+
+### **Cross-References**
+- **Design Patterns**: [Design Patterns](../03_Design-Patterns/)

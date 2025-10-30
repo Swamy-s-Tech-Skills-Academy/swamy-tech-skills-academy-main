@@ -165,3 +165,19 @@ public class LocalFileStorage : IFileStorage
 {
     public async Task`byte[]` ReadAsync(string path)
     {
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md)
+
+### **Builds Upon**
+- LSP fundamentals
+- Substitutability rules
+
+### **Enables Next Steps**
+- **Next**: [03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md)
+- **Future**: [04_SOLID-Part4-Interface-Segregation-Principle-PartA.md](04_SOLID-Part4-Interface-Segregation-Principle-PartA.md)
+
+### **Cross-References**
+- **Architecture**: Inheritance vs. Composition

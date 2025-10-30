@@ -287,7 +287,7 @@ $relatedTopicsMap = @{
 - **Testing**: Enterprise testing methodologies
 "@
 
-    # Add more SOLID files here
+    # SOLID-Principles files (continuing from Part B)
     "02_SOLID-Part2-Open-Closed-Principle-PartA.md" = @"
 
 ## 🔗 Related Topics
@@ -306,6 +306,431 @@ $relatedTopicsMap = @{
 
 ### **Cross-References**
 - **Design Patterns**: [Strategy Pattern](../03_Design-Patterns/)
+"@
+
+    "02_SOLID-Part2-Open-Closed-Principle-PartB.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [02_SOLID-Part2-Open-Closed-Principle-PartA.md](02_SOLID-Part2-Open-Closed-Principle-PartA.md)
+
+### **Builds Upon**
+- Open/Closed Principle fundamentals
+- Extension mechanisms
+
+### **Enables Next Steps**
+- **Next**: [02_SOLID-Part2-Open-Closed-Principle-PartC.md](02_SOLID-Part2-Open-Closed-Principle-PartC.md)
+- **Future**: [03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md)
+
+### **Cross-References**
+- **Design Patterns**: [Decorator Pattern](../03_Design-Patterns/)
+"@
+
+    "02_SOLID-Part2-Open-Closed-Principle-PartC.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [02_SOLID-Part2-Open-Closed-Principle-PartB.md](02_SOLID-Part2-Open-Closed-Principle-PartB.md)
+
+### **Builds Upon**
+- Complete OCP series
+- Practical extension patterns
+
+### **Enables Next Steps**
+- **Next**: [03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md)
+- **Future**: [04_SOLID-Part4-Interface-Segregation-Principle-PartA.md](04_SOLID-Part4-Interface-Segregation-Principle-PartA.md)
+
+### **Cross-References**
+- **Testing**: Unit testing extensible code
+"@
+
+    "03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [02_SOLID-Part2-Open-Closed-Principle-PartC.md](02_SOLID-Part2-Open-Closed-Principle-PartC.md)
+- [OOP Inheritance](../01_OOP-fundamentals/03_OOP-Inheritance-Polymorphism.md)
+
+### **Builds Upon**
+- Inheritance and polymorphism
+- Contract-based design
+
+### **Enables Next Steps**
+- **Next**: [03_SOLID-Part3-Liskov-Substitution-Principle-PartB.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartB.md)
+- **Future**: [04_SOLID-Part4-Interface-Segregation-Principle-PartA.md](04_SOLID-Part4-Interface-Segregation-Principle-PartA.md)
+
+### **Cross-References**
+- **Design Patterns**: [Template Method Pattern](../03_Design-Patterns/)
+"@
+
+    "03_SOLID-Part3-Liskov-Substitution-Principle-PartB.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md)
+
+### **Builds Upon**
+- LSP fundamentals
+- Substitutability rules
+
+### **Enables Next Steps**
+- **Next**: [03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md)
+- **Future**: [04_SOLID-Part4-Interface-Segregation-Principle-PartA.md](04_SOLID-Part4-Interface-Segregation-Principle-PartA.md)
+
+### **Cross-References**
+- **Architecture**: Inheritance vs. Composition
+"@
+
+    "03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [03_SOLID-Part3-Liskov-Substitution-Principle-PartB.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartB.md)
+
+### **Builds Upon**
+- Complete LSP series
+- Advanced substitutability patterns
+
+### **Enables Next Steps**
+- **Next**: [04_SOLID-Part4-Interface-Segregation-Principle-PartA.md](04_SOLID-Part4-Interface-Segregation-Principle-PartA.md)
+- **Future**: [05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md)
+
+### **Cross-References**
+- **Testing**: Contract testing strategies
+"@
+
+    "04_SOLID-Part4-Interface-Segregation-Principle-PartA.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md)
+- [OOP Abstraction](../01_OOP-fundamentals/02_OOP-Encapsulation-Abstraction.md)
+
+### **Builds Upon**
+- Interface design principles
+- Client-focused abstractions
+
+### **Enables Next Steps**
+- **Next**: [04_SOLID-Part4-Interface-Segregation-Principle-PartB.md](04_SOLID-Part4-Interface-Segregation-Principle-PartB.md)
+- **Future**: [05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md)
+
+### **Cross-References**
+- **Design Patterns**: [Adapter Pattern](../03_Design-Patterns/)
+"@
+
+    "04_SOLID-Part4-Interface-Segregation-Principle-PartB.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [04_SOLID-Part4-Interface-Segregation-Principle-PartA.md](04_SOLID-Part4-Interface-Segregation-Principle-PartA.md)
+
+### **Builds Upon**
+- ISP fundamentals
+- Role-based interfaces
+
+### **Enables Next Steps**
+- **Next**: [04_SOLID-Part4-Interface-Segregation-Principle-PartC.md](04_SOLID-Part4-Interface-Segregation-Principle-PartC.md)
+- **Future**: [05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md)
+
+### **Cross-References**
+- **Architecture**: Microservices interface design
+"@
+
+    "04_SOLID-Part4-Interface-Segregation-Principle-PartC.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [04_SOLID-Part4-Interface-Segregation-Principle-PartB.md](04_SOLID-Part4-Interface-Segregation-Principle-PartB.md)
+
+### **Builds Upon**
+- Complete ISP series
+- Advanced interface patterns
+
+### **Enables Next Steps**
+- **Next**: [04_SOLID-Part4-Interface-Segregation-Principle-PartD.md](04_SOLID-Part4-Interface-Segregation-Principle-PartD.md)
+- **Future**: [05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md)
+
+### **Cross-References**
+- **Testing**: Interface mocking strategies
+"@
+
+    "04_SOLID-Part4-Interface-Segregation-Principle-PartD.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [04_SOLID-Part4-Interface-Segregation-Principle-PartC.md](04_SOLID-Part4-Interface-Segregation-Principle-PartC.md)
+
+### **Builds Upon**
+- Complete ISP mastery
+- Real-world interface design
+
+### **Enables Next Steps**
+- **Next**: [05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md)
+- **Future**: [Design Patterns](../03_Design-Patterns/)
+
+### **Cross-References**
+- **Architecture**: API design principles
+"@
+
+    "05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [04_SOLID-Part4-Interface-Segregation-Principle-PartD.md](04_SOLID-Part4-Interface-Segregation-Principle-PartD.md)
+- Complete SOLID foundation
+
+### **Builds Upon**
+- All previous SOLID principles
+- Dependency management
+
+### **Enables Next Steps**
+- **Next**: [05_SOLID-Part5-Dependency-Inversion-Principle-PartB.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartB.md)
+- **Future**: [Design Patterns](../03_Design-Patterns/)
+
+### **Cross-References**
+- **IoC Containers**: Dependency injection frameworks
+"@
+
+    "05_SOLID-Part5-Dependency-Inversion-Principle-PartB.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md)
+
+### **Builds Upon**
+- DIP fundamentals
+- Inversion of Control patterns
+
+### **Enables Next Steps**
+- **Next**: [05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md)
+- **Future**: [Design Patterns](../03_Design-Patterns/)
+
+### **Cross-References**
+- **Testing**: Dependency injection in tests
+"@
+
+    "05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [05_SOLID-Part5-Dependency-Inversion-Principle-PartB.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartB.md)
+
+### **Builds Upon**
+- Complete DIP series
+- Advanced IoC patterns
+
+### **Enables Next Steps**
+- **Next**: [05_SOLID-Part5-Dependency-Inversion-Principle-PartD.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartD.md)
+- **Future**: [Design Patterns](../03_Design-Patterns/)
+
+### **Cross-References**
+- **Architecture**: Clean Architecture principles
+"@
+
+    "05_SOLID-Part5-Dependency-Inversion-Principle-PartD.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md)
+
+### **Builds Upon**
+- Complete SOLID mastery
+- Enterprise dependency patterns
+
+### **Enables Next Steps**
+- **Next**: [Design Patterns](../03_Design-Patterns/)
+- **Future**: [Architectural Patterns](../04_Architectural-Patterns/)
+
+### **Cross-References**
+- **Testing**: Comprehensive testing strategies
+"@
+
+    # SOLID Track overview files
+    "01_SOLID-Principles-Track-PartA.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [OOP Fundamentals](../01_OOP-fundamentals/)
+- Understanding of classes and inheritance
+
+### **Builds Upon**
+- Object-oriented programming concepts
+- Design thinking fundamentals
+
+### **Enables Next Steps**
+- **Next**: [01_SOLID-Principles-Track-PartB.md](01_SOLID-Principles-Track-PartB.md)
+- **Future**: [01_SOLID-Part1-Single-Responsibility-PartA.md](01_SOLID-Part1-Single-Responsibility-PartA.md)
+
+### **Cross-References**
+- **Design Patterns**: [Design Patterns](../03_Design-Patterns/)
+"@
+
+    "01_SOLID-Principles-Track-PartB.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [01_SOLID-Principles-Track-PartA.md](01_SOLID-Principles-Track-PartA.md)
+
+### **Builds Upon**
+- SOLID overview and importance
+- Design principles context
+
+### **Enables Next Steps**
+- **Next**: [01_SOLID-Principles-Track-PartC.md](01_SOLID-Principles-Track-PartC.md)
+- **Future**: [01_SOLID-Part1-Single-Responsibility-PartA.md](01_SOLID-Part1-Single-Responsibility-PartA.md)
+
+### **Cross-References**
+- **Testing**: Test-driven development
+"@
+
+    "01_SOLID-Principles-Track-PartC.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [01_SOLID-Principles-Track-PartB.md](01_SOLID-Principles-Track-PartB.md)
+
+### **Builds Upon**
+- Complete SOLID track overview
+- Readiness for detailed principles
+
+### **Enables Next Steps**
+- **Next**: [01_SOLID-Part1-Single-Responsibility-PartA.md](01_SOLID-Part1-Single-Responsibility-PartA.md)
+- **Future**: Complete SOLID principles series
+
+### **Cross-References**
+- **Architecture**: Software architecture fundamentals
+"@
+
+    # Deep Dive series
+    "04_SOLID-Principles-Deep-Dive-PartA.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [Complete SOLID principles series](01_SOLID-Part1-Single-Responsibility-PartA.md)
+- Practical SOLID experience
+
+### **Builds Upon**
+- All five SOLID principles
+- Real-world application patterns
+
+### **Enables Next Steps**
+- **Next**: [04_SOLID-Principles-Deep-Dive-PartB.md](04_SOLID-Principles-Deep-Dive-PartB.md)
+- **Future**: [Design Patterns](../03_Design-Patterns/)
+
+### **Cross-References**
+- **Architecture**: Enterprise architecture patterns
+"@
+
+    "04_SOLID-Principles-Deep-Dive-PartB.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [04_SOLID-Principles-Deep-Dive-PartA.md](04_SOLID-Principles-Deep-Dive-PartA.md)
+
+### **Builds Upon**
+- SOLID deep dive foundations
+- Advanced design scenarios
+
+### **Enables Next Steps**
+- **Next**: [04_SOLID-Principles-Deep-Dive-PartC.md](04_SOLID-Principles-Deep-Dive-PartC.md)
+- **Future**: [Design Patterns](../03_Design-Patterns/)
+
+### **Cross-References**
+- **Testing**: Advanced testing strategies
+"@
+
+    "04_SOLID-Principles-Deep-Dive-PartC.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [04_SOLID-Principles-Deep-Dive-PartB.md](04_SOLID-Principles-Deep-Dive-PartB.md)
+
+### **Builds Upon**
+- Advanced SOLID applications
+- Complex design challenges
+
+### **Enables Next Steps**
+- **Next**: [04_SOLID-Principles-Deep-Dive-PartD.md](04_SOLID-Principles-Deep-Dive-PartD.md)
+- **Future**: [Design Patterns](../03_Design-Patterns/)
+
+### **Cross-References**
+- **Architecture**: Microservices design
+"@
+
+    "04_SOLID-Principles-Deep-Dive-PartD.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [04_SOLID-Principles-Deep-Dive-PartC.md](04_SOLID-Principles-Deep-Dive-PartC.md)
+
+### **Builds Upon**
+- Comprehensive SOLID mastery
+- Enterprise-scale patterns
+
+### **Enables Next Steps**
+- **Next**: [04_SOLID-Principles-Deep-Dive-PartE.md](04_SOLID-Principles-Deep-Dive-PartE.md)
+- **Future**: [Design Patterns](../03_Design-Patterns/)
+
+### **Cross-References**
+- **Performance**: SOLID and performance optimization
+"@
+
+    "04_SOLID-Principles-Deep-Dive-PartE.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [04_SOLID-Principles-Deep-Dive-PartD.md](04_SOLID-Principles-Deep-Dive-PartD.md)
+
+### **Builds Upon**
+- Advanced SOLID deep dive
+- Performance and scalability
+
+### **Enables Next Steps**
+- **Next**: [04_SOLID-Principles-Deep-Dive-PartF.md](04_SOLID-Principles-Deep-Dive-PartF.md)
+- **Future**: [Design Patterns](../03_Design-Patterns/)
+
+### **Cross-References**
+- **Architecture**: Domain-driven design
+"@
+
+    "04_SOLID-Principles-Deep-Dive-PartF.md" = @"
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [04_SOLID-Principles-Deep-Dive-PartE.md](04_SOLID-Principles-Deep-Dive-PartE.md)
+
+### **Builds Upon**
+- Complete SOLID deep dive series
+- Professional-level mastery
+
+### **Enables Next Steps**
+- **Next**: [Design Patterns](../03_Design-Patterns/)
+- **Future**: [Architectural Patterns](../04_Architectural-Patterns/)
+
+### **Cross-References**
+- **Leadership**: Leading architectural decisions
 "@
 }
 

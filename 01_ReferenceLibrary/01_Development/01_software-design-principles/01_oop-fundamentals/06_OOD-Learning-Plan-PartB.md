@@ -1,4 +1,4 @@
-﻿# Learning Object Oriented Design - Part B
+# Learning Object Oriented Design - Part B
 
 **Learning Level**: Intermediate
 
@@ -176,3 +176,19 @@ By the end of this session, you will
 
 ---
 This plan will build a comprehensive understanding of OOD, SOLID principles, and C# design patterns, setting you up for success in a Principal Software Engineer role. Let me know if you'd like more examples, specific guidance on any pattern, or help with coding exercises!
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [06_OOD-Learning-Plan-PartA.md](06_OOD-Learning-Plan-PartA.md)
+
+### **Builds Upon**
+- OOD principles Part A
+- Design thinking fundamentals
+
+### **Enables Next Steps**
+- **Next**: [07_OOD-Basics-PartA.md](07_OOD-Basics-PartA.md)
+- **Future**: [SOLID Principles](../02_SOLID-Principles/)
+
+### **Cross-References**
+- **Architecture**: [Architectural Patterns](../04_Architectural-Patterns/)

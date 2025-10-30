@@ -166,3 +166,19 @@ Create a plugin-based application framework:
 
 - [ ] Can explain each SOLID principle with examples
 - [ ] Identifies SOLID violations in existing code
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [01_SOLID-Principles-Track-PartA.md](01_SOLID-Principles-Track-PartA.md)
+
+### **Builds Upon**
+- SOLID overview and importance
+- Design principles context
+
+### **Enables Next Steps**
+- **Next**: [01_SOLID-Principles-Track-PartC.md](01_SOLID-Principles-Track-PartC.md)
+- **Future**: [01_SOLID-Part1-Single-Responsibility-PartA.md](01_SOLID-Part1-Single-Responsibility-PartA.md)
+
+### **Cross-References**
+- **Testing**: Test-driven development

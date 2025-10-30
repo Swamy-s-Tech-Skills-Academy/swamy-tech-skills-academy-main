@@ -1,4 +1,4 @@
-﻿# **OOD in C# with Class Diagrams** - Part C
+# **OOD in C# with Class Diagrams** - Part C
 
 **Learning Level**: Intermediate
 
@@ -178,3 +178,19 @@ IVehicle <|.. Car
 1. Generate the UML diagram.
 
 Let me know if you need help with setup or any specific part of this process!
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [07_OOD-Basics-PartB.md](07_OOD-Basics-PartB.md)
+
+### **Builds Upon**
+- Complete OOD basics series
+- Design pattern readiness
+
+### **Enables Next Steps**
+- **Next**: [08_OOP-Abstraction-Encapsulation-PartA.md](08_OOP-Abstraction-Encapsulation-PartA.md)
+- **Future**: [SOLID Principles](../02_SOLID-Principles/)
+
+### **Cross-References**
+- **Patterns**: [Design Patterns](../03_Design-Patterns/)

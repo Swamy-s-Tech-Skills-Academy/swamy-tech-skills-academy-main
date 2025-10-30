@@ -1,4 +1,4 @@
-﻿# 01_OOP-Classes-and-Objects
+# 01_OOP-Classes-and-Objects
 
 **Learning Level**: Beginner
 
@@ -242,3 +242,20 @@ employee1.updateDepartment("Senior Engineering")
 **Last Updated**: September 10, 2025
 
 **Format**: 27-minute focused learning segment
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- Basic programming knowledge
+
+### **Builds Upon**
+- Universal design thinking
+- Problem-solving approaches
+
+### **Enables Next Steps**
+- **Next**: [01_OOP-Core-Concepts-PartA.md](01_OOP-Core-Concepts-PartA.md)
+- **Future**: [SOLID Principles](../02_SOLID-Principles/)
+
+### **Cross-References**
+- **UML Modeling**: [UML Documentation](../23_UML/)
+- **Design Patterns**: [Design Patterns](../03_Design-Patterns/)

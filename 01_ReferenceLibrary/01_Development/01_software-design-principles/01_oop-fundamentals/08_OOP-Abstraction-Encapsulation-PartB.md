@@ -1,4 +1,4 @@
-﻿# OOP Abstraction and Encapsulation - Part B
+# OOP Abstraction and Encapsulation - Part B
 
 **Learning Level**: Intermediate
 
@@ -263,3 +263,19 @@ static void Main() {
 
 ```csharp
 ---
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [08_OOP-Abstraction-Encapsulation-PartA.md](08_OOP-Abstraction-Encapsulation-PartA.md)
+
+### **Builds Upon**
+- Abstraction fundamentals Part A
+- Encapsulation patterns
+
+### **Enables Next Steps**
+- **Next**: [08_OOP-Abstraction-Encapsulation-PartC.md](08_OOP-Abstraction-Encapsulation-PartC.md)
+- **Future**: [SOLID Principles](../02_SOLID-Principles/)
+
+### **Cross-References**
+- **Design Patterns**: [Design Patterns](../03_Design-Patterns/)

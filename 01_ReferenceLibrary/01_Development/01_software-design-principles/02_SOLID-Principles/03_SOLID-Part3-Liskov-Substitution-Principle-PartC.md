@@ -164,3 +164,19 @@ public abstract class BankAccount
 public class CheckingAccount : BankAccount
 {
     private readonly decimal`_overdraftLimit;
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [03_SOLID-Part3-Liskov-Substitution-Principle-PartB.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartB.md)
+
+### **Builds Upon**
+- Complete LSP series
+- Advanced substitutability patterns
+
+### **Enables Next Steps**
+- **Next**: [04_SOLID-Part4-Interface-Segregation-Principle-PartA.md](04_SOLID-Part4-Interface-Segregation-Principle-PartA.md)
+- **Future**: [05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md)
+
+### **Cross-References**
+- **Testing**: Contract testing strategies

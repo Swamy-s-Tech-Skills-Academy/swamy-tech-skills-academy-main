@@ -163,3 +163,19 @@ public interface IFullRepository`T` : IReadOnlyRepository`T`, ICreatable`T`, IUp
 {
     // Full CRUD operations
 }
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- [04_SOLID-Part4-Interface-Segregation-Principle-PartB.md](04_SOLID-Part4-Interface-Segregation-Principle-PartB.md)
+
+### **Builds Upon**
+- Complete ISP series
+- Advanced interface patterns
+
+### **Enables Next Steps**
+- **Next**: [04_SOLID-Part4-Interface-Segregation-Principle-PartD.md](04_SOLID-Part4-Interface-Segregation-Principle-PartD.md)
+- **Future**: [05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md)
+
+### **Cross-References**
+- **Testing**: Interface mocking strategies

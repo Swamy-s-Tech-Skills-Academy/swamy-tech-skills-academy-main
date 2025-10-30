@@ -1,4 +1,4 @@
-﻿# 05_OOP-Fundamentals-Comprehensive-Guide - Part A
+# 05_OOP-Fundamentals-Comprehensive-Guide - Part A
 
 **Learning Level**: Beginner → Intermediate
 
@@ -238,3 +238,20 @@ def process_payment(self, amount):
     return f"Credit card payment of ${amount} processed"
 ```csharp
 class PayPalProcessor(PaymentProcessor):
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+- Basic OOP understanding
+- Completed Core Concepts series
+
+### **Builds Upon**
+- [01_OOP-Core-Concepts-PartA.md](01_OOP-Core-Concepts-PartA.md)
+- [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
+
+### **Enables Next Steps**
+- **Next**: [05_OOP-Fundamentals-Comprehensive-Guide-PartB.md](05_OOP-Fundamentals-Comprehensive-Guide-PartB.md)
+- **Future**: [SOLID Principles](../02_SOLID-Principles/)
+
+### **Cross-References**
+- **Advanced Topics**: [04_OOP-Advanced-Patterns-PartA.md](04_OOP-Advanced-Patterns-PartA.md)
