@@ -5,6 +5,16 @@
 **Estimated Time**: 2-3 weeks (1 hour daily)
 **Next Steps**: Design Patterns, Clean Architecture
 
+## 🎯 Learning Objectives
+
+By the end of this track segment, you will:
+
+- Master Dependency Inversion Principle across multiple languages
+- Understand IoC containers and dependency injection patterns
+- Implement DIP in C#, Java, Python, and JavaScript
+- Compare language-specific DI approaches and frameworks
+- Apply DIP to create loosely-coupled, testable systems
+
 ---
 
 ## Part B of 3
