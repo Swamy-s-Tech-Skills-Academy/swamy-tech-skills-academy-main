@@ -1,11 +1,15 @@
-# 05_OOP-Fundamentals-Comprehensive-Guide - Part A\n\n**Learning Level**: Beginner → Intermediate
+﻿# 05_OOP-Fundamentals-Comprehensive-Guide - Part A
+
+**Learning Level**: Beginner → Intermediate
 
 **Prerequisites**: Basic programming knowledge (variables, functions, loops)
 **Estimated Time**: 27 minutes (focused learning session)
 
 ## **Series**: Part A of 2 - Comprehensive Guide
 
-## 🎯 Learning Objectives\n\nBy the end of this session, you will
+## 🎯 Learning Objectives
+
+By the end of this session, you will
 
 - [Add specific learning objectives]
 
@@ -20,7 +24,9 @@ By the end of this 27-minute session, you will:
 
 ---
 
-## Part A of 2\n\nNext: [05_OOP-Fundamentals-Comprehensive-Guide-PartB.md](05_OOP-Fundamentals-Comprehensive-Guide-PartB.md)
+## Part A of 2
+
+Next: [05_OOP-Fundamentals-Comprehensive-Guide-PartB.md](05_OOP-Fundamentals-Comprehensive-Guide-PartB.md)
 
 ---
 
@@ -28,44 +34,88 @@ By the end of this 27-minute session, you will:
 
 ### Quick Overview (5 minutes)
 
-\n\n
-
 ### Core Concepts (15 minutes)
-
-\n\n
 
 ### Practical Application (5 minutes)
 
-\n\n
-
 ### Key Takeaways & Next Steps (2 minutes)
 
-\n\n\n\n---
+---
 
-## 🚀 Quick Overview (5 minutes)\n\nObject-Oriented Programming (OOP) is a programming paradigm that organizes code around **objects** rather than actions and data rather than logic. Since its introduction in the 1960s with Simula, OOP has become the foundation of modern software development
+## 🚀 Quick Overview (5 minutes)
+
+Object-Oriented Programming (OOP) is a programming paradigm that organizes code around **objects** rather than actions and data rather than logic. Since its introduction in the 1960s with Simula, OOP has become the foundation of modern software development
 
 ### Why OOP Matters for Lead Architects
 
-## \n\n\n\nAs a Lead Architect, understanding OOP isn't just about writing code—it's about designing systems that can evolve, scale, and maintain quality at enterprise levels. The four pillars of OOP provide the architectural foundation for building maintainable, extensible software systems
+##
+
+As a Lead Architect, understanding OOP isn't just about writing code—it's about designing systems that can evolve, scale, and maintain quality at enterprise levels. The four pillars of OOP provide the architectural foundation for building maintainable, extensible software systems
 
 ## 🏗️ Core Concepts (15 minutes)
 
 ### The Four Pillars of OOP
 
-\n\n\n\nOOP is built on four fundamental principles that work together to create robust, maintainable code:
+OOP is built on four fundamental principles that work together to create robust, maintainable code:
 
 ### 1. **Encapsulation** - Data Protection & Modularity
 
-\n\n\n\n**Definition**: Encapsulation bundles data and methods that operate on that data within a single unit (class), while controlling access to that data through well-defined interfaces
+**Definition**: Encapsulation bundles data and methods that operate on that data within a single unit (class), while controlling access to that data through well-defined interfaces
 **Why it matters**: Prevents external code from directly manipulating an object's internal state, reducing bugs and making code more maintainable.
 **Real-World Example**: A bank account class encapsulates the balance and provides controlled access through deposit() and withdraw() methods.
 
 ```python
 class BankAccount:
-```csharp\ndef __init__(self, initial_balance=0):\n```csharp\n```csharp\n    self.__balance = initial_balance  # Private attribute\n```csharp\n```csharp\ndef deposit(self, amount):\n```csharp\n```csharp\n    if amount > 0:\n```csharp\n```csharp\n        self.__balance += amount\n```csharp\n```csharp\n        return True\n```csharp\n```csharp\n    return False\n```csharp\n```csharp\ndef withdraw(self, amount):\n```csharp\n```csharp\n    if 0 < amount <= self.__balance:\n```csharp\n```csharp\n        self.__balance -= amount\n```csharp\n```csharp\n        return True\n```csharp\n```csharp\n    return False\n```csharp\n```csharp\ndef get_balance(self):\n```csharp\n```csharp\n    return self.__balance\n```csharp\n## Usage - external code can't directly modify balance\n\naccount = BankAccount(1000)
+```csharp
+def __init__(self, initial_balance=0):
+```csharp
+```csharp
+    self.__balance = initial_balance  # Private attribute
+```csharp
+```csharp
+def deposit(self, amount):
+```csharp
+```csharp
+    if amount > 0:
+```csharp
+```csharp
+        self.__balance += amount
+```csharp
+```csharp
+        return True
+```csharp
+```csharp
+    return False
+```csharp
+```csharp
+def withdraw(self, amount):
+```csharp
+```csharp
+    if 0 < amount <= self.__balance:
+```csharp
+```csharp
+        self.__balance -= amount
+```csharp
+```csharp
+        return True
+```csharp
+```csharp
+    return False
+```csharp
+```csharp
+def get_balance(self):
+```csharp
+```csharp
+    return self.__balance
+```csharp
+## Usage - external code can't directly modify balance
+
+account = BankAccount(1000)
 account.deposit(500)  # ✅ Controlled access
 
-## account.__balance = -1000  # ❌ Not allowed (would break encapsulation)\n\n```csharp#### 2. **Abstraction** - Hiding Complexity
+## account.__balance = -1000  # ❌ Not allowed (would break encapsulation)
+
+```csharp#### 2. **Abstraction** - Hiding Complexity
 
 **Definition**: Abstraction focuses on showing only essential features while hiding implementation details.
 **Why it matters**: Simplifies complex systems by providing clean interfaces that users can interact with without understanding internal complexity.
@@ -74,9 +124,38 @@ account.deposit(500)  # ✅ Controlled access
 ```python
 from abc import ABC, abstractmethod
 class DatabaseConnection(ABC):
-```csharp\n@abstractmethod\n```csharp\n```csharp\ndef connect(self):\n```csharp\n```csharp\n    pass\n```csharp\n```csharp\n@abstractmethod\n```csharp\n```csharp\ndef execute_query(self, query):\n```csharp\n```csharp\n    pass\n```csharp\n```csharp\n@abstractmethod\n```csharp\n```csharp\ndef close(self):\n```csharp\n```csharp\n    pass\n```csharp\n## Users work with this clean interface
+```csharp
+@abstractmethod
+```csharp
+```csharp
+def connect(self):
+```csharp
+```csharp
+    pass
+```csharp
+```csharp
+@abstractmethod
+```csharp
+```csharp
+def execute_query(self, query):
+```csharp
+```csharp
+    pass
+```csharp
+```csharp
+@abstractmethod
+```csharp
+```csharp
+def close(self):
+```csharp
+```csharp
+    pass
+```csharp
+## Users work with this clean interface
 
-## Implementation details (MySQL, PostgreSQL, MongoDB) are hidden\n\n```csharp#### 3. **Inheritance** - Code Reuse & Relationships
+## Implementation details (MySQL, PostgreSQL, MongoDB) are hidden
+
+```csharp#### 3. **Inheritance** - Code Reuse & Relationships
 
 **Definition**: Inheritance allows a class (child/subclass) to inherit properties and methods from another class (parent/superclass), establishing IS-A relationships.
 **Why it matters**: Promotes code reuse, establishes clear hierarchies, and enables polymorphism.
@@ -84,8 +163,52 @@ class DatabaseConnection(ABC):
 
 ```python
 class Vehicle:
-```csharp\ndef __init__(self, make, model):\n```csharp\n```csharp\n    self.make = make\n```csharp\n```csharp\n    self.model = model\n```csharp\n```csharp\n    self.speed = 0\n```csharp\n```csharp\ndef start(self):\n```csharp\n```csharp\n    print(f"{self.make} {self.model} starting...")\n```csharp\n```csharp\ndef stop(self):\n```csharp\n```csharp\n    self.speed = 0\n```csharp\n```csharp\n    print(f"{self.make} {self.model} stopped.")\n```csharp\nclass Car(Vehicle):  # Car IS-A Vehicle
-```csharp\ndef __init__(self, make, model, num_doors):\n```csharp\n```csharp\n    super().__init__(make, model)  # Call parent constructor\n```csharp\n```csharp\n    self.num_doors = num_doors\n```csharp\n```csharp\ndef honk(self):\n```csharp\n```csharp\n    print("Honk! Honk!")\n```csharp\n## Usage\n\nmy_car = Car("Toyota", "Camry", 4)
+```csharp
+def __init__(self, make, model):
+```csharp
+```csharp
+    self.make = make
+```csharp
+```csharp
+    self.model = model
+```csharp
+```csharp
+    self.speed = 0
+```csharp
+```csharp
+def start(self):
+```csharp
+```csharp
+    print(f"{self.make} {self.model} starting...")
+```csharp
+```csharp
+def stop(self):
+```csharp
+```csharp
+    self.speed = 0
+```csharp
+```csharp
+    print(f"{self.make} {self.model} stopped.")
+```csharp
+class Car(Vehicle):  # Car IS-A Vehicle
+```csharp
+def __init__(self, make, model, num_doors):
+```csharp
+```csharp
+    super().__init__(make, model)  # Call parent constructor
+```csharp
+```csharp
+    self.num_doors = num_doors
+```csharp
+```csharp
+def honk(self):
+```csharp
+```csharp
+    print("Honk! Honk!")
+```csharp
+## Usage
+
+my_car = Car("Toyota", "Camry", 4)
 my_car.start()  # Inherited from Vehicle
 my_car.honk()   # Specific to Car
 ```csharp#### 4. **Polymorphism** - Same Interface, Different Behaviors
@@ -95,5 +218,23 @@ my_car.honk()   # Specific to Car
 
 ```python
 class PaymentProcessor:
-```csharp\ndef process_payment(self, amount):\n```csharp\n```csharp\n    raise NotImplementedError("Subclasses must implement process_payment")\n```csharp\nclass CreditCardProcessor(PaymentProcessor):
-```csharp\ndef process_payment(self, amount):\n```csharp\n```csharp\n    print(f"Processing ${amount} via credit card...")\n```csharp\n```csharp\n    # Credit card specific logic\n```csharp\n```csharp\n    return f"Credit card payment of ${amount} processed"\n```csharp\nclass PayPalProcessor(PaymentProcessor):
+```csharp
+def process_payment(self, amount):
+```csharp
+```csharp
+    raise NotImplementedError("Subclasses must implement process_payment")
+```csharp
+class CreditCardProcessor(PaymentProcessor):
+```csharp
+def process_payment(self, amount):
+```csharp
+```csharp
+    print(f"Processing ${amount} via credit card...")
+```csharp
+```csharp
+    # Credit card specific logic
+```csharp
+```csharp
+    return f"Credit card payment of ${amount} processed"
+```csharp
+class PayPalProcessor(PaymentProcessor):
