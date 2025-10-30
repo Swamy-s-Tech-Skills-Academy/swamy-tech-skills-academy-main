@@ -1,0 +1,964 @@
+[
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "01_OOP-Classes-and-Objects-CONDENSED.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 0,
+    "HasNumberingIssue": false,
+    "Filename": "01_OOP-Core-Concepts-PartA.md",
+    "Violations": [],
+    "Metadata": {
+      "RelatedTopics": true,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "PASS",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "01_OOP-Core-Concepts-PartB.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "01_OOP-Objects-Creation-PartA.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "01_OOP-Objects-Creation-PartB.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 0,
+    "HasNumberingIssue": false,
+    "Filename": "02_OOP-Encapsulation-Abstraction.md",
+    "Violations": [],
+    "Metadata": {
+      "RelatedTopics": true,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "PASS",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 0,
+    "HasNumberingIssue": false,
+    "Filename": "03_OOP-Inheritance-Polymorphism.md",
+    "Violations": [],
+    "Metadata": {
+      "RelatedTopics": true,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "PASS",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 0,
+    "HasNumberingIssue": false,
+    "Filename": "04_OOP-Advanced-Patterns-PartA.md",
+    "Violations": [],
+    "Metadata": {
+      "RelatedTopics": true,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "PASS",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 0,
+    "HasNumberingIssue": false,
+    "Filename": "04_OOP-Advanced-Patterns-PartB.md",
+    "Violations": [],
+    "Metadata": {
+      "RelatedTopics": true,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "PASS",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "05_OOP-Fundamentals-Comprehensive-Guide-PartA.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 0,
+    "HasNumberingIssue": false,
+    "Filename": "05_OOP-Fundamentals-Comprehensive-Guide-PartB.md",
+    "Violations": [],
+    "Metadata": {
+      "RelatedTopics": true,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "PASS",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "06_OOD-Learning-Plan-PartA.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "06_OOD-Learning-Plan-PartB.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "07_OOD-Basics-PartA.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "07_OOD-Basics-PartB.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "07_OOD-Basics-PartC.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "08_OOP-Abstraction-Encapsulation-PartA.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "08_OOP-Abstraction-Encapsulation-PartB.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "08_OOP-Abstraction-Encapsulation-PartC.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "OOP-fundamentals",
+    "ViolationCount": 2,
+    "HasNumberingIssue": true,
+    "Filename": "README.md",
+    "Violations": [
+      "Missing numeric prefix",
+      "Missing STSA metadata (3/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": false,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 0,
+    "HasNumberingIssue": false,
+    "Filename": "01_SOLID-Part1-Single-Responsibility-PartA.md",
+    "Violations": [],
+    "Metadata": {
+      "RelatedTopics": true,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "PASS",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "01_SOLID-Part1-Single-Responsibility-PartB.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 0,
+    "HasNumberingIssue": false,
+    "Filename": "01_SOLID-Part1-Single-Responsibility-PartC.md",
+    "Violations": [],
+    "Metadata": {
+      "RelatedTopics": true,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "PASS",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "01_SOLID-Principles-Track-PartA.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "01_SOLID-Principles-Track-PartB.md",
+    "Violations": [
+      "Missing STSA metadata (3/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": false,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "01_SOLID-Principles-Track-PartC.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": true,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": false,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 0,
+    "HasNumberingIssue": false,
+    "Filename": "02_Complete-Design-Principles-Guide.md",
+    "Violations": [],
+    "Metadata": {
+      "RelatedTopics": true,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "PASS",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "02_SOLID-Part2-Open-Closed-Principle-PartA.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "02_SOLID-Part2-Open-Closed-Principle-PartB.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "02_SOLID-Part2-Open-Closed-Principle-PartC.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "03_SOLID-Part3-Liskov-Substitution-Principle-PartB.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 0,
+    "HasNumberingIssue": false,
+    "Filename": "03_SOLID-Part3-Liskov-Substitution-Principle-PartD.md",
+    "Violations": [],
+    "Metadata": {
+      "RelatedTopics": true,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "PASS",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "04_SOLID-Part4-Interface-Segregation-Principle-PartA.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "04_SOLID-Part4-Interface-Segregation-Principle-PartB.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "04_SOLID-Part4-Interface-Segregation-Principle-PartC.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "04_SOLID-Part4-Interface-Segregation-Principle-PartD.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "04_SOLID-Principles-Deep-Dive-PartA.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "04_SOLID-Principles-Deep-Dive-PartB.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "04_SOLID-Principles-Deep-Dive-PartC.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "04_SOLID-Principles-Deep-Dive-PartD.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "04_SOLID-Principles-Deep-Dive-PartE.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "04_SOLID-Principles-Deep-Dive-PartF.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "05_SOLID-Part5-Dependency-Inversion-Principle-PartB.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 1,
+    "HasNumberingIssue": false,
+    "Filename": "05_SOLID-Part5-Dependency-Inversion-Principle-PartD.md",
+    "Violations": [
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": false,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": true,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  },
+  {
+    "FolderType": "SOLID-Principles",
+    "ViolationCount": 2,
+    "HasNumberingIssue": true,
+    "Filename": "README.md",
+    "Violations": [
+      "Missing numeric prefix",
+      "Missing STSA metadata (4/5)"
+    ],
+    "Metadata": {
+      "RelatedTopics": true,
+      "Prerequisites": true,
+      "LearningLevel": true,
+      "LearningObjectives": false,
+      "EstimatedTime": true
+    },
+    "Status": "FAIL",
+    "LineCount": 1,
+    "HasEncodingIssue": false,
+    "HasMarkdownIssue": false
+  }
+]
