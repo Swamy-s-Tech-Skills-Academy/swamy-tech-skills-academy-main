@@ -1,4 +1,4 @@
-﻿# 03_OOP-Inheritance-Polymorphism
+# 03_OOP-Inheritance-Polymorphism
 
 **Learning Level**: Beginner → Intermediate
 
@@ -11,7 +11,10 @@
 
 By the end of this session, you will
 
-- [Add specific learning objectives]
+- Master inheritance hierarchies and code reuse strategies
+- Understand polymorphism and dynamic binding concepts
+- Apply method overriding and interface implementation
+- Distinguish between inheritance and composition patterns
 
 ---
 By the end of this session, you will:

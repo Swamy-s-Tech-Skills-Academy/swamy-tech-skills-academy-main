@@ -167,15 +167,19 @@ public class OrderServiceTests
 ## 🔗 Related Topics
 
 ### **Prerequisites**
+
 - [04_SOLID-Part4-Interface-Segregation-Principle-PartC.md](04_SOLID-Part4-Interface-Segregation-Principle-PartC.md)
 
 ### **Builds Upon**
+
 - Complete ISP mastery
 - Real-world interface design
 
 ### **Enables Next Steps**
+
 - **Next**: [05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md)
 - **Future**: [Design Patterns](../03_Design-Patterns/)
 
 ### **Cross-References**
+
 - **Architecture**: API design principles

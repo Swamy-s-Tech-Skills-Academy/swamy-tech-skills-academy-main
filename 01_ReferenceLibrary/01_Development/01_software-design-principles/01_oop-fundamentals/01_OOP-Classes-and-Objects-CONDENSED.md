@@ -11,7 +11,10 @@
 
 By the end of this session, you will
 
-- [Add specific learning objectives]
+- Understand the difference between classes and objects
+- Master class definition and object instantiation concepts
+- Apply real-world modeling with classes and objects
+- Use pseudocode to design object-oriented solutions
 
 ---
 By the end of this session, you will:
@@ -246,16 +249,20 @@ employee1.updateDepartment("Senior Engineering")
 ## 🔗 Related Topics
 
 ### **Prerequisites**
+
 - Basic programming knowledge
 
 ### **Builds Upon**
+
 - Universal design thinking
 - Problem-solving approaches
 
 ### **Enables Next Steps**
+
 - **Next**: [01_OOP-Core-Concepts-PartA.md](01_OOP-Core-Concepts-PartA.md)
 - **Future**: [SOLID Principles](../02_SOLID-Principles/)
 
 ### **Cross-References**
+
 - **UML Modeling**: [UML Documentation](../23_UML/)
 - **Design Patterns**: [Design Patterns](../03_Design-Patterns/)

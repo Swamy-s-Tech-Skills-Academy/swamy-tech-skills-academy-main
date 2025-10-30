@@ -169,15 +169,19 @@ public class UserProfileService
 ## 🔗 Related Topics
 
 ### **Prerequisites**
+
 - [04_SOLID-Part4-Interface-Segregation-Principle-PartA.md](04_SOLID-Part4-Interface-Segregation-Principle-PartA.md)
 
 ### **Builds Upon**
+
 - ISP fundamentals
 - Role-based interfaces
 
 ### **Enables Next Steps**
+
 - **Next**: [04_SOLID-Part4-Interface-Segregation-Principle-PartC.md](04_SOLID-Part4-Interface-Segregation-Principle-PartC.md)
 - **Future**: [05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md)
 
 ### **Cross-References**
+
 - **Architecture**: Microservices interface design

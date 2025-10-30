@@ -180,16 +180,20 @@ public class AreaCalculator
 ## 🔗 Related Topics
 
 ### **Prerequisites**
+
 - [Complete SOLID principles series](01_SOLID-Part1-Single-Responsibility-PartA.md)
 - Practical SOLID experience
 
 ### **Builds Upon**
+
 - All five SOLID principles
 - Real-world application patterns
 
 ### **Enables Next Steps**
+
 - **Next**: [04_SOLID-Principles-Deep-Dive-PartB.md](04_SOLID-Principles-Deep-Dive-PartB.md)
 - **Future**: [Design Patterns](../03_Design-Patterns/)
 
 ### **Cross-References**
+
 - **Architecture**: Enterprise architecture patterns

@@ -378,16 +378,20 @@ public class DiscountConfiguration
 ## 🔗 Related Topics
 
 ### **Prerequisites**
+
 - [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Responsibility-PartC.md)
 - [OOP Fundamentals](../01_OOP-fundamentals/)
 
 ### **Builds Upon**
+
 - Single Responsibility Principle
 - Interface design
 
 ### **Enables Next Steps**
+
 - **Next**: [02_SOLID-Part2-Open-Closed-Principle-PartB.md](02_SOLID-Part2-Open-Closed-Principle-PartB.md)
 - **Future**: [03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md)
 
 ### **Cross-References**
+
 - **Design Patterns**: [Strategy Pattern](../03_Design-Patterns/)

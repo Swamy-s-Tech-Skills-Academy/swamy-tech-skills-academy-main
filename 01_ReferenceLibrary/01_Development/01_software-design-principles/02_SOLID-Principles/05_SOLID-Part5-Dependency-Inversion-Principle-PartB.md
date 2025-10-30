@@ -167,15 +167,19 @@ public class ConsoleLogger : ILogger
 ## 🔗 Related Topics
 
 ### **Prerequisites**
+
 - [05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md)
 
 ### **Builds Upon**
+
 - DIP fundamentals
 - Inversion of Control patterns
 
 ### **Enables Next Steps**
+
 - **Next**: [05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartC.md)
 - **Future**: [Design Patterns](../03_Design-Patterns/)
 
 ### **Cross-References**
+
 - **Testing**: Dependency injection in tests

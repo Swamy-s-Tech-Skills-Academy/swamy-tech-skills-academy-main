@@ -168,16 +168,20 @@ public class Rectangle : IResizableShape
 ## 🔗 Related Topics
 
 ### **Prerequisites**
+
 - [02_SOLID-Part2-Open-Closed-Principle-PartC.md](02_SOLID-Part2-Open-Closed-Principle-PartC.md)
 - [OOP Inheritance](../01_OOP-fundamentals/03_OOP-Inheritance-Polymorphism.md)
 
 ### **Builds Upon**
+
 - Inheritance and polymorphism
 - Contract-based design
 
 ### **Enables Next Steps**
+
 - **Next**: [03_SOLID-Part3-Liskov-Substitution-Principle-PartB.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartB.md)
 - **Future**: [04_SOLID-Part4-Interface-Segregation-Principle-PartA.md](04_SOLID-Part4-Interface-Segregation-Principle-PartA.md)
 
 ### **Cross-References**
+
 - **Design Patterns**: [Template Method Pattern](../03_Design-Patterns/)

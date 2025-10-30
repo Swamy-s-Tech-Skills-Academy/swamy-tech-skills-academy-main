@@ -167,15 +167,19 @@ public class PaymentService
 ## 🔗 Related Topics
 
 ### **Prerequisites**
+
 - [05_SOLID-Part5-Dependency-Inversion-Principle-PartB.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartB.md)
 
 ### **Builds Upon**
+
 - Complete DIP series
 - Advanced IoC patterns
 
 ### **Enables Next Steps**
+
 - **Next**: [05_SOLID-Part5-Dependency-Inversion-Principle-PartD.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartD.md)
 - **Future**: [Design Patterns](../03_Design-Patterns/)
 
 ### **Cross-References**
+
 - **Architecture**: Clean Architecture principles

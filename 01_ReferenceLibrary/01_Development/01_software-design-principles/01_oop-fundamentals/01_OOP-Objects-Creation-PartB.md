@@ -285,15 +285,19 @@ Ready for **Module 2: Encapsulation & Abstraction**:
 ## 🔗 Related Topics
 
 ### **Prerequisites**
+
 - [01_OOP-Objects-Creation-PartA.md](01_OOP-Objects-Creation-PartA.md)
 
 ### **Builds Upon**
+
 - Object instantiation basics
 - Class interactions
 
 ### **Enables Next Steps**
+
 - **Next**: [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
 - **Future**: [03_OOP-Inheritance-Polymorphism.md](03_OOP-Inheritance-Polymorphism.md)
 
 ### **Cross-References**
+
 - **Design Patterns**: [Design Patterns](../03_Design-Patterns/)

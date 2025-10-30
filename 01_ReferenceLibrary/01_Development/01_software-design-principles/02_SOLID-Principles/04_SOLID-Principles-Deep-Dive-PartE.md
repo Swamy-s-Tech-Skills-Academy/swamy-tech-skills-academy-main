@@ -178,15 +178,19 @@ public class OrderService
 ## 🔗 Related Topics
 
 ### **Prerequisites**
+
 - [04_SOLID-Principles-Deep-Dive-PartD.md](04_SOLID-Principles-Deep-Dive-PartD.md)
 
 ### **Builds Upon**
+
 - Advanced SOLID deep dive
 - Performance and scalability
 
 ### **Enables Next Steps**
+
 - **Next**: [04_SOLID-Principles-Deep-Dive-PartF.md](04_SOLID-Principles-Deep-Dive-PartF.md)
 - **Future**: [Design Patterns](../03_Design-Patterns/)
 
 ### **Cross-References**
+
 - **Architecture**: Domain-driven design

@@ -182,15 +182,19 @@ csharp
 ## 🔗 Related Topics
 
 ### **Prerequisites**
+
 - [04_SOLID-Principles-Deep-Dive-PartB.md](04_SOLID-Principles-Deep-Dive-PartB.md)
 
 ### **Builds Upon**
+
 - Advanced SOLID applications
 - Complex design challenges
 
 ### **Enables Next Steps**
+
 - **Next**: [04_SOLID-Principles-Deep-Dive-PartD.md](04_SOLID-Principles-Deep-Dive-PartD.md)
 - **Future**: [Design Patterns](../03_Design-Patterns/)
 
 ### **Cross-References**
+
 - **Architecture**: Microservices design

@@ -11,7 +11,11 @@
 
 By the end of this session, you will
 
-- [Add specific learning objectives]
+- Understand the four pillars of OOP and their practical applications
+- Master class design, inheritance relationships, and polymorphism patterns
+- Apply encapsulation and abstraction principles in real-world scenarios
+- Make informed decisions between inheritance vs composition
+- Identify and avoid common OOP anti-patterns
 
 ---
 By the end of this 27-minute session, you will:
@@ -242,16 +246,20 @@ class PayPalProcessor(PaymentProcessor):
 ## 🔗 Related Topics
 
 ### **Prerequisites**
+
 - Basic OOP understanding
 - Completed Core Concepts series
 
 ### **Builds Upon**
+
 - [01_OOP-Core-Concepts-PartA.md](01_OOP-Core-Concepts-PartA.md)
 - [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
 
 ### **Enables Next Steps**
+
 - **Next**: [05_OOP-Fundamentals-Comprehensive-Guide-PartB.md](05_OOP-Fundamentals-Comprehensive-Guide-PartB.md)
 - **Future**: [SOLID Principles](../02_SOLID-Principles/)
 
 ### **Cross-References**
+
 - **Advanced Topics**: [04_OOP-Advanced-Patterns-PartA.md](04_OOP-Advanced-Patterns-PartA.md)

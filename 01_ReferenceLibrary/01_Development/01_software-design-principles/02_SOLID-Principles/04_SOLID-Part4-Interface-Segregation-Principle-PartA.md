@@ -167,16 +167,20 @@ public interface IPrinter
 ## 🔗 Related Topics
 
 ### **Prerequisites**
+
 - [03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartC.md)
 - [OOP Abstraction](../01_OOP-fundamentals/02_OOP-Encapsulation-Abstraction.md)
 
 ### **Builds Upon**
+
 - Interface design principles
 - Client-focused abstractions
 
 ### **Enables Next Steps**
+
 - **Next**: [04_SOLID-Part4-Interface-Segregation-Principle-PartB.md](04_SOLID-Part4-Interface-Segregation-Principle-PartB.md)
 - **Future**: [05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartA.md)
 
 ### **Cross-References**
+
 - **Design Patterns**: [Adapter Pattern](../03_Design-Patterns/)

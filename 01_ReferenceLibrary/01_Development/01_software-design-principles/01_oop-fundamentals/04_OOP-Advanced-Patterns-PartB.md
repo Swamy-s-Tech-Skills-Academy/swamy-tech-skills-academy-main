@@ -1,4 +1,4 @@
-﻿# 04_OOP-Advanced-Patterns - Part B
+# 04_OOP-Advanced-Patterns - Part B
 
 **Learning Level**: Intermediate
 
@@ -11,7 +11,10 @@
 
 By the end of this session, you will
 
-- [Add specific learning objectives]
+- Implement advanced behavioral and structural patterns
+- Master dependency management in complex systems
+- Apply SOLID principles in pattern implementations
+- Design flexible, maintainable enterprise architectures
 
 ---
 By the end of this session, you will:

@@ -305,17 +305,21 @@ Next: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Resp
 ## 🔗 Related Topics
 
 ### **Prerequisites**
+
 - [01_SOLID-Part1-Single-Responsibility-PartA.md](01_SOLID-Part1-Single-Responsibility-PartA.md)
 - [OOP Fundamentals](../01_OOP-fundamentals/)
 
 ### **Builds Upon**
+
 - Single Responsibility Principle fundamentals
 - Class design basics
 
 ### **Enables Next Steps**
+
 - **Next**: [01_SOLID-Part1-Single-Responsibility-PartC.md](01_SOLID-Part1-Single-Responsibility-PartC.md)
 - **Future**: [02_SOLID-Part2-Open-Closed-Principle-PartA.md](02_SOLID-Part2-Open-Closed-Principle-PartA.md)
 
 ### **Cross-References**
+
 - **Design Patterns**: [Design Patterns](../03_Design-Patterns/)
 - **Testing**: Enterprise testing methodologies

@@ -11,7 +11,10 @@
 
 By the end of this session, you will
 
-- [Add specific learning objectives]
+- Understand fundamental differences between abstraction and encapsulation
+- Apply both principles effectively in object-oriented design
+- Recognize when to use abstraction vs encapsulation
+- Design classes with appropriate information hiding
 
 ---
 By the end of this 27-minute session, you will:
@@ -269,16 +272,20 @@ static void Main() {
 ## 🔗 Related Topics
 
 ### **Prerequisites**
+
 - [07_OOD-Basics-PartC.md](07_OOD-Basics-PartC.md)
 - Understanding of OOP pillars
 
 ### **Builds Upon**
+
 - [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
 - Design principles
 
 ### **Enables Next Steps**
+
 - **Next**: [08_OOP-Abstraction-Encapsulation-PartB.md](08_OOP-Abstraction-Encapsulation-PartB.md)
 - **Future**: [SOLID Principles](../02_SOLID-Principles/)
 
 ### **Cross-References**
+
 - **Advanced**: [04_OOP-Advanced-Patterns-PartA.md](04_OOP-Advanced-Patterns-PartA.md)
