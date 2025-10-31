@@ -1,4 +1,4 @@
-﻿# 04_OOP-Advanced-Patterns - Part A
+# 04_OOP-Advanced-Patterns - Part A
 
 **Learning Level**: Intermediate
 
@@ -11,7 +11,10 @@
 
 By the end of this session, you will
 
-- [Add specific learning objectives]
+- Master advanced OOP design patterns and architectural approaches
+- Understand composition over inheritance trade-offs
+- Apply interface-based design and dependency injection
+- Evaluate pattern selection based on problem context
 
 ---
 By the end of this session, you will:

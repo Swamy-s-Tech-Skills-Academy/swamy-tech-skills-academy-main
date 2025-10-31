@@ -3,6 +3,16 @@
 **Learning Level**: Intermediate  
 **Prerequisites**: [01_OOP-fundamentals](../01_OOP-fundamentals/) - Classes, objects, inheritance, polymorphism  
 **Estimated Time**: 5-7 hours comprehensive mastery  
+
+## 🎯 Learning Objectives
+
+By completing this module, you will:
+
+- Master all five SOLID principles with practical implementations
+- Apply Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion principles
+- Identify and refactor SOLID violations in existing codebases
+- Design maintainable, extensible software architectures
+- Implement SOLID principles across multiple programming languages
 **Strategic Purpose**: Enterprise-grade design principles for Lead Architect excellence
 
 ---

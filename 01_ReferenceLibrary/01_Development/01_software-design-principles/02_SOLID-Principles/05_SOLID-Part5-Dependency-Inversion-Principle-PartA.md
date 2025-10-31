@@ -158,3 +158,24 @@ public class OrderService
     public async Task`ProcessResult` ProcessOrderAsync(Order order)
     {
         try
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+
+- [04_SOLID-Part4-Interface-Segregation-Principle-PartD.md](04_SOLID-Part4-Interface-Segregation-Principle-PartD.md)
+- Complete SOLID foundation
+
+### **Builds Upon**
+
+- All previous SOLID principles
+- Dependency management
+
+### **Enables Next Steps**
+
+- **Next**: [05_SOLID-Part5-Dependency-Inversion-Principle-PartB.md](05_SOLID-Part5-Dependency-Inversion-Principle-PartB.md)
+- **Future**: [Design Patterns](../03_Design-Patterns/)
+
+### **Cross-References**
+
+- **IoC Containers**: Dependency injection frameworks

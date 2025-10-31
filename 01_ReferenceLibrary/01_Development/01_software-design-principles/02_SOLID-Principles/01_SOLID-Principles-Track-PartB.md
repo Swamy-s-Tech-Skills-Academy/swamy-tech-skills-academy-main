@@ -5,6 +5,16 @@
 **Estimated Time**: 2-3 weeks (1 hour daily)
 **Next Steps**: Design Patterns, Clean Architecture
 
+## 🎯 Learning Objectives
+
+By the end of this track segment, you will:
+
+- Master Dependency Inversion Principle across multiple languages
+- Understand IoC containers and dependency injection patterns
+- Implement DIP in C#, Java, Python, and JavaScript
+- Compare language-specific DI approaches and frameworks
+- Apply DIP to create loosely-coupled, testable systems
+
 ---
 
 ## Part B of 3
@@ -166,3 +176,23 @@ Create a plugin-based application framework:
 
 - [ ] Can explain each SOLID principle with examples
 - [ ] Identifies SOLID violations in existing code
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+
+- [01_SOLID-Principles-Track-PartA.md](01_SOLID-Principles-Track-PartA.md)
+
+### **Builds Upon**
+
+- SOLID overview and importance
+- Design principles context
+
+### **Enables Next Steps**
+
+- **Next**: [01_SOLID-Principles-Track-PartC.md](01_SOLID-Principles-Track-PartC.md)
+- **Future**: [01_SOLID-Part1-Single-Responsibility-PartA.md](01_SOLID-Part1-Single-Responsibility-PartA.md)
+
+### **Cross-References**
+
+- **Testing**: Test-driven development

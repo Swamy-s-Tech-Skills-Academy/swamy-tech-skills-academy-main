@@ -163,3 +163,23 @@ public class PdfReportGenerator : ReportGenerator
     }
 
     private object ConvertToPdfFormat(object data) { /* Implementation */ return data; }
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+
+- [02_SOLID-Part2-Open-Closed-Principle-PartA.md](02_SOLID-Part2-Open-Closed-Principle-PartA.md)
+
+### **Builds Upon**
+
+- Open/Closed Principle fundamentals
+- Extension mechanisms
+
+### **Enables Next Steps**
+
+- **Next**: [02_SOLID-Part2-Open-Closed-Principle-PartC.md](02_SOLID-Part2-Open-Closed-Principle-PartC.md)
+- **Future**: [03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md)
+
+### **Cross-References**
+
+- **Design Patterns**: [Decorator Pattern](../03_Design-Patterns/)

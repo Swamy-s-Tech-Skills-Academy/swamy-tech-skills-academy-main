@@ -177,3 +177,23 @@ public class Rectangle
 }
 
 public class Square : Rectangle
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+
+- [04_SOLID-Principles-Deep-Dive-PartA.md](04_SOLID-Principles-Deep-Dive-PartA.md)
+
+### **Builds Upon**
+
+- SOLID deep dive foundations
+- Advanced design scenarios
+
+### **Enables Next Steps**
+
+- **Next**: [04_SOLID-Principles-Deep-Dive-PartC.md](04_SOLID-Principles-Deep-Dive-PartC.md)
+- **Future**: [Design Patterns](../03_Design-Patterns/)
+
+### **Cross-References**
+
+- **Testing**: Advanced testing strategies

@@ -179,3 +179,23 @@ public class ReportService
 
     public ReportService(IReadOnlyRepository`Order` orderRepository)
     {`_orderRepository = orderRepository; // Only read operations
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+
+- [04_SOLID-Principles-Deep-Dive-PartC.md](04_SOLID-Principles-Deep-Dive-PartC.md)
+
+### **Builds Upon**
+
+- Comprehensive SOLID mastery
+- Enterprise-scale patterns
+
+### **Enables Next Steps**
+
+- **Next**: [04_SOLID-Principles-Deep-Dive-PartE.md](04_SOLID-Principles-Deep-Dive-PartE.md)
+- **Future**: [Design Patterns](../03_Design-Patterns/)
+
+### **Cross-References**
+
+- **Performance**: SOLID and performance optimization

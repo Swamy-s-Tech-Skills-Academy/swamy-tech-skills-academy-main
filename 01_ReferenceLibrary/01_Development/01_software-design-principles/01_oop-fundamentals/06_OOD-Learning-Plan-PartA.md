@@ -1,4 +1,4 @@
-﻿# Learning Object Oriented Design - Part A
+# Learning Object Oriented Design - Part A
 
 **Learning Level**: Intermediate
 
@@ -11,7 +11,10 @@
 
 By the end of this session, you will
 
-- [Add specific learning objectives]
+- Create comprehensive OOD learning roadmap aligned with career goals
+- Master structured approach to OOP and design principles
+- Apply weekly learning milestones with measurable outcomes
+- Design practice projects that reinforce OOD concepts
 
 ---
 
@@ -213,3 +216,25 @@ Develop a strong command of OOD principles and techniques in C# that enable you 
 ### **Week 1: Core Object-Oriented Design Principles**
 
 1. #### Focus on the Basics
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+
+- Completed OOP fundamentals
+- Basic design thinking
+
+### **Builds Upon**
+
+- All OOP core concepts
+- [03_OOP-Inheritance-Polymorphism.md](03_OOP-Inheritance-Polymorphism.md)
+
+### **Enables Next Steps**
+
+- **Next**: [06_OOD-Learning-Plan-PartB.md](06_OOD-Learning-Plan-PartB.md)
+- **Future**: [SOLID Principles](../02_SOLID-Principles/)
+
+### **Cross-References**
+
+- **Design Patterns**: [Design Patterns](../03_Design-Patterns/)
+- **UML**: [UML Documentation](../23_UML/)

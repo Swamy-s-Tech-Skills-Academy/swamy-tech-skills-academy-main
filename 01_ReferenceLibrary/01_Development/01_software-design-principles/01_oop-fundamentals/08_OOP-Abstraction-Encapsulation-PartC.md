@@ -1,4 +1,4 @@
-﻿# OOP Abstraction and Encapsulation - Part C
+# OOP Abstraction and Encapsulation - Part C
 
 **Learning Level**: Intermediate
 
@@ -11,7 +11,10 @@
 
 By the end of this session, you will
 
-- [Add specific learning objectives]
+- Master advanced abstraction and encapsulation techniques
+- Understand boundary design between public and private concerns
+- Apply complete information hiding strategies
+- Evaluate encapsulation effectiveness in system design
 
 ---
 By the end of this 27-minute session, you will:
@@ -221,3 +224,23 @@ IShape <|.. Circle : Realization
    - Fields and methods are specified within classes.
 
 - `+` denotes public, `-` denotes private.
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+
+- [08_OOP-Abstraction-Encapsulation-PartB.md](08_OOP-Abstraction-Encapsulation-PartB.md)
+
+### **Builds Upon**
+
+- Complete abstraction/encapsulation series
+- Advanced OOP patterns
+
+### **Enables Next Steps**
+
+- **Next**: [SOLID Principles](../02_SOLID-Principles/)
+- **Future**: [Design Patterns](../03_Design-Patterns/)
+
+### **Cross-References**
+
+- **Architecture**: [Architectural Patterns](../04_Architectural-Patterns/)

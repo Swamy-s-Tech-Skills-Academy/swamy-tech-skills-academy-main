@@ -1,4 +1,4 @@
-﻿# **OOD in C# with Class Diagrams** - Part B
+# **OOD in C# with Class Diagrams** - Part B
 
 **Learning Level**: Intermediate
 
@@ -11,7 +11,10 @@
 
 By the end of this session, you will
 
-- [Add specific learning objectives]
+- Implement aggregation and composition relationships in C#
+- Master strong vs weak associations in object design
+- Apply inheritance and dependency patterns effectively
+- Design robust object relationship hierarchies
 
 ---
 
@@ -236,3 +239,23 @@ Driver -- Car
 ```
 
 ---
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+
+- [07_OOD-Basics-PartA.md](07_OOD-Basics-PartA.md)
+
+### **Builds Upon**
+
+- OOD fundamentals Part A
+- Class relationships
+
+### **Enables Next Steps**
+
+- **Next**: [07_OOD-Basics-PartC.md](07_OOD-Basics-PartC.md)
+- **Future**: [Design Patterns](../03_Design-Patterns/)
+
+### **Cross-References**
+
+- **SOLID**: [SOLID Principles](../02_SOLID-Principles/)

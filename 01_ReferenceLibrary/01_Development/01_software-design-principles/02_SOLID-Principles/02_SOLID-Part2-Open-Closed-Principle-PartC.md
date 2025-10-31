@@ -159,3 +159,23 @@ public void ConfigureServices(IServiceCollection services)
 - Continue to Part 3: **Liskov Substitution Principle (LSP)**
 
 **Advanced Techniques**:
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+
+- [02_SOLID-Part2-Open-Closed-Principle-PartB.md](02_SOLID-Part2-Open-Closed-Principle-PartB.md)
+
+### **Builds Upon**
+
+- Complete OCP series
+- Practical extension patterns
+
+### **Enables Next Steps**
+
+- **Next**: [03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md](03_SOLID-Part3-Liskov-Substitution-Principle-PartA.md)
+- **Future**: [04_SOLID-Part4-Interface-Segregation-Principle-PartA.md](04_SOLID-Part4-Interface-Segregation-Principle-PartA.md)
+
+### **Cross-References**
+
+- **Testing**: Unit testing extensible code

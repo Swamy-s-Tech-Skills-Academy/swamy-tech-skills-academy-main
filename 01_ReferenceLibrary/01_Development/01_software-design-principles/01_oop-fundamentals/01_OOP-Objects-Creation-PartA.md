@@ -1,4 +1,4 @@
-﻿# 01_OOP-Objects-Creation-PartA
+# 01_OOP-Objects-Creation-PartA
 
 **Learning Level**: Beginner
 
@@ -188,3 +188,24 @@ IF employee1.salary > employee2.salary:
 **Last Updated**: September 10, 2025
 
 **Format**: 15-minute focused learning segment
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+
+- [01_OOP-Core-Concepts-PartA.md](01_OOP-Core-Concepts-PartA.md)
+- [01_OOP-Core-Concepts-PartB.md](01_OOP-Core-Concepts-PartB.md)
+
+### **Builds Upon**
+
+- Class definition and structure
+- OOP fundamentals
+
+### **Enables Next Steps**
+
+- **Next**: [01_OOP-Objects-Creation-PartB.md](01_OOP-Objects-Creation-PartB.md)
+- **Future**: [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
+
+### **Cross-References**
+
+- **Advanced Patterns**: [04_OOP-Advanced-Patterns-PartA.md](04_OOP-Advanced-Patterns-PartA.md)

@@ -1,4 +1,4 @@
-﻿# 02_OOP-Encapsulation-Abstraction
+# 02_OOP-Encapsulation-Abstraction
 
 **Learning Level**: Beginner → Intermediate
 
@@ -11,7 +11,10 @@
 
 By the end of this session, you will
 
-- [Add specific learning objectives]
+- Master encapsulation principles and data hiding techniques
+- Understand abstraction for managing complexity
+- Apply access modifiers effectively in object design
+- Distinguish between encapsulation and abstraction use cases
 
 ---
 By the end of this 27-minute session, you will:

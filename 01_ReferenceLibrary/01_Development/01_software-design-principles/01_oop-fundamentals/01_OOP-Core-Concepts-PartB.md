@@ -1,4 +1,4 @@
-﻿# 01_OOP-Core-Concepts-PartB
+# 01_OOP-Core-Concepts-PartB
 
 **Learning Level**: Beginner
 
@@ -173,3 +173,24 @@ PUBLIC checkIn(): void
 **Last Updated**: October 4, 2025
 
 **Format**: 12-minute focused learning segment
+
+## 🔗 Related Topics
+
+### **Prerequisites**
+
+- [01_OOP-Core-Concepts-PartA.md](01_OOP-Core-Concepts-PartA.md)
+
+### **Builds Upon**
+
+- OOP fundamentals and benefits
+- Class structure basics
+
+### **Enables Next Steps**
+
+- **Next**: [01_OOP-Objects-Creation-PartA.md](01_OOP-Objects-Creation-PartA.md)
+- **Future**: [02_OOP-Encapsulation-Abstraction.md](02_OOP-Encapsulation-Abstraction.md)
+
+### **Cross-References**
+
+- **Related Concepts**: [SOLID Principles](../02_SOLID-Principles/)
+- **UML Modeling**: [UML Documentation](../23_UML/)
